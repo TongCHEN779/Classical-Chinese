@@ -121,11 +121,15 @@ def render_entry(i, e):
     return "\n".join(out)
 
 
-def build_juan(book, part, vol, src_path):
+def build_juan(book, part, vol, src_path, avail):
     pslug, ptitle, pord, nvol = part
     heading, entries = parse_juan(src_path)
     r = "../../"
     toc = "".join(f'<li><a href="#e{i}">{esc(e["title"])}</a></li>' for i, e in enumerate(entries, 1))
+    prev_html = (f'<a href="juan{vol-1:02d}.html">← 卷{cn(vol-1)}</a>' if (vol - 1) in avail
+                 else '<span class="off">&nbsp;</span>')
+    next_html = (f'<a href="juan{vol+1:02d}.html">卷{cn(vol+1)} →</a>' if (vol + 1) in avail
+                 else '<span class="off">下一卷：待整理</span>')
     body = f"""<header class="top">
 {crumbs([("古文库", r + "index.html"), (book["title"], "../index.html"), (ptitle, None)])}
 <h1>{esc(ptitle)}<small>{esc(pord)}</small></h1>
@@ -135,7 +139,7 @@ def build_juan(book, part, vol, src_path):
 <main>
 <details class="toc" open><summary>本卷目录</summary><ol>{toc}</ol></details>
 {chr(10).join(render_entry(i, e) for i, e in enumerate(entries, 1))}
-<nav class="pager"><a href="../index.html">← 返回目录</a><span class="off">下一卷：待整理</span></nav>
+<nav class="pager">{prev_html}<a href="../index.html">目录</a>{next_html}</nav>
 </main>
 <div id="tip" role="tooltip" hidden></div>
 <footer>白话译文为辅助阅读的意译，如有出入，以原文为准。</footer>"""
@@ -148,9 +152,12 @@ def build_juan(book, part, vol, src_path):
 def build_book(book):
     done = {}
     for part in book["parts"]:
-        for f in sorted((SRC / book["slug"] / part[0]).glob("juan*.txt")) if (SRC / book["slug"] / part[0]).exists() else []:
+        d = SRC / book["slug"] / part[0]
+        files = sorted(d.glob("juan*.txt")) if d.exists() else []
+        avail = {int(f.stem[4:]) for f in files}
+        for f in files:
             vol = int(f.stem[4:])
-            done[(part[0], vol)] = build_juan(book, part, vol, f)
+            done[(part[0], vol)] = build_juan(book, part, vol, f, avail)
     sections = []
     for pslug, ptitle, pord, nvol in book["parts"]:
         cells = []
