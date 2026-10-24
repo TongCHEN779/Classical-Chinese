@@ -64,3 +64,8 @@ footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:cente
   background:var(--tip-bg);color:var(--tip-fg);font-size:16px;line-height:1.75;text-indent:0;
   box-shadow:0 6px 24px rgba(0,0,0,.25);pointer-events:none}
 #tip[hidden]{display:none}
+.v{margin:.9em 0 .2em;text-indent:0!important;font-size:1.08em;line-height:2;text-align:left!important}
+.v sup{font-size:.6em;color:var(--muted);margin:0 1px}
+.notes.plain{list-style:none;padding-left:16px}
+.notes.plain li{margin:.15em 0;font-size:14px;line-height:1.75}
+.intro-box p{text-indent:2em;margin:.4em 0;font-size:14.5px;line-height:1.8}
