@@ -181,7 +181,7 @@ def build_book(book):
 
 
 # ---------- 楚辞：按篇目成页，原文分节、逐节译文与注释 ----------
-CHUCI = [
+CHUCI_PAGES = [
     ("lisao", "离骚"), ("jiuge", "九歌"), ("tianwen", "天问"), ("jiuzhang", "九章"),
     ("yuanyou", "远游"), ("buju", "卜居"), ("yufu", "渔父"), ("jiubian", "九辩"),
     ("zhaohun", "招魂"), ("dazhao", "大招"), ("xishi", "惜誓"), ("zhaoyinshi", "招隐士"),
@@ -190,17 +190,30 @@ CHUCI = [
 ]
 CHUCI_INTRO = ("战国楚人屈原及其后学的辞赋总集，由西汉刘向辑成，东汉王逸作注。"
                "此处依今人注译本整理：原文、注释、译文俱全。")
+
+SHIJING_PAGES = [
+    ("zhounan", "周南"), ("shaonan", "召南"), ("beifeng", "邶风"), ("yongfeng", "鄘风"),
+    ("weifeng", "卫风"), ("wangfeng", "王风"), ("zhengfeng", "郑风"), ("qifeng", "齐风"),
+    ("weifeng2", "魏风"), ("tangfeng", "唐风"), ("qinfeng", "秦风"), ("chenfeng", "陈风"),
+    ("guifeng", "桧风"), ("caofeng", "曹风"), ("binfeng", "豳风"),
+]
+POETRY = {
+    "chuci": {"title": "楚辞", "author": "［战国］屈原等", "intro": CHUCI_INTRO, "pages": CHUCI_PAGES},
+    "shijing": {"title": "诗经·国风", "author": "［先秦］佚名",
+                "intro": "中国最早的诗歌总集。《国风》收十五国风土歌谣一百六十首，多为民间歌谣，按地域分为周南、召南等十五组。",
+                "pages": SHIJING_PAGES},
+}
 CIRC = re.compile(r"([\u2460-\u2473\u3251-\u325f]+)")
 
 
-def chuci_orig(text):
+def poem_orig(text):
     out = []
     for i, part in enumerate(CIRC.split(esc(text))):
         out.append(f"<sup>{part}</sup>" if i % 2 else part)
     return "".join(out).replace("/", "<br>")
 
 
-def parse_chuci(paths):
+def parse_poems(paths):
     sections = []
     cur = None
     for path in paths:
@@ -223,11 +236,12 @@ def parse_chuci(paths):
     return sections
 
 
-def build_chuci():
+def build_poetry(bslug, spec):
     r = "../"
-    base = SRC / "chuci"
+    base = SRC / bslug
+    btitle = spec["title"]
     pages = []
-    for slug, title in CHUCI:
+    for slug, title in spec["pages"]:
         files = sorted((base / slug).glob("*.txt")) if (base / slug).exists() else []
         pages.append((slug, title, files))
     avail = [i for i, (_, _, f) in enumerate(pages) if f]
@@ -236,7 +250,7 @@ def build_chuci():
         if not files:
             cells.append(f'<li class="todo"><span>{esc(title)}<small>待整理</small></span></li>')
             continue
-        secs = parse_chuci(files)
+        secs = parse_poems(files)
         nchunk = sum(len(s["chunks"]) for s in secs)
         total += nchunk
         cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}<small>{len(secs)}节</small></a></li>')
@@ -253,7 +267,7 @@ def build_chuci():
                     f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                     f'<span class="caret">▸</span> 题解</button><div class="notes intro-box" id="n{uid}" hidden>{items}</div>')
             for ch in sec["chunks"]:
-                parts.append(f'<p class="v"><span class="s" tabindex="0" data-t="{esc(ch["t"])}">{chuci_orig(ch["o"])}</span></p>')
+                parts.append(f'<p class="v"><span class="s" tabindex="0" data-t="{esc(ch["t"])}">{poem_orig(ch["o"])}</span></p>')
                 if ch["notes"]:
                     uid += 1
                     li = "".join(f"<li>{esc(n)}</li>" for n in ch["notes"])
@@ -274,8 +288,8 @@ def build_chuci():
         next_h = (f'<a href="{pages[next_i][0]}.html">{esc(pages[next_i][1])} →</a>' if next_i is not None
                   else '<span class="off">&nbsp;</span>')
         body = f"""<header class="top">
-{crumbs([("古文库", r + "index.html"), ("楚辞", "index.html"), (title, None)])}
-<h1>{esc(title)}<small>楚辞</small></h1>
+{crumbs([("古文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
+<h1>{esc(title)}<small>{esc(btitle)}</small></h1>
 <p class="hint">鼠标移到原文上，即显示白话译文；点击“注释”“题解”可展开或收起。触屏设备请点按原文。</p>
 </header>
 <main>
@@ -284,18 +298,19 @@ def build_chuci():
 <nav class="pager">{prev_h}<a href="index.html">目录</a>{next_h}</nav>
 </main>
 <div id="tip" role="tooltip" hidden></div>
-<footer>译文、注释依今人注译本整理，以原书为准。</footer>"""
-        out = ROOT / "chuci" / f"{slug}.html"
+<footer>原文依注译本转录；白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。</footer>"""
+        out = ROOT / bslug / f"{slug}.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(f"{title}·楚辞", body, r, True), encoding="utf8")
+        out.write_text(page(f"{title}·{btitle}", body, r, True), encoding="utf8")
     body = f"""<header class="top">
-{crumbs([("古文库", "../index.html"), ("楚辞", None)])}
-<h1>楚辞<small>［战国］屈原等</small></h1>
-<p class="intro">{esc(CHUCI_INTRO)}</p>
+{crumbs([("古文库", "../index.html"), (btitle, None)])}
+<h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
+<p class="intro">{esc(spec["intro"])}</p>
 </header>
 <main><section class="part"><ul class="vols">{"".join(cells)}</ul></section></main>
 <footer>已整理 {total} 节。</footer>"""
-    (ROOT / "chuci" / "index.html").write_text(page("楚辞", body, "../"), encoding="utf8")
+    (ROOT / bslug).mkdir(parents=True, exist_ok=True)
+    (ROOT / bslug / "index.html").write_text(page(btitle, body, "../"), encoding="utf8")
     return total
 
 
@@ -304,8 +319,9 @@ def build_home():
         f'<li><a href="{b["slug"]}/index.html"><strong>{esc(b["title"])}</strong><span>{esc(b["author"])}</span><p>{esc(b["intro"])}</p></a></li>'
         for b in BOOKS
     )
-    cards += ('<li><a href="chuci/index.html"><strong>楚辞</strong><span>［战国］屈原等</span>'
-              f'<p>{esc(CHUCI_INTRO)}</p></a></li>')
+    for k, v in POETRY.items():
+        cards += (f'<li><a href="{k}/index.html"><strong>{esc(v["title"])}</strong><span>{esc(v["author"])}</span>'
+                  f'<p>{esc(v["intro"])}</p></a></li>')
     body = f"""<header class="top"><h1>古文库<small>原文在前，白话随手可得</small></h1></header>
 <main><ul class="books">{cards}</ul></main>"""
     (ROOT / "index.html").write_text(page("古文库", body, ""), encoding="utf8")
@@ -314,6 +330,7 @@ def build_home():
 if __name__ == "__main__":
     for b in BOOKS:
         build_book(b)
-    build_chuci()
+    for _k, _v in POETRY.items():
+        build_poetry(_k, _v)
     build_home()
     print("done")
