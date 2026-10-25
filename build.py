@@ -203,7 +203,21 @@ GUWEN_PAGES = [
     ("juan05", "卷五·秦汉文"), ("juan06", "卷六·汉文"), ("juan07", "卷七·六朝唐文"), ("juan08", "卷八·唐文"),
     ("juan09", "卷九·唐宋文"), ("juan10", "卷十·宋文"), ("juan11", "卷十一·宋文"), ("juan12", "卷十二·明文"),
 ]
+SHISHUO_PAGES = [
+    ("dexing", "德行第一"), ("yanyu", "言语第二"), ("zhengshi", "政事第三"), ("wenxue", "文学第四"),
+    ("fangzheng", "方正第五"), ("yaliang", "雅量第六"), ("shijian", "识鉴第七"), ("shangyu", "赏誉第八"),
+    ("pinzao", "品藻第九"), ("guizhen", "规箴第十"), ("jiewu", "捷悟第十一"), ("suhui", "夙惠第十二"),
+    ("haoshuang", "豪爽第十三"), ("rongzhi", "容止第十四"), ("zixin", "自新第十五"), ("qixian", "企羡第十六"),
+    ("shangshi", "伤逝第十七"), ("qiyi", "栖逸第十八"), ("xianyuan", "贤媛第十九"), ("shujie", "术解第二十"),
+    ("qiaoyi", "巧艺第二十一"), ("chongli", "宠礼第二十二"), ("rendan", "任诞第二十三"), ("jianao", "简傲第二十四"),
+    ("paidiao", "排调第二十五"), ("qingdi", "轻诋第二十六"), ("jiajue", "假谲第二十七"), ("chumian", "黜免第二十八"),
+    ("jinse", "俭啬第二十九"), ("taichi", "汰侈第三十"), ("fenjuan", "忿狷第三十一"), ("chanxian", "谗险第三十二"),
+    ("youhui", "尤悔第三十三"), ("pilou", "纰漏第三十四"), ("huoni", "惑溺第三十五"), ("chouxi", "仇隙第三十六"),
+]
 POETRY = {
+    "shishuo": {"title": "世说新语", "author": "［南朝宋］刘义庆", "unit": "则",
+                "intro": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
+                "pages": SHISHUO_PAGES},
     "guwenguanzhi": {"title": "古文观止", "author": "［清］吴楚材、吴调侯 选编", "unit": "篇",
                      "intro": "清人选编的古文选本，自先秦至明代共二百二十二篇，分十二卷，为古文入门的经典读本。",
                      "pages": GUWEN_PAGES},
@@ -262,7 +276,7 @@ def build_poetry(bslug, spec):
         secs = parse_poems(files)
         nchunk = sum(len(s["chunks"]) for s in secs)
         total += nchunk
-        cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}<small>{len(secs)}{spec.get("unit", "节")}</small></a></li>')
+        cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}<small>{len(secs)}{spec.get("unit2", spec.get("unit", "节"))}</small></a></li>')
         uid = 0
         body_secs = []
         for si, sec in enumerate(secs, 1):
