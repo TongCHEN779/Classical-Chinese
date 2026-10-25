@@ -214,7 +214,20 @@ SHISHUO_PAGES = [
     ("jinse", "俭啬第二十九"), ("taichi", "汰侈第三十"), ("fenjuan", "忿狷第三十一"), ("chanxian", "谗险第三十二"),
     ("youhui", "尤悔第三十三"), ("pilou", "纰漏第三十四"), ("huoni", "惑溺第三十五"), ("chouxi", "仇隙第三十六"),
 ]
+def _shiji_pages():
+    import json
+    d = json.loads((ROOT / "shiji_pages.json").read_text(encoding="utf8"))
+    out = []
+    for grp, items in d:
+        out.append((None, grp))
+        out += [(f"juan{n:03d}", t) for n, t in items]
+    return out
+
+
 POETRY = {
+    "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
+              "intro": "中国第一部纪传体通史，分本纪、表、书、世家、列传共一百三十卷。此处依《二十四史全译》本，只收原文，十表仅收序言与论赞。",
+              "pages": _shiji_pages()},
     "shishuo": {"title": "世说新语", "author": "［南朝宋］刘义庆", "unit": "则",
                 "intro": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
                 "pages": SHISHUO_PAGES},
@@ -265,11 +278,17 @@ def build_poetry(bslug, spec):
     btitle = spec["title"]
     pages = []
     for slug, title in spec["pages"]:
+        if slug is None:
+            pages.append((None, title, []))
+            continue
         files = sorted((base / slug).glob("*.txt")) if (base / slug).exists() else []
         pages.append((slug, title, files))
     avail = [i for i, (_, _, f) in enumerate(pages) if f]
     cells, total = [], 0
     for i, (slug, title, files) in enumerate(pages):
+        if slug is None:
+            cells.append(f'</ul><h3 class="grp">{esc(title)}</h3><ul class="vols">')
+            continue
         if not files:
             cells.append(f'<li class="todo"><span>{esc(title)}<small>待整理</small></span></li>')
             continue

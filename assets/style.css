@@ -69,3 +69,4 @@ footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:cente
 .notes.plain{list-style:none;padding-left:16px}
 .notes.plain li{margin:.15em 0;font-size:14px;line-height:1.75}
 .intro-box p{text-indent:2em;margin:.4em 0;font-size:14.5px;line-height:1.8}
+h3.grp{font-size:18px;letter-spacing:.2em;margin:1.4em 0 .4em;color:var(--muted)}
