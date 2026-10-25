@@ -45,6 +45,23 @@ def esc(s):
 
 GLOSS = re.compile(r"(（[^（）]*）|\([^()]*\))")
 
+SENT = re.compile(r"[^。！？]*[。！？]+[”’」』）]*|[^。！？]+$")
+
+
+def split_sents(s):
+    return [x for x in SENT.findall(s) if x.strip()]
+
+
+def split_pairs(o, t):
+    """按句号/叹号/问号把一段原文拆成句，并与译文逐句对应。
+    译文里可用「¦」显式分句；句数对不上时整段不拆。"""
+    so = split_sents(o)
+    if len(so) > 1:
+        st = t.split("¦") if "¦" in t else split_sents(t)
+        if len(st) == len(so):
+            return list(zip(so, st))
+    return [(o, t.replace("¦", ""))]
+
 
 def orig_html(text):
     """原文中编者加的括注（年份、人名、注音）用淡色显示。"""
@@ -107,7 +124,8 @@ def render_entry(i, e):
     out = [f'<section class="entry" id="e{i}">', f'<h3><span class="no">{cn(i)}</span>{esc(e["title"])}</h3>']
     for para in e["paras"]:
         spans = "".join(
-            f'<span class="s" tabindex="0" data-t="{esc(t)}">{orig_html(o)}</span>' for o, t in para
+            f'<span class="s" tabindex="0" data-t="{esc(t2)}">{orig_html(o2)}</span>'
+            for o, t in para for o2, t2 in split_pairs(o, t)
         )
         out.append(f"<p>{spans}</p>")
     if e["notes"]:
@@ -327,7 +345,13 @@ def build_poetry(bslug, spec):
                     f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                     f'<span class="caret">▸</span> 题解</button><div class="notes intro-box" id="n{uid}" hidden>{items}</div>')
             for ch in sec["chunks"]:
-                parts.append(f'<p class="v"><span class="s" tabindex="0" data-t="{esc(ch["t"])}">{poem_orig(ch["o"])}</span></p>')
+                spans = ""
+                for o2, t2 in split_pairs(ch["o"], ch["t"]):
+                    if o2.startswith("/"):
+                        spans += "<br>"
+                        o2 = o2[1:]
+                    spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{poem_orig(o2)}</span>'
+                parts.append(f'<p class="v">{spans}</p>')
                 if ch["notes"]:
                     uid += 1
                     li = "".join(f"<li>{esc(n)}</li>" for n in ch["notes"])
