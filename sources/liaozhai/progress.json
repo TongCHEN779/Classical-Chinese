@@ -17,6 +17,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 47,
+            "pdf_end": 51,
             "original_translation_notes": true
           }
         },
@@ -29,6 +30,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 52,
+            "pdf_end": 54,
             "original_translation_notes": true
           }
         },
@@ -41,6 +43,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 55,
+            "pdf_end": 61,
             "original_translation_notes": true
           }
         },
@@ -53,6 +56,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 62,
+            "pdf_end": 63,
             "original_translation_notes": true
           }
         },
@@ -65,6 +69,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 64,
+            "pdf_end": 71,
             "original_translation_notes": true
           }
         },
@@ -77,6 +82,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 72,
+            "pdf_end": 78,
             "original_translation_notes": true
           }
         },
@@ -89,6 +95,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 79,
+            "pdf_end": 81,
             "original_translation_notes": true
           }
         },
@@ -101,6 +108,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 82,
+            "pdf_end": 84,
             "original_translation_notes": true
           }
         },
@@ -113,6 +121,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 85,
+            "pdf_end": 86,
             "original_translation_notes": true
           }
         },
@@ -125,6 +134,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 87,
+            "pdf_end": 89,
             "original_translation_notes": true
           }
         },
@@ -137,6 +147,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 90,
+            "pdf_end": 92,
             "original_translation_notes": true
           }
         },
@@ -149,6 +160,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 93,
+            "pdf_end": 103,
             "original_translation_notes": true
           }
         },
@@ -161,6 +173,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 104,
+            "pdf_end": 110,
             "original_translation_notes": true
           }
         },
@@ -173,6 +186,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 111,
+            "pdf_end": 116,
             "original_translation_notes": true
           }
         },
@@ -185,6 +199,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 117,
+            "pdf_end": 124,
             "original_translation_notes": true
           }
         },
@@ -193,161 +208,299 @@
           "title": "长清僧",
           "printed_page": 79,
           "pdf_page": 125,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 125,
+            "pdf_end": 130,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "017",
           "title": "蛇人",
           "printed_page": 85,
           "pdf_page": 131,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 131,
+            "pdf_end": 137,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "018",
           "title": "斫蟒",
           "printed_page": 92,
           "pdf_page": 138,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 138,
+            "pdf_end": 139,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "019",
           "title": "犬奸",
           "printed_page": 94,
           "pdf_page": 140,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 140,
+            "pdf_end": 144,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "020",
           "title": "雹神",
           "printed_page": 99,
           "pdf_page": 145,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 145,
+            "pdf_end": 147,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "021",
           "title": "狐嫁女",
           "printed_page": 102,
           "pdf_page": 148,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 148,
+            "pdf_end": 157,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "022",
           "title": "娇娜",
           "printed_page": 112,
           "pdf_page": 158,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 158,
+            "pdf_end": 176,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "023",
           "title": "僧孽",
           "printed_page": 131,
           "pdf_page": 177,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 177,
+            "pdf_end": 179,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "024",
           "title": "妖术",
           "printed_page": 133,
           "pdf_page": 179,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 179,
+            "pdf_end": 185,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "025",
           "title": "野狗",
           "printed_page": 139,
           "pdf_page": 185,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 185,
+            "pdf_end": 187,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "026",
           "title": "三生",
           "printed_page": 142,
           "pdf_page": 188,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 188,
+            "pdf_end": 194,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "027",
           "title": "狐入瓶",
           "printed_page": 149,
           "pdf_page": 195,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 195,
+            "pdf_end": 196,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "028",
           "title": "鬼哭",
           "printed_page": 150,
           "pdf_page": 196,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 196,
+            "pdf_end": 200,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "029",
           "title": "真定女",
           "printed_page": 154,
           "pdf_page": 200,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 200,
+            "pdf_end": 201,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "030",
           "title": "焦螟",
           "printed_page": 155,
           "pdf_page": 201,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 201,
+            "pdf_end": 204,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "031",
           "title": "叶生",
           "printed_page": 159,
           "pdf_page": 205,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 205,
+            "pdf_end": 218,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "032",
           "title": "四十千",
           "printed_page": 173,
           "pdf_page": 219,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 219,
+            "pdf_end": 221,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "033",
           "title": "成仙",
           "printed_page": 176,
           "pdf_page": 222,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 222,
+            "pdf_end": 237,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "034",
           "title": "新郎",
           "printed_page": 192,
           "pdf_page": 238,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 238,
+            "pdf_end": 242,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "035",
           "title": "灵官",
           "printed_page": 196,
           "pdf_page": 242,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 242,
+            "pdf_end": 245,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "036",
           "title": "王兰",
           "printed_page": 199,
           "pdf_page": 245,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 245,
+            "pdf_end": 252,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "037",
           "title": "鹰虎神",
           "printed_page": 207,
           "pdf_page": 253,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 253,
+            "pdf_end": 255,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "038",
           "title": "王成",
           "printed_page": 209,
           "pdf_page": 255,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 255,
+            "pdf_end": 269,
+            "original_translation_notes": true
+          }
         },
         {
           "id": "039",

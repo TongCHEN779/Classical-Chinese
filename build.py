@@ -224,14 +224,25 @@ def _shiji_pages():
     return out
 
 
+def _liaozhai_spec():
+    import json
+    progress = json.loads((ROOT / "sources/liaozhai/progress.json").read_text(encoding="utf8"))
+    volumes = progress["volumes"]
+    complete = sum(e["status"] == "complete" for v in volumes for e in v.get("entries", []))
+    all_done = (all(v["status"] == "complete" for v in volumes)
+                and progress["preface_status"] == "complete")
+    status = "十二卷及《聊斋自志》全部整理完成。" if all_done else f"目前已整理{complete}篇，全文仍在整理中。"
+    return {"title": "聊斋志异", "author": "［清］蒲松龄", "unit": "篇",
+            "count_entries": True, "summary_unit": "篇",
+            "intro": "文言短篇小说集，写狐鬼花妖、世态人情。依本地中华书局全本全注全译本的十二卷篇序整理；原文逐段配自撰白话、注释与题解。" + status,
+            "pages": [("zizhi", "聊斋自志")] + [
+                (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}" +
+                 ("（整理中）" if v["status"] == "in_progress" else "")) for v in volumes
+            ]}
+
+
 POETRY = {
-    "liaozhai": {"title": "聊斋志异", "author": "［清］蒲松龄", "unit": "篇",
-                 "count_entries": True, "summary_unit": "篇",
-                 "intro": "文言短篇小说集，写狐鬼花妖、世态人情。依本地中华书局全本全注全译本的十二卷篇序整理；原文逐段配自撰白话、注释与题解。目前卷一整理中，其余待整理。",
-                 "pages": [("zizhi", "聊斋自志")] + [
-                     (f"juan{n:02d}", f"卷{cn(n)}" + ("（整理中）" if n == 1 else ""))
-                     for n in range(1, 13)
-                 ]},
+    "liaozhai": _liaozhai_spec(),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
               "intro": "中国第一部纪传体通史，分本纪、表、书、世家、列传共一百三十卷。此处依《二十四史全译》本，只收原文，十表仅收序言与论赞。",
               "pages": _shiji_pages()},
