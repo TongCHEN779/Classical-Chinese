@@ -196,11 +196,12 @@ SHIJING_PAGES = [
     ("weifeng", "卫风"), ("wangfeng", "王风"), ("zhengfeng", "郑风"), ("qifeng", "齐风"),
     ("weifeng2", "魏风"), ("tangfeng", "唐风"), ("qinfeng", "秦风"), ("chenfeng", "陈风"),
     ("guifeng", "桧风"), ("caofeng", "曹风"), ("binfeng", "豳风"),
+    ("xiaoya", "小雅"), ("daya", "大雅"), ("songzhou", "周颂"), ("lusong", "鲁颂"), ("shangsong", "商颂"),
 ]
 POETRY = {
     "chuci": {"title": "楚辞", "author": "［战国］屈原等", "intro": CHUCI_INTRO, "pages": CHUCI_PAGES},
-    "shijing": {"title": "诗经·国风", "author": "［先秦］佚名",
-                "intro": "中国最早的诗歌总集。《国风》收十五国风土歌谣一百六十首，多为民间歌谣，按地域分为周南、召南等十五组。",
+    "shijing": {"title": "诗经", "author": "［先秦］佚名",
+                "intro": "中国最早的诗歌总集，分风、雅、颂三部分。国风收十五国风土歌谣一百六十首；小雅、大雅为朝廷宴飨、朝会之乐；颂为宗庙祭祀之乐。",
                 "pages": SHIJING_PAGES},
 }
 CIRC = re.compile(r"([\u2460-\u2473\u3251-\u325f]+)")
