@@ -1,0 +1,428 @@
+{
+  "source": "聊斋志异（全四册）.pdf",
+  "edition": "中华书局，中华经典名著全本全注全译丛书；于天池注，孙通海、于天池等译",
+  "pdf_pages": 3391,
+  "scope": "全书十二卷及聊斋自志；尚未全部完成",
+  "volumes": [
+    {
+      "volume": 1,
+      "status": "in_progress",
+      "entries": [
+        {
+          "id": "001",
+          "title": "考城隍",
+          "printed_page": 1,
+          "pdf_page": 47,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 47,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "002",
+          "title": "耳中人",
+          "printed_page": 6,
+          "pdf_page": 52,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 52,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "003",
+          "title": "尸变",
+          "printed_page": 9,
+          "pdf_page": 55,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 55,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "004",
+          "title": "喷水",
+          "printed_page": 16,
+          "pdf_page": 62,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 62,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "005",
+          "title": "瞳人语",
+          "printed_page": 18,
+          "pdf_page": 64,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 64,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "006",
+          "title": "画壁",
+          "printed_page": 26,
+          "pdf_page": 72,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 72,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "007",
+          "title": "山魈",
+          "printed_page": 33,
+          "pdf_page": 79,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 79,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "008",
+          "title": "咬鬼",
+          "printed_page": 36,
+          "pdf_page": 82,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 82,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "009",
+          "title": "捉狐",
+          "printed_page": 39,
+          "pdf_page": 85,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 85,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "010",
+          "title": "荍中怪",
+          "printed_page": 41,
+          "pdf_page": 87,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 87,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "011",
+          "title": "宅妖",
+          "printed_page": 44,
+          "pdf_page": 90,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 90,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "012",
+          "title": "王六郎",
+          "printed_page": 47,
+          "pdf_page": 93,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 93,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "013",
+          "title": "偷桃",
+          "printed_page": 58,
+          "pdf_page": 104,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 104,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "014",
+          "title": "种梨",
+          "printed_page": 65,
+          "pdf_page": 111,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 111,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "015",
+          "title": "劳山道士",
+          "printed_page": 71,
+          "pdf_page": 117,
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 117,
+            "original_translation_notes": true
+          }
+        },
+        {
+          "id": "016",
+          "title": "长清僧",
+          "printed_page": 79,
+          "pdf_page": 125,
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "蛇人",
+          "printed_page": 85,
+          "pdf_page": 131,
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "斫蟒",
+          "printed_page": 92,
+          "pdf_page": 138,
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "犬奸",
+          "printed_page": 94,
+          "pdf_page": 140,
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "雹神",
+          "printed_page": 99,
+          "pdf_page": 145,
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "狐嫁女",
+          "printed_page": 102,
+          "pdf_page": 148,
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "娇娜",
+          "printed_page": 112,
+          "pdf_page": 158,
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "僧孽",
+          "printed_page": 131,
+          "pdf_page": 177,
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "妖术",
+          "printed_page": 133,
+          "pdf_page": 179,
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "野狗",
+          "printed_page": 139,
+          "pdf_page": 185,
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "三生",
+          "printed_page": 142,
+          "pdf_page": 188,
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "狐入瓶",
+          "printed_page": 149,
+          "pdf_page": 195,
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "鬼哭",
+          "printed_page": 150,
+          "pdf_page": 196,
+          "status": "pending"
+        },
+        {
+          "id": "029",
+          "title": "真定女",
+          "printed_page": 154,
+          "pdf_page": 200,
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "焦螟",
+          "printed_page": 155,
+          "pdf_page": 201,
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "叶生",
+          "printed_page": 159,
+          "pdf_page": 205,
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "四十千",
+          "printed_page": 173,
+          "pdf_page": 219,
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "成仙",
+          "printed_page": 176,
+          "pdf_page": 222,
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "新郎",
+          "printed_page": 192,
+          "pdf_page": 238,
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "灵官",
+          "printed_page": 196,
+          "pdf_page": 242,
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "王兰",
+          "printed_page": 199,
+          "pdf_page": 245,
+          "status": "pending"
+        },
+        {
+          "id": "037",
+          "title": "鹰虎神",
+          "printed_page": 207,
+          "pdf_page": 253,
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "王成",
+          "printed_page": 209,
+          "pdf_page": 255,
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "青凤",
+          "printed_page": 224,
+          "pdf_page": 270,
+          "status": "pending"
+        },
+        {
+          "id": "040",
+          "title": "画皮",
+          "printed_page": 239,
+          "pdf_page": 285,
+          "status": "pending"
+        },
+        {
+          "id": "041",
+          "title": "贾儿",
+          "printed_page": 249,
+          "pdf_page": 295,
+          "status": "pending"
+        },
+        {
+          "id": "042",
+          "title": "蛇癖",
+          "printed_page": 260,
+          "pdf_page": 306,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "volume": 2,
+      "status": "pending"
+    },
+    {
+      "volume": 3,
+      "status": "pending"
+    },
+    {
+      "volume": 4,
+      "status": "pending"
+    },
+    {
+      "volume": 5,
+      "status": "pending"
+    },
+    {
+      "volume": 6,
+      "status": "pending"
+    },
+    {
+      "volume": 7,
+      "status": "pending"
+    },
+    {
+      "volume": 8,
+      "status": "pending"
+    },
+    {
+      "volume": 9,
+      "status": "pending"
+    },
+    {
+      "volume": 10,
+      "status": "pending"
+    },
+    {
+      "volume": 11,
+      "status": "pending"
+    },
+    {
+      "volume": 12,
+      "status": "pending"
+    }
+  ],
+  "preface_status": "pending"
+}
