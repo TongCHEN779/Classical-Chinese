@@ -225,6 +225,13 @@ def _shiji_pages():
 
 
 POETRY = {
+    "liaozhai": {"title": "聊斋志异", "author": "［清］蒲松龄", "unit": "篇",
+                 "count_entries": True, "summary_unit": "篇",
+                 "intro": "文言短篇小说集，写狐鬼花妖、世态人情。依本地中华书局全本全注全译本的十二卷篇序整理；原文逐段配自撰白话、注释与题解。目前卷一整理中，其余待整理。",
+                 "pages": [("zizhi", "聊斋自志")] + [
+                     (f"juan{n:02d}", f"卷{cn(n)}" + ("（整理中）" if n == 1 else ""))
+                     for n in range(1, 13)
+                 ]},
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
               "intro": "中国第一部纪传体通史，分本纪、表、书、世家、列传共一百三十卷。此处依《二十四史全译》本，只收原文，十表仅收序言与论赞。",
               "pages": _shiji_pages()},
@@ -294,7 +301,7 @@ def build_poetry(bslug, spec):
             continue
         secs = parse_poems(files)
         nchunk = sum(len(s["chunks"]) for s in secs)
-        total += nchunk
+        total += len(secs) if spec.get("count_entries") else nchunk
         cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}<small>{len(secs)}{spec.get("unit2", spec.get("unit", "节"))}</small></a></li>')
         uid = 0
         body_secs = []
@@ -350,7 +357,7 @@ def build_poetry(bslug, spec):
 <p class="intro">{esc(spec["intro"])}</p>
 </header>
 <main><section class="part"><ul class="vols">{"".join(cells)}</ul></section></main>
-<footer>已整理 {total} 节。</footer>"""
+<footer>已整理 {total} {esc(spec.get("summary_unit", "节"))}。</footer>"""
     (ROOT / bslug).mkdir(parents=True, exist_ok=True)
     (ROOT / bslug / "index.html").write_text(page(btitle, body, "../"), encoding="utf8")
     return total
