@@ -498,7 +498,7 @@
           "review": {
             "source": "local_scan",
             "pdf_start": 255,
-            "pdf_end": 269,
+            "pdf_end": 270,
             "original_translation_notes": true
           }
         },
@@ -507,7 +507,14 @@
           "title": "青凤",
           "printed_page": 224,
           "pdf_page": 270,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 270,
+            "pdf_end": 284,
+            "original_translation_notes": true,
+            "sentence_pairs": 149
+          }
         },
         {
           "id": "040",
