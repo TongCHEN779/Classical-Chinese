@@ -13,7 +13,11 @@ body{margin:0;background:var(--bg);color:var(--fg);
 a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
 header.top,main,footer{max-width:760px;margin:0 auto;padding:0 16px}
 header.top{padding-top:28px}
-.crumbs{font-size:14px;color:var(--muted);margin-bottom:12px}
+.crumbs{position:fixed;top:0;left:0;right:0;z-index:20;box-sizing:border-box;height:38px;line-height:37px;
+  margin:0;padding:0 max(16px,calc(50% - 380px));font-size:14px;color:var(--muted);background:var(--bg);
+  border-bottom:1px solid var(--line);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body{padding-top:38px}
+.entry,h2[id],h3[id]{scroll-margin-top:50px}
 h1{font-size:34px;letter-spacing:.12em;margin:.2em 0}
 h1 small{display:block;font-size:15px;letter-spacing:.05em;color:var(--muted);font-weight:normal;margin-top:4px}
 h2{font-size:22px;margin:.3em 0}
@@ -37,7 +41,7 @@ footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:cente
 /* 阅读页：左侧目录独立滚动，正文保持原有阅读宽度。 */
 .reading-layout{max-width:1100px;display:grid;grid-template-columns:240px minmax(0,760px);gap:32px;align-items:start}
 .reading-content{min-width:0}
-.toc{position:sticky;top:16px;max-height:calc(100dvh - 32px);overflow-y:auto;
+.toc{position:sticky;top:54px;max-height:calc(100dvh - 70px);overflow-y:auto;
   overscroll-behavior:contain;scrollbar-gutter:stable;background:var(--card);
   border:1px solid var(--line);border-radius:10px;padding:10px 18px;margin:16px 0 8px;font-size:15px}
 .toc summary{cursor:pointer;color:var(--muted);position:sticky;top:-10px;background:var(--card);padding:6px 0;z-index:1}
@@ -49,7 +53,7 @@ body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:
   .reading-layout{display:block;max-width:760px}
   body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:760px;padding-left:16px}
   body:has(.reading-layout) header.top{padding-top:72px}
-  .toc{position:fixed;left:8px;top:8px;margin:0;z-index:5;width:min(280px,calc(100vw - 32px));max-height:calc(100dvh - 24px);box-shadow:0 4px 18px rgba(0,0,0,.12)}
+  .toc{position:fixed;left:8px;top:46px;margin:0;z-index:5;width:min(280px,calc(100vw - 32px));max-height:calc(100dvh - 60px);box-shadow:0 4px 18px rgba(0,0,0,.12)}
   .toc:not([open]){width:auto}
 }
 

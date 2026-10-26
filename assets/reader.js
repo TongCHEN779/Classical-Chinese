@@ -26,7 +26,7 @@
     var w = tip.offsetWidth, h = tip.offsetHeight;
     var left = Math.max(8, Math.min(x - w / 2, window.innerWidth - w - 8));
     var top = r.top - h - 8;
-    if (top < 8) top = r.bottom + 8;
+    if (top < 48) top = r.bottom + 8;
     tip.style.left = left + 'px';
     tip.style.top = top + 'px';
   }
