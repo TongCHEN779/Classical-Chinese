@@ -1322,16 +1322,30 @@
           "title": "苏仙",
           "printed_page": 594,
           "pdf_page": 640,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 640,
+            "pdf_end": 644,
+            "original_translation_notes": true,
+            "sentence_pairs": 35
+          }
         },
         {
           "id": "010",
           "title": "李伯言",
           "printed_page": 598,
           "pdf_page": 644,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 644,
+            "pdf_end": 650,
+            "original_translation_notes": true,
+            "sentence_pairs": 60
+          }
         },
         {
           "id": "011",
@@ -1623,7 +1637,7 @@
         ],
         "entries": 45
       },
-      "pdf_offset_status": "verified_through_pdf_640"
+      "pdf_offset_status": "verified_through_pdf_650"
     },
     {
       "volume": 4,

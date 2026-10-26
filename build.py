@@ -149,7 +149,7 @@ def build_juan(book, part, vol, src_path, avail):
     next_html = (f'<a href="juan{vol+1:02d}.html">卷{cn(vol+1)} →</a>' if (vol + 1) in avail
                  else '<span class="off">下一卷：待整理</span>')
     body = f"""<header class="top">
-{crumbs([("古文库", r + "index.html"), (book["title"], "../index.html"), (ptitle, None)])}
+{crumbs([("古典文库", r + "index.html"), (book["title"], "../index.html"), (ptitle, None)])}
 <h1>{esc(ptitle)}<small>{esc(pord)}</small></h1>
 <h2>{esc(heading)}</h2>
 <p class="hint">鼠标移到原文句子上，即显示白话；点击每则末尾的“注释”可展开补充说明。触屏设备请点按句子。</p>
@@ -189,7 +189,7 @@ def build_book(book):
                 cells.append(f'<li class="todo"><span>{label}<small>待整理</small></span></li>')
         sections.append(f'<section class="part"><h2>{esc(ptitle)}<small>{esc(pord)} · 共{nvol}卷</small></h2><ul class="vols">{"".join(cells)}</ul></section>')
     body = f"""<header class="top">
-{crumbs([("古文库", "../index.html"), (book["title"], None)])}
+{crumbs([("古典文库", "../index.html"), (book["title"], None)])}
 <h1>{esc(book["title"])}<small>{esc(book["author"])}</small></h1>
 <p class="intro">{esc(book["intro"])}</p>
 </header>
@@ -399,7 +399,7 @@ def build_poetry(bslug, spec):
         next_h = (f'<a href="{pages[next_i][0]}.html">{esc(pages[next_i][1])} →</a>' if next_i is not None
                   else '<span class="off">&nbsp;</span>')
         body = f"""<header class="top">
-{crumbs([("古文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
+{crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
 <h1>{esc(title)}<small>{esc(btitle)}</small></h1>
 <p class="hint">鼠标移到原文上，即显示白话译文；点击“注释”“题解”可展开或收起。触屏设备请点按原文。</p>
 </header>
@@ -416,7 +416,7 @@ def build_poetry(bslug, spec):
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(page(f"{title}·{btitle}", body, r, True), encoding="utf8")
     body = f"""<header class="top">
-{crumbs([("古文库", "../index.html"), (btitle, None)])}
+{crumbs([("古典文库", "../index.html"), (btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
 <p class="intro">{esc(spec["intro"])}</p>
 </header>
@@ -435,9 +435,9 @@ def build_home():
     for k, v in POETRY.items():
         cards += (f'<li><a href="{k}/index.html"><strong>{esc(v["title"])}</strong><span>{esc(v["author"])}</span>'
                   f'<p>{esc(v["intro"])}</p></a></li>')
-    body = f"""<header class="top"><h1>古文库<small>原文在前，白话随手可得</small></h1></header>
+    body = f"""<header class="top"><h1>古典文库<small>文言典籍逐句对照白话，白话小说径读原文</small></h1></header>
 <main><ul class="books">{cards}</ul></main>"""
-    (ROOT / "index.html").write_text(page("古文库", body, ""), encoding="utf8")
+    (ROOT / "index.html").write_text(page("古典文库", body, ""), encoding="utf8")
 
 
 if __name__ == "__main__":
