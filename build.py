@@ -329,7 +329,7 @@ def table_html(t):
         head = "<thead><tr>" + "".join(cell("th", c) for c in t["head"]) + "</tr></thead>"
     body = "".join("<tr>" + "".join(cell("td", c) for c in r) + "</tr>" for r in t["rows"])
     cap = f"<h4 class=\"tcap\">{esc(t['cap'])}</h4>" if t["cap"] else ""
-    return f'{cap}<div class="biao-wrap"><table class="biao">{head}<tbody>{body}</tbody></table></div>'
+    return f'{cap}<div class="biao-wrap"><table class="biao{" biao-n" if len(t["rows"][0] if t["rows"] else []) >= 10 else ""}">{head}<tbody>{body}</tbody></table></div>'
 
 
 def build_poetry(bslug, spec):

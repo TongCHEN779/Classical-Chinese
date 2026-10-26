@@ -1217,56 +1217,105 @@
           "title": "鲁公女",
           "printed_page": 559,
           "pdf_page": 605,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 605,
+            "pdf_end": 616,
+            "original_translation_notes": true,
+            "sentence_pairs": 111
+          }
         },
         {
           "id": "003",
           "title": "道士",
           "printed_page": 571,
           "pdf_page": 617,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 617,
+            "pdf_end": 622,
+            "original_translation_notes": true,
+            "sentence_pairs": 54
+          }
         },
         {
           "id": "004",
           "title": "胡氏",
           "printed_page": 577,
           "pdf_page": 623,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 623,
+            "pdf_end": 631,
+            "original_translation_notes": true,
+            "sentence_pairs": 76
+          }
         },
         {
           "id": "005",
           "title": "戏术",
           "printed_page": 585,
           "pdf_page": 631,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 631,
+            "pdf_end": 633,
+            "original_translation_notes": true,
+            "sentence_pairs": 13
+          }
         },
         {
           "id": "006",
           "title": "丐僧",
           "printed_page": 587,
           "pdf_page": 633,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 633,
+            "pdf_end": 635,
+            "original_translation_notes": true,
+            "sentence_pairs": 20
+          }
         },
         {
           "id": "007",
           "title": "伏狐",
           "printed_page": 590,
           "pdf_page": 636,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 636,
+            "pdf_end": 638,
+            "original_translation_notes": true,
+            "sentence_pairs": 17
+          }
         },
         {
           "id": "008",
           "title": "蛰龙",
           "printed_page": 592,
           "pdf_page": 638,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 638,
+            "pdf_end": 640,
+            "original_translation_notes": true,
+            "sentence_pairs": 12
+          }
         },
         {
           "id": "009",
@@ -1574,7 +1623,7 @@
         ],
         "entries": 45
       },
-      "pdf_offset_status": "verified_at_volume_start_only"
+      "pdf_offset_status": "verified_through_pdf_640"
     },
     {
       "volume": 4,

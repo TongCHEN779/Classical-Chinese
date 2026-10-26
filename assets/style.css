@@ -1,9 +1,9 @@
 :root{
-  --bg:#f6f1e6; --fg:#2b2620; --muted:#8a8070; --accent:#8c3b2a; --line:#dcd2bd;
+  --bg:#f6f1e6; --fg:#2b2620; --muted:#8a8070; --accent:#8c3b2a; --line:#dcd2bd; --grid:#b3a47f;
   --card:#fbf8f0; --tip-bg:#2b2620; --tip-fg:#f6f1e6; --hl:#efe2bf;
 }
 @media (prefers-color-scheme: dark){
-  :root{--bg:#1c1a17; --fg:#e6dfd0; --muted:#8f8676; --accent:#d9896f; --line:#3a352d;
+  :root{--bg:#1c1a17; --fg:#e6dfd0; --muted:#8f8676; --accent:#d9896f; --line:#3a352d; --grid:#6f6552;
         --card:#24211d; --tip-bg:#e6dfd0; --tip-fg:#1c1a17; --hl:#3a3222;}
 }
 *{box-sizing:border-box}
@@ -89,9 +89,13 @@ body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:
 h3.grp{font-size:18px;letter-spacing:.2em;margin:1.4em 0 .4em;color:var(--muted)}
 
 /* 十表：网页表格 */
-.biao-wrap{overflow-x:auto;margin:12px 0 20px;border:1px solid var(--line);border-radius:6px}
+.biao-wrap{overflow-x:auto;margin:12px 0 20px;border:1px solid var(--grid);border-radius:4px}
 .biao{border-collapse:collapse;font-size:13px;line-height:1.55;width:max-content;min-width:100%}
-.biao th,.biao td{border:1px solid var(--line);padding:4px 7px;vertical-align:top;min-width:5.5em;max-width:22em}
+.biao th,.biao td{border:1px solid var(--grid);padding:4px 7px;vertical-align:top;min-width:5.5em;max-width:22em}
 .biao th{background:var(--card);font-weight:600;white-space:nowrap}
 .biao td:first-child{white-space:nowrap;color:var(--muted)}
 h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
+.biao tbody tr:nth-child(even) td{background:color-mix(in srgb,var(--card) 70%,transparent)}
+.biao thead th{border-bottom:2px solid var(--grid)}
+.biao td:first-child,.biao th:first-child{border-right:2px solid var(--grid)}
+.biao-n th,.biao-n td{min-width:3.2em;max-width:11em}
