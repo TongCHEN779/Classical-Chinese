@@ -1668,88 +1668,165 @@
           "title": "谕鬼",
           "printed_page": 793,
           "pdf_page": 839,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 839,
+            "pdf_end": 842,
+            "original_translation_notes": true,
+            "sentence_pairs": 15
+          }
         },
         {
           "id": "033",
           "title": "泥鬼",
           "printed_page": 796,
           "pdf_page": 842,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 842,
+            "pdf_end": 845,
+            "original_translation_notes": true,
+            "sentence_pairs": 13
+          }
         },
         {
           "id": "034",
           "title": "梦别",
           "printed_page": 799,
           "pdf_page": 845,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 845,
+            "pdf_end": 847,
+            "original_translation_notes": true,
+            "sentence_pairs": 15
+          }
         },
         {
           "id": "035",
           "title": "犬灯",
           "printed_page": 801,
           "pdf_page": 847,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 847,
+            "pdf_end": 851,
+            "original_translation_notes": true,
+            "sentence_pairs": 38
+          }
         },
         {
           "id": "036",
           "title": "番僧",
           "printed_page": 805,
           "pdf_page": 851,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 851,
+            "pdf_end": 854,
+            "original_translation_notes": true,
+            "sentence_pairs": 12
+          }
         },
         {
           "id": "037",
           "title": "狐妾",
           "printed_page": 808,
           "pdf_page": 854,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 854,
+            "pdf_end": 866,
+            "original_translation_notes": true,
+            "sentence_pairs": 106
+          }
         },
         {
           "id": "038",
           "title": "雷曹",
           "printed_page": 820,
           "pdf_page": 866,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 866,
+            "pdf_end": 877,
+            "original_translation_notes": true,
+            "sentence_pairs": 87
+          }
         },
         {
           "id": "039",
           "title": "赌符",
           "printed_page": 831,
           "pdf_page": 877,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 877,
+            "pdf_end": 886,
+            "original_translation_notes": true,
+            "sentence_pairs": 48
+          }
         },
         {
           "id": "040",
           "title": "阿霞",
           "printed_page": 840,
           "pdf_page": 886,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 886,
+            "pdf_end": 896,
+            "original_translation_notes": true,
+            "sentence_pairs": 88
+          }
         },
         {
           "id": "041",
           "title": "李司鉴",
           "printed_page": 850,
           "pdf_page": 896,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 896,
+            "pdf_end": 898,
+            "original_translation_notes": true,
+            "sentence_pairs": 11
+          }
         },
         {
           "id": "042",
           "title": "五羖大夫",
           "printed_page": 852,
           "pdf_page": 898,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 898,
+            "pdf_end": 900,
+            "original_translation_notes": true,
+            "sentence_pairs": 7
+          }
         },
         {
           "id": "043",
@@ -1785,7 +1862,7 @@
         ],
         "entries": 45
       },
-      "pdf_offset_status": "verified_through_pdf_839"
+      "pdf_offset_status": "verified_through_pdf_900"
     },
     {
       "volume": 4,
