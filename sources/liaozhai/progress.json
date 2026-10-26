@@ -1368,48 +1368,90 @@
           "title": "金陵女子",
           "printed_page": 623,
           "pdf_page": 669,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 669,
+            "pdf_end": 672,
+            "original_translation_notes": true,
+            "sentence_pairs": 34
+          }
         },
         {
           "id": "013",
           "title": "汤公",
           "printed_page": 627,
           "pdf_page": 673,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 673,
+            "pdf_end": 678,
+            "original_translation_notes": true,
+            "sentence_pairs": 36
+          }
         },
         {
           "id": "014",
           "title": "阎罗",
           "printed_page": 632,
           "pdf_page": 678,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 678,
+            "pdf_end": 680,
+            "original_translation_notes": true,
+            "sentence_pairs": 13
+          }
         },
         {
           "id": "015",
           "title": "连琐",
           "printed_page": 634,
           "pdf_page": 680,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 680,
+            "pdf_end": 696,
+            "original_translation_notes": true,
+            "sentence_pairs": 159
+          }
         },
         {
           "id": "016",
           "title": "单道士",
           "printed_page": 650,
           "pdf_page": 696,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 696,
+            "pdf_end": 699,
+            "original_translation_notes": true,
+            "sentence_pairs": 26
+          }
         },
         {
           "id": "017",
           "title": "白于玉",
           "printed_page": 653,
           "pdf_page": 699,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 699,
+            "pdf_end": 718,
+            "original_translation_notes": true,
+            "sentence_pairs": 166
+          }
         },
         {
           "id": "018",
@@ -1645,7 +1687,7 @@
         ],
         "entries": 45
       },
-      "pdf_offset_status": "verified_through_pdf_669"
+      "pdf_offset_status": "verified_through_pdf_718"
     },
     {
       "volume": 4,
