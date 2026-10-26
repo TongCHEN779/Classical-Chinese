@@ -40,10 +40,10 @@ footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:cente
 
 /* 阅读页：左侧目录独立滚动，正文保持原有阅读宽度。 */
 .reading-layout{max-width:1100px;display:grid;grid-template-columns:240px minmax(0,760px);gap:32px;align-items:start}
-.reading-content{min-width:0}
-.toc{position:sticky;top:54px;max-height:calc(100dvh - 70px);overflow-y:auto;
+.reading-content{min-width:0;grid-column:2}
+.toc{position:fixed;left:max(16px,calc((100vw - 1068px)/2));top:54px;max-height:calc(100dvh - 70px);overflow-y:auto;
   overscroll-behavior:contain;scrollbar-gutter:stable;background:var(--card);
-  border:1px solid var(--line);border-radius:10px;padding:10px 18px;margin:16px 0 8px;font-size:15px}
+  border:1px solid var(--line);border-radius:10px;padding:10px 18px;margin:0;width:240px;font-size:15px}
 .toc summary{cursor:pointer;color:var(--muted);position:sticky;top:-10px;background:var(--card);padding:6px 0;z-index:1}
 .toc ol{margin:8px 0;padding-left:1.6em;line-height:1.8}
 .toc li{padding:3px 0}
