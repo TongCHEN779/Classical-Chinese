@@ -58,7 +58,7 @@ body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:
 }
 
 /* 正文 */
-.entry{padding-top:10px;scroll-margin-top:8px}
+.entry{padding-top:10px;scroll-margin-top:50px}
 .entry h3{font-size:22px;letter-spacing:.15em;margin:1.6em 0 .2em;display:flex;align-items:baseline;gap:.7em}
 .entry h3 .no{font-size:13px;letter-spacing:0;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 6px;line-height:1.6}
 .entry p{margin:.4em 0;text-indent:2em;text-align:justify}
@@ -87,3 +87,11 @@ body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:
 .notes.plain li{margin:.15em 0;font-size:14px;line-height:1.75}
 .intro-box p{text-indent:2em;margin:.4em 0;font-size:14.5px;line-height:1.8}
 h3.grp{font-size:18px;letter-spacing:.2em;margin:1.4em 0 .4em;color:var(--muted)}
+
+/* 十表：网页表格 */
+.biao-wrap{overflow-x:auto;margin:12px 0 20px;border:1px solid var(--line);border-radius:6px}
+.biao{border-collapse:collapse;font-size:13px;line-height:1.55;width:max-content;min-width:100%}
+.biao th,.biao td{border:1px solid var(--line);padding:4px 7px;vertical-align:top;min-width:5.5em;max-width:22em}
+.biao th{background:var(--card);font-weight:600;white-space:nowrap}
+.biao td:first-child{white-space:nowrap;color:var(--muted)}
+h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}

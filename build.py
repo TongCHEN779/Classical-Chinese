@@ -303,11 +303,33 @@ def parse_poems(paths):
             elif ln.startswith("原："):
                 o, t = (x.strip() for x in ln[2:].split("||", 1))
                 cur["chunks"].append({"o": o, "t": t, "notes": []})
+            elif ln.startswith("表题："):
+                cur["chunks"].append({"tbl": {"cap": ln[3:].strip(), "head": None, "rows": []}, "notes": []})
+            elif ln.startswith("表头："):
+                last = cur["chunks"][-1] if cur["chunks"] else None
+                if last and "tbl" in last and last["tbl"]["head"] is None and not last["tbl"]["rows"]:
+                    last["tbl"]["head"] = ln[3:].split("｜")
+                else:
+                    cur["chunks"].append({"tbl": {"cap": "", "head": ln[3:].split("｜"), "rows": []}, "notes": []})
+            elif ln.startswith("表行："):
+                tbls = [c for c in cur["chunks"] if "tbl" in c]
+                tbls[-1]["tbl"]["rows"].append(ln[3:].split("｜"))
             elif ln.startswith("注："):
                 cur["chunks"][-1]["notes"].append(ln[2:].strip())
             else:
                 raise ValueError(f"{path}: 无法解析：{ln}")
     return sections
+
+
+def table_html(t):
+    def cell(tag, c):
+        return f"<{tag}>" + "<br>".join(esc(x) for x in c.split("／")) + f"</{tag}>"
+    head = ""
+    if t["head"]:
+        head = "<thead><tr>" + "".join(cell("th", c) for c in t["head"]) + "</tr></thead>"
+    body = "".join("<tr>" + "".join(cell("td", c) for c in r) + "</tr>" for r in t["rows"])
+    cap = f"<h4 class=\"tcap\">{esc(t['cap'])}</h4>" if t["cap"] else ""
+    return f'{cap}<div class="biao-wrap"><table class="biao">{head}<tbody>{body}</tbody></table></div>'
 
 
 def build_poetry(bslug, spec):
@@ -331,7 +353,7 @@ def build_poetry(bslug, spec):
             cells.append(f'<li class="todo"><span>{esc(title)}<small>待整理</small></span></li>')
             continue
         secs = parse_poems(files)
-        nchunk = sum(len(s["chunks"]) for s in secs)
+        nchunk = sum(1 for s in secs for c in s["chunks"] if "tbl" not in c)
         total += len(secs) if spec.get("count_entries") else nchunk
         cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}<small>{len(secs)}{spec.get("unit2", spec.get("unit", "节"))}</small></a></li>')
         uid = 0
@@ -347,6 +369,9 @@ def build_poetry(bslug, spec):
                     f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                     f'<span class="caret">▸</span> 题解</button><div class="notes intro-box" id="n{uid}" hidden>{items}</div>')
             for ch in sec["chunks"]:
+                if "tbl" in ch:
+                    parts.append(table_html(ch["tbl"]))
+                    continue
                 spans = ""
                 for o2, t2 in split_pairs(ch["o"], ch["t"]):
                     if o2.startswith("/"):
