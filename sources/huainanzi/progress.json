@@ -15,7 +15,7 @@
       "volume": 1,
       "title": "原道训",
       "printed_page": 1,
-      "status": "in_progress",
+      "status": "complete",
       "entries": [
         {
           "id": "001",
@@ -55,14 +55,378 @@
             "sentence_pairs": 4,
             "notes": 28
           }
+        },
+        {
+          "id": "004",
+          "title": "04｜御风乘云与末世之御",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/004.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 21,
+            "pdf_end": 21,
+            "sentence_pairs": 2,
+            "notes": 15
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜执道之要与自然应物",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/005.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 22,
+            "pdf_end": 22,
+            "sentence_pairs": 7,
+            "notes": 25
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜不以人易天与不争",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/006.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 24,
+            "pdf_end": 24,
+            "sentence_pairs": 8,
+            "notes": 15
+          }
+        },
+        {
+          "id": "007",
+          "title": "07｜钓射小术与无形之网",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/007.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 26,
+            "pdf_end": 26,
+            "sentence_pairs": 7,
+            "notes": 16
+          }
+        },
+        {
+          "id": "008",
+          "title": "08｜弃小数而施德",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/008.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 27,
+            "pdf_end": 27,
+            "sentence_pairs": 9,
+            "notes": 24
+          }
+        },
+        {
+          "id": "009",
+          "title": "09｜个人之能与天地自然",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/009.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 29,
+            "pdf_end": 29,
+            "sentence_pairs": 4,
+            "notes": 12
+          }
+        },
+        {
+          "id": "010",
+          "title": "10｜万物各得其宜",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/010.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 30,
+            "pdf_end": 30,
+            "sentence_pairs": 6,
+            "notes": 22
+          }
+        },
+        {
+          "id": "011",
+          "title": "11｜地域风俗与形性",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/011.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 32,
+            "pdf_end": 32,
+            "sentence_pairs": 6,
+            "notes": 21
+          }
+        },
+        {
+          "id": "012",
+          "title": "12｜清静养性与不以人滑天",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/012.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 33,
+            "pdf_end": 33,
+            "sentence_pairs": 9,
+            "notes": 16
+          }
+        },
+        {
+          "id": "013",
+          "title": "13｜争与不争的得失",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/013.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 35,
+            "pdf_end": 35,
+            "sentence_pairs": 5,
+            "notes": 10
+          }
+        },
+        {
+          "id": "014",
+          "title": "14｜舜以身化人与无言之道",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/014.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 36,
+            "pdf_end": 36,
+            "sentence_pairs": 6,
+            "notes": 14
+          }
+        },
+        {
+          "id": "015",
+          "title": "15｜无为无治的含义",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/015.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 37,
+            "pdf_end": 37,
+            "sentence_pairs": 5,
+            "notes": 9
+          }
+        },
+        {
+          "id": "016",
+          "title": "16｜志弱事强与以柔守刚",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/016.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 38,
+            "pdf_end": 39,
+            "sentence_pairs": 9,
+            "notes": 13
+          }
+        },
+        {
+          "id": "017",
+          "title": "17｜后动之利与不失其时",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/017.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 40,
+            "pdf_end": 41,
+            "sentence_pairs": 20,
+            "notes": 21
+          }
+        },
+        {
+          "id": "018",
+          "title": "18｜水的柔弱与至德",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/018.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 43,
+            "pdf_end": 43,
+            "sentence_pairs": 7,
+            "notes": 23
+          }
+        },
+        {
+          "id": "019",
+          "title": "19｜无形为祖与水的地位",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/019.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 45,
+            "pdf_end": 45,
+            "sentence_pairs": 5,
+            "notes": 8
+          }
+        },
+        {
+          "id": "020",
+          "title": "20｜一与万物的生成变化",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/020.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 45,
+            "pdf_end": 46,
+            "sentence_pairs": 18,
+            "notes": 27
+          }
+        },
+        {
+          "id": "021",
+          "title": "21｜至人之治与约守寡求",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/021.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 48,
+            "pdf_end": 49,
+            "sentence_pairs": 5,
+            "notes": 12
+          }
+        },
+        {
+          "id": "022",
+          "title": "22｜情欲之累与内心的主宰",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/022.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 49,
+            "pdf_end": 50,
+            "sentence_pairs": 8,
+            "notes": 19
+          }
+        },
+        {
+          "id": "023",
+          "title": "23｜守道应变与至德之乐",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/023.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 51,
+            "pdf_end": 51,
+            "sentence_pairs": 4,
+            "notes": 10
+          }
+        },
+        {
+          "id": "024",
+          "title": "24｜自得之乐不系于富贵",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/024.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 52,
+            "pdf_end": 53,
+            "sentence_pairs": 12,
+            "notes": 22
+          }
+        },
+        {
+          "id": "025",
+          "title": "25｜外乐难久与心为之主",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/025.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 54,
+            "pdf_end": 55,
+            "sentence_pairs": 16,
+            "notes": 25
+          }
+        },
+        {
+          "id": "026",
+          "title": "26｜天下与我相得",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/026.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 57,
+            "pdf_end": 57,
+            "sentence_pairs": 13,
+            "notes": 13
+          }
+        },
+        {
+          "id": "027",
+          "title": "27｜富贵穷困不改志德",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/027.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 59,
+            "pdf_end": 59,
+            "sentence_pairs": 7,
+            "notes": 27
+          }
+        },
+        {
+          "id": "028",
+          "title": "28｜安性命而不待外物",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/028.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 61,
+            "pdf_end": 61,
+            "sentence_pairs": 9,
+            "notes": 18
+          }
+        },
+        {
+          "id": "029",
+          "title": "29｜形气神的职分与精神专注",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/029.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 63,
+            "pdf_end": 63,
+            "sentence_pairs": 14,
+            "notes": 20
+          }
+        },
+        {
+          "id": "030",
+          "title": "30｜养神应物与卷末收束",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/030.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 65,
+            "pdf_end": 65,
+            "sentence_pairs": 11,
+            "notes": 24
+          }
         }
-      ]
+      ],
+      "review": {
+        "source": "local_scan",
+        "pdf_start": 15,
+        "pdf_end": 67,
+        "printed_start": 1,
+        "printed_end": 53,
+        "next_volume_title_pdf": 68,
+        "original_paragraphs": 30,
+        "sentence_pairs": 251,
+        "notes": 574
+      }
     },
     {
       "volume": 2,
       "title": "俶真训",
       "printed_page": 54,
-      "status": "pending"
+      "status": "pending",
+      "pdf_page": 68,
+      "pdf_page_status": "verified_title"
     },
     {
       "volume": 3,
@@ -180,12 +544,12 @@
     }
   ],
   "next": {
-    "volume": 1,
-    "id": "004",
-    "pdf_page": 21,
-    "printed_page": 7,
-    "starts_with": "昔者冯夷、大丙之御也",
+    "volume": 2,
+    "id": "001",
+    "pdf_page": 68,
+    "printed_page": 54,
+    "starts_with": "有始者，有未始有有始者",
     "status": "pending"
   },
-  "pdf_offset_status": "卷一开篇已核实PDF页序=印刷页码+14；其余卷，尤其下册，不套用未经复核的偏移。"
+  "pdf_offset_status": "卷一全卷及卷二篇题已核实PDF页序=印刷页码+14；其余卷尤其下册仍须逐卷复核。"
 }
