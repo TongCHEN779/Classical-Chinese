@@ -36,7 +36,12 @@ BOOKS = [
     }
 ]
 
-CSS_LINK = '<link rel="stylesheet" href="{r}assets/style.css">'
+def _ver(name):
+    import hashlib
+    return hashlib.md5((ROOT / "assets" / name).read_bytes()).hexdigest()[:8]
+
+
+CSS_LINK = '<link rel="stylesheet" href="{r}assets/style.css?v=' + "{v}" + '">'
 
 
 def esc(s):
@@ -97,14 +102,14 @@ def parse_juan(path):
 
 
 def page(title, body, r, extra_js=False):
-    js = f'<script src="{r}assets/reader.js" defer></script>' if extra_js else ""
+    js = f'<script src="{r}assets/reader.js?v={_ver("reader.js")}" defer></script>' if extra_js else ""
     return f"""<!doctype html>
 <html lang="zh-Hans">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
-{CSS_LINK.format(r=r)}
+{CSS_LINK.format(r=r, v=_ver("style.css"))}
 {js}
 </head>
 <body>
