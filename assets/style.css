@@ -34,11 +34,24 @@ footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:cente
 .vols small{display:block;font-size:12px;color:var(--muted)}
 .vols .ok a{color:var(--accent)} .vols .todo{opacity:.55}
 
-/* 目录 */
-.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 18px;margin:16px 0 8px;font-size:15px}
-.toc summary{cursor:pointer;color:var(--muted)}
-.toc ol{columns:2;column-gap:24px;margin:8px 0;padding-left:1.6em;line-height:1.8}
-@media (max-width:520px){.toc ol{columns:1}}
+/* 阅读页：左侧目录独立滚动，正文保持原有阅读宽度。 */
+.reading-layout{max-width:1100px;display:grid;grid-template-columns:240px minmax(0,760px);gap:32px;align-items:start}
+.reading-content{min-width:0}
+.toc{position:sticky;top:16px;max-height:calc(100dvh - 32px);overflow-y:auto;
+  overscroll-behavior:contain;scrollbar-gutter:stable;background:var(--card);
+  border:1px solid var(--line);border-radius:10px;padding:10px 18px;margin:16px 0 8px;font-size:15px}
+.toc summary{cursor:pointer;color:var(--muted);position:sticky;top:-10px;background:var(--card);padding:6px 0;z-index:1}
+.toc ol{margin:8px 0;padding-left:1.6em;line-height:1.8}
+.toc li{padding:3px 0}
+.toc a{display:block;overflow-wrap:anywhere}
+body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:1100px;padding-left:288px}
+@media (max-width:800px){
+  .reading-layout{display:block;max-width:760px}
+  body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:760px;padding-left:16px}
+  body:has(.reading-layout) header.top{padding-top:72px}
+  .toc{position:fixed;left:8px;top:8px;margin:0;z-index:5;width:min(280px,calc(100vw - 32px));max-height:calc(100dvh - 24px);box-shadow:0 4px 18px rgba(0,0,0,.12)}
+  .toc:not([open]){width:auto}
+}
 
 /* 正文 */
 .entry{padding-top:10px;scroll-margin-top:8px}

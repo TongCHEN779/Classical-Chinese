@@ -154,10 +154,12 @@ def build_juan(book, part, vol, src_path, avail):
 <h2>{esc(heading)}</h2>
 <p class="hint">鼠标移到原文句子上，即显示白话；点击每则末尾的“注释”可展开补充说明。触屏设备请点按句子。</p>
 </header>
-<main>
+<main class="reading-layout">
 <details class="toc" open><summary>本卷目录</summary><ol>{toc}</ol></details>
+<div class="reading-content">
 {chr(10).join(render_entry(i, e) for i, e in enumerate(entries, 1))}
 <nav class="pager">{prev_html}<a href="../index.html">目录</a>{next_html}</nav>
+</div>
 </main>
 <div id="tip" role="tooltip" hidden></div>
 <footer>白话译文为辅助阅读的意译，如有出入，以原文为准。</footer>"""
@@ -361,7 +363,7 @@ def build_poetry(bslug, spec):
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         toc = ""
-        if len(secs) > 1:
+        if secs:
             toc = ('<details class="toc" open><summary>本篇目录</summary><ol>'
                    + "".join(f'<li><a href="#e{k}">{esc(s["title"])}</a></li>' for k, s in enumerate(secs, 1))
                    + "</ol></details>")
@@ -376,10 +378,12 @@ def build_poetry(bslug, spec):
 <h1>{esc(title)}<small>{esc(btitle)}</small></h1>
 <p class="hint">鼠标移到原文上，即显示白话译文；点击“注释”“题解”可展开或收起。触屏设备请点按原文。</p>
 </header>
-<main>
+<main class="reading-layout">
 {toc}
+<div class="reading-content">
 {chr(10).join(body_secs)}
 <nav class="pager">{prev_h}<a href="index.html">目录</a>{next_h}</nav>
+</div>
 </main>
 <div id="tip" role="tooltip" hidden></div>
 <footer>原文依注译本转录；白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。</footer>"""

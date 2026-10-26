@@ -1,6 +1,22 @@
 (function () {
   var tip = document.getElementById('tip');
   var cur = null;
+  var toc = document.querySelector('.toc');
+  var narrow = matchMedia('(max-width: 800px)');
+  if (toc) {
+    function fitToc() { toc.open = !narrow.matches; }
+    fitToc();
+    narrow.addEventListener('change', fitToc);
+    toc.addEventListener('click', function (e) {
+      if (narrow.matches && e.target.closest('a')) toc.open = false;
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && narrow.matches && toc.open) {
+        toc.open = false;
+        toc.querySelector('summary').focus();
+      }
+    });
+  }
 
   function place(el, x, y) {
     var rects = el.getClientRects(), r = rects[0];
