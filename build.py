@@ -57,6 +57,42 @@ def split_sents(s):
     return [x for x in SENT.findall(s) if x.strip()]
 
 
+NOTE_HEAD = re.compile(r'[^。！？；：:\n]{1,64}：')
+NOTE_QUOTED_HEAD = re.compile(r'“[^”\n]{1,32}”(?:即|指|为|是|同|通|见|出自)')
+NOTE_CONTINUATION = re.compile(
+    r'(?:的意思是|的看法是|的观点|的立意|'
+    r'来对比|借此议论|用几个例子说明|指出.*|最意外的是.*|典出.*|见《.*)$'
+)
+
+
+def split_notes(text):
+    """拆开合写的独立词条；引文、括注和同一词条的后续解释保持完整。"""
+    stack = []
+    opening = {'“': '”', '‘': '’', '「': '」', '『': '』',
+               '（': '）', '(': ')', '《': '》', '〈': '〉'}
+    starts = [0]
+    for i, char in enumerate(text):
+        if not stack and i:
+            # 允许句末引号后的新词条，但不在尚未结束的引用中拆分。
+            before = text[:i].rstrip('”’」』）)》〉 ')
+            if before and before[-1] in '。！？；':
+                head = NOTE_HEAD.match(text, i)
+                quoted = NOTE_QUOTED_HEAD.match(text, i)
+                citation = (head and head[0][:-1].endswith(('曰', '云', '载', '爻辞', '象辞'))
+                            and text[head.end():].startswith(('“', '‘', '「', '『')))
+                if ((head and all(head[0].count(a) == head[0].count(b)
+                                  for a, b in opening.items())
+                     and not citation
+                     and not NOTE_CONTINUATION.search(head[0][:-1])) or quoted):
+                    starts.append(i)
+        if char in opening:
+            stack.append(opening[char])
+        elif stack and char == stack[-1]:
+            stack.pop()
+    starts.append(len(text))
+    return [text[a:b].strip() for a, b in zip(starts, starts[1:]) if text[a:b].strip()]
+
+
 def split_pairs(o, t):
     """按句号/叹号/问号把一段原文拆成句，并与译文逐句对应。
     译文里可用「¦」显式分句；句数对不上时整段不拆。"""
@@ -90,7 +126,7 @@ def parse_juan(path):
             if cur and cur["paras"][-1]:
                 cur["paras"].append([])
         elif ln.startswith("注："):
-            cur["notes"].append(ln[2:].strip())
+            cur["notes"].extend(split_notes(ln[2:].strip()))
         elif "||" in ln:
             o, t = (x.strip() for x in ln.split("||", 1))
             cur["paras"][-1].append((o, t))
@@ -320,7 +356,7 @@ def parse_poems(paths):
                 tbls = [c for c in cur["chunks"] if "tbl" in c]
                 tbls[-1]["tbl"]["rows"].append(ln[3:].split("｜"))
             elif ln.startswith("注："):
-                cur["chunks"][-1]["notes"].append(ln[2:].strip())
+                cur["chunks"][-1]["notes"].extend(split_notes(ln[2:].strip()))
             else:
                 raise ValueError(f"{path}: 无法解析：{ln}")
     return sections

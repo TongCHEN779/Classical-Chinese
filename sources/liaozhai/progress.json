@@ -1352,8 +1352,16 @@
           "title": "黄九郎",
           "printed_page": 604,
           "pdf_page": 650,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 650,
+            "pdf_end": 669,
+            "original_translation_notes": true,
+            "sentence_pairs": 165,
+            "author_commentary": "complete_smiling_judgment"
+          }
         },
         {
           "id": "012",
@@ -1637,7 +1645,7 @@
         ],
         "entries": 45
       },
-      "pdf_offset_status": "verified_through_pdf_650"
+      "pdf_offset_status": "verified_through_pdf_669"
     },
     {
       "volume": 4,
