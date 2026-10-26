@@ -1195,7 +1195,7 @@
     },
     {
       "volume": 3,
-      "status": "in_progress",
+      "status": "complete",
       "entries": [
         {
           "id": "001",
@@ -1833,24 +1833,45 @@
           "title": "毛狐",
           "printed_page": 854,
           "pdf_page": 900,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 900,
+            "pdf_end": 907,
+            "original_translation_notes": true,
+            "sentence_pairs": 68
+          }
         },
         {
           "id": "044",
           "title": "翩翩",
           "printed_page": 862,
           "pdf_page": 908,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 908,
+            "pdf_end": 919,
+            "original_translation_notes": true,
+            "sentence_pairs": 91
+          }
         },
         {
           "id": "045",
           "title": "黑兽",
           "printed_page": 875,
           "pdf_page": 921,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 921,
+            "pdf_end": 923,
+            "original_translation_notes": true,
+            "sentence_pairs": 17
+          }
         }
       ],
       "catalog_review": {
@@ -1862,11 +1883,426 @@
         ],
         "entries": 45
       },
-      "pdf_offset_status": "verified_through_pdf_900"
+      "pdf_offset_status": "verified_through_volume_end"
     },
     {
       "volume": 4,
-      "status": "pending"
+      "status": "in_progress",
+      "entries": [
+        {
+          "id": "001",
+          "title": "余德",
+          "printed_page": 879,
+          "pdf_page": 949,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 949,
+            "pdf_end": 954,
+            "original_translation_notes": true,
+            "sentence_pairs": 53
+          }
+        },
+        {
+          "id": "002",
+          "title": "杨千总",
+          "printed_page": 886,
+          "pdf_page": 956,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 956,
+            "pdf_end": 956,
+            "original_translation_notes": true,
+            "sentence_pairs": 8
+          }
+        },
+        {
+          "id": "003",
+          "title": "瓜异",
+          "printed_page": 887,
+          "pdf_page": 957,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 957,
+            "pdf_end": 957,
+            "original_translation_notes": true,
+            "sentence_pairs": 1
+          }
+        },
+        {
+          "id": "004",
+          "title": "青梅",
+          "printed_page": 888,
+          "pdf_page": 958,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 958,
+            "pdf_end": 977,
+            "original_translation_notes": true,
+            "sentence_pairs": 203
+          }
+        },
+        {
+          "id": "005",
+          "title": "罗刹海市",
+          "printed_page": 907,
+          "pdf_page": 977,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 977,
+            "pdf_end": 1001,
+            "original_translation_notes": true,
+            "sentence_pairs": 218
+          }
+        },
+        {
+          "id": "006",
+          "title": "田七郎",
+          "printed_page": 933,
+          "pdf_page": 1003,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 1003,
+            "pdf_end": 1018,
+            "original_translation_notes": true,
+            "sentence_pairs": 160
+          }
+        },
+        {
+          "id": "007",
+          "title": "产龙",
+          "printed_page": 948,
+          "pdf_page": 1018,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 1018,
+            "pdf_end": 1019,
+            "original_translation_notes": true,
+            "sentence_pairs": 7
+          }
+        },
+        {
+          "id": "008",
+          "title": "保住",
+          "printed_page": 950,
+          "pdf_page": 1020,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 1020,
+            "pdf_end": 1022,
+            "original_translation_notes": true,
+            "sentence_pairs": 25
+          }
+        },
+        {
+          "id": "009",
+          "title": "公孙九娘",
+          "printed_page": 953,
+          "pdf_page": 1023,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 1023,
+            "pdf_end": 1039,
+            "original_translation_notes": true,
+            "sentence_pairs": 150
+          }
+        },
+        {
+          "id": "010",
+          "title": "促织",
+          "printed_page": 970,
+          "pdf_page": 1040,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 1040,
+            "pdf_end": 1053,
+            "original_translation_notes": true,
+            "sentence_pairs": 114
+          }
+        },
+        {
+          "id": "011",
+          "title": "柳秀才",
+          "printed_page": 984,
+          "pdf_page": 1054,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 1054,
+            "pdf_end": 1055,
+            "original_translation_notes": true,
+            "sentence_pairs": 15
+          }
+        },
+        {
+          "id": "012",
+          "title": "水灾",
+          "printed_page": 986,
+          "pdf_page": 1056,
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 1056,
+            "pdf_end": 1058,
+            "original_translation_notes": true,
+            "sentence_pairs": 16
+          }
+        },
+        {
+          "id": "013",
+          "title": "诸城某甲",
+          "printed_page": 989,
+          "pdf_page": 1059,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "014",
+          "title": "库官",
+          "printed_page": 991,
+          "pdf_page": 1061,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "015",
+          "title": "酆都御史",
+          "printed_page": 994,
+          "pdf_page": 1064,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "016",
+          "title": "龙无目",
+          "printed_page": 997,
+          "pdf_page": 1067,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "017",
+          "title": "狐谐",
+          "printed_page": 998,
+          "pdf_page": 1068,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "018",
+          "title": "雨钱",
+          "printed_page": 1008,
+          "pdf_page": 1078,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "019",
+          "title": "妾击贼",
+          "printed_page": 1011,
+          "pdf_page": 1081,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "020",
+          "title": "驱怪",
+          "printed_page": 1015,
+          "pdf_page": 1085,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "021",
+          "title": "姊妹易嫁",
+          "printed_page": 1020,
+          "pdf_page": 1090,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "022",
+          "title": "续黄粱",
+          "printed_page": 1031,
+          "pdf_page": 1101,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "023",
+          "title": "龙取水",
+          "printed_page": 1052,
+          "pdf_page": 1122,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "024",
+          "title": "小猎犬",
+          "printed_page": 1054,
+          "pdf_page": 1124,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "025",
+          "title": "棋鬼",
+          "printed_page": 1058,
+          "pdf_page": 1128,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "026",
+          "title": "辛十四娘",
+          "printed_page": 1063,
+          "pdf_page": 1133,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "027",
+          "title": "白莲教",
+          "printed_page": 1086,
+          "pdf_page": 1156,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "028",
+          "title": "双灯",
+          "printed_page": 1090,
+          "pdf_page": 1160,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "029",
+          "title": "捉鬼射狐",
+          "printed_page": 1094,
+          "pdf_page": 1164,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "030",
+          "title": "蹇偿债",
+          "printed_page": 1099,
+          "pdf_page": 1169,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "031",
+          "title": "头滚",
+          "printed_page": 1102,
+          "pdf_page": 1172,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "032",
+          "title": "鬼作筵",
+          "printed_page": 1104,
+          "pdf_page": 1174,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "033",
+          "title": "胡四相公",
+          "printed_page": 1108,
+          "pdf_page": 1178,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "034",
+          "title": "念秧",
+          "printed_page": 1117,
+          "pdf_page": 1187,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "035",
+          "title": "蛙曲",
+          "printed_page": 1140,
+          "pdf_page": 1210,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "036",
+          "title": "鼠戏",
+          "printed_page": 1141,
+          "pdf_page": 1211,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "037",
+          "title": "泥书生",
+          "printed_page": 1142,
+          "pdf_page": 1212,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "038",
+          "title": "土地夫人",
+          "printed_page": 1144,
+          "pdf_page": 1214,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "039",
+          "title": "寒月芙蕖",
+          "printed_page": 1146,
+          "pdf_page": 1216,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        },
+        {
+          "id": "040",
+          "title": "酒狂",
+          "printed_page": 1152,
+          "pdf_page": 1222,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_70"
+        }
+      ],
+      "catalog_review": {
+        "source": "local_scan",
+        "pdf_pages": [
+          33,
+          34
+        ],
+        "entries": 40
+      },
+      "pdf_offset_status": "verified_through_pdf_1058"
     },
     {
       "volume": 5,
