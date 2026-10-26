@@ -570,143 +570,262 @@
     },
     {
       "volume": 2,
-      "status": "pending",
+      "status": "in_progress",
       "entries": [
         {
           "id": "001",
           "title": "金世成",
           "printed_page": 262,
           "pdf_page": 308,
-          "status": "pending",
-          "pdf_page_status": "verified_start"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 308,
+            "pdf_end": 310,
+            "original_translation_notes": true,
+            "sentence_pairs": 15
+          }
         },
         {
           "id": "002",
           "title": "董生",
           "printed_page": 265,
           "pdf_page": 311,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 311,
+            "pdf_end": 320,
+            "original_translation_notes": true,
+            "sentence_pairs": 100
+          }
         },
         {
           "id": "003",
           "title": "龁石",
           "printed_page": 274,
           "pdf_page": 320,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 320,
+            "pdf_end": 321,
+            "original_translation_notes": true,
+            "sentence_pairs": 6
+          }
         },
         {
           "id": "004",
           "title": "庙鬼",
           "printed_page": 276,
           "pdf_page": 322,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 322,
+            "pdf_end": 323,
+            "original_translation_notes": true,
+            "sentence_pairs": 16
+          }
         },
         {
           "id": "005",
           "title": "陆判",
           "printed_page": 278,
           "pdf_page": 324,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 324,
+            "pdf_end": 342,
+            "original_translation_notes": true,
+            "sentence_pairs": 171
+          }
         },
         {
           "id": "006",
           "title": "婴宁",
           "printed_page": 296,
           "pdf_page": 342,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 342,
+            "pdf_end": 366,
+            "original_translation_notes": true,
+            "sentence_pairs": 271
+          }
         },
         {
           "id": "007",
           "title": "聂小倩",
           "printed_page": 320,
           "pdf_page": 366,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 366,
+            "pdf_end": 384,
+            "original_translation_notes": true,
+            "sentence_pairs": 191
+          }
         },
         {
           "id": "008",
           "title": "义鼠",
           "printed_page": 339,
           "pdf_page": 385,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 385,
+            "pdf_end": 386,
+            "original_translation_notes": true,
+            "sentence_pairs": 11
+          }
         },
         {
           "id": "009",
           "title": "地震",
           "printed_page": 341,
           "pdf_page": 387,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 387,
+            "pdf_end": 389,
+            "original_translation_notes": true,
+            "sentence_pairs": 25
+          }
         },
         {
           "id": "010",
           "title": "海公子",
           "printed_page": 344,
           "pdf_page": 390,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 390,
+            "pdf_end": 393,
+            "original_translation_notes": true,
+            "sentence_pairs": 30
+          }
         },
         {
           "id": "011",
           "title": "丁前溪",
           "printed_page": 348,
           "pdf_page": 394,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 394,
+            "pdf_end": 399,
+            "original_translation_notes": true,
+            "sentence_pairs": 44
+          }
         },
         {
           "id": "012",
           "title": "海大鱼",
           "printed_page": 353,
           "pdf_page": 399,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 399,
+            "pdf_end": 400,
+            "original_translation_notes": true,
+            "sentence_pairs": 4
+          }
         },
         {
           "id": "013",
           "title": "张老相公",
           "printed_page": 354,
           "pdf_page": 400,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 400,
+            "pdf_end": 402,
+            "original_translation_notes": true,
+            "sentence_pairs": 18
+          }
         },
         {
           "id": "014",
           "title": "水莽草",
           "printed_page": 357,
           "pdf_page": 403,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 403,
+            "pdf_end": 412,
+            "original_translation_notes": true,
+            "sentence_pairs": 96
+          }
         },
         {
           "id": "015",
           "title": "造畜",
           "printed_page": 367,
           "pdf_page": 413,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 413,
+            "pdf_end": 414,
+            "original_translation_notes": true,
+            "sentence_pairs": 18
+          }
         },
         {
           "id": "016",
           "title": "凤阳士人",
           "printed_page": 369,
           "pdf_page": 415,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 415,
+            "pdf_end": 423,
+            "original_translation_notes": true,
+            "sentence_pairs": 73
+          }
         },
         {
           "id": "017",
           "title": "耿十八",
           "printed_page": 377,
           "pdf_page": 423,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_46"
+          "status": "complete",
+          "pdf_page_status": "verified",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 423,
+            "pdf_end": 428,
+            "original_translation_notes": true,
+            "sentence_pairs": 51
+          }
         },
         {
           "id": "018",
