@@ -302,7 +302,19 @@ def _liaozhai_spec():
             ]}
 
 
+def _huainanzi_spec():
+    import json
+    progress = json.loads((ROOT / "sources/huainanzi/progress.json").read_text(encoding="utf8"))
+    complete = sum(e["status"] == "complete" for v in progress["volumes"] for e in v.get("entries", []))
+    return {"title": "淮南子", "author": "［西汉］刘安及其门客", "unit": "节",
+            "intro": "西汉思想著作，共二十一卷。依本地中华书局陈广忠译注本校录原文，配自撰逐句白话、独立注释与题解。"
+                     + f"目前已整理{complete}节，卷一仍在整理中；分节编号及小标题为整理者所加。",
+            "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
+                       ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
+
+
 POETRY = {
+    "huainanzi": _huainanzi_spec(),
     "liaozhai": _liaozhai_spec(),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
               "intro": "中国第一部纪传体通史，分本纪、表、书、世家、列传共一百三十卷。此处依《二十四史全译》本，只收原文，十表仅收序言与论赞。",

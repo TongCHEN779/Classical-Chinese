@@ -1,0 +1,191 @@
+{
+  "source": "淮南子.pdf",
+  "edition": "中华书局《淮南子》（全二册），陈广忠译注，2012年1月第1版",
+  "pdf_pages": 1294,
+  "catalog_review": {
+    "source": "local_scan",
+    "pdf_pages": [
+      13,
+      14
+    ]
+  },
+  "section_policy": "依底本连续正文分段；编号与小标题为整理者所加，不是原书章目。",
+  "volumes": [
+    {
+      "volume": 1,
+      "title": "原道训",
+      "printed_page": 1,
+      "status": "in_progress",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜道的广大与变化",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 15,
+            "pdf_end": 16,
+            "sentence_pairs": 7,
+            "notes": 32
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜顺道而行与万物和生",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/002.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 17,
+            "pdf_end": 18,
+            "sentence_pairs": 8,
+            "notes": 33
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜生而不有与无形之用",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan01/003.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 19,
+            "pdf_end": 20,
+            "sentence_pairs": 4,
+            "notes": 28
+          }
+        }
+      ]
+    },
+    {
+      "volume": 2,
+      "title": "俶真训",
+      "printed_page": 54,
+      "status": "pending"
+    },
+    {
+      "volume": 3,
+      "title": "天文训",
+      "printed_page": 103,
+      "status": "pending"
+    },
+    {
+      "volume": 4,
+      "title": "地形训",
+      "printed_page": 193,
+      "status": "pending"
+    },
+    {
+      "volume": 5,
+      "title": "时则训",
+      "printed_page": 239,
+      "status": "pending"
+    },
+    {
+      "volume": 6,
+      "title": "览冥训",
+      "printed_page": 302,
+      "status": "pending"
+    },
+    {
+      "volume": 7,
+      "title": "精神训",
+      "printed_page": 336,
+      "status": "pending"
+    },
+    {
+      "volume": 8,
+      "title": "本经训",
+      "printed_page": 378,
+      "status": "pending"
+    },
+    {
+      "volume": 9,
+      "title": "主术训",
+      "printed_page": 417,
+      "status": "pending"
+    },
+    {
+      "volume": 10,
+      "title": "缪称训",
+      "printed_page": 505,
+      "status": "pending"
+    },
+    {
+      "volume": 11,
+      "title": "齐俗训",
+      "printed_page": 564,
+      "status": "pending"
+    },
+    {
+      "volume": 12,
+      "title": "道应训",
+      "printed_page": 629,
+      "status": "pending"
+    },
+    {
+      "volume": 13,
+      "title": "氾论训",
+      "printed_page": 715,
+      "status": "pending"
+    },
+    {
+      "volume": 14,
+      "title": "诠言训",
+      "printed_page": 790,
+      "status": "pending"
+    },
+    {
+      "volume": 15,
+      "title": "兵略训",
+      "printed_page": 845,
+      "status": "pending"
+    },
+    {
+      "volume": 16,
+      "title": "说山训",
+      "printed_page": 911,
+      "status": "pending"
+    },
+    {
+      "volume": 17,
+      "title": "说林训",
+      "printed_page": 972,
+      "status": "pending"
+    },
+    {
+      "volume": 18,
+      "title": "人间训",
+      "printed_page": 1034,
+      "status": "pending"
+    },
+    {
+      "volume": 19,
+      "title": "脩务训",
+      "printed_page": 1117,
+      "status": "pending"
+    },
+    {
+      "volume": 20,
+      "title": "泰族训",
+      "printed_page": 1167,
+      "status": "pending"
+    },
+    {
+      "volume": 21,
+      "title": "要略",
+      "printed_page": 1239,
+      "status": "pending"
+    }
+  ],
+  "next": {
+    "volume": 1,
+    "id": "004",
+    "pdf_page": 21,
+    "printed_page": 7,
+    "starts_with": "昔者冯夷、大丙之御也",
+    "status": "pending"
+  },
+  "pdf_offset_status": "卷一开篇已核实PDF页序=印刷页码+14；其余卷，尤其下册，不套用未经复核的偏移。"
+}
