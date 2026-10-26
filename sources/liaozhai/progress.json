@@ -6,7 +6,7 @@
   "volumes": [
     {
       "volume": 1,
-      "status": "in_progress",
+      "status": "complete",
       "entries": [
         {
           "id": "001",
@@ -535,20 +535,373 @@
           "title": "贾儿",
           "printed_page": 249,
           "pdf_page": 295,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 295,
+            "pdf_end": 306,
+            "original_translation_notes": true,
+            "sentence_pairs": 120
+          }
         },
         {
           "id": "042",
           "title": "蛇癖",
           "printed_page": 260,
           "pdf_page": 306,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 306,
+            "pdf_end": 307,
+            "original_translation_notes": true,
+            "sentence_pairs": 5
+          }
         }
-      ]
+      ],
+      "catalog_review": {
+        "source": "local_scan",
+        "pdf_pages": [
+          28,
+          29
+        ],
+        "entries": 42
+      }
     },
     {
       "volume": 2,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "金世成",
+          "printed_page": 262,
+          "pdf_page": 308,
+          "status": "pending",
+          "pdf_page_status": "verified_start"
+        },
+        {
+          "id": "002",
+          "title": "董生",
+          "printed_page": 265,
+          "pdf_page": 311,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "003",
+          "title": "龁石",
+          "printed_page": 274,
+          "pdf_page": 320,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "004",
+          "title": "庙鬼",
+          "printed_page": 276,
+          "pdf_page": 322,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "005",
+          "title": "陆判",
+          "printed_page": 278,
+          "pdf_page": 324,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "006",
+          "title": "婴宁",
+          "printed_page": 296,
+          "pdf_page": 342,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "007",
+          "title": "聂小倩",
+          "printed_page": 320,
+          "pdf_page": 366,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "008",
+          "title": "义鼠",
+          "printed_page": 339,
+          "pdf_page": 385,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "009",
+          "title": "地震",
+          "printed_page": 341,
+          "pdf_page": 387,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "010",
+          "title": "海公子",
+          "printed_page": 344,
+          "pdf_page": 390,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "011",
+          "title": "丁前溪",
+          "printed_page": 348,
+          "pdf_page": 394,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "012",
+          "title": "海大鱼",
+          "printed_page": 353,
+          "pdf_page": 399,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "013",
+          "title": "张老相公",
+          "printed_page": 354,
+          "pdf_page": 400,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "014",
+          "title": "水莽草",
+          "printed_page": 357,
+          "pdf_page": 403,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "015",
+          "title": "造畜",
+          "printed_page": 367,
+          "pdf_page": 413,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "016",
+          "title": "凤阳士人",
+          "printed_page": 369,
+          "pdf_page": 415,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "017",
+          "title": "耿十八",
+          "printed_page": 377,
+          "pdf_page": 423,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "018",
+          "title": "珠儿",
+          "printed_page": 383,
+          "pdf_page": 429,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "019",
+          "title": "小官人",
+          "printed_page": 393,
+          "pdf_page": 439,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "020",
+          "title": "胡四姐",
+          "printed_page": 395,
+          "pdf_page": 441,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "021",
+          "title": "祝翁",
+          "printed_page": 404,
+          "pdf_page": 450,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "022",
+          "title": "猪婆龙",
+          "printed_page": 408,
+          "pdf_page": 454,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "023",
+          "title": "某公",
+          "printed_page": 409,
+          "pdf_page": 455,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "024",
+          "title": "快刀",
+          "printed_page": 411,
+          "pdf_page": 457,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "025",
+          "title": "侠女",
+          "printed_page": 413,
+          "pdf_page": 459,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "026",
+          "title": "酒友",
+          "printed_page": 426,
+          "pdf_page": 472,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "027",
+          "title": "莲香",
+          "printed_page": 431,
+          "pdf_page": 477,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "028",
+          "title": "阿宝",
+          "printed_page": 456,
+          "pdf_page": 502,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "029",
+          "title": "九山王",
+          "printed_page": 469,
+          "pdf_page": 515,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "030",
+          "title": "遵化署狐",
+          "printed_page": 478,
+          "pdf_page": 524,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "031",
+          "title": "张诚",
+          "printed_page": 482,
+          "pdf_page": 528,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "032",
+          "title": "汾州狐",
+          "printed_page": 496,
+          "pdf_page": 542,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "033",
+          "title": "巧娘",
+          "printed_page": 498,
+          "pdf_page": 544,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "034",
+          "title": "吴令",
+          "printed_page": 515,
+          "pdf_page": 561,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "035",
+          "title": "口技",
+          "printed_page": 518,
+          "pdf_page": 564,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "036",
+          "title": "狐联",
+          "printed_page": 523,
+          "pdf_page": 569,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "037",
+          "title": "潍水狐",
+          "printed_page": 525,
+          "pdf_page": 571,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "038",
+          "title": "红玉",
+          "printed_page": 529,
+          "pdf_page": 575,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "039",
+          "title": "龙",
+          "printed_page": 544,
+          "pdf_page": 590,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        },
+        {
+          "id": "040",
+          "title": "林四娘",
+          "printed_page": 548,
+          "pdf_page": 594,
+          "status": "pending",
+          "pdf_page_status": "expected_offset_46"
+        }
+      ],
+      "catalog_review": {
+        "source": "local_scan",
+        "pdf_pages": [
+          30,
+          31
+        ],
+        "entries": 40
+      },
+      "pdf_offset_status": "verified_at_volume_start_only"
     },
     {
       "volume": 3,
