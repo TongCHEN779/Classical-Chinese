@@ -521,7 +521,14 @@
           "title": "画皮",
           "printed_page": 239,
           "pdf_page": 285,
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 285,
+            "pdf_end": 295,
+            "original_translation_notes": true,
+            "sentence_pairs": 127
+          }
         },
         {
           "id": "041",
