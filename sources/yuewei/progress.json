@@ -1,0 +1,1479 @@
+{
+  "source": "阅微草堂笔记.pdf",
+  "author": "［清］纪昀",
+  "edition": "中华书局《阅微草堂笔记》（全三册），韩希明译注，2014年2月北京第1版",
+  "isbn": "978-7-101-09805-1",
+  "pdf_pages": 1769,
+  "catalog_review": {
+    "source": "local_scan",
+    "pdf_pages": [
+      12,
+      13
+    ]
+  },
+  "section_policy": "卷前原序、郑序、诗二首单列页面；卷一含卷首自记及47则正文。正文原无篇题，故事编号和概括标题为整理者所加，不冒称原书篇名。保留全部作者议论，按连续叙事与长段结构分段配句译。",
+  "front_matter": [
+    {
+      "slug": "yuanxu",
+      "title": "原序·盛时彦",
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "kind": "preface",
+          "title": "《阅微草堂笔记》原序｜盛时彦",
+          "status": "complete",
+          "source_file": "src/yuewei/yuanxu/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 15,
+            "pdf_end": 16,
+            "paragraphs": 3,
+            "sentence_pairs": 17,
+            "notes": 22,
+            "chunks": [
+              {
+                "pdf_start": 15,
+                "pdf_end": 15,
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "pdf_start": 15,
+                "pdf_end": 15,
+                "sentence_pairs": 5,
+                "notes": 8
+              },
+              {
+                "pdf_start": 15,
+                "pdf_end": 16,
+                "sentence_pairs": 5,
+                "notes": 6
+              }
+            ]
+          }
+        }
+      ],
+      "review_pdf_start": 14,
+      "review_pdf_end": 18
+    },
+    {
+      "slug": "zhengxu",
+      "title": "郑序·郑开禧",
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "kind": "preface",
+          "title": "《阅微草堂笔记》郑序｜郑开禧",
+          "status": "complete",
+          "source_file": "src/yuewei/zhengxu/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 19,
+            "pdf_end": 20,
+            "paragraphs": 1,
+            "sentence_pairs": 10,
+            "notes": 12,
+            "chunks": [
+              {
+                "pdf_start": 19,
+                "pdf_end": 20,
+                "sentence_pairs": 10,
+                "notes": 12
+              }
+            ]
+          }
+        }
+      ],
+      "review_pdf_start": 19,
+      "review_pdf_end": 21
+    },
+    {
+      "slug": "shi",
+      "title": "诗二首·纪昀",
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "kind": "poem",
+          "title": "诗二首·其一｜纪昀",
+          "status": "complete",
+          "source_file": "src/yuewei/shi/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 22,
+            "pdf_end": 22,
+            "paragraphs": 1,
+            "sentence_pairs": 2,
+            "notes": 5,
+            "chunks": [
+              {
+                "pdf_start": 22,
+                "pdf_end": 22,
+                "sentence_pairs": 2,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "kind": "poem",
+          "title": "诗二首·其二｜纪昀",
+          "status": "complete",
+          "source_file": "src/yuewei/shi/002.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 22,
+            "pdf_end": 22,
+            "paragraphs": 1,
+            "sentence_pairs": 2,
+            "notes": 5,
+            "chunks": [
+              {
+                "pdf_start": 22,
+                "pdf_end": 22,
+                "sentence_pairs": 2,
+                "notes": 5
+              }
+            ]
+          }
+        }
+      ],
+      "review_pdf_start": 22,
+      "review_pdf_end": 22
+    }
+  ],
+  "volumes": [
+    {
+      "volume": 1,
+      "title": "滦阳消夏录一",
+      "printed_page": 10,
+      "status": "complete",
+      "entries": [
+        {
+          "id": "000",
+          "kind": "volume_preface",
+          "title": "卷首自记｜追录见闻",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/000.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 23,
+            "pdf_end": 23,
+            "paragraphs": 1,
+            "sentence_pairs": 5,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 23,
+                "pdf_end": 23,
+                "sentence_pairs": 5,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "001",
+          "kind": "story",
+          "title": "01｜邻叟解猪怨",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 24,
+            "pdf_end": 24,
+            "paragraphs": 1,
+            "sentence_pairs": 11,
+            "notes": 10,
+            "chunks": [
+              {
+                "pdf_start": 24,
+                "pdf_end": 24,
+                "sentence_pairs": 11,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "kind": "story",
+          "title": "02｜狐避真孝妇",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/002.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 26,
+            "pdf_end": 26,
+            "paragraphs": 1,
+            "sentence_pairs": 12,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 26,
+                "pdf_end": 26,
+                "sentence_pairs": 12,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "kind": "story",
+          "title": "03｜读书光芒与应试黑烟",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/003.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 27,
+            "pdf_end": 27,
+            "paragraphs": 1,
+            "sentence_pairs": 17,
+            "notes": 11,
+            "chunks": [
+              {
+                "pdf_start": 27,
+                "pdf_end": 27,
+                "sentence_pairs": 17,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "kind": "story",
+          "title": "04｜废园壁上二诗",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/004.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 29,
+            "pdf_end": 29,
+            "paragraphs": 1,
+            "sentence_pairs": 6,
+            "notes": 5,
+            "chunks": [
+              {
+                "pdf_start": 29,
+                "pdf_end": 29,
+                "sentence_pairs": 6,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "kind": "story",
+          "title": "05｜董曲江梦扇三绝句",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/005.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 29,
+            "pdf_end": 29,
+            "paragraphs": 1,
+            "sentence_pairs": 10,
+            "notes": 10,
+            "chunks": [
+              {
+                "pdf_start": 29,
+                "pdf_end": 29,
+                "sentence_pairs": 10,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "kind": "story",
+          "title": "06｜野寺精灵论边诗",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/006.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 30,
+            "pdf_end": 31,
+            "paragraphs": 1,
+            "sentence_pairs": 16,
+            "notes": 8,
+            "chunks": [
+              {
+                "pdf_start": 30,
+                "pdf_end": 31,
+                "sentence_pairs": 16,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "kind": "story",
+          "title": "07｜无赖吕四自取祸辱",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/007.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 32,
+            "pdf_end": 33,
+            "paragraphs": 1,
+            "sentence_pairs": 21,
+            "notes": 11,
+            "chunks": [
+              {
+                "pdf_start": 32,
+                "pdf_end": 33,
+                "sentence_pairs": 21,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "008",
+          "kind": "story",
+          "title": "08｜狐留三日缘",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/008.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 35,
+            "pdf_end": 35,
+            "paragraphs": 1,
+            "sentence_pairs": 16,
+            "notes": 8,
+            "chunks": [
+              {
+                "pdf_start": 35,
+                "pdf_end": 35,
+                "sentence_pairs": 16,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "009",
+          "kind": "story",
+          "title": "09｜安命与尽职",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/009.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 36,
+            "pdf_end": 37,
+            "paragraphs": 1,
+            "sentence_pairs": 31,
+            "notes": 12,
+            "chunks": [
+              {
+                "pdf_start": 36,
+                "pdf_end": 37,
+                "sentence_pairs": 31,
+                "notes": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "010",
+          "kind": "story",
+          "title": "10｜无私村妇与无功清官",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/010.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 38,
+            "pdf_end": 39,
+            "paragraphs": 1,
+            "sentence_pairs": 23,
+            "notes": 10,
+            "chunks": [
+              {
+                "pdf_start": 38,
+                "pdf_end": 39,
+                "sentence_pairs": 23,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "011",
+          "kind": "story",
+          "title": "11｜雷击宦家妇",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/011.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 40,
+            "pdf_end": 40,
+            "paragraphs": 1,
+            "sentence_pairs": 5,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 40,
+                "pdf_end": 40,
+                "sentence_pairs": 5,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "012",
+          "kind": "story",
+          "title": "12｜无云和尚自了偈",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/012.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 41,
+            "pdf_end": 41,
+            "paragraphs": 1,
+            "sentence_pairs": 6,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 41,
+                "pdf_end": 41,
+                "sentence_pairs": 6,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "013",
+          "kind": "story",
+          "title": "13｜狐女说幻化",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/013.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 42,
+            "pdf_end": 43,
+            "paragraphs": 1,
+            "sentence_pairs": 21,
+            "notes": 9,
+            "chunks": [
+              {
+                "pdf_start": 42,
+                "pdf_end": 43,
+                "sentence_pairs": 21,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "014",
+          "kind": "story",
+          "title": "14｜老鬼谈无鬼",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/014.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 44,
+            "pdf_end": 45,
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 44,
+                "pdf_end": 45,
+                "sentence_pairs": 14,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "015",
+          "kind": "story",
+          "title": "15｜唐生戏塾师",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/015.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 46,
+            "pdf_end": 46,
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 46,
+                "pdf_end": 46,
+                "sentence_pairs": 14,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "016",
+          "kind": "story",
+          "title": "16｜轻薄举人与恕字",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/016.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 47,
+            "pdf_end": 47,
+            "paragraphs": 1,
+            "sentence_pairs": 13,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 47,
+                "pdf_end": 47,
+                "sentence_pairs": 13,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "017",
+          "kind": "story",
+          "title": "17｜纵魅与姑容贪吏",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/017.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 48,
+            "pdf_end": 48,
+            "paragraphs": 1,
+            "sentence_pairs": 11,
+            "notes": 8,
+            "chunks": [
+              {
+                "pdf_start": 48,
+                "pdf_end": 48,
+                "sentence_pairs": 11,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "018",
+          "kind": "story",
+          "title": "18｜贪吏积财终尽",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/018.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 49,
+            "pdf_end": 49,
+            "paragraphs": 1,
+            "sentence_pairs": 9,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 49,
+                "pdf_end": 49,
+                "sentence_pairs": 9,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "019",
+          "kind": "story",
+          "title": "19｜驿使一念召邪",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/019.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 50,
+            "pdf_end": 50,
+            "paragraphs": 1,
+            "sentence_pairs": 9,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 50,
+                "pdf_end": 50,
+                "sentence_pairs": 9,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "020",
+          "kind": "story",
+          "title": "20｜真人印与法官符箓",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/020.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 51,
+            "pdf_end": 52,
+            "paragraphs": 1,
+            "sentence_pairs": 23,
+            "notes": 10,
+            "chunks": [
+              {
+                "pdf_start": 51,
+                "pdf_end": 52,
+                "sentence_pairs": 23,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "021",
+          "kind": "story",
+          "title": "21｜经香阁与汉宋之学",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/021.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 53,
+            "pdf_end": 55,
+            "paragraphs": 4,
+            "sentence_pairs": 49,
+            "notes": 32,
+            "chunks": [
+              {
+                "pdf_start": 53,
+                "pdf_end": 53,
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "pdf_start": 53,
+                "pdf_end": 54,
+                "sentence_pairs": 25,
+                "notes": 13
+              },
+              {
+                "pdf_start": 54,
+                "pdf_end": 54,
+                "sentence_pairs": 3,
+                "notes": 2
+              },
+              {
+                "pdf_start": 54,
+                "pdf_end": 55,
+                "sentence_pairs": 19,
+                "notes": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "022",
+          "kind": "story",
+          "title": "22｜曹氏不畏鬼",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/022.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 59,
+            "pdf_end": 59,
+            "paragraphs": 1,
+            "sentence_pairs": 21,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 59,
+                "pdf_end": 59,
+                "sentence_pairs": 21,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "023",
+          "kind": "story",
+          "title": "23｜移神像与假公济私",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/023.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 60,
+            "pdf_end": 61,
+            "paragraphs": 1,
+            "sentence_pairs": 13,
+            "notes": 8,
+            "chunks": [
+              {
+                "pdf_start": 60,
+                "pdf_end": 61,
+                "sentence_pairs": 13,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "024",
+          "kind": "story",
+          "title": "24｜般运术与役使精怪",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/024.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 62,
+            "pdf_end": 62,
+            "paragraphs": 1,
+            "sentence_pairs": 15,
+            "notes": 9,
+            "chunks": [
+              {
+                "pdf_start": 62,
+                "pdf_end": 62,
+                "sentence_pairs": 15,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "025",
+          "kind": "story",
+          "title": "25｜北窗外何必如此",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/025.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 63,
+            "pdf_end": 63,
+            "paragraphs": 1,
+            "sentence_pairs": 9,
+            "notes": 5,
+            "chunks": [
+              {
+                "pdf_start": 63,
+                "pdf_end": 63,
+                "sentence_pairs": 9,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "026",
+          "kind": "story",
+          "title": "26｜骑牛童子吟诗",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/026.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 64,
+            "pdf_end": 64,
+            "paragraphs": 1,
+            "sentence_pairs": 5,
+            "notes": 5,
+            "chunks": [
+              {
+                "pdf_start": 64,
+                "pdf_end": 64,
+                "sentence_pairs": 5,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "027",
+          "kind": "story",
+          "title": "27｜破屋答罗洋诗",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/027.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 65,
+            "pdf_end": 65,
+            "paragraphs": 1,
+            "sentence_pairs": 10,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 65,
+                "pdf_end": 65,
+                "sentence_pairs": 10,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "028",
+          "kind": "story",
+          "title": "28｜李露园梦联",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/028.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 65,
+            "pdf_end": 65,
+            "paragraphs": 1,
+            "sentence_pairs": 5,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 65,
+                "pdf_end": 65,
+                "sentence_pairs": 5,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "029",
+          "kind": "story",
+          "title": "29｜花犬独怨柳意",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/029.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 66,
+            "pdf_end": 66,
+            "paragraphs": 1,
+            "sentence_pairs": 6,
+            "notes": 4,
+            "chunks": [
+              {
+                "pdf_start": 66,
+                "pdf_end": 66,
+                "sentence_pairs": 6,
+                "notes": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "030",
+          "kind": "story",
+          "title": "30｜古柏朱衣人",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/030.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 66,
+            "pdf_end": 67,
+            "paragraphs": 1,
+            "sentence_pairs": 10,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 66,
+                "pdf_end": 67,
+                "sentence_pairs": 10,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "031",
+          "kind": "story",
+          "title": "31｜吕道士幻术摄魂",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/031.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 68,
+            "pdf_end": 68,
+            "paragraphs": 1,
+            "sentence_pairs": 27,
+            "notes": 9,
+            "chunks": [
+              {
+                "pdf_start": 68,
+                "pdf_end": 68,
+                "sentence_pairs": 27,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "032",
+          "kind": "story",
+          "title": "32｜马语戒圉人",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/032.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 70,
+            "pdf_end": 70,
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 70,
+                "pdf_end": 70,
+                "sentence_pairs": 14,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "033",
+          "kind": "story",
+          "title": "33｜侍姬不出詈语",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/033.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 71,
+            "pdf_end": 71,
+            "paragraphs": 1,
+            "sentence_pairs": 2,
+            "notes": 3,
+            "chunks": [
+              {
+                "pdf_start": 71,
+                "pdf_end": 71,
+                "sentence_pairs": 2,
+                "notes": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "034",
+          "kind": "story",
+          "title": "34｜隐恶难名",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/034.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 71,
+            "pdf_end": 72,
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 71,
+                "pdf_end": 72,
+                "sentence_pairs": 14,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "035",
+          "kind": "story",
+          "title": "35｜诗画似成西行谶",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/035.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 72,
+            "pdf_end": 73,
+            "paragraphs": 1,
+            "sentence_pairs": 10,
+            "notes": 8,
+            "chunks": [
+              {
+                "pdf_start": 72,
+                "pdf_end": 73,
+                "sentence_pairs": 10,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "036",
+          "kind": "story",
+          "title": "36｜毒医殃及后嗣",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/036.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 73,
+            "pdf_end": 73,
+            "paragraphs": 1,
+            "sentence_pairs": 9,
+            "notes": 6,
+            "chunks": [
+              {
+                "pdf_start": 73,
+                "pdf_end": 73,
+                "sentence_pairs": 9,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "037",
+          "kind": "story",
+          "title": "37｜知墙倒而不知大败",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/037.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 74,
+            "pdf_end": 74,
+            "paragraphs": 1,
+            "sentence_pairs": 6,
+            "notes": 4,
+            "chunks": [
+              {
+                "pdf_start": 74,
+                "pdf_end": 74,
+                "sentence_pairs": 6,
+                "notes": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "038",
+          "kind": "story",
+          "title": "38｜僧人幻术戒邪念",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/038.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 75,
+            "pdf_end": 75,
+            "paragraphs": 1,
+            "sentence_pairs": 20,
+            "notes": 8,
+            "chunks": [
+              {
+                "pdf_start": 75,
+                "pdf_end": 75,
+                "sentence_pairs": 20,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "039",
+          "kind": "story",
+          "title": "39｜胡维华覆宗的前因",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/039.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 77,
+            "pdf_end": 77,
+            "paragraphs": 2,
+            "sentence_pairs": 25,
+            "notes": 11,
+            "chunks": [
+              {
+                "pdf_start": 77,
+                "pdf_end": 77,
+                "sentence_pairs": 6,
+                "notes": 4
+              },
+              {
+                "pdf_start": 77,
+                "pdf_end": 77,
+                "sentence_pairs": 19,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "040",
+          "kind": "story",
+          "title": "40｜慧女蓄志复仇",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/040.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 78,
+            "pdf_end": 79,
+            "paragraphs": 1,
+            "sentence_pairs": 13,
+            "notes": 8,
+            "chunks": [
+              {
+                "pdf_start": 78,
+                "pdf_end": 79,
+                "sentence_pairs": 13,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "041",
+          "kind": "story",
+          "title": "41｜幽魂过关也需文牒",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/041.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 80,
+            "pdf_end": 80,
+            "paragraphs": 2,
+            "sentence_pairs": 29,
+            "notes": 13,
+            "chunks": [
+              {
+                "pdf_start": 80,
+                "pdf_end": 80,
+                "sentence_pairs": 22,
+                "notes": 9
+              },
+              {
+                "pdf_start": 80,
+                "pdf_end": 80,
+                "sentence_pairs": 7,
+                "notes": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "042",
+          "kind": "story",
+          "title": "42｜钱塘舟中僧续诗",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/042.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 82,
+            "pdf_end": 82,
+            "paragraphs": 1,
+            "sentence_pairs": 13,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 82,
+                "pdf_end": 82,
+                "sentence_pairs": 13,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "043",
+          "kind": "story",
+          "title": "43｜伐桑见绿衣神",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/043.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 83,
+            "pdf_end": 83,
+            "paragraphs": 1,
+            "sentence_pairs": 7,
+            "notes": 8,
+            "chunks": [
+              {
+                "pdf_start": 83,
+                "pdf_end": 83,
+                "sentence_pairs": 7,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "044",
+          "kind": "story",
+          "title": "44｜阳宅吉凶与善恶赏罚",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/044.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 84,
+            "pdf_end": 84,
+            "paragraphs": 1,
+            "sentence_pairs": 19,
+            "notes": 9,
+            "chunks": [
+              {
+                "pdf_start": 84,
+                "pdf_end": 84,
+                "sentence_pairs": 19,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "045",
+          "kind": "story",
+          "title": "45｜黄叶道人与杏树女怪",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/045.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 86,
+            "pdf_end": 86,
+            "paragraphs": 1,
+            "sentence_pairs": 11,
+            "notes": 5,
+            "chunks": [
+              {
+                "pdf_start": 86,
+                "pdf_end": 86,
+                "sentence_pairs": 11,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "046",
+          "kind": "story",
+          "title": "46｜贞魂一念自警",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/046.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 87,
+            "pdf_end": 87,
+            "paragraphs": 1,
+            "sentence_pairs": 12,
+            "notes": 9,
+            "chunks": [
+              {
+                "pdf_start": 87,
+                "pdf_end": 87,
+                "sentence_pairs": 12,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "047",
+          "kind": "story",
+          "title": "47｜暗鬼忏悔求语",
+          "status": "complete",
+          "source_file": "src/yuewei/juan01/047.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 88,
+            "pdf_end": 88,
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 7,
+            "chunks": [
+              {
+                "pdf_start": 88,
+                "pdf_end": 88,
+                "sentence_pairs": 14,
+                "notes": 7
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "source": "local_scan",
+        "pdf_start": 23,
+        "pdf_end": 89,
+        "printed_start": 10,
+        "printed_end": 76,
+        "body_pdf_end": 88,
+        "stories": 47,
+        "volume_prefaces": 1,
+        "paragraphs": 53,
+        "sentence_pairs": 681,
+        "notes": 387
+      }
+    },
+    {
+      "volume": 2,
+      "title": "滦阳消夏录二",
+      "printed_page": 77,
+      "status": "pending",
+      "title_pdf_page": 90
+    },
+    {
+      "volume": 3,
+      "title": "滦阳消夏录三",
+      "printed_page": 142,
+      "status": "pending"
+    },
+    {
+      "volume": 4,
+      "title": "滦阳消夏录四",
+      "printed_page": 208,
+      "status": "pending"
+    },
+    {
+      "volume": 5,
+      "title": "滦阳消夏录五",
+      "printed_page": 275,
+      "status": "pending"
+    },
+    {
+      "volume": 6,
+      "title": "滦阳消夏录六",
+      "printed_page": 337,
+      "status": "pending"
+    },
+    {
+      "volume": 7,
+      "title": "如是我闻一",
+      "printed_page": 401,
+      "status": "pending"
+    },
+    {
+      "volume": 8,
+      "title": "如是我闻二",
+      "printed_page": 485,
+      "status": "pending"
+    },
+    {
+      "volume": 9,
+      "title": "如是我闻三",
+      "printed_page": 561,
+      "status": "pending"
+    },
+    {
+      "volume": 10,
+      "title": "如是我闻四",
+      "printed_page": 641,
+      "status": "pending"
+    },
+    {
+      "volume": 11,
+      "title": "槐西杂志一",
+      "printed_page": 724,
+      "status": "pending"
+    },
+    {
+      "volume": 12,
+      "title": "槐西杂志二",
+      "printed_page": 829,
+      "status": "pending"
+    },
+    {
+      "volume": 13,
+      "title": "槐西杂志三",
+      "printed_page": 930,
+      "status": "pending"
+    },
+    {
+      "volume": 14,
+      "title": "槐西杂志四",
+      "printed_page": 1031,
+      "status": "pending"
+    },
+    {
+      "volume": 15,
+      "title": "姑妄听之一",
+      "printed_page": 1131,
+      "status": "pending"
+    },
+    {
+      "volume": 16,
+      "title": "姑妄听之二",
+      "printed_page": 1221,
+      "status": "pending"
+    },
+    {
+      "volume": 17,
+      "title": "姑妄听之三",
+      "printed_page": 1301,
+      "status": "pending"
+    },
+    {
+      "volume": 18,
+      "title": "姑妄听之四",
+      "printed_page": 1387,
+      "status": "pending"
+    },
+    {
+      "volume": 19,
+      "title": "滦阳续录一",
+      "printed_page": 1479,
+      "status": "pending"
+    },
+    {
+      "volume": 20,
+      "title": "滦阳续录二",
+      "printed_page": 1522,
+      "status": "pending"
+    },
+    {
+      "volume": 21,
+      "title": "滦阳续录三",
+      "printed_page": 1566,
+      "status": "pending"
+    },
+    {
+      "volume": 22,
+      "title": "滦阳续录四",
+      "printed_page": 1609,
+      "status": "pending"
+    },
+    {
+      "volume": 23,
+      "title": "滦阳续录五",
+      "printed_page": 1651,
+      "status": "pending"
+    },
+    {
+      "volume": 24,
+      "title": "滦阳续录六",
+      "printed_page": 1698,
+      "status": "pending",
+      "appendices": [
+        {
+          "title": "纪汝佶六则",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "completed_totals": {
+    "stories": 47,
+    "volume_prefaces": 1,
+    "prefaces": 2,
+    "poems": 2,
+    "paragraphs": 59,
+    "sentence_pairs": 712,
+    "notes": 431
+  },
+  "next": {
+    "volume": 2,
+    "id": "001",
+    "title_pdf_page": 90,
+    "body_pdf_page": 91,
+    "printed_page": 78,
+    "starts_with": "董文恪公少司空时",
+    "status": "pending"
+  },
+  "pdf_offset_status": "卷前材料、卷一及卷二篇题已核实PDF页序为印刷页码加13；中下册须另行复核。",
+  "collation": [
+    {
+      "purpose": "核对诗二首的底本用字与相关转录",
+      "url": "https://zh.wikisource.org/zh-hans/閱微草堂筆記/序"
+    },
+    {
+      "purpose": "辅助辨认䰰字，其从需从鬼、释鬼声",
+      "url": "https://ctext.org/wiki.pl?chapter=386737&if=gb&remap=gb"
+    }
+  ]
+}

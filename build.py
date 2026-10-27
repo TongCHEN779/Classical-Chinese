@@ -346,7 +346,26 @@ def _yantielun_spec():
                        ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
 
 
+def _yuewei_spec():
+    import json
+    progress = json.loads((ROOT / "sources/yuewei/progress.json").read_text(encoding="utf8"))
+    stories = sum(e.get("kind") == "story" and e["status"] == "complete"
+                  for v in progress["volumes"] for e in v.get("entries", []))
+    completed = [f"卷{cn(v['volume'])}" for v in progress["volumes"] if v["status"] == "complete"]
+    status = ("二十四卷全部整理完成。" if len(completed) == 24 else
+              ("已完成" + "、".join(completed) + "，其余正文待整理。" if completed else "全文仍在整理中。"))
+    return {"title": "阅微草堂笔记", "author": "［清］纪昀", "unit": "项",
+            "count_entries": True, "summary_unit": "项",
+            "intro": "清代文言笔记，含《滦阳消夏录》《如是我闻》《槐西杂志》《姑妄听之》《滦阳续录》五种，共二十四卷。依本地中华书局韩希明译注本校录，配自撰逐句白话、独立注释与题解。"
+                     + f"目前已整理{stories}则正文，另收原序、郑序、自题诗二首及卷首自记。" + status
+                     + "原书各则没有篇题，编号与概括标题为整理者所加；目录项数含序、诗与自记。",
+            "pages": [(f["slug"], f["title"]) for f in progress["front_matter"]] + [
+                (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
+                 ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
+
+
 POETRY = {
+    "yuewei": _yuewei_spec(),
     "yantielun": _yantielun_spec(),
     "songlun": _songlun_spec(),
     "huainanzi": _huainanzi_spec(),
