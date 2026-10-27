@@ -333,6 +333,8 @@ def _songlun_spec():
               ("已完成" + "、".join(completed) + "，其余正文待整理。" if completed else "全文仍在整理中。"))
     return {"title": "宋论", "author": "［清］王夫之", "unit": "篇",
             "count_entries": True, "summary_unit": "篇",
+            "page_sources": {f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
+                             for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v.get("entries", []))},
             "intro": "评论宋代政治得失的史论，共十五卷。已完成卷依中华书局刘韶军译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
                      + f"目前已整理{complete}篇。" + status + "保留原书篇序，篇序后的概括性小标题为整理者所加。",
             "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
