@@ -315,8 +315,21 @@ def _liaozhai_spec():
     all_done = (all(v["status"] == "complete" for v in volumes)
                 and progress["preface_status"] == "complete")
     status = "十二卷及《聊斋自志》全部整理完成。" if all_done else f"目前已整理{complete}篇，全文仍在整理中。"
+    page_sources = {}
+    if progress.get("preface_review", {}).get("source") == "wikisource":
+        page_sources["zizhi"] = progress["preface_review"]
+    for volume in volumes:
+        entries = volume.get("entries", [])
+        wiki_entries = [e for e in entries if e.get("review", {}).get("source") == "wikisource"]
+        if wiki_entries:
+            source = dict(wiki_entries[0]["review"])
+            if len(wiki_entries) != len(entries):
+                source["prefix"] = f"本卷第{int(wiki_entries[0]['id'])}—{int(wiki_entries[-1]['id'])}篇原文据"
+                source["after"] = "此前各篇保留原扫描底本校录；"
+            page_sources[f"juan{volume['volume']:02d}"] = source
     return {"title": "聊斋志异", "author": "［清］蒲松龄", "unit": "篇",
             "count_entries": True, "summary_unit": "篇",
+            "page_sources": page_sources,
             "intro": "文言短篇小说集，写狐鬼花妖、世态人情。保留中华书局全本全注全译本的十二卷篇序；后续原文改取维基文库，继续逐句配自撰白话、注释与题解。" + status,
             "pages": [("zizhi", "聊斋自志")] + [
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}" +
@@ -608,7 +621,7 @@ def build_poetry(bslug, spec):
         next_h = (f'<a href="{pages[next_i][0]}.html">{esc(pages[next_i][1])} →</a>' if next_i is not None
                   else '<span class="off">&nbsp;</span>')
         source = spec.get("page_sources", {}).get(slug)
-        source_note = (f'原文据<a href="{esc(source["url"])}">维基文库</a>整理（修订版本 {esc(source["revision"])}）；'
+        source_note = (f'{esc(source.get("prefix", "原文据"))}<a href="{esc(source["url"])}">维基文库</a>整理（修订版本 {esc(source["revision"])}）；{esc(source.get("after", ""))}'
                        if source else "原文依所标明底本整理；")
         if spec.get("no_tip"):
             hint = "原文直读，不设悬浮译文；点击“注释”可展开或收起。"

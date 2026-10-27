@@ -2,7 +2,7 @@
   "source": "聊斋志异（全四册）.pdf",
   "edition": "中华书局，中华经典名著全本全注全译丛书；于天池注，孙通海、于天池等译",
   "pdf_pages": 3391,
-  "scope": "全书十二卷及聊斋自志；尚未全部完成",
+  "scope": "全书十二卷及聊斋自志；后续以维基文库整理，尚未全部完成",
   "volumes": [
     {
       "volume": 1,
@@ -1887,7 +1887,7 @@
     },
     {
       "volume": 4,
-      "status": "in_progress",
+      "status": "complete",
       "entries": [
         {
           "id": "001",
@@ -2074,224 +2074,964 @@
           "title": "诸城某甲",
           "printed_page": 989,
           "pdf_page": 1059,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "诸城某甲",
+            "paragraphs": 2,
+            "sentence_pairs": 8,
+            "notes": 9,
+            "chunks": [
+              {
+                "sentences": 6,
+                "notes": 6
+              },
+              {
+                "sentences": 2,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "014",
           "title": "库官",
           "printed_page": 991,
           "pdf_page": 1061,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "库官",
+            "paragraphs": 1,
+            "sentence_pairs": 18,
+            "notes": 11,
+            "chunks": [
+              {
+                "sentences": 18,
+                "notes": 11
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "015",
           "title": "酆都御史",
           "printed_page": 994,
           "pdf_page": 1064,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "酆都御史",
+            "paragraphs": 3,
+            "sentence_pairs": 28,
+            "notes": 20,
+            "chunks": [
+              {
+                "sentences": 4,
+                "notes": 6
+              },
+              {
+                "sentences": 14,
+                "notes": 6
+              },
+              {
+                "sentences": 10,
+                "notes": 8
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "016",
           "title": "龙无目",
           "printed_page": 997,
           "pdf_page": 1067,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "龙无目",
+            "paragraphs": 1,
+            "sentence_pairs": 3,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentences": 3,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "017",
           "title": "狐谐",
           "printed_page": 998,
           "pdf_page": 1068,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "狐谐",
+            "paragraphs": 4,
+            "sentence_pairs": 103,
+            "notes": 34,
+            "chunks": [
+              {
+                "sentences": 8,
+                "notes": 7
+              },
+              {
+                "sentences": 33,
+                "notes": 9
+              },
+              {
+                "sentences": 30,
+                "notes": 9
+              },
+              {
+                "sentences": 32,
+                "notes": 9
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "018",
           "title": "雨钱",
           "printed_page": 1008,
           "pdf_page": 1078,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "雨钱",
+            "paragraphs": 3,
+            "sentence_pairs": 23,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentences": 6,
+                "notes": 6
+              },
+              {
+                "sentences": 12,
+                "notes": 6
+              },
+              {
+                "sentences": 5,
+                "notes": 4
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "019",
           "title": "妾击贼",
           "printed_page": 1011,
           "pdf_page": 1081,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "妾杖击贼",
+            "paragraphs": 3,
+            "sentence_pairs": 18,
+            "notes": 18,
+            "chunks": [
+              {
+                "sentences": 8,
+                "notes": 8
+              },
+              {
+                "sentences": 7,
+                "notes": 5
+              },
+              {
+                "sentences": 3,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "020",
           "title": "驱怪",
           "printed_page": 1015,
           "pdf_page": 1085,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "秀才驱怪",
+            "paragraphs": 4,
+            "sentence_pairs": 44,
+            "notes": 22,
+            "chunks": [
+              {
+                "sentences": 21,
+                "notes": 8
+              },
+              {
+                "sentences": 12,
+                "notes": 7
+              },
+              {
+                "sentences": 8,
+                "notes": 4
+              },
+              {
+                "sentences": 3,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "021",
           "title": "姊妹易嫁",
           "printed_page": 1020,
           "pdf_page": 1090,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "姊妹易嫁",
+            "paragraphs": 6,
+            "sentence_pairs": 77,
+            "notes": 43,
+            "chunks": [
+              {
+                "sentences": 7,
+                "notes": 7
+              },
+              {
+                "sentences": 32,
+                "notes": 12
+              },
+              {
+                "sentences": 7,
+                "notes": 6
+              },
+              {
+                "sentences": 9,
+                "notes": 5
+              },
+              {
+                "sentences": 18,
+                "notes": 9
+              },
+              {
+                "sentences": 4,
+                "notes": 4
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "022",
           "title": "续黄粱",
           "printed_page": 1031,
           "pdf_page": 1101,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "续黄粱",
+            "paragraphs": 9,
+            "sentence_pairs": 150,
+            "notes": 80,
+            "chunks": [
+              {
+                "sentences": 7,
+                "notes": 6
+              },
+              {
+                "sentences": 5,
+                "notes": 5
+              },
+              {
+                "sentences": 22,
+                "notes": 13
+              },
+              {
+                "sentences": 32,
+                "notes": 20
+              },
+              {
+                "sentences": 16,
+                "notes": 9
+              },
+              {
+                "sentences": 7,
+                "notes": 4
+              },
+              {
+                "sentences": 27,
+                "notes": 9
+              },
+              {
+                "sentences": 31,
+                "notes": 12
+              },
+              {
+                "sentences": 3,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "023",
           "title": "龙取水",
           "printed_page": 1052,
           "pdf_page": 1122,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "龙取水",
+            "paragraphs": 1,
+            "sentence_pairs": 4,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentences": 4,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "024",
           "title": "小猎犬",
           "printed_page": 1054,
           "pdf_page": 1124,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "小猎犬",
+            "paragraphs": 2,
+            "sentence_pairs": 27,
+            "notes": 19,
+            "chunks": [
+              {
+                "sentences": 13,
+                "notes": 12
+              },
+              {
+                "sentences": 14,
+                "notes": 7
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "025",
           "title": "棋鬼",
           "printed_page": 1058,
           "pdf_page": 1128,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "棋鬼",
+            "paragraphs": 2,
+            "sentence_pairs": 38,
+            "notes": 19,
+            "chunks": [
+              {
+                "sentences": 16,
+                "notes": 9
+              },
+              {
+                "sentences": 22,
+                "notes": 10
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "026",
           "title": "辛十四娘",
           "printed_page": 1063,
           "pdf_page": 1133,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "辛十四娘",
+            "paragraphs": 12,
+            "sentence_pairs": 238,
+            "notes": 99,
+            "chunks": [
+              {
+                "sentences": 37,
+                "notes": 15
+              },
+              {
+                "sentences": 20,
+                "notes": 9
+              },
+              {
+                "sentences": 17,
+                "notes": 6
+              },
+              {
+                "sentences": 23,
+                "notes": 8
+              },
+              {
+                "sentences": 14,
+                "notes": 8
+              },
+              {
+                "sentences": 33,
+                "notes": 10
+              },
+              {
+                "sentences": 4,
+                "notes": 4
+              },
+              {
+                "sentences": 24,
+                "notes": 9
+              },
+              {
+                "sentences": 21,
+                "notes": 9
+              },
+              {
+                "sentences": 38,
+                "notes": 13
+              },
+              {
+                "sentences": 3,
+                "notes": 3
+              },
+              {
+                "sentences": 4,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "027",
           "title": "白莲教",
           "printed_page": 1086,
           "pdf_page": 1156,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "白莲教",
+            "paragraphs": 2,
+            "sentence_pairs": 34,
+            "notes": 15,
+            "chunks": [
+              {
+                "sentences": 15,
+                "notes": 7
+              },
+              {
+                "sentences": 19,
+                "notes": 8
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "028",
           "title": "双灯",
           "printed_page": 1090,
           "pdf_page": 1160,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "双灯",
+            "paragraphs": 2,
+            "sentence_pairs": 37,
+            "notes": 14,
+            "chunks": [
+              {
+                "sentences": 29,
+                "notes": 10
+              },
+              {
+                "sentences": 8,
+                "notes": 4
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "029",
           "title": "捉鬼射狐",
           "printed_page": 1094,
           "pdf_page": 1164,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "捉鬼射狐",
+            "paragraphs": 2,
+            "sentence_pairs": 33,
+            "notes": 15,
+            "chunks": [
+              {
+                "sentences": 17,
+                "notes": 9
+              },
+              {
+                "sentences": 16,
+                "notes": 6
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "030",
           "title": "蹇偿债",
           "printed_page": 1099,
           "pdf_page": 1169,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "蹇偿债",
+            "paragraphs": 2,
+            "sentence_pairs": 32,
+            "notes": 18,
+            "chunks": [
+              {
+                "sentences": 10,
+                "notes": 6
+              },
+              {
+                "sentences": 22,
+                "notes": 12
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "031",
           "title": "头滚",
           "printed_page": 1102,
           "pdf_page": 1172,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "头滚",
+            "paragraphs": 1,
+            "sentence_pairs": 3,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentences": 3,
+                "notes": 6
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "032",
           "title": "鬼作筵",
           "printed_page": 1104,
           "pdf_page": 1174,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "鬼作筵",
+            "paragraphs": 1,
+            "sentence_pairs": 47,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentences": 47,
+                "notes": 16
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "033",
           "title": "胡四相公",
           "printed_page": 1108,
           "pdf_page": 1178,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "胡四相公",
+            "paragraphs": 4,
+            "sentence_pairs": 85,
+            "notes": 32,
+            "chunks": [
+              {
+                "sentences": 17,
+                "notes": 10
+              },
+              {
+                "sentences": 29,
+                "notes": 8
+              },
+              {
+                "sentences": 24,
+                "notes": 8
+              },
+              {
+                "sentences": 15,
+                "notes": 6
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "034",
           "title": "念秧",
           "printed_page": 1117,
           "pdf_page": 1187,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "念秧",
+            "paragraphs": 15,
+            "sentence_pairs": 242,
+            "notes": 85,
+            "chunks": [
+              {
+                "sentences": 7,
+                "notes": 6
+              },
+              {
+                "sentences": 30,
+                "notes": 8
+              },
+              {
+                "sentences": 26,
+                "notes": 8
+              },
+              {
+                "sentences": 23,
+                "notes": 8
+              },
+              {
+                "sentences": 22,
+                "notes": 6
+              },
+              {
+                "sentences": 18,
+                "notes": 6
+              },
+              {
+                "sentences": 1,
+                "notes": 1
+              },
+              {
+                "sentences": 7,
+                "notes": 2
+              },
+              {
+                "sentences": 8,
+                "notes": 4
+              },
+              {
+                "sentences": 13,
+                "notes": 7
+              },
+              {
+                "sentences": 9,
+                "notes": 4
+              },
+              {
+                "sentences": 26,
+                "notes": 8
+              },
+              {
+                "sentences": 26,
+                "notes": 7
+              },
+              {
+                "sentences": 19,
+                "notes": 6
+              },
+              {
+                "sentences": 7,
+                "notes": 4
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "035",
           "title": "蛙曲",
           "printed_page": 1140,
           "pdf_page": 1210,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "蛙曲",
+            "paragraphs": 1,
+            "sentence_pairs": 3,
+            "notes": 3,
+            "chunks": [
+              {
+                "sentences": 3,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "036",
           "title": "鼠戏",
           "printed_page": 1141,
           "pdf_page": 1211,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "鼠戏",
+            "paragraphs": 1,
+            "sentence_pairs": 5,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentences": 5,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "037",
           "title": "泥书生",
           "printed_page": 1142,
           "pdf_page": 1212,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "泥书生",
+            "paragraphs": 1,
+            "sentence_pairs": 17,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentences": 17,
+                "notes": 6
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "038",
           "title": "土地夫人",
           "printed_page": 1144,
           "pdf_page": 1214,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "土地夫人",
+            "paragraphs": 2,
+            "sentence_pairs": 19,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentences": 16,
+                "notes": 4
+              },
+              {
+                "sentences": 3,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "039",
           "title": "寒月芙蕖",
           "printed_page": 1146,
           "pdf_page": 1216,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "寒月芙蕖",
+            "paragraphs": 2,
+            "sentence_pairs": 57,
+            "notes": 22,
+            "chunks": [
+              {
+                "sentences": 14,
+                "notes": 8
+              },
+              {
+                "sentences": 43,
+                "notes": 14
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "040",
           "title": "酒狂",
           "printed_page": 1152,
           "pdf_page": 1222,
-          "status": "pending",
-          "pdf_page_status": "expected_offset_70"
+          "status": "complete",
+          "pdf_page_status": "expected_offset_70",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC04%E5%8D%B7",
+            "revision": "12090910",
+            "snapshot": "sources/liaozhai/wikisource/pages/4062ce655622319c.json",
+            "source_title": "酒狂",
+            "paragraphs": 5,
+            "sentence_pairs": 107,
+            "notes": 39,
+            "chunks": [
+              {
+                "sentences": 7,
+                "notes": 5
+              },
+              {
+                "sentences": 54,
+                "notes": 13
+              },
+              {
+                "sentences": 20,
+                "notes": 7
+              },
+              {
+                "sentences": 9,
+                "notes": 6
+              },
+              {
+                "sentences": 17,
+                "notes": 8
+              }
+            ],
+            "original_translation_notes": true
+          }
         }
       ],
       "catalog_review": {
@@ -2306,41 +3046,1766 @@
     },
     {
       "volume": 5,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "阳武侯",
+          "status": "pending"
+        },
+        {
+          "id": "002",
+          "title": "赵城虎",
+          "status": "pending"
+        },
+        {
+          "id": "003",
+          "title": "螳螂捕蛇",
+          "status": "pending"
+        },
+        {
+          "id": "004",
+          "title": "武技",
+          "status": "pending"
+        },
+        {
+          "id": "005",
+          "title": "小人",
+          "status": "pending"
+        },
+        {
+          "id": "006",
+          "title": "秦生",
+          "status": "pending"
+        },
+        {
+          "id": "007",
+          "title": "鸦头",
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "酒虫",
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "木雕美人",
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "封三娘",
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "狐梦",
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "布客",
+          "status": "pending"
+        },
+        {
+          "id": "013",
+          "title": "农人",
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "章阿端",
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "馎饦媪",
+          "status": "pending"
+        },
+        {
+          "id": "016",
+          "title": "金永年",
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "花姑子",
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "武孝廉",
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "西湖主",
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "孝子",
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "狮子",
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "阎王",
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "土偶",
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "长治女子",
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "义犬",
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "鄱阳神",
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "伍秋月",
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "莲花公主",
+          "status": "pending"
+        },
+        {
+          "id": "029",
+          "title": "绿衣女",
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "黎氏",
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "荷花三娘子",
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "骂鸭",
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "柳氏子",
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "上仙",
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "侯静山",
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "钱流",
+          "status": "pending"
+        },
+        {
+          "id": "037",
+          "title": "郭生",
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "金生色",
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "彭海秋",
+          "status": "pending"
+        },
+        {
+          "id": "040",
+          "title": "堪舆",
+          "status": "pending"
+        },
+        {
+          "id": "041",
+          "title": "窦氏",
+          "status": "pending"
+        },
+        {
+          "id": "042",
+          "title": "梁彦",
+          "status": "pending"
+        },
+        {
+          "id": "043",
+          "title": "龙肉",
+          "status": "pending"
+        }
+      ],
+      "catalog_source": {
+        "provider": "wikisource",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC05%E5%8D%B7",
+        "revision": "7906134",
+        "snapshot": "sources/liaozhai/wikisource/pages/53916ba07de0fdc1.json",
+        "status": "catalog_cached_pending_text_review"
+      }
     },
     {
       "volume": 6,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "潞令",
+          "status": "pending"
+        },
+        {
+          "id": "002",
+          "title": "马介甫",
+          "status": "pending"
+        },
+        {
+          "id": "003",
+          "title": "魁星",
+          "status": "pending"
+        },
+        {
+          "id": "004",
+          "title": "厍将军",
+          "status": "pending"
+        },
+        {
+          "id": "005",
+          "title": "绛妃",
+          "status": "pending"
+        },
+        {
+          "id": "006",
+          "title": "河间生",
+          "status": "pending"
+        },
+        {
+          "id": "007",
+          "title": "云翠仙",
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "跳神",
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "铁布衫法",
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "大力将军",
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "白莲教",
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "颜氏",
+          "status": "pending"
+        },
+        {
+          "id": "013",
+          "title": "杜翁",
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "小谢",
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "缢鬼",
+          "status": "pending"
+        },
+        {
+          "id": "016",
+          "title": "吴门画工",
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "林氏",
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "胡大姑",
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "细侯",
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "狼三则",
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "美人首",
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "刘亮采",
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "蕙芳",
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "山神",
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "萧七",
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "乱离二则",
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "豢蛇",
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "雷公",
+          "status": "pending"
+        },
+        {
+          "id": "029",
+          "title": "菱角",
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "饿鬼",
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "考弊司",
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "阎罗",
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "大人",
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "向杲",
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "董公子",
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "周三",
+          "status": "pending"
+        },
+        {
+          "id": "037",
+          "title": "鸽异",
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "聂政",
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "冷生",
+          "status": "pending"
+        },
+        {
+          "id": "040",
+          "title": "狐惩淫",
+          "status": "pending"
+        },
+        {
+          "id": "041",
+          "title": "山市",
+          "status": "pending"
+        },
+        {
+          "id": "042",
+          "title": "江城",
+          "status": "pending"
+        },
+        {
+          "id": "043",
+          "title": "孙生",
+          "status": "pending"
+        },
+        {
+          "id": "044",
+          "title": "八大王",
+          "status": "pending"
+        },
+        {
+          "id": "045",
+          "title": "戏缢",
+          "status": "pending"
+        }
+      ],
+      "catalog_source": {
+        "provider": "wikisource",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC06%E5%8D%B7",
+        "revision": "99749",
+        "snapshot": "sources/liaozhai/wikisource/pages/c05d64dd425a93cc.json",
+        "status": "catalog_cached_pending_text_review"
+      }
     },
     {
       "volume": 7,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "罗祖",
+          "status": "pending"
+        },
+        {
+          "id": "002",
+          "title": "刘姓",
+          "status": "pending"
+        },
+        {
+          "id": "003",
+          "title": "邵女",
+          "status": "pending"
+        },
+        {
+          "id": "004",
+          "title": "巩仙",
+          "status": "pending"
+        },
+        {
+          "id": "005",
+          "title": "二商",
+          "status": "pending"
+        },
+        {
+          "id": "006",
+          "title": "沂水秀才",
+          "status": "pending"
+        },
+        {
+          "id": "007",
+          "title": "梅女",
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "郭秀才",
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "死僧",
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "阿英",
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "橘树",
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "赤字",
+          "status": "pending"
+        },
+        {
+          "id": "013",
+          "title": "牛成章",
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "青娥",
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "镜听",
+          "status": "pending"
+        },
+        {
+          "id": "016",
+          "title": "牛癀",
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "金姑夫",
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "梓潼令",
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "鬼津",
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "仙人岛",
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "阎罗薨",
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "颠道人",
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "胡四娘",
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "僧术",
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "禄数",
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "柳生",
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "冤狱",
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "鬼令",
+          "status": "pending"
+        },
+        {
+          "id": "029",
+          "title": "甄后",
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "宦娘",
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "阿绣",
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "杨疤眼",
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "小翠",
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "金和尚",
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "龙戏蛛",
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "商妇",
+          "status": "pending"
+        },
+        {
+          "id": "037",
+          "title": "阎罗宴",
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "役鬼",
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "细柳",
+          "status": "pending"
+        }
+      ],
+      "catalog_source": {
+        "provider": "wikisource",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC07%E5%8D%B7",
+        "revision": "2080369",
+        "snapshot": "sources/liaozhai/wikisource/pages/f5ecc5652663e8d8.json",
+        "status": "catalog_cached_pending_text_review"
+      }
     },
     {
       "volume": 8,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "画马",
+          "status": "pending"
+        },
+        {
+          "id": "002",
+          "title": "局诈",
+          "status": "pending"
+        },
+        {
+          "id": "003",
+          "title": "放蝶",
+          "status": "pending"
+        },
+        {
+          "id": "004",
+          "title": "男生子",
+          "status": "pending"
+        },
+        {
+          "id": "005",
+          "title": "钟生",
+          "status": "pending"
+        },
+        {
+          "id": "006",
+          "title": "鬼妻",
+          "status": "pending"
+        },
+        {
+          "id": "007",
+          "title": "黄将军",
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "三朝元老",
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "医术",
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "藏虱",
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "梦狼",
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "夜明",
+          "status": "pending"
+        },
+        {
+          "id": "013",
+          "title": "夏雪",
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "化男",
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "禽侠",
+          "status": "pending"
+        },
+        {
+          "id": "016",
+          "title": "鸿",
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "象",
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "负尸",
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "紫花和尚",
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "周克昌",
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "嫦娥",
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "鞠乐如",
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "褚生",
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "盗户",
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "某乙",
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "霍女",
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "司文郎",
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "丑狐",
+          "status": "pending"
+        },
+        {
+          "id": "029",
+          "title": "吕无病",
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "钱卜巫",
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "姚安",
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "采薇翁",
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "崔猛",
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "诗谳",
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "鹿衔草",
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "小棺",
+          "status": "pending"
+        },
+        {
+          "id": "037",
+          "title": "邢子仪",
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "李生",
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "陆押官",
+          "status": "pending"
+        },
+        {
+          "id": "040",
+          "title": "蒋太史",
+          "status": "pending"
+        },
+        {
+          "id": "041",
+          "title": "邵士梅",
+          "status": "pending"
+        },
+        {
+          "id": "042",
+          "title": "顾生",
+          "status": "pending"
+        },
+        {
+          "id": "043",
+          "title": "陈锡九",
+          "status": "pending"
+        }
+      ],
+      "catalog_source": {
+        "provider": "wikisource",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+        "revision": "2343752",
+        "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+        "status": "catalog_cached_pending_text_review"
+      }
     },
     {
       "volume": 9,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "邵临淄",
+          "status": "pending"
+        },
+        {
+          "id": "002",
+          "title": "于去恶",
+          "status": "pending"
+        },
+        {
+          "id": "003",
+          "title": "狂生",
+          "status": "pending"
+        },
+        {
+          "id": "004",
+          "title": "澂俗",
+          "status": "pending"
+        },
+        {
+          "id": "005",
+          "title": "凤仙",
+          "status": "pending"
+        },
+        {
+          "id": "006",
+          "title": "佟客",
+          "status": "pending"
+        },
+        {
+          "id": "007",
+          "title": "辽阳军",
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "张贡士",
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "爱奴",
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "单父宰",
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "孙必振",
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "邑人",
+          "status": "pending"
+        },
+        {
+          "id": "013",
+          "title": "元宝",
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "研石",
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "武夷",
+          "status": "pending"
+        },
+        {
+          "id": "016",
+          "title": "大鼠",
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "张不量",
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "牧竖",
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "富翁",
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "王司马",
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "岳神",
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "小梅",
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "药僧",
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "于中丞",
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "皂隶",
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "绩女",
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "红毛毡",
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "抽肠",
+          "status": "pending"
+        },
+        {
+          "id": "029",
+          "title": "张鸿渐",
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "太医",
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "牛飞",
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "王子安",
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "刁姓",
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "农妇",
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "金陵乙",
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "郭安",
+          "status": "pending"
+        },
+        {
+          "id": "037",
+          "title": "折狱",
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "义犬",
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "杨大洪",
+          "status": "pending"
+        },
+        {
+          "id": "040",
+          "title": "查牙山洞",
+          "status": "pending"
+        },
+        {
+          "id": "041",
+          "title": "安期岛",
+          "status": "pending"
+        },
+        {
+          "id": "042",
+          "title": "沅俗",
+          "status": "pending"
+        },
+        {
+          "id": "043",
+          "title": "云萝公主",
+          "status": "pending"
+        },
+        {
+          "id": "044",
+          "title": "鸟语",
+          "status": "pending"
+        },
+        {
+          "id": "045",
+          "title": "天宫",
+          "status": "pending"
+        },
+        {
+          "id": "046",
+          "title": "乔女",
+          "status": "pending"
+        },
+        {
+          "id": "047",
+          "title": "蛤",
+          "status": "pending"
+        },
+        {
+          "id": "048",
+          "title": "刘夫人",
+          "status": "pending"
+        },
+        {
+          "id": "049",
+          "title": "陵县狐",
+          "status": "pending"
+        }
+      ],
+      "catalog_source": {
+        "provider": "wikisource",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC09%E5%8D%B7",
+        "revision": "2037147",
+        "snapshot": "sources/liaozhai/wikisource/pages/3afac1d4340af7a7.json",
+        "status": "catalog_cached_pending_text_review"
+      }
     },
     {
       "volume": 10,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "王货郎",
+          "status": "pending"
+        },
+        {
+          "id": "002",
+          "title": "疲龙",
+          "status": "pending"
+        },
+        {
+          "id": "003",
+          "title": "真生",
+          "status": "pending"
+        },
+        {
+          "id": "004",
+          "title": "布商",
+          "status": "pending"
+        },
+        {
+          "id": "005",
+          "title": "彭二挣",
+          "status": "pending"
+        },
+        {
+          "id": "006",
+          "title": "何仙",
+          "status": "pending"
+        },
+        {
+          "id": "007",
+          "title": "牛同人",
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "神女",
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "湘裙",
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "三生",
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "长亭",
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "席方平",
+          "status": "pending"
+        },
+        {
+          "id": "013",
+          "title": "素秋",
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "贾奉雉",
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "胭脂",
+          "status": "pending"
+        },
+        {
+          "id": "016",
+          "title": "阿纤",
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "瑞云",
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "仇大娘",
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "曹操冢",
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "龙飞相公",
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "珊瑚",
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "五通",
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "又",
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "申氏",
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "恒娘",
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "葛巾",
+          "status": "pending"
+        }
+      ],
+      "catalog_source": {
+        "provider": "wikisource",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC10%E5%8D%B7",
+        "revision": "2643945",
+        "snapshot": "sources/liaozhai/wikisource/pages/01caf0afeace7b79.json",
+        "status": "catalog_cached_pending_text_review"
+      }
     },
     {
       "volume": 11,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "冯木匠",
+          "status": "pending"
+        },
+        {
+          "id": "002",
+          "title": "黄英",
+          "status": "pending"
+        },
+        {
+          "id": "003",
+          "title": "书痴",
+          "status": "pending"
+        },
+        {
+          "id": "004",
+          "title": "齐天大圣",
+          "status": "pending"
+        },
+        {
+          "id": "005",
+          "title": "青蛙神",
+          "status": "pending"
+        },
+        {
+          "id": "006",
+          "title": "任秀",
+          "status": "pending"
+        },
+        {
+          "id": "007",
+          "title": "晚霞",
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "白秋练",
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "王者",
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "某甲",
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "衢州三怪",
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "拆楼人",
+          "status": "pending"
+        },
+        {
+          "id": "013",
+          "title": "大蝎",
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "陈云栖",
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "司札吏",
+          "status": "pending"
+        },
+        {
+          "id": "016",
+          "title": "蚰蜓",
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "司训",
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "黑鬼",
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "织成",
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "竹青",
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "段氏",
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "狐女",
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "张氏妇",
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "于子游",
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "男妾",
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "汪可受",
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "牛犊",
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "王大",
+          "status": "pending"
+        },
+        {
+          "id": "029",
+          "title": "乐仲",
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "香玉",
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "三仙",
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "鬼隶",
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "王十",
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "大男",
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "外国人",
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "韦公子",
+          "status": "pending"
+        },
+        {
+          "id": "037",
+          "title": "石清虚",
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "曾友于",
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "嘉平公子",
+          "status": "pending"
+        }
+      ],
+      "catalog_source": {
+        "provider": "wikisource",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC11%E5%8D%B7",
+        "revision": "2059960",
+        "snapshot": "sources/liaozhai/wikisource/pages/079c7972ddc94e24.json",
+        "status": "catalog_cached_pending_text_review"
+      }
     },
     {
       "volume": 12,
-      "status": "pending"
+      "status": "pending",
+      "entries": [
+        {
+          "id": "001",
+          "title": "二班",
+          "status": "pending"
+        },
+        {
+          "id": "002",
+          "title": "车夫",
+          "status": "pending"
+        },
+        {
+          "id": "003",
+          "title": "乩仙",
+          "status": "pending"
+        },
+        {
+          "id": "004",
+          "title": "苗生",
+          "status": "pending"
+        },
+        {
+          "id": "005",
+          "title": "蝎客",
+          "status": "pending"
+        },
+        {
+          "id": "006",
+          "title": "杜小雷",
+          "status": "pending"
+        },
+        {
+          "id": "007",
+          "title": "毛大福",
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "雹神",
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "李八缸",
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "老龙舡户",
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "青城妇",
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "鸮鸟",
+          "status": "pending"
+        },
+        {
+          "id": "013",
+          "title": "古瓶",
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "元少先生",
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "薛慰娘",
+          "status": "pending"
+        },
+        {
+          "id": "016",
+          "title": "田子成",
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "王桂庵",
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "寄生",
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "周生",
+          "status": "pending"
+        },
+        {
+          "id": "020",
+          "title": "褚遂良",
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "刘全",
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "土化兔",
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "鸟使",
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "姬生",
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "果报",
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "公孙夏",
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "韩方",
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "纫针",
+          "status": "pending"
+        },
+        {
+          "id": "029",
+          "title": "桓侯",
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "粉蝶",
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "李檀斯",
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "锦瑟",
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "太原狱",
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "新郑讼",
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "李象先",
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "房文淑",
+          "status": "pending"
+        },
+        {
+          "id": "037",
+          "title": "秦桧",
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "浙东生",
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "博兴女",
+          "status": "pending"
+        },
+        {
+          "id": "040",
+          "title": "一员官",
+          "status": "pending"
+        },
+        {
+          "id": "041",
+          "title": "丐仙",
+          "status": "pending"
+        },
+        {
+          "id": "042",
+          "title": "人妖",
+          "status": "pending"
+        },
+        {
+          "id": "043",
+          "title": "附录",
+          "status": "pending"
+        }
+      ],
+      "catalog_source": {
+        "provider": "wikisource",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC12%E5%8D%B7",
+        "revision": "1120733",
+        "snapshot": "sources/liaozhai/wikisource/pages/6055f6c063507eb2.json",
+        "status": "catalog_cached_pending_text_review"
+      }
     }
   ],
-  "preface_status": "pending",
+  "preface_status": "complete",
   "continuation_source": {
     "provider": "Wikisource",
     "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0",
     "policy": "后续原文改取维基文库；已完成校录保留，逐句白话、题解、分条注释继续自撰；原文缓存不等于整理完成。"
+  },
+  "preface_review": {
+    "source": "wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E4%BD%9C%E8%80%85%E8%87%AA%E5%BF%97",
+    "revision": "2346917",
+    "snapshot": "sources/liaozhai/wikisource/pages/54462bcc377aa40d.json",
+    "paragraphs": 1,
+    "sentence_pairs": 24,
+    "notes": 30,
+    "original_translation_notes": true
+  },
+  "source_policy": "卷一至三及卷四前12篇保留既有中华书局扫描校录；卷四第13篇起及聊斋自志改用维基文库；后续卷目按维基文库登记，缓存与待整理目录不代表注译完成。",
+  "next": {
+    "volume": 5,
+    "id": "001",
+    "title": "阳武侯",
+    "source": "wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC05%E5%8D%B7"
   }
 }
