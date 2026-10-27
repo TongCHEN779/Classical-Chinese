@@ -424,132 +424,4031 @@
       "volume": 2,
       "title": "俶真训",
       "printed_page": 54,
-      "status": "pending",
+      "status": "complete",
       "pdf_page": 68,
-      "pdf_page_status": "verified_title"
+      "pdf_page_status": "verified_title",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜推原有无之始与形神之化",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan02/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BF%B6%E7%9C%9F%E8%A8%93",
+            "revision": "7909094",
+            "snapshot": "sources/huainanzi/wikisource/pages/e6bca2760698e2de.json",
+            "paragraphs": 8,
+            "sentence_pairs": 56,
+            "notes": 56,
+            "chunks": [
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜万物同源与道散为德",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan02/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BF%B6%E7%9C%9F%E8%A8%93",
+            "revision": "7909094",
+            "snapshot": "sources/huainanzi/wikisource/pages/e6bca2760698e2de.json",
+            "paragraphs": 7,
+            "sentence_pairs": 53,
+            "notes": 56,
+            "chunks": [
+              {
+                "sentence_pairs": 4,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜世道渐衰与返性于初",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan02/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BF%B6%E7%9C%9F%E8%A8%93",
+            "revision": "7909094",
+            "snapshot": "sources/huainanzi/wikisource/pages/e6bca2760698e2de.json",
+            "paragraphs": 8,
+            "sentence_pairs": 57,
+            "notes": 62,
+            "chunks": [
+              {
+                "sentence_pairs": 4,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜体道养性亦须逢时遇世",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan02/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BF%B6%E7%9C%9F%E8%A8%93",
+            "revision": "7909094",
+            "snapshot": "sources/huainanzi/wikisource/pages/e6bca2760698e2de.json",
+            "paragraphs": 4,
+            "sentence_pairs": 46,
+            "notes": 32,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 8
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 3,
       "title": "天文训",
       "printed_page": 103,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜天地生成与九野五星八风",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan03/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A4%A9%E6%96%87%E8%A8%93",
+            "revision": "7909148",
+            "snapshot": "sources/huainanzi/wikisource/pages/b0bd2c5ff4f9958e.json",
+            "paragraphs": 13,
+            "sentence_pairs": 74,
+            "notes": 81,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜天宫纪元、刑德七舍与二十四节气",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan03/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A4%A9%E6%96%87%E8%A8%93",
+            "revision": "7909148",
+            "snapshot": "sources/huainanzi/wikisource/pages/b0bd2c5ff4f9958e.json",
+            "paragraphs": 7,
+            "sentence_pairs": 54,
+            "notes": 50,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 23,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜五子用事、日行时刻与斗建律名",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan03/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A4%A9%E6%96%87%E8%A8%93",
+            "revision": "7909148",
+            "snapshot": "sources/huainanzi/wikisource/pages/b0bd2c5ff4f9958e.json",
+            "paragraphs": 7,
+            "sentence_pairs": 89,
+            "notes": 50,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 21,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 28,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜律数度量与太阴纪年",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan03/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A4%A9%E6%96%87%E8%A8%93",
+            "revision": "7909148",
+            "snapshot": "sources/huainanzi/wikisource/pages/b0bd2c5ff4f9958e.json",
+            "paragraphs": 24,
+            "sentence_pairs": 69,
+            "notes": 71,
+            "chunks": [
+              {
+                "sentence_pairs": 28,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜刑德诸神、星宿分野与岁时占验",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan03/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A4%A9%E6%96%87%E8%A8%93",
+            "revision": "7909148",
+            "snapshot": "sources/huainanzi/wikisource/pages/b0bd2c5ff4f9958e.json",
+            "paragraphs": 37,
+            "sentence_pairs": 65,
+            "notes": 120,
+            "chunks": [
+              {
+                "sentence_pairs": 5,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜岁年占验与立表测天地",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan03/006.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A4%A9%E6%96%87%E8%A8%93",
+            "revision": "7909148",
+            "snapshot": "sources/huainanzi/wikisource/pages/b0bd2c5ff4f9958e.json",
+            "paragraphs": 9,
+            "sentence_pairs": 33,
+            "notes": 38,
+            "chunks": [
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 5
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 4,
       "title": "地形训",
       "printed_page": 193,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜九州山泽与昆仑八极",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan04/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A2%AC%E5%BD%A2%E8%A8%93",
+            "revision": "7908921",
+            "snapshot": "sources/huainanzi/wikisource/pages/31c8aad4e48ffbfa.json",
+            "paragraphs": 11,
+            "sentence_pairs": 43,
+            "notes": 63,
+            "chunks": [
+              {
+                "sentence_pairs": 1,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜水土之气与万物禀性",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan04/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A2%AC%E5%BD%A2%E8%A8%93",
+            "revision": "7908921",
+            "snapshot": "sources/huainanzi/wikisource/pages/31c8aad4e48ffbfa.json",
+            "paragraphs": 3,
+            "sentence_pairs": 40,
+            "notes": 24,
+            "chunks": [
+              {
+                "sentence_pairs": 11,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜海外诸国、河源与五土化生",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan04/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%A2%AC%E5%BD%A2%E8%A8%93",
+            "revision": "7908921",
+            "snapshot": "sources/huainanzi/wikisource/pages/31c8aad4e48ffbfa.json",
+            "paragraphs": 7,
+            "sentence_pairs": 58,
+            "notes": 35,
+            "chunks": [
+              {
+                "sentence_pairs": 41,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 3
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 5,
       "title": "时则训",
       "printed_page": 239,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜春季三月与孟夏的时令政事",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan05/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%99%82%E5%89%87%E8%A8%93",
+            "revision": "7909283",
+            "snapshot": "sources/huainanzi/wikisource/pages/c021035a3260ebf1.json",
+            "paragraphs": 4,
+            "sentence_pairs": 62,
+            "notes": 67,
+            "chunks": [
+              {
+                "sentence_pairs": 11,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 21,
+                "notes": 19
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜仲夏、季夏与孟秋的时令政事",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan05/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%99%82%E5%89%87%E8%A8%93",
+            "revision": "7909283",
+            "snapshot": "sources/huainanzi/wikisource/pages/c021035a3260ebf1.json",
+            "paragraphs": 3,
+            "sentence_pairs": 47,
+            "notes": 48,
+            "chunks": [
+              {
+                "sentence_pairs": 15,
+                "notes": 19
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜仲秋、季秋与孟冬的时令政事",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan05/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%99%82%E5%89%87%E8%A8%93",
+            "revision": "7909283",
+            "snapshot": "sources/huainanzi/wikisource/pages/c021035a3260ebf1.json",
+            "paragraphs": 3,
+            "sentence_pairs": 59,
+            "notes": 51,
+            "chunks": [
+              {
+                "sentence_pairs": 19,
+                "notes": 15
+              },
+              {
+                "sentence_pairs": 21,
+                "notes": 18
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 18
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜冬季末二月与五方之极的政令",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan05/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%99%82%E5%89%87%E8%A8%93",
+            "revision": "7909283",
+            "snapshot": "sources/huainanzi/wikisource/pages/c021035a3260ebf1.json",
+            "paragraphs": 7,
+            "sentence_pairs": 48,
+            "notes": 65,
+            "chunks": [
+              {
+                "sentence_pairs": 19,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜六合相应与六度之制",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan05/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%99%82%E5%89%87%E8%A8%93",
+            "revision": "7909283",
+            "snapshot": "sources/huainanzi/wikisource/pages/c021035a3260ebf1.json",
+            "paragraphs": 2,
+            "sentence_pairs": 21,
+            "notes": 25,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 16
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 6,
       "title": "览冥训",
       "printed_page": 302,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜精诚感天与物类相应",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan06/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A6%BD%E5%86%A5%E8%A8%93",
+            "revision": "3933631",
+            "snapshot": "sources/huainanzi/wikisource/pages/204cb7fdcf0048b8.json",
+            "paragraphs": 7,
+            "sentence_pairs": 57,
+            "notes": 77,
+            "chunks": [
+              {
+                "sentence_pairs": 5,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 18
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜从至德之世到衰世与当今",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan06/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A6%BD%E5%86%A5%E8%A8%93",
+            "revision": "3933631",
+            "snapshot": "sources/huainanzi/wikisource/pages/204cb7fdcf0048b8.json",
+            "paragraphs": 7,
+            "sentence_pairs": 43,
+            "notes": 94,
+            "chunks": [
+              {
+                "sentence_pairs": 3,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 19
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 14
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 14
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 7,
       "title": "精神训",
       "printed_page": 336,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜精神禀天形骸属地",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan07/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B2%BE%E7%A5%9E%E8%A8%93",
+            "revision": "7909697",
+            "snapshot": "sources/huainanzi/wikisource/pages/fe303537180bf278.json",
+            "paragraphs": 4,
+            "sentence_pairs": 65,
+            "notes": 32,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 25,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜真人守神而齐死生",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan07/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B2%BE%E7%A5%9E%E8%A8%93",
+            "revision": "7909697",
+            "snapshot": "sources/huainanzi/wikisource/pages/fe303537180bf278.json",
+            "paragraphs": 4,
+            "sentence_pairs": 69,
+            "notes": 32,
+            "chunks": [
+              {
+                "sentence_pairs": 29,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 20,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜至人无累与儒者迫性",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan07/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B2%BE%E7%A5%9E%E8%A8%93",
+            "revision": "7909697",
+            "snapshot": "sources/huainanzi/wikisource/pages/fe303537180bf278.json",
+            "paragraphs": 7,
+            "sentence_pairs": 78,
+            "notes": 50,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 3
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 8,
       "title": "本经训",
       "printed_page": 378,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜太清之治与衰世之弊",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan08/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%9C%AC%E7%B6%93%E8%A8%93",
+            "revision": "2606194",
+            "snapshot": "sources/huainanzi/wikisource/pages/83752839bff7cb8a.json",
+            "paragraphs": 3,
+            "sentence_pairs": 36,
+            "notes": 24,
+            "chunks": [
+              {
+                "sentence_pairs": 4,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 18,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜至人无为与圣王救乱",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan08/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%9C%AC%E7%B6%93%E8%A8%93",
+            "revision": "2606194",
+            "snapshot": "sources/huainanzi/wikisource/pages/83752839bff7cb8a.json",
+            "paragraphs": 2,
+            "sentence_pairs": 37,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 21,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜帝王霸君之等与五遁之害",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan08/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%9C%AC%E7%B6%93%E8%A8%93",
+            "revision": "2606194",
+            "snapshot": "sources/huainanzi/wikisource/pages/83752839bff7cb8a.json",
+            "paragraphs": 2,
+            "sentence_pairs": 29,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜礼乐丧兵当以质为本",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan08/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%9C%AC%E7%B6%93%E8%A8%93",
+            "revision": "2606194",
+            "snapshot": "sources/huainanzi/wikisource/pages/83752839bff7cb8a.json",
+            "paragraphs": 2,
+            "sentence_pairs": 16,
+            "notes": 14,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 6
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 9,
       "title": "主术训",
       "printed_page": 417,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜无为而治与至精感化",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 5,
+            "sentence_pairs": 64,
+            "notes": 50,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜任术释心与因众成治",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 6,
+            "sentence_pairs": 61,
+            "notes": 50,
+            "chunks": [
+              {
+                "sentence_pairs": 6,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 25,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜君臣异道与权势之柄",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 4,
+            "sentence_pairs": 65,
+            "notes": 35,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 18,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 22,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜君臣相报与量才用人",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 4,
+            "sentence_pairs": 67,
+            "notes": 42,
+            "chunks": [
+              {
+                "sentence_pairs": 20,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜立法自正与执术御下",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 2,
+            "sentence_pairs": 43,
+            "notes": 27,
+            "chunks": [
+              {
+                "sentence_pairs": 19,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 17
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜无为有守与借势而治",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/006.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 2,
+            "sentence_pairs": 49,
+            "notes": 33,
+            "chunks": [
+              {
+                "sentence_pairs": 26,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 23,
+                "notes": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "07｜取民有节与因时养民",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/007.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 3,
+            "sentence_pairs": 39,
+            "notes": 38,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 15
+              },
+              {
+                "sentence_pairs": 18,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "008",
+          "title": "08｜圣人心小志大与仁智权变",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/008.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 3,
+            "sentence_pairs": 53,
+            "notes": 40,
+            "chunks": [
+              {
+                "sentence_pairs": 24,
+                "notes": 21
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "009",
+          "title": "09｜仁智为本与反求诸己",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan09/009.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%B8%BB%E8%A1%93%E8%A8%93",
+            "revision": "1513234",
+            "snapshot": "sources/huainanzi/wikisource/pages/0ed86083f4e7e50e.json",
+            "paragraphs": 1,
+            "sentence_pairs": 18,
+            "notes": 12,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 12
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 10,
       "title": "缪称训",
       "printed_page": 505,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜体道修心与以诚感人",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan10/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B9%86%E7%A8%B1%E8%A8%93",
+            "revision": "7904648",
+            "snapshot": "sources/huainanzi/wikisource/pages/57032f77b46b7d5f.json",
+            "paragraphs": 3,
+            "sentence_pairs": 74,
+            "notes": 35,
+            "chunks": [
+              {
+                "sentence_pairs": 24,
+                "notes": 14
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 35,
+                "notes": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜诚在言先与君子慎独",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan10/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B9%86%E7%A8%B1%E8%A8%93",
+            "revision": "7904648",
+            "snapshot": "sources/huainanzi/wikisource/pages/57032f77b46b7d5f.json",
+            "paragraphs": 4,
+            "sentence_pairs": 87,
+            "notes": 39,
+            "chunks": [
+              {
+                "sentence_pairs": 23,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 22,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 23,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜情见于声与求福在己",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan10/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B9%86%E7%A8%B1%E8%A8%93",
+            "revision": "7904648",
+            "snapshot": "sources/huainanzi/wikisource/pages/57032f77b46b7d5f.json",
+            "paragraphs": 4,
+            "sentence_pairs": 85,
+            "notes": 39,
+            "chunks": [
+              {
+                "sentence_pairs": 25,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 22,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 22,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜防微积善与反己知命",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan10/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E7%B9%86%E7%A8%B1%E8%A8%93",
+            "revision": "7904648",
+            "snapshot": "sources/huainanzi/wikisource/pages/57032f77b46b7d5f.json",
+            "paragraphs": 6,
+            "sentence_pairs": 106,
+            "notes": 55,
+            "chunks": [
+              {
+                "sentence_pairs": 26,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 29,
+                "notes": 14
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 11,
       "title": "齐俗训",
       "printed_page": 564,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜仁义礼乐之起与物各有宜",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan11/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%BD%8A%E4%BF%97%E8%A8%93",
+            "revision": "1809081",
+            "snapshot": "sources/huainanzi/wikisource/pages/be6c4faa98098b31.json",
+            "paragraphs": 2,
+            "sentence_pairs": 54,
+            "notes": 37,
+            "chunks": [
+              {
+                "sentence_pairs": 28,
+                "notes": 22
+              },
+              {
+                "sentence_pairs": 26,
+                "notes": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜因宜任人与反性守一",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan11/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%BD%8A%E4%BF%97%E8%A8%93",
+            "revision": "1809081",
+            "snapshot": "sources/huainanzi/wikisource/pages/be6c4faa98098b31.json",
+            "paragraphs": 2,
+            "sentence_pairs": 56,
+            "notes": 33,
+            "chunks": [
+              {
+                "sentence_pairs": 23,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 33,
+                "notes": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜各地礼俗虽异其实一也",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan11/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%BD%8A%E4%BF%97%E8%A8%93",
+            "revision": "1809081",
+            "snapshot": "sources/huainanzi/wikisource/pages/be6c4faa98098b31.json",
+            "paragraphs": 2,
+            "sentence_pairs": 43,
+            "notes": 37,
+            "chunks": [
+              {
+                "sentence_pairs": 21,
+                "notes": 19
+              },
+              {
+                "sentence_pairs": 22,
+                "notes": 18
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜法其所以为法与道通为一",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan11/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%BD%8A%E4%BF%97%E8%A8%93",
+            "revision": "1809081",
+            "snapshot": "sources/huainanzi/wikisource/pages/be6c4faa98098b31.json",
+            "paragraphs": 2,
+            "sentence_pairs": 51,
+            "notes": 33,
+            "chunks": [
+              {
+                "sentence_pairs": 27,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜是非无定与各安其性",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan11/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%BD%8A%E4%BF%97%E8%A8%93",
+            "revision": "1809081",
+            "snapshot": "sources/huainanzi/wikisource/pages/be6c4faa98098b31.json",
+            "paragraphs": 2,
+            "sentence_pairs": 55,
+            "notes": 32,
+            "chunks": [
+              {
+                "sentence_pairs": 28,
+                "notes": 18
+              },
+              {
+                "sentence_pairs": 27,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜治世不恃奇才与应时立功",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan11/006.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%BD%8A%E4%BF%97%E8%A8%93",
+            "revision": "1809081",
+            "snapshot": "sources/huainanzi/wikisource/pages/be6c4faa98098b31.json",
+            "paragraphs": 2,
+            "sentence_pairs": 45,
+            "notes": 35,
+            "chunks": [
+              {
+                "sentence_pairs": 25,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 20,
+                "notes": 19
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "07｜尚本去末与富足生礼让",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan11/007.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%BD%8A%E4%BF%97%E8%A8%93",
+            "revision": "1809081",
+            "snapshot": "sources/huainanzi/wikisource/pages/be6c4faa98098b31.json",
+            "paragraphs": 2,
+            "sentence_pairs": 41,
+            "notes": 31,
+            "chunks": [
+              {
+                "sentence_pairs": 23,
+                "notes": 18
+              },
+              {
+                "sentence_pairs": 18,
+                "notes": 13
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 12,
       "title": "道应训",
       "printed_page": 629,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜不知之知与至言去言",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan12/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%81%93%E6%87%89%E8%A8%93",
+            "revision": "1965494",
+            "snapshot": "sources/huainanzi/wikisource/pages/b206fe9efc71ed85.json",
+            "paragraphs": 7,
+            "sentence_pairs": 89,
+            "notes": 61,
+            "chunks": [
+              {
+                "sentence_pairs": 22,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜持胜之道与乘人之资",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan12/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%81%93%E6%87%89%E8%A8%93",
+            "revision": "1965494",
+            "snapshot": "sources/huainanzi/wikisource/pages/b206fe9efc71ed85.json",
+            "paragraphs": 6,
+            "sentence_pairs": 95,
+            "notes": 49,
+            "chunks": [
+              {
+                "sentence_pairs": 16,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 33,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 20,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜重生轻利与修身治国",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan12/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%81%93%E6%87%89%E8%A8%93",
+            "revision": "1965494",
+            "snapshot": "sources/huainanzi/wikisource/pages/b206fe9efc71ed85.json",
+            "paragraphs": 10,
+            "sentence_pairs": 89,
+            "notes": 68,
+            "chunks": [
+              {
+                "sentence_pairs": 15,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜相马得精与君人之言",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan12/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%81%93%E6%87%89%E8%A8%93",
+            "revision": "1965494",
+            "snapshot": "sources/huainanzi/wikisource/pages/b206fe9efc71ed85.json",
+            "paragraphs": 7,
+            "sentence_pairs": 113,
+            "notes": 56,
+            "chunks": [
+              {
+                "sentence_pairs": 25,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 28,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜知足守下与盗亦有道",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan12/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%81%93%E6%87%89%E8%A8%93",
+            "revision": "1965494",
+            "snapshot": "sources/huainanzi/wikisource/pages/b206fe9efc71ed85.json",
+            "paragraphs": 8,
+            "sentence_pairs": 102,
+            "notes": 57,
+            "chunks": [
+              {
+                "sentence_pairs": 11,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 20,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜知止无为与神明无形",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan12/006.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%81%93%E6%87%89%E8%A8%93",
+            "revision": "1965494",
+            "snapshot": "sources/huainanzi/wikisource/pages/b206fe9efc71ed85.json",
+            "paragraphs": 8,
+            "sentence_pairs": 94,
+            "notes": 63,
+            "chunks": [
+              {
+                "sentence_pairs": 21,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "07｜虚静守愚与持盈之道",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan12/007.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E9%81%93%E6%87%89%E8%A8%93",
+            "revision": "1965494",
+            "snapshot": "sources/huainanzi/wikisource/pages/b206fe9efc71ed85.json",
+            "paragraphs": 9,
+            "sentence_pairs": 93,
+            "notes": 68,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 9
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 13,
       "title": "氾论训",
       "printed_page": 715,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜器物礼乐因时而变",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan13/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93",
+            "revision": "1809092",
+            "snapshot": "sources/huainanzi/wikisource/pages/70af2352d64b794c.json",
+            "paragraphs": 2,
+            "sentence_pairs": 47,
+            "notes": 39,
+            "chunks": [
+              {
+                "sentence_pairs": 21,
+                "notes": 25
+              },
+              {
+                "sentence_pairs": 26,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜法因时变与刚柔之和",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan13/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93",
+            "revision": "1809092",
+            "snapshot": "sources/huainanzi/wikisource/pages/70af2352d64b794c.json",
+            "paragraphs": 2,
+            "sentence_pairs": 51,
+            "notes": 28,
+            "chunks": [
+              {
+                "sentence_pairs": 27,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜中有本主与文武代用",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan13/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93",
+            "revision": "1809092",
+            "snapshot": "sources/huainanzi/wikisource/pages/70af2352d64b794c.json",
+            "paragraphs": 2,
+            "sentence_pairs": 44,
+            "notes": 36,
+            "chunks": [
+              {
+                "sentence_pairs": 21,
+                "notes": 21
+              },
+              {
+                "sentence_pairs": 23,
+                "notes": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜存亡在道与圣人知权",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan13/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93",
+            "revision": "1809092",
+            "snapshot": "sources/huainanzi/wikisource/pages/70af2352d64b794c.json",
+            "paragraphs": 2,
+            "sentence_pairs": 55,
+            "notes": 37,
+            "chunks": [
+              {
+                "sentence_pairs": 30,
+                "notes": 18
+              },
+              {
+                "sentence_pairs": 25,
+                "notes": 19
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜随时应变与不以小过掩大美",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan13/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93",
+            "revision": "1809092",
+            "snapshot": "sources/huainanzi/wikisource/pages/70af2352d64b794c.json",
+            "paragraphs": 2,
+            "sentence_pairs": 48,
+            "notes": 38,
+            "chunks": [
+              {
+                "sentence_pairs": 19,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 29,
+                "notes": 22
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜观微知人与赏罚之要",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan13/006.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93",
+            "revision": "1809092",
+            "snapshot": "sources/huainanzi/wikisource/pages/70af2352d64b794c.json",
+            "paragraphs": 2,
+            "sentence_pairs": 49,
+            "notes": 34,
+            "chunks": [
+              {
+                "sentence_pairs": 21,
+                "notes": 19
+              },
+              {
+                "sentence_pairs": 28,
+                "notes": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "07｜嗜欲致祸与借鬼神立禁",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan13/007.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93",
+            "revision": "1809092",
+            "snapshot": "sources/huainanzi/wikisource/pages/70af2352d64b794c.json",
+            "paragraphs": 2,
+            "sentence_pairs": 48,
+            "notes": 42,
+            "chunks": [
+              {
+                "sentence_pairs": 29,
+                "notes": 19
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 23
+              }
+            ]
+          }
+        },
+        {
+          "id": "008",
+          "title": "08｜神道设教与唯道为贵",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan13/008.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B0%BE%E8%AB%96%E8%A8%93",
+            "revision": "1809092",
+            "snapshot": "sources/huainanzi/wikisource/pages/70af2352d64b794c.json",
+            "paragraphs": 2,
+            "sentence_pairs": 37,
+            "notes": 34,
+            "chunks": [
+              {
+                "sentence_pairs": 25,
+                "notes": 22
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 12
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 14,
       "title": "诠言训",
       "printed_page": 790,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜太一分物与反己自得",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan14/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A9%AE%E8%A8%80%E8%A8%93",
+            "revision": "7904511",
+            "snapshot": "sources/huainanzi/wikisource/pages/77ac38f6dcc90f28.json",
+            "paragraphs": 4,
+            "sentence_pairs": 62,
+            "notes": 43,
+            "chunks": [
+              {
+                "sentence_pairs": 21,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜守常无欲与名道不两明",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan14/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A9%AE%E8%A8%80%E8%A8%93",
+            "revision": "7904511",
+            "snapshot": "sources/huainanzi/wikisource/pages/77ac38f6dcc90f28.json",
+            "paragraphs": 5,
+            "sentence_pairs": 62,
+            "notes": 44,
+            "chunks": [
+              {
+                "sentence_pairs": 13,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜内治执一与胜欲藏形",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan14/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A9%AE%E8%A8%80%E8%A8%93",
+            "revision": "7904511",
+            "snapshot": "sources/huainanzi/wikisource/pages/77ac38f6dcc90f28.json",
+            "paragraphs": 5,
+            "sentence_pairs": 65,
+            "notes": 46,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜不求名利与执后制先",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan14/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A9%AE%E8%A8%80%E8%A8%93",
+            "revision": "7904511",
+            "snapshot": "sources/huainanzi/wikisource/pages/77ac38f6dcc90f28.json",
+            "paragraphs": 4,
+            "sentence_pairs": 61,
+            "notes": 49,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 15
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜易简恬佚与神制形从",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan14/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A9%AE%E8%A8%80%E8%A8%93",
+            "revision": "7904511",
+            "snapshot": "sources/huainanzi/wikisource/pages/77ac38f6dcc90f28.json",
+            "paragraphs": 3,
+            "sentence_pairs": 49,
+            "notes": 38,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 13
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 15,
       "title": "兵略训",
       "printed_page": 845,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜用兵本为禁暴除害",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan15/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%85%B5%E7%95%A5%E8%A8%93",
+            "revision": "850046",
+            "snapshot": "sources/huainanzi/wikisource/pages/924076643a202c5e.json",
+            "paragraphs": 5,
+            "sentence_pairs": 57,
+            "notes": 43,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜用兵上中下与五官佐胜",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan15/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%85%B5%E7%95%A5%E8%A8%93",
+            "revision": "850046",
+            "snapshot": "sources/huainanzi/wikisource/pages/924076643a202c5e.json",
+            "paragraphs": 2,
+            "sentence_pairs": 34,
+            "notes": 35,
+            "chunks": [
+              {
+                "sentence_pairs": 21,
+                "notes": 22
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜胜败本于政与用兵贵无形",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan15/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%85%B5%E7%95%A5%E8%A8%93",
+            "revision": "850046",
+            "snapshot": "sources/huainanzi/wikisource/pages/924076643a202c5e.json",
+            "paragraphs": 4,
+            "sentence_pairs": 66,
+            "notes": 63,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 27
+              },
+              {
+                "sentence_pairs": 18,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜三势二权与以静制动",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan15/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%85%B5%E7%95%A5%E8%A8%93",
+            "revision": "850046",
+            "snapshot": "sources/huainanzi/wikisource/pages/924076643a202c5e.json",
+            "paragraphs": 5,
+            "sentence_pairs": 63,
+            "notes": 48,
+            "chunks": [
+              {
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜藏形无原与将卒同心",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan15/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%85%B5%E7%95%A5%E8%A8%93",
+            "revision": "850046",
+            "snapshot": "sources/huainanzi/wikisource/pages/924076643a202c5e.json",
+            "paragraphs": 4,
+            "sentence_pairs": 60,
+            "notes": 49,
+            "chunks": [
+              {
+                "sentence_pairs": 8,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜为将之道与虚实之气",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan15/006.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%85%B5%E7%95%A5%E8%A8%93",
+            "revision": "850046",
+            "snapshot": "sources/huainanzi/wikisource/pages/924076643a202c5e.json",
+            "paragraphs": 5,
+            "sentence_pairs": 62,
+            "notes": 49,
+            "chunks": [
+              {
+                "sentence_pairs": 5,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 18,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "07｜命将授钺之礼",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan15/007.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E5%85%B5%E7%95%A5%E8%A8%93",
+            "revision": "850046",
+            "snapshot": "sources/huainanzi/wikisource/pages/924076643a202c5e.json",
+            "paragraphs": 1,
+            "sentence_pairs": 24,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 24,
+                "notes": 16
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 16,
       "title": "说山训",
       "printed_page": 911,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜魂魄问道与以无为用",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan16/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E5%B1%B1%E8%A8%93",
+            "revision": "1809109",
+            "snapshot": "sources/huainanzi/wikisource/pages/6b8b3d06c35328e3.json",
+            "paragraphs": 2,
+            "sentence_pairs": 73,
+            "notes": 37,
+            "chunks": [
+              {
+                "sentence_pairs": 39,
+                "notes": 15
+              },
+              {
+                "sentence_pairs": 34,
+                "notes": 22
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜防患未然与物各有宜",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan16/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E5%B1%B1%E8%A8%93",
+            "revision": "1809109",
+            "snapshot": "sources/huainanzi/wikisource/pages/6b8b3d06c35328e3.json",
+            "paragraphs": 2,
+            "sentence_pairs": 54,
+            "notes": 40,
+            "chunks": [
+              {
+                "sentence_pairs": 29,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 25,
+                "notes": 24
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜先后有序与所受者大",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan16/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E5%B1%B1%E8%A8%93",
+            "revision": "1809109",
+            "snapshot": "sources/huainanzi/wikisource/pages/6b8b3d06c35328e3.json",
+            "paragraphs": 2,
+            "sentence_pairs": 59,
+            "notes": 42,
+            "chunks": [
+              {
+                "sentence_pairs": 32,
+                "notes": 24
+              },
+              {
+                "sentence_pairs": 27,
+                "notes": 18
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜时宜处势与同迹异实",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan16/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E5%B1%B1%E8%A8%93",
+            "revision": "1809109",
+            "snapshot": "sources/huainanzi/wikisource/pages/6b8b3d06c35328e3.json",
+            "paragraphs": 2,
+            "sentence_pairs": 54,
+            "notes": 49,
+            "chunks": [
+              {
+                "sentence_pairs": 27,
+                "notes": 24
+              },
+              {
+                "sentence_pairs": 27,
+                "notes": 25
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜类推有限与用其所长",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan16/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E5%B1%B1%E8%A8%93",
+            "revision": "1809109",
+            "snapshot": "sources/huainanzi/wikisource/pages/6b8b3d06c35328e3.json",
+            "paragraphs": 3,
+            "sentence_pairs": 59,
+            "notes": 54,
+            "chunks": [
+              {
+                "sentence_pairs": 26,
+                "notes": 25
+              },
+              {
+                "sentence_pairs": 26,
+                "notes": 21
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 17,
       "title": "说林训",
       "printed_page": 972,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜刻舟求剑与得道德从",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan17/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E6%9E%97%E8%A8%93",
+            "revision": "1809119",
+            "snapshot": "sources/huainanzi/wikisource/pages/85903793944da0ba.json",
+            "paragraphs": 2,
+            "sentence_pairs": 54,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 25,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 29,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜小变不妨大节与以小见大",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan17/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E6%9E%97%E8%A8%93",
+            "revision": "1809119",
+            "snapshot": "sources/huainanzi/wikisource/pages/85903793944da0ba.json",
+            "paragraphs": 2,
+            "sentence_pairs": 60,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 30,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 30,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜用物各异与以类推求",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan17/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E6%9E%97%E8%A8%93",
+            "revision": "1809119",
+            "snapshot": "sources/huainanzi/wikisource/pages/85903793944da0ba.json",
+            "paragraphs": 2,
+            "sentence_pairs": 57,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 28,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 29,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜居上若御奔马与形势所致",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan17/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E6%9E%97%E8%A8%93",
+            "revision": "1809119",
+            "snapshot": "sources/huainanzi/wikisource/pages/85903793944da0ba.json",
+            "paragraphs": 2,
+            "sentence_pairs": 59,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 29,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 30,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜用人疏数与随时举事",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan17/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%AA%AA%E6%9E%97%E8%A8%93",
+            "revision": "1809119",
+            "snapshot": "sources/huainanzi/wikisource/pages/85903793944da0ba.json",
+            "paragraphs": 2,
+            "sentence_pairs": 44,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 27,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 8
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 18,
       "title": "人间训",
       "printed_page": 1034,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜祸福同门与损益相反",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 8,
+            "sentence_pairs": 71,
+            "notes": 63,
+            "chunks": [
+              {
+                "sentence_pairs": 10,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜功疑罪信与塞翁失马",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 9,
+            "sentence_pairs": 92,
+            "notes": 64,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜逆耳合实与义重于功",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 4,
+            "sentence_pairs": 89,
+            "notes": 35,
+            "chunks": [
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 35,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 36,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜不苟得利与崇德广地",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 2,
+            "sentence_pairs": 73,
+            "notes": 25,
+            "chunks": [
+              {
+                "sentence_pairs": 40,
+                "notes": 15
+              },
+              {
+                "sentence_pairs": 33,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜毁誉相反与徐行反疾",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 2,
+            "sentence_pairs": 61,
+            "notes": 31,
+            "chunks": [
+              {
+                "sentence_pairs": 34,
+                "notes": 14
+              },
+              {
+                "sentence_pairs": 27,
+                "notes": 17
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜防患未生与见微知著",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/006.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 2,
+            "sentence_pairs": 71,
+            "notes": 32,
+            "chunks": [
+              {
+                "sentence_pairs": 37,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 34,
+                "notes": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "07｜备远忘近与说因其人",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/007.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 2,
+            "sentence_pairs": 61,
+            "notes": 30,
+            "chunks": [
+              {
+                "sentence_pairs": 28,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 33,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "008",
+          "title": "08｜因时而行与见小知大",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/008.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 2,
+            "sentence_pairs": 57,
+            "notes": 26,
+            "chunks": [
+              {
+                "sentence_pairs": 26,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 31,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "009",
+          "title": "09｜说得其道与似是而非",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan18/009.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E4%BA%BA%E9%96%93%E8%A8%93",
+            "revision": "9458284",
+            "snapshot": "sources/huainanzi/wikisource/pages/681404e094876c44.json",
+            "paragraphs": 3,
+            "sentence_pairs": 75,
+            "notes": 31,
+            "chunks": [
+              {
+                "sentence_pairs": 34,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 36,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 4
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 19,
       "title": "脩务训",
       "printed_page": 1117,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜五圣勤劳与无为新解",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan19/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%84%A9%E5%8B%99%E8%A8%93",
+            "revision": "7904476",
+            "snapshot": "sources/huainanzi/wikisource/pages/b19261abb17efd83.json",
+            "paragraphs": 3,
+            "sentence_pairs": 63,
+            "notes": 22,
+            "chunks": [
+              {
+                "sentence_pairs": 24,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 28,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜异路同归与学可变性",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan19/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%84%A9%E5%8B%99%E8%A8%93",
+            "revision": "7904476",
+            "snapshot": "sources/huainanzi/wikisource/pages/b19261abb17efd83.json",
+            "paragraphs": 4,
+            "sentence_pairs": 44,
+            "notes": 26,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜学不可已与名功强成",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan19/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%84%A9%E5%8B%99%E8%A8%93",
+            "revision": "7904476",
+            "snapshot": "sources/huainanzi/wikisource/pages/b19261abb17efd83.json",
+            "paragraphs": 3,
+            "sentence_pairs": 53,
+            "notes": 22,
+            "chunks": [
+              {
+                "sentence_pairs": 11,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 23,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜贵古贱今之弊与渐摩成材",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan19/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%84%A9%E5%8B%99%E8%A8%93",
+            "revision": "7904476",
+            "snapshot": "sources/huainanzi/wikisource/pages/b19261abb17efd83.json",
+            "paragraphs": 5,
+            "sentence_pairs": 59,
+            "notes": 36,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 8
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 20,
       "title": "泰族训",
       "printed_page": 1167,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜天人相通与神化之功",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan20/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B3%B0%E6%97%8F%E8%A8%93",
+            "revision": "7904569",
+            "snapshot": "sources/huainanzi/wikisource/pages/986df7c82ae8b00e.json",
+            "paragraphs": 6,
+            "sentence_pairs": 56,
+            "notes": 58,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜因性施教与参五之治",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan20/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B3%B0%E6%97%8F%E8%A8%93",
+            "revision": "7904569",
+            "snapshot": "sources/huainanzi/wikisource/pages/986df7c82ae8b00e.json",
+            "paragraphs": 3,
+            "sentence_pairs": 46,
+            "notes": 33,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜六艺兼用与治大以简",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan20/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B3%B0%E6%97%8F%E8%A8%93",
+            "revision": "7904569",
+            "snapshot": "sources/huainanzi/wikisource/pages/986df7c82ae8b00e.json",
+            "paragraphs": 5,
+            "sentence_pairs": 51,
+            "notes": 49,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "04｜法为治具而贵在得贤",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan20/004.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B3%B0%E6%97%8F%E8%A8%93",
+            "revision": "7904569",
+            "snapshot": "sources/huainanzi/wikisource/pages/986df7c82ae8b00e.json",
+            "paragraphs": 4,
+            "sentence_pairs": 50,
+            "notes": 39,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "05｜屈以求伸与归于仁义",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan20/005.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B3%B0%E6%97%8F%E8%A8%93",
+            "revision": "7904569",
+            "snapshot": "sources/huainanzi/wikisource/pages/986df7c82ae8b00e.json",
+            "paragraphs": 4,
+            "sentence_pairs": 40,
+            "notes": 36,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "06｜得民心者得天下与学之大益",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan20/006.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B3%B0%E6%97%8F%E8%A8%93",
+            "revision": "7904569",
+            "snapshot": "sources/huainanzi/wikisource/pages/986df7c82ae8b00e.json",
+            "paragraphs": 3,
+            "sentence_pairs": 55,
+            "notes": 45,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 18
+              },
+              {
+                "sentence_pairs": 24,
+                "notes": 16
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "07｜仁义为本与见微知著",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan20/007.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E6%B3%B0%E6%97%8F%E8%A8%93",
+            "revision": "7904569",
+            "snapshot": "sources/huainanzi/wikisource/pages/986df7c82ae8b00e.json",
+            "paragraphs": 5,
+            "sentence_pairs": 75,
+            "notes": 63,
+            "chunks": [
+              {
+                "sentence_pairs": 17,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 14
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 8
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "volume": 21,
       "title": "要略",
       "printed_page": 1239,
-      "status": "pending"
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "01｜著书宗旨与前十七篇要旨",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan21/001.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A6%81%E7%95%A5",
+            "revision": "9458285",
+            "snapshot": "sources/huainanzi/wikisource/pages/4c68d9adb5cf0475.json",
+            "paragraphs": 17,
+            "sentence_pairs": 39,
+            "notes": 85,
+            "chunks": [
+              {
+                "sentence_pairs": 4,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "02｜后三篇要旨与全书体系",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan21/002.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A6%81%E7%95%A5",
+            "revision": "9458285",
+            "snapshot": "sources/huainanzi/wikisource/pages/4c68d9adb5cf0475.json",
+            "paragraphs": 6,
+            "sentence_pairs": 35,
+            "notes": 42,
+            "chunks": [
+              {
+                "sentence_pairs": 3,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 15,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "03｜诸家学术的缘起与刘氏之书",
+          "status": "complete",
+          "source_file": "src/huainanzi/juan21/003.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90/%E8%A6%81%E7%95%A5",
+            "revision": "9458285",
+            "snapshot": "sources/huainanzi/wikisource/pages/4c68d9adb5cf0475.json",
+            "paragraphs": 7,
+            "sentence_pairs": 23,
+            "notes": 43,
+            "chunks": [
+              {
+                "sentence_pairs": 5,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 6
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "next": {
-    "volume": 2,
-    "id": "001",
-    "pdf_page": 68,
-    "printed_page": 54,
-    "starts_with": "有始者，有未始有有始者",
-    "status": "pending"
+    "status": "complete",
+    "note": "二十一卷全部整理完成。"
   },
   "pdf_offset_status": "卷一全卷及卷二篇题已核实PDF页序=印刷页码+14；其余卷尤其下册仍须逐卷复核。",
   "continuation_source": {

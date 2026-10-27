@@ -318,6 +318,8 @@ def _huainanzi_spec():
     status = ("二十一卷全部整理完成。" if len(completed_volumes) == 21 else
               ("已完成" + "、".join(completed_volumes) + "，其余正文待整理。" if completed_volumes else "全文仍在整理中。"))
     return {"title": "淮南子", "author": "［西汉］刘安及其门客", "unit": "节",
+            "page_sources": {f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
+                             for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v.get("entries", []))},
             "intro": "西汉思想著作，共二十一卷。已完成卷依中华书局陈广忠译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
                      + f"目前已整理{complete}节。" + status + "分节编号及小标题为整理者所加。",
             "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
