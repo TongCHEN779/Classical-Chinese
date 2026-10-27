@@ -1,0 +1,925 @@
+{
+  "source": "闲情偶寄（上下册）.pdf",
+  "author": "［清］李渔",
+  "edition": "中华书局《闲情偶寄》（全二册），杜书瀛译注，2014年2月北京第1版",
+  "isbn": "978-7-101-09806-8",
+  "pdf_pages": 865,
+  "catalog_review": {
+    "source": "local_scan",
+    "pdf_pages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  },
+  "section_policy": "卷前二序分别单列，凡例七则合页；卷一三章各自总论单列，二十款按原题次序收录。计32目录项，不把三段总论误计为原书款数。自撰白话题解注释，译文以¦逐句对齐，词条逐行列注。",
+  "front_matter": [
+    {
+      "slug": "yuhuaixu",
+      "title": "余怀序",
+      "status": "complete",
+      "review_pdf_start": 29,
+      "review_pdf_end": 35,
+      "entries": [
+        {
+          "id": "001",
+          "title": "余怀序",
+          "status": "complete",
+          "source_file": "src/xianqing/yuhuaixu/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 30,
+            "pdf_end": 31,
+            "paragraphs": 3,
+            "sentence_pairs": 29,
+            "notes": 36,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 11
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "youtongxu",
+      "title": "尤侗序",
+      "status": "complete",
+      "review_pdf_start": 36,
+      "review_pdf_end": 44,
+      "entries": [
+        {
+          "id": "001",
+          "title": "尤侗序",
+          "status": "complete",
+          "source_file": "src/xianqing/youtongxu/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 37,
+            "pdf_end": 41,
+            "paragraphs": 3,
+            "sentence_pairs": 33,
+            "notes": 44,
+            "chunks": [
+              {
+                "sentence_pairs": 8,
+                "notes": 20
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 12
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "fanli",
+      "title": "凡例七则·四期三戒",
+      "status": "complete",
+      "review_pdf_start": 45,
+      "review_pdf_end": 54,
+      "entries": [
+        {
+          "id": "001",
+          "title": "一期·点缀太平",
+          "status": "complete",
+          "source_file": "src/xianqing/fanli/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 45,
+            "pdf_end": 46,
+            "paragraphs": 1,
+            "sentence_pairs": 6,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentence_pairs": 6,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "一期·崇尚俭朴",
+          "status": "complete",
+          "source_file": "src/xianqing/fanli/002.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 46,
+            "pdf_end": 47,
+            "paragraphs": 1,
+            "sentence_pairs": 5,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentence_pairs": 5,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "一期·规正风俗",
+          "status": "complete",
+          "source_file": "src/xianqing/fanli/003.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 48,
+            "pdf_end": 48,
+            "paragraphs": 1,
+            "sentence_pairs": 7,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "一期·警惕人心",
+          "status": "complete",
+          "source_file": "src/xianqing/fanli/004.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 48,
+            "pdf_end": 49,
+            "paragraphs": 1,
+            "sentence_pairs": 9,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "一戒·剿窃陈言",
+          "status": "complete",
+          "source_file": "src/xianqing/fanli/005.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 50,
+            "pdf_end": 50,
+            "paragraphs": 1,
+            "sentence_pairs": 8,
+            "notes": 8,
+            "chunks": [
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "一戒·网罗旧集",
+          "status": "complete",
+          "source_file": "src/xianqing/fanli/006.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 51,
+            "pdf_end": 52,
+            "paragraphs": 1,
+            "sentence_pairs": 11,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentence_pairs": 11,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "一戒·支离补凑",
+          "status": "complete",
+          "source_file": "src/xianqing/fanli/007.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 52,
+            "pdf_end": 53,
+            "paragraphs": 1,
+            "sentence_pairs": 11,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "volumes": [
+    {
+      "volume": 1,
+      "title": "词曲部上",
+      "printed_start": 27,
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "结构第一·总论",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 56,
+            "pdf_end": 67,
+            "paragraphs": 5,
+            "sentence_pairs": 62,
+            "notes": 46,
+            "chunks": [
+              {
+                "sentence_pairs": 20,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 12
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "结构第一·戒讽刺",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/002.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 68,
+            "pdf_end": 73,
+            "paragraphs": 3,
+            "sentence_pairs": 52,
+            "notes": 25,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 22,
+                "notes": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "结构第一·立主脑",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/003.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 75,
+            "pdf_end": 76,
+            "paragraphs": 1,
+            "sentence_pairs": 18,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "结构第一·脱窠臼",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/004.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 78,
+            "pdf_end": 79,
+            "paragraphs": 1,
+            "sentence_pairs": 24,
+            "notes": 8,
+            "chunks": [
+              {
+                "sentence_pairs": 24,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "结构第一·密针线",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/005.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 81,
+            "pdf_end": 83,
+            "paragraphs": 3,
+            "sentence_pairs": 39,
+            "notes": 21,
+            "chunks": [
+              {
+                "sentence_pairs": 16,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "结构第一·减头绪",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/006.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 85,
+            "pdf_end": 86,
+            "paragraphs": 1,
+            "sentence_pairs": 8,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentence_pairs": 8,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "结构第一·戒荒唐",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/007.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 88,
+            "pdf_end": 89,
+            "paragraphs": 2,
+            "sentence_pairs": 33,
+            "notes": 18,
+            "chunks": [
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "008",
+          "title": "结构第一·审虚实",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/008.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 92,
+            "pdf_end": 93,
+            "paragraphs": 2,
+            "sentence_pairs": 22,
+            "notes": 11,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "009",
+          "title": "词采第二·总论",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/009.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 95,
+            "pdf_end": 96,
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 8,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "010",
+          "title": "词采第二·贵显浅",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/010.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 99,
+            "pdf_end": 102,
+            "paragraphs": 3,
+            "sentence_pairs": 40,
+            "notes": 24,
+            "chunks": [
+              {
+                "sentence_pairs": 19,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "011",
+          "title": "词采第二·重机趣",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/011.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 104,
+            "pdf_end": 105,
+            "paragraphs": 2,
+            "sentence_pairs": 20,
+            "notes": 11,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "012",
+          "title": "词采第二·戒浮泛",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/012.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 107,
+            "pdf_end": 110,
+            "paragraphs": 3,
+            "sentence_pairs": 41,
+            "notes": 16,
+            "chunks": [
+              {
+                "sentence_pairs": 16,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "013",
+          "title": "词采第二·忌填塞",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/013.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 112,
+            "pdf_end": 113,
+            "paragraphs": 1,
+            "sentence_pairs": 15,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentence_pairs": 15,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "014",
+          "title": "音律第三·总论",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/014.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 116,
+            "pdf_end": 129,
+            "paragraphs": 8,
+            "sentence_pairs": 110,
+            "notes": 63,
+            "chunks": [
+              {
+                "sentence_pairs": 15,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 11
+              },
+              {
+                "sentence_pairs": 18,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 14,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "015",
+          "title": "音律第三·恪守词韵",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/015.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 130,
+            "pdf_end": 131,
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 11,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "016",
+          "title": "音律第三·凛遵曲谱",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/016.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 133,
+            "pdf_end": 135,
+            "paragraphs": 2,
+            "sentence_pairs": 26,
+            "notes": 12,
+            "chunks": [
+              {
+                "sentence_pairs": 10,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "017",
+          "title": "音律第三·鱼模当分",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/017.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 137,
+            "pdf_end": 138,
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 9,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "018",
+          "title": "音律第三·廉监宜避",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/018.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 139,
+            "pdf_end": 140,
+            "paragraphs": 1,
+            "sentence_pairs": 8,
+            "notes": 9,
+            "chunks": [
+              {
+                "sentence_pairs": 8,
+                "notes": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "019",
+          "title": "音律第三·拗句难好",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/019.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 141,
+            "pdf_end": 143,
+            "paragraphs": 3,
+            "sentence_pairs": 46,
+            "notes": 17,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "020",
+          "title": "音律第三·合韵易重",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/020.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 146,
+            "pdf_end": 147,
+            "paragraphs": 2,
+            "sentence_pairs": 21,
+            "notes": 11,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "021",
+          "title": "音律第三·慎用上声",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/021.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 149,
+            "pdf_end": 149,
+            "paragraphs": 1,
+            "sentence_pairs": 16,
+            "notes": 8,
+            "chunks": [
+              {
+                "sentence_pairs": 16,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "022",
+          "title": "音律第三·少填入韵",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/022.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 151,
+            "pdf_end": 151,
+            "paragraphs": 1,
+            "sentence_pairs": 20,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 20,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "023",
+          "title": "音律第三·别解务头",
+          "status": "complete",
+          "source_file": "src/xianqing/juan01/023.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 153,
+            "pdf_end": 154,
+            "paragraphs": 2,
+            "sentence_pairs": 21,
+            "notes": 13,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 5
+              }
+            ]
+          }
+        }
+      ],
+      "review_pdf_start": 55,
+      "review_pdf_end": 156,
+      "chapters": [
+        {
+          "title": "结构第一",
+          "clauses": 7,
+          "entry_ids": [
+            "001",
+            "002",
+            "003",
+            "004",
+            "005",
+            "006",
+            "007",
+            "008"
+          ]
+        },
+        {
+          "title": "词采第二",
+          "clauses": 4,
+          "entry_ids": [
+            "009",
+            "010",
+            "011",
+            "012",
+            "013"
+          ]
+        },
+        {
+          "title": "音律第三",
+          "clauses": 9,
+          "entry_ids": [
+            "014",
+            "015",
+            "016",
+            "017",
+            "018",
+            "019",
+            "020",
+            "021",
+            "022",
+            "023"
+          ]
+        }
+      ]
+    },
+    {
+      "volume": 2,
+      "title": "词曲部下、演习部",
+      "printed_start": 129,
+      "status": "pending",
+      "entries": []
+    },
+    {
+      "volume": 3,
+      "title": "声容部",
+      "printed_start": 256,
+      "status": "pending",
+      "entries": []
+    },
+    {
+      "volume": 4,
+      "title": "居室部、器玩部",
+      "printed_start": 370,
+      "status": "pending",
+      "entries": []
+    },
+    {
+      "volume": 5,
+      "title": "饮馔部、种植部",
+      "printed_start": 524,
+      "status": "pending",
+      "entries": []
+    },
+    {
+      "volume": 6,
+      "title": "颐养部",
+      "printed_start": 703,
+      "status": "pending",
+      "entries": []
+    }
+  ],
+  "next_position": {
+    "volume": 2,
+    "title": "词曲部下·宾白第四",
+    "pdf_title_page": 157,
+    "printed_start": 129,
+    "status": "pending"
+  },
+  "totals": {
+    "entries": 32,
+    "paragraphs": 63,
+    "sentence_pairs": 803,
+    "notes": 488
+  }
+}

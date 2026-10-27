@@ -399,7 +399,20 @@ def _hongloumeng_spec():
             "pages": pages}
 
 
+def _xianqing_spec():
+    import json
+    progress = json.loads((ROOT / "sources/xianqing/progress.json").read_text(encoding="utf8"))
+    return {"title": "闲情偶寄", "author": "［清］李渔", "unit": "项",
+            "count_entries": True, "summary_unit": "项",
+            "intro": "清代戏曲与生活艺术论著，八部合为六卷。依本地中华书局杜书瀛译注本校录古代原文，配自撰逐句白话、独立注释与题解。"
+                     "已完成余怀序、尤侗序、凡例七则及卷一《词曲部上》（结构、词采、音律三章，含各章总论与二十款）；卷二至卷六待整理。"
+                     "目录项数含总论与卷前材料，不等于原书款数。",
+            "pages": [(f["slug"], f["title"]) for f in progress["front_matter"]] + [
+                (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}") for v in progress["volumes"]]}
+
+
 POETRY = {
+    "xianqing": _xianqing_spec(),
     "yuewei": _yuewei_spec(),
     "yantielun": _yantielun_spec(),
     "songlun": _songlun_spec(),
