@@ -303,7 +303,7 @@ def _liaozhai_spec():
     status = "十二卷及《聊斋自志》全部整理完成。" if all_done else f"目前已整理{complete}篇，全文仍在整理中。"
     return {"title": "聊斋志异", "author": "［清］蒲松龄", "unit": "篇",
             "count_entries": True, "summary_unit": "篇",
-            "intro": "文言短篇小说集，写狐鬼花妖、世态人情。依本地中华书局全本全注全译本的十二卷篇序整理；原文逐段配自撰白话、注释与题解。" + status,
+            "intro": "文言短篇小说集，写狐鬼花妖、世态人情。保留中华书局全本全注全译本的十二卷篇序；后续原文改取维基文库，继续逐句配自撰白话、注释与题解。" + status,
             "pages": [("zizhi", "聊斋自志")] + [
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}" +
                  ("（整理中）" if v["status"] == "in_progress" else "")) for v in volumes
