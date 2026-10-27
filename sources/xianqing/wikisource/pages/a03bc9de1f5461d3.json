@@ -1,0 +1,28 @@
+{
+  "title": "閑情偶寄/器玩部",
+  "url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E5%99%A8%E7%8E%A9%E9%83%A8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E5%99%A8%E7%8E%A9%E9%83%A8",
+  "revision": "228547",
+  "fetched_at": "2026-10-27T17:27:50.530241+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "閑情偶寄/居室部",
+      "label": "居室部"
+    },
+    {
+      "title": "閑情偶寄/飲饌部",
+      "label": "饮馔部"
+    },
+    {
+      "title": "閑情偶寄/器玩部/制度第一",
+      "label": "制度第一"
+    },
+    {
+      "title": "閑情偶寄/器玩部/位置第二",
+      "label": "位置第二"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

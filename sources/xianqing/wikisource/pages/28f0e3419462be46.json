@@ -1,0 +1,40 @@
+{
+  "title": "閑情偶寄/頤養部",
+  "url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E9%A0%A4%E9%A4%8A%E9%83%A8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E9%A0%A4%E9%A4%8A%E9%83%A8",
+  "revision": "228551",
+  "fetched_at": "2026-10-27T17:27:53.834184+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "閑情偶寄/種植部",
+      "label": "种植部"
+    },
+    {
+      "title": "閑情偶寄/頤養部/行樂第一",
+      "label": "行乐第一"
+    },
+    {
+      "title": "閑情偶寄/頤養部/止憂第二",
+      "label": "止忧第二"
+    },
+    {
+      "title": "閑情偶寄/頤養部/調飲啜第三",
+      "label": "调饮啜第三"
+    },
+    {
+      "title": "閑情偶寄/頤養部/節色欲第四",
+      "label": "节色欲第四"
+    },
+    {
+      "title": "閑情偶寄/頤養部/卻病第五",
+      "label": "却病第五"
+    },
+    {
+      "title": "閑情偶寄/頤養部/療病第六",
+      "label": "疗病第六"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

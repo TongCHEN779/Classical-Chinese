@@ -62,6 +62,20 @@ def year_text(year, ps):
     return lines
 
 
+def clean(text):
+    """Drop a stray Wikisource navigation paragraph; mark private-use glyphs the source could not display."""
+    out, skip = [], False
+    for ln in text.split('\n'):
+        if ln.startswith('原：回目录下一篇'):
+            skip = True
+            continue
+        if skip and ln.startswith('注：'):
+            continue
+        skip = False
+        out.append(ln)
+    return re.sub('[\ue000-\uf8ff]', '〔缺字〕', '\n'.join(out))
+
+
 def split(work):
     work = Path(work)
     (work / 'in').mkdir(parents=True, exist_ok=True)
@@ -133,6 +147,7 @@ def merge(work):
         chars = 0
         for i, p in enumerate(gr, 1):
             text = (work / 'out' / f"{p['name']}.txt").read_text(encoding='utf8')
+            text = clean(text)
             (d / f'{i:02d}.txt').write_text(text if text.endswith('\n') else text + '\n', encoding='utf8')
             chars += p['chars']
         src = pages['序' if g == '序' else g]

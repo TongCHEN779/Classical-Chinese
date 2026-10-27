@@ -439,9 +439,9 @@ def _xianqing_spec():
     progress = json.loads((ROOT / "sources/xianqing/progress.json").read_text(encoding="utf8"))
     return {"title": "闲情偶寄", "author": "［清］李渔", "unit": "项",
             "count_entries": True, "summary_unit": "项",
-            "intro": "清代戏曲与生活艺术论著，八部合为六卷。依本地中华书局杜书瀛译注本校录古代原文，配自撰逐句白话、独立注释与题解。"
-                     "已完成余怀序、尤侗序、凡例七则及卷一《词曲部上》（结构、词采、音律三章，含各章总论与二十款）；卷二至卷六待整理。"
-                     "目录项数含总论与卷前材料，不等于原书款数。",
+            "intro": "清代戏曲与生活艺术论著，八部合为六卷。卷前二序与凡例、卷一《词曲部上》依本地中华书局杜书瀛译注本校录；"
+                     "卷二至卷六（词曲部下、演习部、声容部、居室部、器玩部、饮馔部、种植部、颐养部）据维基文库收录，全部配自撰逐句白话、独立注释与题解。"
+                     "目录项数含总论与卷前材料，不等于原书款数；维基文库《演习部·脱套第五》页面误录了《选姿第一》的文字，该章暂缺。",
             "pages": [(f["slug"], f["title"]) for f in progress["front_matter"]] + [
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}") for v in progress["volumes"]]}
 
@@ -452,12 +452,13 @@ def _xiaochuang_spec():
     translated = sum(p.get("translated_paragraphs", 0) for p in progress["pages"])
     notes = sum(p.get("editor_notes", 0) for p in progress["pages"])
     return {"title": "小窗幽记", "author": "［明］陆绍珩 选，陆绍琏 阅", "unit": "项",
+            "count": lambda secs: (sum(1 for s in secs if s["title"].isdigit()), "则"),
             "no_tip": True, "side_toc": True, "count_entries": True, "summary_unit": "项",
             "original_only": True,
             "intro": "又名《醉古堂剑扫》，清言小品集，共十二卷：集醒、集情、集峭、集灵、集素、集景、集韵、集奇、集绮、集豪、集法、集倩。据维基文库简体版收录十二卷及引、自叙、凡例，保留原站校勘记与缺文标记。"
                      + f"全书{translated}段均配逐句白话（含卷首署名），共{notes}条编者注释；条目编号为整理者所加。",
             "index_footer": f"原文收录1547段；已配白话与编者注释{translated}段。原站校勘记另列，不计作编者注释。",
-            "pages": [(p["slug"], p["title"] + ("（已译注）" if p["status"] == "annotated" else "（原文版）")) for p in progress["pages"]],
+            "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_options": {p["slug"]: {"no_tip": False,
                   "reading_hint": "本卷已配逐句白话与独立注释。鼠标悬停或触屏点按原文可看译文；点击注释、题解可展开。卷末另附原站校勘记。",
                   "footer": "白话、题解与独立注释为编者自撰；疑字保留并注出暂解。卷末校勘记为原站文字，未据影印本逐字校勘。"}
@@ -480,7 +481,7 @@ def _canying_spec():
             "intro": "清末民初况周颐的笔记，涉及典章、科举、人物、诗词与金石。据用户选定的中国哲学书电子化计划底本收录全文390段，分13页阅读，保留原站632处夹注。"
                      + status + "原站旧字库缺字逐处标明，不猜补。段号沿用原站，目录标题与题解为编者所加。",
             "index_footer": f"原文收录390段；已配白话、题解与编者注释{len(completed)}段。",
-            "pages": [(p["slug"], p["title"] + ("（已译注）" if p.get("annotation_status") == "complete" else "（原文版）")) for p in progress["pages"]],
+            "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_options": {p["slug"]: {"no_tip": False,
                   "reading_hint": "鼠标移到原文上显示本句白话，触屏设备请点按原文；点击题解、注释可展开。括号内仍保留底本夹注，疑字、缺字的辨读见注释。",
                   "footer": "白话、题解与词条注释为编者自撰；原站夹注保留在正文括号中。疑字另注，原文尚未据影印本逐字校定。"}
@@ -499,6 +500,8 @@ def _four_classics_spec(slug):
     return {"title": meta["title"], "author": meta["author"], "unit": meta["unit"],
             "prose": meta["prose"], "no_tip": True, "side_toc": True,
             "count_entries": False,
+            **({"count": lambda secs: (sum(1 for s in secs if s["title"].endswith("折")), "折")}
+               if slug == "xixiangji" else {"no_count": True}),
             "index_footer": f"正文 {progress['chapter_count']} {meta['unit']}；另收全书题解及所选版本附文。",
             "reading_hint": "原文直读；点击“题解”“注释”可展开。附基础导读注释，不设白话译文。",
             "intro": meta["intro"],
@@ -506,8 +509,21 @@ def _four_classics_spec(slug):
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
 
 
+def _zuozhuan_spec():
+    import json
+    progress = json.loads((ROOT / "sources/zuozhuan/progress.json").read_text(encoding="utf8"))
+    return {"title": "春秋左传", "author": "［春秋］左丘明（相传）", "unit": "年",
+            "count_entries": False,
+            "count": lambda secs: (len({s["title"].split("·")[0] for s in secs}), "年"),
+            "intro": "先秦编年体史书，依《春秋》经文纪年，记鲁隐公元年至哀公二十七年（前722—前468）及附记之事，是春秋历史叙事与辞令的代表。"
+                     "据维基文库收录杜预序与十二公全文，逐句配自撰白话，并有题解与词条注释；经、传分条，注释偏重人名地名、礼制与笔法术语。",
+            "pages": [("tijie", "全书题解")] + [(p["slug"], p["title"]) for p in progress["pages"]],
+            "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
+
+
 POETRY = {
     **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
+    "zuozhuan": _zuozhuan_spec(),
     "canying": _canying_spec(),
     "xiaochuang": _xiaochuang_spec(),
     "xianqing": _xianqing_spec(),
@@ -627,13 +643,16 @@ def build_poetry(bslug, spec):
         secs = parse_poems(files)
         nchunk = sum(1 for s in secs for c in s["chunks"] if "tbl" not in c)
         total += len(secs) if spec.get("count_entries") else nchunk
-        cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}<small>{len(secs)}{spec.get("unit2", spec.get("unit", "节"))}</small></a></li>')
+        cnt = (spec["count"](secs) if "count" in spec else
+               (None if spec.get("no_count") else (len(secs), spec.get("unit2", spec.get("unit", "节")))))
+        small = f"<small>{cnt[0]}{cnt[1]}</small>" if cnt and cnt[0] > 1 else ""
+        cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}{small}</a></li>')
         uid = 0
         body_secs = []
         for si, sec in enumerate(secs, 1):
             parts = [f'<section class="entry" id="e{si}">']
             multi = len(secs) > 1
-            parts.append(f'<h3>{esc(sec["title"])}</h3>' if multi else "")
+            parts.append(f'<h3>{esc(sec["title"])}</h3>' if multi and sec["title"] != title else "")
             if sec["intro"]:
                 uid += 1
                 items = "".join(f"<p>{esc(x)}</p>" for x in sec["intro"])
@@ -663,7 +682,7 @@ def build_poetry(bslug, spec):
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         toc = ""
-        if spec.get("side_toc"):
+        if spec.get("side_toc") and len(secs) <= 1:
             items = []
             for sl, tt, _f in pages:
                 if sl is None:
@@ -674,9 +693,16 @@ def build_poetry(bslug, spec):
                     items.append(f'<li><a href="{sl}.html">{esc(tt)}</a></li>')
             toc = (f'<details class="toc side" open><summary>总目录</summary><ul>{"".join(items)}</ul></details>')
         elif secs:
-            toc = ('<details class="toc" open><summary>本篇目录</summary><ol>'
-                   + "".join(f'<li><a href="#e{k}">{esc(s["title"])}</a></li>' for k, s in enumerate(secs, 1))
-                   + "</ol></details>")
+            tocs = [(k, s) for k, s in enumerate(secs, 1) if not (s["title"] == title and not s["chunks"])]
+            numeric = sum(1 for _k, s in tocs if s["title"].isdigit()) * 2 > len(tocs)
+            if numeric:
+                toc = ('<details class="toc" open><summary>本页目录</summary><ul class="num">'
+                       + "".join(f'<li><a href="#e{k}">{esc(s["title"])}</a></li>' for k, s in tocs)
+                       + "</ul></details>")
+            else:
+                toc = ('<details class="toc" open><summary>本页目录</summary><ol>'
+                       + "".join(f'<li><a href="#e{k}">{esc(s["title"])}</a></li>' for k, s in tocs)
+                       + "</ol></details>")
         prev_i = max([j for j in avail if j < i], default=None)
         next_i = min([j for j in avail if j > i], default=None)
         prev_h = (f'<a href="{pages[prev_i][0]}.html">← {esc(pages[prev_i][1])}</a>' if prev_i is not None
@@ -687,7 +713,7 @@ def build_poetry(bslug, spec):
         page_options = spec.get("page_options", {}).get(slug, {})
         revision_note = f'（修订版本 {esc(source["revision"])}）' if source and source.get("revision") else ""
         source_note = (f'{esc(source.get("prefix", "原文据"))}<a href="{esc(source["url"])}">{esc(source.get("label", "维基文库"))}</a>整理{revision_note}；{esc(source.get("after", ""))}'
-                       if source else ("本页题解为编者自撰；" if slug == "tijie" and bslug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan") else "原文依所标明底本整理；"))
+                       if source else ("本页题解为编者自撰；" if slug == "tijie" and bslug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan", "zuozhuan") else "原文依所标明底本整理；"))
         if page_options.get("no_tip", spec.get("no_tip")):
             hint = "原文直读，不设悬浮译文；点击“注释”可展开或收起。"
             foot_text = "注释为编者自撰，仅供辅助阅读，以原文为准。"

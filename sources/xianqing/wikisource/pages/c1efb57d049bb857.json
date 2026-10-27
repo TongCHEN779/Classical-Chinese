@@ -1,0 +1,40 @@
+{
+  "title": "閑情偶寄/居室部",
+  "url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E5%B1%85%E5%AE%A4%E9%83%A8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E5%B1%85%E5%AE%A4%E9%83%A8",
+  "revision": "228546",
+  "fetched_at": "2026-10-27T17:27:49.192861+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "閑情偶寄/聲容部",
+      "label": "声容部"
+    },
+    {
+      "title": "閑情偶寄/器玩部",
+      "label": "器玩部"
+    },
+    {
+      "title": "閑情偶寄/居室部/房舍第一",
+      "label": "房舍第一"
+    },
+    {
+      "title": "閑情偶寄/居室部/窗欄第二",
+      "label": "窗栏第二"
+    },
+    {
+      "title": "閑情偶寄/居室部/墻壁第三",
+      "label": "墙壁第三"
+    },
+    {
+      "title": "閑情偶寄/居室部/聯匾第四",
+      "label": "联匾第四"
+    },
+    {
+      "title": "閑情偶寄/居室部/山石第五",
+      "label": "山石第五"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

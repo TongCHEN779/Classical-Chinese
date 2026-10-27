@@ -1,0 +1,40 @@
+{
+  "title": "閑情偶寄/演習部",
+  "url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E6%BC%94%E7%BF%92%E9%83%A8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E6%BC%94%E7%BF%92%E9%83%A8",
+  "revision": "228543",
+  "fetched_at": "2026-10-27T17:27:47.008739+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "閑情偶寄/詞曲部",
+      "label": "词曲部"
+    },
+    {
+      "title": "閑情偶寄/聲容部",
+      "label": "声容部"
+    },
+    {
+      "title": "閑情偶寄/演習部/選劇第一",
+      "label": "选剧第一"
+    },
+    {
+      "title": "閑情偶寄/演習部/變調第二",
+      "label": "变调第二"
+    },
+    {
+      "title": "閑情偶寄/演習部/授曲第三",
+      "label": "授曲第三"
+    },
+    {
+      "title": "閑情偶寄/演習部/教白第四",
+      "label": "教白第四"
+    },
+    {
+      "title": "閑情偶寄/演習部/脫套第五",
+      "label": "脱套第五"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
