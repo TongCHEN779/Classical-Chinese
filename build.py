@@ -11,6 +11,14 @@ NUM = "零一二三四五六七八九十"
 
 
 def cn(n):
+    if n >= 100:
+        h, r = divmod(n, 100)
+        if r == 0:
+            return NUM[h] + "百"
+        if r < 10:
+            return NUM[h] + "百零" + NUM[r]
+        t, u = divmod(r, 10)
+        return NUM[h] + "百" + NUM[t] + "十" + (NUM[u] if u else "")
     if n <= 10:
         return NUM[n]
     if n < 20:
@@ -377,6 +385,20 @@ def _mudanting_spec():
             "pages": pages}
 
 
+def _hongloumeng_spec():
+    pages = []
+    for d in sorted((ROOT / "src/hongloumeng").glob("[0-9][0-9][0-9]")):
+        n = int(d.name)
+        if (n - 1) % 10 == 0:
+            pages.append((None, f"第{cn(n)}回至第{cn(n + 9)}回"))
+        head = (d / "01.txt").read_text(encoding="utf8").splitlines()[0][2:].strip()
+        no, _, name = head.partition(" ")
+        pages.append((d.name, f"{no}·{name}"))
+    return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True,
+            "intro": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。据维基文库汇校本（前八十回以庚辰本为底本，后四十回以程甲本为底本，不含批语），转为简体；白话原文直读，不设悬浮。",
+            "pages": pages}
+
+
 POETRY = {
     "yuewei": _yuewei_spec(),
     "yantielun": _yantielun_spec(),
@@ -384,6 +406,7 @@ POETRY = {
     "huainanzi": _huainanzi_spec(),
     "liaozhai": _liaozhai_spec(),
     "mudanting": _mudanting_spec(),
+    "hongloumeng": _hongloumeng_spec(),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
               "intro": "中国第一部纪传体通史，分本纪、表、书、世家、列传共一百三十卷。此处依《二十四史全译》本，只收原文，十表仅收序言与论赞。",
               "pages": _shiji_pages()},
@@ -511,7 +534,7 @@ def build_poetry(bslug, spec):
                     parts.append(table_html(ch["tbl"]))
                     continue
                 if ch["t"] is None:
-                    parts.append(f'<p class="v dr">{drama_html(ch["o"])}</p>')
+                    parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}">{drama_html(ch["o"]).replace("/", "<br>")}</p>')
                 else:
                   spans = ""
                   for o2, t2 in split_pairs(ch["o"], ch["t"]):
