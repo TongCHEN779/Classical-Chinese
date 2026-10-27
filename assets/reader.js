@@ -81,3 +81,8 @@
     });
   });
 })();
+
+(function () {
+  var t = document.querySelector('.toc.side'), c = t && t.querySelector('.cur');
+  if (c) t.scrollTop = Math.max(0, c.offsetTop - t.clientHeight / 2);
+})();

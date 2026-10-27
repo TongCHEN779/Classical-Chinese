@@ -367,43 +367,251 @@
     {
       "volume": 2,
       "printed_page": 68,
-      "status": "pending",
+      "status": "complete",
       "entries": [
         {
           "id": "007",
           "title": "非鞅第七",
           "printed_page": 68,
-          "status": "pending"
+          "status": "complete",
+          "source_file": "src/yantielun/juan02/007.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96/%E5%8D%B702",
+            "revision": "2299966",
+            "snapshot": "sources/yantielun/wikisource/pages/5c2ec04627dd639a.json",
+            "paragraphs": 10,
+            "sentence_pairs": 73,
+            "notes": 64,
+            "chunks": [
+              {
+                "sentence_pairs": 6,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 10,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 6
+              }
+            ]
+          }
         },
         {
           "id": "008",
           "title": "晁错第八",
           "printed_page": 85,
-          "status": "pending"
+          "status": "complete",
+          "source_file": "src/yantielun/juan02/008.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96/%E5%8D%B702",
+            "revision": "2299966",
+            "snapshot": "sources/yantielun/wikisource/pages/5c2ec04627dd639a.json",
+            "paragraphs": 2,
+            "sentence_pairs": 19,
+            "notes": 14,
+            "chunks": [
+              {
+                "sentence_pairs": 6,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 8
+              }
+            ]
+          }
         },
         {
           "id": "009",
           "title": "刺权第九",
           "printed_page": 91,
-          "status": "pending"
+          "status": "complete",
+          "source_file": "src/yantielun/juan02/009.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96/%E5%8D%B702",
+            "revision": "2299966",
+            "snapshot": "sources/yantielun/wikisource/pages/5c2ec04627dd639a.json",
+            "paragraphs": 4,
+            "sentence_pairs": 35,
+            "notes": 29,
+            "chunks": [
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 10
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 7
+              }
+            ]
+          }
         },
         {
           "id": "010",
           "title": "刺复第十",
           "printed_page": 99,
-          "status": "pending"
+          "status": "complete",
+          "source_file": "src/yantielun/juan02/010.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96/%E5%8D%B702",
+            "revision": "2299966",
+            "snapshot": "sources/yantielun/wikisource/pages/5c2ec04627dd639a.json",
+            "paragraphs": 5,
+            "sentence_pairs": 50,
+            "notes": 38,
+            "chunks": [
+              {
+                "sentence_pairs": 10,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 25,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 1
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 9
+              }
+            ]
+          }
         },
         {
           "id": "011",
           "title": "论儒第十一",
           "printed_page": 110,
-          "status": "pending"
+          "status": "complete",
+          "source_file": "src/yantielun/juan02/011.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96/%E5%8D%B702",
+            "revision": "2299966",
+            "snapshot": "sources/yantielun/wikisource/pages/5c2ec04627dd639a.json",
+            "paragraphs": 7,
+            "sentence_pairs": 60,
+            "notes": 42,
+            "chunks": [
+              {
+                "sentence_pairs": 6,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 11,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 16,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 1,
+                "notes": 1
+              }
+            ]
+          }
         },
         {
           "id": "012",
           "title": "忧边第十二",
           "printed_page": 122,
-          "status": "pending"
+          "status": "complete",
+          "source_file": "src/yantielun/juan02/012.txt",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96/%E5%8D%B702",
+            "revision": "2299966",
+            "snapshot": "sources/yantielun/wikisource/pages/5c2ec04627dd639a.json",
+            "paragraphs": 6,
+            "sentence_pairs": 39,
+            "notes": 35,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 7,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 6
+              }
+            ]
+          }
         }
       ],
       "title_pdf_page": 86
@@ -754,13 +962,16 @@
     }
   ],
   "next": {
-    "volume": 2,
-    "id": "007",
-    "title": "非鞅第七",
-    "pdf_page": 86,
-    "printed_page": 68,
-    "starts_with": "大夫曰：“昔商君相秦",
+    "volume": 3,
+    "entry": "园池第十三",
+    "source": "wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/鹽鐵論/卷03",
     "status": "pending"
   },
-  "pdf_offset_status": "卷一全文及卷二篇题已核实PDF页序为印刷页码加18；后续各卷须逐卷核实。"
+  "pdf_offset_status": "卷一全文及卷二篇题已核实PDF页序为印刷页码加18；后续各卷须逐卷核实。",
+  "continuation_source": {
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/鹽鐵論",
+    "policy": "自卷二起取维基文库原文；已整理卷一保留扫描底本校录。白话、题解、注释继续自撰。"
+  }
 }

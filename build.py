@@ -318,7 +318,7 @@ def _huainanzi_spec():
     status = ("二十一卷全部整理完成。" if len(completed_volumes) == 21 else
               ("已完成" + "、".join(completed_volumes) + "，其余正文待整理。" if completed_volumes else "全文仍在整理中。"))
     return {"title": "淮南子", "author": "［西汉］刘安及其门客", "unit": "节",
-            "intro": "西汉思想著作，共二十一卷。依本地中华书局陈广忠译注本校录原文，配自撰逐句白话、独立注释与题解。"
+            "intro": "西汉思想著作，共二十一卷。已完成卷依中华书局陈广忠译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
                      + f"目前已整理{complete}节。" + status + "分节编号及小标题为整理者所加。",
             "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
                        ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
@@ -333,7 +333,7 @@ def _songlun_spec():
               ("已完成" + "、".join(completed) + "，其余正文待整理。" if completed else "全文仍在整理中。"))
     return {"title": "宋论", "author": "［清］王夫之", "unit": "篇",
             "count_entries": True, "summary_unit": "篇",
-            "intro": "评论宋代政治得失的史论，共十五卷。依本地中华书局刘韶军译注本校录原文，配自撰逐句白话、独立注释与题解。"
+            "intro": "评论宋代政治得失的史论，共十五卷。已完成卷依中华书局刘韶军译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
                      + f"目前已整理{complete}篇。" + status + "保留原书篇序，篇序后的概括性小标题为整理者所加。",
             "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
                        ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
@@ -348,7 +348,9 @@ def _yantielun_spec():
               ("已完成" + "、".join(completed) + "，其余正文待整理。" if completed else "全文仍在整理中。"))
     return {"title": "盐铁论", "author": "［西汉］桓宽", "unit": "篇",
             "count_entries": True, "summary_unit": "篇",
-            "intro": "记述汉昭帝始元六年盐铁会议的政论著作，共十卷六十篇。依本地中华书局陈桐生译注本校录原文，配自撰逐句白话、独立注释与题解。"
+            "page_sources": {f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
+                             for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v["entries"])},
+            "intro": "记述汉昭帝始元六年盐铁会议的政论著作，共十卷六十篇。卷一依中华书局陈桐生译注本校录，卷二起原文取维基文库；白话、独立注释与题解均自撰。"
                      + f"目前已整理{complete}篇。" + status,
             "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}" +
                        ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
@@ -364,7 +366,7 @@ def _yuewei_spec():
               ("已完成" + "、".join(completed) + "，其余正文待整理。" if completed else "全文仍在整理中。"))
     return {"title": "阅微草堂笔记", "author": "［清］纪昀", "unit": "项",
             "count_entries": True, "summary_unit": "项",
-            "intro": "清代文言笔记，含《滦阳消夏录》《如是我闻》《槐西杂志》《姑妄听之》《滦阳续录》五种，共二十四卷。依本地中华书局韩希明译注本校录，配自撰逐句白话、独立注释与题解。"
+            "intro": "清代文言笔记，含《滦阳消夏录》《如是我闻》《槐西杂志》《姑妄听之》《滦阳续录》五种，共二十四卷。已完成部分依中华书局韩希明译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
                      + f"目前已整理{stories}则正文，另收原序、郑序、自题诗二首及卷首自记。" + status
                      + "原书各则没有篇题，编号与概括标题为整理者所加；目录项数含序、诗与自记。",
             "pages": [(f["slug"], f["title"]) for f in progress["front_matter"]] + [
@@ -380,7 +382,7 @@ def _mudanting_spec():
         pages.append((d.name, f"{no}·{name}"))
     if (ROOT / "src/mudanting/fu/01.txt").exists():
         pages.append(("fu", "附·杜丽娘慕色还魂话本"))
-    return {"title": "牡丹亭", "author": "［明］汤显祖", "unit": "出",
+    return {"title": "牡丹亭", "author": "［明］汤显祖", "unit": "出", "no_tip": True, "side_toc": True,
             "intro": "明代传奇名剧，又名《还魂记》，全五十五出，写杜丽娘因梦生情、因情而死、又因情复生的故事。曲词半文半白，故只录原文，随段附少量注释；卷末附话本《杜丽娘慕色还魂》。",
             "pages": pages}
 
@@ -394,7 +396,7 @@ def _hongloumeng_spec():
         head = (d / "01.txt").read_text(encoding="utf8").splitlines()[0][2:].strip()
         no, _, name = head.partition(" ")
         pages.append((d.name, f"{no}·{name}"))
-    return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True,
+    return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True, "no_tip": True, "side_toc": True,
             "intro": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。据维基文库汇校本（前八十回以庚辰本为底本，后四十回以程甲本为底本，不含批语），转为简体；白话原文直读，不设悬浮。",
             "pages": pages}
 
@@ -491,7 +493,7 @@ def drama_html(text):
             cls = "cp" if part.startswith("【") else "sd"
             out.append(f'<span class="{cls}">{part}</span>')
         else:
-            out.append(part)
+            out.append(part.replace("/", "<br>"))
     return "".join(out)
 
 
@@ -547,7 +549,7 @@ def build_poetry(bslug, spec):
                     parts.append(table_html(ch["tbl"]))
                     continue
                 if ch["t"] is None:
-                    parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}">{drama_html(ch["o"]).replace("/", "<br>")}</p>')
+                    parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}">{drama_html(ch["o"])}</p>')
                 else:
                   spans = ""
                   for o2, t2 in split_pairs(ch["o"], ch["t"]):
@@ -565,7 +567,17 @@ def build_poetry(bslug, spec):
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         toc = ""
-        if secs:
+        if spec.get("side_toc"):
+            items = []
+            for sl, tt, _f in pages:
+                if sl is None:
+                    items.append(f'<li class="grp">{esc(tt)}</li>')
+                elif sl == slug:
+                    items.append(f'<li class="cur"><a href="{sl}.html" aria-current="page">{esc(tt)}</a></li>')
+                else:
+                    items.append(f'<li><a href="{sl}.html">{esc(tt)}</a></li>')
+            toc = (f'<details class="toc side" open><summary>总目录</summary><ul>{"".join(items)}</ul></details>')
+        elif secs:
             toc = ('<details class="toc" open><summary>本篇目录</summary><ol>'
                    + "".join(f'<li><a href="#e{k}">{esc(s["title"])}</a></li>' for k, s in enumerate(secs, 1))
                    + "</ol></details>")
@@ -575,10 +587,19 @@ def build_poetry(bslug, spec):
                   else '<span class="off">&nbsp;</span>')
         next_h = (f'<a href="{pages[next_i][0]}.html">{esc(pages[next_i][1])} →</a>' if next_i is not None
                   else '<span class="off">&nbsp;</span>')
+        source = spec.get("page_sources", {}).get(slug)
+        source_note = (f'原文据<a href="{esc(source["url"])}">维基文库</a>整理（修订版本 {esc(source["revision"])}）；'
+                       if source else "原文依所标明底本整理；")
+        if spec.get("no_tip"):
+            hint = "原文直读，不设悬浮译文；点击“注释”可展开或收起。"
+            foot_text = "注释为编者自撰，仅供辅助阅读，以原文为准。"
+        else:
+            hint = "鼠标移到原文上，即显示白话译文；点击“注释”“题解”可展开或收起。触屏设备请点按原文。"
+            foot_text = "白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。"
         body = f"""<header class="top">
 {crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
 <h1>{esc(title)}<small>{esc(btitle)}</small></h1>
-<p class="hint">鼠标移到原文上，即显示白话译文；点击“注释”“题解”可展开或收起。触屏设备请点按原文。</p>
+<p class="hint">{hint}</p>
 </header>
 <main class="reading-layout">
 {toc}
@@ -588,7 +609,7 @@ def build_poetry(bslug, spec):
 </div>
 </main>
 <div id="tip" role="tooltip" hidden></div>
-<footer>原文依注译本转录；白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。</footer>"""
+<footer>{source_note}{foot_text}</footer>"""
         out = ROOT / bslug / f"{slug}.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(page(f"{title}·{btitle}", body, r, True), encoding="utf8")

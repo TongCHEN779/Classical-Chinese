@@ -115,3 +115,12 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 
 /* 白话小说：正文直读，首行缩进 */
 .nv{margin:.9em 0;text-indent:2em!important;font-size:1.06em;line-height:2}
+
+/* 总目录（整书目录固定在左侧） */
+.toc.side ul{list-style:none;margin:8px 0;padding-left:0;line-height:1.75}
+.toc.side li{padding:2px 0}
+.toc.side li.grp{margin-top:.7em;font-size:.85em;letter-spacing:.1em;color:var(--muted)}
+.toc.side li.cur a{color:var(--accent);font-weight:600}
+.toc.side li a{color:var(--fg)}
+.toc.side li a:hover{color:var(--accent)}
+.toc.side li.cur a{color:var(--accent)}

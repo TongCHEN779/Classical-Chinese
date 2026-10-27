@@ -44,7 +44,10 @@ def download(title):
         text=node.get_text('',strip=True).replace('\u3000','').strip()
         if text and not text.startswith(('此作品在','此清朝作品','此西汉作品','此頁面','此页面','取自“','检索自“')):
             blocks.append({'type':node.name,'text':text})
-    return {'title':title,'url':url,'resolved_url':actual,'revision':rev.group(1) if rev else None,'fetched_at':datetime.now(timezone.utc).isoformat(),'status':'source_cached_unreviewed','blocks':blocks,'links':list({x['title']:x for x in links}.values()),'text_sha256':hashlib.sha256('\n'.join(x['text'] for x in blocks).encode()).hexdigest()}
+    unique_links = {}
+    for link in links:
+        unique_links.setdefault(link['title'], link)
+    return {'title':title,'url':url,'resolved_url':actual,'revision':rev.group(1) if rev else None,'fetched_at':datetime.now(timezone.utc).isoformat(),'status':'source_cached_unreviewed','blocks':blocks,'links':list(unique_links.values()),'text_sha256':hashlib.sha256('\n'.join(x['text'] for x in blocks).encode()).hexdigest()}
 
 def save(path, data):
     path.parent.mkdir(parents=True,exist_ok=True)

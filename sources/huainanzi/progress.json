@@ -551,5 +551,10 @@
     "starts_with": "有始者，有未始有有始者",
     "status": "pending"
   },
-  "pdf_offset_status": "卷一全卷及卷二篇题已核实PDF页序=印刷页码+14；其余卷尤其下册仍须逐卷复核。"
+  "pdf_offset_status": "卷一全卷及卷二篇题已核实PDF页序=印刷页码+14；其余卷尤其下册仍须逐卷复核。",
+  "continuation_source": {
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90",
+    "policy": "后续原文改取维基文库；已完成校录保留，逐句白话、题解、分条注释继续自撰；原文缓存不等于整理完成。"
+  }
 }

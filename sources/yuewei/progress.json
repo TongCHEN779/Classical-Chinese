@@ -1475,5 +1475,10 @@
       "purpose": "辅助辨认䰰字，其从需从鬼、释鬼声",
       "url": "https://ctext.org/wiki.pl?chapter=386737&if=gb&remap=gb"
     }
-  ]
+  ],
+  "continuation_source": {
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/%E9%96%B1%E5%BE%AE%E8%8D%89%E5%A0%82%E7%AD%86%E8%A8%98",
+    "policy": "后续原文改取维基文库；已完成校录保留，逐句白话、题解、分条注释继续自撰；原文缓存不等于整理完成。"
+  }
 }

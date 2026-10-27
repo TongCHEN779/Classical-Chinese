@@ -2337,5 +2337,10 @@
       "status": "pending"
     }
   ],
-  "preface_status": "pending"
+  "preface_status": "pending",
+  "continuation_source": {
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0",
+    "policy": "后续原文改取维基文库；已完成校录保留，逐句白话、题解、分条注释继续自撰；原文缓存不等于整理完成。"
+  }
 }

@@ -801,5 +801,10 @@
     "starts_with": "钱氏之归宋，与窦融之归汉",
     "status": "pending"
   },
-  "pdf_offset_status": "卷一及卷二篇题已核实PDF页序为印刷页码加17；其余卷尤其下册须另行复核。"
+  "pdf_offset_status": "卷一及卷二篇题已核实PDF页序为印刷页码加17；其余卷尤其下册须另行复核。",
+  "continuation_source": {
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%AE%8B%E8%AB%96",
+    "policy": "后续原文改取维基文库；已完成校录保留，逐句白话、题解、分条注释继续自撰；原文缓存不等于整理完成。"
+  }
 }
