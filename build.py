@@ -507,7 +507,7 @@ def _four_classics_spec(slug):
 
 
 POETRY = {
-    **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi")},
+    **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
     "canying": _canying_spec(),
     "xiaochuang": _xiaochuang_spec(),
     "xianqing": _xianqing_spec(),
@@ -687,7 +687,7 @@ def build_poetry(bslug, spec):
         page_options = spec.get("page_options", {}).get(slug, {})
         revision_note = f'（修订版本 {esc(source["revision"])}）' if source and source.get("revision") else ""
         source_note = (f'{esc(source.get("prefix", "原文据"))}<a href="{esc(source["url"])}">{esc(source.get("label", "维基文库"))}</a>整理{revision_note}；{esc(source.get("after", ""))}'
-                       if source else ("本页题解为编者自撰；" if slug == "tijie" and bslug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi") else "原文依所标明底本整理；"))
+                       if source else ("本页题解为编者自撰；" if slug == "tijie" and bslug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan") else "原文依所标明底本整理；"))
         if page_options.get("no_tip", spec.get("no_tip")):
             hint = "原文直读，不设悬浮译文；点击“注释”可展开或收起。"
             foot_text = "注释为编者自撰，仅供辅助阅读，以原文为准。"

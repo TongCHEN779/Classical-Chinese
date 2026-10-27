@@ -1,0 +1,356 @@
+{
+  "book": "肉蒲团",
+  "date": "2026-10-27",
+  "status": "full_text_with_basic_annotations",
+  "chapter_count": 20,
+  "translation_status": "not_requested",
+  "annotation_status": "basic_glossary",
+  "scan_collation_status": "not_done",
+  "pages": [
+    {
+      "slug": "tijie",
+      "title": "全书题解",
+      "kind": "editorial",
+      "paragraphs": 0,
+      "notes": 0,
+      "essays": 5
+    },
+    {
+      "slug": "xu",
+      "title": "序",
+      "kind": "front_or_back_matter",
+      "number": null,
+      "paragraphs": 2,
+      "characters": 333,
+      "notes": 11,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/序",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E5%BA%8F",
+        "revision": "2569058",
+        "text_sha256": "d44adf8a78a25928d8346c274e88e6f0bb6ddfcd0ead4ea356d64fbb58c95b8e"
+      }
+    },
+    {
+      "slug": "001",
+      "title": "第一回　止淫风借淫事说法　谈色事就色欲开端",
+      "kind": "chapter",
+      "number": 1,
+      "paragraphs": 4,
+      "characters": 2266,
+      "notes": 41,
+      "dropped_header_blocks": 3,
+      "source": {
+        "title": "肉蒲團/第一回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E4%B8%80%E5%9B%9E",
+        "revision": "2569054",
+        "text_sha256": "bec3fbd5350e311d09835d2befc51c577f92680d042e1806e5a7ddefbdb8802e"
+      }
+    },
+    {
+      "slug": "002",
+      "title": "第二回　老头陀空张皮布袋　小居士受坐肉蒲团",
+      "kind": "chapter",
+      "number": 2,
+      "paragraphs": 12,
+      "characters": 5123,
+      "notes": 57,
+      "dropped_header_blocks": 2,
+      "source": {
+        "title": "肉蒲團/第二回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E4%BA%8C%E5%9B%9E",
+        "revision": "2569055",
+        "text_sha256": "1aa625ee2c3004f9ce4c73206bdbec346c969ea78c451fb90bd6336d6e358dde"
+      }
+    },
+    {
+      "slug": "003",
+      "title": "第三回　道学翁错配风流婿　端庄女移情轻薄郎",
+      "kind": "chapter",
+      "number": 3,
+      "paragraphs": 33,
+      "characters": 7928,
+      "notes": 58,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第三回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E4%B8%89%E5%9B%9E",
+        "revision": "1630192",
+        "text_sha256": "7ddd4fc21e4c199e6da9e49868de258f3ed2db0067e6cf063792f46e87109c25"
+      }
+    },
+    {
+      "slug": "004",
+      "title": "第四回　宿荒村客心悲寂寞　消长夜贼口说风情",
+      "kind": "chapter",
+      "number": 4,
+      "paragraphs": 11,
+      "characters": 4585,
+      "notes": 41,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第四回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%9B%9B%E5%9B%9E",
+        "revision": "1630193",
+        "text_sha256": "aa6fafedae208cbeb61d8226e53d77c467bd40f0a485a8dcaf63ae99970639e0"
+      }
+    },
+    {
+      "slug": "005",
+      "title": "第五回　选丰姿严造花名册　狗情面宽收雪鬓娘",
+      "kind": "chapter",
+      "number": 5,
+      "paragraphs": 13,
+      "characters": 2915,
+      "notes": 52,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第五回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E4%BA%94%E5%9B%9E",
+        "revision": "1630194",
+        "text_sha256": "45ac65086e4c3774ce8091f4c82ab61119a48d1fc4a62739b26cb1fa8fd7edaf"
+      }
+    },
+    {
+      "slug": "006",
+      "title": "第六回　稀短才漫夸长技　现小物贻笑大方",
+      "kind": "chapter",
+      "number": 6,
+      "paragraphs": 14,
+      "characters": 4975,
+      "notes": 35,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第六回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%85%AD%E5%9B%9E",
+        "revision": "2017705",
+        "text_sha256": "e5cca9fabc5ece27da9240058bbe24037e5b94d249c400de1554893d4f0575d1"
+      }
+    },
+    {
+      "slug": "007",
+      "title": "第七回　怨生成抚阳痛哭　思改正屈膝哀求",
+      "kind": "chapter",
+      "number": 7,
+      "paragraphs": 13,
+      "characters": 4788,
+      "notes": 44,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第七回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E4%B8%83%E5%9B%9E",
+        "revision": "2291625",
+        "text_sha256": "c26d16b0ebde30bda124f04f7d31c0914a752428cbb585b9ac91dcb2191804a0"
+      }
+    },
+    {
+      "slug": "008",
+      "title": "第八回　三月苦藏修良朋刮目　一番乔卖弄美妇倾心",
+      "kind": "chapter",
+      "number": 8,
+      "paragraphs": 14,
+      "characters": 4344,
+      "notes": 45,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第八回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%85%AB%E5%9B%9E",
+        "revision": "2017703",
+        "text_sha256": "84a7139437cc84f2ca841cb9c6052c40ed3ea446d0887430a04b42ecb41cc291"
+      }
+    },
+    {
+      "slug": "009",
+      "title": "第九回　擅奇淫偏持大体　分馀乐反占先筹",
+      "kind": "chapter",
+      "number": 9,
+      "paragraphs": 8,
+      "characters": 3397,
+      "notes": 31,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第九回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E4%B9%9D%E5%9B%9E",
+        "revision": "1630200",
+        "text_sha256": "bedd42d781bd3eeb2bf06fd70c2757298396b50ab8cbb6c940d479b51aeedfe6"
+      }
+    },
+    {
+      "slug": "010",
+      "title": "第十回　听先声而知劲敌　留馀地以养真才",
+      "kind": "chapter",
+      "number": 10,
+      "paragraphs": 16,
+      "characters": 5207,
+      "notes": 40,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E5%9B%9E",
+        "revision": "1630201",
+        "text_sha256": "2d3a3dafb134c003476b97da040da70b3b7e69ca3142410308221bd83568d490"
+      }
+    },
+    {
+      "slug": "011",
+      "title": "第十一回　穿窬豪杰浪挥金　露水夫妻成结发",
+      "kind": "chapter",
+      "number": 11,
+      "paragraphs": 11,
+      "characters": 3188,
+      "notes": 31,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十一回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%9B%9E",
+        "revision": "1630203",
+        "text_sha256": "d0ff787cd59cf937d1de66f203c7a6c74f07af97e439c80fd4e2e8036d1aac05"
+      }
+    },
+    {
+      "slug": "012",
+      "title": "第十二回　补磕头方成好事　因吃醋反结同心",
+      "kind": "chapter",
+      "number": 12,
+      "paragraphs": 27,
+      "characters": 7569,
+      "notes": 48,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十二回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%9B%9E",
+        "revision": "1630204",
+        "text_sha256": "dd6af0b55a2f04d5324e30fd0f9e25d75fc25b63b400b8081d1d7e782d13d6ef"
+      }
+    },
+    {
+      "slug": "013",
+      "title": "第十三回　破釜焚舟除隐情　卧薪尝胆复奸雠",
+      "kind": "chapter",
+      "number": 13,
+      "paragraphs": 11,
+      "characters": 3773,
+      "notes": 26,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十三回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E4%B8%89%E5%9B%9E",
+        "revision": "1630205",
+        "text_sha256": "230eecfcbcd186a5b39035151971f238e5df4b723060e175f0ddd84929609dc0"
+      }
+    },
+    {
+      "slug": "014",
+      "title": "第十四回　闭户说欢娱隔墙有耳　禁人观沐浴此处无银",
+      "kind": "chapter",
+      "number": 14,
+      "paragraphs": 12,
+      "characters": 3715,
+      "notes": 44,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十四回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E5%9B%9B%E5%9B%9E",
+        "revision": "1630207",
+        "text_sha256": "7840415cdcb0611ae36e607e069b90fb8711e8ac0b0efbbc07823ac558fd7152"
+      }
+    },
+    {
+      "slug": "015",
+      "title": "第十五回　同盟义议通宵乐　姊妹平分一夜欢",
+      "kind": "chapter",
+      "number": 15,
+      "paragraphs": 16,
+      "characters": 5927,
+      "notes": 64,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十五回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E4%BA%94%E5%9B%9E",
+        "revision": "1630208",
+        "text_sha256": "6fcc4bed5302f2ac9bbda4589d6b31024c3ff573fd2182a9005e5bc5fb5188ae"
+      }
+    },
+    {
+      "slug": "016",
+      "title": "第十六回　真好事半路遭魔　活春宫连箱被劫",
+      "kind": "chapter",
+      "number": 16,
+      "paragraphs": 15,
+      "characters": 4544,
+      "notes": 40,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十六回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E5%85%AD%E5%9B%9E",
+        "revision": "2271058",
+        "text_sha256": "1ffc7759d73e6a8db8d0b44e4c156aa2d50d4488cfe8b594f1e390eff2f60a5a"
+      }
+    },
+    {
+      "slug": "017",
+      "title": "第十七回　得便宜因人瞒己　遭涂毒为己骄人",
+      "kind": "chapter",
+      "number": 17,
+      "paragraphs": 20,
+      "characters": 7785,
+      "notes": 57,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十七回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E4%B8%83%E5%9B%9E",
+        "revision": "1630211",
+        "text_sha256": "a0018dc04f11e9d39415bd5d1834b3b87586f16b9bfc6ecc80e441a1049e35a2"
+      }
+    },
+    {
+      "slug": "018",
+      "title": "第十八回　妻子落风尘明偿积欠　弟兄争窈窕暗索前逋",
+      "kind": "chapter",
+      "number": 18,
+      "paragraphs": 9,
+      "characters": 3040,
+      "notes": 31,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十八回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E5%85%AB%E5%9B%9E",
+        "revision": "2017700",
+        "text_sha256": "71a5e02a4d4f470ec872fa0b2697597b2bfdeda56a6e08a64f5b8dd1849f4547"
+      }
+    },
+    {
+      "slug": "019",
+      "title": "第十九回　孽贯已盈两处香闺齐出丑　禅机将发诸般美色尽成空",
+      "kind": "chapter",
+      "number": 19,
+      "paragraphs": 12,
+      "characters": 4170,
+      "notes": 52,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第十九回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%9B%9E",
+        "revision": "2017701",
+        "text_sha256": "83dfb04d3db025f8805ec6cfbdc8296949394a3beb319981ae63dbf8193253c8"
+      }
+    },
+    {
+      "slug": "020",
+      "title": "第二十回　布袋皮宽色鬼奸雄齐摄入　旃檀路阔冤家债主任相逢",
+      "kind": "chapter",
+      "number": 20,
+      "paragraphs": 15,
+      "characters": 4685,
+      "notes": 63,
+      "dropped_header_blocks": 0,
+      "source": {
+        "title": "肉蒲團/第二十回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%82%89%E8%92%B2%E5%9C%98/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9E",
+        "revision": "1630214",
+        "text_sha256": "a70d27c1703f934a6dffb16d349c081d1e749453d5aa6b854024906053c0dd33"
+      }
+    }
+  ],
+  "annotation_policy": "Editor-authored basic notes (vocabulary, allusions, customs); sexual euphemisms deliberately left unglossed; not exhaustive."
+}
