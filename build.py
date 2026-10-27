@@ -101,14 +101,28 @@ def split_notes(text):
     return [text[a:b].strip() for a, b in zip(starts, starts[1:]) if text[a:b].strip()]
 
 
+def _frag_groups(raw):
+    """把只剩标点、或以逗号等起首的碎句并回上一句（如夹注括号后单独的“。”）。"""
+    groups = []
+    for k, x in enumerate(raw):
+        if groups and (not re.search(r"[\u4e00-\u9fff]", x) or x.lstrip()[:1] in "，；：、）〉"):
+            groups[-1].append(k)
+        else:
+            groups.append([k])
+    return groups
+
+
 def split_pairs(o, t):
     """按句号/叹号/问号把一段原文拆成句，并与译文逐句对应。
-    译文里可用「¦」显式分句；句数对不上时整段不拆。"""
-    so = split_sents(o)
-    if len(so) > 1:
+    译文里可用「¦」显式分句；句数对不上时整段不拆；碎句并回上一句。"""
+    raw = split_sents(o)
+    if len(raw) > 1:
         st = t.split("¦") if "¦" in t else split_sents(t)
-        if len(st) == len(so):
-            return list(zip(so, st))
+        groups = _frag_groups(raw)
+        if len(st) == len(raw):
+            return [("".join(raw[k] for k in g), "".join(st[k] for k in g)) for g in groups]
+        if len(st) == len(groups):
+            return [("".join(raw[k] for k in g), x) for g, x in zip(groups, st)]
     return [(o, t.replace("¦", ""))]
 
 
@@ -370,8 +384,10 @@ def _yuewei_spec():
               ("已完成" + "、".join(completed) + "，其余正文待整理。" if completed else "全文仍在整理中。"))
     return {"title": "阅微草堂笔记", "author": "［清］纪昀", "unit": "项",
             "count_entries": True, "summary_unit": "项",
+            "page_sources": {f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
+                             for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v.get("entries", []))},
             "intro": "清代文言笔记，含《滦阳消夏录》《如是我闻》《槐西杂志》《姑妄听之》《滦阳续录》五种，共二十四卷。已完成部分依中华书局韩希明译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
-                     + f"目前已整理{stories}则正文，另收原序、郑序、自题诗二首及卷首自记。" + status
+                     + f"目前已整理{stories}则正文，另收原序、郑序、自题诗二首、各卷卷首自记及卷二十四附录《纪汝佶六则》。" + status
                      + "原书各则没有篇题，编号与概括标题为整理者所加；目录项数含序、诗与自记。",
             "pages": [(f["slug"], f["title"]) for f in progress["front_matter"]] + [
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
