@@ -1,0 +1,2002 @@
+{
+  "book": "三国演义",
+  "date": "2026-10-27",
+  "status": "full_text_with_basic_annotations",
+  "chapter_count": 120,
+  "translation_status": "not_requested",
+  "annotation_status": "basic_glossary",
+  "annotation_policy": "Editor-authored basic glossary, attached at the first matching occurrence per page; not an exhaustive contextual commentary. Some chapters may have no new rare-word explanations.",
+  "scan_collation_status": "not_done",
+  "unique_glossary_terms": 191,
+  "pages": [
+    {
+      "slug": "tijie",
+      "title": "全书题解",
+      "kind": "editorial",
+      "paragraphs": 0,
+      "notes": 0,
+      "essays": 5
+    },
+    {
+      "slug": "juanshou",
+      "title": "卷首词｜临江仙·杨慎",
+      "kind": "opening_lyric",
+      "paragraphs": 1,
+      "notes": 3,
+      "source": {
+        "title": "三國演義",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9",
+        "revision": "5401635",
+        "text_sha256": "60af0f822b0dd433c1aca4848a33bc18d38615fdebf57829a22a59a4054941cb"
+      }
+    },
+    {
+      "slug": "xu",
+      "title": "序",
+      "kind": "front_or_back_matter",
+      "number": null,
+      "paragraphs": 5,
+      "characters": 1251,
+      "headings": 0,
+      "notes": 6,
+      "source": {
+        "title": "三國演義/序",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E5%BA%8F",
+        "revision": "2575201",
+        "text_sha256": "9ee82653d45f9a5ab9ff480a2c6c49681e5d97060ab1d715a0eb842983124aa9"
+      }
+    },
+    {
+      "slug": "dufa",
+      "title": "读《三国志》法",
+      "kind": "front_or_back_matter",
+      "number": null,
+      "paragraphs": 25,
+      "characters": 10937,
+      "headings": 1,
+      "notes": 33,
+      "source": {
+        "title": "三國演義/讀《三國志》法",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E8%AE%80%E3%80%8A%E4%B8%89%E5%9C%8B%E5%BF%97%E3%80%8B%E6%B3%95",
+        "revision": "2575202",
+        "text_sha256": "f382afb3dcd71a39942d7d605766fb64c7ff05d9fb83d5e90f270e91feeb73a2"
+      }
+    },
+    {
+      "slug": "fanli",
+      "title": "凡例",
+      "kind": "front_or_back_matter",
+      "number": null,
+      "paragraphs": 10,
+      "characters": 873,
+      "headings": 0,
+      "notes": 0,
+      "source": {
+        "title": "三國演義/凡例",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E5%87%A1%E4%BE%8B",
+        "revision": "2575203",
+        "text_sha256": "f0c72896833b1290a8b19b077e630fab6f42d9636c6ab9c27fbffb59c00f1003"
+      }
+    },
+    {
+      "slug": "001",
+      "title": "第一回 宴桃园豪杰三结义　斩黄巾英雄首立功",
+      "kind": "chapter",
+      "number": 1,
+      "paragraphs": 19,
+      "characters": 4697,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "三國演義/第001回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC001%E5%9B%9E",
+        "revision": "2583915",
+        "text_sha256": "cfea70008c39bd88a68983ecdf78c8607b93772a3abe6042c020a8955b343bdf"
+      }
+    },
+    {
+      "slug": "002",
+      "title": "第二回 张翼德怒鞭督邮　何国舅谋诛宦竖",
+      "kind": "chapter",
+      "number": 2,
+      "paragraphs": 22,
+      "characters": 5742,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "三國演義/第002回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC002%E5%9B%9E",
+        "revision": "8185068",
+        "text_sha256": "ed43a233232486b7925e527bb555866862708924d6a05249c0030fac8737bc02"
+      }
+    },
+    {
+      "slug": "003",
+      "title": "第三回 议温明董卓叱丁原　馈金珠李肃说吕布",
+      "kind": "chapter",
+      "number": 3,
+      "paragraphs": 20,
+      "characters": 4932,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "三國演義/第003回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC003%E5%9B%9E",
+        "revision": "2567965",
+        "text_sha256": "28931e6f1a2b1f6477503ea0083b4b00c093f91ecb86d8d7405c95078b55f087"
+      }
+    },
+    {
+      "slug": "004",
+      "title": "第四回 废汉帝陈留为皇 谋董贼孟德献刀",
+      "kind": "chapter",
+      "number": 4,
+      "paragraphs": 29,
+      "characters": 4082,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "三國演義/第004回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC004%E5%9B%9E",
+        "revision": "2567966",
+        "text_sha256": "2d3a3f2fc74d0eb94669d84cbbcfeb2f9d8a9fb41f286e6778db5ec4cd79c8f8"
+      }
+    },
+    {
+      "slug": "005",
+      "title": "第五回 发矫诏诸镇应曹公 破关兵三英战吕布",
+      "kind": "chapter",
+      "number": 5,
+      "paragraphs": 33,
+      "characters": 5590,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "三國演義/第005回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC005%E5%9B%9E",
+        "revision": "7910939",
+        "text_sha256": "d3f9a3930b38662d8609fc42bb4c2611411cf72b8c3528075595cae183a002c7"
+      }
+    },
+    {
+      "slug": "006",
+      "title": "第六回 焚金阙董卓行凶 匿玉玺孙坚背约",
+      "kind": "chapter",
+      "number": 6,
+      "paragraphs": 16,
+      "characters": 4130,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "三國演義/第006回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC006%E5%9B%9E",
+        "revision": "2567969",
+        "text_sha256": "dc57466405842e2845582c1b1f4c778e4d12a987883a525be2120adaceb9780e"
+      }
+    },
+    {
+      "slug": "007",
+      "title": "第七回 袁绍磐河战公孙 孙坚跨江击刘表",
+      "kind": "chapter",
+      "number": 7,
+      "paragraphs": 18,
+      "characters": 4579,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "三國演義/第007回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC007%E5%9B%9E",
+        "revision": "2567970",
+        "text_sha256": "b0d24776840fbd243aad071b746c6653db66bb98535258bb187ba8346276d844"
+      }
+    },
+    {
+      "slug": "008",
+      "title": "第八回 王司徒巧使连环计 董太师大闹凤仪亭",
+      "kind": "chapter",
+      "number": 8,
+      "paragraphs": 20,
+      "characters": 4190,
+      "headings": 0,
+      "notes": 10,
+      "source": {
+        "title": "三國演義/第008回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC008%E5%9B%9E",
+        "revision": "5314829",
+        "text_sha256": "2446563805b9f14a3e0aa291bd2fcd04093fce59d219fec2ae7427bb6c80ec85"
+      }
+    },
+    {
+      "slug": "009",
+      "title": "第九回 除暴凶吕布助司徒 犯长安李傕听贾诩",
+      "kind": "chapter",
+      "number": 9,
+      "paragraphs": 24,
+      "characters": 5281,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第009回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC009%E5%9B%9E",
+        "revision": "2567971",
+        "text_sha256": "5cccefc774c94f53b98b7732826cc032e23f9b19d9d1d7333a9d9244a271deca"
+      }
+    },
+    {
+      "slug": "010",
+      "title": "第十回 勤王室马腾举义 报父仇曹操兴师",
+      "kind": "chapter",
+      "number": 10,
+      "paragraphs": 19,
+      "characters": 4175,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "三國演義/第010回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC010%E5%9B%9E",
+        "revision": "2567973",
+        "text_sha256": "1528dbe9b091e85bf577c7d7f106b272b3a2a2a1073545f8037180a73506ffef"
+      }
+    },
+    {
+      "slug": "011",
+      "title": "第十一回 刘皇叔北海救孔融 吕温侯濮阳破曹操",
+      "kind": "chapter",
+      "number": 11,
+      "paragraphs": 27,
+      "characters": 5729,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第011回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC011%E5%9B%9E",
+        "revision": "2567975",
+        "text_sha256": "8f43b3e5e0e3e66ae546135be41d16bd9a823778e9c86bf017db1ecbb52536da"
+      }
+    },
+    {
+      "slug": "012",
+      "title": "第十二回 陶恭祖三让徐州 曹孟德大战吕布",
+      "kind": "chapter",
+      "number": 12,
+      "paragraphs": 26,
+      "characters": 4518,
+      "headings": 0,
+      "notes": 11,
+      "source": {
+        "title": "三國演義/第012回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC012%E5%9B%9E",
+        "revision": "2567974",
+        "text_sha256": "5ad0497d24182317a82ad0cb179f1269011f5ce94e2c1d26f4ca00b5f3dacecf"
+      }
+    },
+    {
+      "slug": "013",
+      "title": "第十三回 李傕郭汜大交兵 杨奉董承双救驾",
+      "kind": "chapter",
+      "number": 13,
+      "paragraphs": 35,
+      "characters": 5885,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "三國演義/第013回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC013%E5%9B%9E",
+        "revision": "8185567",
+        "text_sha256": "62b3f09c0777931d40cd2b15bdf7ed088a2cdf6ea1e646de8395138d566135bc"
+      }
+    },
+    {
+      "slug": "014",
+      "title": "第十四回 曹孟德移驾幸许都 吕奉先乘夜袭徐郡",
+      "kind": "chapter",
+      "number": 14,
+      "paragraphs": 42,
+      "characters": 6254,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "三國演義/第014回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC014%E5%9B%9E",
+        "revision": "2613836",
+        "text_sha256": "07fe41dd4bebc34673ce111dbdfc5d875878ce02d5a721576016ffb05a83ed2c"
+      }
+    },
+    {
+      "slug": "015",
+      "title": "第十五回 太史慈酣斗小霸王 孙伯符大战严白虎",
+      "kind": "chapter",
+      "number": 15,
+      "paragraphs": 47,
+      "characters": 7154,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "三國演義/第015回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC015%E5%9B%9E",
+        "revision": "8729938",
+        "text_sha256": "10cee44fa70e8af1c9ed016548fb42888e5a469d08e07df6dd86188703ddd0e1"
+      }
+    },
+    {
+      "slug": "016",
+      "title": "第十六回 吕奉先射戟辕门 曹孟德败师淯水",
+      "kind": "chapter",
+      "number": 16,
+      "paragraphs": 47,
+      "characters": 6673,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "三國演義/第016回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC016%E5%9B%9E",
+        "revision": "2567978",
+        "text_sha256": "cde9c9c556aa7d61235636e00f60f923aa2fbe627b9a60743d43c7e183678f23"
+      }
+    },
+    {
+      "slug": "017",
+      "title": "第十七回 袁公路大起七军 曹孟德会合三将",
+      "kind": "chapter",
+      "number": 17,
+      "paragraphs": 29,
+      "characters": 4308,
+      "headings": 0,
+      "notes": 14,
+      "source": {
+        "title": "三國演義/第017回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC017%E5%9B%9E",
+        "revision": "2567979",
+        "text_sha256": "f5cdf5e36e4179894d2c23f5cb2abc47110f9d273cbce28ef00254657d9af5af"
+      }
+    },
+    {
+      "slug": "018",
+      "title": "第十八回 贾文和料敌决胜 夏侯惇拔矢啖睛",
+      "kind": "chapter",
+      "number": 18,
+      "paragraphs": 28,
+      "characters": 3751,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第018回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC018%E5%9B%9E",
+        "revision": "2567980",
+        "text_sha256": "c00edc6e7ed3c94ce0a6cb368338ee9497b98b71395011e4078615da01c8e551"
+      }
+    },
+    {
+      "slug": "019",
+      "title": "第十九回 下邳城曹操鏖兵 白门楼吕布殒命",
+      "kind": "chapter",
+      "number": 19,
+      "paragraphs": 49,
+      "characters": 6404,
+      "headings": 0,
+      "notes": 12,
+      "source": {
+        "title": "三國演義/第019回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC019%E5%9B%9E",
+        "revision": "2567981",
+        "text_sha256": "fda8f531b41f054f057daf9ac6cbb782fed3e554681d0987ba1a6695c82ddd94"
+      }
+    },
+    {
+      "slug": "020",
+      "title": "第二十回 曹阿瞒许田打围 董国舅内阁受诏",
+      "kind": "chapter",
+      "number": 20,
+      "paragraphs": 24,
+      "characters": 4488,
+      "headings": 0,
+      "notes": 13,
+      "source": {
+        "title": "三國演義/第020回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC020%E5%9B%9E",
+        "revision": "8187289",
+        "text_sha256": "920ad449842cfba680bef63d34bc84deeb4c5de59ddfd8162d707e1c77690a6b"
+      }
+    },
+    {
+      "slug": "021",
+      "title": "第二十一回 曹操煮酒论英雄 关公赚城斩车胄",
+      "kind": "chapter",
+      "number": 21,
+      "paragraphs": 31,
+      "characters": 4719,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "三國演義/第021回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC021%E5%9B%9E",
+        "revision": "2567982",
+        "text_sha256": "a2cc8a13294c71eae95255befa7c8891cb3bf8be4c4e3ae08087349822b718df"
+      }
+    },
+    {
+      "slug": "022",
+      "title": "第二十二回 袁曹各起马步三军 关张共擒王刘二将",
+      "kind": "chapter",
+      "number": 22,
+      "paragraphs": 33,
+      "characters": 5400,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "三國演義/第022回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC022%E5%9B%9E",
+        "revision": "2567985",
+        "text_sha256": "c6b7963a2227f071d15ae801be7e2152ea43e3bf515479658f975d9daad1acaf"
+      }
+    },
+    {
+      "slug": "023",
+      "title": "第二十三回 祢正平裸衣骂贼 吉太医下毒遭刑",
+      "kind": "chapter",
+      "number": 23,
+      "paragraphs": 31,
+      "characters": 5642,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第023回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC023%E5%9B%9E",
+        "revision": "2567986",
+        "text_sha256": "e7d6829146ad65e4a64eb86b3e3d45933a2105df3477db6c88b75f112ffd0c7c"
+      }
+    },
+    {
+      "slug": "024",
+      "title": "第二十四回 国贼行凶杀贵妃 皇叔败走投袁绍",
+      "kind": "chapter",
+      "number": 24,
+      "paragraphs": 19,
+      "characters": 2759,
+      "headings": 0,
+      "notes": 10,
+      "source": {
+        "title": "三國演義/第024回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC024%E5%9B%9E",
+        "revision": "2567987",
+        "text_sha256": "b28634af3e6914da2ad5d3667a471ae199dae57eba30b1a1401fc3b31adb9548"
+      }
+    },
+    {
+      "slug": "025",
+      "title": "第二十五回 屯土山关公约三事 救白马曹操解重围",
+      "kind": "chapter",
+      "number": 25,
+      "paragraphs": 31,
+      "characters": 4967,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第025回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC025%E5%9B%9E",
+        "revision": "2567988",
+        "text_sha256": "3e2f808535781fdafa3a1d531c584f715f73ee5f14ca8fb45b6651caf5ab00ac"
+      }
+    },
+    {
+      "slug": "026",
+      "title": "第二十六回 袁本初败兵折将 关云长挂印封金",
+      "kind": "chapter",
+      "number": 26,
+      "paragraphs": 27,
+      "characters": 4087,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第026回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC026%E5%9B%9E",
+        "revision": "8185862",
+        "text_sha256": "664b15f4fd7e51a2cc97f0f082981770645282363050195a4230517b86ea935f"
+      }
+    },
+    {
+      "slug": "027",
+      "title": "第二十七回 美髯公千里走单骑 汉寿侯五关斩六将",
+      "kind": "chapter",
+      "number": 27,
+      "paragraphs": 16,
+      "characters": 5091,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第027回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC027%E5%9B%9E",
+        "revision": "8186000",
+        "text_sha256": "8cba41497d1b8a19c34e1dfa85fd49ba81ebae352e6fedff9770b6e2c4e4635b"
+      }
+    },
+    {
+      "slug": "028",
+      "title": "第二十八回 斩蔡阳兄弟释疑 会古城主臣聚义",
+      "kind": "chapter",
+      "number": 28,
+      "paragraphs": 36,
+      "characters": 5990,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "三國演義/第028回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC028%E5%9B%9E",
+        "revision": "2567993",
+        "text_sha256": "71cdbd74f5f6a7eb15c12af65630286a9a6dec2c0d96e269253febae148ab505"
+      }
+    },
+    {
+      "slug": "029",
+      "title": "第二十九回 小霸王怒斩于吉 碧眼儿坐领江东",
+      "kind": "chapter",
+      "number": 29,
+      "paragraphs": 35,
+      "characters": 4968,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第029回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC029%E5%9B%9E",
+        "revision": "2567991",
+        "text_sha256": "36b23497c1e8ee97fd9a451f78933081751afc07ece7da767255dc33b099eb19"
+      }
+    },
+    {
+      "slug": "030",
+      "title": "第三十回 战官渡本初败绩 劫乌巢孟德烧粮",
+      "kind": "chapter",
+      "number": 30,
+      "paragraphs": 36,
+      "characters": 5745,
+      "headings": 0,
+      "notes": 11,
+      "source": {
+        "title": "三國演義/第030回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC030%E5%9B%9E",
+        "revision": "2567996",
+        "text_sha256": "f489986efdaf6a5650b291b1e1f3a33818269b2dadacd2060087e5bf60c2e18b"
+      }
+    },
+    {
+      "slug": "031",
+      "title": "第三十一回 曹操仓亭破本初 玄德荆州依刘表",
+      "kind": "chapter",
+      "number": 31,
+      "paragraphs": 33,
+      "characters": 4738,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第031回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC031%E5%9B%9E",
+        "revision": "2567992",
+        "text_sha256": "f00fde6beb73502333c03cce625c9d165cb1ff5b4d7bae6f65f73895197e99d1"
+      }
+    },
+    {
+      "slug": "032",
+      "title": "第三十二回 夺冀州袁尚争锋 决漳河许攸献计",
+      "kind": "chapter",
+      "number": 32,
+      "paragraphs": 34,
+      "characters": 5512,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第032回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC032%E5%9B%9E",
+        "revision": "2567994",
+        "text_sha256": "10cf4b75bb4f1230613672f11909990c96c817a43b6b8cadbc9582dbc962882c"
+      }
+    },
+    {
+      "slug": "033",
+      "title": "第三十三回 曹丕乘乱纳甄氏 郭嘉遗计定辽东",
+      "kind": "chapter",
+      "number": 33,
+      "paragraphs": 40,
+      "characters": 5102,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第033回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC033%E5%9B%9E",
+        "revision": "2567995",
+        "text_sha256": "d02b278b7e4bfb65eb8abf40432893a7003acab2c702a6a6a1a22898b2a205f1"
+      }
+    },
+    {
+      "slug": "034",
+      "title": "第三十四回 蔡夫人隔屏听密语 刘皇叔跃马过檀溪",
+      "kind": "chapter",
+      "number": 34,
+      "paragraphs": 31,
+      "characters": 4304,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第034回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC034%E5%9B%9E",
+        "revision": "2567997",
+        "text_sha256": "63e51f459164e05f745adc54986ee2eb903c121e16e69d2fba049e13a4027e08"
+      }
+    },
+    {
+      "slug": "035",
+      "title": "第三十五回 玄德南漳逢隐沦 单福新野遇英主",
+      "kind": "chapter",
+      "number": 35,
+      "paragraphs": 26,
+      "characters": 3796,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第035回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC035%E5%9B%9E",
+        "revision": "2568001",
+        "text_sha256": "c418cb070ea12f33571fc85b958356c34f265b96c3300d16263c7d8eb7979c75"
+      }
+    },
+    {
+      "slug": "036",
+      "title": "第三十六回 玄德用计袭樊城 元直走马荐诸葛",
+      "kind": "chapter",
+      "number": 36,
+      "paragraphs": 27,
+      "characters": 4169,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第036回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC036%E5%9B%9E",
+        "revision": "2568002",
+        "text_sha256": "e43dac0143bf9b467ea878864695790ffb7622bd34bda1087ee6170e8c1a5b10"
+      }
+    },
+    {
+      "slug": "037",
+      "title": "第三十七回 司马徽再荐名士 刘玄德三顾草庐",
+      "kind": "chapter",
+      "number": 37,
+      "paragraphs": 32,
+      "characters": 4714,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第037回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC037%E5%9B%9E",
+        "revision": "2567998",
+        "text_sha256": "c174d441ad91b8ce2920429d7f70e9b141a95248da7770568f56d1927aa848c1"
+      }
+    },
+    {
+      "slug": "038",
+      "title": "第三十八回 定三分隆中决策 战长江孙氏报仇",
+      "kind": "chapter",
+      "number": 38,
+      "paragraphs": 33,
+      "characters": 4978,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第038回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC038%E5%9B%9E",
+        "revision": "4256828",
+        "text_sha256": "ba20a8ddce1c471bc7e664885ebd8f7a0e254f33c6b5aa9f61a2edc244962f20"
+      }
+    },
+    {
+      "slug": "039",
+      "title": "第三十九回 荆州城公子三求计 博望坡军师初用兵",
+      "kind": "chapter",
+      "number": 39,
+      "paragraphs": 32,
+      "characters": 4750,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "三國演義/第039回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC039%E5%9B%9E",
+        "revision": "2567999",
+        "text_sha256": "420d0509b8246095d6fe67c8c01f0f9792eb9eff35992f3b94ea46355f935fd8"
+      }
+    },
+    {
+      "slug": "040",
+      "title": "第四十回 蔡夫人议献荆州 诸葛亮火烧新野",
+      "kind": "chapter",
+      "number": 40,
+      "paragraphs": 34,
+      "characters": 4474,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "三國演義/第040回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC040%E5%9B%9E",
+        "revision": "2568003",
+        "text_sha256": "8ff7376680a5301d060f4804553479310c2746d19cc4863d958f2c4ad166fbf5"
+      }
+    },
+    {
+      "slug": "041",
+      "title": "第四十一回 刘玄德携民渡江 赵子龙单骑救主",
+      "kind": "chapter",
+      "number": 41,
+      "paragraphs": 47,
+      "characters": 6010,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第041回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC041%E5%9B%9E",
+        "revision": "2568004",
+        "text_sha256": "9cc35b3bed6c89e99add4b963c54e2ad861ea8ac3667e59557ca4b8e367c0a14"
+      }
+    },
+    {
+      "slug": "042",
+      "title": "第四十二回 张翼德大闹长阪桥 刘豫州败走汉津口",
+      "kind": "chapter",
+      "number": 42,
+      "paragraphs": 30,
+      "characters": 3689,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "三國演義/第042回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC042%E5%9B%9E",
+        "revision": "2568005",
+        "text_sha256": "2eecae2e1f9a32a50d0c8522c51e3d4ac54d58869472304dbc4b2c8b92a05bb0"
+      }
+    },
+    {
+      "slug": "043",
+      "title": "第四十三回 诸葛亮舌战群儒 鲁子敬力排众议",
+      "kind": "chapter",
+      "number": 43,
+      "paragraphs": 30,
+      "characters": 5360,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第043回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC043%E5%9B%9E",
+        "revision": "2568006",
+        "text_sha256": "0f8bff57d24df158046c0b3fb9df15afa161b720755ce46063ac225d95f568c5"
+      }
+    },
+    {
+      "slug": "044",
+      "title": "第四十四回 孔明用智激周瑜 孙权决计破曹操",
+      "kind": "chapter",
+      "number": 44,
+      "paragraphs": 29,
+      "characters": 4634,
+      "headings": 0,
+      "notes": 11,
+      "source": {
+        "title": "三國演義/第044回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC044%E5%9B%9E",
+        "revision": "2568008",
+        "text_sha256": "899faa0c28b54f65999d9b7d95eb52eb3f033f923f4896aeaac21d178012c566"
+      }
+    },
+    {
+      "slug": "045",
+      "title": "第四十五回 三江口曹操折兵　群英会蒋干中计",
+      "kind": "chapter",
+      "number": 45,
+      "paragraphs": 36,
+      "characters": 5486,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "三國演義/第045回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC045%E5%9B%9E",
+        "revision": "2568007",
+        "text_sha256": "919fe5b1f8004918693ef22f4c493c3ccbde56dfd9f48cabf4381711af30a79c"
+      }
+    },
+    {
+      "slug": "046",
+      "title": "第四十六回 用奇谋孔明借箭 献密计黄盖受刑",
+      "kind": "chapter",
+      "number": 46,
+      "paragraphs": 26,
+      "characters": 4792,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第046回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC046%E5%9B%9E",
+        "revision": "2568009",
+        "text_sha256": "e01d54492f3ee791f92c7faa6ea07a59441d81a2bd68e56b00aeb0cfba467940"
+      }
+    },
+    {
+      "slug": "047",
+      "title": "第四十七回 阚泽密献诈降书 庞统巧授连环计",
+      "kind": "chapter",
+      "number": 47,
+      "paragraphs": 27,
+      "characters": 4002,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第047回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC047%E5%9B%9E",
+        "revision": "2568010",
+        "text_sha256": "e560628dcb56e2843b4d55defcc8b8a5d3500a0f190413edbf3c0f74238a68c2"
+      }
+    },
+    {
+      "slug": "048",
+      "title": "第四十八回 宴长江曹操赋诗 锁战船北军用武",
+      "kind": "chapter",
+      "number": 48,
+      "paragraphs": 23,
+      "characters": 3381,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第048回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC048%E5%9B%9E",
+        "revision": "2568011",
+        "text_sha256": "2ef5c1f97af60539d2750100412305074ffc20dd493bfef8781bfe76f71e87a3"
+      }
+    },
+    {
+      "slug": "049",
+      "title": "第四十九回 七星坛诸葛祭风 三江口周瑜纵火",
+      "kind": "chapter",
+      "number": 49,
+      "paragraphs": 33,
+      "characters": 5257,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "三國演義/第049回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC049%E5%9B%9E",
+        "revision": "2568012",
+        "text_sha256": "f22838e5463b8c2874a7bdae15b17a158ab07f9ceb8b002e89785492a2835254"
+      }
+    },
+    {
+      "slug": "050",
+      "title": "第五十回 诸葛亮智算华容 关云长义释曹操",
+      "kind": "chapter",
+      "number": 50,
+      "paragraphs": 28,
+      "characters": 3874,
+      "headings": 0,
+      "notes": 14,
+      "source": {
+        "title": "三國演義/第050回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC050%E5%9B%9E",
+        "revision": "2568013",
+        "text_sha256": "e542b56f95b46b20abdea2eb2b519f3b29bbe300ec32648c6a4244d6cacdd59c"
+      }
+    },
+    {
+      "slug": "051",
+      "title": "第五十一回 曹仁大战东吴兵 孔明一气周公瑾",
+      "kind": "chapter",
+      "number": 51,
+      "paragraphs": 31,
+      "characters": 4414,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "三國演義/第051回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC051%E5%9B%9E",
+        "revision": "2568014",
+        "text_sha256": "b0cddbe7b18aa018922f0a99e352e6ea5ad9e7b1704b193ff17fc571f9bfa335"
+      }
+    },
+    {
+      "slug": "052",
+      "title": "第五十二回 诸葛亮智辞鲁肃 赵子龙计取桂阳",
+      "kind": "chapter",
+      "number": 52,
+      "paragraphs": 24,
+      "characters": 4562,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "三國演義/第052回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC052%E5%9B%9E",
+        "revision": "2568016",
+        "text_sha256": "89dc2cbc21bea3554650d03a658b19d0306709790451b76af7ce092e08a408d5"
+      }
+    },
+    {
+      "slug": "053",
+      "title": "第五十三回 关云长义释黄汉升 孙仲谋大战张文远",
+      "kind": "chapter",
+      "number": 53,
+      "paragraphs": 31,
+      "characters": 4674,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "三國演義/第053回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC053%E5%9B%9E",
+        "revision": "2568015",
+        "text_sha256": "9120c0fb74c80f03e40e76faf38870258a2e9f8bf5e0836ce2f1866e651bc30b"
+      }
+    },
+    {
+      "slug": "054",
+      "title": "第五十四回 吴国太佛寺看新郎 刘皇叔洞房续佳偶",
+      "kind": "chapter",
+      "number": 54,
+      "paragraphs": 37,
+      "characters": 5116,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第054回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC054%E5%9B%9E",
+        "revision": "2568017",
+        "text_sha256": "bd8d530ed9d2ac6eb44ca38ca3104213f352c6d080ac4eb086c70b54d5e9a747"
+      }
+    },
+    {
+      "slug": "055",
+      "title": "第五十五回 玄德智激孙夫人 孔明二气周公瑾",
+      "kind": "chapter",
+      "number": 55,
+      "paragraphs": 21,
+      "characters": 4300,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第055回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC055%E5%9B%9E",
+        "revision": "2568018",
+        "text_sha256": "ce8a65b156a94e47d1ecd4c4480b0823af38a8bbc1c6af173a22e514de7f1bbe"
+      }
+    },
+    {
+      "slug": "056",
+      "title": "第五十六回 曹操大宴铜雀台 孔明三气周公瑾",
+      "kind": "chapter",
+      "number": 56,
+      "paragraphs": 22,
+      "characters": 4799,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第056回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC056%E5%9B%9E",
+        "revision": "2568019",
+        "text_sha256": "50233b2c9247bb449c152f13bb35e038555d9d97fc09d0d5619cbfd0a8419c6e"
+      }
+    },
+    {
+      "slug": "057",
+      "title": "第五十七回 柴桑口卧龙吊丧 耒阳县凤雏理事",
+      "kind": "chapter",
+      "number": 57,
+      "paragraphs": 38,
+      "characters": 5525,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "三國演義/第057回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC057%E5%9B%9E",
+        "revision": "2568020",
+        "text_sha256": "aec7b991f853bbb11ff9f93c9a5f3c42b948ffdd2b17929c915585c539da9d10"
+      }
+    },
+    {
+      "slug": "058",
+      "title": "第五十八回 马孟起兴兵雪恨 曹阿瞒割须弃袍",
+      "kind": "chapter",
+      "number": 58,
+      "paragraphs": 26,
+      "characters": 5196,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "三國演義/第058回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC058%E5%9B%9E",
+        "revision": "7909160",
+        "text_sha256": "58efdcff34becac62264622d73b1ca5b30f90adbd98fe1a08e006a4925ddad81"
+      }
+    },
+    {
+      "slug": "059",
+      "title": "第五十九回 许褚裸衣斗马超 曹操抹书间韩遂",
+      "kind": "chapter",
+      "number": 59,
+      "paragraphs": 26,
+      "characters": 5328,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "三國演義/第059回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC059%E5%9B%9E",
+        "revision": "2568022",
+        "text_sha256": "5dd8a78840f606dd3cb49d25ec5c825173943c22004616e5e311d9226a61d567"
+      }
+    },
+    {
+      "slug": "060",
+      "title": "第六十回 张永年反难杨修 庞士元议取西蜀",
+      "kind": "chapter",
+      "number": 60,
+      "paragraphs": 38,
+      "characters": 7282,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "三國演義/第060回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC060%E5%9B%9E",
+        "revision": "2568025",
+        "text_sha256": "2d8fd72065b3ba52b096891233ec4fb95b2d56ebbda6519983ddeab2d676fb8b"
+      }
+    },
+    {
+      "slug": "061",
+      "title": "第六十一回 赵云截江夺阿斗 孙权遗书退老瞒",
+      "kind": "chapter",
+      "number": 61,
+      "paragraphs": 37,
+      "characters": 4748,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "三國演義/第061回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC061%E5%9B%9E",
+        "revision": "2568023",
+        "text_sha256": "f2574eac42623ebafc27896b13e5202701950f3de007a1176d89ae8dce9ed603"
+      }
+    },
+    {
+      "slug": "062",
+      "title": "第六十二回 取涪关杨高授首 攻雒城黄魏争功",
+      "kind": "chapter",
+      "number": 62,
+      "paragraphs": 33,
+      "characters": 5419,
+      "headings": 0,
+      "notes": 13,
+      "source": {
+        "title": "三國演義/第062回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC062%E5%9B%9E",
+        "revision": "2568027",
+        "text_sha256": "799f2f3f49888c023b52945d023d7a11b13dcdba43c3307970b73adf16e390dd"
+      }
+    },
+    {
+      "slug": "063",
+      "title": "第六十三回 诸葛亮痛哭庞统 张翼德义释严颜",
+      "kind": "chapter",
+      "number": 63,
+      "paragraphs": 29,
+      "characters": 5365,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第063回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC063%E5%9B%9E",
+        "revision": "2568024",
+        "text_sha256": "59f86590071f0db17f5e620588251302a801ffc63c96eefdf166ec275fe9be07"
+      }
+    },
+    {
+      "slug": "064",
+      "title": "第六十四回 孔明定计捉张任 杨阜借兵破马超",
+      "kind": "chapter",
+      "number": 64,
+      "paragraphs": 30,
+      "characters": 5212,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第064回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC064%E5%9B%9E",
+        "revision": "2568026",
+        "text_sha256": "a3e8db37e51159f73f2df3054b3d2a5dfd5b7ea93666dc23efbe962de66cb2b5"
+      }
+    },
+    {
+      "slug": "065",
+      "title": "第六十五回 马超大战葭萌关 刘备自领益州牧",
+      "kind": "chapter",
+      "number": 65,
+      "paragraphs": 27,
+      "characters": 6032,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "三國演義/第065回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC065%E5%9B%9E",
+        "revision": "2568028",
+        "text_sha256": "606aecd68621e85e765c522de5906385ad8dc14eb4a82038d1f18ecda4ec3aff"
+      }
+    },
+    {
+      "slug": "066",
+      "title": "第六十六回 关云长单刀赴会 伏皇后为国捐生",
+      "kind": "chapter",
+      "number": 66,
+      "paragraphs": 32,
+      "characters": 5146,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第066回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC066%E5%9B%9E",
+        "revision": "2568029",
+        "text_sha256": "1ab949f960c8d46d10014dd93f95e73b3f7fcfb6ff2f7be576402e3e8819d85d"
+      }
+    },
+    {
+      "slug": "067",
+      "title": "第六十七回 曹操平定汉中地 张辽威震逍遥津",
+      "kind": "chapter",
+      "number": 67,
+      "paragraphs": 37,
+      "characters": 5335,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第067回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC067%E5%9B%9E",
+        "revision": "2568030",
+        "text_sha256": "7b673b0902ffde22783c66be8017cef81304bdec74c150894713dd7100a9df83"
+      }
+    },
+    {
+      "slug": "068",
+      "title": "第六十八回 甘宁百骑劫魏营 左慈掷杯戏曹操",
+      "kind": "chapter",
+      "number": 68,
+      "paragraphs": 28,
+      "characters": 5007,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第068回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC068%E5%9B%9E",
+        "revision": "2568031",
+        "text_sha256": "16348c035f22e30859dbe6d785ab42bbf4ddebb6f4aa48eba3a87b96b5b09eff"
+      }
+    },
+    {
+      "slug": "069",
+      "title": "第六十九回 卜周易管辂知机 讨汉贼五臣死节",
+      "kind": "chapter",
+      "number": 69,
+      "paragraphs": 28,
+      "characters": 4902,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第069回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC069%E5%9B%9E",
+        "revision": "7907113",
+        "text_sha256": "15e1db1d591f14dd680e7df67c4e0844fbcf8b5467c76884a231f01a96db47be"
+      }
+    },
+    {
+      "slug": "070",
+      "title": "第七十回 猛张飞智取瓦口隘 老黄忠计夺天荡山",
+      "kind": "chapter",
+      "number": 70,
+      "paragraphs": 25,
+      "characters": 5139,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "三國演義/第070回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC070%E5%9B%9E",
+        "revision": "2568033",
+        "text_sha256": "0ed8b4593b7be2250e37c8cd6643cbf50e82dcdf8e34d6918972d064af8d77fd"
+      }
+    },
+    {
+      "slug": "071",
+      "title": "第七十一回 占对山黄忠逸待劳 据汉水赵云寡胜众",
+      "kind": "chapter",
+      "number": 71,
+      "paragraphs": 24,
+      "characters": 5509,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第071回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC071%E5%9B%9E",
+        "revision": "2568034",
+        "text_sha256": "7ec95e1ca2d102f7124a03286545945880f609bca50d671161a69592714b6311"
+      }
+    },
+    {
+      "slug": "072",
+      "title": "第七十二回 诸葛亮智取汉中 曹阿瞒兵退斜谷",
+      "kind": "chapter",
+      "number": 72,
+      "paragraphs": 19,
+      "characters": 4205,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第072回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC072%E5%9B%9E",
+        "revision": "2568036",
+        "text_sha256": "6d7d124f9513d93cc42b1be539b3baf9aaa443369d0110f2e36f35ec0cc7b924"
+      }
+    },
+    {
+      "slug": "073",
+      "title": "第七十三回 玄德进位汉中王 云长攻拔襄阳郡",
+      "kind": "chapter",
+      "number": 73,
+      "paragraphs": 27,
+      "characters": 4933,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "三國演義/第073回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC073%E5%9B%9E",
+        "revision": "2568035",
+        "text_sha256": "3b7aaf96f6bb10377f42619cb3c4b911cc9c593946c1a62375b178c34cc19712"
+      }
+    },
+    {
+      "slug": "074",
+      "title": "第七十四回 庞令明抬榇决死战　关云长放水渰七军",
+      "kind": "chapter",
+      "number": 74,
+      "paragraphs": 19,
+      "characters": 4422,
+      "headings": 0,
+      "notes": 10,
+      "source": {
+        "title": "三國演義/第074回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC074%E5%9B%9E",
+        "revision": "2568037",
+        "text_sha256": "943c2386eb6b92d891cfcec8051afd57121ff194357f80729c69a2efdf6650c9"
+      }
+    },
+    {
+      "slug": "075",
+      "title": "第七十五回 关云长刮骨疗毒 吕子明白衣渡江",
+      "kind": "chapter",
+      "number": 75,
+      "paragraphs": 18,
+      "characters": 3953,
+      "headings": 0,
+      "notes": 13,
+      "source": {
+        "title": "三國演義/第075回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC075%E5%9B%9E",
+        "revision": "2568039",
+        "text_sha256": "cd93a96f3f80742bfa9700f1825650daecdaf7760fc4a2e2542d1ab8d39040d1"
+      }
+    },
+    {
+      "slug": "076",
+      "title": "第七十六回 徐公明大战沔水 关云长败走麦城",
+      "kind": "chapter",
+      "number": 76,
+      "paragraphs": 21,
+      "characters": 4693,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第076回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC076%E5%9B%9E",
+        "revision": "2568038",
+        "text_sha256": "085bb609856a5ddba9296b8edfa82f546cc7b72e43fc9399101313ffed78ad52"
+      }
+    },
+    {
+      "slug": "077",
+      "title": "第七十七回 玉泉山关公显圣　洛阳城曹操感神",
+      "kind": "chapter",
+      "number": 77,
+      "paragraphs": 22,
+      "characters": 4403,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第077回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC077%E5%9B%9E",
+        "revision": "2568041",
+        "text_sha256": "befec560e2ebeb01726faaa4ad4380a1c967d36ce284feb5fc01947943660396"
+      }
+    },
+    {
+      "slug": "078",
+      "title": "第七十八回 治风疾神医身死　传遗命奸雄数终",
+      "kind": "chapter",
+      "number": 78,
+      "paragraphs": 20,
+      "characters": 4031,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第078回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC078%E5%9B%9E",
+        "revision": "2568040",
+        "text_sha256": "a508e0a08d65e13d1749033826e8035e48f1465ef024ffcc8e5ff98553782454"
+      }
+    },
+    {
+      "slug": "079",
+      "title": "第七十九回 兄逼弟曹植赋诗　侄陷叔刘封伏法",
+      "kind": "chapter",
+      "number": 79,
+      "paragraphs": 24,
+      "characters": 3858,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "三國演義/第079回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC079%E5%9B%9E",
+        "revision": "2568043",
+        "text_sha256": "8e69e6ec2d548d48abd7747da594035e8d03aa1fe0901f323d228fc6a7d3f7f4"
+      }
+    },
+    {
+      "slug": "080",
+      "title": "第八十回 曹丕废帝篡炎刘　汉王正位续大统",
+      "kind": "chapter",
+      "number": 80,
+      "paragraphs": 25,
+      "characters": 4357,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第080回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC080%E5%9B%9E",
+        "revision": "7909161",
+        "text_sha256": "41796b9349eae96bc58ff61ec3f632c93fc8b3c1fee1aa3ab7f297facd20af21"
+      }
+    },
+    {
+      "slug": "081",
+      "title": "第八十一回 急兄仇张飞遇害　雪弟恨先主兴兵",
+      "kind": "chapter",
+      "number": 81,
+      "paragraphs": 18,
+      "characters": 3963,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第081回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC081%E5%9B%9E",
+        "revision": "8730381",
+        "text_sha256": "40d14d0c8736e1da4506917d24a23ddb11017231bfe93d050e2ed99fed97db88"
+      }
+    },
+    {
+      "slug": "082",
+      "title": "第八十二回 孙权降魏受九锡　先主征吴赏六军",
+      "kind": "chapter",
+      "number": 82,
+      "paragraphs": 17,
+      "characters": 4354,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "三國演義/第082回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC082%E5%9B%9E",
+        "revision": "2568044",
+        "text_sha256": "27ef38a22e31aa9e6659096da82f35a27b1611f5399e5bf284af53acb20bad91"
+      }
+    },
+    {
+      "slug": "083",
+      "title": "第八十三回 战猇亭先主得仇人　守江口书生拜大将",
+      "kind": "chapter",
+      "number": 83,
+      "paragraphs": 25,
+      "characters": 5714,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "三國演義/第083回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC083%E5%9B%9E",
+        "revision": "8730382",
+        "text_sha256": "007637ac4ede5b7083094929c7e5e5d482a5fb8b778e98c42754f81a5c66b70a"
+      }
+    },
+    {
+      "slug": "084",
+      "title": "第八十四回 陆逊营烧七百里　孔明巧布八阵图",
+      "kind": "chapter",
+      "number": 84,
+      "paragraphs": 28,
+      "characters": 4891,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第084回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC084%E5%9B%9E",
+        "revision": "2568047",
+        "text_sha256": "3da4b9809d5a8d35d7250465823d0362827cf9f16ef3583edf92e2de89130cc7"
+      }
+    },
+    {
+      "slug": "085",
+      "title": "第八十五回 刘先主遗诏托孤儿　诸葛亮安居平五路",
+      "kind": "chapter",
+      "number": 85,
+      "paragraphs": 23,
+      "characters": 5345,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "三國演義/第085回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC085%E5%9B%9E",
+        "revision": "2568048",
+        "text_sha256": "12be0b0c264f1c7f61f998a6e21bfd518e9e6764a3536843fcbd17b8c20dc049"
+      }
+    },
+    {
+      "slug": "086",
+      "title": "第八十六回 难张温秦宓逞天辩　破曹丕徐盛用火攻",
+      "kind": "chapter",
+      "number": 86,
+      "paragraphs": 21,
+      "characters": 5171,
+      "headings": 0,
+      "notes": 26,
+      "source": {
+        "title": "三國演義/第086回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC086%E5%9B%9E",
+        "revision": "2568049",
+        "text_sha256": "40ff29758a8005df5bb8925fd0b1abf6785a65824679d14a1df4e2362b66e911"
+      }
+    },
+    {
+      "slug": "087",
+      "title": "第八十七回 征南寇丞相大兴师　抗天兵蛮王初受执",
+      "kind": "chapter",
+      "number": 87,
+      "paragraphs": 23,
+      "characters": 5648,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第087回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC087%E5%9B%9E",
+        "revision": "2568051",
+        "text_sha256": "784cb132dfeee1c2d85ad81d2cd3109940a5a0ce8d4f81a87aaf6321a5ed7fd8"
+      }
+    },
+    {
+      "slug": "088",
+      "title": "第八十八回 渡泸水再缚番王　识诈降三擒孟获",
+      "kind": "chapter",
+      "number": 88,
+      "paragraphs": 23,
+      "characters": 4871,
+      "headings": 0,
+      "notes": 9,
+      "source": {
+        "title": "三國演義/第088回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC088%E5%9B%9E",
+        "revision": "2568052",
+        "text_sha256": "6987be245cef4bd02731fe2c04a7f31553bf285445bd61ff7b7d6d9add967f6e"
+      }
+    },
+    {
+      "slug": "089",
+      "title": "第八十九回 武乡侯四番用计　南蛮王五次遭擒",
+      "kind": "chapter",
+      "number": 89,
+      "paragraphs": 26,
+      "characters": 5422,
+      "headings": 0,
+      "notes": 11,
+      "source": {
+        "title": "三國演義/第089回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC089%E5%9B%9E",
+        "revision": "2646272",
+        "text_sha256": "488c778e7c433229c90f070dc4277e4be8d16d62995fefa888a7b9ffc2da1e2c"
+      }
+    },
+    {
+      "slug": "090",
+      "title": "第九十回 驱巨兽六破蛮兵　烧藤甲七擒孟获",
+      "kind": "chapter",
+      "number": 90,
+      "paragraphs": 25,
+      "characters": 6775,
+      "headings": 0,
+      "notes": 13,
+      "source": {
+        "title": "三國演義/第090回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC090%E5%9B%9E",
+        "revision": "2568053",
+        "text_sha256": "5343c2e2f612a01e8c5c49cb6c5ba1c4baaa9cf504795c3a871239521d96ce20"
+      }
+    },
+    {
+      "slug": "091",
+      "title": "第九十一回 祭泸水汉相班师　伐中原武侯上表",
+      "kind": "chapter",
+      "number": 91,
+      "paragraphs": 27,
+      "characters": 5455,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "三國演義/第091回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC091%E5%9B%9E",
+        "revision": "7909162",
+        "text_sha256": "c69b15071ab3abd9d998e2160ca3510725ed84d88dcdb65256182fb0b3e1ca21"
+      }
+    },
+    {
+      "slug": "092",
+      "title": "第九十二回 赵子龙力斩五将　诸葛亮智取三城",
+      "kind": "chapter",
+      "number": 92,
+      "paragraphs": 21,
+      "characters": 4897,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第092回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC092%E5%9B%9E",
+        "revision": "2568054",
+        "text_sha256": "a9250b261a1c43e7c450a30e3a93b2020ffbb523309fe5af2271c251669faa77"
+      }
+    },
+    {
+      "slug": "093",
+      "title": "第九十三回 姜伯约归降孔明　武乡侯骂死王朗",
+      "kind": "chapter",
+      "number": 93,
+      "paragraphs": 18,
+      "characters": 5384,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "三國演義/第093回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC093%E5%9B%9E",
+        "revision": "2568056",
+        "text_sha256": "90ddf244e6a68166913c2be3d9276505d8edf244a6ef0369cb64beffb50d4c87"
+      }
+    },
+    {
+      "slug": "094",
+      "title": "第九十四回 诸葛亮乘雪破羌兵　司马懿克日擒孟达",
+      "kind": "chapter",
+      "number": 94,
+      "paragraphs": 19,
+      "characters": 5410,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "三國演義/第094回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC094%E5%9B%9E",
+        "revision": "2568057",
+        "text_sha256": "bd0756d9357730449da85633c1fe95c9da106a913647043416bc8675a51982cd"
+      }
+    },
+    {
+      "slug": "095",
+      "title": "第九十五回 马谡拒谏失街亭　武侯弹琴退仲达",
+      "kind": "chapter",
+      "number": 95,
+      "paragraphs": 21,
+      "characters": 5928,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "三國演義/第095回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC095%E5%9B%9E",
+        "revision": "2568058",
+        "text_sha256": "5ee2bef7c95046ccdcc5763dd84bedb64976e351f53c132a124a178a46bb9c26"
+      }
+    },
+    {
+      "slug": "096",
+      "title": "第九十六回 孔明挥泪斩马谡　周鲂断发赚曹休",
+      "kind": "chapter",
+      "number": 96,
+      "paragraphs": 19,
+      "characters": 4572,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "三國演義/第096回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC096%E5%9B%9E",
+        "revision": "2568062",
+        "text_sha256": "f0e88a20e4584dad220b988b1db2b447d55fb1ea7d04ed21f697424044446709"
+      }
+    },
+    {
+      "slug": "097",
+      "title": "第九十七回 讨魏国武侯再上表　破曹兵姜维诈献书",
+      "kind": "chapter",
+      "number": 97,
+      "paragraphs": 26,
+      "characters": 4698,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第097回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC097%E5%9B%9E",
+        "revision": "2568059",
+        "text_sha256": "4343951d210869397aaf4fe1353e9f392d834b6ce1e14471012f6a525d937d6d"
+      }
+    },
+    {
+      "slug": "098",
+      "title": "第九十八回 追汉军王双受诛　袭陈仓武侯取胜",
+      "kind": "chapter",
+      "number": 98,
+      "paragraphs": 25,
+      "characters": 5036,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第098回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC098%E5%9B%9E",
+        "revision": "2568061",
+        "text_sha256": "d4f85499b5b56323a1e28e1e478201930e7ea042092a098a426ef25828c2b729"
+      }
+    },
+    {
+      "slug": "099",
+      "title": "第九十九回 诸葛亮大破魏兵　司马懿入寇西蜀",
+      "kind": "chapter",
+      "number": 99,
+      "paragraphs": 30,
+      "characters": 5571,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "三國演義/第099回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC099%E5%9B%9E",
+        "revision": "2568060",
+        "text_sha256": "5948429ff1efdf4a317e0044ec07bd4ae803124c501082c631a227e4dda67321"
+      }
+    },
+    {
+      "slug": "100",
+      "title": "第一百回 汉兵劫寨破曹真　武侯斗阵辱仲达",
+      "kind": "chapter",
+      "number": 100,
+      "paragraphs": 22,
+      "characters": 5225,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第100回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC100%E5%9B%9E",
+        "revision": "2568063",
+        "text_sha256": "3838d751775663ae4d570a4e2f6525c60a5d63f997783630060aafda27e0ee8e"
+      }
+    },
+    {
+      "slug": "101",
+      "title": "第百零一回 出陇上诸葛妆神　奔剑阁张郃中计",
+      "kind": "chapter",
+      "number": 101,
+      "paragraphs": 26,
+      "characters": 5642,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "三國演義/第101回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC101%E5%9B%9E",
+        "revision": "2568067",
+        "text_sha256": "568597d5dac7e535fe7a58629ee6d95686f74311323e543c68f9c3157f40ec76"
+      }
+    },
+    {
+      "slug": "102",
+      "title": "第百零二回 司马懿占北原渭桥　诸葛亮造木牛流马",
+      "kind": "chapter",
+      "number": 102,
+      "paragraphs": 31,
+      "characters": 6491,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第102回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC102%E5%9B%9E",
+        "revision": "2568065",
+        "text_sha256": "fff5d47339e0599f0fcd55bf0a053a8a3a57b883e082457670eb48adfa81f383"
+      }
+    },
+    {
+      "slug": "103",
+      "title": "第百零三回 上方谷司马受困　五丈原诸葛禳星",
+      "kind": "chapter",
+      "number": 103,
+      "paragraphs": 28,
+      "characters": 5684,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "三國演義/第103回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC103%E5%9B%9E",
+        "revision": "2568064",
+        "text_sha256": "216f3dc405b19ba23ce2010472f17ce9790e82f9d21498a3a028bf9f57ffda67"
+      }
+    },
+    {
+      "slug": "104",
+      "title": "第百零四回 陨大星汉丞相归天　见木像魏都督丧胆",
+      "kind": "chapter",
+      "number": 104,
+      "paragraphs": 22,
+      "characters": 3800,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "三國演義/第104回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC104%E5%9B%9E",
+        "revision": "2568066",
+        "text_sha256": "5daffc7ee8fb119bb12358cba6ecc82d6565b9c53edcd9714e9792ed51244eaa"
+      }
+    },
+    {
+      "slug": "105",
+      "title": "第百零五回 武侯预伏锦囊计　魏主拆取承露盘",
+      "kind": "chapter",
+      "number": 105,
+      "paragraphs": 28,
+      "characters": 5347,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "三國演義/第105回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC105%E5%9B%9E",
+        "revision": "2602415",
+        "text_sha256": "8e8b955dc4aeb9d4e62eaae1b7928c184c2e4e01a0c21ffe67400e37d77c5b92"
+      }
+    },
+    {
+      "slug": "106",
+      "title": "第百零六回 公孙渊兵败死襄平  司马懿诈病赚曹爽",
+      "kind": "chapter",
+      "number": 106,
+      "paragraphs": 18,
+      "characters": 5060,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "三國演義/第106回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC106%E5%9B%9E",
+        "revision": "7909163",
+        "text_sha256": "e9498b255e7deac2e32e63db8a8832d0a7def3c89f4ef4fdb806a2a05ee46f98"
+      }
+    },
+    {
+      "slug": "107",
+      "title": "第百零七回 魏主归政司马氏  姜维兵败牛头山",
+      "kind": "chapter",
+      "number": 107,
+      "paragraphs": 25,
+      "characters": 5417,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "三國演義/第107回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC107%E5%9B%9E",
+        "revision": "2568071",
+        "text_sha256": "e8b17b422761c202541befb7329790749619edc812ba2ac19cc39da37ae89826"
+      }
+    },
+    {
+      "slug": "108",
+      "title": "第百零八回 丁奉雪中奋短兵  孙峻席间施密计",
+      "kind": "chapter",
+      "number": 108,
+      "paragraphs": 21,
+      "characters": 3929,
+      "headings": 0,
+      "notes": 14,
+      "source": {
+        "title": "三國演義/第108回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC108%E5%9B%9E",
+        "revision": "2568069",
+        "text_sha256": "9b5806ac796c1ec06e64c7f10138603084f11d4e39e8093d2e728f972eab3bc8"
+      }
+    },
+    {
+      "slug": "109",
+      "title": "第百零九回 困司马汉将奇谋  废曹芳魏家果报",
+      "kind": "chapter",
+      "number": 109,
+      "paragraphs": 21,
+      "characters": 4335,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "三國演義/第109回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC109%E5%9B%9E",
+        "revision": "2568073",
+        "text_sha256": "acd2f0b379eb8cacae223eac830ba0ca721641dc1f3a131006e51a9b1730bd84"
+      }
+    },
+    {
+      "slug": "110",
+      "title": "第一百一十回 文鸯单骑退雄兵  姜维背水破大敌",
+      "kind": "chapter",
+      "number": 110,
+      "paragraphs": 18,
+      "characters": 4512,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "三國演義/第110回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC110%E5%9B%9E",
+        "revision": "2568072",
+        "text_sha256": "0a841a6fdac33d6f826d13208fb01d4a77617014da8578fa5a8c9facba291423"
+      }
+    },
+    {
+      "slug": "111",
+      "title": "第百十一回 邓士载智取姜伯约  诸葛诞义讨司马昭",
+      "kind": "chapter",
+      "number": 111,
+      "paragraphs": 14,
+      "characters": 3855,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "三國演義/第111回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC111%E5%9B%9E",
+        "revision": "2568075",
+        "text_sha256": "3b49ccb20919106802a215ef803649c0ab048a99357b840bb6aaae31bea785b6"
+      }
+    },
+    {
+      "slug": "112",
+      "title": "第百十二回 救寿春于诠死节  取长城伯约鏖兵",
+      "kind": "chapter",
+      "number": 112,
+      "paragraphs": 21,
+      "characters": 3953,
+      "headings": 0,
+      "notes": 10,
+      "source": {
+        "title": "三國演義/第112回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC112%E5%9B%9E",
+        "revision": "2568074",
+        "text_sha256": "cd79eb7d7062bb772a88b461c4f08e7b6c250482849c4e933b6abe5fd4640c8a"
+      }
+    },
+    {
+      "slug": "113",
+      "title": "第百十三回 丁奉定计斩孙𬘭  姜维斗阵破邓艾",
+      "kind": "chapter",
+      "number": 113,
+      "paragraphs": 17,
+      "characters": 4485,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "三國演義/第113回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC113%E5%9B%9E",
+        "revision": "2568076",
+        "text_sha256": "590900c40987362db517ee51bf58cebd3dbe3085822ba043e179e92eef9b6e05"
+      }
+    },
+    {
+      "slug": "114",
+      "title": "第百十四回 曹髦驱车死南阙  姜维弃粮胜魏兵",
+      "kind": "chapter",
+      "number": 114,
+      "paragraphs": 22,
+      "characters": 3845,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "三國演義/第114回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC114%E5%9B%9E",
+        "revision": "2568077",
+        "text_sha256": "780a62a052f0b3c6844e1cc14cdb59c2abfba28e03f88f075279de72e8b9f1f3"
+      }
+    },
+    {
+      "slug": "115",
+      "title": "第百十五回 诏班师后主信谗  托屯田姜维避祸",
+      "kind": "chapter",
+      "number": 115,
+      "paragraphs": 16,
+      "characters": 4078,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "三國演義/第115回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC115%E5%9B%9E",
+        "revision": "2568078",
+        "text_sha256": "bf1a5efa8889c4c50ce644107856da7763382a275785e4d527462cfb960e0cb5"
+      }
+    },
+    {
+      "slug": "116",
+      "title": "第一百一十六回 锺会分兵汉中道  武侯显圣定军山",
+      "kind": "chapter",
+      "number": 116,
+      "paragraphs": 16,
+      "characters": 4280,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "三國演義/第116回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC116%E5%9B%9E",
+        "revision": "2568079",
+        "text_sha256": "632c4889bb961967bd8b4b883fd35a7709bd83d06ae43ba74d853a5f6730d77c"
+      }
+    },
+    {
+      "slug": "117",
+      "title": "第一百一十七回 邓士载偷度阴平  诸葛瞻战死绵竹",
+      "kind": "chapter",
+      "number": 117,
+      "paragraphs": 22,
+      "characters": 4551,
+      "headings": 0,
+      "notes": 14,
+      "source": {
+        "title": "三國演義/第117回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC117%E5%9B%9E",
+        "revision": "2568080",
+        "text_sha256": "133aedfc0ee3c243bddd9a36a2a2b041a2b1a9d0d91e42b1656edc7483989573"
+      }
+    },
+    {
+      "slug": "118",
+      "title": "第一百一十八回 哭祖庙一王死孝 入西川二士争功",
+      "kind": "chapter",
+      "number": 118,
+      "paragraphs": 22,
+      "characters": 3562,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "三國演義/第118回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC118%E5%9B%9E",
+        "revision": "2568082",
+        "text_sha256": "5f0308b705e8edd5235644ae17f4122f41f804fae1d6522050eb4601e7b22edf"
+      }
+    },
+    {
+      "slug": "119",
+      "title": "第一百一十九回 假投降巧计成虚话　再受禅依样画葫芦",
+      "kind": "chapter",
+      "number": 119,
+      "paragraphs": 25,
+      "characters": 4862,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "三國演義/第119回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC119%E5%9B%9E",
+        "revision": "2568081",
+        "text_sha256": "c1cc99a48efa918b5d345d14809d30d4be4f824a68dc4cca3f95fbb4954122d8"
+      }
+    },
+    {
+      "slug": "120",
+      "title": "第一百二十回 荐杜预老将献新谋 降孙皓三分归一统",
+      "kind": "chapter",
+      "number": 120,
+      "paragraphs": 34,
+      "characters": 6488,
+      "headings": 0,
+      "notes": 35,
+      "source": {
+        "title": "三國演義/第120回",
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9/%E7%AC%AC120%E5%9B%9E",
+        "revision": "2568085",
+        "text_sha256": "e461c5c428544d6b39de5886594afa2ca0a36b5d31874aef5fff407ee002f34e"
+      }
+    }
+  ]
+}

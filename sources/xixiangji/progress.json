@@ -1,0 +1,101 @@
+{
+  "book": "西厢记",
+  "date": "2026-10-27",
+  "status": "full_text_with_basic_annotations",
+  "chapter_count": 5,
+  "translation_status": "not_requested",
+  "annotation_status": "basic_glossary",
+  "annotation_policy": "Editor-authored basic glossary, attached at the first matching occurrence per page; not an exhaustive contextual commentary. Some chapters may have no new rare-word explanations.",
+  "scan_collation_status": "not_done",
+  "unique_glossary_terms": 104,
+  "pages": [
+    {
+      "slug": "tijie",
+      "title": "全书题解",
+      "kind": "editorial",
+      "paragraphs": 0,
+      "notes": 0,
+      "essays": 4
+    },
+    {
+      "slug": "001",
+      "title": "第一本 张君瑞闹道场",
+      "kind": "chapter",
+      "number": 1,
+      "paragraphs": 222,
+      "characters": 8728,
+      "headings": 5,
+      "notes": 63,
+      "source": {
+        "title": "西廂記/第1本",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E5%BB%82%E8%A8%98/%E7%AC%AC1%E6%9C%AC",
+        "revision": "2117999",
+        "text_sha256": "984923a2066e24dab23d61b3045d2cd1edbdedcc3abb70c0fa95998380850095"
+      }
+    },
+    {
+      "slug": "002",
+      "title": "第二本 崔莺莺夜听琴",
+      "kind": "chapter",
+      "number": 2,
+      "paragraphs": 276,
+      "characters": 10767,
+      "headings": 6,
+      "notes": 48,
+      "source": {
+        "title": "西廂記/第2本",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E5%BB%82%E8%A8%98/%E7%AC%AC2%E6%9C%AC",
+        "revision": "2530759",
+        "text_sha256": "36253e02074792fdca2c83569c294ed6bf6f666ad256b5d25f3c44c9d1d5e1d3"
+      }
+    },
+    {
+      "slug": "003",
+      "title": "第三本 张君瑞害相思",
+      "kind": "chapter",
+      "number": 3,
+      "paragraphs": 238,
+      "characters": 8801,
+      "headings": 5,
+      "notes": 30,
+      "source": {
+        "title": "西廂記/第3本",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E5%BB%82%E8%A8%98/%E7%AC%AC3%E6%9C%AC",
+        "revision": "1536874",
+        "text_sha256": "974780362e0b383d71f3d2d87d09249031fd4f3cd63075dc8f87525a1c6367be"
+      }
+    },
+    {
+      "slug": "004",
+      "title": "第四本 草桥店梦莺莺",
+      "kind": "chapter",
+      "number": 4,
+      "paragraphs": 191,
+      "characters": 7592,
+      "headings": 5,
+      "notes": 37,
+      "source": {
+        "title": "西廂記/第4本",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E5%BB%82%E8%A8%98/%E7%AC%AC4%E6%9C%AC",
+        "revision": "1536876",
+        "text_sha256": "83a23ae33037e4d001c6523a4415901b4fe2b55c83b7039a5c7b1a38b79fbb65"
+      }
+    },
+    {
+      "slug": "005",
+      "title": "第五本 张君瑞庆团圆",
+      "kind": "chapter",
+      "number": 5,
+      "paragraphs": 228,
+      "characters": 9554,
+      "headings": 5,
+      "notes": 44,
+      "source": {
+        "title": "西廂記/第5本",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E5%BB%82%E8%A8%98/%E7%AC%AC5%E6%9C%AC",
+        "revision": "1536877",
+        "text_sha256": "296489a569cd1907a8df4ac361aa66aba8ba9948ce400a0fd09effbd4ead4b97"
+      }
+    }
+  ]
+}

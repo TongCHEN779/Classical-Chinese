@@ -446,7 +446,70 @@ def _xianqing_spec():
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}") for v in progress["volumes"]]}
 
 
+def _xiaochuang_spec():
+    import json
+    progress = json.loads((ROOT / "sources/xiaochuang/progress.json").read_text(encoding="utf8"))
+    translated = sum(p.get("translated_paragraphs", 0) for p in progress["pages"])
+    notes = sum(p.get("editor_notes", 0) for p in progress["pages"])
+    return {"title": "小窗幽记", "author": "［明］陆绍珩 选，陆绍琏 阅", "unit": "项",
+            "no_tip": True, "side_toc": True, "count_entries": True, "summary_unit": "项",
+            "original_only": True,
+            "intro": "又名《醉古堂剑扫》，清言小品集，共十二卷：集醒、集情、集峭、集灵、集素、集景、集韵、集奇、集绮、集豪、集法、集倩。据维基文库简体版收录十二卷及引、自叙、凡例，保留原站校勘记与缺文标记。"
+                     + f"全书{translated}段均配逐句白话（含卷首署名），共{notes}条编者注释；条目编号为整理者所加。",
+            "index_footer": f"原文收录1547段；已配白话与编者注释{translated}段。原站校勘记另列，不计作编者注释。",
+            "pages": [(p["slug"], p["title"] + ("（已译注）" if p["status"] == "annotated" else "（原文版）")) for p in progress["pages"]],
+            "page_options": {p["slug"]: {"no_tip": False,
+                  "reading_hint": "本卷已配逐句白话与独立注释。鼠标悬停或触屏点按原文可看译文；点击注释、题解可展开。卷末另附原站校勘记。",
+                  "footer": "白话、题解与独立注释为编者自撰；疑字保留并注出暂解。卷末校勘记为原站文字，未据影印本逐字校勘。"}
+                             for p in progress["pages"] if p["status"] == "annotated"},
+            "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
+
+
+def _canying_spec():
+    import json
+    progress = json.loads((ROOT / "sources/canying/progress.json").read_text(encoding="utf8"))
+    completed = progress.get("annotated_paragraphs", [])
+    status = ((f"已完成全部{len(completed)}段的逐句白话、题解与分条注释。" if len(completed) == 390
+               else f"已完成第1—{len(completed)}段的逐句白话、题解与分条注释，其余段落保留原文阅读版。")
+              if completed else "白话与编者释义待整理。")
+    return {"title": "餐樱庑随笔", "author": "［清］况周颐", "unit": "段",
+            "prose": True, "no_tip": True, "original_only": True,
+            "count_entries": True, "summary_unit": "段",
+            "reading_hint": "原文阅读版；白话译文与编者释义尚待整理。括号内为底本夹注，〔缺字〕标记原站未能显示的旧字库字形。左侧编号沿用原站段号。",
+            "original_footer": "底本夹注保留在正文括号中；未据影印本逐字校勘。分页与目录摘句为整理者所加，不代表原书卷目。",
+            "intro": "清末民初况周颐的笔记，涉及典章、科举、人物、诗词与金石。据用户选定的中国哲学书电子化计划底本收录全文390段，分13页阅读，保留原站632处夹注。"
+                     + status + "原站旧字库缺字逐处标明，不猜补。段号沿用原站，目录标题与题解为编者所加。",
+            "index_footer": f"原文收录390段；已配白话、题解与编者注释{len(completed)}段。",
+            "pages": [(p["slug"], p["title"] + ("（已译注）" if p.get("annotation_status") == "complete" else "（原文版）")) for p in progress["pages"]],
+            "page_options": {p["slug"]: {"no_tip": False,
+                  "reading_hint": "鼠标移到原文上显示本句白话，触屏设备请点按原文；点击题解、注释可展开。括号内仍保留底本夹注，疑字、缺字的辨读见注释。",
+                  "footer": "白话、题解与词条注释为编者自撰；原站夹注保留在正文括号中。疑字另注，原文尚未据影印本逐字校定。"}
+                             for p in progress["pages"] if p.get("annotation_status") == "complete"},
+            "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
+
+
+def _four_classics_spec(slug):
+    import json
+    import sys
+    # Editorial metadata is shared with the reproducible source preparation tool.
+    sys.path.insert(0, str(ROOT / "tools"))
+    from four_classics_notes import META
+    meta = META[slug]
+    progress = json.loads((ROOT / "sources" / slug / "progress.json").read_text(encoding="utf8"))
+    return {"title": meta["title"], "author": meta["author"], "unit": meta["unit"],
+            "prose": meta["prose"], "no_tip": True, "side_toc": True,
+            "count_entries": False,
+            "index_footer": f"正文 {progress['chapter_count']} {meta['unit']}；另收全书题解及所选版本附文。",
+            "reading_hint": "原文直读；点击“题解”“注释”可展开。附基础导读注释，不设白话译文。",
+            "intro": meta["intro"],
+            "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
+            "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
+
+
 POETRY = {
+    **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi")},
+    "canying": _canying_spec(),
+    "xiaochuang": _xiaochuang_spec(),
     "xianqing": _xianqing_spec(),
     "yuewei": _yuewei_spec(),
     "yantielun": _yantielun_spec(),
@@ -621,14 +684,21 @@ def build_poetry(bslug, spec):
         next_h = (f'<a href="{pages[next_i][0]}.html">{esc(pages[next_i][1])} →</a>' if next_i is not None
                   else '<span class="off">&nbsp;</span>')
         source = spec.get("page_sources", {}).get(slug)
-        source_note = (f'{esc(source.get("prefix", "原文据"))}<a href="{esc(source["url"])}">维基文库</a>整理（修订版本 {esc(source["revision"])}）；{esc(source.get("after", ""))}'
-                       if source else "原文依所标明底本整理；")
-        if spec.get("no_tip"):
+        page_options = spec.get("page_options", {}).get(slug, {})
+        revision_note = f'（修订版本 {esc(source["revision"])}）' if source and source.get("revision") else ""
+        source_note = (f'{esc(source.get("prefix", "原文据"))}<a href="{esc(source["url"])}">{esc(source.get("label", "维基文库"))}</a>整理{revision_note}；{esc(source.get("after", ""))}'
+                       if source else ("本页题解为编者自撰；" if slug == "tijie" and bslug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi") else "原文依所标明底本整理；"))
+        if page_options.get("no_tip", spec.get("no_tip")):
             hint = "原文直读，不设悬浮译文；点击“注释”可展开或收起。"
             foot_text = "注释为编者自撰，仅供辅助阅读，以原文为准。"
+            if spec.get("original_only"):
+                hint = "原文阅读版；白话与注释待整理。条目编号为整理者所加。"
+                foot_text = spec.get("original_footer", "保留原站校勘记及缺文标记；尚未据影印本逐字校勘。")
         else:
             hint = "鼠标移到原文上，即显示白话译文；点击“注释”“题解”可展开或收起。触屏设备请点按原文。"
             foot_text = "白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。"
+        hint = page_options.get("reading_hint", spec.get("reading_hint", hint))
+        foot_text = page_options.get("footer", foot_text)
         body = f"""<header class="top">
 {crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
 <h1>{esc(title)}<small>{esc(btitle)}</small></h1>
@@ -652,7 +722,7 @@ def build_poetry(bslug, spec):
 <p class="intro">{esc(spec["intro"])}</p>
 </header>
 <main><section class="part"><ul class="vols">{"".join(cells)}</ul></section></main>
-<footer>已整理 {total} {esc(spec.get("summary_unit", "节"))}。</footer>"""
+<footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}</footer>"""
     (ROOT / bslug).mkdir(parents=True, exist_ok=True)
     (ROOT / bslug / "index.html").write_text(page(btitle, body, "../"), encoding="utf8")
     return total

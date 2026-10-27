@@ -1,0 +1,1973 @@
+{
+  "book": "水浒传",
+  "date": "2026-10-27",
+  "status": "full_text_with_basic_annotations",
+  "chapter_count": 120,
+  "translation_status": "not_requested",
+  "annotation_status": "basic_glossary",
+  "annotation_policy": "Editor-authored basic glossary, attached at the first matching occurrence per page; not an exhaustive contextual commentary. Some chapters may have no new rare-word explanations.",
+  "scan_collation_status": "not_done",
+  "unique_glossary_terms": 210,
+  "pages": [
+    {
+      "slug": "tijie",
+      "title": "全书题解",
+      "kind": "editorial",
+      "paragraphs": 0,
+      "notes": 0,
+      "essays": 5
+    },
+    {
+      "slug": "xu",
+      "title": "序",
+      "kind": "front_or_back_matter",
+      "number": null,
+      "paragraphs": 18,
+      "characters": 2764,
+      "headings": 3,
+      "notes": 8,
+      "source": {
+        "title": "水滸傳_(120回本)/序",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E5%BA%8F",
+        "revision": "819433",
+        "text_sha256": "30b433e4e208d98c259ae464c4276d39d0f33756540b684bf31eeb08a63e01a0"
+      }
+    },
+    {
+      "slug": "yinshou",
+      "title": "引首",
+      "kind": "front_or_back_matter",
+      "number": null,
+      "paragraphs": 11,
+      "characters": 1334,
+      "headings": 0,
+      "notes": 9,
+      "source": {
+        "title": "水滸傳_(120回本)/引首",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E5%BC%95%E9%A6%96",
+        "revision": "819406",
+        "text_sha256": "fe477a8f96188a15508e63428a60c3cfb18f9e842d57c7cf6ea69ef3af70d6e9"
+      }
+    },
+    {
+      "slug": "001",
+      "title": "第一回　张天师祈禳瘟疫　洪太尉误走妖魔",
+      "kind": "chapter",
+      "number": 1,
+      "paragraphs": 31,
+      "characters": 5514,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "水滸傳_(120回本)/第001回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC001%E5%9B%9E",
+        "revision": "836340",
+        "text_sha256": "78d79b246553a19ff83ee31d3795b0443fee1a303efee815477c13e2229dc188"
+      }
+    },
+    {
+      "slug": "002",
+      "title": "第二回　王教头私走延安府　九纹龙大闹史家村",
+      "kind": "chapter",
+      "number": 2,
+      "paragraphs": 69,
+      "characters": 13940,
+      "headings": 0,
+      "notes": 47,
+      "source": {
+        "title": "水滸傳_(120回本)/第002回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC002%E5%9B%9E",
+        "revision": "5725560",
+        "text_sha256": "7ef3cb3f9d0278bee071ed7dfa998bc444d3c45f2e6dfb43dae6ddaf050479a2"
+      }
+    },
+    {
+      "slug": "003",
+      "title": "第三回　史大郎夜走华阴县　鲁提辖拳打镇关西",
+      "kind": "chapter",
+      "number": 3,
+      "paragraphs": 31,
+      "characters": 7688,
+      "headings": 0,
+      "notes": 38,
+      "source": {
+        "title": "水滸傳_(120回本)/第003回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC003%E5%9B%9E",
+        "revision": "966205",
+        "text_sha256": "e8c518448d2b07f70c1d8bdd97d159da3bc381b98e4b0485e4e381251e8d7517"
+      }
+    },
+    {
+      "slug": "004",
+      "title": "第四回　赵员外重修文殊院　鲁智深大闹五台山",
+      "kind": "chapter",
+      "number": 4,
+      "paragraphs": 36,
+      "characters": 10926,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第004回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC004%E5%9B%9E",
+        "revision": "2634240",
+        "text_sha256": "e696b2b1fe03923f01b48ee69ab3f648cc605fe73f06b0709fbc2be3f8d5add6"
+      }
+    },
+    {
+      "slug": "005",
+      "title": "第五回　小霸王醉入销金帐　花和尚大闹桃花村",
+      "kind": "chapter",
+      "number": 5,
+      "paragraphs": 32,
+      "characters": 7778,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第005回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC005%E5%9B%9E",
+        "revision": "966264",
+        "text_sha256": "837250d0125aafc97af5afd0030b84739420341af383d255c433c7d5a07ecec7"
+      }
+    },
+    {
+      "slug": "006",
+      "title": "第六回　九纹龙剪径赤松林　鲁智深火烧瓦罐寺",
+      "kind": "chapter",
+      "number": 6,
+      "paragraphs": 22,
+      "characters": 7051,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "水滸傳_(120回本)/第006回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC006%E5%9B%9E",
+        "revision": "836396",
+        "text_sha256": "de066393366dce847f7adf3e90e8747b5c74b188ab102bcab48f8057adcc31d2"
+      }
+    },
+    {
+      "slug": "007",
+      "title": "第七回　花和尚倒拔垂杨柳　豹子头误入白虎堂",
+      "kind": "chapter",
+      "number": 7,
+      "paragraphs": 23,
+      "characters": 7295,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第007回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC007%E5%9B%9E",
+        "revision": "966251",
+        "text_sha256": "35a83e90fc1778ca6ae037340c95e5000b020b6649964068a53aa9802aaa8d44"
+      }
+    },
+    {
+      "slug": "008",
+      "title": "第八回　林教头刺配沧州道　鲁智深大闹野猪林",
+      "kind": "chapter",
+      "number": 8,
+      "paragraphs": 16,
+      "characters": 5254,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "水滸傳_(120回本)/第008回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC008%E5%9B%9E",
+        "revision": "836344",
+        "text_sha256": "81e2596439783368d6bfa5b3aa119cb641335c7c557cbe85a24199e402966dee"
+      }
+    },
+    {
+      "slug": "009",
+      "title": "第九回　柴进门招天下客　林冲棒打洪教头",
+      "kind": "chapter",
+      "number": 9,
+      "paragraphs": 37,
+      "characters": 7758,
+      "headings": 0,
+      "notes": 37,
+      "source": {
+        "title": "水滸傳_(120回本)/第009回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC009%E5%9B%9E",
+        "revision": "1430248",
+        "text_sha256": "95f7add86ca32ba98b64c0f408de7040272f01130c5b879368c23a37b057344b"
+      }
+    },
+    {
+      "slug": "010",
+      "title": "第十回　林教头风雪山神庙　陆虞候火烧草料场",
+      "kind": "chapter",
+      "number": 10,
+      "paragraphs": 24,
+      "characters": 5963,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "水滸傳_(120回本)/第010回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC010%E5%9B%9E",
+        "revision": "836346",
+        "text_sha256": "5c6ff180ba4d40b1965e16c70630ff1c48731571fe1d8c178fb44d84a3772fde"
+      }
+    },
+    {
+      "slug": "011",
+      "title": "第十一回　朱贵水亭施号箭　林冲雪夜上梁山",
+      "kind": "chapter",
+      "number": 11,
+      "paragraphs": 31,
+      "characters": 6446,
+      "headings": 0,
+      "notes": 41,
+      "source": {
+        "title": "水滸傳_(120回本)/第011回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC011%E5%9B%9E",
+        "revision": "2529323",
+        "text_sha256": "b43155c977890b4a696e977f931bcb4026957c075da5abf8ddd7f162686c5be8"
+      }
+    },
+    {
+      "slug": "012",
+      "title": "第十二回　梁山泊林冲落草　汴京城杨志卖刀",
+      "kind": "chapter",
+      "number": 12,
+      "paragraphs": 25,
+      "characters": 5454,
+      "headings": 0,
+      "notes": 42,
+      "source": {
+        "title": "水滸傳_(120回本)/第012回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC012%E5%9B%9E",
+        "revision": "836350",
+        "text_sha256": "e417cffcdaf6c2207920f8bbb0a7bf9344c4ba237f43ba3b3709bdd1c4ba5cf1"
+      }
+    },
+    {
+      "slug": "013",
+      "title": "第十三回　急先锋东郭争功　青面兽北京斗武",
+      "kind": "chapter",
+      "number": 13,
+      "paragraphs": 35,
+      "characters": 5985,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "水滸傳_(120回本)/第013回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC013%E5%9B%9E",
+        "revision": "836351",
+        "text_sha256": "34d0bbe9eabf2bf79dd82d604ea30625218176dc0ffacca05a8cca96e5a9cc0e"
+      }
+    },
+    {
+      "slug": "014",
+      "title": "第十四回　赤发鬼醉卧灵官殿　晁天王认义东溪村",
+      "kind": "chapter",
+      "number": 14,
+      "paragraphs": 25,
+      "characters": 5919,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "水滸傳_(120回本)/第014回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC014%E5%9B%9E",
+        "revision": "836353",
+        "text_sha256": "05e273c34f1e3517afb7332491220916c53f113840f136c314e3a01f80a972a9"
+      }
+    },
+    {
+      "slug": "015",
+      "title": "第十五回　吴学究说三阮撞筹　公孙胜应七星聚义",
+      "kind": "chapter",
+      "number": 15,
+      "paragraphs": 36,
+      "characters": 7242,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "水滸傳_(120回本)/第015回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC015%E5%9B%9E",
+        "revision": "2529482",
+        "text_sha256": "e1e8337dc810c93bc73937d8d8716b5af988c9b490b93086ac6cd293c7b3b22a"
+      }
+    },
+    {
+      "slug": "016",
+      "title": "第十六回　杨志押送金银担　吴用智取生辰纲",
+      "kind": "chapter",
+      "number": 16,
+      "paragraphs": 43,
+      "characters": 8233,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "水滸傳_(120回本)/第016回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC016%E5%9B%9E",
+        "revision": "836356",
+        "text_sha256": "6b582823799bd0b17b409366bf58c1ae7afb822691df3af1eae62cd3aa01ada6"
+      }
+    },
+    {
+      "slug": "017",
+      "title": "第十七回　花和尚单打二龙山　青面兽双夺宝珠寺",
+      "kind": "chapter",
+      "number": 17,
+      "paragraphs": 41,
+      "characters": 8718,
+      "headings": 0,
+      "notes": 56,
+      "source": {
+        "title": "水滸傳_(120回本)/第017回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC017%E5%9B%9E",
+        "revision": "1769739",
+        "text_sha256": "2375bb9b876991774498b5ab504062403a2938d6021ed469f19ee5b5c277ea24"
+      }
+    },
+    {
+      "slug": "018",
+      "title": "第十八回　美髯公智稳插翅虎　宋公明私放晁天王",
+      "kind": "chapter",
+      "number": 18,
+      "paragraphs": 31,
+      "characters": 7815,
+      "headings": 0,
+      "notes": 45,
+      "source": {
+        "title": "水滸傳_(120回本)/第018回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC018%E5%9B%9E",
+        "revision": "836359",
+        "text_sha256": "993e9e3b383dc29444b70c608d5f90c6b9361c2f6e85843e29cd602a64600f06"
+      }
+    },
+    {
+      "slug": "019",
+      "title": "第十九回　林冲水寨大并火　晁盖梁山小夺泊",
+      "kind": "chapter",
+      "number": 19,
+      "paragraphs": 40,
+      "characters": 8042,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第019回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC019%E5%9B%9E",
+        "revision": "836361",
+        "text_sha256": "e33661f3e38a76d70ee18bdb996d33c70cbd62e9a8a5dff3c62ab85d4782df9f"
+      }
+    },
+    {
+      "slug": "020",
+      "title": "第二十回　梁山泊义士尊晁盖　郓城县月夜走刘唐",
+      "kind": "chapter",
+      "number": 20,
+      "paragraphs": 27,
+      "characters": 8910,
+      "headings": 0,
+      "notes": 42,
+      "source": {
+        "title": "水滸傳_(120回本)/第020回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC020%E5%9B%9E",
+        "revision": "836362",
+        "text_sha256": "23dfa38cc95a9b7a9f03bb64e1eb77aeefe25a7ae951890829a12f9d0f6fa11a"
+      }
+    },
+    {
+      "slug": "021",
+      "title": "第二十一回　虔婆醉打唐牛儿　宋江怒杀阎婆惜",
+      "kind": "chapter",
+      "number": 21,
+      "paragraphs": 43,
+      "characters": 8859,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "水滸傳_(120回本)/第021回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC021%E5%9B%9E",
+        "revision": "836364",
+        "text_sha256": "6f4c41e6dee113826d72fdb17ecd54fc52496e19586cb96cd3fd558028f4e5a5"
+      }
+    },
+    {
+      "slug": "022",
+      "title": "第二十二回　阎婆大闹郓城县　朱仝义释宋公明",
+      "kind": "chapter",
+      "number": 22,
+      "paragraphs": 29,
+      "characters": 6587,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "水滸傳_(120回本)/第022回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC022%E5%9B%9E",
+        "revision": "836365",
+        "text_sha256": "bdbe141386a89cf47bd799af85dba055b70deb13b419a7753e9b93f92ed1fc42"
+      }
+    },
+    {
+      "slug": "023",
+      "title": "第二十三回　横海郡柴进留宾　景阳冈武松打虎",
+      "kind": "chapter",
+      "number": 23,
+      "paragraphs": 50,
+      "characters": 7097,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "水滸傳_(120回本)/第023回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC023%E5%9B%9E",
+        "revision": "836367",
+        "text_sha256": "9bafdff92597571d3651adc5a595ddac31e0fdb4cd3a0dd096b5df06de864ec4"
+      }
+    },
+    {
+      "slug": "024",
+      "title": "第二十四回　王婆贪贿说风情　郓哥不忿闹茶肆",
+      "kind": "chapter",
+      "number": 24,
+      "paragraphs": 76,
+      "characters": 18825,
+      "headings": 0,
+      "notes": 35,
+      "source": {
+        "title": "水滸傳_(120回本)/第024回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC024%E5%9B%9E",
+        "revision": "836368",
+        "text_sha256": "78a0c4d8176591991495e416adee91d38adf0124e3e9662c665ec4a223909829"
+      }
+    },
+    {
+      "slug": "025",
+      "title": "第二十五回　王婆计啜西门庆　淫妇药鸩武大郎",
+      "kind": "chapter",
+      "number": 25,
+      "paragraphs": 35,
+      "characters": 6311,
+      "headings": 0,
+      "notes": 14,
+      "source": {
+        "title": "水滸傳_(120回本)/第025回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC025%E5%9B%9E",
+        "revision": "836370",
+        "text_sha256": "3bf5baad0e913fc047075db24d85861ed6279eb0829310af42a2fe2a7e6bd7eb"
+      }
+    },
+    {
+      "slug": "026",
+      "title": "第二十六回　偷骨殖何九叔送丧　供人头武二郎设祭",
+      "kind": "chapter",
+      "number": 26,
+      "paragraphs": 36,
+      "characters": 9601,
+      "headings": 0,
+      "notes": 26,
+      "source": {
+        "title": "水滸傳_(120回本)/第026回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC026%E5%9B%9E",
+        "revision": "836372",
+        "text_sha256": "a967e02e50d6339b422f42e6e5791639f4a18f2b9044f19bb80030a4664575a3"
+      }
+    },
+    {
+      "slug": "027",
+      "title": "第二十七回　母夜叉孟州道卖人肉　武都头十字坡遇张青",
+      "kind": "chapter",
+      "number": 27,
+      "paragraphs": 20,
+      "characters": 5897,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第027回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC027%E5%9B%9E",
+        "revision": "966347",
+        "text_sha256": "d030f1ae0f70bab59b9a32a63a121aff8c6db099bc4f6baa3bf0e5a9be29005c"
+      }
+    },
+    {
+      "slug": "028",
+      "title": "第二十八回　武松威镇安平寨　施恩义夺快活林",
+      "kind": "chapter",
+      "number": 28,
+      "paragraphs": 24,
+      "characters": 5730,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "水滸傳_(120回本)/第028回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC028%E5%9B%9E",
+        "revision": "836374",
+        "text_sha256": "cbb2a3c969b1848886e67862d92483cf8350d32908cc9ede8fd5b798fde5aa27"
+      }
+    },
+    {
+      "slug": "029",
+      "title": "第二十九回　施恩重霸孟州道　武松醉打蒋门神",
+      "kind": "chapter",
+      "number": 29,
+      "paragraphs": 21,
+      "characters": 5433,
+      "headings": 0,
+      "notes": 12,
+      "source": {
+        "title": "水滸傳_(120回本)/第029回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC029%E5%9B%9E",
+        "revision": "836375",
+        "text_sha256": "71672dcfe1eaad0eb8830a1b6f93a54da819a830bcb10d6fc74e8ae46e7d5d33"
+      }
+    },
+    {
+      "slug": "030",
+      "title": "第三十回　施恩三入死囚牢　武松大闹飞云浦",
+      "kind": "chapter",
+      "number": 30,
+      "paragraphs": 30,
+      "characters": 7790,
+      "headings": 0,
+      "notes": 37,
+      "source": {
+        "title": "水滸傳_(120回本)/第030回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC030%E5%9B%9E",
+        "revision": "836376",
+        "text_sha256": "dfe359939dc53aba3b75a67185bdaf4cbb357eee857f93925bd9ab933d6f25ea"
+      }
+    },
+    {
+      "slug": "031",
+      "title": "第三十一回　张都监血溅鸳鸯楼　武行者夜走蜈蚣岭",
+      "kind": "chapter",
+      "number": 31,
+      "paragraphs": 26,
+      "characters": 7864,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "水滸傳_(120回本)/第031回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC031%E5%9B%9E",
+        "revision": "2634202",
+        "text_sha256": "be877592458b13e8bd9506797bd8be1adf9a5b0f4d224a65c68d8e6dc956c600"
+      }
+    },
+    {
+      "slug": "032",
+      "title": "第三十二回　武行者醉打孔亮　锦毛虎义释宋江",
+      "kind": "chapter",
+      "number": 32,
+      "paragraphs": 38,
+      "characters": 11023,
+      "headings": 0,
+      "notes": 44,
+      "source": {
+        "title": "水滸傳_(120回本)/第032回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC032%E5%9B%9E",
+        "revision": "836378",
+        "text_sha256": "92b866882c79f503be38538166d2f812520d5c6e1c12cbeaff61b930644ee360"
+      }
+    },
+    {
+      "slug": "033",
+      "title": "第三十三回　宋江夜看小鳌山　花荣大闹清风寨",
+      "kind": "chapter",
+      "number": 33,
+      "paragraphs": 22,
+      "characters": 7133,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第033回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC033%E5%9B%9E",
+        "revision": "836379",
+        "text_sha256": "826d48960dabaf282435ebd7eb777f0b2d1cdbda9c3541a3c779b1c9af2226fe"
+      }
+    },
+    {
+      "slug": "034",
+      "title": "第三十四回　镇三山大闹青州道　霹雳火夜走瓦砾场",
+      "kind": "chapter",
+      "number": 34,
+      "paragraphs": 29,
+      "characters": 8298,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "水滸傳_(120回本)/第034回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC034%E5%9B%9E",
+        "revision": "836380",
+        "text_sha256": "a76868fd74fec2b1cb4228b5171824518c9d33f26d522c69086ea4b57a8403be"
+      }
+    },
+    {
+      "slug": "035",
+      "title": "第三十五回　石将军村店寄书　小李广梁山射雁",
+      "kind": "chapter",
+      "number": 35,
+      "paragraphs": 37,
+      "characters": 8688,
+      "headings": 0,
+      "notes": 42,
+      "source": {
+        "title": "水滸傳_(120回本)/第035回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC035%E5%9B%9E",
+        "revision": "1728761",
+        "text_sha256": "ccc402aef191a3710576c70788a583cef56469c1cc3a1c8597ca17e40644509e"
+      }
+    },
+    {
+      "slug": "036",
+      "title": "第三十六回　梁山泊吴用举戴宗　揭阳岭宋江逢李俊",
+      "kind": "chapter",
+      "number": 36,
+      "paragraphs": 25,
+      "characters": 7105,
+      "headings": 0,
+      "notes": 36,
+      "source": {
+        "title": "水滸傳_(120回本)/第036回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC036%E5%9B%9E",
+        "revision": "836382",
+        "text_sha256": "d37f8c941ad7fc4a1f61ae1f25fa3545584c40e4b98efb8a7f7ae5a18adc723b"
+      }
+    },
+    {
+      "slug": "037",
+      "title": "第三十七回　没遮拦追赶及时雨　船火儿大闹浔阳江",
+      "kind": "chapter",
+      "number": 37,
+      "paragraphs": 29,
+      "characters": 8536,
+      "headings": 0,
+      "notes": 41,
+      "source": {
+        "title": "水滸傳_(120回本)/第037回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC037%E5%9B%9E",
+        "revision": "966232",
+        "text_sha256": "abed3ff8ebebde5ed83a6527e15f8527b2d94c32d90b7d96626532872ed8896d"
+      }
+    },
+    {
+      "slug": "038",
+      "title": "第三十八回　及时雨会神行太保　黑旋风斗浪里白条",
+      "kind": "chapter",
+      "number": 38,
+      "paragraphs": 26,
+      "characters": 9216,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "水滸傳_(120回本)/第038回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC038%E5%9B%9E",
+        "revision": "836384",
+        "text_sha256": "c7497f540168a3ca3f4d435b944263606e625870acc11c33b514bc4a34ab5439"
+      }
+    },
+    {
+      "slug": "039",
+      "title": "第三十九回　浔阳楼宋江吟反诗　梁山泊戴宗传假信",
+      "kind": "chapter",
+      "number": 39,
+      "paragraphs": 35,
+      "characters": 11541,
+      "headings": 0,
+      "notes": 43,
+      "source": {
+        "title": "水滸傳_(120回本)/第039回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC039%E5%9B%9E",
+        "revision": "2634354",
+        "text_sha256": "9d70af3340be6960fa173d56c557cdbfc766badc3a1be10792b05861534328a5"
+      }
+    },
+    {
+      "slug": "040",
+      "title": "第四十回　梁山泊好汉劫法场　白龙庙英雄小聚义",
+      "kind": "chapter",
+      "number": 40,
+      "paragraphs": 26,
+      "characters": 6647,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "水滸傳_(120回本)/第040回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC040%E5%9B%9E",
+        "revision": "836386",
+        "text_sha256": "3340c9432c09c8696c183aad68f6e5fa2cf1d6088ab6ddf0672d21b388efaa58"
+      }
+    },
+    {
+      "slug": "041",
+      "title": "第四十一回　宋江智取无为军　张顺活捉黄文炳",
+      "kind": "chapter",
+      "number": 41,
+      "paragraphs": 27,
+      "characters": 9428,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "水滸傳_(120回本)/第041回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC041%E5%9B%9E",
+        "revision": "836388",
+        "text_sha256": "f8b0bde263512a7d8e8e1246a7ece88060aa90bf28c9c74cb11351e5312a6227"
+      }
+    },
+    {
+      "slug": "042",
+      "title": "第四十二回　还道村受三卷天书　宋公明遇九天玄女",
+      "kind": "chapter",
+      "number": 42,
+      "paragraphs": 40,
+      "characters": 7865,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第042回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC042%E5%9B%9E",
+        "revision": "836389",
+        "text_sha256": "d41d504ad5827d8469374eaeb56248d92ce00931fb4514c19ee85db201465d1f"
+      }
+    },
+    {
+      "slug": "043",
+      "title": "第四十三回　假李逵剪径劫单人　黑旋风沂岭杀四虎",
+      "kind": "chapter",
+      "number": 43,
+      "paragraphs": 44,
+      "characters": 10293,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第043回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC043%E5%9B%9E",
+        "revision": "836390",
+        "text_sha256": "7a320a2915126a6a703bc7d77b196d08dd1bfe7b941dcdfc109dc06a9f0715a6"
+      }
+    },
+    {
+      "slug": "044",
+      "title": "第四十四回　锦豹子小径逢戴宗　病关索长街遇石秀",
+      "kind": "chapter",
+      "number": 44,
+      "paragraphs": 27,
+      "characters": 9343,
+      "headings": 0,
+      "notes": 43,
+      "source": {
+        "title": "水滸傳_(120回本)/第044回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC044%E5%9B%9E",
+        "revision": "1316318",
+        "text_sha256": "4a99627ead9f23cd3661c26a7f727c2f93f92703efc0f50e94c2792286be2a38"
+      }
+    },
+    {
+      "slug": "045",
+      "title": "第四十五回　杨雄醉骂潘巧云　石秀智杀裴如海",
+      "kind": "chapter",
+      "number": 45,
+      "paragraphs": 38,
+      "characters": 11114,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第045回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC045%E5%9B%9E",
+        "revision": "836392",
+        "text_sha256": "516e778473646ab49e8e06e7b84b95d46f83f3f1d8d419dd74265d6afdc33b34"
+      }
+    },
+    {
+      "slug": "046",
+      "title": "第四十六回　病关索大闹翠屏山　拼命三火烧祝家店",
+      "kind": "chapter",
+      "number": 46,
+      "paragraphs": 31,
+      "characters": 7493,
+      "headings": 0,
+      "notes": 39,
+      "source": {
+        "title": "水滸傳_(120回本)/第046回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC046%E5%9B%9E",
+        "revision": "836393",
+        "text_sha256": "630f3241fc8417879037421e7a3bfd4e7afd854f32a4e06174ebec27ff44b34e"
+      }
+    },
+    {
+      "slug": "047",
+      "title": "第四十七回　扑天雕两修生死书　宋公明一打祝家庄",
+      "kind": "chapter",
+      "number": 47,
+      "paragraphs": 31,
+      "characters": 8687,
+      "headings": 0,
+      "notes": 34,
+      "source": {
+        "title": "水滸傳_(120回本)/第047回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC047%E5%9B%9E",
+        "revision": "836394",
+        "text_sha256": "d06a84b5dd8ed2e4fd37a1e996ce3b0ba503dc9eb88665d8a44cd3c77f509dc3"
+      }
+    },
+    {
+      "slug": "048",
+      "title": "第四十八回　一丈青单捉王矮虎　宋公明两打祝家庄",
+      "kind": "chapter",
+      "number": 48,
+      "paragraphs": 17,
+      "characters": 5578,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "水滸傳_(120回本)/第048回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC048%E5%9B%9E",
+        "revision": "2303267",
+        "text_sha256": "6f23179f542a6007b9b0eb8d2c606b0be57c84cce9aa2bbfe8000873ef84b94c"
+      }
+    },
+    {
+      "slug": "049",
+      "title": "第四十九回　解珍解宝双越狱　孙立孙新大劫牢",
+      "kind": "chapter",
+      "number": 49,
+      "paragraphs": 34,
+      "characters": 8768,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "水滸傳_(120回本)/第049回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC049%E5%9B%9E",
+        "revision": "836397",
+        "text_sha256": "9c20586f270707a65da96ba698302103e89c8a3bda8de147177b146bef06d131"
+      }
+    },
+    {
+      "slug": "050",
+      "title": "第五十回　吴学究双掌连环计　宋公明三打祝家庄",
+      "kind": "chapter",
+      "number": 50,
+      "paragraphs": 14,
+      "characters": 7090,
+      "headings": 0,
+      "notes": 37,
+      "source": {
+        "title": "水滸傳_(120回本)/第050回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC050%E5%9B%9E",
+        "revision": "836398",
+        "text_sha256": "c7309f2cf3c08f060c9278a5805badad4d6597ff772e3d6856756c36841ea3ad"
+      }
+    },
+    {
+      "slug": "051",
+      "title": "第五十一回　插翅虎枷打白秀英　美髯公误失小衙内",
+      "kind": "chapter",
+      "number": 51,
+      "paragraphs": 22,
+      "characters": 7821,
+      "headings": 0,
+      "notes": 44,
+      "source": {
+        "title": "水滸傳_(120回本)/第051回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC051%E5%9B%9E",
+        "revision": "2529483",
+        "text_sha256": "411c1183cc326fc759468960285c7239a121a86ecf92ac60f6c4558cd350c46e"
+      }
+    },
+    {
+      "slug": "052",
+      "title": "第五十二回　李逵打死殷天锡　柴进失陷高唐州",
+      "kind": "chapter",
+      "number": 52,
+      "paragraphs": 31,
+      "characters": 7479,
+      "headings": 0,
+      "notes": 36,
+      "source": {
+        "title": "水滸傳_(120回本)/第052回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC052%E5%9B%9E",
+        "revision": "836400",
+        "text_sha256": "f62b91ccd2ba15a4fc7ff620170d7768ed142a25ad68888a22a66c2ad19b7520"
+      }
+    },
+    {
+      "slug": "053",
+      "title": "第五十三回　戴宗智取公孙胜　李逵斧劈罗真人",
+      "kind": "chapter",
+      "number": 53,
+      "paragraphs": 30,
+      "characters": 9456,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第053回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC053%E5%9B%9E",
+        "revision": "2331671",
+        "text_sha256": "eb1cd3abf4cc22551a22da5b656ed390690b14a4628cb4b748bfc0755f3c590b"
+      }
+    },
+    {
+      "slug": "054",
+      "title": "第五十四回　入云龙斗法破高廉　黑旋风探穴救柴进",
+      "kind": "chapter",
+      "number": 54,
+      "paragraphs": 29,
+      "characters": 7233,
+      "headings": 0,
+      "notes": 36,
+      "source": {
+        "title": "水滸傳_(120回本)/第054回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC054%E5%9B%9E",
+        "revision": "966242",
+        "text_sha256": "09353e95fb1b998569490edb729915a5ac38e5e1e7f68f40dd66e36fb99f9c64"
+      }
+    },
+    {
+      "slug": "055",
+      "title": "第五十五回　高太尉大兴三路兵　呼延灼摆布连环马",
+      "kind": "chapter",
+      "number": 55,
+      "paragraphs": 22,
+      "characters": 6662,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "水滸傳_(120回本)/第055回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC055%E5%9B%9E",
+        "revision": "1736970",
+        "text_sha256": "1ed031202761632000784d89aca362788b6e38cc556431377abfdeed1c46f312"
+      }
+    },
+    {
+      "slug": "056",
+      "title": "第五十六回　吴用使时迁盗甲　汤隆赚徐宁上山",
+      "kind": "chapter",
+      "number": 56,
+      "paragraphs": 20,
+      "characters": 7360,
+      "headings": 0,
+      "notes": 34,
+      "source": {
+        "title": "水滸傳_(120回本)/第056回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC056%E5%9B%9E",
+        "revision": "966261",
+        "text_sha256": "c780e69fcfa87c4450675967f772d201686873628c48ecee826cfcddc911ff05"
+      }
+    },
+    {
+      "slug": "057",
+      "title": "第五十七回　徐宁教使钩镰枪　宋江大破连环马",
+      "kind": "chapter",
+      "number": 57,
+      "paragraphs": 37,
+      "characters": 7823,
+      "headings": 0,
+      "notes": 47,
+      "source": {
+        "title": "水滸傳_(120回本)/第057回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC057%E5%9B%9E",
+        "revision": "966245",
+        "text_sha256": "ca619e6243476fdd97628d6d408c0f1d3a91d1809844433ee961e313d04f1c08"
+      }
+    },
+    {
+      "slug": "058",
+      "title": "第五十八回　三山聚义打青州　众虎同心归水泊",
+      "kind": "chapter",
+      "number": 58,
+      "paragraphs": 22,
+      "characters": 7322,
+      "headings": 0,
+      "notes": 46,
+      "source": {
+        "title": "水滸傳_(120回本)/第058回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC058%E5%9B%9E",
+        "revision": "836412",
+        "text_sha256": "cdc91b4cf30d098c20062eeb200f9c3c397fa051f9b2c5ff6a36f4ca29e09e43"
+      }
+    },
+    {
+      "slug": "059",
+      "title": "第五十九回　吴用赚金铃吊挂　宋江闹西岳华山",
+      "kind": "chapter",
+      "number": 59,
+      "paragraphs": 36,
+      "characters": 7137,
+      "headings": 0,
+      "notes": 35,
+      "source": {
+        "title": "水滸傳_(120回本)/第059回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC059%E5%9B%9E",
+        "revision": "836408",
+        "text_sha256": "3b85c6667480b1db65137b98313c5604b4af65ad4effc8bb8f71d4283c808dcd"
+      }
+    },
+    {
+      "slug": "060",
+      "title": "第六十回　公孙胜芒砀山降魔　晁天王曾头市中箭",
+      "kind": "chapter",
+      "number": 60,
+      "paragraphs": 20,
+      "characters": 7882,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "水滸傳_(120回本)/第060回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC060%E5%9B%9E",
+        "revision": "836409",
+        "text_sha256": "8b3c17660caced41454e69759b59823f45b28a6d075c985f022ed6624c973dac"
+      }
+    },
+    {
+      "slug": "061",
+      "title": "第六十一回　吴用智赚玉麒麟　张顺夜闹金沙渡",
+      "kind": "chapter",
+      "number": 61,
+      "paragraphs": 43,
+      "characters": 8777,
+      "headings": 0,
+      "notes": 43,
+      "source": {
+        "title": "水滸傳_(120回本)/第061回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC061%E5%9B%9E",
+        "revision": "2529321",
+        "text_sha256": "b0abdede05804051f69f7a679335b441c8f4c61a9e78494ffd3cd615c931271c"
+      }
+    },
+    {
+      "slug": "062",
+      "title": "第六十二回　放冷箭燕青救主　劫法场石秀跳楼",
+      "kind": "chapter",
+      "number": 62,
+      "paragraphs": 42,
+      "characters": 10408,
+      "headings": 0,
+      "notes": 51,
+      "source": {
+        "title": "水滸傳_(120回本)/第062回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC062%E5%9B%9E",
+        "revision": "2303262",
+        "text_sha256": "c10f7040cef638945b7cb045e95e80bb711d27ccb3d7e497bbbe026c4bddaafc"
+      }
+    },
+    {
+      "slug": "063",
+      "title": "第六十三回　宋江兵打北京城　关胜议取梁山泊",
+      "kind": "chapter",
+      "number": 63,
+      "paragraphs": 35,
+      "characters": 6853,
+      "headings": 0,
+      "notes": 40,
+      "source": {
+        "title": "水滸傳_(120回本)/第063回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC063%E5%9B%9E",
+        "revision": "836413",
+        "text_sha256": "e5786fa04cc5ca8c0848005ad7f3cf237b88144ce3b8468b713be297c1974c8d"
+      }
+    },
+    {
+      "slug": "064",
+      "title": "第六十四回　呼延灼月夜赚关胜　宋公明雪天擒索超",
+      "kind": "chapter",
+      "number": 64,
+      "paragraphs": 24,
+      "characters": 6494,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第064回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC064%E5%9B%9E",
+        "revision": "836414",
+        "text_sha256": "f6030588ac24954534b7a0cd7e226dbf2d71cabba17b74a3997e24860edecec7"
+      }
+    },
+    {
+      "slug": "065",
+      "title": "第六十五回　托塔天王梦中显圣　浪里白条水上报冤",
+      "kind": "chapter",
+      "number": 65,
+      "paragraphs": 20,
+      "characters": 6309,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第065回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC065%E5%9B%9E",
+        "revision": "2378358",
+        "text_sha256": "0d3c41b05ac64341f4b636d7cdacecfdd2e9e75139725793de4bb605a633394f"
+      }
+    },
+    {
+      "slug": "066",
+      "title": "第六十六回　时迁火烧翠云楼　吴用智取大名府",
+      "kind": "chapter",
+      "number": 66,
+      "paragraphs": 28,
+      "characters": 6281,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "水滸傳_(120回本)/第066回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC066%E5%9B%9E",
+        "revision": "2163435",
+        "text_sha256": "1a3bd477b106debeeb7d7d11abfb6c84d9c463c02d74103b0fcb23c44798d1c4"
+      }
+    },
+    {
+      "slug": "067",
+      "title": "第六十七回　宋江赏马步三军　关胜降水火二将",
+      "kind": "chapter",
+      "number": 67,
+      "paragraphs": 21,
+      "characters": 7534,
+      "headings": 0,
+      "notes": 34,
+      "source": {
+        "title": "水滸傳_(120回本)/第067回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC067%E5%9B%9E",
+        "revision": "836417",
+        "text_sha256": "59aa129b6bb8507562a1cea72bad17dff92256120c767bbe3f8abf17245fb5db"
+      }
+    },
+    {
+      "slug": "068",
+      "title": "第六十八回　宋公明夜打曾头市　卢俊义活捉史文恭",
+      "kind": "chapter",
+      "number": 68,
+      "paragraphs": 21,
+      "characters": 7489,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "水滸傳_(120回本)/第068回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC068%E5%9B%9E",
+        "revision": "836418",
+        "text_sha256": "40685938d0fa57561adb8e025182b8385b285571896cb78a663d376fc94b8d3a"
+      }
+    },
+    {
+      "slug": "069",
+      "title": "第六十九回　东平府误陷九纹龙　宋公明义释双枪将",
+      "kind": "chapter",
+      "number": 69,
+      "paragraphs": 26,
+      "characters": 5869,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "水滸傳_(120回本)/第069回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC069%E5%9B%9E",
+        "revision": "836419",
+        "text_sha256": "0ffe4aff3f1d331fe1e53d28d141be7d96281f7cde3d6a9fb099f233837e34f3"
+      }
+    },
+    {
+      "slug": "070",
+      "title": "第七十回　没羽箭飞石打英雄　宋公明弃粮擒壮士",
+      "kind": "chapter",
+      "number": 70,
+      "paragraphs": 18,
+      "characters": 5284,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "水滸傳_(120回本)/第070回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC070%E5%9B%9E",
+        "revision": "836420",
+        "text_sha256": "237d75020e3fa2b215d6846c7eec0b3fb0038a157f166c60f4a85302d8d4c961"
+      }
+    },
+    {
+      "slug": "071",
+      "title": "第七十一回　忠义堂石碣受天文　梁山泊英雄排座次",
+      "kind": "chapter",
+      "number": 71,
+      "paragraphs": 128,
+      "characters": 7517,
+      "headings": 0,
+      "notes": 41,
+      "source": {
+        "title": "水滸傳_(120回本)/第071回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC071%E5%9B%9E",
+        "revision": "2529480",
+        "text_sha256": "cf3703ef04ee64f64fb2ab6c43590b7a4f4a35af0e7c3ac3c6daeaa19c06c06b"
+      }
+    },
+    {
+      "slug": "072",
+      "title": "第七十二回　柴进簪花入禁院　李逵元夜闹东京",
+      "kind": "chapter",
+      "number": 72,
+      "paragraphs": 26,
+      "characters": 6988,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "水滸傳_(120回本)/第072回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC072%E5%9B%9E",
+        "revision": "836422",
+        "text_sha256": "2384c75db61faaa8fd606a0ad1b6c2de633c301b67590bf7ec302c07bb496498"
+      }
+    },
+    {
+      "slug": "073",
+      "title": "第七十三回　黑旋风乔捉鬼　梁山泊双献头",
+      "kind": "chapter",
+      "number": 73,
+      "paragraphs": 16,
+      "characters": 7269,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "水滸傳_(120回本)/第073回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC073%E5%9B%9E",
+        "revision": "836423",
+        "text_sha256": "c86403c5326cfe70aab432dc4ab2181e33019a48f9feed82573b91beb88ae91c"
+      }
+    },
+    {
+      "slug": "074",
+      "title": "第七十四回　燕青智扑擎天柱　李逵寿张乔坐衙",
+      "kind": "chapter",
+      "number": 74,
+      "paragraphs": 30,
+      "characters": 7302,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "水滸傳_(120回本)/第074回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC074%E5%9B%9E",
+        "revision": "836424",
+        "text_sha256": "1e871d5e401f166f03913d10e432906a6634861835a9f9d556fcd3505de3debb"
+      }
+    },
+    {
+      "slug": "075",
+      "title": "第七十五回　活阎罗倒船偷御酒　黑旋风扯诏骂钦差",
+      "kind": "chapter",
+      "number": 75,
+      "paragraphs": 20,
+      "characters": 4781,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "水滸傳_(120回本)/第075回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC075%E5%9B%9E",
+        "revision": "836425",
+        "text_sha256": "4bce14115f813691ebbcc86233e40015ef045e7e829963bdf076013cdb7c09c2"
+      }
+    },
+    {
+      "slug": "076",
+      "title": "第七十六回　吴加亮布四斗五方旗　宋公明排九宫八卦阵",
+      "kind": "chapter",
+      "number": 76,
+      "paragraphs": 72,
+      "characters": 7694,
+      "headings": 0,
+      "notes": 39,
+      "source": {
+        "title": "水滸傳_(120回本)/第076回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC076%E5%9B%9E",
+        "revision": "836454",
+        "text_sha256": "76909d6b93e8b9c3724522c51eeb73ac7d6774f6076608b77582c3bedbf75627"
+      }
+    },
+    {
+      "slug": "077",
+      "title": "第七十七回　梁山泊十面埋伏　宋公明两赢童贯",
+      "kind": "chapter",
+      "number": 77,
+      "paragraphs": 34,
+      "characters": 6646,
+      "headings": 0,
+      "notes": 36,
+      "source": {
+        "title": "水滸傳_(120回本)/第077回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC077%E5%9B%9E",
+        "revision": "836427",
+        "text_sha256": "1b88e99ba3d2b07f48f539ab43e15720defc79ec26175552ad2af7cb6c7e2bb7"
+      }
+    },
+    {
+      "slug": "078",
+      "title": "第七十八回　十节度议取梁山泊　宋公明一败高太尉",
+      "kind": "chapter",
+      "number": 78,
+      "paragraphs": 30,
+      "characters": 5387,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "水滸傳_(120回本)/第078回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC078%E5%9B%9E",
+        "revision": "836428",
+        "text_sha256": "b74e27d3d5d5a0ef85f779b110c35a0212b5ca564a1fe453c4277682ab4df268"
+      }
+    },
+    {
+      "slug": "079",
+      "title": "第七十九回　刘唐放火烧战船　宋江两败高太尉",
+      "kind": "chapter",
+      "number": 79,
+      "paragraphs": 14,
+      "characters": 6036,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "水滸傳_(120回本)/第079回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC079%E5%9B%9E",
+        "revision": "2529481",
+        "text_sha256": "d6a66c2b6544acd40c7716d7af2ea31dee7201130feb4082dacaa4686d3b8bb5"
+      }
+    },
+    {
+      "slug": "080",
+      "title": "第八十回　张顺凿漏海鳅船　宋江三败高太尉",
+      "kind": "chapter",
+      "number": 80,
+      "paragraphs": 36,
+      "characters": 9725,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第080回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC080%E5%9B%9E",
+        "revision": "2530107",
+        "text_sha256": "8d29f62cf95384586ca495070a6592f5bb69cbdd8fa822d791335ab39ac0d292"
+      }
+    },
+    {
+      "slug": "081",
+      "title": "第八十一回　燕青月夜遇道君　戴宗定计出乐和",
+      "kind": "chapter",
+      "number": 81,
+      "paragraphs": 8,
+      "characters": 7425,
+      "headings": 0,
+      "notes": 34,
+      "source": {
+        "title": "水滸傳_(120回本)/第081回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC081%E5%9B%9E",
+        "revision": "836431",
+        "text_sha256": "5b9268fd9c32dcacab8aae406253a95f85fc835aa35d14851a8e47fd963b61f7"
+      }
+    },
+    {
+      "slug": "082",
+      "title": "第八十二回　梁山泊分金大买市　宋公明全伙受招安",
+      "kind": "chapter",
+      "number": 82,
+      "paragraphs": 27,
+      "characters": 8158,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "水滸傳_(120回本)/第082回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC082%E5%9B%9E",
+        "revision": "836432",
+        "text_sha256": "8f7be4bf6275c36042ba83681333e1bacf82ea57d7fe1b09ca755fef5fc336ea"
+      }
+    },
+    {
+      "slug": "083",
+      "title": "第八十三回　宋公明奉诏破大辽　陈桥驿滴泪斩小卒",
+      "kind": "chapter",
+      "number": 83,
+      "paragraphs": 27,
+      "characters": 7415,
+      "headings": 0,
+      "notes": 26,
+      "source": {
+        "title": "水滸傳_(120回本)/第083回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC083%E5%9B%9E",
+        "revision": "836433",
+        "text_sha256": "e434640087bc22befdc95dfb6534b13368b75e3d8e7a8346f7072bb1d6d5f77f"
+      }
+    },
+    {
+      "slug": "084",
+      "title": "第八十四回　宋公明兵打蓟州城　卢俊义大战玉田县",
+      "kind": "chapter",
+      "number": 84,
+      "paragraphs": 28,
+      "characters": 7397,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "水滸傳_(120回本)/第084回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC084%E5%9B%9E",
+        "revision": "2529484",
+        "text_sha256": "c92cdddd314d4e9ef30c9149c26c7d0bb9bb56c579ae6379f80e160e8b45ba1c"
+      }
+    },
+    {
+      "slug": "085",
+      "title": "第八十五回　宋公明夜度益津关　吴学究智取文安县",
+      "kind": "chapter",
+      "number": 85,
+      "paragraphs": 23,
+      "characters": 8042,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "水滸傳_(120回本)/第085回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC085%E5%9B%9E",
+        "revision": "836435",
+        "text_sha256": "48c6f33786392378484dc4820344f8829298c0ba3f21fa15309bbbea24cbe7a2"
+      }
+    },
+    {
+      "slug": "086",
+      "title": "第八十六回　宋公明大战独鹿山　卢俊义兵陷青石峪",
+      "kind": "chapter",
+      "number": 86,
+      "paragraphs": 23,
+      "characters": 6099,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "水滸傳_(120回本)/第086回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC086%E5%9B%9E",
+        "revision": "1401661",
+        "text_sha256": "7cbccd2c41edbb0dc54ed77ba9b4a5e09a2c0496a586feb08514441355a82b4b"
+      }
+    },
+    {
+      "slug": "087",
+      "title": "第八十七回　宋公明大战幽州　呼延灼力擒番将",
+      "kind": "chapter",
+      "number": 87,
+      "paragraphs": 54,
+      "characters": 5401,
+      "headings": 0,
+      "notes": 13,
+      "source": {
+        "title": "水滸傳_(120回本)/第087回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC087%E5%9B%9E",
+        "revision": "2530102",
+        "text_sha256": "745592d5c2c9aadcc5d7f9f2edbc75d639c48206793a5890bac9505a405c6051"
+      }
+    },
+    {
+      "slug": "088",
+      "title": "第八十八回　颜统军阵列混天象　宋公明梦授玄女法",
+      "kind": "chapter",
+      "number": 88,
+      "paragraphs": 25,
+      "characters": 7718,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "水滸傳_(120回本)/第088回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC088%E5%9B%9E",
+        "revision": "836439",
+        "text_sha256": "49c2c646ee3a681c8aa84aa334ca7eea7ab270a0b1532ed6cc0ca7335f4a1ec4"
+      }
+    },
+    {
+      "slug": "089",
+      "title": "第八十九回　宋公明破阵成功　宿太尉颁恩降诏",
+      "kind": "chapter",
+      "number": 89,
+      "paragraphs": 31,
+      "characters": 6540,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "水滸傳_(120回本)/第089回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC089%E5%9B%9E",
+        "revision": "836440",
+        "text_sha256": "b2fa1c445df1540b0582f75971c67b754fbb0ae5d00a88013c1c501155099ad3"
+      }
+    },
+    {
+      "slug": "090",
+      "title": "第九十回　五台山宋江参禅　双林镇燕青遇故",
+      "kind": "chapter",
+      "number": 90,
+      "paragraphs": 24,
+      "characters": 5363,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第090回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC090%E5%9B%9E",
+        "revision": "836441",
+        "text_sha256": "f9381ac49c1177275eb97e57288402e522def3ba0f48618befdf1691c9839167"
+      }
+    },
+    {
+      "slug": "091",
+      "title": "第九十一回　宋公明兵渡黄河　卢俊义赚城黑夜",
+      "kind": "chapter",
+      "number": 91,
+      "paragraphs": 28,
+      "characters": 6239,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "水滸傳_(120回本)/第091回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC091%E5%9B%9E",
+        "revision": "836442",
+        "text_sha256": "5bf6ac1152accc50e85b67abf642594a647ceb869cd2f6d90599a3df45d84d2e"
+      }
+    },
+    {
+      "slug": "092",
+      "title": "第九十二回　振军威小李广神箭　打盖郡智多星密筹",
+      "kind": "chapter",
+      "number": 92,
+      "paragraphs": 14,
+      "characters": 5563,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "水滸傳_(120回本)/第092回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC092%E5%9B%9E",
+        "revision": "836443",
+        "text_sha256": "ce661393e890f5d8f136cc517981748a048730b5e4ae21fdf225d2e841a24cca"
+      }
+    },
+    {
+      "slug": "093",
+      "title": "第九十三回　李逵梦闹天池　宋江兵分两路",
+      "kind": "chapter",
+      "number": 93,
+      "paragraphs": 16,
+      "characters": 4828,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "水滸傳_(120回本)/第093回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC093%E5%9B%9E",
+        "revision": "836444",
+        "text_sha256": "8ca4b7be136cb29e9184c564f3e64020c2948b833840b21ec89612d2de3c9f4c"
+      }
+    },
+    {
+      "slug": "094",
+      "title": "第九十四回　关胜义降三将　李逵莽陷众人",
+      "kind": "chapter",
+      "number": 94,
+      "paragraphs": 36,
+      "characters": 6651,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "水滸傳_(120回本)/第094回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC094%E5%9B%9E",
+        "revision": "836445",
+        "text_sha256": "8a3c7bdf74886619ed0af87c19792dee4996e5517f83315e91bb0ec447a0ce02"
+      }
+    },
+    {
+      "slug": "095",
+      "title": "第九十五回　宋公明忠感后土　乔道清术败宋兵",
+      "kind": "chapter",
+      "number": 95,
+      "paragraphs": 15,
+      "characters": 4622,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "水滸傳_(120回本)/第095回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC095%E5%9B%9E",
+        "revision": "836446",
+        "text_sha256": "2c672736cc0b3124c7a6a28a20c2d6a6604df1a9b4279e37a40af71d690de69b"
+      }
+    },
+    {
+      "slug": "096",
+      "title": "第九十六回　幻魔君术窘五龙山　入云龙头围百谷岭",
+      "kind": "chapter",
+      "number": 96,
+      "paragraphs": 12,
+      "characters": 4088,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "水滸傳_(120回本)/第096回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC096%E5%9B%9E",
+        "revision": "836447",
+        "text_sha256": "cf4f4d67fab031d03bc426f3a3757ebcc8ce250be104f651e2556d9daae937b8"
+      }
+    },
+    {
+      "slug": "097",
+      "title": "第九十七回　陈瓘谏官升安抚　琼英处女做先锋",
+      "kind": "chapter",
+      "number": 97,
+      "paragraphs": 19,
+      "characters": 5036,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "水滸傳_(120回本)/第097回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC097%E5%9B%9E",
+        "revision": "836448",
+        "text_sha256": "626271b26e7a63dd2a4ac3bd96275c3de3e02016e5da3370b064d9649c22b2bd"
+      }
+    },
+    {
+      "slug": "098",
+      "title": "第九十八回　张清缘配琼英　吴用计鸩邬梨",
+      "kind": "chapter",
+      "number": 98,
+      "paragraphs": 33,
+      "characters": 8827,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "水滸傳_(120回本)/第098回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC098%E5%9B%9E",
+        "revision": "1545865",
+        "text_sha256": "06983debc4a7ddad01cf8a1e9284c2068fd6e7566ac96c70ffa06eb71e7f95dd"
+      }
+    },
+    {
+      "slug": "099",
+      "title": "第九十九回　花和尚解脱缘缠井　混江龙水灌太原城",
+      "kind": "chapter",
+      "number": 99,
+      "paragraphs": 17,
+      "characters": 6163,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "水滸傳_(120回本)/第099回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC099%E5%9B%9E",
+        "revision": "836450",
+        "text_sha256": "b13dababce17d9745f2ac726a7c92be466eef22666ebf8cfedc8a9acc9809053"
+      }
+    },
+    {
+      "slug": "100",
+      "title": "第一百回　张清琼英双建功　陈瓘宋江同奏捷",
+      "kind": "chapter",
+      "number": 100,
+      "paragraphs": 23,
+      "characters": 5335,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第100回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC100%E5%9B%9E",
+        "revision": "836451",
+        "text_sha256": "a8050e2de12361950e48e6c0df5da5b20cab1780926682129a61fcf7401758b2"
+      }
+    },
+    {
+      "slug": "101",
+      "title": "第一百一回　谋坟地阴险产逆　蹈春阳妖艳生奸",
+      "kind": "chapter",
+      "number": 101,
+      "paragraphs": 17,
+      "characters": 4254,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "水滸傳_(120回本)/第101回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC101%E5%9B%9E",
+        "revision": "836453",
+        "text_sha256": "21d0cec41cb15a986c73fcc0d35ebdec0c7bbc0d45836789c178b5b1766960b8"
+      }
+    },
+    {
+      "slug": "102",
+      "title": "第一百二回　王庆因奸吃官司　龚端被打师军犯",
+      "kind": "chapter",
+      "number": 102,
+      "paragraphs": 17,
+      "characters": 5499,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "水滸傳_(120回本)/第102回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC102%E5%9B%9E",
+        "revision": "836456",
+        "text_sha256": "b9236464090c0db6c30ae83c959fb429fd0198a79d61a925d01b5cff3e15c80e"
+      }
+    },
+    {
+      "slug": "103",
+      "title": "第一百三回　张管营因妾弟丧身　范节级为表兄医脸",
+      "kind": "chapter",
+      "number": 103,
+      "paragraphs": 14,
+      "characters": 5908,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "水滸傳_(120回本)/第103回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC103%E5%9B%9E",
+        "revision": "836457",
+        "text_sha256": "57737194db5c552d604129cd84285b59fb217de5ed12b2137e946854672446e6"
+      }
+    },
+    {
+      "slug": "104",
+      "title": "第一百四回　段家庄重招新女婿　房山寨双并旧强人",
+      "kind": "chapter",
+      "number": 104,
+      "paragraphs": 19,
+      "characters": 5961,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "水滸傳_(120回本)/第104回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC104%E5%9B%9E",
+        "revision": "836458",
+        "text_sha256": "c6cab56fc291628cb8cb1605224ae91d95dd9a156ba341a61a81d1fa3b6addee"
+      }
+    },
+    {
+      "slug": "105",
+      "title": "第一百五回　宋公明避暑疗军兵　乔道清回风烧贼寇",
+      "kind": "chapter",
+      "number": 105,
+      "paragraphs": 16,
+      "characters": 4582,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第105回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC105%E5%9B%9E",
+        "revision": "836472",
+        "text_sha256": "b8511057737b43fbb41d1940d2e52b7c94c199fee60a7340f724f7527b194a5d"
+      }
+    },
+    {
+      "slug": "106",
+      "title": "第一百六回　书生谈笑却强敌　水军汨没破坚城",
+      "kind": "chapter",
+      "number": 106,
+      "paragraphs": 29,
+      "characters": 4976,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第106回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC106%E5%9B%9E",
+        "revision": "836476",
+        "text_sha256": "066ef0eac1b24d205a0ea92fd5400aa554539152f7e987d460f8f65569de6b29"
+      }
+    },
+    {
+      "slug": "107",
+      "title": "第一百七回　宋江大胜纪山军　朱武打破六花阵",
+      "kind": "chapter",
+      "number": 107,
+      "paragraphs": 13,
+      "characters": 4319,
+      "headings": 0,
+      "notes": 14,
+      "source": {
+        "title": "水滸傳_(120回本)/第107回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC107%E5%9B%9E",
+        "revision": "836479",
+        "text_sha256": "85fce97129b5404f25916476ad670dff47bbc96757022650e6e2a2e8f48e5ada"
+      }
+    },
+    {
+      "slug": "108",
+      "title": "第一百八回　乔道清兴雾取城　小旋风藏炮击贼",
+      "kind": "chapter",
+      "number": 108,
+      "paragraphs": 25,
+      "characters": 8033,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "水滸傳_(120回本)/第108回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC108%E5%9B%9E",
+        "revision": "7193062",
+        "text_sha256": "246876017539dfe8ebc912dd2b051bc11b92cf33ca9aaed3121e6b4956b22464"
+      }
+    },
+    {
+      "slug": "109",
+      "title": "第一百九回　王庆渡江被捉　宋江剿寇成功",
+      "kind": "chapter",
+      "number": 109,
+      "paragraphs": 17,
+      "characters": 7848,
+      "headings": 0,
+      "notes": 40,
+      "source": {
+        "title": "水滸傳_(120回本)/第109回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC109%E5%9B%9E",
+        "revision": "2246009",
+        "text_sha256": "5f343316ec46139258130e9abffb3bcba896b3e7a66b18588531c24ed1dfaa9c"
+      }
+    },
+    {
+      "slug": "110",
+      "title": "第一百十回　燕青秋林渡射雁　宋江东京城献俘",
+      "kind": "chapter",
+      "number": 110,
+      "paragraphs": 31,
+      "characters": 9031,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第110回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC110%E5%9B%9E",
+        "revision": "836465",
+        "text_sha256": "18ff9f1b93cdc0d7f767df3df5bd47826a284bce50ca9ae3b3d4d48a13e07823"
+      }
+    },
+    {
+      "slug": "111",
+      "title": "第一百十一回　张顺夜伏金山寺　宋江智取润州城",
+      "kind": "chapter",
+      "number": 111,
+      "paragraphs": 44,
+      "characters": 7553,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "水滸傳_(120回本)/第111回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC111%E5%9B%9E",
+        "revision": "836466",
+        "text_sha256": "2e50db577e4b746f64dc098666a041481c801fd787de62bcb17f9acac49297a6"
+      }
+    },
+    {
+      "slug": "112",
+      "title": "第一百十二回　卢俊义分兵宣州道　宋公明大战毘陵郡",
+      "kind": "chapter",
+      "number": 112,
+      "paragraphs": 79,
+      "characters": 6509,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "水滸傳_(120回本)/第112回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC112%E5%9B%9E",
+        "revision": "836467",
+        "text_sha256": "dd7b436c76e9560c2b1e1182bfb1ada5c0f6d1bc0bfdd0cb7aa96c5d6c66d686"
+      }
+    },
+    {
+      "slug": "113",
+      "title": "第一百十三回　混江龙太湖小结义　宋公明苏州大会垓",
+      "kind": "chapter",
+      "number": 113,
+      "paragraphs": 25,
+      "characters": 7528,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "水滸傳_(120回本)/第113回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC113%E5%9B%9E",
+        "revision": "2634458",
+        "text_sha256": "7fc27eb17d9116c0cdd4f64a80e2ff823eeca64905976fda8a5c76a078d6036b"
+      }
+    },
+    {
+      "slug": "114",
+      "title": "第一百十四回　宁海军宋江吊孝　涌金门张顺归神",
+      "kind": "chapter",
+      "number": 114,
+      "paragraphs": 63,
+      "characters": 7957,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第114回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC114%E5%9B%9E",
+        "revision": "6174863",
+        "text_sha256": "1e167561391c487337df80e56af91afd50358e86c8037ad138e57592295c48c3"
+      }
+    },
+    {
+      "slug": "115",
+      "title": "第一百十五回　张顺魂捉方天定　宋江智取宁海军",
+      "kind": "chapter",
+      "number": 115,
+      "paragraphs": 40,
+      "characters": 7531,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "水滸傳_(120回本)/第115回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC115%E5%9B%9E",
+        "revision": "836470",
+        "text_sha256": "0e9a69b1755d25cbaaeefb06ae0266fb0fffd55eace490311d9953aced8f9757"
+      }
+    },
+    {
+      "slug": "116",
+      "title": "第一百十六回　卢俊义分兵歙州道　宋公明大战乌龙岭",
+      "kind": "chapter",
+      "number": 116,
+      "paragraphs": 32,
+      "characters": 6294,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "水滸傳_(120回本)/第116回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC116%E5%9B%9E",
+        "revision": "836471",
+        "text_sha256": "89cf295d82a8bc968bcdac424c110d8d00b6313b8231830caf561ab25989a0ce"
+      }
+    },
+    {
+      "slug": "117",
+      "title": "第一百十七回　睦州城箭射邓元觉　乌龙岭神助宋公明",
+      "kind": "chapter",
+      "number": 117,
+      "paragraphs": 18,
+      "characters": 7590,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "水滸傳_(120回本)/第117回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC117%E5%9B%9E",
+        "revision": "836473",
+        "text_sha256": "0fe44ac0fe02c217eaef0d7128c2a38ebd33ff07a3c039d35ae52905b2d28b97"
+      }
+    },
+    {
+      "slug": "118",
+      "title": "第一百十八回　卢俊义大战昱岭关　宋公明智取清溪洞",
+      "kind": "chapter",
+      "number": 118,
+      "paragraphs": 22,
+      "characters": 9662,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "水滸傳_(120回本)/第118回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC118%E5%9B%9E",
+        "revision": "836474",
+        "text_sha256": "05e3d3aa60f6449fa37d8ac135a3d42f17ee332c7abe16e13f3e8232590d6552"
+      }
+    },
+    {
+      "slug": "119",
+      "title": "第一百十九回　鲁智深浙江坐化　宋公明衣锦还乡",
+      "kind": "chapter",
+      "number": 119,
+      "paragraphs": 66,
+      "characters": 10631,
+      "headings": 0,
+      "notes": 47,
+      "source": {
+        "title": "水滸傳_(120回本)/第119回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC119%E5%9B%9E",
+        "revision": "836475",
+        "text_sha256": "0f908f75b29b564d90521b7380fa46e53f8397cf4ef7df48bcb20102c682d5da"
+      }
+    },
+    {
+      "slug": "120",
+      "title": "第一百二十回　宋公明神聚蓼儿洼　徽宗帝梦游梁山泊",
+      "kind": "chapter",
+      "number": 120,
+      "paragraphs": 34,
+      "characters": 9027,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "水滸傳_(120回本)/第120回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC120%E5%9B%9E",
+        "revision": "1488420",
+        "text_sha256": "9583203f598c57dc771866c887dcc56be85142593245710ac9e1fae7c283819f"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1637 @@
+{
+  "book": "西游记",
+  "date": "2026-10-27",
+  "status": "full_text_with_basic_annotations",
+  "chapter_count": 100,
+  "translation_status": "not_requested",
+  "annotation_status": "basic_glossary",
+  "annotation_policy": "Editor-authored basic glossary, attached at the first matching occurrence per page; not an exhaustive contextual commentary. Some chapters may have no new rare-word explanations.",
+  "scan_collation_status": "not_done",
+  "unique_glossary_terms": 199,
+  "pages": [
+    {
+      "slug": "tijie",
+      "title": "全书题解",
+      "kind": "editorial",
+      "paragraphs": 0,
+      "notes": 0,
+      "essays": 5
+    },
+    {
+      "slug": "001",
+      "title": "第一回 灵根育孕源流出 心性修持大道生",
+      "kind": "chapter",
+      "number": 1,
+      "paragraphs": 51,
+      "characters": 6908,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "西遊記/第001回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC001%E5%9B%9E",
+        "revision": "2562136",
+        "text_sha256": "229f4a3660fe71307891c378cad953cfdd621d6f906462db8ff6e5a99e999784"
+      }
+    },
+    {
+      "slug": "002",
+      "title": "第二回 悟彻菩提真妙理 断魔归本合元神",
+      "kind": "chapter",
+      "number": 2,
+      "paragraphs": 39,
+      "characters": 7027,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "西遊記/第002回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC002%E5%9B%9E",
+        "revision": "2449088",
+        "text_sha256": "f5098e4b801fe6f0b8152f45c48161b4f82d6cd496c7a911666cf3d24251c889"
+      }
+    },
+    {
+      "slug": "003",
+      "title": "第三回 四海千山皆拱伏 九幽十类尽除名",
+      "kind": "chapter",
+      "number": 3,
+      "paragraphs": 31,
+      "characters": 7049,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "西遊記/第003回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC003%E5%9B%9E",
+        "revision": "2610943",
+        "text_sha256": "4d62f3d0590e60c974b1b6f096a0e0b1efbefd5b88eb12f5c3e551fe13c4eb1a"
+      }
+    },
+    {
+      "slug": "004",
+      "title": "第四回 官封弼马心何足 名注齐天意未宁",
+      "kind": "chapter",
+      "number": 4,
+      "paragraphs": 33,
+      "characters": 6703,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "西遊記/第004回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC004%E5%9B%9E",
+        "revision": "2449093",
+        "text_sha256": "6fbe31e09ef6f0601e7aef599104bf19bafb64f2442704a6cbd02eb7633c3da0"
+      }
+    },
+    {
+      "slug": "005",
+      "title": "第五回 乱蟠桃大圣偷丹 反天宫诸神捉怪",
+      "kind": "chapter",
+      "number": 5,
+      "paragraphs": 39,
+      "characters": 6332,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "西遊記/第005回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC005%E5%9B%9E",
+        "revision": "1455554",
+        "text_sha256": "be08c3dc4a8ac18460341c5e13ebdb96a2d3e2a26272118b0ac80ce8f2919567"
+      }
+    },
+    {
+      "slug": "006",
+      "title": "第六回 观音赴会问原因 小圣施威降大圣",
+      "kind": "chapter",
+      "number": 6,
+      "paragraphs": 29,
+      "characters": 6594,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "西遊記/第006回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC006%E5%9B%9E",
+        "revision": "2634386",
+        "text_sha256": "c38892daaee70e208d2b127464cc39b2c980db99bc58481946d70bbb7795e273"
+      }
+    },
+    {
+      "slug": "007",
+      "title": "第七回 八卦炉中逃大圣 五行山下定心猿",
+      "kind": "chapter",
+      "number": 7,
+      "paragraphs": 41,
+      "characters": 5177,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "西遊記/第007回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC007%E5%9B%9E",
+        "revision": "2646669",
+        "text_sha256": "2081850d51a9cdf8ff646b072f0026824ab5d387e7101c6be6aa712ff49bcc5e"
+      }
+    },
+    {
+      "slug": "008",
+      "title": "第八回 我佛造经传极乐 观音奉旨上长安",
+      "kind": "chapter",
+      "number": 8,
+      "paragraphs": 46,
+      "characters": 6291,
+      "headings": 0,
+      "notes": 35,
+      "source": {
+        "title": "西遊記/第008回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC008%E5%9B%9E",
+        "revision": "1807472",
+        "text_sha256": "73859e1f31cdcba3dc337677f061a5c5136f2ec490b2ab2a3609bd6be0ca91b2"
+      }
+    },
+    {
+      "slug": "009",
+      "title": "第九回 陈光蕊赴任逢灾 江流僧复仇报本",
+      "kind": "chapter",
+      "number": 9,
+      "paragraphs": 32,
+      "characters": 6900,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/第009回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC009%E5%9B%9E",
+        "revision": "1962034",
+        "text_sha256": "4264723beaa989ce8f991422b21be5f7511a3e6577d3a70ff97be77011166874"
+      }
+    },
+    {
+      "slug": "010",
+      "title": "第十回 老龙王拙计犯天条 魏丞相遗书托冥吏",
+      "kind": "chapter",
+      "number": 10,
+      "paragraphs": 67,
+      "characters": 8154,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "西遊記/第010回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC010%E5%9B%9E",
+        "revision": "2194739",
+        "text_sha256": "52f428c2707b487fd7a0575c27cecebf0ab179d664c8edee190a9259b6987cc7"
+      }
+    },
+    {
+      "slug": "011",
+      "title": "第十一回 游地府太宗还魂 进瓜果刘全续配",
+      "kind": "chapter",
+      "number": 11,
+      "paragraphs": 47,
+      "characters": 7057,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "西遊記/第011回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC011%E5%9B%9E",
+        "revision": "1500624",
+        "text_sha256": "a43ba733ed6a4cf07639fa11a1b560b5bb1855bb2fb56da5c349ef319f6ad515"
+      }
+    },
+    {
+      "slug": "012",
+      "title": "第十二回 唐王秉诚修大会 观音显圣化金蝉",
+      "kind": "chapter",
+      "number": 12,
+      "paragraphs": 61,
+      "characters": 9563,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "西遊記/第012回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC012%E5%9B%9E",
+        "revision": "1500623",
+        "text_sha256": "a954b29cd832c4c453ddc1ecc624787bf8983ee5f2f62cc6368cdb0499a37017"
+      }
+    },
+    {
+      "slug": "013",
+      "title": "第十三回 陷虎穴金星解厄 双叉岭伯钦留僧",
+      "kind": "chapter",
+      "number": 13,
+      "paragraphs": 41,
+      "characters": 6276,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "西遊記/第013回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC013%E5%9B%9E",
+        "revision": "1500625",
+        "text_sha256": "cf6fa1d383abc18d104da3fdda791b0bcadaf46bdb3456a9d19ae48e6745cf52"
+      }
+    },
+    {
+      "slug": "014",
+      "title": "第十四回 心猿归正 六贼无踪",
+      "kind": "chapter",
+      "number": 14,
+      "paragraphs": 32,
+      "characters": 8459,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "西遊記/第014回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC014%E5%9B%9E",
+        "revision": "1455563",
+        "text_sha256": "e01bf3eaf7abda0ce81c6bd3d49c816c5182d6149103cfd956de8464ca399bc4"
+      }
+    },
+    {
+      "slug": "015",
+      "title": "第十五回 蛇盘山诸神暗佑 鹰愁涧意马收缰",
+      "kind": "chapter",
+      "number": 15,
+      "paragraphs": 30,
+      "characters": 7172,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "西遊記/第015回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC015%E5%9B%9E",
+        "revision": "1455564",
+        "text_sha256": "f1613d99bc35efb0269db4dac07c711fb882bf1729d982c4b9eade87cd57d75d"
+      }
+    },
+    {
+      "slug": "016",
+      "title": "第十六回 观音院僧谋宝贝 黑风山怪窃袈裟",
+      "kind": "chapter",
+      "number": 16,
+      "paragraphs": 37,
+      "characters": 7628,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "西遊記/第016回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC016%E5%9B%9E",
+        "revision": "1455565",
+        "text_sha256": "c225a1f7762d7ebb9d670b09f1a5bc5290be7b67f2b58bf661911ab25aebf2b8"
+      }
+    },
+    {
+      "slug": "017",
+      "title": "第十七回 孙行者大闹黑风山 观世音收伏熊罴怪",
+      "kind": "chapter",
+      "number": 17,
+      "paragraphs": 46,
+      "characters": 8240,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第017回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC017%E5%9B%9E",
+        "revision": "2597258",
+        "text_sha256": "93d28d7393cc61bb163bb07bedebb654bf3492b3ecdf51dc36811db80a368d81"
+      }
+    },
+    {
+      "slug": "018",
+      "title": "第十八回 观音院唐僧脱难 高老庄大圣除魔",
+      "kind": "chapter",
+      "number": 18,
+      "paragraphs": 23,
+      "characters": 5742,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "西遊記/第018回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC018%E5%9B%9E",
+        "revision": "1455567",
+        "text_sha256": "a129588f44fd4e72c2a014e769f75488174307747d6a76f7a909a972a7b25b75"
+      }
+    },
+    {
+      "slug": "019",
+      "title": "第十九回 云栈洞悟空收八戒 浮屠山玄奘受心经",
+      "kind": "chapter",
+      "number": 19,
+      "paragraphs": 31,
+      "characters": 6696,
+      "headings": 0,
+      "notes": 35,
+      "source": {
+        "title": "西遊記/第019回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC019%E5%9B%9E",
+        "revision": "1455568",
+        "text_sha256": "a913d24db4f9394d76b0e88ae273b1f4549ee96f48903fee6962a52312000739"
+      }
+    },
+    {
+      "slug": "020",
+      "title": "第二十回 黄风岭唐僧有难 半山中八戒争先",
+      "kind": "chapter",
+      "number": 20,
+      "paragraphs": 39,
+      "characters": 6895,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第020回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC020%E5%9B%9E",
+        "revision": "1455569",
+        "text_sha256": "d7b172b9db65c772f5d65094ae424a36dba33cafe84a1a6640d01668d0538a41"
+      }
+    },
+    {
+      "slug": "021",
+      "title": "第二十一回 护法设庄留大圣 须弥灵吉定风魔",
+      "kind": "chapter",
+      "number": 21,
+      "paragraphs": 37,
+      "characters": 6979,
+      "headings": 0,
+      "notes": 35,
+      "source": {
+        "title": "西遊記/第021回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC021%E5%9B%9E",
+        "revision": "2609807",
+        "text_sha256": "ba0a27166e60967186329079994e3c329bc71b2bc47c220b9a6a01a78b6b58ee"
+      }
+    },
+    {
+      "slug": "022",
+      "title": "第二十二回 八戒大战流沙河 木叉奉法收悟净",
+      "kind": "chapter",
+      "number": 22,
+      "paragraphs": 35,
+      "characters": 6755,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "西遊記/第022回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC022%E5%9B%9E",
+        "revision": "7910914",
+        "text_sha256": "5523f2316a77dab7f10bb0adcbb3bee307619fa5ab847a3884ce3b690331a480"
+      }
+    },
+    {
+      "slug": "023",
+      "title": "第二十三回 三藏不忘本 四圣试禅心",
+      "kind": "chapter",
+      "number": 23,
+      "paragraphs": 42,
+      "characters": 7196,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "西遊記/第023回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC023%E5%9B%9E",
+        "revision": "1512800",
+        "text_sha256": "c64486921b0b1e5c8f0f16a7adec33654921639ee13b38e47e486cdca51308f1"
+      }
+    },
+    {
+      "slug": "024",
+      "title": "第二十四回 万寿山大仙留故友 五庄观行者窃人参",
+      "kind": "chapter",
+      "number": 24,
+      "paragraphs": 35,
+      "characters": 7319,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第024回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC024%E5%9B%9E",
+        "revision": "1455573",
+        "text_sha256": "5a9566d93b4ef4b5d0557d736ea78c515f9f414eb1741d16a586d9e66cd04a9a"
+      }
+    },
+    {
+      "slug": "025",
+      "title": "第二十五回 镇元仙赶捉取经僧 孙行者大闹五庄观",
+      "kind": "chapter",
+      "number": 25,
+      "paragraphs": 34,
+      "characters": 7517,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "西遊記/第025回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC025%E5%9B%9E",
+        "revision": "1455574",
+        "text_sha256": "53074ad8b9b628b8b05ba67fd82d9196f1727259bcb1e9712e5dfe8a40ed875c"
+      }
+    },
+    {
+      "slug": "026",
+      "title": "第二十六回 孙悟空三岛求方 观世音甘泉活树",
+      "kind": "chapter",
+      "number": 26,
+      "paragraphs": 43,
+      "characters": 6732,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "西遊記/第026回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC026%E5%9B%9E",
+        "revision": "1808230",
+        "text_sha256": "f573d70ed8393e36017fb41d52612ba7ff127e5393127038bcb71a90fd3fb249"
+      }
+    },
+    {
+      "slug": "027",
+      "title": "第二十七回 尸魔三戏唐三藏 圣僧恨逐美猴王",
+      "kind": "chapter",
+      "number": 27,
+      "paragraphs": 37,
+      "characters": 7031,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "西遊記/第027回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC027%E5%9B%9E",
+        "revision": "1455576",
+        "text_sha256": "20361eb392e0ca5ebbef7444aa5cacfd5143f79da63679a7d17257eaf35b5a19"
+      }
+    },
+    {
+      "slug": "028",
+      "title": "第二十八回 花果山群妖聚义 黑松林三藏逢魔",
+      "kind": "chapter",
+      "number": 28,
+      "paragraphs": 40,
+      "characters": 6320,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/第028回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC028%E5%9B%9E",
+        "revision": "1455577",
+        "text_sha256": "50988bced288f1f088a1848d556aefc7da0be66e6848afea8c57c7e945a8ddb6"
+      }
+    },
+    {
+      "slug": "029",
+      "title": "第二十九回 脱难江流来国土 承恩八戒转山林",
+      "kind": "chapter",
+      "number": 29,
+      "paragraphs": 33,
+      "characters": 6322,
+      "headings": 0,
+      "notes": 26,
+      "source": {
+        "title": "西遊記/第029回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC029%E5%9B%9E",
+        "revision": "1455578",
+        "text_sha256": "e0943ae233dd1d07ad695eacc75a8e96180a5bd252480ccaf92c1c205041e87c"
+      }
+    },
+    {
+      "slug": "030",
+      "title": "第三十回 邪魔侵正法 意马忆心猿",
+      "kind": "chapter",
+      "number": 30,
+      "paragraphs": 43,
+      "characters": 8058,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "西遊記/第030回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC030%E5%9B%9E",
+        "revision": "1455579",
+        "text_sha256": "6fa026f180d9e6762233011d2bdd7eb0040fa056e36fc746dc1b05747b9525fc"
+      }
+    },
+    {
+      "slug": "031",
+      "title": "第三十一回 猪八戒义激猴王 孙行者智降妖怪",
+      "kind": "chapter",
+      "number": 31,
+      "paragraphs": 33,
+      "characters": 8702,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第031回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC031%E5%9B%9E",
+        "revision": "1455580",
+        "text_sha256": "81bc91c46cb01c841543a4d704c6f2ef880d6f89722584906e01ada979749251"
+      }
+    },
+    {
+      "slug": "032",
+      "title": "第三十二回 平顶山功曹传信 莲花洞木母逢灾",
+      "kind": "chapter",
+      "number": 32,
+      "paragraphs": 38,
+      "characters": 7963,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "西遊記/第032回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC032%E5%9B%9E",
+        "revision": "1808364",
+        "text_sha256": "9fbb94c647d99c6e5a033119a2a49303364729136ea737371d7bd2e356a9aa7f"
+      }
+    },
+    {
+      "slug": "033",
+      "title": "第三十三回 外道迷真性 元神助本心",
+      "kind": "chapter",
+      "number": 33,
+      "paragraphs": 32,
+      "characters": 7917,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "西遊記/第033回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC033%E5%9B%9E",
+        "revision": "1500615",
+        "text_sha256": "4c50f0215d5f5ed0aafc3f3e8fc4877b3554b3c2289db8e9ddb9f693c13c918c"
+      }
+    },
+    {
+      "slug": "034",
+      "title": "第三十四回 魔王巧算困心猿 大圣腾 挪 一作“那” 骗宝贝",
+      "kind": "chapter",
+      "number": 34,
+      "paragraphs": 34,
+      "characters": 8055,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "西遊記/第034回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC034%E5%9B%9E",
+        "revision": "1500614",
+        "text_sha256": "d0bdf3c17d41ff231ad88c31f9a117ecad7df438fb4947c61ebaf913729bfff3"
+      }
+    },
+    {
+      "slug": "035",
+      "title": "第三十五回 外道施威欺正性 心猿获宝伏邪魔",
+      "kind": "chapter",
+      "number": 35,
+      "paragraphs": 38,
+      "characters": 6763,
+      "headings": 0,
+      "notes": 18,
+      "source": {
+        "title": "西遊記/第035回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC035%E5%9B%9E",
+        "revision": "1500616",
+        "text_sha256": "65b7e06a08053d46375a9fc623e9241ab9c425701d716b27ac10cc8128cc37ce"
+      }
+    },
+    {
+      "slug": "036",
+      "title": "第三十六回 心猿正处诸缘伏 劈破傍门见月明",
+      "kind": "chapter",
+      "number": 36,
+      "paragraphs": 44,
+      "characters": 7090,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "西遊記/第036回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC036%E5%9B%9E",
+        "revision": "1455585",
+        "text_sha256": "b5119ae283b915e24e3dc7bdcec2fd15fd4d98bb8a3a5b5821bfc056a809965e"
+      }
+    },
+    {
+      "slug": "037",
+      "title": "第三十七回 鬼王夜谒唐三藏 悟空神化引婴儿",
+      "kind": "chapter",
+      "number": 37,
+      "paragraphs": 33,
+      "characters": 7935,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/第037回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC037%E5%9B%9E",
+        "revision": "1808441",
+        "text_sha256": "f06aaea8e48f0439094fe04a49ea764191c852eb495f98064a31c40da39748a0"
+      }
+    },
+    {
+      "slug": "038",
+      "title": "第三十八回 婴儿问母知邪正 金木参玄见假真",
+      "kind": "chapter",
+      "number": 38,
+      "paragraphs": 27,
+      "characters": 7423,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "西遊記/第038回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC038%E5%9B%9E",
+        "revision": "1455587",
+        "text_sha256": "75131f86fc185f21aaec03bbabc89b869d9dc831a4f1b560f557a00c2292f7c1"
+      }
+    },
+    {
+      "slug": "039",
+      "title": "第三十九回 一粒丹砂天上得 三年故主世间生",
+      "kind": "chapter",
+      "number": 39,
+      "paragraphs": 32,
+      "characters": 7749,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "西遊記/第039回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC039%E5%9B%9E",
+        "revision": "1500596",
+        "text_sha256": "c7dd30cc70633ee4dbc8b67835bbf3ad56b6fcbf62aed1541c234869b03c9b8c"
+      }
+    },
+    {
+      "slug": "040",
+      "title": "第四十回 婴儿戏化禅心乱 猿马刀 圭 一作“归” 木母空",
+      "kind": "chapter",
+      "number": 40,
+      "paragraphs": 37,
+      "characters": 7542,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "西遊記/第040回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC040%E5%9B%9E",
+        "revision": "1808481",
+        "text_sha256": "f19bc6e43016841c3d572ad492ea5553197e288ff4f696130a9a0ea623156c11"
+      }
+    },
+    {
+      "slug": "041",
+      "title": "第四十一回 心猿遭火败 木母被魔擒",
+      "kind": "chapter",
+      "number": 41,
+      "paragraphs": 49,
+      "characters": 7776,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第041回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC041%E5%9B%9E",
+        "revision": "1500598",
+        "text_sha256": "276bafcf156fdebb9ebaff303568885c0b8ae6788650520eac39370f9301a51f"
+      }
+    },
+    {
+      "slug": "042",
+      "title": "第四十二回 大圣殷勤拜南海 观音慈善缚红孩",
+      "kind": "chapter",
+      "number": 42,
+      "paragraphs": 36,
+      "characters": 8122,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "西遊記/第042回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC042%E5%9B%9E",
+        "revision": "1808580",
+        "text_sha256": "dd09a633485a35efa0ba1eb879ea93cd2add0776600f18143916c9aaae66041b"
+      }
+    },
+    {
+      "slug": "043",
+      "title": "第四十三回 黑河妖孽擒僧去 西洋龙子捉鼍回",
+      "kind": "chapter",
+      "number": 43,
+      "paragraphs": 45,
+      "characters": 7864,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/第043回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC043%E5%9B%9E",
+        "revision": "1455592",
+        "text_sha256": "7c1c0a924e61bd0e73c4d003f23728523e654916dfe7c678f3f0cf9cc723b86d"
+      }
+    },
+    {
+      "slug": "044",
+      "title": "第四十四回 法身元运逢车力 心正妖邪度脊关",
+      "kind": "chapter",
+      "number": 44,
+      "paragraphs": 37,
+      "characters": 7900,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "西遊記/第044回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC044%E5%9B%9E",
+        "revision": "1455593",
+        "text_sha256": "83bc5b3f01d9111b26d86795f25666f8f85088856d9251377526f56fa8e5743b"
+      }
+    },
+    {
+      "slug": "045",
+      "title": "第四十五回 三清观大圣留名 车迟国猴王显法",
+      "kind": "chapter",
+      "number": 45,
+      "paragraphs": 44,
+      "characters": 7086,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "西遊記/第045回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC045%E5%9B%9E",
+        "revision": "1455594",
+        "text_sha256": "b3161a8f82c9f56737394f15694507b8f36acb96e1e215194046a5fe7d0705a7"
+      }
+    },
+    {
+      "slug": "046",
+      "title": "第四十六回 外道弄强欺正法 心猿显圣灭诸邪",
+      "kind": "chapter",
+      "number": 46,
+      "paragraphs": 46,
+      "characters": 7811,
+      "headings": 0,
+      "notes": 16,
+      "source": {
+        "title": "西遊記/第046回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC046%E5%9B%9E",
+        "revision": "1557967",
+        "text_sha256": "6c4659636e390877ac52a8070a09588938dd10d835ac3820e597a8a34c4acdee"
+      }
+    },
+    {
+      "slug": "047",
+      "title": "第四十七回 圣僧夜阻通天水 金木垂慈救小童",
+      "kind": "chapter",
+      "number": 47,
+      "paragraphs": 36,
+      "characters": 7765,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/第047回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC047%E5%9B%9E",
+        "revision": "2598626",
+        "text_sha256": "ca9f51d3bdb1ed8761e5436cf2633efb353c9619410856b8f3ba2a6673463d7c"
+      }
+    },
+    {
+      "slug": "048",
+      "title": "第四十八回 魔弄寒风飘大雪 僧思拜佛履层冰",
+      "kind": "chapter",
+      "number": 48,
+      "paragraphs": 39,
+      "characters": 6439,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "西遊記/第048回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC048%E5%9B%9E",
+        "revision": "1808610",
+        "text_sha256": "76b72b241aa245b05d387df1ac19cac025eda4a0f3dc8dbc38ab29d25c11c807"
+      }
+    },
+    {
+      "slug": "049",
+      "title": "第四十九回 三藏有灾沉水宅 观音救难现鱼篮",
+      "kind": "chapter",
+      "number": 49,
+      "paragraphs": 45,
+      "characters": 7525,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "西遊記/第049回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC049%E5%9B%9E",
+        "revision": "1808612",
+        "text_sha256": "0aaf4c4830476937bc50e605bc70ed80500140a643a2363a3910ed100198e72e"
+      }
+    },
+    {
+      "slug": "050",
+      "title": "第五十回 情乱性从因爱欲 神昏心动遇魔头",
+      "kind": "chapter",
+      "number": 50,
+      "paragraphs": 36,
+      "characters": 6599,
+      "headings": 0,
+      "notes": 13,
+      "source": {
+        "title": "西遊記/第050回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC050%E5%9B%9E",
+        "revision": "1498134",
+        "text_sha256": "bc0ae74500033718e6191598cfc27d3bd1a4e9a56579b7440e6051e53a26ce56"
+      }
+    },
+    {
+      "slug": "051",
+      "title": "第五十一回 心猿空用千般计 水火无功难炼魔",
+      "kind": "chapter",
+      "number": 51,
+      "paragraphs": 40,
+      "characters": 7123,
+      "headings": 0,
+      "notes": 14,
+      "source": {
+        "title": "西遊記/第051回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC051%E5%9B%9E",
+        "revision": "1498138",
+        "text_sha256": "1497098d66554ad1affe4a98f0b01396cc7b0f506ade23a59915e07ea4aa0152"
+      }
+    },
+    {
+      "slug": "052",
+      "title": "第五十二回 悟空大闹金 兜 本作“⿰山兜”，Unicode缺字 洞 如来暗示主人公",
+      "kind": "chapter",
+      "number": 52,
+      "paragraphs": 37,
+      "characters": 7653,
+      "headings": 0,
+      "notes": 25,
+      "source": {
+        "title": "西遊記/第052回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC052%E5%9B%9E",
+        "revision": "1498137",
+        "text_sha256": "fdec6eb9bdaf37ca4ff12ea4f5ecfaa3ce7433daebc8a9bfb80d11dfc90c8049"
+      }
+    },
+    {
+      "slug": "053",
+      "title": "第五十三回 禅主吞餐怀鬼孕 黄婆运水解邪胎",
+      "kind": "chapter",
+      "number": 53,
+      "paragraphs": 45,
+      "characters": 7757,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "西遊記/第053回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC053%E5%9B%9E",
+        "revision": "1498139",
+        "text_sha256": "3b9f0afe9b1610796b88e8dabcf1952ba5a2224756c2466549be6155857ea888"
+      }
+    },
+    {
+      "slug": "054",
+      "title": "第五十四回 法性西来逢女国 心猿定计脱烟花",
+      "kind": "chapter",
+      "number": 54,
+      "paragraphs": 36,
+      "characters": 7002,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "西遊記/第054回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC054%E5%9B%9E",
+        "revision": "1455603",
+        "text_sha256": "f3967d03812724d16121b41ba9e7900bae17a5253497595f530aa95bee3122f8"
+      }
+    },
+    {
+      "slug": "055",
+      "title": "第五十五回 色邪淫戏唐三藏 性正修持不坏身",
+      "kind": "chapter",
+      "number": 55,
+      "paragraphs": 39,
+      "characters": 7483,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "西遊記/第055回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC055%E5%9B%9E",
+        "revision": "2316520",
+        "text_sha256": "6fc1b48c0418d2ed674d7970c696a3337c289cb30b242317962f7cc64815d63d"
+      }
+    },
+    {
+      "slug": "056",
+      "title": "第五十六回 神狂诛草寇 道迷放心猿",
+      "kind": "chapter",
+      "number": 56,
+      "paragraphs": 39,
+      "characters": 7552,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/第056回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC056%E5%9B%9E",
+        "revision": "1455605",
+        "text_sha256": "134e24a87fd4d3a797c81dd40f8df083958652ee850e385b776dede113fb53e0"
+      }
+    },
+    {
+      "slug": "057",
+      "title": "第五十七回 真行者落伽山诉苦 假猴王水帘洞誊文",
+      "kind": "chapter",
+      "number": 57,
+      "paragraphs": 31,
+      "characters": 6634,
+      "headings": 0,
+      "notes": 34,
+      "source": {
+        "title": "西遊記/第057回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC057%E5%9B%9E",
+        "revision": "2031415",
+        "text_sha256": "f7f6f731066e21baed331758f87ce745be78fbbeffa2f801513033bb02ea4467"
+      }
+    },
+    {
+      "slug": "058",
+      "title": "第五十八回 二心搅乱大乾坤 一体难修真寂灭",
+      "kind": "chapter",
+      "number": 58,
+      "paragraphs": 30,
+      "characters": 6478,
+      "headings": 0,
+      "notes": 33,
+      "source": {
+        "title": "西遊記/第058回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC058%E5%9B%9E",
+        "revision": "1455607",
+        "text_sha256": "f82881c6cef68107aba2f27f02374c03c6e63096612e968ba32bdd56622074ad"
+      }
+    },
+    {
+      "slug": "059",
+      "title": "第五十九回 唐三藏路阻火焰山 孙行者一调芭蕉扇",
+      "kind": "chapter",
+      "number": 59,
+      "paragraphs": 34,
+      "characters": 7395,
+      "headings": 0,
+      "notes": 21,
+      "source": {
+        "title": "西遊記/第059回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC059%E5%9B%9E",
+        "revision": "1455608",
+        "text_sha256": "bd04f582945e4b35ceab04e8ade2b1c6e6db4a0a63da968d717ba386391a5e0c"
+      }
+    },
+    {
+      "slug": "060",
+      "title": "第六十回 牛魔王罢战赴华筵 孙行者二调芭蕉扇",
+      "kind": "chapter",
+      "number": 60,
+      "paragraphs": 35,
+      "characters": 6968,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第060回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC060%E5%9B%9E",
+        "revision": "1500612",
+        "text_sha256": "cd84b839d7a495dc03a527969919396e8f2f7c434d339bb41abbe136625eec12"
+      }
+    },
+    {
+      "slug": "061",
+      "title": "第六十一回 猪八戒助力 破 一作“败” 魔王 孙行者三调芭蕉扇",
+      "kind": "chapter",
+      "number": 61,
+      "paragraphs": 39,
+      "characters": 7612,
+      "headings": 0,
+      "notes": 36,
+      "source": {
+        "title": "西遊記/第061回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC061%E5%9B%9E",
+        "revision": "1500610",
+        "text_sha256": "64c0afa4b9b9cb2b8e417ed2162c3d68f0599d991fc1712533326084603c7f3a"
+      }
+    },
+    {
+      "slug": "062",
+      "title": "第六十二回 涤垢洗心惟扫塔 缚魔归主乃修身",
+      "kind": "chapter",
+      "number": 62,
+      "paragraphs": 33,
+      "characters": 6725,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第062回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC062%E5%9B%9E",
+        "revision": "1500611",
+        "text_sha256": "0790aba62661d1dc11210678530ddaac5dc6184b4cca5ea19ad40776d6e33240"
+      }
+    },
+    {
+      "slug": "063",
+      "title": "第六十三回 二僧荡怪闹龙宫 群圣除邪获宝贝",
+      "kind": "chapter",
+      "number": 63,
+      "paragraphs": 35,
+      "characters": 6913,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第063回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC063%E5%9B%9E",
+        "revision": "1808654",
+        "text_sha256": "a9ff2540cd30403db2806767f8e8f9ea553c0c5ebdc1904808e4883ee6d7828a"
+      }
+    },
+    {
+      "slug": "064",
+      "title": "第六十四回 荆棘岭悟能努力 木仙庵三藏谈诗",
+      "kind": "chapter",
+      "number": 64,
+      "paragraphs": 66,
+      "characters": 6892,
+      "headings": 0,
+      "notes": 12,
+      "source": {
+        "title": "西遊記/第064回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC064%E5%9B%9E",
+        "revision": "1455613",
+        "text_sha256": "091d598de5c9cf345284d660e0e435abffafb3c21107ae53b3f4902cd09e81b0"
+      }
+    },
+    {
+      "slug": "065",
+      "title": "第六十五回 妖邪假设小雷音 四众皆遭大厄难",
+      "kind": "chapter",
+      "number": 65,
+      "paragraphs": 38,
+      "characters": 6533,
+      "headings": 0,
+      "notes": 41,
+      "source": {
+        "title": "西遊記/第065回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC065%E5%9B%9E",
+        "revision": "1455614",
+        "text_sha256": "ce68b53acce32c28e09ee6ef09295dcd0704f5cb6b5090af64e071b50cb96fc7"
+      }
+    },
+    {
+      "slug": "066",
+      "title": "第六十六回 诸神遭毒手 弥勒缚妖魔",
+      "kind": "chapter",
+      "number": 66,
+      "paragraphs": 37,
+      "characters": 6482,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "西遊記/第066回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC066%E5%9B%9E",
+        "revision": "1455615",
+        "text_sha256": "5ecd62e8d7a0b01dfb1f5c3c962896f5f3d9095f759bf702faf6a613e43b0a4e"
+      }
+    },
+    {
+      "slug": "067",
+      "title": "第六十七回 拯救驼罗禅性稳 脱离秽污道心清",
+      "kind": "chapter",
+      "number": 67,
+      "paragraphs": 37,
+      "characters": 7024,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "西遊記/第067回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC067%E5%9B%9E",
+        "revision": "1455616",
+        "text_sha256": "e86deb1be87105972611ca5f27c38e34398ffc8c0986098d0fa643a29aea4a7e"
+      }
+    },
+    {
+      "slug": "068",
+      "title": "第六十八回 朱紫国唐僧论前世 孙行者施为三折肱",
+      "kind": "chapter",
+      "number": 68,
+      "paragraphs": 34,
+      "characters": 6923,
+      "headings": 0,
+      "notes": 20,
+      "source": {
+        "title": "西遊記/第068回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC068%E5%9B%9E",
+        "revision": "1455617",
+        "text_sha256": "e0e457c340fe4b8ce91f9cf188982f9c1f131cbb09b1f8724d4e6296a4ee8c3a"
+      }
+    },
+    {
+      "slug": "069",
+      "title": "第六十九回 心主夜间修药物 君王筵上论妖邪",
+      "kind": "chapter",
+      "number": 69,
+      "paragraphs": 34,
+      "characters": 7309,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "西遊記/第069回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC069%E5%9B%9E",
+        "revision": "1455618",
+        "text_sha256": "b48fadeeec1df0157bbf6b7e6d0660408ab358d8240e037944ceea1ca5c81eef"
+      }
+    },
+    {
+      "slug": "070",
+      "title": "第七十回 妖魔宝放烟沙火 悟空计盗紫金铃",
+      "kind": "chapter",
+      "number": 70,
+      "paragraphs": 43,
+      "characters": 7720,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "西遊記/第070回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC070%E5%9B%9E",
+        "revision": "1455619",
+        "text_sha256": "45aaf35d74bb64480821894d0de582c40d6d1e76a3159070361ca76f3a866dd1"
+      }
+    },
+    {
+      "slug": "071",
+      "title": "第七十一回 行者假名降怪犼 观音现像伏妖王",
+      "kind": "chapter",
+      "number": 71,
+      "paragraphs": 39,
+      "characters": 7534,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/第071回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC071%E5%9B%9E",
+        "revision": "1455620",
+        "text_sha256": "f0ffeb1669158affc42be803ff7675e0544c20828d09cbd62f6c36dad6c92818"
+      }
+    },
+    {
+      "slug": "072",
+      "title": "第七十二回 盘丝洞七情迷本 濯垢泉八戒忘形",
+      "kind": "chapter",
+      "number": 72,
+      "paragraphs": 46,
+      "characters": 7696,
+      "headings": 0,
+      "notes": 14,
+      "source": {
+        "title": "西遊記/第072回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC072%E5%9B%9E",
+        "revision": "2557105",
+        "text_sha256": "98ad3ebc1589356d789af84e39d3be88ad291469fe96ea122b3d66000517a326"
+      }
+    },
+    {
+      "slug": "073",
+      "title": "第七十三回 情因旧恨生灾毒 心主遭 魔 一作“迷” 幸破光",
+      "kind": "chapter",
+      "number": 73,
+      "paragraphs": 44,
+      "characters": 7960,
+      "headings": 0,
+      "notes": 17,
+      "source": {
+        "title": "西遊記/第073回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC073%E5%9B%9E",
+        "revision": "1500620",
+        "text_sha256": "112e420a5f3ace60e948ddb107a1aa89946fb7657fc9c84eddd60888e0dadb9f"
+      }
+    },
+    {
+      "slug": "074",
+      "title": "第七十四回 长庚传报魔头狠 行者施为变化能",
+      "kind": "chapter",
+      "number": 74,
+      "paragraphs": 26,
+      "characters": 7861,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "西遊記/第074回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC074%E5%9B%9E",
+        "revision": "1500622",
+        "text_sha256": "41dbd6806bfc67833e8f65bdb7313d3358e8a7c31c2cc7d9961e7c95d7d01293"
+      }
+    },
+    {
+      "slug": "075",
+      "title": "第七十五回 心猿钻透阴阳体 魔 主 一作“王” 还归大道真",
+      "kind": "chapter",
+      "number": 75,
+      "paragraphs": 45,
+      "characters": 7676,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "西遊記/第075回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC075%E5%9B%9E",
+        "revision": "2093000",
+        "text_sha256": "d843ca20d97cfea9cbafee3a238052e4f25b2b17de4676a225f58bc09282acc6"
+      }
+    },
+    {
+      "slug": "076",
+      "title": "第七十六回 心神居舍魔归性 木母同降怪体真",
+      "kind": "chapter",
+      "number": 76,
+      "paragraphs": 29,
+      "characters": 7941,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "西遊記/第076回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC076%E5%9B%9E",
+        "revision": "1557754",
+        "text_sha256": "181c80fd3d6f243796dc3199c8a8f0c5e7a49af2321184feff456e4ecfb57612"
+      }
+    },
+    {
+      "slug": "077",
+      "title": "第七十七回 群魔欺本性 一体拜真如",
+      "kind": "chapter",
+      "number": 77,
+      "paragraphs": 33,
+      "characters": 8014,
+      "headings": 0,
+      "notes": 32,
+      "source": {
+        "title": "西遊記/第077回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC077%E5%9B%9E",
+        "revision": "1455626",
+        "text_sha256": "9418ae5bdfe9d6dd3a117991a2e9946c244cd238290b6a49bef002c5f8f3de0a"
+      }
+    },
+    {
+      "slug": "078",
+      "title": "第七十八回 比丘怜子遣阴神 金殿识魔谈道德",
+      "kind": "chapter",
+      "number": 78,
+      "paragraphs": 40,
+      "characters": 6485,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "西遊記/第078回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC078%E5%9B%9E",
+        "revision": "1455627",
+        "text_sha256": "3fd6679f443beef4698e1b75bb075776a4dc699c31a5962355dd9433a48dfab7"
+      }
+    },
+    {
+      "slug": "079",
+      "title": "第七十九回 寻洞擒妖逢老寿 当朝正主救婴儿",
+      "kind": "chapter",
+      "number": 79,
+      "paragraphs": 33,
+      "characters": 6207,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "西遊記/第079回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC079%E5%9B%9E",
+        "revision": "1455628",
+        "text_sha256": "20ed45bb899ffcb5e140ac231a43052f8eb3ef7f7fc0e8aeaf1534fa9c7c6637"
+      }
+    },
+    {
+      "slug": "080",
+      "title": "第八十回 姹女育阳求配偶 心猿护主识妖邪",
+      "kind": "chapter",
+      "number": 80,
+      "paragraphs": 36,
+      "characters": 6904,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第080回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC080%E5%9B%9E",
+        "revision": "1808715",
+        "text_sha256": "7c5876f3e164d2615a972f7bbd06feeeac060204b7073e198c2407f2e0d7fd3e"
+      }
+    },
+    {
+      "slug": "081",
+      "title": "第八十一回 镇海寺心猿知怪 黑松林三众寻师",
+      "kind": "chapter",
+      "number": 81,
+      "paragraphs": 32,
+      "characters": 7180,
+      "headings": 0,
+      "notes": 30,
+      "source": {
+        "title": "西遊記/第081回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC081%E5%9B%9E",
+        "revision": "1455630",
+        "text_sha256": "a8138bed5a05ce4de09a21e744d5f25abf87972022b68c4309f406d87f6aa61a"
+      }
+    },
+    {
+      "slug": "082",
+      "title": "第八十二回 姹女求阳 元神护道",
+      "kind": "chapter",
+      "number": 82,
+      "paragraphs": 31,
+      "characters": 7594,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "西遊記/第082回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC082%E5%9B%9E",
+        "revision": "1455631",
+        "text_sha256": "d92c896ff86223ad11eb0816f883ab29b4307ad8a794a53014d24bbc4380bd75"
+      }
+    },
+    {
+      "slug": "083",
+      "title": "第八十三回 心猿识得丹头 姹女还归本性",
+      "kind": "chapter",
+      "number": 83,
+      "paragraphs": 28,
+      "characters": 6857,
+      "headings": 0,
+      "notes": 29,
+      "source": {
+        "title": "西遊記/第083回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC083%E5%9B%9E",
+        "revision": "1455632",
+        "text_sha256": "c507be65598edc64d85c343f6482ac05eff5f93cf00ea3337583d8c63edd2cb6"
+      }
+    },
+    {
+      "slug": "084",
+      "title": "第八十四回 难灭伽持圆大觉 法王成正体天然",
+      "kind": "chapter",
+      "number": 84,
+      "paragraphs": 36,
+      "characters": 7293,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "西遊記/第084回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC084%E5%9B%9E",
+        "revision": "2597328",
+        "text_sha256": "d1d1a8386d2c84935c8e8c2a420d0c19111cadd90c51d68c75d91719074841ac"
+      }
+    },
+    {
+      "slug": "085",
+      "title": "第八十五回 心猿妒木母 魔主计吞禅",
+      "kind": "chapter",
+      "number": 85,
+      "paragraphs": 41,
+      "characters": 7553,
+      "headings": 0,
+      "notes": 23,
+      "source": {
+        "title": "西遊記/第085回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC085%E5%9B%9E",
+        "revision": "1455634",
+        "text_sha256": "555faeeb3de91772dfe9ff83a533f398649d5d971dd4cab630641622e1336e3b"
+      }
+    },
+    {
+      "slug": "086",
+      "title": "第八十六回 木母助威征怪物 金公施法灭妖邪",
+      "kind": "chapter",
+      "number": 86,
+      "paragraphs": 35,
+      "characters": 7618,
+      "headings": 0,
+      "notes": 12,
+      "source": {
+        "title": "西遊記/第086回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC086%E5%9B%9E",
+        "revision": "1500525",
+        "text_sha256": "f1c5835730d25a46cd7dfc8a450b4489f8ab0b4af989e508d2ba2fca6e7a0576"
+      }
+    },
+    {
+      "slug": "087",
+      "title": "第八十七回 凤仙郡冒天 致旱 一作“止雨” 孙大圣劝善施霖",
+      "kind": "chapter",
+      "number": 87,
+      "paragraphs": 38,
+      "characters": 6577,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "西遊記/第087回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC087%E5%9B%9E",
+        "revision": "1500526",
+        "text_sha256": "442018a60c34a1e826c81ebf22bc927e9c61851c9074887c866815e5565e0151"
+      }
+    },
+    {
+      "slug": "088",
+      "title": "第八十八回 禅到玉华施法会 心猿木 土 一作“母” 授门人",
+      "kind": "chapter",
+      "number": 88,
+      "paragraphs": 35,
+      "characters": 6489,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "西遊記/第088回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC088%E5%9B%9E",
+        "revision": "1500527",
+        "text_sha256": "14a252a67441b67beb2de49eb855cb783f6bf38fe55ef8b7953c6e20f64b77a7"
+      }
+    },
+    {
+      "slug": "089",
+      "title": "第八十九回 黄狮精虚设钉钯宴 金木土计闹豹头山",
+      "kind": "chapter",
+      "number": 89,
+      "paragraphs": 34,
+      "characters": 6215,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "西遊記/第089回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC089%E5%9B%9E",
+        "revision": "1500528",
+        "text_sha256": "c1ea19ac3c9c54f64d9628a02407438fa06ad5d74a0258f4ccd0b89f04e55df6"
+      }
+    },
+    {
+      "slug": "090",
+      "title": "第九十回 师狮授受同归一 盗道缠禅静九灵",
+      "kind": "chapter",
+      "number": 90,
+      "paragraphs": 32,
+      "characters": 6650,
+      "headings": 0,
+      "notes": 19,
+      "source": {
+        "title": "西遊記/第090回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC090%E5%9B%9E",
+        "revision": "1455639",
+        "text_sha256": "06d7909863f4b5b5e2296749a2d259a9d3c7c2cf1453db457b9dcf9b0b16a696"
+      }
+    },
+    {
+      "slug": "091",
+      "title": "第九十一回 金平府元夜观灯 玄英洞唐僧供状",
+      "kind": "chapter",
+      "number": 91,
+      "paragraphs": 35,
+      "characters": 6825,
+      "headings": 0,
+      "notes": 24,
+      "source": {
+        "title": "西遊記/第091回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC091%E5%9B%9E",
+        "revision": "1455640",
+        "text_sha256": "022687c6e7899616453e4617f2376b9275d9ed19d512c1a9218fdffb087ce969"
+      }
+    },
+    {
+      "slug": "092",
+      "title": "第九十二回 三僧大战青龙山 四星挟捉犀牛怪",
+      "kind": "chapter",
+      "number": 92,
+      "paragraphs": 34,
+      "characters": 7151,
+      "headings": 0,
+      "notes": 27,
+      "source": {
+        "title": "西遊記/第092回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC092%E5%9B%9E",
+        "revision": "1455641",
+        "text_sha256": "dd4f1221cfd90bbd2f55c75a33272644cbc8e73917539e9cc8654097343513b3"
+      }
+    },
+    {
+      "slug": "093",
+      "title": "第九十三回 给孤园问古谈因 天竺国朝王遇偶",
+      "kind": "chapter",
+      "number": 93,
+      "paragraphs": 33,
+      "characters": 6489,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/第093回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC093%E5%9B%9E",
+        "revision": "1455642",
+        "text_sha256": "434c31817695ea541a18abea7cfb01daf1c0140a2b01a549c153994fa22e0e7d"
+      }
+    },
+    {
+      "slug": "094",
+      "title": "第九十四回 四僧宴乐御花园 一怪空怀情欲喜",
+      "kind": "chapter",
+      "number": 94,
+      "paragraphs": 62,
+      "characters": 5566,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "西遊記/第094回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC094%E5%9B%9E",
+        "revision": "1500607",
+        "text_sha256": "656c531692b91d2669410f26e7b1e7f21c4bead0e28d6fd651a628de05085f8f"
+      }
+    },
+    {
+      "slug": "095",
+      "title": "第九十五回 假合 真形 一作“形骸” 擒玉兔 真阴归正会灵元",
+      "kind": "chapter",
+      "number": 95,
+      "paragraphs": 38,
+      "characters": 6360,
+      "headings": 0,
+      "notes": 15,
+      "source": {
+        "title": "西遊記/第095回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC095%E5%9B%9E",
+        "revision": "1500606",
+        "text_sha256": "4606d60404f0a181db494ce2873112f4e668b083a28831a0d2b2a52ca0c5655f"
+      }
+    },
+    {
+      "slug": "096",
+      "title": "第九十六回 寇员外喜待高僧 唐长老不贪富贵",
+      "kind": "chapter",
+      "number": 96,
+      "paragraphs": 37,
+      "characters": 5987,
+      "headings": 0,
+      "notes": 26,
+      "source": {
+        "title": "西遊記/第096回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC096%E5%9B%9E",
+        "revision": "1500608",
+        "text_sha256": "4dede79c35a8789b721de71d2b80bac43ead690440ef936348e2b9a1889d4f1b"
+      }
+    },
+    {
+      "slug": "097",
+      "title": "第九十七回 金酬外护遭魔蛰 圣显幽魂救本原",
+      "kind": "chapter",
+      "number": 97,
+      "paragraphs": 33,
+      "characters": 8586,
+      "headings": 0,
+      "notes": 26,
+      "source": {
+        "title": "西遊記/第097回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC097%E5%9B%9E",
+        "revision": "1455646",
+        "text_sha256": "250a749a3ddcbf45954e93d45aaf1cf3e7897ace6b02d08c740a682e3ea11bd4"
+      }
+    },
+    {
+      "slug": "098",
+      "title": "第九十八回 猿熟马驯方脱壳 功成行满见真如",
+      "kind": "chapter",
+      "number": 98,
+      "paragraphs": 44,
+      "characters": 7932,
+      "headings": 0,
+      "notes": 31,
+      "source": {
+        "title": "西遊記/第098回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC098%E5%9B%9E",
+        "revision": "1500530",
+        "text_sha256": "153bbda0a400c3aaa34dc2371cf8982420b89c2a118a13470dc9eb4631880461"
+      }
+    },
+    {
+      "slug": "099",
+      "title": "第九十九回 九九数完魔 刬 一作“灭” 尽 三三行满道归根",
+      "kind": "chapter",
+      "number": 99,
+      "paragraphs": 24,
+      "characters": 4802,
+      "headings": 0,
+      "notes": 28,
+      "source": {
+        "title": "西遊記/第099回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC099%E5%9B%9E",
+        "revision": "1558059",
+        "text_sha256": "7434082fbc4a77dd75e94b9c874472d18b258edbc9fc7e59a20536bf3a9eff44"
+      }
+    },
+    {
+      "slug": "100",
+      "title": "第一百回 径回东土 五圣成真",
+      "kind": "chapter",
+      "number": 100,
+      "paragraphs": 32,
+      "characters": 6104,
+      "headings": 0,
+      "notes": 43,
+      "source": {
+        "title": "西遊記/第100回",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E7%AC%AC100%E5%9B%9E",
+        "revision": "1500545",
+        "text_sha256": "03077ab594126a96a72d08020fee6e01846f7df472fde4ae9757332ba4d56ff3"
+      }
+    },
+    {
+      "slug": "fulu",
+      "title": "附录 陈光蕊赴任逢灾 江流僧复仇报本",
+      "kind": "front_or_back_matter",
+      "number": null,
+      "paragraphs": 32,
+      "characters": 6900,
+      "headings": 0,
+      "notes": 22,
+      "source": {
+        "title": "西遊記/附錄",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E9%99%84%E9%8C%84",
+        "revision": "168354",
+        "text_sha256": "4264723beaa989ce8f991422b21be5f7511a3e6577d3a70ff97be77011166874"
+      }
+    }
+  ]
+}

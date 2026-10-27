@@ -1,0 +1,30 @@
+{
+  "xixiangji": {
+    "chapters": 5,
+    "pages": 6,
+    "characters": 45442,
+    "notes": 222,
+    "status": "passed"
+  },
+  "xiyouji": {
+    "chapters": 100,
+    "pages": 102,
+    "characters": 722302,
+    "notes": 2370,
+    "status": "passed"
+  },
+  "shuihuzhuan": {
+    "chapters": 120,
+    "pages": 123,
+    "characters": 894290,
+    "notes": 3655,
+    "status": "passed"
+  },
+  "sanguoyanyi": {
+    "chapters": 120,
+    "pages": 125,
+    "characters": 604454,
+    "notes": 2337,
+    "status": "passed"
+  }
+}

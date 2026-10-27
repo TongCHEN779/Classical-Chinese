@@ -9,9 +9,9 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
-BOOKS = {'yuewei':'閱微草堂筆記','yantielun':'鹽鐵論','songlun':'宋論','huainanzi':'淮南子','liaozhai':'聊齋志異'}
+BOOKS = {'yuewei':'閱微草堂筆記','yantielun':'鹽鐵論','songlun':'宋論','huainanzi':'淮南子','liaozhai':'聊齋志異','xiaochuang':'醉古堂劍掃'}
 
-def download(title):
+def download(title, include_lists=False):
     url = 'https://zh.wikisource.org/zh-hans/' + quote(title, safe='/')
     for attempt in range(4):
         try:
@@ -39,8 +39,9 @@ def download(title):
     for node in main.select('.mw-editsection, .noprint, .ws-noexport, .navigation-not-searchable, .licenseContainer, .licensetpl, #toc, .toc, .header-container, .navbox, .wst-header, .catlinks, sup.reference'):
         node.decompose()
     blocks=[]
-    for node in main.find_all(['h1','h2','h3','h4','p']):
+    for node in main.find_all(['h1','h2','h3','h4','p'] + (['li'] if include_lists else [])):
         if node.find_parent(['table','blockquote']): continue
+        if include_lists and node.find_parent('li'): continue
         text=node.get_text('',strip=True).replace('\u3000','').strip()
         if text and not text.startswith(('此作品在','此清朝作品','此西汉作品','此頁面','此页面','取自“','检索自“')):
             blocks.append({'type':node.name,'text':text})
@@ -67,7 +68,7 @@ def main():
             jobs.append((item['title'],path))
         errors=[]
         with ThreadPoolExecutor(max_workers=2) as pool:
-            pending={pool.submit(download,t):(t,p) for t,p in jobs}
+            pending={pool.submit(download,t,slug == 'xiaochuang'):(t,p) for t,p in jobs}
             for i,f in enumerate(as_completed(pending),1):
                 t,p=pending[f]
                 try:save(p,f.result())

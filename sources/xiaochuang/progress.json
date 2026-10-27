@@ -1,0 +1,356 @@
+{
+  "book": "小窗幽记",
+  "source_title": "醉古堂劍掃",
+  "date": "2026-10-27",
+  "status": "annotated",
+  "translation_status": "complete",
+  "annotation_status": "complete",
+  "scan_collation_status": "not_done",
+  "pages": [
+    {
+      "slug": "yin",
+      "title": "引",
+      "status": "annotated",
+      "paragraphs": 15,
+      "characters": 1778,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%BC%95",
+        "revision": "8458361",
+        "text_sha256": "36c35ff844ed5198608abe70db474b4612436c7a4f10c89ceeb2d1a0f304dec9"
+      },
+      "translated_paragraphs": 15,
+      "translation_pairs": 91,
+      "editor_notes": 117,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "zixu",
+      "title": "自叙",
+      "status": "annotated",
+      "paragraphs": 2,
+      "characters": 607,
+      "collation_notes": 2,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E8%87%AA%E6%95%98",
+        "revision": "1968205",
+        "text_sha256": "d95ae811269c145af672bb5ddeba4458a83f7f56fb5ce392c8dac5b945999d2b"
+      },
+      "translated_paragraphs": 2,
+      "translation_pairs": 28,
+      "editor_notes": 33,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "fanli",
+      "title": "凡例",
+      "status": "annotated",
+      "paragraphs": 9,
+      "characters": 296,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%87%A1%E4%BE%8B",
+        "revision": "2556259",
+        "text_sha256": "1d8f678ea6a9e3e370201fdca959e16817317c2e70d4b48f8832736943d17efb"
+      },
+      "translated_paragraphs": 9,
+      "translation_pairs": 14,
+      "editor_notes": 29,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan01",
+      "title": "卷一·集醒",
+      "status": "annotated",
+      "paragraphs": 226,
+      "characters": 7123,
+      "collation_notes": 41,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B71",
+        "revision": "1968255",
+        "text_sha256": "91b069e99b85888c884d83bc26a0f6c5f9f50a27fa79e9f0d9d9e2241a8671fb"
+      },
+      "translated_paragraphs": 226,
+      "translation_pairs": 274,
+      "editor_notes": 554,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan02",
+      "title": "卷二·集情",
+      "status": "annotated",
+      "paragraphs": 112,
+      "characters": 3198,
+      "collation_notes": 16,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B72",
+        "revision": "1968266",
+        "text_sha256": "de8b93f1b3d0c3979b838e83c178f1d230fe34c3bae1934275e16af1bacdbc88"
+      },
+      "translated_paragraphs": 112,
+      "translation_pairs": 152,
+      "editor_notes": 409,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan03",
+      "title": "卷三·集峭",
+      "status": "annotated",
+      "paragraphs": 102,
+      "characters": 2809,
+      "collation_notes": 9,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B73",
+        "revision": "1968643",
+        "text_sha256": "c276bd7b687796c03a51e811de1c18845ba5844b87b9a8d4dc32ff68e2568be1"
+      },
+      "translated_paragraphs": 102,
+      "translation_pairs": 117,
+      "editor_notes": 316,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan04",
+      "title": "卷四·集灵",
+      "status": "annotated",
+      "paragraphs": 170,
+      "characters": 5912,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B74",
+        "revision": "844584",
+        "text_sha256": "b2ecdcaa6f4722927fef49503d888b1eebb056f72696aeb4fff1541ca9684e65"
+      },
+      "translated_paragraphs": 170,
+      "translation_pairs": 214,
+      "editor_notes": 534,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan05",
+      "title": "卷五·集素",
+      "status": "annotated",
+      "paragraphs": 190,
+      "characters": 7314,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B75",
+        "revision": "844589",
+        "text_sha256": "6202f8b3f36eef915c303242a52dd9fe8edbb1dfe26fb7417e4e7be74d8a6686"
+      },
+      "translated_paragraphs": 190,
+      "translation_pairs": 271,
+      "editor_notes": 683,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan06",
+      "title": "卷六·集景",
+      "status": "annotated",
+      "paragraphs": 92,
+      "characters": 4352,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B76",
+        "revision": "844592",
+        "text_sha256": "5bd3e0812166719fc04fe0f290d2e52ccb4db99d5d395e03288e47e31c0cc9d3"
+      },
+      "translated_paragraphs": 92,
+      "translation_pairs": 165,
+      "editor_notes": 349,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan07",
+      "title": "卷七·集韵",
+      "status": "annotated",
+      "paragraphs": 122,
+      "characters": 3794,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B77",
+        "revision": "844595",
+        "text_sha256": "197a2eef15d6e320040535e4385d3d4e52d20611a4a800eb03f169b58d824b62"
+      },
+      "translated_paragraphs": 122,
+      "translation_pairs": 147,
+      "editor_notes": 384,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan08",
+      "title": "卷八·集奇",
+      "status": "annotated",
+      "paragraphs": 68,
+      "characters": 2105,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B78",
+        "revision": "856767",
+        "text_sha256": "6496b1c7b2523cf147fad5558fab105e23536ae4615abde8f582170a960a1d5d"
+      },
+      "translated_paragraphs": 68,
+      "translation_pairs": 82,
+      "editor_notes": 240,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan09",
+      "title": "卷九·集绮",
+      "status": "annotated",
+      "paragraphs": 89,
+      "characters": 2834,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B79",
+        "revision": "844649",
+        "text_sha256": "a3a58079c5e200cdcbe6ea350655186eefb182dabe56bca3940d12213f84bfe5"
+      },
+      "translated_paragraphs": 89,
+      "translation_pairs": 128,
+      "editor_notes": 324,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan10",
+      "title": "卷十·集豪",
+      "status": "annotated",
+      "paragraphs": 101,
+      "characters": 3106,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B710",
+        "revision": "1521059",
+        "text_sha256": "ac9c6aa507b2b175e43a3b03243f8f669a5129792218bf601cc29050f47a3b81"
+      },
+      "translated_paragraphs": 101,
+      "translation_pairs": 138,
+      "editor_notes": 337,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan11",
+      "title": "卷十一·集法",
+      "status": "annotated",
+      "paragraphs": 110,
+      "characters": 3544,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B711",
+        "revision": "1419322",
+        "text_sha256": "b4beec354bdc692488a5fcbea7f26b03371497ae8eb11a2297bc902e300ce566"
+      },
+      "translated_paragraphs": 110,
+      "translation_pairs": 145,
+      "editor_notes": 314,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    },
+    {
+      "slug": "juan12",
+      "title": "卷十二·集倩",
+      "status": "annotated",
+      "paragraphs": 139,
+      "characters": 5125,
+      "collation_notes": 0,
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E5%8F%A4%E5%A0%82%E5%8A%8D%E6%8E%83/%E5%8D%B712",
+        "revision": "2314639",
+        "text_sha256": "a58abdccdf72012664ad6ab773e6d1d86f0ee607cf9f7931610dc188fde8230a"
+      },
+      "translated_paragraphs": 139,
+      "translation_pairs": 203,
+      "editor_notes": 472,
+      "editor_introductions": 1,
+      "review": {
+        "original_matches_cache": true,
+        "sentence_alignment_checked": true,
+        "uncertain_readings_retained": true,
+        "scan_collation": "not_done"
+      }
+    }
+  ]
+}
