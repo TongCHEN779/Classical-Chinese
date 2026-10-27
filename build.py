@@ -364,12 +364,26 @@ def _yuewei_spec():
                  ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
 
 
+def _mudanting_spec():
+    pages = []
+    for d in sorted((ROOT / "src/mudanting").glob("[0-9][0-9]")):
+        head = (d / "01.txt").read_text(encoding="utf8").splitlines()[0][2:].strip()
+        no, _, name = head.partition(" ")
+        pages.append((d.name, f"{no}·{name}"))
+    if (ROOT / "src/mudanting/fu/01.txt").exists():
+        pages.append(("fu", "附·杜丽娘慕色还魂话本"))
+    return {"title": "牡丹亭", "author": "［明］汤显祖", "unit": "出",
+            "intro": "明代传奇名剧，又名《还魂记》，全五十五出，写杜丽娘因梦生情、因情而死、又因情复生的故事。曲词半文半白，故只录原文，随段附少量注释；卷末附话本《杜丽娘慕色还魂》。",
+            "pages": pages}
+
+
 POETRY = {
     "yuewei": _yuewei_spec(),
     "yantielun": _yantielun_spec(),
     "songlun": _songlun_spec(),
     "huainanzi": _huainanzi_spec(),
     "liaozhai": _liaozhai_spec(),
+    "mudanting": _mudanting_spec(),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
               "intro": "中国第一部纪传体通史，分本纪、表、书、世家、列传共一百三十卷。此处依《二十四史全译》本，只收原文，十表仅收序言与论赞。",
               "pages": _shiji_pages()},
@@ -408,7 +422,10 @@ def parse_poems(paths):
             elif ln.startswith("题解："):
                 cur["intro"].append(ln[3:].strip())
             elif ln.startswith("原："):
-                o, t = (x.strip() for x in ln[2:].split("||", 1))
+                if "||" in ln:
+                    o, t = (x.strip() for x in ln[2:].split("||", 1))
+                else:
+                    o, t = ln[2:].strip(), None
                 cur["chunks"].append({"o": o, "t": t, "notes": []})
             elif ln.startswith("表题："):
                 cur["chunks"].append({"tbl": {"cap": ln[3:].strip(), "head": None, "rows": []}, "notes": []})
@@ -426,6 +443,20 @@ def parse_poems(paths):
             else:
                 raise ValueError(f"{path}: 无法解析：{ln}")
     return sections
+
+
+DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
+
+
+def drama_html(text):
+    out = []
+    for i, part in enumerate(DRAMA.split(esc(text))):
+        if i % 2:
+            cls = "cp" if part.startswith("【") else "sd"
+            out.append(f'<span class="{cls}">{part}</span>')
+        else:
+            out.append(part)
+    return "".join(out)
 
 
 def table_html(t):
@@ -479,13 +510,16 @@ def build_poetry(bslug, spec):
                 if "tbl" in ch:
                     parts.append(table_html(ch["tbl"]))
                     continue
-                spans = ""
-                for o2, t2 in split_pairs(ch["o"], ch["t"]):
-                    if o2.startswith("/"):
-                        spans += "<br>"
-                        o2 = o2[1:]
-                    spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{poem_orig(o2)}</span>'
-                parts.append(f'<p class="v">{spans}</p>')
+                if ch["t"] is None:
+                    parts.append(f'<p class="v dr">{drama_html(ch["o"])}</p>')
+                else:
+                  spans = ""
+                  for o2, t2 in split_pairs(ch["o"], ch["t"]):
+                      if o2.startswith("/"):
+                          spans += "<br>"
+                          o2 = o2[1:]
+                      spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{poem_orig(o2)}</span>'
+                  parts.append(f'<p class="v">{spans}</p>')
                 if ch["notes"]:
                     uid += 1
                     li = "".join(f"<li>{esc(n)}</li>" for n in ch["notes"])
