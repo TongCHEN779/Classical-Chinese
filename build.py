@@ -613,7 +613,16 @@ def build_home():
         cards += (f'<li><a href="{k}/index.html"><strong>{esc(v["title"])}</strong><span>{esc(v["author"])}</span>'
                   f'<p>{esc(v["intro"])}</p></a></li>')
     body = f"""<header class="top"><h1>古典文库<small>文言典籍逐句对照白话，白话小说径读原文</small></h1></header>
-<main><ul class="books">{cards}</ul></main>"""
+<main>
+<div class="book-search" role="search" aria-label="搜索书籍">
+<label for="book-search">搜索书名、作者或简介</label>
+<div class="search-row"><input type="search" id="book-search" placeholder="例如：聊斋、王夫之、诗经" autocomplete="off" aria-controls="book-list"><button type="button" id="search-clear">清空</button></div>
+<p class="search-status" id="search-status" role="status" aria-live="polite"></p>
+</div>
+<ul class="books" id="book-list">{cards}</ul>
+<p class="search-empty" id="search-empty" hidden>没有找到匹配的书籍，请换个关键词。</p>
+<script src="assets/search.js?v={_ver('search.js')}" defer></script>
+</main>"""
     (ROOT / "index.html").write_text(page("古典文库", body, ""), encoding="utf8")
 
 

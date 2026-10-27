@@ -1,0 +1,105 @@
+{
+  "title": "淮南子",
+  "url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E6%B7%AE%E5%8D%97%E5%AD%90",
+  "revision": "2375739",
+  "fetched_at": "2026-10-27T09:45:59.159713+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "目录"
+    }
+  ],
+  "links": [
+    {
+      "title": "淮南子/敘目",
+      "label": "叙目"
+    },
+    {
+      "title": "淮南子/原道訓",
+      "label": "原道训"
+    },
+    {
+      "title": "淮南子/俶真訓",
+      "label": "俶真训"
+    },
+    {
+      "title": "淮南子/天文訓",
+      "label": "天文训"
+    },
+    {
+      "title": "淮南子/墬形訓",
+      "label": "墬形训"
+    },
+    {
+      "title": "淮南子/時則訓",
+      "label": "时则训"
+    },
+    {
+      "title": "淮南子/覽冥訓",
+      "label": "览冥训"
+    },
+    {
+      "title": "淮南子/精神訓",
+      "label": "精神训"
+    },
+    {
+      "title": "淮南子/本經訓",
+      "label": "本经训"
+    },
+    {
+      "title": "淮南子/主術訓",
+      "label": "主術训"
+    },
+    {
+      "title": "淮南子/繆稱訓",
+      "label": "缪称训"
+    },
+    {
+      "title": "淮南子/齊俗訓",
+      "label": "齐俗训"
+    },
+    {
+      "title": "淮南子/道應訓",
+      "label": "道应训"
+    },
+    {
+      "title": "淮南子/氾論訓",
+      "label": "氾论训"
+    },
+    {
+      "title": "淮南子/詮言訓",
+      "label": "诠言训"
+    },
+    {
+      "title": "淮南子/兵略訓",
+      "label": "兵略训"
+    },
+    {
+      "title": "淮南子/說山訓",
+      "label": "说山训"
+    },
+    {
+      "title": "淮南子/說林訓",
+      "label": "说林训"
+    },
+    {
+      "title": "淮南子/人間訓",
+      "label": "人间训"
+    },
+    {
+      "title": "淮南子/脩務訓",
+      "label": "脩务训"
+    },
+    {
+      "title": "淮南子/泰族訓",
+      "label": "泰族训"
+    },
+    {
+      "title": "淮南子/要略",
+      "label": "要略"
+    }
+  ],
+  "text_sha256": "52daa71ebc31058156b21dc21c01ed18eb4e9a723749259cacd1558afe32dfea"
+}

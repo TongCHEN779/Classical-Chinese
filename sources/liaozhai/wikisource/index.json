@@ -1,0 +1,68 @@
+{
+  "title": "聊齋志異",
+  "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0",
+  "revision": "8738508",
+  "fetched_at": "2026-10-27T09:46:06.039620+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "聊齋志異/作者小傳",
+      "label": "作者小传"
+    },
+    {
+      "title": "聊齋志異/作者自志",
+      "label": "作者自志"
+    },
+    {
+      "title": "聊齋志異/第01卷",
+      "label": "蛇癖"
+    },
+    {
+      "title": "聊齋志異/第02卷",
+      "label": "林四娘"
+    },
+    {
+      "title": "聊齋志異/第03卷",
+      "label": "黑兽"
+    },
+    {
+      "title": "聊齋志異/第04卷",
+      "label": "酒狂"
+    },
+    {
+      "title": "聊齋志異/第05卷",
+      "label": "龙肉"
+    },
+    {
+      "title": "聊齋志異/第06卷",
+      "label": "戏缢"
+    },
+    {
+      "title": "聊齋志異/第07卷",
+      "label": "细柳"
+    },
+    {
+      "title": "聊齋志異/第08卷",
+      "label": "陈锡九"
+    },
+    {
+      "title": "聊齋志異/第09卷",
+      "label": "陵县狐"
+    },
+    {
+      "title": "聊齋志異/第10卷",
+      "label": "葛巾"
+    },
+    {
+      "title": "聊齋志異/第11卷",
+      "label": "嘉平公子"
+    },
+    {
+      "title": "聊齋志異/第12卷",
+      "label": "爱才"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
