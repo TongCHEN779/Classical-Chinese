@@ -1,0 +1,805 @@
+{
+  "source": "宋论（上下册）.pdf",
+  "edition": "中华书局《宋论》（全二册），刘韶军译注，2013年4月北京第1版",
+  "isbn": "978-7-101-09210-3",
+  "pdf_pages": 972,
+  "catalog_review": {
+    "source": "local_scan",
+    "pdf_pages": [
+      16,
+      17
+    ]
+  },
+  "section_policy": "保留原书一至十五的篇序；竖线后小标题、题解、逐句白话及独立注释为整理者自撰。",
+  "volumes": [
+    {
+      "volume": 1,
+      "title": "太祖",
+      "printed_page": 1,
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "一｜天命、人事与戒惧",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 19,
+            "pdf_end": 30,
+            "paragraphs": 7,
+            "sentence_pairs": 44,
+            "notes": 74,
+            "chunks": [
+              {
+                "pdf_start": 19,
+                "pdf_end": 19,
+                "sentence_pairs": 4,
+                "notes": 7
+              },
+              {
+                "pdf_start": 20,
+                "pdf_end": 21,
+                "sentence_pairs": 12,
+                "notes": 23
+              },
+              {
+                "pdf_start": 24,
+                "pdf_end": 25,
+                "sentence_pairs": 4,
+                "notes": 6
+              },
+              {
+                "pdf_start": 25,
+                "pdf_end": 25,
+                "sentence_pairs": 5,
+                "notes": 10
+              },
+              {
+                "pdf_start": 26,
+                "pdf_end": 26,
+                "sentence_pairs": 3,
+                "notes": 5
+              },
+              {
+                "pdf_start": 27,
+                "pdf_end": 28,
+                "sentence_pairs": 14,
+                "notes": 18
+              },
+              {
+                "pdf_start": 30,
+                "pdf_end": 30,
+                "sentence_pairs": 2,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "二｜韩通之死与乱世的有恒",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/002.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 31,
+            "pdf_end": 35,
+            "paragraphs": 4,
+            "sentence_pairs": 23,
+            "notes": 29,
+            "chunks": [
+              {
+                "pdf_start": 31,
+                "pdf_end": 31,
+                "sentence_pairs": 6,
+                "notes": 10
+              },
+              {
+                "pdf_start": 33,
+                "pdf_end": 33,
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "pdf_start": 34,
+                "pdf_end": 34,
+                "sentence_pairs": 4,
+                "notes": 7
+              },
+              {
+                "pdf_start": 35,
+                "pdf_end": 35,
+                "sentence_pairs": 5,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "三｜太祖三戒与求诸己",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/003.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 36,
+            "pdf_end": 40,
+            "paragraphs": 5,
+            "sentence_pairs": 30,
+            "notes": 29,
+            "chunks": [
+              {
+                "pdf_start": 36,
+                "pdf_end": 37,
+                "sentence_pairs": 7,
+                "notes": 7
+              },
+              {
+                "pdf_start": 38,
+                "pdf_end": 38,
+                "sentence_pairs": 4,
+                "notes": 6
+              },
+              {
+                "pdf_start": 38,
+                "pdf_end": 38,
+                "sentence_pairs": 4,
+                "notes": 3
+              },
+              {
+                "pdf_start": 39,
+                "pdf_end": 39,
+                "sentence_pairs": 10,
+                "notes": 7
+              },
+              {
+                "pdf_start": 40,
+                "pdf_end": 40,
+                "sentence_pairs": 5,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "四｜贵士在于养士",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/004.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 41,
+            "pdf_end": 49,
+            "paragraphs": 5,
+            "sentence_pairs": 36,
+            "notes": 45,
+            "chunks": [
+              {
+                "pdf_start": 41,
+                "pdf_end": 41,
+                "sentence_pairs": 4,
+                "notes": 6
+              },
+              {
+                "pdf_start": 42,
+                "pdf_end": 43,
+                "sentence_pairs": 6,
+                "notes": 11
+              },
+              {
+                "pdf_start": 46,
+                "pdf_end": 46,
+                "sentence_pairs": 10,
+                "notes": 12
+              },
+              {
+                "pdf_start": 48,
+                "pdf_end": 48,
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "pdf_start": 49,
+                "pdf_end": 49,
+                "sentence_pairs": 6,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "五｜君臣不应争士",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/005.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 50,
+            "pdf_end": 55,
+            "paragraphs": 5,
+            "sentence_pairs": 44,
+            "notes": 44,
+            "chunks": [
+              {
+                "pdf_start": 50,
+                "pdf_end": 51,
+                "sentence_pairs": 16,
+                "notes": 10
+              },
+              {
+                "pdf_start": 52,
+                "pdf_end": 52,
+                "sentence_pairs": 4,
+                "notes": 5
+              },
+              {
+                "pdf_start": 52,
+                "pdf_end": 53,
+                "sentence_pairs": 12,
+                "notes": 13
+              },
+              {
+                "pdf_start": 54,
+                "pdf_end": 55,
+                "sentence_pairs": 7,
+                "notes": 9
+              },
+              {
+                "pdf_start": 55,
+                "pdf_end": 55,
+                "sentence_pairs": 5,
+                "notes": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "六｜微行之弊与用人察情",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/006.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 56,
+            "pdf_end": 61,
+            "paragraphs": 5,
+            "sentence_pairs": 39,
+            "notes": 40,
+            "chunks": [
+              {
+                "pdf_start": 56,
+                "pdf_end": 56,
+                "sentence_pairs": 7,
+                "notes": 7
+              },
+              {
+                "pdf_start": 57,
+                "pdf_end": 57,
+                "sentence_pairs": 7,
+                "notes": 5
+              },
+              {
+                "pdf_start": 58,
+                "pdf_end": 58,
+                "sentence_pairs": 7,
+                "notes": 10
+              },
+              {
+                "pdf_start": 59,
+                "pdf_end": 60,
+                "sentence_pairs": 12,
+                "notes": 12
+              },
+              {
+                "pdf_start": 61,
+                "pdf_end": 61,
+                "sentence_pairs": 6,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "007",
+          "title": "七｜降王的处置与忠厚",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/007.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 62,
+            "pdf_end": 73,
+            "paragraphs": 6,
+            "sentence_pairs": 31,
+            "notes": 48,
+            "chunks": [
+              {
+                "pdf_start": 62,
+                "pdf_end": 62,
+                "sentence_pairs": 5,
+                "notes": 10
+              },
+              {
+                "pdf_start": 63,
+                "pdf_end": 64,
+                "sentence_pairs": 3,
+                "notes": 7
+              },
+              {
+                "pdf_start": 64,
+                "pdf_end": 65,
+                "sentence_pairs": 8,
+                "notes": 10
+              },
+              {
+                "pdf_start": 67,
+                "pdf_end": 67,
+                "sentence_pairs": 8,
+                "notes": 12
+              },
+              {
+                "pdf_start": 71,
+                "pdf_end": 71,
+                "sentence_pairs": 5,
+                "notes": 7
+              },
+              {
+                "pdf_start": 73,
+                "pdf_end": 73,
+                "sentence_pairs": 2,
+                "notes": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "008",
+          "title": "八｜赵普阻取幽州与猜忌武臣",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/008.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 73,
+            "pdf_end": 85,
+            "paragraphs": 7,
+            "sentence_pairs": 67,
+            "notes": 59,
+            "chunks": [
+              {
+                "pdf_start": 73,
+                "pdf_end": 73,
+                "sentence_pairs": 11,
+                "notes": 6
+              },
+              {
+                "pdf_start": 75,
+                "pdf_end": 75,
+                "sentence_pairs": 12,
+                "notes": 12
+              },
+              {
+                "pdf_start": 77,
+                "pdf_end": 77,
+                "sentence_pairs": 6,
+                "notes": 6
+              },
+              {
+                "pdf_start": 78,
+                "pdf_end": 78,
+                "sentence_pairs": 10,
+                "notes": 10
+              },
+              {
+                "pdf_start": 80,
+                "pdf_end": 80,
+                "sentence_pairs": 10,
+                "notes": 9
+              },
+              {
+                "pdf_start": 82,
+                "pdf_end": 83,
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "pdf_start": 84,
+                "pdf_end": 85,
+                "sentence_pairs": 11,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "009",
+          "title": "九｜取幽州须养兵去疑",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/009.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 86,
+            "pdf_end": 90,
+            "paragraphs": 3,
+            "sentence_pairs": 22,
+            "notes": 22,
+            "chunks": [
+              {
+                "pdf_start": 86,
+                "pdf_end": 86,
+                "sentence_pairs": 10,
+                "notes": 7
+              },
+              {
+                "pdf_start": 88,
+                "pdf_end": 88,
+                "sentence_pairs": 7,
+                "notes": 9
+              },
+              {
+                "pdf_start": 90,
+                "pdf_end": 90,
+                "sentence_pairs": 5,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "010",
+          "title": "十｜祭礼的质文与敬爱",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/010.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 92,
+            "pdf_end": 96,
+            "paragraphs": 3,
+            "sentence_pairs": 37,
+            "notes": 36,
+            "chunks": [
+              {
+                "pdf_start": 92,
+                "pdf_end": 92,
+                "sentence_pairs": 7,
+                "notes": 13
+              },
+              {
+                "pdf_start": 94,
+                "pdf_end": 94,
+                "sentence_pairs": 11,
+                "notes": 9
+              },
+              {
+                "pdf_start": 95,
+                "pdf_end": 96,
+                "sentence_pairs": 19,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "011",
+          "title": "十一｜省官、养士与清吏治",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/011.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 98,
+            "pdf_end": 103,
+            "paragraphs": 3,
+            "sentence_pairs": 41,
+            "notes": 33,
+            "chunks": [
+              {
+                "pdf_start": 98,
+                "pdf_end": 99,
+                "sentence_pairs": 16,
+                "notes": 11
+              },
+              {
+                "pdf_start": 101,
+                "pdf_end": 101,
+                "sentence_pairs": 12,
+                "notes": 11
+              },
+              {
+                "pdf_start": 102,
+                "pdf_end": 103,
+                "sentence_pairs": 13,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "012",
+          "title": "十二｜积财待功的局限",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/012.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 104,
+            "pdf_end": 109,
+            "paragraphs": 4,
+            "sentence_pairs": 31,
+            "notes": 32,
+            "chunks": [
+              {
+                "pdf_start": 104,
+                "pdf_end": 105,
+                "sentence_pairs": 6,
+                "notes": 9
+              },
+              {
+                "pdf_start": 106,
+                "pdf_end": 106,
+                "sentence_pairs": 9,
+                "notes": 9
+              },
+              {
+                "pdf_start": 108,
+                "pdf_end": 108,
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "pdf_start": 109,
+                "pdf_end": 109,
+                "sentence_pairs": 8,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "013",
+          "title": "十三｜礼的可变与不可变",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/013.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 110,
+            "pdf_end": 119,
+            "paragraphs": 7,
+            "sentence_pairs": 54,
+            "notes": 52,
+            "chunks": [
+              {
+                "pdf_start": 110,
+                "pdf_end": 110,
+                "sentence_pairs": 5,
+                "notes": 9
+              },
+              {
+                "pdf_start": 112,
+                "pdf_end": 112,
+                "sentence_pairs": 3,
+                "notes": 4
+              },
+              {
+                "pdf_start": 113,
+                "pdf_end": 113,
+                "sentence_pairs": 9,
+                "notes": 9
+              },
+              {
+                "pdf_start": 114,
+                "pdf_end": 115,
+                "sentence_pairs": 12,
+                "notes": 6
+              },
+              {
+                "pdf_start": 115,
+                "pdf_end": 116,
+                "sentence_pairs": 13,
+                "notes": 12
+              },
+              {
+                "pdf_start": 118,
+                "pdf_end": 118,
+                "sentence_pairs": 8,
+                "notes": 7
+              },
+              {
+                "pdf_start": 119,
+                "pdf_end": 119,
+                "sentence_pairs": 4,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "014",
+          "title": "十四｜传位不可逆定数世",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/014.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 120,
+            "pdf_end": 123,
+            "paragraphs": 3,
+            "sentence_pairs": 20,
+            "notes": 18,
+            "chunks": [
+              {
+                "pdf_start": 120,
+                "pdf_end": 120,
+                "sentence_pairs": 7,
+                "notes": 5
+              },
+              {
+                "pdf_start": 121,
+                "pdf_end": 121,
+                "sentence_pairs": 8,
+                "notes": 7
+              },
+              {
+                "pdf_start": 123,
+                "pdf_end": 123,
+                "sentence_pairs": 5,
+                "notes": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "015",
+          "title": "十五｜慈俭以简与因心之善",
+          "status": "complete",
+          "source_file": "src/songlun/juan01/015.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 124,
+            "pdf_end": 129,
+            "paragraphs": 4,
+            "sentence_pairs": 41,
+            "notes": 42,
+            "chunks": [
+              {
+                "pdf_start": 124,
+                "pdf_end": 124,
+                "sentence_pairs": 6,
+                "notes": 10
+              },
+              {
+                "pdf_start": 125,
+                "pdf_end": 126,
+                "sentence_pairs": 11,
+                "notes": 10
+              },
+              {
+                "pdf_start": 127,
+                "pdf_end": 127,
+                "sentence_pairs": 11,
+                "notes": 11
+              },
+              {
+                "pdf_start": 128,
+                "pdf_end": 129,
+                "sentence_pairs": 13,
+                "notes": 11
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "source": "local_scan",
+        "pdf_start": 18,
+        "pdf_end": 130,
+        "printed_start": 1,
+        "printed_end": 113,
+        "body_pdf_start": 19,
+        "body_pdf_end": 129,
+        "entries": 15,
+        "paragraphs": 71,
+        "sentence_pairs": 560,
+        "notes": 603
+      }
+    },
+    {
+      "volume": 2,
+      "title": "太宗",
+      "printed_page": 114,
+      "status": "pending",
+      "title_pdf_page": 131
+    },
+    {
+      "volume": 3,
+      "title": "真宗",
+      "printed_page": 210,
+      "status": "pending"
+    },
+    {
+      "volume": 4,
+      "title": "仁宗",
+      "printed_page": 292,
+      "status": "pending"
+    },
+    {
+      "volume": 5,
+      "title": "英宗",
+      "printed_page": 410,
+      "status": "pending"
+    },
+    {
+      "volume": 6,
+      "title": "神宗",
+      "printed_page": 430,
+      "status": "pending"
+    },
+    {
+      "volume": 7,
+      "title": "哲宗",
+      "printed_page": 499,
+      "status": "pending"
+    },
+    {
+      "volume": 8,
+      "title": "徽宗",
+      "printed_page": 533,
+      "status": "pending"
+    },
+    {
+      "volume": 9,
+      "title": "钦宗",
+      "printed_page": 582,
+      "status": "pending"
+    },
+    {
+      "volume": 10,
+      "title": "高宗",
+      "printed_page": 612,
+      "status": "pending"
+    },
+    {
+      "volume": 11,
+      "title": "孝宗",
+      "printed_page": 738,
+      "status": "pending"
+    },
+    {
+      "volume": 12,
+      "title": "光宗",
+      "printed_page": 775,
+      "status": "pending"
+    },
+    {
+      "volume": 13,
+      "title": "宁宗",
+      "printed_page": 810,
+      "status": "pending"
+    },
+    {
+      "volume": 14,
+      "title": "理宗",
+      "printed_page": 861,
+      "status": "pending"
+    },
+    {
+      "volume": 15,
+      "title": "度宗",
+      "printed_page": 926,
+      "status": "pending",
+      "additional_sections": [
+        {
+          "title": "恭宗、端宗、祥兴帝",
+          "printed_page": 933,
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "next": {
+    "volume": 2,
+    "id": "001",
+    "title_pdf_page": 131,
+    "pdf_page": 132,
+    "printed_page": 115,
+    "starts_with": "钱氏之归宋，与窦融之归汉",
+    "status": "pending"
+  },
+  "pdf_offset_status": "卷一及卷二篇题已核实PDF页序为印刷页码加17；其余卷尤其下册须另行复核。"
+}

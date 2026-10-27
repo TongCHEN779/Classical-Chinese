@@ -1,0 +1,766 @@
+{
+  "source": "盐铁论.pdf",
+  "author": "［西汉］桓宽",
+  "edition": "中华书局《盐铁论》，陈桐生译注，2015年4月北京第1版",
+  "isbn": "978-7-101-10751-7",
+  "pdf_pages": 592,
+  "catalog_review": {
+    "source": "local_scan",
+    "pdf_pages": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "section_policy": "保留底本十卷六十篇篇序，一篇一文件，各次发言依底本连续分段；题解、逐句白话与独立注释自撰。",
+  "volumes": [
+    {
+      "volume": 1,
+      "printed_page": 1,
+      "status": "complete",
+      "entries": [
+        {
+          "id": "001",
+          "title": "本议第一",
+          "printed_page": 1,
+          "status": "complete",
+          "source_file": "src/yantielun/juan01/001.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 19,
+            "pdf_end": 34,
+            "paragraphs": 12,
+            "sentence_pairs": 75,
+            "notes": 93,
+            "chunks": [
+              {
+                "pdf_start": 19,
+                "pdf_end": 19,
+                "sentence_pairs": 2,
+                "notes": 4
+              },
+              {
+                "pdf_start": 20,
+                "pdf_end": 20,
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "pdf_start": 22,
+                "pdf_end": 22,
+                "sentence_pairs": 5,
+                "notes": 9
+              },
+              {
+                "pdf_start": 23,
+                "pdf_end": 24,
+                "sentence_pairs": 7,
+                "notes": 8
+              },
+              {
+                "pdf_start": 25,
+                "pdf_end": 25,
+                "sentence_pairs": 3,
+                "notes": 8
+              },
+              {
+                "pdf_start": 26,
+                "pdf_end": 26,
+                "sentence_pairs": 6,
+                "notes": 5
+              },
+              {
+                "pdf_start": 27,
+                "pdf_end": 27,
+                "sentence_pairs": 6,
+                "notes": 6
+              },
+              {
+                "pdf_start": 28,
+                "pdf_end": 28,
+                "sentence_pairs": 7,
+                "notes": 5
+              },
+              {
+                "pdf_start": 29,
+                "pdf_end": 29,
+                "sentence_pairs": 5,
+                "notes": 9
+              },
+              {
+                "pdf_start": 31,
+                "pdf_end": 31,
+                "sentence_pairs": 6,
+                "notes": 9
+              },
+              {
+                "pdf_start": 32,
+                "pdf_end": 32,
+                "sentence_pairs": 7,
+                "notes": 7
+              },
+              {
+                "pdf_start": 33,
+                "pdf_end": 34,
+                "sentence_pairs": 13,
+                "notes": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "002",
+          "title": "力耕第二",
+          "printed_page": 18,
+          "status": "complete",
+          "source_file": "src/yantielun/juan01/002.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 36,
+            "pdf_end": 46,
+            "paragraphs": 6,
+            "sentence_pairs": 48,
+            "notes": 59,
+            "chunks": [
+              {
+                "pdf_start": 36,
+                "pdf_end": 36,
+                "sentence_pairs": 6,
+                "notes": 12
+              },
+              {
+                "pdf_start": 38,
+                "pdf_end": 38,
+                "sentence_pairs": 8,
+                "notes": 8
+              },
+              {
+                "pdf_start": 39,
+                "pdf_end": 40,
+                "sentence_pairs": 12,
+                "notes": 13
+              },
+              {
+                "pdf_start": 42,
+                "pdf_end": 42,
+                "sentence_pairs": 10,
+                "notes": 13
+              },
+              {
+                "pdf_start": 44,
+                "pdf_end": 44,
+                "sentence_pairs": 5,
+                "notes": 8
+              },
+              {
+                "pdf_start": 46,
+                "pdf_end": 46,
+                "sentence_pairs": 7,
+                "notes": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "003",
+          "title": "通有第三",
+          "printed_page": 29,
+          "status": "complete",
+          "source_file": "src/yantielun/juan01/003.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 47,
+            "pdf_end": 58,
+            "paragraphs": 6,
+            "sentence_pairs": 43,
+            "notes": 66,
+            "chunks": [
+              {
+                "pdf_start": 47,
+                "pdf_end": 47,
+                "sentence_pairs": 3,
+                "notes": 9
+              },
+              {
+                "pdf_start": 49,
+                "pdf_end": 49,
+                "sentence_pairs": 5,
+                "notes": 12
+              },
+              {
+                "pdf_start": 51,
+                "pdf_end": 51,
+                "sentence_pairs": 4,
+                "notes": 9
+              },
+              {
+                "pdf_start": 53,
+                "pdf_end": 53,
+                "sentence_pairs": 7,
+                "notes": 12
+              },
+              {
+                "pdf_start": 55,
+                "pdf_end": 55,
+                "sentence_pairs": 15,
+                "notes": 16
+              },
+              {
+                "pdf_start": 58,
+                "pdf_end": 58,
+                "sentence_pairs": 9,
+                "notes": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "004",
+          "title": "错币第四",
+          "printed_page": 41,
+          "status": "complete",
+          "source_file": "src/yantielun/juan01/004.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 60,
+            "pdf_end": 67,
+            "paragraphs": 6,
+            "sentence_pairs": 51,
+            "notes": 47,
+            "chunks": [
+              {
+                "pdf_start": 60,
+                "pdf_end": 60,
+                "sentence_pairs": 8,
+                "notes": 9
+              },
+              {
+                "pdf_start": 61,
+                "pdf_end": 61,
+                "sentence_pairs": 10,
+                "notes": 8
+              },
+              {
+                "pdf_start": 63,
+                "pdf_end": 63,
+                "sentence_pairs": 8,
+                "notes": 6
+              },
+              {
+                "pdf_start": 64,
+                "pdf_end": 64,
+                "sentence_pairs": 7,
+                "notes": 6
+              },
+              {
+                "pdf_start": 65,
+                "pdf_end": 65,
+                "sentence_pairs": 6,
+                "notes": 7
+              },
+              {
+                "pdf_start": 67,
+                "pdf_end": 67,
+                "sentence_pairs": 12,
+                "notes": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "005",
+          "title": "禁耕第五",
+          "printed_page": 51,
+          "status": "complete",
+          "source_file": "src/yantielun/juan01/005.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 69,
+            "pdf_end": 75,
+            "paragraphs": 4,
+            "sentence_pairs": 36,
+            "notes": 44,
+            "chunks": [
+              {
+                "pdf_start": 69,
+                "pdf_end": 69,
+                "sentence_pairs": 8,
+                "notes": 12
+              },
+              {
+                "pdf_start": 71,
+                "pdf_end": 71,
+                "sentence_pairs": 8,
+                "notes": 10
+              },
+              {
+                "pdf_start": 73,
+                "pdf_end": 73,
+                "sentence_pairs": 6,
+                "notes": 8
+              },
+              {
+                "pdf_start": 74,
+                "pdf_end": 75,
+                "sentence_pairs": 14,
+                "notes": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "006",
+          "title": "复古第六",
+          "printed_page": 59,
+          "status": "complete",
+          "source_file": "src/yantielun/juan01/006.txt",
+          "review": {
+            "source": "local_scan",
+            "pdf_start": 77,
+            "pdf_end": 85,
+            "paragraphs": 4,
+            "sentence_pairs": 35,
+            "notes": 51,
+            "chunks": [
+              {
+                "pdf_start": 77,
+                "pdf_end": 78,
+                "sentence_pairs": 12,
+                "notes": 16
+              },
+              {
+                "pdf_start": 80,
+                "pdf_end": 80,
+                "sentence_pairs": 10,
+                "notes": 14
+              },
+              {
+                "pdf_start": 82,
+                "pdf_end": 82,
+                "sentence_pairs": 7,
+                "notes": 14
+              },
+              {
+                "pdf_start": 84,
+                "pdf_end": 85,
+                "sentence_pairs": 6,
+                "notes": 7
+              }
+            ]
+          }
+        }
+      ],
+      "review": {
+        "source": "local_scan",
+        "pdf_start": 19,
+        "pdf_end": 85,
+        "printed_start": 1,
+        "printed_end": 67,
+        "entries": 6,
+        "paragraphs": 38,
+        "sentence_pairs": 288,
+        "notes": 360
+      }
+    },
+    {
+      "volume": 2,
+      "printed_page": 68,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "007",
+          "title": "非鞅第七",
+          "printed_page": 68,
+          "status": "pending"
+        },
+        {
+          "id": "008",
+          "title": "晁错第八",
+          "printed_page": 85,
+          "status": "pending"
+        },
+        {
+          "id": "009",
+          "title": "刺权第九",
+          "printed_page": 91,
+          "status": "pending"
+        },
+        {
+          "id": "010",
+          "title": "刺复第十",
+          "printed_page": 99,
+          "status": "pending"
+        },
+        {
+          "id": "011",
+          "title": "论儒第十一",
+          "printed_page": 110,
+          "status": "pending"
+        },
+        {
+          "id": "012",
+          "title": "忧边第十二",
+          "printed_page": 122,
+          "status": "pending"
+        }
+      ],
+      "title_pdf_page": 86
+    },
+    {
+      "volume": 3,
+      "printed_page": 131,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "013",
+          "title": "园池第十三",
+          "printed_page": 131,
+          "status": "pending"
+        },
+        {
+          "id": "014",
+          "title": "轻重第十四",
+          "printed_page": 136,
+          "status": "pending"
+        },
+        {
+          "id": "015",
+          "title": "未通第十五",
+          "printed_page": 146,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "volume": 4,
+      "printed_page": 160,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "016",
+          "title": "地广第十六",
+          "printed_page": 160,
+          "status": "pending"
+        },
+        {
+          "id": "017",
+          "title": "贫富第十七",
+          "printed_page": 170,
+          "status": "pending"
+        },
+        {
+          "id": "018",
+          "title": "毁学第十八",
+          "printed_page": 179,
+          "status": "pending"
+        },
+        {
+          "id": "019",
+          "title": "褒贤第十九",
+          "printed_page": 190,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "volume": 5,
+      "printed_page": 202,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "020",
+          "title": "相刺第二十",
+          "printed_page": 202,
+          "status": "pending"
+        },
+        {
+          "id": "021",
+          "title": "殊路第二十一",
+          "printed_page": 219,
+          "status": "pending"
+        },
+        {
+          "id": "022",
+          "title": "讼贤第二十二",
+          "printed_page": 229,
+          "status": "pending"
+        },
+        {
+          "id": "023",
+          "title": "遵道第二十三",
+          "printed_page": 236,
+          "status": "pending"
+        },
+        {
+          "id": "024",
+          "title": "论诽第二十四",
+          "printed_page": 244,
+          "status": "pending"
+        },
+        {
+          "id": "025",
+          "title": "孝养第二十五",
+          "printed_page": 254,
+          "status": "pending"
+        },
+        {
+          "id": "026",
+          "title": "刺议第二十六",
+          "printed_page": 264,
+          "status": "pending"
+        },
+        {
+          "id": "027",
+          "title": "利议第二十七",
+          "printed_page": 268,
+          "status": "pending"
+        },
+        {
+          "id": "028",
+          "title": "国疾第二十八",
+          "printed_page": 276,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "volume": 6,
+      "printed_page": 290,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "029",
+          "title": "散不足第二十九",
+          "printed_page": 290,
+          "status": "pending"
+        },
+        {
+          "id": "030",
+          "title": "救匮第三十",
+          "printed_page": 330,
+          "status": "pending"
+        },
+        {
+          "id": "031",
+          "title": "箴石第三十一",
+          "printed_page": 336,
+          "status": "pending"
+        },
+        {
+          "id": "032",
+          "title": "除狭第三十二",
+          "printed_page": 340,
+          "status": "pending"
+        },
+        {
+          "id": "033",
+          "title": "疾贪第三十三",
+          "printed_page": 345,
+          "status": "pending"
+        },
+        {
+          "id": "034",
+          "title": "后刑第三十四",
+          "printed_page": 351,
+          "status": "pending"
+        },
+        {
+          "id": "035",
+          "title": "授时第三十五",
+          "printed_page": 355,
+          "status": "pending"
+        },
+        {
+          "id": "036",
+          "title": "水旱第三十六",
+          "printed_page": 362,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "volume": 7,
+      "printed_page": 373,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "037",
+          "title": "崇礼第三十七",
+          "printed_page": 373,
+          "status": "pending"
+        },
+        {
+          "id": "038",
+          "title": "备胡第三十八",
+          "printed_page": 381,
+          "status": "pending"
+        },
+        {
+          "id": "039",
+          "title": "执务第三十九",
+          "printed_page": 393,
+          "status": "pending"
+        },
+        {
+          "id": "040",
+          "title": "能言第四十",
+          "printed_page": 399,
+          "status": "pending"
+        },
+        {
+          "id": "041",
+          "title": "取下第四十一",
+          "printed_page": 402,
+          "status": "pending"
+        },
+        {
+          "id": "042",
+          "title": "击之第四十二",
+          "printed_page": 410,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "volume": 8,
+      "printed_page": 417,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "043",
+          "title": "结和第四十三",
+          "printed_page": 417,
+          "status": "pending"
+        },
+        {
+          "id": "044",
+          "title": "诛秦第四十四",
+          "printed_page": 426,
+          "status": "pending"
+        },
+        {
+          "id": "045",
+          "title": "伐功第四十五",
+          "printed_page": 434,
+          "status": "pending"
+        },
+        {
+          "id": "046",
+          "title": "西域第四十六",
+          "printed_page": 438,
+          "status": "pending"
+        },
+        {
+          "id": "047",
+          "title": "世务第四十七",
+          "printed_page": 447,
+          "status": "pending"
+        },
+        {
+          "id": "048",
+          "title": "和亲第四十八",
+          "printed_page": 455,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "volume": 9,
+      "printed_page": 463,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "049",
+          "title": "繇役第四十九",
+          "printed_page": 463,
+          "status": "pending"
+        },
+        {
+          "id": "050",
+          "title": "险固第五十",
+          "printed_page": 469,
+          "status": "pending"
+        },
+        {
+          "id": "051",
+          "title": "论勇第五十一",
+          "printed_page": 479,
+          "status": "pending"
+        },
+        {
+          "id": "052",
+          "title": "论功第五十二",
+          "printed_page": 486,
+          "status": "pending"
+        },
+        {
+          "id": "053",
+          "title": "论邹第五十三",
+          "printed_page": 497,
+          "status": "pending"
+        },
+        {
+          "id": "054",
+          "title": "论菑第五十四",
+          "printed_page": 502,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "volume": 10,
+      "printed_page": 513,
+      "status": "pending",
+      "entries": [
+        {
+          "id": "055",
+          "title": "刑德第五十五",
+          "printed_page": 513,
+          "status": "pending"
+        },
+        {
+          "id": "056",
+          "title": "申韩第五十六",
+          "printed_page": 525,
+          "status": "pending"
+        },
+        {
+          "id": "057",
+          "title": "周秦第五十七",
+          "printed_page": 534,
+          "status": "pending"
+        },
+        {
+          "id": "058",
+          "title": "诏圣第五十八",
+          "printed_page": 545,
+          "status": "pending"
+        },
+        {
+          "id": "059",
+          "title": "大论第五十九",
+          "printed_page": 554,
+          "status": "pending"
+        },
+        {
+          "id": "060",
+          "title": "杂论第六十",
+          "printed_page": 564,
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "next": {
+    "volume": 2,
+    "id": "007",
+    "title": "非鞅第七",
+    "pdf_page": 86,
+    "printed_page": 68,
+    "starts_with": "大夫曰：“昔商君相秦",
+    "status": "pending"
+  },
+  "pdf_offset_status": "卷一全文及卷二篇题已核实PDF页序为印刷页码加18；后续各卷须逐卷核实。"
+}

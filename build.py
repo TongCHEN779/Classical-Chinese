@@ -316,7 +316,39 @@ def _huainanzi_spec():
                        ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
 
 
+def _songlun_spec():
+    import json
+    progress = json.loads((ROOT / "sources/songlun/progress.json").read_text(encoding="utf8"))
+    complete = sum(e["status"] == "complete" for v in progress["volumes"] for e in v.get("entries", []))
+    completed = [f"卷{cn(v['volume'])}" for v in progress["volumes"] if v["status"] == "complete"]
+    status = ("十五卷全部整理完成。" if len(completed) == 15 else
+              ("已完成" + "、".join(completed) + "，其余正文待整理。" if completed else "全文仍在整理中。"))
+    return {"title": "宋论", "author": "［清］王夫之", "unit": "篇",
+            "count_entries": True, "summary_unit": "篇",
+            "intro": "评论宋代政治得失的史论，共十五卷。依本地中华书局刘韶军译注本校录原文，配自撰逐句白话、独立注释与题解。"
+                     + f"目前已整理{complete}篇。" + status + "保留原书篇序，篇序后的概括性小标题为整理者所加。",
+            "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
+                       ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
+
+
+def _yantielun_spec():
+    import json
+    progress = json.loads((ROOT / "sources/yantielun/progress.json").read_text(encoding="utf8"))
+    complete = sum(e["status"] == "complete" for v in progress["volumes"] for e in v["entries"])
+    completed = [f"卷{cn(v['volume'])}" for v in progress["volumes"] if v["status"] == "complete"]
+    status = ("十卷六十篇全部整理完成。" if complete == 60 else
+              ("已完成" + "、".join(completed) + "，其余正文待整理。" if completed else "全文仍在整理中。"))
+    return {"title": "盐铁论", "author": "［西汉］桓宽", "unit": "篇",
+            "count_entries": True, "summary_unit": "篇",
+            "intro": "记述汉昭帝始元六年盐铁会议的政论著作，共十卷六十篇。依本地中华书局陈桐生译注本校录原文，配自撰逐句白话、独立注释与题解。"
+                     + f"目前已整理{complete}篇。" + status,
+            "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}" +
+                       ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
+
+
 POETRY = {
+    "yantielun": _yantielun_spec(),
+    "songlun": _songlun_spec(),
     "huainanzi": _huainanzi_spec(),
     "liaozhai": _liaozhai_spec(),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
