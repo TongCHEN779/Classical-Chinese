@@ -54,15 +54,21 @@
       "title": "第一回　张天师祈禳瘟疫　洪太尉误走妖魔",
       "kind": "chapter",
       "number": 1,
-      "paragraphs": 31,
-      "characters": 5514,
+      "paragraphs": 33,
+      "characters": 5581,
       "headings": 0,
-      "notes": 23,
+      "notes": 28,
       "source": {
         "title": "水滸傳_(120回本)/第001回",
         "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B4%E6%BB%B8%E5%82%B3_%28120%E5%9B%9E%E6%9C%AC%29/%E7%AC%AC001%E5%9B%9E",
         "revision": "836340",
         "text_sha256": "78d79b246553a19ff83ee31d3795b0443fee1a303efee815477c13e2229dc188"
+      },
+      "prefix_text": "诗曰：绛帻鸡人报晓筹，尚衣方进翠云裘。/九天阊阖开宫殿，万国衣冠拜冕旒。/日色才临仙掌动，香烟欲傍衮龙浮。/朝罢须裁五色诏，佩声归到凤池头。",
+      "prefix_source": {
+        "title": "水滸傳 (120回本)/楔子",
+        "url": "https://zh.wikisource.org/zh-hans/水滸傳_(120回本)/楔子",
+        "note": "开篇诗据维基文库“楔子”页补入；该页未挂在目录中，正文与第一回基本重复，仅此诗为第一回缓存所缺。"
       }
     },
     {

@@ -16,7 +16,7 @@ PIECE = 5500
 # volume -> (title, [(部 key, 部 name, [chapter keys])])
 VOLUMES = {
     2: ('词曲部下、演习部', [('詞曲部', '词曲部', ['賓白第四', '科諢第五', '格局第六']),
-                           ('演習部', '演习部', ['選劇第一', '變調第二', '授曲第三', '教白第四'])]),
+                           ('演習部', '演习部', ['選劇第一', '變調第二', '授曲第三', '教白第四', '脫套第五'])]),
     3: ('声容部', [('聲容部', '声容部', ['選姿第一', '修容第二', '治服第三', '習技第四'])]),
     4: ('居室部、器玩部', [('居室部', '居室部', ['房舍第一', '窗欄第二', '墻壁第三', '聯匾第四', '山石第五']),
                           ('器玩部', '器玩部', ['制度第一', '位置第二'])]),
@@ -64,6 +64,11 @@ def load():
     out = {}
     for f in SRC.glob('*.json'):
         d = json.loads(f.read_text(encoding='utf8'))
+        out[d['title']] = d
+    # 維基文庫 演習部/脫套第五 mistakenly holds 選姿第一; use the Project Gutenberg text instead
+    g = ROOT / 'sources/xianqing/gutenberg/tuotao.json'
+    if g.exists():
+        d = json.loads(g.read_text(encoding='utf8'))
         out[d['title']] = d
     return out
 
@@ -170,8 +175,8 @@ def merge(work):
             text = '\n'.join(fix_line(l) for l in text.split('\n') if not (l.startswith('注：') and (l.startswith('注：○') or ('◎' in l and l.startswith('注：校：')))))
             text = re.sub('[\ue000-\uf8ff]', '〔缺字〕', text)
             for block in re.split(r'\n(?=# )', text.strip('\n')):
-                if block.startswith('# 脱套第五·'):
-                    continue   # the Wikisource page 演習部/脫套第五 duplicates 選姿第一, not the real chapter
+                if block.startswith('# 脱套第五·') and pc['name'] in ('v2_6', 'v2_7'):
+                    continue   # these pieces were cut from the mistaken Wikisource page (a copy of 選姿第一)
                 n += 1
                 title = block.split('\n', 1)[0][2:].strip()
                 f = out_dir / f'{n:03d}.txt'

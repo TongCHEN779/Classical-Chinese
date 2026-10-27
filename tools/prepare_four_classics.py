@@ -100,7 +100,7 @@ def prepare():
         chapter_links = [x for x in index['links'] if re.search(r'/第[0-9]+[回本]$',x['title'])]
         assert len(chapter_links) == count
         front_links = [x for x in index['links'] if x['title'].split('/')[-1] in ('序','引首','凡例','讀《三國志》法')]
-        back_links = [x for x in index['links'] if x['title'].endswith('/附錄')]
+        back_links = [x for x in index['links'] if x['title'].endswith('/附錄')] if slug != 'xiyouji' else []  # 附錄 duplicates 第九回 verbatim
         pages = []
         intro_lines = ['# 全书题解'] + ['题解：'+heading+'。'+text for heading,text in meta['essays']]
         target = ROOT/'src'/slug/'tijie'/'01.txt'

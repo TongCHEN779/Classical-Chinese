@@ -1616,22 +1616,13 @@
         "revision": "1500545",
         "text_sha256": "03077ab594126a96a72d08020fee6e01846f7df472fde4ae9757332ba4d56ff3"
       }
-    },
+    }
+  ],
+  "omitted": [
     {
       "slug": "fulu",
-      "title": "附录 陈光蕊赴任逢灾 江流僧复仇报本",
-      "kind": "front_or_back_matter",
-      "number": null,
-      "paragraphs": 32,
-      "characters": 6900,
-      "headings": 0,
-      "notes": 22,
-      "source": {
-        "title": "西遊記/附錄",
-        "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E9%81%8A%E8%A8%98/%E9%99%84%E9%8C%84",
-        "revision": "168354",
-        "text_sha256": "4264723beaa989ce8f991422b21be5f7511a3e6577d3a70ff97be77011166874"
-      }
+      "title": "附录",
+      "reason": "维基文库“西遊記/附錄”与第九回正文逐字相同（6900字），重复页不收；若需保留原站结构可据缓存再生成。"
     }
   ]
 }

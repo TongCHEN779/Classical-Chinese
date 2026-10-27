@@ -441,7 +441,7 @@ def _xianqing_spec():
             "count_entries": True, "summary_unit": "项",
             "intro": "清代戏曲与生活艺术论著，八部合为六卷。卷前二序与凡例、卷一《词曲部上》依本地中华书局杜书瀛译注本校录；"
                      "卷二至卷六（词曲部下、演习部、声容部、居室部、器玩部、饮馔部、种植部、颐养部）据维基文库收录，全部配自撰逐句白话、独立注释与题解。"
-                     "目录项数含总论与卷前材料，不等于原书款数；维基文库《演习部·脱套第五》页面误录了《选姿第一》的文字，该章暂缺。",
+                     "目录项数含总论与卷前材料，不等于原书款数；《演习部·脱套第五》因维基文库页面误录，改据 Project Gutenberg 电子书。",
             "pages": [(f["slug"], f["title"]) for f in progress["front_matter"]] + [
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}") for v in progress["volumes"]]}
 
@@ -554,8 +554,8 @@ CIRC = re.compile(r"([\u2460-\u2473\u3251-\u325f]+)")
 def poem_orig(text):
     out = []
     for i, part in enumerate(CIRC.split(esc(text))):
-        out.append(f"<sup>{part}</sup>" if i % 2 else part)
-    return "".join(out).replace("/", "<br>")
+        out.append(f"<sup>{part}</sup>" if i % 2 else part.replace("/", "<br>"))
+    return "".join(out)
 
 
 def parse_poems(paths):

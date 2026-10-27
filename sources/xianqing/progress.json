@@ -1277,6 +1277,56 @@
             "source": "wikisource",
             "piece": "v2_6"
           }
+        },
+        {
+          "id": "041",
+          "title": "脱套第五·总论",
+          "status": "complete",
+          "source_file": "src/xianqing/juan02/041.txt",
+          "review": {
+            "source": "wikisource",
+            "piece": "v2_8"
+          }
+        },
+        {
+          "id": "042",
+          "title": "脱套第五·衣冠恶习",
+          "status": "complete",
+          "source_file": "src/xianqing/juan02/042.txt",
+          "review": {
+            "source": "wikisource",
+            "piece": "v2_8"
+          }
+        },
+        {
+          "id": "043",
+          "title": "脱套第五·声音恶习",
+          "status": "complete",
+          "source_file": "src/xianqing/juan02/043.txt",
+          "review": {
+            "source": "wikisource",
+            "piece": "v2_8"
+          }
+        },
+        {
+          "id": "044",
+          "title": "脱套第五·语言恶习",
+          "status": "complete",
+          "source_file": "src/xianqing/juan02/044.txt",
+          "review": {
+            "source": "wikisource",
+            "piece": "v2_8"
+          }
+        },
+        {
+          "id": "045",
+          "title": "脱套第五·科诨恶习",
+          "status": "complete",
+          "source_file": "src/xianqing/juan02/045.txt",
+          "review": {
+            "source": "wikisource",
+            "piece": "v2_8"
+          }
         }
       ],
       "chapters": [
@@ -1354,6 +1404,16 @@
             "039",
             "040"
           ]
+        },
+        {
+          "title": "脱套第五",
+          "entry_ids": [
+            "041",
+            "042",
+            "043",
+            "044",
+            "045"
+          ]
         }
       ],
       "wikisource_sources": [
@@ -1398,6 +1458,12 @@
           "url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E6%BC%94%E7%BF%92%E9%83%A8/%E6%95%99%E7%99%BD%E7%AC%AC%E5%9B%9B",
           "revision": "844917",
           "text_sha256": "71724d46aa0a001838b4442fab3d251598f916dfff40566186773245b7463c0d"
+        },
+        {
+          "title": "閑情偶寄/演習部/脫套第五",
+          "url": "https://www.gutenberg.org/ebooks/25471",
+          "revision": "gutenberg-25471",
+          "text_sha256": "d4bd02b83c11a5d913db70b8130e92d2c63f72709fedff5e2b729df2e89cb3a6"
         }
       ]
     },
@@ -4176,15 +4242,17 @@
   ],
   "next_position": null,
   "totals": {
-    "entries": 294,
-    "paragraphs": 540,
-    "sentence_pairs": 5722,
-    "notes": 4203
+    "entries": 299,
+    "paragraphs": 549,
+    "sentence_pairs": 5794,
+    "notes": 4297
   },
-  "missing": [
+  "alternate_sources": [
     {
       "chapter": "演习部·脱套第五",
-      "reason": "维基文库页面 閑情偶寄/演習部/脫套第五 误录了《选姿第一》的文字，真文未能取得；暂缺。"
+      "source": "Project Gutenberg eBook #25471《闲情偶寄》",
+      "url": "https://www.gutenberg.org/ebooks/25471",
+      "reason": "维基文库页面 閑情偶寄/演習部/脫套第五 误录了《选姿第一》的文字；改据 Project Gutenberg 电子书，该书与维基文库他章同一文本系统（教白第四逐字一致）。"
     }
   ]
 }

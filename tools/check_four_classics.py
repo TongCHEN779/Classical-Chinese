@@ -38,6 +38,7 @@ def main():
                 raw = '\n'.join(b['text'] for b in d['blocks'])
                 assert hashlib.sha256(raw.encode()).hexdigest() == p['source']['text_sha256']
                 expected = ''.join(b['text'] for b in d['blocks'] if not b['type'].startswith('h'))
+                expected = p.get('prefix_text','') + expected
                 assert flatten(originals) == flatten(expected),(slug,p['slug'],'source coverage')
                 heading_texts = [b['text'] for b in d['blocks'] if b['type'].startswith('h')]
                 assert [s['title'] for s in sections][1:] == heading_texts,(slug,p['slug'],'section headings')
