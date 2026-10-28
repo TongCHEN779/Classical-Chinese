@@ -120,6 +120,15 @@ def split_pairs(o, t):
         st = t.split("¦") if "¦" in t else split_sents(t)
         groups = _frag_groups(raw)
         if len(st) == len(raw):
+            if "¦" in t:
+                # 显式配译保留有正文的句子，即使底本在句首多了逗号。
+                # 只有纯标点碎片仍需并回上一句。
+                groups = []
+                for k, x in enumerate(raw):
+                    if groups and not re.search(r"[\u4e00-\u9fff]", x):
+                        groups[-1].append(k)
+                    else:
+                        groups.append([k])
             return [("".join(raw[k] for k in g), "".join(st[k] for k in g)) for g in groups]
         if len(st) == len(groups):
             return [("".join(raw[k] for k in g), x) for g, x in zip(groups, st)]
@@ -509,6 +518,17 @@ def _four_classics_spec(slug):
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
 
 
+def _shangjunshu_spec():
+    import json
+    progress = json.loads((ROOT / "sources/shangjunshu/progress.json").read_text(encoding="utf8"))
+    return {"title": "商君书", "author": "［战国］商鞅及后学（旧题商鞅）", "unit": "目",
+            "count_entries": True, "summary_unit": "目",
+            "intro": "法家著作，又名《商子》，讨论变法、耕战、赏刑与法令。依维基文库五卷本整理，现存24篇正文逐句配自撰白话、题解与独立注释；《刑约》《御盗》两篇保留缺佚说明。传文疑误字保留并注。",
+            "index_footer": "五卷26目：24篇现存正文，另2目正文亡佚。",
+            "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}") for v in progress["volumes"]],
+            "page_sources": {f"juan{v['volume']:02d}": v["source"] for v in progress["volumes"]}}
+
+
 def _zuozhuan_spec():
     import json
     progress = json.loads((ROOT / "sources/zuozhuan/progress.json").read_text(encoding="utf8"))
@@ -531,6 +551,7 @@ POETRY = {
     "yantielun": _yantielun_spec(),
     "songlun": _songlun_spec(),
     "huainanzi": _huainanzi_spec(),
+    "shangjunshu": _shangjunshu_spec(),
     "liaozhai": _liaozhai_spec(),
     "mudanting": _mudanting_spec(),
     "hongloumeng": _hongloumeng_spec(),

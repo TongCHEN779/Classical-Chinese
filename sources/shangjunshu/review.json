@@ -1,0 +1,53 @@
+{
+  "book": "商君书",
+  "volumes": [
+    {
+      "volume": 1,
+      "catalog_entries": 4,
+      "extant_chapters": 4,
+      "paragraphs_including_loss_marker": 45,
+      "sentence_pairs_including_loss_marker": 257,
+      "notes": 107
+    },
+    {
+      "volume": 2,
+      "catalog_entries": 3,
+      "extant_chapters": 3,
+      "paragraphs_including_loss_marker": 19,
+      "sentence_pairs_including_loss_marker": 214,
+      "notes": 58
+    },
+    {
+      "volume": 3,
+      "catalog_entries": 7,
+      "extant_chapters": 7,
+      "paragraphs_including_loss_marker": 21,
+      "sentence_pairs_including_loss_marker": 204,
+      "notes": 66
+    },
+    {
+      "volume": 4,
+      "catalog_entries": 4,
+      "extant_chapters": 3,
+      "paragraphs_including_loss_marker": 18,
+      "sentence_pairs_including_loss_marker": 207,
+      "notes": 64
+    },
+    {
+      "volume": 5,
+      "catalog_entries": 8,
+      "extant_chapters": 7,
+      "paragraphs_including_loss_marker": 25,
+      "sentence_pairs_including_loss_marker": 291,
+      "notes": 97
+    }
+  ],
+  "source_coverage_match": true,
+  "sentence_pairs_match": true,
+  "note_counts_match": true,
+  "lost_chapters": [
+    "刑约第十六",
+    "御盗第二十一"
+  ],
+  "browser_visual_check": false
+}

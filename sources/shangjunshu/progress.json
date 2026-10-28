@@ -1,0 +1,402 @@
+{
+  "book": "商君书",
+  "date": "2026-10-28",
+  "status": "complete",
+  "volumes": [
+    {
+      "volume": 1,
+      "status": "complete",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%80",
+        "revision": "850643",
+        "snapshot": "sources/shangjunshu/wikisource/juan01.json"
+      },
+      "entries": [
+        {
+          "title": "更法第一",
+          "id": "001",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%80",
+            "revision": "850643",
+            "snapshot": "sources/shangjunshu/wikisource/juan01.json"
+          },
+          "paragraphs": 10,
+          "sentence_pairs": 37,
+          "notes": 21
+        },
+        {
+          "title": "垦令第二",
+          "id": "002",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%80",
+            "revision": "850643",
+            "snapshot": "sources/shangjunshu/wikisource/juan01.json"
+          },
+          "paragraphs": 20,
+          "sentence_pairs": 73,
+          "notes": 45
+        },
+        {
+          "title": "农战第三",
+          "id": "003",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%80",
+            "revision": "850643",
+            "snapshot": "sources/shangjunshu/wikisource/juan01.json"
+          },
+          "paragraphs": 8,
+          "sentence_pairs": 88,
+          "notes": 20
+        },
+        {
+          "title": "去彊第四",
+          "id": "004",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%80",
+            "revision": "850643",
+            "snapshot": "sources/shangjunshu/wikisource/juan01.json"
+          },
+          "paragraphs": 7,
+          "sentence_pairs": 59,
+          "notes": 21
+        }
+      ]
+    },
+    {
+      "volume": 2,
+      "status": "complete",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%8C",
+        "revision": "850644",
+        "snapshot": "sources/shangjunshu/wikisource/juan02.json"
+      },
+      "entries": [
+        {
+          "title": "说民第五",
+          "id": "001",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%8C",
+            "revision": "850644",
+            "snapshot": "sources/shangjunshu/wikisource/juan02.json"
+          },
+          "paragraphs": 7,
+          "sentence_pairs": 66,
+          "notes": 19
+        },
+        {
+          "title": "算地第六",
+          "id": "002",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%8C",
+            "revision": "850644",
+            "snapshot": "sources/shangjunshu/wikisource/juan02.json"
+          },
+          "paragraphs": 7,
+          "sentence_pairs": 86,
+          "notes": 24
+        },
+        {
+          "title": "开塞第七",
+          "id": "003",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%8C",
+            "revision": "850644",
+            "snapshot": "sources/shangjunshu/wikisource/juan02.json"
+          },
+          "paragraphs": 5,
+          "sentence_pairs": 62,
+          "notes": 15
+        }
+      ]
+    },
+    {
+      "volume": 3,
+      "status": "complete",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+        "revision": "850645",
+        "snapshot": "sources/shangjunshu/wikisource/juan03.json"
+      },
+      "entries": [
+        {
+          "title": "壹言第八",
+          "id": "001",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+            "revision": "850645",
+            "snapshot": "sources/shangjunshu/wikisource/juan03.json"
+          },
+          "paragraphs": 3,
+          "sentence_pairs": 31,
+          "notes": 9
+        },
+        {
+          "title": "错法第九",
+          "id": "002",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+            "revision": "850645",
+            "snapshot": "sources/shangjunshu/wikisource/juan03.json"
+          },
+          "paragraphs": 4,
+          "sentence_pairs": 39,
+          "notes": 13
+        },
+        {
+          "title": "战法第十",
+          "id": "003",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+            "revision": "850645",
+            "snapshot": "sources/shangjunshu/wikisource/juan03.json"
+          },
+          "paragraphs": 2,
+          "sentence_pairs": 15,
+          "notes": 7
+        },
+        {
+          "title": "立本第十一",
+          "id": "004",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+            "revision": "850645",
+            "snapshot": "sources/shangjunshu/wikisource/juan03.json"
+          },
+          "paragraphs": 1,
+          "sentence_pairs": 13,
+          "notes": 3
+        },
+        {
+          "title": "兵守第十二",
+          "id": "005",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+            "revision": "850645",
+            "snapshot": "sources/shangjunshu/wikisource/juan03.json"
+          },
+          "paragraphs": 2,
+          "sentence_pairs": 22,
+          "notes": 9
+        },
+        {
+          "title": "靳令第十三",
+          "id": "006",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+            "revision": "850645",
+            "snapshot": "sources/shangjunshu/wikisource/juan03.json"
+          },
+          "paragraphs": 5,
+          "sentence_pairs": 48,
+          "notes": 13
+        },
+        {
+          "title": "修权第十四",
+          "id": "007",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%B8%89",
+            "revision": "850645",
+            "snapshot": "sources/shangjunshu/wikisource/juan03.json"
+          },
+          "paragraphs": 4,
+          "sentence_pairs": 36,
+          "notes": 12
+        }
+      ]
+    },
+    {
+      "volume": 4,
+      "status": "complete",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+        "revision": "1741809",
+        "snapshot": "sources/shangjunshu/wikisource/juan04.json"
+      },
+      "entries": [
+        {
+          "title": "徕民第十五",
+          "id": "001",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+            "revision": "1741809",
+            "snapshot": "sources/shangjunshu/wikisource/juan04.json"
+          },
+          "paragraphs": 6,
+          "sentence_pairs": 50,
+          "notes": 21
+        },
+        {
+          "title": "刑约第十六",
+          "id": "002",
+          "status": "lost",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/商君書",
+            "revision": "2593685",
+            "snapshot": "sources/shangjunshu/wikisource/catalog.json",
+            "kind": "catalog_lost_entry"
+          },
+          "paragraphs": 0,
+          "sentence_pairs": 0,
+          "notes": 0
+        },
+        {
+          "title": "赏刑第十七",
+          "id": "003",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+            "revision": "1741809",
+            "snapshot": "sources/shangjunshu/wikisource/juan04.json"
+          },
+          "paragraphs": 5,
+          "sentence_pairs": 71,
+          "notes": 22
+        },
+        {
+          "title": "画策第十八",
+          "id": "004",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E5%9B%9B",
+            "revision": "1741809",
+            "snapshot": "sources/shangjunshu/wikisource/juan04.json"
+          },
+          "paragraphs": 7,
+          "sentence_pairs": 86,
+          "notes": 21
+        }
+      ]
+    },
+    {
+      "volume": 5,
+      "status": "complete",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+        "revision": "2648348",
+        "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+      },
+      "entries": [
+        {
+          "title": "境内第十九",
+          "id": "001",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+            "revision": "2648348",
+            "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+          },
+          "paragraphs": 5,
+          "sentence_pairs": 51,
+          "notes": 26
+        },
+        {
+          "title": "弱民第二十",
+          "id": "002",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+            "revision": "2648348",
+            "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+          },
+          "paragraphs": 3,
+          "sentence_pairs": 57,
+          "notes": 14
+        },
+        {
+          "title": "御盗第二十一",
+          "id": "003",
+          "status": "lost",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+            "revision": "2648348",
+            "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+          },
+          "paragraphs": 1,
+          "sentence_pairs": 1,
+          "notes": 1
+        },
+        {
+          "title": "外内第二十二",
+          "id": "004",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+            "revision": "2648348",
+            "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+          },
+          "paragraphs": 3,
+          "sentence_pairs": 26,
+          "notes": 7
+        },
+        {
+          "title": "君臣第二十三",
+          "id": "005",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+            "revision": "2648348",
+            "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+          },
+          "paragraphs": 3,
+          "sentence_pairs": 30,
+          "notes": 8
+        },
+        {
+          "title": "禁使第二十四",
+          "id": "006",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+            "revision": "2648348",
+            "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+          },
+          "paragraphs": 2,
+          "sentence_pairs": 36,
+          "notes": 10
+        },
+        {
+          "title": "慎法第二十五",
+          "id": "007",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+            "revision": "2648348",
+            "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+          },
+          "paragraphs": 3,
+          "sentence_pairs": 41,
+          "notes": 10
+        },
+        {
+          "title": "定分第二十六",
+          "id": "008",
+          "status": "complete",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+            "revision": "2648348",
+            "snapshot": "sources/shangjunshu/wikisource/juan05.json"
+          },
+          "paragraphs": 5,
+          "sentence_pairs": 49,
+          "notes": 21
+        }
+      ]
+    }
+  ],
+  "scan_collation_status": "not_done"
+}

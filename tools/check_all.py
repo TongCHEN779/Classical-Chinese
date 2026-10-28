@@ -18,6 +18,7 @@ STEPS = [
     ['tools/check_xiaochuang.py'],
     ['tools/check_canying.py'],
     ['tools/check_liaozhai.py'],
+    ['tools/check_shangjunshu.py'],
     ['-m', 'unittest', 'discover', '-s', 'tests'],
 ]
 
