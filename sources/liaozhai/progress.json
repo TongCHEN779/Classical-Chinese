@@ -6335,222 +6335,1061 @@
     },
     {
       "volume": 8,
-      "status": "pending",
+      "status": "complete",
       "entries": [
         {
           "id": "001",
           "title": "画马",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "画马",
+            "paragraphs": 1,
+            "sentence_pairs": 22,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentence_pairs": 22,
+                "notes": 6
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "002",
           "title": "局诈",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "局诈",
+            "paragraphs": 3,
+            "sentence_pairs": 150,
+            "notes": 23,
+            "chunks": [
+              {
+                "sentence_pairs": 41,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 40,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 69,
+                "notes": 10
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "003",
           "title": "放蝶",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "放蝶",
+            "paragraphs": 2,
+            "sentence_pairs": 19,
+            "notes": 8,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 12,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "004",
           "title": "男生子",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "男生子",
+            "paragraphs": 2,
+            "sentence_pairs": 22,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 5,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 17,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "005",
           "title": "钟生",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "钟生",
+            "paragraphs": 1,
+            "sentence_pairs": 124,
+            "notes": 24,
+            "chunks": [
+              {
+                "sentence_pairs": 124,
+                "notes": 24
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "006",
           "title": "鬼妻",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "鬼妻",
+            "paragraphs": 1,
+            "sentence_pairs": 27,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentence_pairs": 27,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "007",
           "title": "黄将军",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "黄将军",
+            "paragraphs": 1,
+            "sentence_pairs": 7,
+            "notes": 4,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 4
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "008",
           "title": "三朝元老",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "三朝元老",
+            "paragraphs": 1,
+            "sentence_pairs": 14,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 7
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "009",
           "title": "医术",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "医术",
+            "paragraphs": 2,
+            "sentence_pairs": 45,
+            "notes": 10,
+            "chunks": [
+              {
+                "sentence_pairs": 32,
+                "notes": 7
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "010",
           "title": "藏虱",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "藏虱",
+            "paragraphs": 1,
+            "sentence_pairs": 7,
+            "notes": 3,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "011",
           "title": "梦狼",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "梦狼",
+            "paragraphs": 3,
+            "sentence_pairs": 100,
+            "notes": 12,
+            "chunks": [
+              {
+                "sentence_pairs": 76,
+                "notes": 9
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 1
+              },
+              {
+                "sentence_pairs": 21,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "012",
           "title": "夜明",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "夜明",
+            "paragraphs": 1,
+            "sentence_pairs": 8,
+            "notes": 2,
+            "chunks": [
+              {
+                "sentence_pairs": 8,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "013",
           "title": "夏雪",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "夏雪",
+            "paragraphs": 3,
+            "sentence_pairs": 20,
+            "notes": 8,
+            "chunks": [
+              {
+                "sentence_pairs": 5,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 13,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 1
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "014",
           "title": "化男",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "化男",
+            "paragraphs": 1,
+            "sentence_pairs": 7,
+            "notes": 2,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "015",
           "title": "禽侠",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "禽侠",
+            "paragraphs": 3,
+            "sentence_pairs": 25,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 14,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 2
+              },
+              {
+                "sentence_pairs": 9,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "016",
           "title": "鸿",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "鸿",
+            "paragraphs": 1,
+            "sentence_pairs": 12,
+            "notes": 3,
+            "chunks": [
+              {
+                "sentence_pairs": 12,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "017",
           "title": "象",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "象",
+            "paragraphs": 1,
+            "sentence_pairs": 18,
+            "notes": 4,
+            "chunks": [
+              {
+                "sentence_pairs": 18,
+                "notes": 4
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "018",
           "title": "负尸",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "负尸",
+            "paragraphs": 1,
+            "sentence_pairs": 8,
+            "notes": 2,
+            "chunks": [
+              {
+                "sentence_pairs": 8,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "019",
           "title": "紫花和尚",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "紫花和尚",
+            "paragraphs": 1,
+            "sentence_pairs": 15,
+            "notes": 4,
+            "chunks": [
+              {
+                "sentence_pairs": 15,
+                "notes": 4
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "020",
           "title": "周克昌",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "周克昌",
+            "paragraphs": 2,
+            "sentence_pairs": 36,
+            "notes": 8,
+            "chunks": [
+              {
+                "sentence_pairs": 34,
+                "notes": 6
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "021",
           "title": "嫦娥",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "嫦娥",
+            "paragraphs": 2,
+            "sentence_pairs": 232,
+            "notes": 25,
+            "chunks": [
+              {
+                "sentence_pairs": 226,
+                "notes": 23
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "022",
           "title": "鞠乐如",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "鞠乐如",
+            "paragraphs": 1,
+            "sentence_pairs": 5,
+            "notes": 2,
+            "chunks": [
+              {
+                "sentence_pairs": 5,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "023",
           "title": "褚生",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "褚生",
+            "paragraphs": 2,
+            "sentence_pairs": 103,
+            "notes": 15,
+            "chunks": [
+              {
+                "sentence_pairs": 99,
+                "notes": 13
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "024",
           "title": "盗户",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "盗户",
+            "paragraphs": 3,
+            "sentence_pairs": 28,
+            "notes": 12,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 3
+              },
+              {
+                "sentence_pairs": 2,
+                "notes": 1
+              },
+              {
+                "sentence_pairs": 19,
+                "notes": 8
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "025",
           "title": "某乙",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "某乙",
+            "paragraphs": 2,
+            "sentence_pairs": 28,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentence_pairs": 22,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "026",
           "title": "霍女",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "霍女",
+            "paragraphs": 2,
+            "sentence_pairs": 191,
+            "notes": 19,
+            "chunks": [
+              {
+                "sentence_pairs": 188,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "027",
           "title": "司文郎",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "司文郎",
+            "paragraphs": 2,
+            "sentence_pairs": 191,
+            "notes": 26,
+            "chunks": [
+              {
+                "sentence_pairs": 188,
+                "notes": 24
+              },
+              {
+                "sentence_pairs": 3,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "028",
           "title": "丑狐",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "丑狐",
+            "paragraphs": 2,
+            "sentence_pairs": 69,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 64,
+                "notes": 5
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "029",
           "title": "吕无病",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "吕无病",
+            "paragraphs": 2,
+            "sentence_pairs": 194,
+            "notes": 20,
+            "chunks": [
+              {
+                "sentence_pairs": 190,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "030",
           "title": "钱卜巫",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "钱卜巫",
+            "paragraphs": 2,
+            "sentence_pairs": 80,
+            "notes": 18,
+            "chunks": [
+              {
+                "sentence_pairs": 74,
+                "notes": 15
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "031",
           "title": "姚安",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "姚安",
+            "paragraphs": 2,
+            "sentence_pairs": 33,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentence_pairs": 29,
+                "notes": 4
+              },
+              {
+                "sentence_pairs": 4,
+                "notes": 1
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "032",
           "title": "采薇翁",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "采薇翁",
+            "paragraphs": 1,
+            "sentence_pairs": 32,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 32,
+                "notes": 7
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "033",
           "title": "崔猛",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "崔猛",
+            "paragraphs": 2,
+            "sentence_pairs": 168,
+            "notes": 23,
+            "chunks": [
+              {
+                "sentence_pairs": 162,
+                "notes": 21
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "034",
           "title": "诗谳",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "诗谳",
+            "paragraphs": 2,
+            "sentence_pairs": 62,
+            "notes": 11,
+            "chunks": [
+              {
+                "sentence_pairs": 56,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "035",
           "title": "鹿衔草",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "鹿衔草",
+            "paragraphs": 1,
+            "sentence_pairs": 7,
+            "notes": 3,
+            "chunks": [
+              {
+                "sentence_pairs": 7,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "036",
           "title": "小棺",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "小棺",
+            "paragraphs": 1,
+            "sentence_pairs": 15,
+            "notes": 3,
+            "chunks": [
+              {
+                "sentence_pairs": 15,
+                "notes": 3
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "037",
           "title": "邢子仪",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "邢子仪",
+            "paragraphs": 2,
+            "sentence_pairs": 67,
+            "notes": 10,
+            "chunks": [
+              {
+                "sentence_pairs": 61,
+                "notes": 8
+              },
+              {
+                "sentence_pairs": 6,
+                "notes": 2
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "038",
           "title": "李生",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "李生",
+            "paragraphs": 1,
+            "sentence_pairs": 19,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentence_pairs": 19,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "039",
           "title": "陆押官",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "陆押官",
+            "paragraphs": 1,
+            "sentence_pairs": 68,
+            "notes": 8,
+            "chunks": [
+              {
+                "sentence_pairs": 68,
+                "notes": 8
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "040",
           "title": "蒋太史",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "蒋太史",
+            "paragraphs": 1,
+            "sentence_pairs": 9,
+            "notes": 6,
+            "chunks": [
+              {
+                "sentence_pairs": 9,
+                "notes": 6
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "041",
           "title": "邵士梅",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "邵士梅",
+            "paragraphs": 1,
+            "sentence_pairs": 16,
+            "notes": 5,
+            "chunks": [
+              {
+                "sentence_pairs": 16,
+                "notes": 5
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "042",
           "title": "顾生",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "顾生",
+            "paragraphs": 1,
+            "sentence_pairs": 41,
+            "notes": 7,
+            "chunks": [
+              {
+                "sentence_pairs": 41,
+                "notes": 7
+              }
+            ],
+            "original_translation_notes": true
+          }
         },
         {
           "id": "043",
           "title": "陈锡九",
-          "status": "pending"
+          "status": "complete",
+          "review": {
+            "source": "wikisource",
+            "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7",
+            "revision": "2343752",
+            "snapshot": "sources/liaozhai/wikisource/pages/773f066ce3323b5c.json",
+            "source_title": "陈锡九",
+            "paragraphs": 2,
+            "sentence_pairs": 164,
+            "notes": 21,
+            "chunks": [
+              {
+                "sentence_pairs": 159,
+                "notes": 17
+              },
+              {
+                "sentence_pairs": 5,
+                "notes": 4
+              }
+            ],
+            "original_translation_notes": true
+          }
         }
       ],
       "catalog_source": {
@@ -7437,10 +8276,10 @@
   },
   "source_policy": "卷一至三及卷四前12篇保留既有中华书局扫描校录；卷四第13篇起及聊斋自志改用维基文库；后续卷目按维基文库登记，缓存与待整理目录不代表注译完成。",
   "next": {
-    "volume": 8,
+    "volume": 9,
     "id": "001",
-    "title": "画马",
+    "title": "邵临淄",
     "source": "wikisource",
-    "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC08%E5%8D%B7"
+    "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC09%E5%8D%B7"
   }
 }
