@@ -56,7 +56,8 @@ def source_entries(snapshot):
             title = block["text"]
             assert title not in sections, title
             sections[title] = []
-        elif block["type"] == "p" and title:
+        elif (block["type"] == "p" and title
+              and not block["text"].startswith("〈有翟理斯译英语译文:")):
             sections[title].append(block["text"].replace("\n", ""))
     return sections
 
