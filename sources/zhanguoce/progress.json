@@ -8,32 +8,640 @@
     "snapshot": "sources/zhanguoce/wikisource/index.json"
   },
   "planned_scope": "目录所列六篇序、三十三卷正文、六篇附文；全览页不重复收入",
-  "completed_units": 45,
+  "completed_units": 84,
   "next": {
-    "action": "东周、西周已完成；下一步依指定版本目录核对六序、其余三十一卷和六篇附文，先缓存《戰國策書錄》，尚未开始译注。"
+    "action": "六序、六附文、东周、西周均已完成；其余三十一卷尚未开始，后续从指定士礼居本秦策一核对、缓存并逐句整理。",
+    "page_slug": "qin01"
   },
   "next_new_entry": {
-    "action": "东周、西周已完成；下一步依指定版本目录核对六序、其余三十一卷和六篇附文，先缓存《戰國策書錄》，尚未开始译注。"
+    "action": "六序、六附文、东周、西周均已完成；其余三十一卷尚未开始，后续从指定士礼居本秦策一核对、缓存并逐句整理。",
+    "page_slug": "qin01"
   },
   "validation": {
-    "source_index_cached": true,
-    "translation_complete": false,
-    "completed_scope": "东周28篇、西周17篇（非全书）",
+    "completed_scope": "六序、六附文及东周西周，非全书",
+    "whole_book_translation_complete": false,
+    "all_checks_passed": true,
+    "report": "sources/zhanguoce/validation.json",
+    "build": true,
+    "site_pages": 1113,
+    "source_pages_cross_checked": 1010,
+    "git_diff_check": true,
+    "browser_visual_check": false,
+    "sentence_pairs": 659,
+    "notes": 893,
     "source_coverage": true,
     "source_reconstruction": true,
-    "sentence_pairs": 315,
-    "notes": 687,
-    "editorial_review": "45篇白话逐句全量复读扩写，疑文明确保留；不以句数通过代替语义复核",
-    "report": "sources/zhanguoce/validation.json",
-    "whole_book_translation_complete": false,
-    "build": true,
-    "all_checks_passed": true,
-    "site_pages": 1101,
-    "source_pages_cross_checked": 998,
-    "git_diff_check": true,
-    "browser_visual_check": false
+    "raw_snapshots_verified": true,
+    "editorial_review": "六序、六附文逐句完整译出，作者及疑文分层注明；技术句数检查不替代语义复读。"
   },
   "pages": [
+    {
+      "slug": "xu01",
+      "title": "战国策书录",
+      "kind": "preface",
+      "author": "刘向",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E5%8A%89%E5%90%91%E6%9B%B8%E9%8C%84",
+        "revision": "2458611",
+        "snapshot": "sources/zhanguoce/wikisource/xu01.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "战国策书录｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "bb8452b94af2ee631bc8a10bbd1ae29cda6bca55b2e82f9be580f37e4c07b81c",
+          "main_sha256": "ceaacb86f6a7d483df9493c1d9b20642d3df85db424e27043de2c6e3154b96d7",
+          "source_notes": [
+            {
+              "main_offset": 110,
+              "text": "〈姚本“字”，一本作“类”字。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 7,
+          "source_note_count": 1,
+          "editor_note_count": 5
+        },
+        {
+          "id": "002",
+          "title": "战国策书录｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "467c2626d5bcbb4cb295dcbcc218cd47b4bd89279ccee363b14363dd8653cc5b",
+          "main_sha256": "e013de174d4cd50d9b5b6095fb0cd719b8624e76ad88ba079c64da7a84603708",
+          "source_notes": [
+            {
+              "main_offset": 3,
+              "text": "〈姚本集，“曰”下有“夫”字。〉"
+            },
+            {
+              "main_offset": 108,
+              "text": "〈姚本刘作“其德下及”。曾作“德下及”。钱作“以思其德下及”。集作“其恩德下及”。鲍本“以思其德”，一作“恩德其上”。“下及”，一无“下”字。〉"
+            },
+            {
+              "main_offset": 226,
+              "text": "〈姚本集作“朝会”。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 17,
+          "source_note_count": 3,
+          "editor_note_count": 5
+        },
+        {
+          "id": "003",
+          "title": "战国策书录｜第3段",
+          "source_block_indices": [
+            2
+          ],
+          "status": "complete",
+          "raw_sha256": "958337284462c0ef061c02cf67aa928cdd2e062eb11afe87bf56ab5f9bc1ede4",
+          "main_sha256": "1968f0c4c4bf8f38125a5b385a098d32a88ea2985a547438b78e00bdc29e3538",
+          "source_notes": [
+            {
+              "main_offset": 63,
+              "text": "〈姚本钱、刘同。曾作“例”。〉"
+            },
+            {
+              "main_offset": 65,
+              "text": "〈札记今本误重“侯”字。〉"
+            },
+            {
+              "main_offset": 74,
+              "text": "〈姚本钱、集作“立”。曾作“兵”。〉"
+            },
+            {
+              "main_offset": 80,
+              "text": "〈姚本一作“转”。鲍本“传”作“转”。○〉"
+            },
+            {
+              "main_offset": 161,
+              "text": "〈鲍本“盖”作“尽”。○〉"
+            },
+            {
+              "main_offset": 197,
+              "text": "〈姚本曾、集作“巧”。刘作“功”。〉"
+            },
+            {
+              "main_offset": 235,
+              "text": "〈鲍本“不得施谋，有设之强”作“不得施设，有谋之强”。○〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 10,
+          "source_note_count": 7,
+          "editor_note_count": 6
+        },
+        {
+          "id": "004",
+          "title": "战国策书录｜第4段",
+          "source_block_indices": [
+            3
+          ],
+          "status": "complete",
+          "raw_sha256": "6bd0ba51b8f07d6bdb28b28a975687ba469e59f183cee4655afe681d00865b66",
+          "main_sha256": "46507d3d896307d651d0cc1cc68909d387d7f69dd1377751a40af70bf605599a",
+          "source_notes": [
+            {
+              "main_offset": 16,
+              "text": "〈姚本集、曾无“弱”字。〉"
+            },
+            {
+              "main_offset": 19,
+              "text": "〈姚本钱、刘，“结”下有“从”字。〉"
+            },
+            {
+              "main_offset": 122,
+              "text": "〈鲍本“固”作“国”。○〉"
+            },
+            {
+              "main_offset": 158,
+              "text": "〈姚本一本下有“而”字。〉"
+            },
+            {
+              "main_offset": 167,
+              "text": "〈鲍本“谋诈”作“诈谋”。○〉"
+            },
+            {
+              "main_offset": 172,
+              "text": "〈鲍本“于”作“无”。○札记今本“于”作“无”。丕烈案：“无”字是也。〉"
+            },
+            {
+              "main_offset": 342,
+              "text": "〈札记今本“格”误“假”。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 16,
+          "source_note_count": 7,
+          "editor_note_count": 5
+        },
+        {
+          "id": "005",
+          "title": "战国策书录｜第5段",
+          "source_block_indices": [
+            4
+          ],
+          "status": "complete",
+          "raw_sha256": "8a4b4377c5d4a56f600d1ad6f89e613e8b09e91d5563ef003038102fbafa297b",
+          "main_sha256": "4bf14bf27642f9e296b2c8161a672267bafa24289c2eae9cc4f93f015a77e072",
+          "source_notes": [
+            {
+              "main_offset": 30,
+              "text": "〈姚本脱字。〉"
+            },
+            {
+              "main_offset": 51,
+              "text": "〈鲍本无“国”字。○〉"
+            },
+            {
+              "main_offset": 56,
+              "text": "〈姚本钱，“革”下有“亦”字。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 5,
+          "source_note_count": 3,
+          "editor_note_count": 2
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "xu02",
+      "title": "战国策目录序",
+      "kind": "preface",
+      "author": "曾巩",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%88%B0%E5%9C%8B%E7%AD%96%E7%9B%AE%E9%8C%84%E5%BA%8F",
+        "revision": "2458623",
+        "snapshot": "sources/zhanguoce/wikisource/xu02.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "战国策目录序｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "4f9076305d01155195488c932fab11f9f2b9beb4e2b7f37cf7ae1c06e9e9d3e3",
+          "main_sha256": "4f9076305d01155195488c932fab11f9f2b9beb4e2b7f37cf7ae1c06e9e9d3e3",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
+        },
+        {
+          "id": "002",
+          "title": "战国策目录序｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "a7309151a17665dffb6970aee526eef6a805d7b18aa0fd3cd9fb8eb846f5c358",
+          "main_sha256": "ad9785245b9dea13ca1a583b7fc5c4f815e4803151e17c2c09dd2ed524a4dd7c",
+          "source_notes": [
+            {
+              "main_offset": 52,
+              "text": "〈鲍本“率”作“卒”。○〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 1,
+          "editor_note_count": 2
+        },
+        {
+          "id": "003",
+          "title": "战国策目录序｜第3段",
+          "source_block_indices": [
+            2
+          ],
+          "status": "complete",
+          "raw_sha256": "668636b2f0cfbd8dae9504d3626b03b06295f1e0cdaa0945ab305739d564fcfb",
+          "main_sha256": "f744c681a2947ea3863898a61bd21ebf2aec4d57e94fac61edaf644386da0f02",
+          "source_notes": [
+            {
+              "main_offset": 98,
+              "text": "〈鲍本无“也”字。○〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 10,
+          "source_note_count": 1,
+          "editor_note_count": 3
+        },
+        {
+          "id": "004",
+          "title": "战国策目录序｜第4段",
+          "source_block_indices": [
+            3
+          ],
+          "status": "complete",
+          "raw_sha256": "9e05956dfcbebcfaf66eed0494abe47b00523da9ae336fd784606185be8b6f0c",
+          "main_sha256": "01610cd931f6f555807abcefe6368164e93bd050fe74bab9a311d57434fd7803",
+          "source_notes": [
+            {
+              "main_offset": 153,
+              "text": "〈鲍本“法”上有“为”字。○〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 7,
+          "source_note_count": 1,
+          "editor_note_count": 3
+        },
+        {
+          "id": "005",
+          "title": "战国策目录序｜第5段",
+          "source_block_indices": [
+            4
+          ],
+          "status": "complete",
+          "raw_sha256": "e7dace3a6064dc0af20df2d668e5b7ca626a39aac5d667794bd455148ca3c269",
+          "main_sha256": "606abb12fec0d33acf453b8ec611cdbbea98282db8200646c24df44785632c2e",
+          "source_notes": [
+            {
+              "main_offset": 25,
+              "text": "〈鲍本“不泯”两字不重。○札记今本“不泯”两字不重。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 1,
+          "editor_note_count": 3
+        },
+        {
+          "id": "006",
+          "title": "战国策目录序｜第6段",
+          "source_block_indices": [
+            5
+          ],
+          "status": "complete",
+          "raw_sha256": "051fbc3f568e5f31e0eaea0071f135440cc8249822dacad841e8d88e0ed4b3ec",
+          "main_sha256": "72ccc0a81e8a6dafdceabe487ca32b9a042295c3671f541ce485dbb303f75622",
+          "source_notes": [
+            {
+              "main_offset": 48,
+              "text": "〈札记今本在首，鲍本在刘向序录下。吴氏识此序后云：“《国策》刘向校定本，高诱注，曾巩重校，凡浙、建、括苍本，皆据曾所定。剡川姚宏续校注最后出。予见姚注凡两本，其一冠以目录、刘序，而置曾序于卷末；其一冠以曾序，而刘序次之。盖先刘氏者，元本也；先曾氏者，重校本也。”丕烈案：当在此与下李文叔诸跋连者为是。今本在首，影抄梁溪安氏本如此。据吴氏云，知为姚氏一本，然亦非鲍本，尤误。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 2
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "xu03",
+      "title": "括苍刊本战国策序",
+      "kind": "preface",
+      "author": "耿延禧",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%8B%AC%E8%92%BC%E5%88%8A%E6%9C%AC%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BA%8F",
+        "revision": "2458625",
+        "snapshot": "sources/zhanguoce/wikisource/xu03.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "括苍刊本战国策序",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "9a0e329edd5e8952499f8f1941e7d34f1d89238128eb37a5fdc47ebac33538ee",
+          "main_sha256": "9a0e329edd5e8952499f8f1941e7d34f1d89238128eb37a5fdc47ebac33538ee",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 5
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "xu04",
+      "title": "战国策校注序",
+      "kind": "preface",
+      "author": "鲍彪",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%88%B0%E5%9C%8B%E7%AD%96%E6%A0%A1%E6%B3%A8%E5%BA%8F",
+        "revision": "2458619",
+        "snapshot": "sources/zhanguoce/wikisource/xu04.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "战国策校注序｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "558add75d9f5deb7633e3a7bc14b6d8ff5960aedfe3ecb5864cf26fe45a2fb40",
+          "main_sha256": "558add75d9f5deb7633e3a7bc14b6d8ff5960aedfe3ecb5864cf26fe45a2fb40",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 4
+        },
+        {
+          "id": "002",
+          "title": "战国策校注序｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "e08bbaffd6dbe78ece444863dad67c4f748e096fbcc7fd2fe18692da712afa22",
+          "main_sha256": "e08bbaffd6dbe78ece444863dad67c4f748e096fbcc7fd2fe18692da712afa22",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
+        },
+        {
+          "id": "003",
+          "title": "战国策校注序｜第3段",
+          "source_block_indices": [
+            2
+          ],
+          "status": "complete",
+          "raw_sha256": "2ac3bdc06aab39eb8d9b2effca5747c1adb907f298af14a9c84794c6ab74b2b6",
+          "main_sha256": "2ac3bdc06aab39eb8d9b2effca5747c1adb907f298af14a9c84794c6ab74b2b6",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
+        },
+        {
+          "id": "004",
+          "title": "战国策校注序｜第4段",
+          "source_block_indices": [
+            3
+          ],
+          "status": "complete",
+          "raw_sha256": "466f61da9501c37c94311fed0682b68565f665303b281df19b1cbb9b6a59215c",
+          "main_sha256": "e6250aac79e3e735962a3bc47e4f0bab7fb8a7e4085bf3699afb88bd736c6329",
+          "source_notes": [
+            {
+              "main_offset": 48,
+              "text": "〈鲍本正曰：严遂、阳竖事有差互，说见《周》、《韩策》。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 1,
+          "editor_note_count": 2
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "xu05",
+      "title": "战国策校经序",
+      "kind": "preface",
+      "author": "吴师道",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%88%B0%E5%9C%8B%E7%AD%96%E6%A0%A1%E7%B6%93%E5%BA%8F",
+        "revision": "2458621",
+        "snapshot": "sources/zhanguoce/wikisource/xu05.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [
+        4
+      ],
+      "units": [
+        {
+          "id": "001",
+          "title": "战国策校经序｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "815882c55e2887b378c8fdb72132c794d725ebac2c039f1e513b4cd20b4bcdb4",
+          "main_sha256": "815882c55e2887b378c8fdb72132c794d725ebac2c039f1e513b4cd20b4bcdb4",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 4
+        },
+        {
+          "id": "002",
+          "title": "战国策校经序｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "88cb387cb3a3e9d7e36ea6156d6b4b78a4082d0c354b2dbe04ed8e4b14c5582e",
+          "main_sha256": "88cb387cb3a3e9d7e36ea6156d6b4b78a4082d0c354b2dbe04ed8e4b14c5582e",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 5
+        },
+        {
+          "id": "003",
+          "title": "战国策校经序｜第3段",
+          "source_block_indices": [
+            2
+          ],
+          "status": "complete",
+          "raw_sha256": "7a31bcd37ca4ac2df3676ff4b3cf23e1f6ee0647a20783ecc178dd267c860364",
+          "main_sha256": "7a31bcd37ca4ac2df3676ff4b3cf23e1f6ee0647a20783ecc178dd267c860364",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 3
+        },
+        {
+          "id": "004",
+          "title": "战国策校经序｜第4段",
+          "source_block_indices": [
+            3
+          ],
+          "status": "complete",
+          "raw_sha256": "86a45e73cc5032d7eb9bfee2ab9a2fe73ef299ea7450f1766b1bc58963354b87",
+          "main_sha256": "86a45e73cc5032d7eb9bfee2ab9a2fe73ef299ea7450f1766b1bc58963354b87",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 3
+        },
+        {
+          "id": "005",
+          "title": "又",
+          "source_block_indices": [
+            5
+          ],
+          "status": "complete",
+          "raw_sha256": "ed864e7c1afdf8c0c6042ea70eec242806d84a14a4a5cb13c998b0f0c7ae6ac5",
+          "main_sha256": "ed864e7c1afdf8c0c6042ea70eec242806d84a14a4a5cb13c998b0f0c7ae6ac5",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 2
+        },
+        {
+          "id": "006",
+          "title": "战国策校经序｜第6段",
+          "source_block_indices": [
+            6
+          ],
+          "status": "complete",
+          "raw_sha256": "acf0c7ca38317d7312b838a6de535abf777d23f180a6e7f627349a7f63e5cd98",
+          "main_sha256": "acf0c7ca38317d7312b838a6de535abf777d23f180a6e7f627349a7f63e5cd98",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 19,
+          "source_note_count": 0,
+          "editor_note_count": 7
+        },
+        {
+          "id": "007",
+          "title": "战国策校经序｜第7段",
+          "source_block_indices": [
+            7
+          ],
+          "status": "complete",
+          "raw_sha256": "06a5a46c826797de29c39e2dc1a1c5e4e40e6a9a5e9e1526843efc8259b11e4a",
+          "main_sha256": "06a5a46c826797de29c39e2dc1a1c5e4e40e6a9a5e9e1526843efc8259b11e4a",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 3
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "xu06",
+      "title": "重刻剡川姚氏本战国策并札记序",
+      "kind": "preface",
+      "author": "黄丕烈",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E9%87%8D%E5%88%BB%E5%89%A1%E5%B7%9D%E5%A7%9A%E6%B0%8F%E6%9C%AC%E6%88%B0%E5%9C%8B%E7%AD%96%E5%B9%B6%E6%9C%AD%E8%A8%98%E5%BA%8F",
+        "revision": "2458669",
+        "snapshot": "sources/zhanguoce/wikisource/xu06.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "重刻剡川姚氏本战国策并札记序｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "2e8cf3e48b3a2c4dc0711227abb278807957134c662b31f0011694bd079437de",
+          "main_sha256": "2e8cf3e48b3a2c4dc0711227abb278807957134c662b31f0011694bd079437de",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 5
+        },
+        {
+          "id": "002",
+          "title": "重刻剡川姚氏本战国策并札记序｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "1c7023dff6827dc92a7ae071688b7488134071d3a57fc8c827a0703bd6016c1d",
+          "main_sha256": "1c7023dff6827dc92a7ae071688b7488134071d3a57fc8c827a0703bd6016c1d",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
+        },
+        {
+          "id": "003",
+          "title": "重刻剡川姚氏本战国策并札记序｜第3段",
+          "source_block_indices": [
+            2
+          ],
+          "status": "complete",
+          "raw_sha256": "29e0dfffe84ce457c01a2b7e2c0eb191b15f92e9eda057971562d9633d7f8fa6",
+          "main_sha256": "29e0dfffe84ce457c01a2b7e2c0eb191b15f92e9eda057971562d9633d7f8fa6",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 3
+        }
+      ],
+      "annotation_status": "complete"
+    },
     {
       "slug": "dongzhou",
       "title": "东周",
@@ -3043,13 +3651,446 @@
       ],
       "annotation_status": "complete",
       "preface_note_count": 1
+    },
+    {
+      "slug": "fu01",
+      "title": "书战国策后",
+      "kind": "appendix",
+      "author": "李廌（李文叔；据附文互证）",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%9B%B8%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C",
+        "revision": "2458627",
+        "snapshot": "sources/zhanguoce/wikisource/fu01.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "书战国策后",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "8d9c06497cb6dc2da37db024047ba7b058cea4880da005fa34b838450caae8fa",
+          "main_sha256": "8d9c06497cb6dc2da37db024047ba7b058cea4880da005fa34b838450caae8fa",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 7
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "fu02",
+      "title": "题战国策",
+      "kind": "appendix",
+      "author": "王觉",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E9%A1%8C%E6%88%B0%E5%9C%8B%E7%AD%96",
+        "revision": "2458677",
+        "snapshot": "sources/zhanguoce/wikisource/fu02.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "题战国策",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "56c4bbee76ce3c349345323b2f6db268f4fc36700edcd60c432b78e766789ef9",
+          "main_sha256": "56c4bbee76ce3c349345323b2f6db268f4fc36700edcd60c432b78e766789ef9",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "fu03",
+      "title": "书阁本战国策后",
+      "kind": "appendix",
+      "author": "孙朴校语、孙元忠题记，并附刘敞语及书目材料",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%9B%B8%E9%96%A3%E6%9C%AC%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C",
+        "revision": "2458629",
+        "snapshot": "sources/zhanguoce/wikisource/fu03.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [
+        3
+      ],
+      "units": [
+        {
+          "id": "001",
+          "title": "书阁本战国策后｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "236611f55dbfd8897c6772c2a691c0d2dfcf98024a3533717382b73926c41c61",
+          "main_sha256": "46e9889c8a4ad2c0e7534206da0c51ab2084fdd37f22993a60081adda7eb077f",
+          "source_notes": [
+            {
+              "main_offset": 95,
+              "text": "〈〔二〕札记今本“伯”作“百”。吴引作“百”。〉"
+            },
+            {
+              "main_offset": 124,
+              "text": "〈〔三〕札记今本“漏”误“误”。吴引不误。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 2,
+          "editor_note_count": 6
+        },
+        {
+          "id": "002",
+          "title": "书阁本战国策后｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "a8fe195a59850a1e8e6001d20894393ff7eda9ef5ea259eb376b86fce1680369",
+          "main_sha256": "7b540e35c1d8dacf20cf544460c5c504892d71fb16d1d309f1dc2f7d156b27ba",
+          "source_notes": [
+            {
+              "main_offset": 3,
+              "text": "〈札记今本“原”误“元”。吴引不误。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
+        },
+        {
+          "id": "003",
+          "title": "书阁本战国策后｜第3段",
+          "source_block_indices": [
+            2
+          ],
+          "status": "complete",
+          "raw_sha256": "0923b3509bf2f8460afdb30bca838b162937e6151f9869594dc09244a79620f9",
+          "main_sha256": "0923b3509bf2f8460afdb30bca838b162937e6151f9869594dc09244a79620f9",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
+        },
+        {
+          "id": "004",
+          "title": "题战国策",
+          "source_block_indices": [
+            4
+          ],
+          "status": "complete",
+          "raw_sha256": "548a28ddac0a1f0829e40483d64a610e66df410c4caf20bff0638f7d7377bfda",
+          "main_sha256": "267e0cebdd617cbc521bd0dcbea32f9536e85357d4eb0132a4606744434da987",
+          "source_notes": [
+            {
+              "main_offset": 125,
+              "text": "〈群书考索前集卷十五。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 1,
+          "editor_note_count": 4
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "fu04",
+      "title": "题战国策后",
+      "kind": "appendix",
+      "author": "姚宏",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E9%A1%8C%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C",
+        "revision": "2458679",
+        "snapshot": "sources/zhanguoce/wikisource/fu04.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "题战国策后｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "bcad84d20012b3f4e8204a93b7fd216e28807ed79a911a4aeae8b240214341ef",
+          "main_sha256": "bcad84d20012b3f4e8204a93b7fd216e28807ed79a911a4aeae8b240214341ef",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
+        },
+        {
+          "id": "002",
+          "title": "题战国策后｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "daf43a76bfe20faa6a731e391b4b5faf421a394ad50554dcb836323e876f39fd",
+          "main_sha256": "913d01bb6e40442e8e117b07cda7f537ac2de11aa454a209f2e14e802eaa6447",
+          "source_notes": [
+            {
+              "main_offset": 25,
+              "text": "〈札记今本“扣”误“叩”。吴引不误。〉"
+            },
+            {
+              "main_offset": 249,
+              "text": "〈札记今本“损”误“采”。吴引不误。〉"
+            },
+            {
+              "main_offset": 296,
+              "text": "〈札记今本“字”误“事”。吴引不误。〉"
+            },
+            {
+              "main_offset": 301,
+              "text": "〈札记今本脱“异”字。吴引不误。〉"
+            },
+            {
+              "main_offset": 510,
+              "text": "〈札记吴引无“先”字。丕烈案：无者误脱也。〉"
+            },
+            {
+              "main_offset": 584,
+              "text": "〈札记今本此后有跋云，战国策经鲍彪殽乱，非复高诱原本，而剡川姚宏较正本，博采春秋后语诸书，吴正传駮正鲍注，最后得此本，叹其绝佳。且谓于时蓄之者鲜矣。此本乃伯声较本，又经前辈勘对疑误，采正传补注，标举行间。天启中，以二十千购之梁溪安氏，不啻获一珍珠船也。无何，又得善本于梁溪高氏，楮墨精好，此本遂次而居乙。每一摩挲，不免以积薪自哂。要之此两本，实为双璧，阙一固不可也。崇祯庚午七月曝书于荣木楼。□翁谨识。又有跋云，战国策世传鲍彪注者，求吴师道駮正本，已属希有，况古本哉！钱遵王假余此本，系姚宏较刻，高诱注，盖得之于□翁宗伯者。不特开卷便有东、西周之异，全本篇次前后，章句烦简，亦与今本迥不相侔，真奇书也。因命友印录此册。原本经前辈勘对疑误，采正传补注，标举行间，宜并存之，一时未遑也。□翁云，天启中得此于梁溪安氏，无何，又得善本于梁溪高氏。今此本具在，已出寻常百倍，不知高氏本又复何如耳？戊戌孟春六日录校并识，虞山陆贻典。庚寅冬，□翁绛云楼灾，其所藏书，俱尽于咸阳之炬。不谓高氏本尚在人间？林宗叶君印录一本，假余，较此颇多是正，而摹写讹字，猝未深辨，并一一校入，尚拟借原本更一订定也。戊戌季冬六日校毕记。己亥春，从钱氏借高氏原本，校前十九卷。孟冬暇日，过毛氏目耕楼，借印录高氏本，校毕，此书始为全璧云。敕先。丕烈案：此雅雨堂本之原委也，览之而与宋椠不同之故憭然矣。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 21,
+          "source_note_count": 6,
+          "editor_note_count": 7
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "fu05",
+      "title": "战国策后序",
+      "kind": "appendix",
+      "author": "姚宽书，吴师道附识；黄丕烈考辨作者归属",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C%E5%BA%8F",
+        "revision": "2458617",
+        "snapshot": "sources/zhanguoce/wikisource/fu05.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "战国策后序｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "c68f7495c69287ecebce43042aef6e3468cb99cf9e2d93734bcd9f79ece113e8",
+          "main_sha256": "24867d82e77e2377252c8d3f51b21cd1ade43d2016ba683fca96402f0e54e355",
+          "source_notes": [
+            {
+              "main_offset": 159,
+              "text": "〈札记丕烈案：绍兴四年十月，耿延禧百顺刻吴本，附其序，今不列。〉"
+            },
+            {
+              "main_offset": 196,
+              "text": "〈札记丕烈案：此有互异，今不可考。〉"
+            },
+            {
+              "main_offset": 363,
+              "text": "〈札记丕烈案：以下所列事数，今数之，多不合者，未详姚意何云也。〉"
+            },
+            {
+              "main_offset": 433,
+              "text": "〈札记自注云：“豫让击襄子之衣，衣尽血”；“吕不韦言周凡三十七王”；“白圭为中山将，亡六城，还拔中山”；“马犯谓周君”；“马犯谓梁王，云王病愈（作“愈”字）”。〉"
+            },
+            {
+              "main_offset": 438,
+              "text": "〈札记自注云：“晋有大夫芬质（音抚文切）、芈千者，著书显名”；“安陵丑”；“雍门”；“周中大夫蓝诸”；“晋有亥唐”；“赵有大夫㡽贾（音肇，训门也）”；“齐威王时，有左执法公旗番”。〉"
+            },
+            {
+              "main_offset": 443,
+              "text": "〈札记自注云：“骥仰而喷，鼓鼻也”。〉"
+            },
+            {
+              "main_offset": 450,
+              "text": "〈札记自注云：“涸若耶以取铜，破𢘑山而出锡”；“廊庙之椽，非一木之枝；先王之法，非一士之智”。〉"
+            },
+            {
+              "main_offset": 457,
+              "text": "〈札记自注云：引风俗通云，“晋大夫芸贤”。〉"
+            },
+            {
+              "main_offset": 464,
+              "text": "〈札记自注云：“赵武灵王游大陵，梦处女鼓瑟”；“平原君躄者（注云，躄，挛跛之名）”。〉"
+            },
+            {
+              "main_offset": 472,
+              "text": "〈札记自注云：“东城九门（注云，碣石山在县界）”。〉"
+            },
+            {
+              "main_offset": 480,
+              "text": "〈札记自注云：“廉颇为人勇鸷而好士”。〉"
+            },
+            {
+              "main_offset": 487,
+              "text": "〈札记自注云：“苏秦为楚合从，元戎以铁为矢，长八寸，一弩十矢俱发”。〉"
+            },
+            {
+              "main_offset": 494,
+              "text": "〈札记自注云：“楚人以弱弓微缴，加归雁之上者”。〉"
+            },
+            {
+              "main_offset": 502,
+              "text": "〈札记自注云：“韩兵入西周，令成君辨说秦求救”。〉"
+            },
+            {
+              "main_offset": 510,
+              "text": "〈札记自注云：“碣石九门，本有宫室以居”。〉"
+            },
+            {
+              "main_offset": 517,
+              "text": "〈札记自注云：“罗尚见秦王曰，秦四塞之险，利于守，不利于战”。〉"
+            },
+            {
+              "main_offset": 525,
+              "text": "〈札记自注云：“苏秦说孟尝君曰，秦四塞之国（高诱注云，四面有山关之固，故曰四塞之国也）”。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 22,
+          "source_note_count": 17,
+          "editor_note_count": 6
+        },
+        {
+          "id": "002",
+          "title": "战国策后序｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "9bdc013ea660760990d2e42539dd2198f12a5d85f576330382158b47bf4d6c7c",
+          "main_sha256": "c470fcbaadfc68d9a655b6e9a5642118479c3783a857bfa4b8fb54e7ee55e5e8",
+          "source_notes": [
+            {
+              "main_offset": 92,
+              "text": "〈札记丕烈案：两序大同小异，此即伯声所撰，而令威曾书之耳。当是有人见其本而写附也。未详两稿孰为先后？要非令威撰，末题姚宽书，而吴氏遽云题姚宽撰，是其误。又云，乃知姚氏兄弟皆尝用意此书云云，亦不然。假使令威自有注，不容此序中不及伯声校一字也。所录逸文虽加详，然不及刻本之谨严，往往有非策文而沿他书之误者，亦有在今策文中而失检者，或其初稿与！今仍全录，并吴氏跋语而辨之，庶有考焉。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 1,
+          "editor_note_count": 3
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "fu06",
+      "title": "姚氏校注战国策后题",
+      "kind": "appendix",
+      "author": "吴师道",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E5%A7%9A%E6%B0%8F%E6%A0%A1%E6%B3%A8%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C%E9%A1%8C",
+        "revision": "2458613",
+        "snapshot": "sources/zhanguoce/wikisource/fu06.json"
+      },
+      "preface_block_indices": [],
+      "source_heading_indices": [],
+      "units": [
+        {
+          "id": "001",
+          "title": "姚氏校注战国策后题｜第1段",
+          "source_block_indices": [
+            0
+          ],
+          "status": "complete",
+          "raw_sha256": "d9731a35fe6cfd180e62659191240081d01925eb5b3f511718381a38c36af878",
+          "main_sha256": "7782b5954fa7160b8c7414c001362e34d8eb9ef8f73b9032cd0607ee560fb9f4",
+          "source_notes": [
+            {
+              "main_offset": 91,
+              "text": "〈札记丕烈案：此误，当云族子也。〉"
+            },
+            {
+              "main_offset": 225,
+              "text": "〈札记丕烈案：吴仍引春秋后语数条，见前。此所云未详。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 11,
+          "source_note_count": 2,
+          "editor_note_count": 4
+        },
+        {
+          "id": "002",
+          "title": "姚氏校注战国策后题｜第2段",
+          "source_block_indices": [
+            1
+          ],
+          "status": "complete",
+          "raw_sha256": "4c5ccc9404277ec03aafb52f916e84bd7ab1ea9eaf5056fc2afc0f626f119003",
+          "main_sha256": "4c5ccc9404277ec03aafb52f916e84bd7ab1ea9eaf5056fc2afc0f626f119003",
+          "source_notes": [],
+          "format_breaks": [],
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
+        },
+        {
+          "id": "003",
+          "title": "姚氏校注战国策后题｜第3段",
+          "source_block_indices": [
+            2
+          ],
+          "status": "complete",
+          "raw_sha256": "5f22614576fa9c03a0e5dca345feb6e0ed97ca6e0225a2a216e162d3fa12f4c7",
+          "main_sha256": "f794c993ccf219a8f8f781a9aa7222cdf583c9ee47bd43e9e9e1fad84836e228",
+          "source_notes": [
+            {
+              "main_offset": 75,
+              "text": "〈札记丕烈案：吴氏此跋可作姚本发明，今附录于后。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 1,
+          "editor_note_count": 3
+        }
+      ],
+      "annotation_status": "complete"
     }
   ],
-  "scope_note": "本轮用户指定东周、西周两册；其余卷序附文仍待整理，不据两册完成标记全书完成。",
-  "sentence_pairs": 315,
-  "notes": 687,
+  "scope_note": "用户本轮指定六序、六附文，均已完成；保留先前东周、西周两册。其余三十一卷待整理，全书未完成。定时任务已按要求删除。",
+  "sentence_pairs": 659,
+  "notes": 893,
   "completed_volumes": [
     "dongzhou",
     "xizhou"
-  ]
+  ],
+  "automation": {
+    "status": "deleted",
+    "reason": "用户2026-10-30要求取消定时任务"
+  },
+  "completed_prefaces": 6,
+  "completed_appendices": 6,
+  "body_chapters": 45,
+  "front_back_units": 39
 }

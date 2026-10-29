@@ -1,6 +1,42 @@
 {
   "pages": [
     {
+      "page": "xu01",
+      "chapters": 5,
+      "sentence_pairs": 55,
+      "notes": 44
+    },
+    {
+      "page": "xu02",
+      "chapters": 6,
+      "sentence_pairs": 34,
+      "notes": 20
+    },
+    {
+      "page": "xu03",
+      "chapters": 1,
+      "sentence_pairs": 14,
+      "notes": 5
+    },
+    {
+      "page": "xu04",
+      "chapters": 4,
+      "sentence_pairs": 29,
+      "notes": 13
+    },
+    {
+      "page": "xu05",
+      "chapters": 7,
+      "sentence_pairs": 76,
+      "notes": 27
+    },
+    {
+      "page": "xu06",
+      "chapters": 3,
+      "sentence_pairs": 19,
+      "notes": 11
+    },
+    {
       "page": "dongzhou",
       "chapters": 28,
       "sentence_pairs": 179,
@@ -11,11 +47,50 @@
       "chapters": 17,
       "sentence_pairs": 136,
       "notes": 298
+    },
+    {
+      "page": "fu01",
+      "chapters": 1,
+      "sentence_pairs": 14,
+      "notes": 7
+    },
+    {
+      "page": "fu02",
+      "chapters": 1,
+      "sentence_pairs": 9,
+      "notes": 4
+    },
+    {
+      "page": "fu03",
+      "chapters": 4,
+      "sentence_pairs": 17,
+      "notes": 18
+    },
+    {
+      "page": "fu04",
+      "chapters": 2,
+      "sentence_pairs": 31,
+      "notes": 17
+    },
+    {
+      "page": "fu05",
+      "chapters": 2,
+      "sentence_pairs": 28,
+      "notes": 27
+    },
+    {
+      "page": "fu06",
+      "chapters": 3,
+      "sentence_pairs": 18,
+      "notes": 13
     }
   ],
-  "completed_chapters": 45,
-  "sentence_pairs": 315,
-  "notes": 687,
+  "completed_units": 84,
+  "body_chapters": 45,
+  "prefaces": 6,
+  "appendices": 6,
+  "sentence_pairs": 659,
+  "notes": 893,
   "source_coverage": true,
   "source_reconstruction": true,
   "raw_snapshot_hashes": true,
