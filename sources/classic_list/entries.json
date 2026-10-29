@@ -1,0 +1,210 @@
+[
+  {
+    "title": "金石录后序",
+    "author": "［宋］李清照",
+    "intro": "从夫妇收藏、校读金石书画的日常，写到战乱中的流离与散佚，追忆相知相伴的岁月。",
+    "slug": "jinshi",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E9%87%91%E7%9F%B3%E9%8C%84%E5%BE%8C%E5%BA%8F%20%28%E6%9D%8E%E6%B8%85%E7%85%A7%29",
+      "label": "维基文库",
+      "after": "电子本疑误保留并注，尚未据影印本逐字校勘；",
+      "revision": "2329569"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/jinshi.json",
+      "adjustments": [
+        "小形及ASCII标点统一为中文全角；移除段内换行和布局空白"
+      ],
+      "original_sha256": "edc987b71cceeed4e66c31db73d1fb93d23436d498bb7fc8d09643af0a03af4b"
+    }
+  },
+  {
+    "title": "报任安书",
+    "author": "［西汉］司马迁",
+    "intro": "写受辱后的悲愤与著史之志。",
+    "slug": "bao",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E5%A0%B1%E4%BB%BB%E5%AE%89%E6%9B%B8",
+      "label": "维基文库同篇",
+      "revision": "10359419",
+      "prefix": "原文沿用站内《古文观止》注译稿，参校",
+      "after": "版本用字保留，补入文字另注；"
+    },
+    "provenance": {
+      "kind": "existing_edited_source",
+      "path": "src/guwenguanzhi/juan05",
+      "title": "报任安书｜司马迁",
+      "wikisource_reference": "wikisource/bao.json",
+      "original_sha256": "b6dbc46c7e1f86c258e71682e1fc4c0367c1ed619d95f0e6d1342a23b6d4ba45"
+    }
+  },
+  {
+    "title": "项脊轩志",
+    "author": "［明］归有光",
+    "intro": "借一间旧书斋的兴修与变迁，追忆母亲、祖母与亡妻，以日常细节寄深情。",
+    "slug": "xiangji",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E9%A0%85%E8%84%8A%E8%BB%92%E5%BF%97",
+      "label": "维基文库",
+      "after": "电子本疑误保留并注，尚未据影印本逐字校勘；",
+      "revision": "7906684"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/xiangji.json",
+      "adjustments": [
+        "正文移除夹注一作“逐”，改在独立注释中说明",
+        "小形及ASCII标点统一为中文全角；移除段内换行和布局空白"
+      ],
+      "original_sha256": "36a608b4999bb3327076a84e8986b65cf37e35cdcf6e1ddc024f68e62661145f"
+    }
+  },
+  {
+    "title": "岳阳楼记",
+    "author": "［宋］范仲淹",
+    "intro": "由洞庭景色与迁客骚人的悲喜，推至古仁人的忧乐。",
+    "slug": "yueyang",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E5%B2%B3%E9%99%BD%E6%A8%93%E8%A8%98",
+      "label": "维基文库同篇",
+      "revision": "9467826",
+      "prefix": "原文沿用站内《古文观止》注译稿，参校",
+      "after": "版本用字保留，补入文字另注；"
+    },
+    "provenance": {
+      "kind": "existing_edited_source",
+      "path": "src/guwenguanzhi/juan09",
+      "title": "岳阳楼记｜范仲淹",
+      "wikisource_reference": "wikisource/yueyang.json",
+      "original_sha256": "e390d6b5c28b17f33b89463d6e6dcb357648c2d2b4756dd4b8a940bb6e6ab4f7",
+      "adjustments": [
+        "据维基文库补入末署日期“时六年九月十五日”"
+      ]
+    }
+  },
+  {
+    "title": "滕王阁序",
+    "author": "［唐］王勃",
+    "intro": "写登临宴集之盛，寄身世与怀抱，骈偶华美，情景相生。",
+    "slug": "tengwang",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E6%BB%95%E7%8E%8B%E9%96%A3%E5%BA%8F",
+      "label": "维基文库同篇",
+      "revision": "11125829",
+      "prefix": "原文沿用站内《古文观止》注译稿，参校",
+      "after": "版本用字保留，补入文字另注；"
+    },
+    "provenance": {
+      "kind": "existing_edited_source",
+      "path": "src/guwenguanzhi/juan07",
+      "title": "滕王阁序｜王勃",
+      "wikisource_reference": "wikisource/tengwang.json",
+      "original_sha256": "f2c2b8fddf024a6c614f9277091c41ef74fbb3d9b4098b18d78afc0e018883f5",
+      "adjustments": [
+        "据维基文库通行本补入“请洒潘江，各倾陆海云尔”"
+      ]
+    }
+  },
+  {
+    "title": "别赋",
+    "author": "［南朝］江淹",
+    "intro": "“黯然销魂者，唯别而已矣！”铺写不同境遇中的离别之情。",
+    "slug": "bie",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E5%88%A5%E8%B3%A6",
+      "label": "维基文库",
+      "after": "电子本疑误保留并注，尚未据影印本逐字校勘；",
+      "revision": "2366252"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/bie.json",
+      "adjustments": [
+        "小形及ASCII标点统一为中文全角；移除段内换行和布局空白"
+      ],
+      "original_sha256": "faf74dbcd934b1f901517b397e9840a8afa18f246d33c5e887d9b4beb4246db9"
+    }
+  },
+  {
+    "title": "恨赋",
+    "author": "［南朝］江淹",
+    "intro": "借历史人物的遭际，写壮志难酬与人生遗恨，与《别赋》并读。",
+    "slug": "hen",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E6%81%A8%E8%B3%A6",
+      "label": "维基文库",
+      "after": "电子本疑误保留并注，尚未据影印本逐字校勘；",
+      "revision": "2645152"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/hen.json",
+      "adjustments": [
+        "小形及ASCII标点统一为中文全角；移除段内换行和布局空白"
+      ],
+      "original_sha256": "2958186571240dee8d9db3ae08e9d97baea77d0489d014d07b5b196bf512b4e4"
+    }
+  },
+  {
+    "title": "问帝王之政和帝王之心",
+    "author": "［明］赵秉忠",
+    "intro": "通行题名《问帝王之政与帝王之心》，为赵秉忠殿试策文，以“实政”与“实心”论治道；此处沿用收藏时的题名。",
+    "slug": "diwang",
+    "source": {
+      "url": "https://www.qulishi.com/huati/zhuangyuanjuan/",
+      "label": "趣历史所录赵秉忠状元卷",
+      "after": "电子本疑误保留并注，尚未据影印本逐字校勘；"
+    },
+    "provenance": {
+      "kind": "electronic_transcription_unverified",
+      "cache": "diwang-collation.json",
+      "adjustments": [
+        "小形及ASCII标点统一为中文全角；移除段内换行和布局空白"
+      ],
+      "original_sha256": "b95d0fa40065126d3993c43be4fc158d45f5228c99ef50216a6d350c55951062"
+    }
+  },
+  {
+    "title": "百姓足，孰与不足",
+    "author": "［明］王鏊",
+    "intro": "取题于《论语》的制艺文，论薄赋足民与君民一体。",
+    "slug": "baixing",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E7%99%BE%E5%A7%93%E8%B6%B3%EF%BC%8C%E5%90%9B%E5%AD%B0%E8%88%87%E4%B8%8D%E8%B6%B3",
+      "label": "维基文库",
+      "after": "电子本疑误保留并注，尚未据影印本逐字校勘；",
+      "revision": "7906255"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/baixing.json",
+      "adjustments": [
+        "小形及ASCII标点统一为中文全角；移除段内换行和布局空白"
+      ],
+      "original_sha256": "3a419cb97fd1ad729da0827c51494c2c3f88d035eb3ea87bc9ce16934db5bda4"
+    }
+  },
+  {
+    "title": "志士仁人，無求生以害仁，有殺身以成仁",
+    "author": "［明］王守仁",
+    "intro": "取题于《论语》的制艺文，论志士仁人在生死与道义间的抉择。",
+    "slug": "zhishi",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E5%BF%97%E5%A3%AB%E4%BB%81%E4%BA%BA%EF%BC%8C%E7%84%A1%E6%B1%82%E7%94%9F%E4%BB%A5%E5%AE%B3%E4%BB%81%EF%BC%8C%E6%9C%89%E6%AE%BA%E7%94%9F%E4%BB%A5%E6%88%90%E4%BB%81",
+      "label": "维基文库",
+      "after": "电子本疑误保留并注，尚未据影印本逐字校勘；",
+      "revision": "1473689"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/zhishi.json",
+      "adjustments": [
+        "接合维基文库排版误断的仁人、惟以理欲、是其以吾心等词句",
+        "题名杀生依论语通行句订为杀身；底本文字徐、体等保留加注",
+        "小形及ASCII标点统一为中文全角；移除段内换行和布局空白"
+      ],
+      "original_sha256": "f95a7abe6e156ef5b5e272518237d15810600bf551181bd7ec7c60bd8b9b0fc5"
+    }
+  }
+]

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """把 src/ 下的标注文本生成静态网页。用法：python3 build.py"""
 import html
+import json
 import re
 from pathlib import Path
 
@@ -586,7 +587,19 @@ def _mengxi_spec():
             "page_sources": {p["slug"]: p["source"] for p in pages if "source" in p}}
 
 
+def _classics_spec():
+    entries = json.loads((ROOT / "sources" / "classic_list" / "entries.json").read_text(encoding="utf8"))
+    return {"title": "经典名篇", "author": "个人选藏", "unit": "篇",
+            "count_entries": True, "strict_pairs": True, "side_toc": True, "wide_index": True,
+            "intro": "收藏读到的、写得漂亮的文章，按加入顺序排列，重复项合并。十篇均收原文、逐句白话、题解与注释："
+                     + "、".join(e["title"] for e in entries) + "。",
+            "pages": [(e["slug"], e["title"] + "｜" + e["author"]) for e in entries],
+            "page_sources": {e["slug"]: e["source"] for e in entries},
+            "index_footer": "已整理10篇。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
+
+
 POETRY = {
+    "classic_list": _classics_spec(),
     "mengxi": _mengxi_spec(),
     "zhenglun-changyan": _zhenglun_changyan_spec(),
     **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
@@ -735,7 +748,13 @@ def build_poetry(bslug, spec):
                     parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}">{drama_html(ch["o"])}</p>')
                 else:
                   spans = ""
-                  for o2, t2 in split_pairs(ch["o"], ch["t"]):
+                  pairs = split_pairs(ch["o"], ch["t"])
+                  if spec.get("strict_pairs"):
+                      original_sents = split_sents(ch["o"])
+                      if (len(original_sents) != len(ch["t"].split("¦"))
+                              or [o for o, _t in pairs] != original_sents):
+                          raise ValueError(f"{bslug}/{slug}: 原文与白话必须逐句对应，不能整段回退")
+                  for o2, t2 in pairs:
                       if o2.startswith("/"):
                           spans += "<br>"
                           o2 = o2[1:]
@@ -815,7 +834,7 @@ def build_poetry(bslug, spec):
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
 <p class="intro">{esc(spec["intro"])}</p>
 </header>
-<main><section class="part"><ul class="vols">{"".join(cells)}</ul></section></main>
+<main><section class="part"><ul class="vols"{' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get('wide_index') else ''}>{"".join(cells)}</ul></section></main>
 <footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}</footer>"""
     (ROOT / bslug).mkdir(parents=True, exist_ok=True)
     (ROOT / bslug / "index.html").write_text(page(btitle, body, "../"), encoding="utf8")

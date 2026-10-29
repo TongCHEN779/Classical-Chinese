@@ -3652,134 +3652,186 @@
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ea8df559c282143f48269cc8c7513393aad7595d3fee74f51c5995684a4d5edf",
           "main_sha256": "ea8df559c282143f48269cc8c7513393aad7595d3fee74f51c5995684a4d5edf",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "据他书察文字阙误",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d4c1ab9eb7997b8c96d7f0f1042c594cfd33a9069178428dcb06635e1694272b",
           "main_sha256": "d4c1ab9eb7997b8c96d7f0f1042c594cfd33a9069178428dcb06635e1694272b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "古韵与今音的差异",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 8
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bc15d9fc7c01be6901eb6dac8bdf774415c82f40942297ec0433d54f9d741e5b",
           "main_sha256": "bc15d9fc7c01be6901eb6dac8bdf774415c82f40942297ec0433d54f9d741e5b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "律诗精工与余味",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d5616fbaa4d58236c988795791ae01b4fd15044453ff45116114e342cbf2963a",
           "main_sha256": "d5616fbaa4d58236c988795791ae01b4fd15044453ff45116114e342cbf2963a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "王圣美右文说",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "02aa87b4eacdcb93b38c7ab8eeb1db0f7ac20146e6b789e2df328faf39f0e8b9",
           "main_sha256": "02aa87b4eacdcb93b38c7ab8eeb1db0f7ac20146e6b789e2df328faf39f0e8b9",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "王圣美问孟子见诸侯",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "185c956ccfcc84df6cc9cc84a7eb0e181dfb92a75ece51538255b92207bd3b4e",
           "main_sha256": "185c956ccfcc84df6cc9cc84a7eb0e181dfb92a75ece51538255b92207bd3b4e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "杨大年访诗与读书疏失",
+          "sentence_pairs": 15,
+          "source_note_count": 0,
+          "editor_note_count": 8
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "35f85af34cd6d29d21570c89921a6bc214ac64e9cdfb6ae15d8043ab0b6eb9be",
           "main_sha256": "35f85af34cd6d29d21570c89921a6bc214ac64e9cdfb6ae15d8043ab0b6eb9be",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "穆张试写奔马践犬",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "012",
           "source_block_index": 11,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c4c766e836a6474d6417e5ae4e3b4f2709cc0f94dbcee3a907ebad8199e3d0ee",
           "main_sha256": "c4c766e836a6474d6417e5ae4e3b4f2709cc0f94dbcee3a907ebad8199e3d0ee",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "平王东迁纪年的疑点",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "013",
           "source_block_index": 12,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8f709ea2facbdbd76585aa27fa8565c29f6e9e4c30f5a31c2fa96e135bb08447",
           "main_sha256": "8f709ea2facbdbd76585aa27fa8565c29f6e9e4c30f5a31c2fa96e135bb08447",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "慈恩寺塔卢宗回诗",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "014",
           "source_block_index": 13,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4c3c709bec68947f3a9ce606e7304adddefa9ee278bda3ba290cc92ada973f2e",
           "main_sha256": "4c3c709bec68947f3a9ce606e7304adddefa9ee278bda3ba290cc92ada973f2e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "集句的动静相映",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "015",
           "source_block_index": 14,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "29fbcc84878e0a15cf041ffc2fc201a4af6309c44371f0b24fc79341ee54de6e",
           "main_sha256": "29fbcc84878e0a15cf041ffc2fc201a4af6309c44371f0b24fc79341ee54de6e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "题壁见文章",
+          "sentence_pairs": 1,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "016",
           "source_block_index": 15,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8f420d7a060f135088d575fb77952b5b13c6c2ef281d53baf26a9d0587ab5bb5",
           "main_sha256": "8f420d7a060f135088d575fb77952b5b13c6c2ef281d53baf26a9d0587ab5bb5",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "李氏少女二诗",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "017",
           "source_block_index": 16,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "54f15ab057c0deffa434a9ced8a68fbc720bd8b14607e12a5ddbea961a25c794",
           "main_sha256": "54f15ab057c0deffa434a9ced8a68fbc720bd8b14607e12a5ddbea961a25c794",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "竹影与日光的题面",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         }
       ],
-      "annotation_status": "in_progress"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan15",
@@ -3795,117 +3847,161 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1a3170bbfe3b3b897c91de3a58e33d46f6c51a60c1fbb6abcc071e72fbd90b2c",
           "main_sha256": "1a3170bbfe3b3b897c91de3a58e33d46f6c51a60c1fbb6abcc071e72fbd90b2c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "反切、字母与五音诸家",
+          "sentence_pairs": 64,
+          "source_note_count": 0,
+          "editor_note_count": 11
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "db2c8c5252efd1f259f9332b93d09aa1eebf7d0a2c43077b654220f0ac087554",
           "main_sha256": "db2c8c5252efd1f259f9332b93d09aa1eebf7d0a2c43077b654220f0ac087554",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "龙龛手镜传入与刻印",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "caa18d7238ea59a4175a4681edbbdfc9ef33d332c2221eeceda79f40526929bd",
           "main_sha256": "caa18d7238ea59a4175a4681edbbdfc9ef33d332c2221eeceda79f40526929bd",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "声律与对偶诸格",
+          "sentence_pairs": 25,
+          "source_note_count": 0,
+          "editor_note_count": 9
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a07efa40745f5382ffe3ef994a02dcfc1db5f3171df411a76b4ca1128ed674c3",
           "main_sha256": "a07efa40745f5382ffe3ef994a02dcfc1db5f3171df411a76b4ca1128ed674c3",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "文潞公同甲会",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e1781c19106a88bac4333e61ab4a7ecb5fb03610efd0de7c8d9c98af8ae5056f",
           "main_sha256": "e1781c19106a88bac4333e61ab4a7ecb5fb03610efd0de7c8d9c98af8ae5056f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "江文蔚赋的用典",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "90e024fbba629a853978af7f6113bbdeb93c2618f155e48af3d24ce2c1e32cde",
           "main_sha256": "90e024fbba629a853978af7f6113bbdeb93c2618f155e48af3d24ce2c1e32cde",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "鹳雀楼三首诗",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "499348b8eadddbb96d65860bf336c79b2af00c7c5fca205af30353397d0ba4e7",
           "main_sha256": "499348b8eadddbb96d65860bf336c79b2af00c7c5fca205af30353397d0ba4e7",
           "source_notes": [],
           "format_breaks": [],
           "source_reference_notes": [
             "当为“齐海陵王墓铭”之误。"
-          ]
+          ],
+          "title": "所得谢朓海陵王墓铭",
+          "sentence_pairs": 18,
+          "source_note_count": 1,
+          "editor_note_count": 10
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e1eb81f66859728890414b32e3e5f4e42934c098ff91243f807543085327f112",
           "main_sha256": "e1eb81f66859728890414b32e3e5f4e42934c098ff91243f807543085327f112",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "枣棘字形辨物",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3df181e37ddf7762c3032c47c551d12f0aa7e059066c367f54902268b326c426",
           "main_sha256": "3df181e37ddf7762c3032c47c551d12f0aa7e059066c367f54902268b326c426",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "胡恢献诗复官",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0b938b01bb02d3af2a690f1797a842cfbcc79d2dfa17640e5e7ef22dab9bf1c6",
           "main_sha256": "0b938b01bb02d3af2a690f1797a842cfbcc79d2dfa17640e5e7ef22dab9bf1c6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "蔡子正贺诗四句",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "383a0225ec69dfed8357ce7b684bf4308321edbbca9c6e79cc3844f6defdcae5",
           "main_sha256": "383a0225ec69dfed8357ce7b684bf4308321edbbca9c6e79cc3844f6defdcae5",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "欧阳修赏王向判牍",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 8
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan16",
@@ -3921,34 +4017,46 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "972a6916efc7d50352e7b8039bf40e566be8d588f5fd03d8c038eb7fcc73a84b",
           "main_sha256": "972a6916efc7d50352e7b8039bf40e566be8d588f5fd03d8c038eb7fcc73a84b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "乌鬼与鸬鹚",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4edbe633f810be5a64d88c1bcef45124a571f8656b4f7189aec9cb74095d115d",
           "main_sha256": "4edbe633f810be5a64d88c1bcef45124a571f8656b4f7189aec9cb74095d115d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "沈括论香奁集归属",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c1dca7992d002667affeff3d0fd07c914a1450e8d8ea507d2c68a30d584bfd57",
           "main_sha256": "c1dca7992d002667affeff3d0fd07c914a1450e8d8ea507d2c68a30d584bfd57",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "魏野诗与生熟之谑",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 8
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan17",
@@ -3964,91 +4072,127 @@
           "id": "001",
           "source_block_index": 1,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bb155f9111ddc0034765ff637d07daa9a53b0c9b15ae65bd4452972f8cf4ac1c",
           "main_sha256": "bb155f9111ddc0034765ff637d07daa9a53b0c9b15ae65bd4452972f8cf4ac1c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "耳鉴与午猫牡丹",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "002",
           "source_block_index": 2,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e3da4f056f817bfbf4a8342b46030660597a79c6595b5fe866b6a7b581cb6b0c",
           "main_sha256": "e3da4f056f817bfbf4a8342b46030660597a79c6595b5fe866b6a7b581cb6b0c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "琵琶拨弦的画面时刻",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "003",
           "source_block_index": 3,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0cbcdf93149f525a0bb1d286d7a2b69e897d792b3b79f995c6f52b8305ad5bea",
           "main_sha256": "0cbcdf93149f525a0bb1d286d7a2b69e897d792b3b79f995c6f52b8305ad5bea",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "画意与形似",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "004",
           "source_block_index": 4,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1b5bd500fc787a1728049f43dd967788f366d4641cd5295cd2adab39b125b674",
           "main_sha256": "1b5bd500fc787a1728049f43dd967788f366d4641cd5295cd2adab39b125b674",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "黄梅曹溪画中神态",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "005",
           "source_block_index": 5,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "89198b11b9f9bf21c23aee2b3ce66204c5825542491303664dc91248c103ad24",
           "main_sha256": "89198b11b9f9bf21c23aee2b3ce66204c5825542491303664dc91248c103ad24",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "按乐图不能辨霓裳拍",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "006",
           "source_block_index": 6,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a9389d000e7b813eeda737ed527bbeb27194d4008a8b006c31cbd2af25acb9cf",
           "main_sha256": "a9389d000e7b813eeda737ed527bbeb27194d4008a8b006c31cbd2af25acb9cf",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "画毛与以大观小",
+          "sentence_pairs": 17,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "007",
           "source_block_index": 7,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "28e9ddf632cf9cbd2ce3142766d2a8afecdcc4bb02a6128484b62afbb7e7e957",
           "main_sha256": "28e9ddf632cf9cbd2ce3142766d2a8afecdcc4bb02a6128484b62afbb7e7e957",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "佛光不随风",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "008",
           "source_block_index": 8,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b13e40e51e10cdf2b253750e55679222450449739152c8ca208f2d18b79d4603",
           "main_sha256": "b13e40e51e10cdf2b253750e55679222450449739152c8ca208f2d18b79d4603",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "古字与一己之全",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "009",
           "source_block_index": 9,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "536de1f00a2e4f65692781c0885bb0d4d397c9a97a943f46c95b2d85c65af965",
           "main_sha256": "536de1f00a2e4f65692781c0885bb0d4d397c9a97a943f46c95b2d85c65af965",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宋迪教观败墙",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "010",
@@ -4170,7 +4314,7 @@
           "format_breaks": []
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "in_progress"
     },
     {
       "slug": "juan18",
@@ -7506,15 +7650,15 @@
     }
   ],
   "next": {
-    "page_slug": "juan14",
-    "unit_id": "005",
-    "source_block_index": 4,
+    "page_slug": "juan17",
+    "unit_id": "010",
+    "source_block_index": 10,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
-    "page_slug": "juan14",
-    "unit_id": "005",
-    "source_block_index": 4,
+    "page_slug": "juan17",
+    "unit_id": "010",
+    "source_block_index": 10,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "source_index": {
@@ -7529,17 +7673,17 @@
     }
   ],
   "validation": {
-    "scope": "四库提要、自序、卷一至十三及卷十四前4段；余354段待译",
+    "scope": "四库提要、自序、卷一至十六及卷十七前2段；余325段待译",
     "build": "passed",
     "source_reconstruction": "passed",
-    "completed_units": 241,
-    "sentence_pairs": 2548,
-    "independent_notes": 1055,
+    "completed_units": 270,
+    "sentence_pairs": 2847,
+    "independent_notes": 1228,
     "site_tests": {
       "passed": 13,
-      "seconds": 72.934
+      "seconds": 73.301
     },
-    "html_pages": 1061,
+    "html_pages": 1075,
     "diff_check": "passed",
     "browser_visual_check": false
   },
@@ -7620,9 +7764,30 @@
     ]
   },
   "editorial_review_juan14_partial": {
-    "units": 4,
-    "sentence_pairs": 23,
+    "units": 17,
+    "sentence_pairs": 123,
+    "notes": 86,
+    "policy": "完整配译引诗及诗论，异文照存加注，作者评价不写成客观事实",
+    "complete": true
+  },
+  "editorial_review_juan15_partial": {
+    "units": 11,
+    "sentence_pairs": 158,
+    "notes": 76,
+    "policy": "反切与梵字表逐项完整译出；疑字不校换，古代声学体系与现代解释分清",
+    "complete": true
+  },
+  "editorial_review_juan16": {
+    "units": 3,
+    "sentence_pairs": 24,
     "notes": 19,
-    "policy": "完整配译引诗及诗论，异文照存加注，作者评价不写成客观事实"
+    "complete": true,
+    "policy": "鸬鹚考释、香奁归属、魏野诗事完整逐句译出；沈括考辨与编者事实确认区分，疑字保留加注"
+  },
+  "editorial_review_juan17_partial": {
+    "units": 2,
+    "sentence_pairs": 17,
+    "notes": 11,
+    "policy": "完整逐句译出书画鉴赏论证，旧说与现代事实分清"
   }
 }
