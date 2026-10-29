@@ -485,104 +485,144 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0d19c3709fe61b7b1d798d1a293b392effdc47473b3b0b8811af17c97203809e",
           "main_sha256": "0d19c3709fe61b7b1d798d1a293b392effdc47473b3b0b8811af17c97203809e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "权三司使的班次",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8c9ec65fdfe9a776e7a88d3c59e83c4907295002b65b56eef345681bf10ed399",
           "main_sha256": "8c9ec65fdfe9a776e7a88d3c59e83c4907295002b65b56eef345681bf10ed399",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "南班官与刁约草表",
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7cf6801465dccd754525090f44898909be4122e5441c7e840ed4695e2cb03a75",
           "main_sha256": "7cf6801465dccd754525090f44898909be4122e5441c7e840ed4695e2cb03a75",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "亲节案与防吏奸",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9ebbb71085531e6af7ed93fb563e190125ea3302d88e2428aad32b9f13d1a211",
           "main_sha256": "9ebbb71085531e6af7ed93fb563e190125ea3302d88e2428aad32b9f13d1a211",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "球带特赐与凉衫",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a261fb5143018e7a7dfe3e787a0569384c77c798d9fe4f28a22677382dfe3200",
           "main_sha256": "a261fb5143018e7a7dfe3e787a0569384c77c798d9fe4f28a22677382dfe3200",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "润笔物的设立与废除",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "40117426e8ee5eba9fef6b0622d3c3b75a4546122e68e3ea4b4422acae761c44",
           "main_sha256": "40117426e8ee5eba9fef6b0622d3c3b75a4546122e68e3ea4b4422acae761c44",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "直官与暂摄",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "20169b14816a9a73413458b3ed265a8f9a38336941c31065c446fa93ce286f6b",
           "main_sha256": "20169b14816a9a73413458b3ed265a8f9a38336941c31065c446fa93ce286f6b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "三告官与打仗子",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "06b72982bbf7f862e832ee65ca30c02784342064d6c714b4ea41c3c559bee548",
           "main_sha256": "06b72982bbf7f862e832ee65ca30c02784342064d6c714b4ea41c3c559bee548",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "活中书令的俸例",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bf96a0bb0c485a36da746deaece984fc48759cc45705adb24525526020a9db6a",
           "main_sha256": "bf96a0bb0c485a36da746deaece984fc48759cc45705adb24525526020a9db6a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "百官会集坐次",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a72a4d42ef2854368bd4b932782938c56491293cdd02416725c586a8e5183966",
           "main_sha256": "a72a4d42ef2854368bd4b932782938c56491293cdd02416725c586a8e5183966",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "功臣号的停止",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan03",
@@ -598,17 +638,21 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c970484466b489e94163985e2012b2bf9048d7129aa219f9ae8e717f24825371",
           "main_sha256": "c970484466b489e94163985e2012b2bf9048d7129aa219f9ae8e717f24825371",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "石重与强弓劲弩",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7d685cc30f5b6b446295052c16cedd6e297605dbee91d1ceff3810bd531fdd58",
           "main_sha256": "5004c22e0f9bce9c44e6e7e31faf09ee4a446f97ab648f2ab457acd6f6bec3a7",
           "source_notes": [
@@ -621,280 +665,392 @@
               "text": "〈萨音桑葛反，嚩无可反，诃从去声〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "招魂些字与禁咒",
+          "sentence_pairs": 3,
+          "source_note_count": 2,
+          "editor_note_count": 4
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "afbd68864e670712314fb97457ae81b07d5744db60fa6c2adca5c237f928a26e",
           "main_sha256": "afbd68864e670712314fb97457ae81b07d5744db60fa6c2adca5c237f928a26e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "阳燧倒影与心中之碍",
+          "sentence_pairs": 15,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "55e53d9fe87d5d5076ac40b705eb62350afce4c105afb1a2dd39fca4b4ce8134",
           "main_sha256": "55e53d9fe87d5d5076ac40b705eb62350afce4c105afb1a2dd39fca4b4ce8134",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "日食正阳之月",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6466577a6cc754d5506b5fcc5ebc218d3cf8d5027074a588e8ff062e8d622b2c",
           "main_sha256": "6466577a6cc754d5506b5fcc5ebc218d3cf8d5027074a588e8ff062e8d622b2c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "曾祖曾孙与正统无绝",
+          "sentence_pairs": 15,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "705de64107d5467c92f322cc07f7cb68f51ecae3fcc052e8221383a78f7a3956",
           "main_sha256": "705de64107d5467c92f322cc07f7cb68f51ecae3fcc052e8221383a78f7a3956",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "二妃年龄与诗骚轻慢",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0802599d573ca9f55e78d038036660918fbec883ecb5782ee97313b8d7294d9d",
           "main_sha256": "0802599d573ca9f55e78d038036660918fbec883ecb5782ee97313b8d7294d9d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "謻门不是定指冰室门",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "07822b11de0e9b94c5b820c31da6800f3d6245b29e59a90f69c5592213b32206",
           "main_sha256": "07822b11de0e9b94c5b820c31da6800f3d6245b29e59a90f69c5592213b32206",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "漳洛水名与璋字之义",
+          "sentence_pairs": 21,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "913be718cc7bedc904c5a4508b8de0a6db7d1cd355f51464715059c67ffc56c6",
           "main_sha256": "913be718cc7bedc904c5a4508b8de0a6db7d1cd355f51464715059c67ffc56c6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "盐泽与巫咸河",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "58f973a8734c052e28347c4f638f7d2b73e76de07a24eba869c08adf3a549599",
           "main_sha256": "58f973a8734c052e28347c4f638f7d2b73e76de07a24eba869c08adf3a549599",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "秦人称虎豹为程",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d1841450560f6e11f24d89078eb2fd8ea4af4e140790e8a767fefa9c67524d1a",
           "main_sha256": "d1841450560f6e11f24d89078eb2fd8ea4af4e140790e8a767fefa9c67524d1a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "湴河与活沙",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "012",
           "source_block_index": 11,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "19d6a3ca441386de039b433ec2c26a7070f78b0311fe6c8faa1617308002db07",
           "main_sha256": "19d6a3ca441386de039b433ec2c26a7070f78b0311fe6c8faa1617308002db07",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "芸香与香草异名",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "013",
           "source_block_index": 12,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "51cf6aa5865b1d7850d3d8165dbb9bd27bcb57a83115f48754c3e2c6e2b8bb78",
           "main_sha256": "51cf6aa5865b1d7850d3d8165dbb9bd27bcb57a83115f48754c3e2c6e2b8bb78",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "腥𬊈熟献的解释",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "014",
           "source_block_index": 13,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a34f8e22ac95b97af45a8f67c2c74c9e88e42786ffac0c7be2f88569db80d86b",
           "main_sha256": "a34f8e22ac95b97af45a8f67c2c74c9e88e42786ffac0c7be2f88569db80d86b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "玄与𫞩的颜色",
+          "sentence_pairs": 15,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "015",
           "source_block_index": 14,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8f4961b5164af0cc7d4f856cd077e12f48f1e0a6e2f8b17eee1028501fbbdd8a",
           "main_sha256": "8f4961b5164af0cc7d4f856cd077e12f48f1e0a6e2f8b17eee1028501fbbdd8a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "灌钢与百炼钢",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "016",
           "source_block_index": 15,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "37af587514e8b5c33014282fae841b8b253d86e3944770de3efb077654de17e6",
           "main_sha256": "37af587514e8b5c33014282fae841b8b253d86e3944770de3efb077654de17e6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "芄兰与解结锥",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "017",
           "source_block_index": 16,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8d6e6016fa9a7825d13f9d1f5145fed34cbe42ae7a455d24501a946506e04be4",
           "main_sha256": "8d6e6016fa9a7825d13f9d1f5145fed34cbe42ae7a455d24501a946506e04be4",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "茅栗与芧字",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "018",
           "source_block_index": 17,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c4e1f7d5c97f14d49ee54276a52b7d7289b8c5a2ee375c76533b672abc5d30f5",
           "main_sha256": "c4e1f7d5c97f14d49ee54276a52b7d7289b8c5a2ee375c76533b672abc5d30f5",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "十八学士画像题赞与唐史异文",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "019",
           "source_block_index": 18,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3a75d7fcda5c20baef800db4962a44f82b546da91bcbc120a4d5514e07ad5ec7",
           "main_sha256": "3a75d7fcda5c20baef800db4962a44f82b546da91bcbc120a4d5514e07ad5ec7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "杜若贡地与紫薇植省",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "020",
           "source_block_index": 19,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "df9f57b872d4332ce7ab13d81ad1eea6a91b873e53be70ba0675a054c3fdf32e",
           "main_sha256": "df9f57b872d4332ce7ab13d81ad1eea6a91b873e53be70ba0675a054c3fdf32e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "一石不乱与酒量换算",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "021",
           "source_block_index": 20,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8601540e17b6ffd309da5201f86af33ab020938324df7aa14e18cafbe7b34754",
           "main_sha256": "8601540e17b6ffd309da5201f86af33ab020938324df7aa14e18cafbe7b34754",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "济水与阿胶旧说",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "022",
           "source_block_index": 21,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "efee406c01d6f783a7dfe7234e3cf76d256cc4cc9df88e9e96ef8d0e279ea66f",
           "main_sha256": "efee406c01d6f783a7dfe7234e3cf76d256cc4cc9df88e9e96ef8d0e279ea66f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "前荣之称可疑",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "023",
           "source_block_index": 22,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d7b9adcf024f776236f60a31afcd65b4f37b07fa509ce20d82a55d2214f04414",
           "main_sha256": "d7b9adcf024f776236f60a31afcd65b4f37b07fa509ce20d82a55d2214f04414",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宗庙室祭与堂祭",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "024",
           "source_block_index": 23,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7408d5721facb22a62295dcd9bd85b632acbd5b7759a4ec9707836f7b22cec98",
           "main_sha256": "7408d5721facb22a62295dcd9bd85b632acbd5b7759a4ec9707836f7b22cec98",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "二南不止诵诗",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "025",
           "source_block_index": 24,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a339de5bd78fd83f8051d46a17afd930c295273067254a9ba25ce17b82c653b8",
           "main_sha256": "a339de5bd78fd83f8051d46a17afd930c295273067254a9ba25ce17b82c653b8",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "野马非尘埃",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "026",
           "source_block_index": 25,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "43b030b5da0580e92e41db4e69a437a5c4bcbb4f6246ceec8e898d60e14bae87",
           "main_sha256": "43b030b5da0580e92e41db4e69a437a5c4bcbb4f6246ceec8e898d60e14bae87",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "蒲芦为蒲苇说",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "027",
           "source_block_index": 26,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cd17d34b0145bb7a825366712ca4a97b29f9da042fcd46a79b94f998ce7549e4",
           "main_sha256": "cd17d34b0145bb7a825366712ca4a97b29f9da042fcd46a79b94f998ce7549e4",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "古今度量权衡折算",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "028",
           "source_block_index": 27,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fde104c9525e69d87bdb7f5a56e38e8ce10e5818cd7fb457510177b796d3d134",
           "main_sha256": "fde104c9525e69d87bdb7f5a56e38e8ce10e5818cd7fb457510177b796d3d134",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "太一诸神与避讳改名",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "029",
           "source_block_index": 28,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bf550620c0fb149d7c9a9af1040da6f8cb9dc5e1d803cb5b22e222e3c373b8e5",
           "main_sha256": "bf550620c0fb149d7c9a9af1040da6f8cb9dc5e1d803cb5b22e222e3c373b8e5",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "杨溥手教与五代史纪年",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 5
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan04",
@@ -910,104 +1066,144 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2187deace2ee62f2c0b19cc0b6b3ff442acb2cda187cb3b2cf5fbb9df7c91764",
           "main_sha256": "2187deace2ee62f2c0b19cc0b6b3ff442acb2cda187cb3b2cf5fbb9df7c91764",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "诸水入太湖说辨",
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b037f9c726e83664f499cc06ca8966170db331801358bf67e76f3f5ebe3f252e",
           "main_sha256": "b037f9c726e83664f499cc06ca8966170db331801358bf67e76f3f5ebe3f252e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "黄儿墓附会二疏墓",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7b489d4cd2463b29fb2ad7bf29a9306e2d5f2451575f7655519365b7baab027c",
           "main_sha256": "7b489d4cd2463b29fb2ad7bf29a9306e2d5f2451575f7655519365b7baab027c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "桂杀草木的解释",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e8872f435df8b7227b684a899f9973fc5bda2ff35ca2b45236c28f77d46d4ffa",
           "main_sha256": "e8872f435df8b7227b684a899f9973fc5bda2ff35ca2b45236c28f77d46d4ffa",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "章华台与干溪的地望",
+          "sentence_pairs": 20,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f4571e0737583503cf699b7e92420325e3fe503065653d9ccea6e79a1e426e6b",
           "main_sha256": "f4571e0737583503cf699b7e92420325e3fe503065653d9ccea6e79a1e426e6b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "一麾出守不是建旗",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "209252dd8f051a4279b6716656c552307535efa435868748524c3182819c5662",
           "main_sha256": "209252dd8f051a4279b6716656c552307535efa435868748524c3182819c5662",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "除官的除义",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ec770a3739cc5e2e9d5bdda3895ffeb2004ae430ba2f688e926952d678b7ef63",
           "main_sha256": "ec770a3739cc5e2e9d5bdda3895ffeb2004ae430ba2f688e926952d678b7ef63",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "韩愈像误作韩熙载",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3f545a743b14d16323c9761e369dcd8fc1a722691dd895a529ca08c6d6138293",
           "main_sha256": "3f545a743b14d16323c9761e369dcd8fc1a722691dd895a529ca08c6d6138293",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "陌钱与参字",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cfbeec9fb8a09974be0e21a19ec2e3232516be9149dae98e37970c085a9224c1",
           "main_sha256": "cfbeec9fb8a09974be0e21a19ec2e3232516be9149dae98e37970c085a9224c1",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "蜀道难不是因严武而作",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "558d45a65ee844fbeb7922d83a300a1767e9bed4cdcf770bea1d07dfc06fd63c",
           "main_sha256": "558d45a65ee844fbeb7922d83a300a1767e9bed4cdcf770bea1d07dfc06fd63c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "云与梦分处江南北",
+          "sentence_pairs": 15,
+          "source_note_count": 0,
+          "editor_note_count": 5
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan05",
@@ -6662,13 +6858,13 @@
     }
   ],
   "next": {
-    "page_slug": "juan02",
+    "page_slug": "juan05",
     "unit_id": "001",
     "source_block_index": 0,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
-    "page_slug": "juan02",
+    "page_slug": "juan05",
     "unit_id": "001",
     "source_block_index": 0,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
@@ -6685,18 +6881,32 @@
     }
   ],
   "validation": {
-    "scope": "四库提要、自序、卷一的30个已完成段；其余565段待译",
+    "scope": "四库提要、自序、卷一至四79段；其余516段待译",
     "build": "passed",
     "source_reconstruction": "passed",
-    "completed_units": 30,
-    "sentence_pairs": 238,
-    "independent_notes": 131,
+    "completed_units": 79,
+    "sentence_pairs": 623,
+    "independent_notes": 336,
     "site_tests": {
-      "passed": 12,
-      "seconds": 70.441
+      "passed": 13,
+      "seconds": 69.104
     },
-    "html_pages": 1048,
+    "html_pages": 1051,
     "diff_check": "passed",
-    "browser_visual_check": false
+    "browser_visual_check": false,
+    "sentence_renderer_fix": "显式¦配对中的扩展区汉字单字句不再作为纯标点并入上一句；新增回归用例。"
+  },
+  "editorial_review": {
+    "batch": "2026-10-29卷二至四",
+    "completed_new_units": 49,
+    "new_sentence_pairs": 385,
+    "new_notes": 205,
+    "policy": "各句完整现代汉语，原字疑讹照录加注；古代医药、术数和技术见解按历史观点译录。",
+    "cautions": [
+      "卷二009收信人及官爵与颜真卿原书有异",
+      "卷三029天成、长兴纪年及干支有疑，不据此造可靠年表",
+      "卷四004无非一处疑讹，白话依上下文译并非一处并说明",
+      "卷四010江南二浙地理语有疑，原字保留"
+    ]
   }
 }

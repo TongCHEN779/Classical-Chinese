@@ -125,7 +125,8 @@ def split_pairs(o, t):
                 # 只有纯标点碎片仍需并回上一句。
                 groups = []
                 for k, x in enumerate(raw):
-                    if groups and not re.search(r"[\u4e00-\u9fff]", x):
+                    # 扩展区汉字也有正文意义，不能把单字句当作纯标点。
+                    if groups and not any(char.isalnum() for char in x):
                         groups[-1].append(k)
                     else:
                         groups.append([k])

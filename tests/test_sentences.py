@@ -4,6 +4,14 @@ from build import split_pairs
 
 
 class SentencePairTests(unittest.TestCase):
+    def test_explicit_pairs_preserve_extension_han_sentence(self):
+        original = '甲。𫞩。乙。'
+        translated = '第一句。¦这是古代色名。¦第三句。'
+        self.assertEqual(
+            split_pairs(original, translated),
+            [('甲。', '第一句。'), ('𫞩。', '这是古代色名。'), ('乙。', '第三句。')],
+        )
+
     def test_explicit_pairs_preserve_sentence_after_leading_comma(self):
         original = '女叹息曰：“事至此，已不能羞。，但渠不嫌寒贱，即遣媒来，病当愈。”'
         translated = '她叹道：“到此地步，已经顾不得害羞。¦只要他不嫌贫贱，遣媒来，病就会好。”'
