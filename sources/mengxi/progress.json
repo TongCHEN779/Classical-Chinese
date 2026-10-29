@@ -5745,134 +5745,186 @@
           "id": "001",
           "source_block_index": 1,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "eb42d761cd1f6f509fb0f15c87984da0576ad3cbdae895f258ac2fb701a36620",
           "main_sha256": "eb42d761cd1f6f509fb0f15c87984da0576ad3cbdae895f258ac2fb701a36620",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "竹箭与矢名",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "002",
           "source_block_index": 2,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c0bb44c0c3dfcb55433bd7f09bf281f63faef0b1941d396531ec935a97ce3a82",
           "main_sha256": "c0bb44c0c3dfcb55433bd7f09bf281f63faef0b1941d396531ec935a97ce3a82",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "丁谓托书上表",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "003",
           "source_block_index": 3,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "07283dfa4f210ed1bdadd07c56bcc1dcb46172b66b86acfd6f1f69a1c8e6ef3c",
           "main_sha256": "07283dfa4f210ed1bdadd07c56bcc1dcb46172b66b86acfd6f1f69a1c8e6ef3c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "屏障误称反坫",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "004",
           "source_block_index": 4,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8a7a993808efaa3c8787e8876ca4fec34a569ae839f882ec7d63b0faf306b033",
           "main_sha256": "8a7a993808efaa3c8787e8876ca4fec34a569ae839f882ec7d63b0faf306b033",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "一木五香之谬",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "005",
           "source_block_index": 5,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "67cf5502ac497dfd3f979a303b95b7a08df6c5a43321d3fc9f3ca5bebd15c63d",
           "main_sha256": "67cf5502ac497dfd3f979a303b95b7a08df6c5a43321d3fc9f3ca5bebd15c63d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "丁谓谋玉带",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 6,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cbe50270b16c78a3fb30c9f48192e455006cd46db94fc48a4d2a9db0b8cc41fb",
           "main_sha256": "cbe50270b16c78a3fb30c9f48192e455006cd46db94fc48a4d2a9db0b8cc41fb",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "黄宗旦奏目遭换",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "007",
           "source_block_index": 7,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "63925a57da6addffe6d9956ec6d8ce8ec2863fa6d6b08afaaca0c33199bde182",
           "main_sha256": "63925a57da6addffe6d9956ec6d8ce8ec2863fa6d6b08afaaca0c33199bde182",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "卖卜趋利",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "008",
           "source_block_index": 8,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "dde66f84b2e00e64b591f15d1da381246f5c12eabf5d24f9d10a533d528e0c48",
           "main_sha256": "dde66f84b2e00e64b591f15d1da381246f5c12eabf5d24f9d10a533d528e0c48",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "吏借包公严明设局",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "009",
           "source_block_index": 9,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a9f9d36371eb36d6c288e96fe09f12316bdbf9af1d4359ff3f5c4d6ffa72fbe7",
           "main_sha256": "a9f9d36371eb36d6c288e96fe09f12316bdbf9af1d4359ff3f5c4d6ffa72fbe7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "进奉茶纲夹私货",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "010",
           "source_block_index": 10,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e1ae27247d9abdef0aff21fb58e26f48491fe2f0a5bf8a37f894df0e87683ca4",
           "main_sha256": "e1ae27247d9abdef0aff21fb58e26f48491fe2f0a5bf8a37f894df0e87683ca4",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "瓦松与昔耶",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "011",
           "source_block_index": 11,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "57fee91a5fefd5ae17d1c2c79a2d6dd0bfefc9ba71fce09b5c288a6af3ec089d",
           "main_sha256": "57fee91a5fefd5ae17d1c2c79a2d6dd0bfefc9ba71fce09b5c288a6af3ec089d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "陈彭年误行黄道",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "012",
           "source_block_index": 12,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "922cca16e2e6dd34597239feb3ab2a4b0cbbdf771ee4c8a6735ed2bf90c41e61",
           "main_sha256": "922cca16e2e6dd34597239feb3ab2a4b0cbbdf771ee4c8a6735ed2bf90c41e61",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "车渠是海贝",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "013",
           "source_block_index": 13,
           "source_heading": "谬误谲诈〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "99fa6c8792b1a35b9fc5c241433065164193bab26d0cef5f519717ac199fc1bf",
           "main_sha256": "99fa6c8792b1a35b9fc5c241433065164193bab26d0cef5f519717ac199fc1bf",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "餐来未的误听",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan23",
@@ -8054,13 +8106,13 @@
     }
   ],
   "next": {
-    "page_slug": "juan22",
+    "page_slug": "juan23",
     "unit_id": "001",
     "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
-    "page_slug": "juan22",
+    "page_slug": "juan23",
     "unit_id": "001",
     "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
@@ -8077,17 +8129,17 @@
     }
   ],
   "validation": {
-    "scope": "四库提要、自序及卷一至二十一；余217段待译",
+    "scope": "四库提要、自序及卷一至二十二；余204段待译",
     "build": "passed",
     "source_reconstruction": "passed",
-    "completed_units": 378,
-    "sentence_pairs": 3813,
-    "independent_notes": 1703,
+    "completed_units": 391,
+    "sentence_pairs": 3909,
+    "independent_notes": 1754,
     "site_tests": {
       "passed": 13,
-      "seconds": 84.826
+      "seconds": 76.02
     },
-    "html_pages": 1083,
+    "html_pages": 1084,
     "diff_check": "passed",
     "browser_visual_check": false
   },
@@ -8250,6 +8302,18 @@
       "奇疾不据短记作现代诊断",
       "原文重复句和疑字不删不换",
       "三司厚卿语疑不据发字另造姓名"
+    ]
+  },
+  "editorial_review_juan22": {
+    "units": 13,
+    "sentence_pairs": 96,
+    "notes": 51,
+    "complete": true,
+    "cautions": [
+      "不具名人物不臆定",
+      "三暖船、章秦等疑字保留加注",
+      "占卜获利机制与预测能力分清",
+      "雅言误听完整译出"
     ]
   }
 }
