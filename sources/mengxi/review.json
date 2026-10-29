@@ -1,0 +1,244 @@
+{
+  "pages": [
+    {
+      "page": "tiyao",
+      "completed_units": 1,
+      "total_units": 1,
+      "sentence_pairs": 44,
+      "notes": 9
+    },
+    {
+      "page": "xu",
+      "completed_units": 1,
+      "total_units": 1,
+      "sentence_pairs": 7,
+      "notes": 6
+    },
+    {
+      "page": "juan01",
+      "completed_units": 28,
+      "total_units": 28,
+      "sentence_pairs": 187,
+      "notes": 116
+    },
+    {
+      "page": "juan02",
+      "completed_units": 0,
+      "total_units": 10,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan03",
+      "completed_units": 0,
+      "total_units": 29,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan04",
+      "completed_units": 0,
+      "total_units": 10,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan05",
+      "completed_units": 0,
+      "total_units": 25,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan06",
+      "completed_units": 0,
+      "total_units": 5,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan07",
+      "completed_units": 0,
+      "total_units": 26,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan08",
+      "completed_units": 0,
+      "total_units": 8,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan09",
+      "completed_units": 0,
+      "total_units": 32,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan10",
+      "completed_units": 0,
+      "total_units": 6,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan11",
+      "completed_units": 0,
+      "total_units": 24,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan12",
+      "completed_units": 0,
+      "total_units": 11,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan13",
+      "completed_units": 0,
+      "total_units": 21,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan14",
+      "completed_units": 0,
+      "total_units": 17,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan15",
+      "completed_units": 0,
+      "total_units": 11,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan16",
+      "completed_units": 0,
+      "total_units": 3,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan17",
+      "completed_units": 0,
+      "total_units": 20,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan18",
+      "completed_units": 0,
+      "total_units": 21,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan19",
+      "completed_units": 0,
+      "total_units": 19,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan20",
+      "completed_units": 0,
+      "total_units": 19,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan21",
+      "completed_units": 0,
+      "total_units": 31,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan22",
+      "completed_units": 0,
+      "total_units": 13,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan23",
+      "completed_units": 0,
+      "total_units": 18,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan24",
+      "completed_units": 0,
+      "total_units": 30,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan25",
+      "completed_units": 0,
+      "total_units": 29,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "juan26",
+      "completed_units": 0,
+      "total_units": 28,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "bu01",
+      "completed_units": 0,
+      "total_units": 31,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "bu02",
+      "completed_units": 0,
+      "total_units": 28,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "bu03",
+      "completed_units": 0,
+      "total_units": 29,
+      "sentence_pairs": 0,
+      "notes": 0
+    },
+    {
+      "page": "xu-bi",
+      "completed_units": 0,
+      "total_units": 11,
+      "sentence_pairs": 0,
+      "notes": 0
+    }
+  ],
+  "completed_units": 30,
+  "total_units": 595,
+  "sentence_pairs": 238,
+  "notes": 131,
+  "source_reconstruction_matches": true,
+  "raw_snapshots_verified": true,
+  "rendered_pairs_match": true,
+  "note_counts_match": true,
+  "next": {
+    "page_slug": "juan02",
+    "unit_id": "001",
+    "source_block_index": 0,
+    "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
+  },
+  "browser_visual_check": false,
+  "scope": "Technical coverage; semantic completeness requires editorial reading."
+}

@@ -290,134 +290,186 @@
           "id": "016",
           "source_block_index": 16,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "572b969bd236e23e6ca7cd3c200cfbf5acd11e89b26360360e59b3861093214f",
           "main_sha256": "572b969bd236e23e6ca7cd3c200cfbf5acd11e89b26360360e59b3861093214f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "雌黄改字",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "017",
           "source_block_index": 17,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ca87c33e6084ab8d6cd731979a843ea47a68b1338f4daa4f30ddef46f55d7267",
           "main_sha256": "ca87c33e6084ab8d6cd731979a843ea47a68b1338f4daa4f30ddef46f55d7267",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "鄜延五司厅",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "018",
           "source_block_index": 18,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6abd0d7637c9ca3056bd03c65f6338e2dc3f9ad796e15ef5d603ca2ecf4aabc6",
           "main_sha256": "6abd0d7637c9ca3056bd03c65f6338e2dc3f9ad796e15ef5d603ca2ecf4aabc6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "银台司隶属",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "019",
           "source_block_index": 19,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "27975fba6735cfbf3c97d03de7abb2a3f566c643e12c24fd118b29aca1060644",
           "main_sha256": "27975fba6735cfbf3c97d03de7abb2a3f566c643e12c24fd118b29aca1060644",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "卤簿勘箭",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "020",
           "source_block_index": 20,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7244a23c8617da051eeab3c47dc169abab75e8c4bce1c1e9fb184bda0b049b27",
           "main_sha256": "7244a23c8617da051eeab3c47dc169abab75e8c4bce1c1e9fb184bda0b049b27",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "四馆校书未竟",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "021",
           "source_block_index": 21,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8f9a2606b83376605248e52f443c4ff356b0d58756aa198dad6a0619460c56a7",
           "main_sha256": "8f9a2606b83376605248e52f443c4ff356b0d58756aa198dad6a0619460c56a7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "学士俸给与敕设",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "022",
           "source_block_index": 22,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "166bf78cc37c21f7c7d7bd7f81eeaa516ddc0fb9d4c3695f254cdf849228dfae",
           "main_sha256": "166bf78cc37c21f7c7d7bd7f81eeaa516ddc0fb9d4c3695f254cdf849228dfae",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "进士与学究的试场待遇",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "023",
           "source_block_index": 23,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "00883b88625f25119edf63bb55984ccb5ada66f61e40c4307cabd71083425c60",
           "main_sha256": "00883b88625f25119edf63bb55984ccb5ada66f61e40c4307cabd71083425c60",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "王俊民状元与详定改制",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "024",
           "source_block_index": 24,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1d5a59ca92e358e06750e2538117b8086b0f300db62df9b320fb9a49e08cbf9f",
           "main_sha256": "1d5a59ca92e358e06750e2538117b8086b0f300db62df9b320fb9a49e08cbf9f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "步行学士与乘马入院",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "025",
           "source_block_index": 25,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "443d66282b134deaa668b50898713b57c3f094188e721a46cf45d603161b14f6",
           "main_sha256": "443d66282b134deaa668b50898713b57c3f094188e721a46cf45d603161b14f6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "车驾禁围与人门",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "026",
           "source_block_index": 26,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "84a0afed644dc94a79f440d1e478b6626b4b7fc116330c4bd2219163f0cd7388",
           "main_sha256": "84a0afed644dc94a79f440d1e478b6626b4b7fc116330c4bd2219163f0cd7388",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "后唐刘昫兼判三司文书",
+          "sentence_pairs": 11,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "027",
           "source_block_index": 27,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9229a2d483ae16584c6ad04bc47c2e76c08754a4116dca02a510423d0b8c9225",
           "main_sha256": "9229a2d483ae16584c6ad04bc47c2e76c08754a4116dca02a510423d0b8c9225",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "熟状进草与唐式判词",
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "028",
           "source_block_index": 28,
           "source_heading": "故事一",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "79c975a212436532cecedfc3ed8c0125f5e930dc4ad362459057273b3566ea45",
           "main_sha256": "79c975a212436532cecedfc3ed8c0125f5e930dc4ad362459057273b3566ea45",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "中枢官印材质",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
         }
       ],
-      "annotation_status": "in_progress"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan02",
@@ -1060,7 +1112,10 @@
               "text": "〈根勿反。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "source_reference_notes": [
+            "“轧吃”，音yà wù，指小孩子学说话时生涩不流利，此引申为“新生儿”。"
+          ]
         },
         {
           "id": "010",
@@ -2960,7 +3015,10 @@
           "raw_sha256": "499348b8eadddbb96d65860bf336c79b2af00c7c5fca205af30353397d0ba4e7",
           "main_sha256": "499348b8eadddbb96d65860bf336c79b2af00c7c5fca205af30353397d0ba4e7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "source_reference_notes": [
+            "当为“齐海陵王墓铭”之误。"
+          ]
         },
         {
           "id": "008",
@@ -6604,15 +6662,15 @@
     }
   ],
   "next": {
-    "page_slug": "juan01",
-    "unit_id": "016",
-    "source_block_index": 16,
+    "page_slug": "juan02",
+    "unit_id": "001",
+    "source_block_index": 0,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
-    "page_slug": "juan01",
-    "unit_id": "016",
-    "source_block_index": 16,
+    "page_slug": "juan02",
+    "unit_id": "001",
+    "source_block_index": 0,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "source_index": {
@@ -6625,5 +6683,20 @@
       "source_block_index": 0,
       "text": "续笔谈十一篇"
     }
-  ]
+  ],
+  "validation": {
+    "scope": "四库提要、自序、卷一的30个已完成段；其余565段待译",
+    "build": "passed",
+    "source_reconstruction": "passed",
+    "completed_units": 30,
+    "sentence_pairs": 238,
+    "independent_notes": 131,
+    "site_tests": {
+      "passed": 12,
+      "seconds": 70.441
+    },
+    "html_pages": 1048,
+    "diff_check": "passed",
+    "browser_visual_check": false
+  }
 }
