@@ -587,6 +587,17 @@ def _mengxi_spec():
             "page_sources": {p["slug"]: p["source"] for p in pages if "source" in p}}
 
 
+def _zhanguoce_spec():
+    progress = json.loads((ROOT / "sources/zhanguoce/progress.json").read_text(encoding="utf8"))
+    status = "东周28篇、西周17篇已完成注译；其余三十一卷及序附待整理，全书尚未完成。"
+    return {"title": "战国策（士礼居丛书本）", "author": "［汉］刘向编｜［清］黄丕烈札记",
+            "unit": "篇", "count_entries": True, "strict_pairs": True, "side_toc": True,
+            "index_footer": status,
+            "intro": "仅据维基文库《戰國策 (士禮居叢書本)》，保留所载姚本、鲍本等校注及札记，疑字照录加注。" + status,
+            "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
+            "page_sources": {p["slug"]: dict(p["source"], after="底本夹注分条移入注释；卷首注附于首篇，原位映射另存。题解、白话与编者释词为自撰。") for p in progress["pages"]}}
+
+
 def _classics_spec():
     entries = json.loads((ROOT / "sources" / "classic_list" / "entries.json").read_text(encoding="utf8"))
     return {"title": "经典名篇", "author": "个人选藏", "unit": "篇",
@@ -612,6 +623,7 @@ def _zengguofan_spec():
 
 
 POETRY = {
+    "zhanguoce": _zhanguoce_spec(),
     "zengguofan": _zengguofan_spec(),
     "classic_list": _classics_spec(),
     "mengxi": _mengxi_spec(),

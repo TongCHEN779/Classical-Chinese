@@ -8,16 +8,30 @@
     "snapshot": "sources/zhanguoce/wikisource/index.json"
   },
   "planned_scope": "目录所列六篇序、三十三卷正文、六篇附文；全览页不重复收入",
-  "completed_units": 0,
+  "completed_units": 45,
   "next": {
-    "action": "东周西周完成后核对其余三十一卷与序附，按原队列续编，不能标全书完成"
+    "action": "东周、西周已完成；下一步依指定版本目录核对六序、其余三十一卷和六篇附文，先缓存《戰國策書錄》，尚未开始译注。"
   },
   "next_new_entry": {
-    "action": "东周西周完成后核对其余三十一卷与序附，按原队列续编，不能标全书完成"
+    "action": "东周、西周已完成；下一步依指定版本目录核对六序、其余三十一卷和六篇附文，先缓存《戰國策書錄》，尚未开始译注。"
   },
   "validation": {
     "source_index_cached": true,
-    "translation_complete": false
+    "translation_complete": false,
+    "completed_scope": "东周28篇、西周17篇（非全书）",
+    "source_coverage": true,
+    "source_reconstruction": true,
+    "sentence_pairs": 315,
+    "notes": 687,
+    "editorial_review": "45篇白话逐句全量复读扩写，疑文明确保留；不以句数通过代替语义复核",
+    "report": "sources/zhanguoce/validation.json",
+    "whole_book_translation_complete": false,
+    "build": true,
+    "all_checks_passed": true,
+    "site_pages": 1101,
+    "source_pages_cross_checked": 998,
+    "git_diff_check": true,
+    "browser_visual_check": false
   },
   "pages": [
     {
@@ -1743,7 +1757,8 @@
           "editor_note_count": 2
         }
       ],
-      "annotation_status": "complete"
+      "annotation_status": "complete",
+      "preface_note_count": 1
     },
     {
       "slug": "xizhou",
@@ -3026,8 +3041,15 @@
           "editor_note_count": 3
         }
       ],
-      "annotation_status": "complete"
+      "annotation_status": "complete",
+      "preface_note_count": 1
     }
   ],
-  "scope_note": "本轮用户指定东周、西周两册；其余卷序附文仍待整理，不据两册完成标记全书完成。"
+  "scope_note": "本轮用户指定东周、西周两册；其余卷序附文仍待整理，不据两册完成标记全书完成。",
+  "sentence_pairs": 315,
+  "notes": 687,
+  "completed_volumes": [
+    "dongzhou",
+    "xizhou"
+  ]
 }

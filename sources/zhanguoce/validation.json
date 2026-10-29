@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "page": "dongzhou",
+      "chapters": 28,
+      "sentence_pairs": 179,
+      "notes": 389
+    },
+    {
+      "page": "xizhou",
+      "chapters": 17,
+      "sentence_pairs": 136,
+      "notes": 298
+    }
+  ],
+  "completed_chapters": 45,
+  "sentence_pairs": 315,
+  "notes": 687,
+  "source_coverage": true,
+  "source_reconstruction": true,
+  "raw_snapshot_hashes": true,
+  "rendered_pairs": true,
+  "note_counts": true,
+  "whole_book_complete": false,
+  "browser_visual_check": false
+}
