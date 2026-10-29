@@ -5940,27 +5940,35 @@
           "id": "001",
           "source_block_index": 1,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0cf8fb8753daab13e5fe6ada886fdcff0a1ffe3c02e01f0062fbf1ec627f2d3b",
           "main_sha256": "0cf8fb8753daab13e5fe6ada886fdcff0a1ffe3c02e01f0062fbf1ec627f2d3b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "石曼卿厢中受杖",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "002",
           "source_block_index": 2,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5a7ab66b03c794244f8b8d092703ae51246872ae78b2fe63e96427ec88974c18",
           "main_sha256": "5a7ab66b03c794244f8b8d092703ae51246872ae78b2fe63e96427ec88974c18",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "文章地理与尺度之病",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "003",
           "source_block_index": 3,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3c2e9b1d9d193d98aeda8604db820b2d2b09063cd27e3f2f475226804f76b7e6",
           "main_sha256": "9dd962feb0afcedd0dadbcb2cdcc46464c1d8b0399f0ab372c2b48a9926d4d57",
           "source_notes": [
@@ -5969,160 +5977,224 @@
               "text": "〈音叫。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "色缴的讥称",
+          "sentence_pairs": 5,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "004",
           "source_block_index": 4,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cdfba560a98714bafb0b79fdc4d4e55fe1795aa21d6093552f6a9e932f52731e",
           "main_sha256": "cdfba560a98714bafb0b79fdc4d4e55fe1795aa21d6093552f6a9e932f52731e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "冷中允热修撰",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "005",
           "source_block_index": 5,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fcd3e7f967c60ea7130f3e2350cfa176cb0effd107bbdbfa71746b48fc634343",
           "main_sha256": "fcd3e7f967c60ea7130f3e2350cfa176cb0effd107bbdbfa71746b48fc634343",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "梅询羡不识字",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "006",
           "source_block_index": 6,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "78aad334cbbba21091e1972379123369dbba79d28bbaa5f5694a191ef3634796",
           "main_sha256": "78aad334cbbba21091e1972379123369dbba79d28bbaa5f5694a191ef3634796",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "绯袈裟与一只眼",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "007",
           "source_block_index": 7,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9325a5508543d4dc2f25a7663f643c98fca8eb5797fd48aab04907cb9bd1f0e1",
           "main_sha256": "9325a5508543d4dc2f25a7663f643c98fca8eb5797fd48aab04907cb9bd1f0e1",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "问不会用不错",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "008",
           "source_block_index": 8,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "77424414913a3b1959d23a4103a442c21142e709fc3a88ca56fe45fc4ebc4134",
           "main_sha256": "77424414913a3b1959d23a4103a442c21142e709fc3a88ca56fe45fc4ebc4134",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "十年凤凰池之讥",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "009",
           "source_block_index": 9,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "aecd3baed8b04f0eeeedd978cd1860b38ecde19e67d6f939976e23ba63818197",
           "main_sha256": "aecd3baed8b04f0eeeedd978cd1860b38ecde19e67d6f939976e23ba63818197",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "木马与凌床",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "010",
           "source_block_index": 10,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8805c136646ae80886aafcfde5429ef0f27c32e87dfa33f2169aa5be4addef54",
           "main_sha256": "8805c136646ae80886aafcfde5429ef0f27c32e87dfa33f2169aa5be4addef54",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "王告争都工",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "011",
           "source_block_index": 11,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "eaec24d3524a53893e94391bfaae366b715d17e724718ffd39bee5d5b9607530",
           "main_sha256": "eaec24d3524a53893e94391bfaae366b715d17e724718ffd39bee5d5b9607530",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "奉职薄俸诗",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "012",
           "source_block_index": 12,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2434995b35f2c46dea128229fdebba4526897f35a54f99567158a2efda2e013f",
           "main_sha256": "2434995b35f2c46dea128229fdebba4526897f35a54f99567158a2efda2e013f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "县尉答索米诗",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "013",
           "source_block_index": 13,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "720b9e80c810f4bf5accbea9e93ab6a316e21b70a111e8a120f75386430e7b4a",
           "main_sha256": "720b9e80c810f4bf5accbea9e93ab6a316e21b70a111e8a120f75386430e7b4a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "石曼卿被黜自嘲",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "014",
           "source_block_index": 14,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9dd5ca367e2f0330b13384deeacc932e78abc042d3477d2cc1c91a3d15bed4d8",
           "main_sha256": "9dd5ca367e2f0330b13384deeacc932e78abc042d3477d2cc1c91a3d15bed4d8",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "洛阳卤簿追索文书",
+          "sentence_pairs": 1,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "015",
           "source_block_index": 15,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "79d28bd1a6964996005a0599a19a44dbc9e17efb7562f5d9162fd30c0a4881ab",
           "main_sha256": "79d28bd1a6964996005a0599a19a44dbc9e17efb7562f5d9162fd30c0a4881ab",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "齐丘杀徐氏之讽",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "016",
           "source_block_index": 16,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "029422b4f2ab9c98b6b7bf215868c367a9e209689cf73ff9fb1551ab18bf9d38",
           "main_sha256": "029422b4f2ab9c98b6b7bf215868c367a9e209689cf73ff9fb1551ab18bf9d38",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "攀故相的反讽",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "017",
           "source_block_index": 17,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "516ca87e4ad7a2816323167b648b226ccce00f23ce2ca510c41e69297746eb5d",
           "main_sha256": "516ca87e4ad7a2816323167b648b226ccce00f23ce2ca510c41e69297746eb5d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "伪托官交与害肚历",
+          "sentence_pairs": 15,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "018",
           "source_block_index": 18,
           "source_heading": "讥谑",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c67d42cbd4cf0a9d576360ba55ef61aa0b3bac6eff481d8afd7cdc41fda94962",
           "main_sha256": "c67d42cbd4cf0a9d576360ba55ef61aa0b3bac6eff481d8afd7cdc41fda94962",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "曹公梅与右军鹅",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 4
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan24",
@@ -8106,13 +8178,13 @@
     }
   ],
   "next": {
-    "page_slug": "juan23",
+    "page_slug": "juan24",
     "unit_id": "001",
     "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
-    "page_slug": "juan23",
+    "page_slug": "juan24",
     "unit_id": "001",
     "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
@@ -8129,17 +8201,17 @@
     }
   ],
   "validation": {
-    "scope": "四库提要、自序及卷一至二十二；余204段待译",
+    "scope": "四库提要、自序及卷一至二十三；余186段待译",
     "build": "passed",
     "source_reconstruction": "passed",
-    "completed_units": 391,
-    "sentence_pairs": 3909,
-    "independent_notes": 1754,
+    "completed_units": 409,
+    "sentence_pairs": 4013,
+    "independent_notes": 1820,
     "site_tests": {
       "passed": 13,
-      "seconds": 76.02
+      "seconds": 76.948
     },
-    "html_pages": 1084,
+    "html_pages": 1085,
     "diff_check": "passed",
     "browser_visual_check": false
   },
@@ -8314,6 +8386,18 @@
       "三暖船、章秦等疑字保留加注",
       "占卜获利机制与预测能力分清",
       "雅言误听完整译出"
+    ]
+  },
+  "editorial_review_juan23": {
+    "units": 18,
+    "sentence_pairs": 104,
+    "notes": 66,
+    "complete": true,
+    "cautions": [
+      "诗句和俸钱数字完整保留",
+      "不具名人物不臆定",
+      "宁齐丘、觅甚瓮等疑字照存加注",
+      "017含两事，不删馆阁宿历后段"
     ]
   }
 }
