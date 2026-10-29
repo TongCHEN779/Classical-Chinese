@@ -2768,167 +2768,231 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cd28aeeee00ccbbe78b3fe19b60c7cf359d906e3b99cab52ead13a89d21b7dde",
           "main_sha256": "cd28aeeee00ccbbe78b3fe19b60c7cf359d906e3b99cab52ead13a89d21b7dde",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "陈恕茶利十倍之誉",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fe1efb5dee2eb4fe3eb260636522c04567b11a6035205302eb699f44c0e7f5e2",
           "main_sha256": "fe1efb5dee2eb4fe3eb260636522c04567b11a6035205302eb699f44c0e7f5e2",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "三说是博籴便籴直便",
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "77604661bb6f74a44843aa2829246571435877adc6b892607978e160e028dd69",
           "main_sha256": "77604661bb6f74a44843aa2829246571435877adc6b892607978e160e028dd69",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "马面长密胜于徒厚城墙",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6206991791cf8c7a3cffd5b2427d3693fc501d92ece6403f839f9b18e4208401",
           "main_sha256": "6206991791cf8c7a3cffd5b2427d3693fc501d92ece6403f839f9b18e4208401",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "刘晏分等籴米法",
+          "sentence_pairs": 11,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f55bdf4d27bac60e50fc23b4606d4b0d5dd73ea41bd34aafa4e1593277313ed7",
           "main_sha256": "f55bdf4d27bac60e50fc23b4606d4b0d5dd73ea41bd34aafa4e1593277313ed7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "校书墨漫作弊与朱圈责任",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b925a60d9a7db89d479999e9545c8940d0ed60a93799a9343c61e76a3254dcd0",
           "main_sha256": "b925a60d9a7db89d479999e9545c8940d0ed60a93799a9343c61e76a3254dcd0",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "均税须知历史缘由",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3da4fa6d2c731f29c25f9a95a41be491956ea0bac9b193f560095d1ab7aeb996",
           "main_sha256": "3da4fa6d2c731f29c25f9a95a41be491956ea0bac9b193f560095d1ab7aeb996",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "保留盐曲旧税名",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "32c17e00a030e52562ac7f961a9e82d39b54acfddb8e3fcbfbf0f152a3553d7a",
           "main_sha256": "32c17e00a030e52562ac7f961a9e82d39b54acfddb8e3fcbfbf0f152a3553d7a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "义绝与户绝两案",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "83655b372221f0a00b39361ea102f065254951cc5e9904eecbe82a78f68733b2",
           "main_sha256": "83655b372221f0a00b39361ea102f065254951cc5e9904eecbe82a78f68733b2",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "深州迁址与傅潜私利",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "35cce813d29f8f71a5de8753dab06cbe803b7d2ca42485e8627a4860519e0ecc",
           "main_sha256": "35cce813d29f8f71a5de8753dab06cbe803b7d2ca42485e8627a4860519e0ecc",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "免官重叙的先品",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8139c370cadee777f7b2f2a2fd047586c018eb388fca6fdb584d214cb09c7dc1",
           "main_sha256": "8139c370cadee777f7b2f2a2fd047586c018eb388fca6fdb584d214cb09c7dc1",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "累降四等的立法用意",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "012",
           "source_block_index": 11,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c39bb4cca938a3145db096289708f04dca373090fbf934b74e3b8762e61e49a8",
           "main_sha256": "c39bb4cca938a3145db096289708f04dca373090fbf934b74e3b8762e61e49a8",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "战棚不可因有敌楼而废",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "013",
           "source_block_index": 12,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a944a57dda7a8cad6d976eb52fa6b5bbfd38c7da9b9a9ddb2a39015b620ef3a8",
           "main_sha256": "a944a57dda7a8cad6d976eb52fa6b5bbfd38c7da9b9a9ddb2a39015b620ef3a8",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "鞠氏以赔钱禁先动手",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "014",
           "source_block_index": 13,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "87c06811e9aa5f3e3b8acee289c14b613bb1591ea60b825186f66ef5351bbc4f",
           "main_sha256": "87c06811e9aa5f3e3b8acee289c14b613bb1591ea60b825186f66ef5351bbc4f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "赵谏挟阴事与告法",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "015",
           "source_block_index": 14,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "26bb2a638d0296965adf4eb118a9e05e4451d7eae12aea71b7b3f4ce4ce7a664",
           "main_sha256": "26bb2a638d0296965adf4eb118a9e05e4451d7eae12aea71b7b3f4ce4ce7a664",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "金字牌急脚递",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "016",
           "source_block_index": 15,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c730360f6c27bfa978a23800478d80bb358e651957eca2e415aafe5e3015281e",
           "main_sha256": "c730360f6c27bfa978a23800478d80bb358e651957eca2e415aafe5e3015281e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "范仲淹以兴作救荒",
+          "sentence_pairs": 11,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "017",
           "source_block_index": 16,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8b8e80b3b78e6574d646f743a3a60823438942d16807b79c84dc01f428816349",
           "main_sha256": "a7f9558f015ef630fa3895eff0ae9ec35e1380d04f98f58cc946f19d759191cc",
           "source_notes": [],
@@ -2937,80 +3001,112 @@
               "main_offset": 493,
               "text": "\n"
             }
-          ]
+          ],
+          "title": "人运粮的路程与消耗",
+          "sentence_pairs": 33,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "018",
           "source_block_index": 17,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "401c3e7e0000629257e3e5e355f40e6660f9444d8163e31f0ee76768f0996cd3",
           "main_sha256": "401c3e7e0000629257e3e5e355f40e6660f9444d8163e31f0ee76768f0996cd3",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "券粟招抚反诱寇掠",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "019",
           "source_block_index": 18,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3946522f2903b261e07e18dfa91853eccec507052863d1d8628b8617521e371b",
           "main_sha256": "3946522f2903b261e07e18dfa91853eccec507052863d1d8628b8617521e371b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "高超三节埽合龙",
+          "sentence_pairs": 16,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "020",
           "source_block_index": 19,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "937833115f7b16b5948e1d120258e161e1e8dd09e3e49804af8fc9eba2523524",
           "main_sha256": "937833115f7b16b5948e1d120258e161e1e8dd09e3e49804af8fc9eba2523524",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "四种盐及运费",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "021",
           "source_block_index": 20,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "06e22169bba906227b03181e76f927e20e1636af14cb17b7e280e088eae64b5b",
           "main_sha256": "06e22169bba906227b03181e76f927e20e1636af14cb17b7e280e088eae64b5b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "赤油伞验伤旧法",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "022",
           "source_block_index": 21,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7dd5112a240d70edf72aa6393c242cee2134ab5a23c1de011bb3a2e15fc2c0bc",
           "main_sha256": "7dd5112a240d70edf72aa6393c242cee2134ab5a23c1de011bb3a2e15fc2c0bc",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "滉柱与月堤",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "023",
           "source_block_index": 22,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2c9c36e9ef8746f7b12383dcbaa09ec5ced8ca8d7c94fb0f7536ee94f105a63a",
           "main_sha256": "2c9c36e9ef8746f7b12383dcbaa09ec5ced8ca8d7c94fb0f7536ee94f105a63a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "范祥盐钞与调价",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "024",
           "source_block_index": 23,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "08c6463dc490d9af119baa7e1072dd56e97c769dc54695ef729f4e2dfb2e2dd4",
           "main_sha256": "08c6463dc490d9af119baa7e1072dd56e97c769dc54695ef729f4e2dfb2e2dd4",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "河北不榷盐的两朝敕意",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan12",
@@ -3026,114 +3122,158 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "102313ae33197aa964bdfdcb63b7df8b5aca815776f2656a4cc2c206cd27a3da",
           "main_sha256": "102313ae33197aa964bdfdcb63b7df8b5aca815776f2656a4cc2c206cd27a3da",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "复闸代埭与运舟增载",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8df398bcddda3d555c2207f161f33795410c7e1bfc57b122049c33644508cb75",
           "main_sha256": "8df398bcddda3d555c2207f161f33795410c7e1bfc57b122049c33644508cb75",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "张杲卿从认尸破案",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "dbb9a18bba61f2f3ea1a23ca9c068990ebf40ad8e1a0a9a98428a914ee9f728d",
           "main_sha256": "dbb9a18bba61f2f3ea1a23ca9c068990ebf40ad8e1a0a9a98428a914ee9f728d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "先省国用再论弛禁",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "691a8c43ae8d6723c78eea5437d871917641e6bc239008eae32330f39f16b3bf",
           "main_sha256": "691a8c43ae8d6723c78eea5437d871917641e6bc239008eae32330f39f16b3bf",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "王钦若独请全免旱税",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8a9231ae9d5c11e46c4916b86e8d5e49a12153a39dcaf39ee0f5e912fcf76820",
           "main_sha256": "8a9231ae9d5c11e46c4916b86e8d5e49a12153a39dcaf39ee0f5e912fcf76820",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "历年铸钱额",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5dda6168c37c8c45348d7e734dfbbdfbf0a01a31036beaa83ef5fddef1582733",
           "main_sha256": "5dda6168c37c8c45348d7e734dfbbdfbf0a01a31036beaa83ef5fddef1582733",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "吏禄设立与京师支出",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "365651811536656d8b0fd22eb8ec6ae0b5b443dcd24d834479af781ab701daca",
           "main_sha256": "365651811536656d8b0fd22eb8ec6ae0b5b443dcd24d834479af781ab701daca",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "禁榷通商茶利分项",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4aaa3ea52e9249bb8739b33e42d35588c8eed76dadb8f672b8aefdbd766cdd3d",
           "main_sha256": "4aaa3ea52e9249bb8739b33e42d35588c8eed76dadb8f672b8aefdbd766cdd3d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "茶法年次与贴射废复",
+          "sentence_pairs": 19,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b718eeaf8ff9228c2a6dded68afbca19df83e154f68bd68aa587c6554da8a6f7",
           "main_sha256": "b718eeaf8ff9228c2a6dded68afbca19df83e154f68bd68aa587c6554da8a6f7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "六榷务十三山场账数",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6337f2c1d21ddd92eac9596150d21a46a9d08100708aff20ea828699de15f3cf",
           "main_sha256": "6337f2c1d21ddd92eac9596150d21a46a9d08100708aff20ea828699de15f3cf",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "六路供京米额",
+          "sentence_pairs": 1,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ead868280cef6962f5f97b2a98faa8daac3e7ac6f8744a8e7b079356a41725b2",
           "main_sha256": "ead868280cef6962f5f97b2a98faa8daac3e7ac6f8744a8e7b079356a41725b2",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "熙宁撤并州县名录",
+          "sentence_pairs": 86,
+          "source_note_count": 0,
+          "editor_note_count": 6
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan13",
@@ -3149,214 +3289,298 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3eac667b11919de818b7a9252735323a750f1d1d2394a1a5c6c6073c5e3a9f83",
           "main_sha256": "3eac667b11919de818b7a9252735323a750f1d1d2394a1a5c6c6073c5e3a9f83",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "雨盘助修盐井",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f849200c6961f56f4ee4e677bdfc1d149c1267880e74b1c98e6af3fca42d6e9f",
           "main_sha256": "f849200c6961f56f4ee4e677bdfc1d149c1267880e74b1c98e6af3fca42d6e9f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "喑者借叫子申冤",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "21d23d87eea50f3f98df205c7281655531d683e6d96a31cb912c283a548b1a4c",
           "main_sha256": "21d23d87eea50f3f98df205c7281655531d683e6d96a31cb912c283a548b1a4c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "饲养改变斗鸟习性",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5ca4b30e974bdcd8b611fc431f9a3b8739ecaa0d2ea0aebbe5ea1672fbf8d1a8",
           "main_sha256": "5ca4b30e974bdcd8b611fc431f9a3b8739ecaa0d2ea0aebbe5ea1672fbf8d1a8",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "狄青换旗与佯退",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c20ae7a1ab362b367c9965c8bbe50d523206b5fb291127bbca00a63b3df53dac",
           "main_sha256": "c20ae7a1ab362b367c9965c8bbe50d523206b5fb291127bbca00a63b3df53dac",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宴席掩护夺昆仑关",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fc101146fb978a83040319bcb63e40bb80741083f7acc662ae9075c234b5e0e9",
           "main_sha256": "fc101146fb978a83040319bcb63e40bb80741083f7acc662ae9075c234b5e0e9",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "曹玮诱疲兵再战",
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "70024078c87665993bf10b30d72d11a8667e510242e5ae091c420938bea04a59",
           "main_sha256": "70024078c87665993bf10b30d72d11a8667e510242e5ae091c420938bea04a59",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "临真尉的权术",
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9b713101b70f38b8d3a4069a9e68c487edf6c5f304183b2ad502206bc1c3252f",
           "main_sha256": "9b713101b70f38b8d3a4069a9e68c487edf6c5f304183b2ad502206bc1c3252f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "王雱答獐鹿",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3d2cf67590e36e44203056112c6bd053233d09aba24f7ba6ad5a29a5050ebe06",
           "main_sha256": "3d2cf67590e36e44203056112c6bd053233d09aba24f7ba6ad5a29a5050ebe06",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "矛斗乘隙与失机",
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fdb3e70a5dbf7dd0480fc82fdfb4393980bcb94f11df292ca013377c11860cfd",
           "main_sha256": "fdb3e70a5dbf7dd0480fc82fdfb4393980bcb94f11df292ca013377c11860cfd",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "就地埋石疏涧",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7060fdc5d8b98cb6ca2dbe79465fcb62cd09b77426a9e5a10ea1df74e8cfa2cf",
           "main_sha256": "7060fdc5d8b98cb6ca2dbe79465fcb62cd09b77426a9e5a10ea1df74e8cfa2cf",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "陈秀公焚地图",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "012",
           "source_block_index": 11,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5b9fc260b60ff35dcec07c7d66aee0564688250c72e08abf88b928203b6b0fe9",
           "main_sha256": "5b9fc260b60ff35dcec07c7d66aee0564688250c72e08abf88b928203b6b0fe9",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "狄青知止",
+          "sentence_pairs": 18,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "013",
           "source_block_index": 12,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9972d9ff30d7c902d4793772e619b7f76bc36d5bece253698d3dfafa3f65b2a6",
           "main_sha256": "9972d9ff30d7c902d4793772e619b7f76bc36d5bece253698d3dfafa3f65b2a6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "塘泺边防与民利",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "014",
           "source_block_index": 13,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c56afbc911008d361be594fff3a49beec5b76073cfdc1e6d02fe6652275f9e73",
           "main_sha256": "c56afbc911008d361be594fff3a49beec5b76073cfdc1e6d02fe6652275f9e73",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "罗隐谏防内乱",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "015",
           "source_block_index": 14,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "78c3eba93b7f76585027844a441db86f12a7c82870c58d2317eae287e8817bf8",
           "main_sha256": "78c3eba93b7f76585027844a441db86f12a7c82870c58d2317eae287e8817bf8",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "李继隆袭夏州与抚宁迁城",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "016",
           "source_block_index": 15,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fb9df649ded2c183e655760d77232ab05dcd53a40ee9d30f3dbdb3342ab5bd9b",
           "main_sha256": "fb9df649ded2c183e655760d77232ab05dcd53a40ee9d30f3dbdb3342ab5bd9b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "林广弱弓诱敌",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "017",
           "source_block_index": 16,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ab63fc08b32164abf1c0406d164baccb3d27de4785609f50689c3aa56bb5319c",
           "main_sha256": "ab63fc08b32164abf1c0406d164baccb3d27de4785609f50689c3aa56bb5319c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "苏昆长堤取土法",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "018",
           "source_block_index": 17,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5f2ca7cf230f3f0b429d7e490d2723bff981a1f4b42f26378d0373bc474fcec6",
           "main_sha256": "5f2ca7cf230f3f0b429d7e490d2723bff981a1f4b42f26378d0373bc474fcec6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "李允则借修庙扩城",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "019",
           "source_block_index": 18,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "eb35df865551d180c240afdaf48d581e66d6abe53317b8d611e013ab4ea53a0b",
           "main_sha256": "eb35df865551d180c240afdaf48d581e66d6abe53317b8d611e013ab4ea53a0b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "墨钟辨盗",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "020",
           "source_block_index": 19,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5476377d203e2920f5351b8e8c44caa6b32b3079199a251b273d66a15e1c7518",
           "main_sha256": "5476377d203e2920f5351b8e8c44caa6b32b3079199a251b273d66a15e1c7518",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "侯叔献借古城蓄洪",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "021",
           "source_block_index": 20,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5fc75ae780947c860a14a3a11add27393ce321fb649f2f324d23f8362d1b1787",
           "main_sha256": "5fc75ae780947c860a14a3a11add27393ce321fb649f2f324d23f8362d1b1787",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "种世衡擒酋与离间野利",
+          "sentence_pairs": 17,
+          "source_note_count": 0,
+          "editor_note_count": 7
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan14",
@@ -7266,13 +7490,13 @@
     }
   ],
   "next": {
-    "page_slug": "juan11",
+    "page_slug": "juan14",
     "unit_id": "001",
     "source_block_index": 0,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
-    "page_slug": "juan11",
+    "page_slug": "juan14",
     "unit_id": "001",
     "source_block_index": 0,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
@@ -7289,17 +7513,17 @@
     }
   ],
   "validation": {
-    "scope": "四库提要、自序、卷一至十181段；余414段待译",
+    "scope": "四库提要、自序及卷一至十三237段；余358段待译",
     "build": "passed",
     "source_reconstruction": "passed",
-    "completed_units": 181,
-    "sentence_pairs": 1973,
-    "independent_notes": 804,
+    "completed_units": 237,
+    "sentence_pairs": 2525,
+    "independent_notes": 1036,
     "site_tests": {
       "passed": 13,
-      "seconds": 72.522
+      "seconds": 72.343
     },
-    "html_pages": 1057,
+    "html_pages": 1060,
     "diff_check": "passed",
     "browser_visual_check": false
   },
@@ -7343,6 +7567,40 @@
       "卷八001引书错数与沈括拟校数分清",
       "卷九十一耆年会十三人名单完整保存",
       "卷七玠的姓氏未考定，不造姓氏封爵"
+    ]
+  },
+  "editorial_review_juan11_12": {
+    "new_units": 35,
+    "new_sentence_pairs": 367,
+    "new_notes": 135,
+    "scope": "卷十一、十二完整逐句白话、题解、分行注释",
+    "cautions": [
+      "卷十一017行粮分段、日数及合粮数字逐项保留，不强平算法",
+      "卷十一019埽法及异议完整译出，疑字保留",
+      "卷十二007钱额总分项有出入，不强平账",
+      "卷十二009茶场数额和县名疑字保留加注",
+      "卷十二011废县名录86组句对全译，未据他本静默改地名"
+    ]
+  },
+  "editorial_review_juan13_partial": {
+    "completed_units": 10,
+    "sentence_pairs": 83,
+    "notes": 46,
+    "cautions": [
+      "吉底、侯、雨睛、虎冀、起远、认诱、睷水等疑字原样保留加注",
+      "井气和动物习性按原作者解释译录，不作为现代实证结论",
+      "临真尉田讼的诈术及作者评价分别完整译出"
+    ]
+  },
+  "editorial_review_juan13": {
+    "completed_units": 21,
+    "sentence_pairs": 185,
+    "notes": 97,
+    "policy": "全卷逐句现代汉语白话、题解与分行注释；底本疑字保留，施工次序和完整问答未省略",
+    "cautions": [
+      "山踊、皆侮、为阴、乱堿、下临无水等有疑，不静默校换",
+      "苏昆堤畎字校异混入正文，原样保留并说明",
+      "造一马持战鼓及和蕃酋语有疑，不补造器物结构或确定校文"
     ]
   }
 }

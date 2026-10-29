@@ -86,24 +86,24 @@
     },
     {
       "page": "juan11",
-      "completed_units": 0,
+      "completed_units": 24,
       "total_units": 24,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 206,
+      "notes": 93
     },
     {
       "page": "juan12",
-      "completed_units": 0,
+      "completed_units": 11,
       "total_units": 11,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 161,
+      "notes": 42
     },
     {
       "page": "juan13",
-      "completed_units": 0,
+      "completed_units": 21,
       "total_units": 21,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 185,
+      "notes": 97
     },
     {
       "page": "juan14",
@@ -225,16 +225,16 @@
       "notes": 0
     }
   ],
-  "completed_units": 181,
+  "completed_units": 237,
   "total_units": 595,
-  "sentence_pairs": 1973,
-  "notes": 804,
+  "sentence_pairs": 2525,
+  "notes": 1036,
   "source_reconstruction_matches": true,
   "raw_snapshots_verified": true,
   "rendered_pairs_match": true,
   "note_counts_match": true,
   "next": {
-    "page_slug": "juan11",
+    "page_slug": "juan14",
     "unit_id": "001",
     "source_block_index": 0,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
