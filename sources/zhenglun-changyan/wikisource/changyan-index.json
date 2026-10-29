@@ -1,0 +1,32 @@
+{
+  "title": "昌言",
+  "url": "https://zh.wikisource.org/zh-hans/%E6%98%8C%E8%A8%80",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E6%98%8C%E8%A8%80",
+  "revision": "2160732",
+  "fetched_at": "2026-10-29T04:49:14.407412+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "昌言/弁言",
+      "label": "弁言"
+    },
+    {
+      "title": "昌言/卷上",
+      "label": "昌言上"
+    },
+    {
+      "title": "昌言/卷中",
+      "label": "昌言中"
+    },
+    {
+      "title": "昌言/卷下",
+      "label": "昌言下"
+    },
+    {
+      "title": "昌言/附錄",
+      "label": "附录"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

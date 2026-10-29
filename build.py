@@ -320,10 +320,15 @@ def _liaozhai_spec():
     import json
     progress = json.loads((ROOT / "sources/liaozhai/progress.json").read_text(encoding="utf8"))
     volumes = progress["volumes"]
-    complete = sum(e["status"] == "complete" for v in volumes for e in v.get("entries", []))
+    complete = sum(e["status"] == "complete" and e.get("kind") != "group"
+                   for v in volumes for e in v.get("entries", []))
+    drafts = sum(e["status"] == "draft" for v in volumes for e in v.get("entries", []))
     all_done = (all(v["status"] == "complete" for v in volumes)
                 and progress["preface_status"] == "complete")
-    status = "十二卷及《聊斋自志》全部整理完成。" if all_done else f"目前已整理{complete}篇，全文仍在整理中。"
+    status = (f"十二卷{complete}篇正文及《聊斋自志》全部整理完成；另保留卷十二附录分组说明。"
+              if all_done else f"目前已整理{complete}篇，全文仍在整理中。")
+    if drafts:
+        status += f"另有{drafts}篇注译初稿待扩写复核，不计入完成篇数。"
     page_sources = {}
     if progress.get("preface_review", {}).get("source") == "wikisource":
         page_sources["zizhi"] = progress["preface_review"]
@@ -335,9 +340,13 @@ def _liaozhai_spec():
             if len(wiki_entries) != len(entries):
                 source["prefix"] = f"本卷第{int(wiki_entries[0]['id'])}—{int(wiki_entries[-1]['id'])}篇原文据"
                 source["after"] = "此前各篇保留原扫描底本校录；"
+            if any(e["status"] == "draft" for e in entries):
+                source["after"] = source.get("after", "") + "本卷白话仍有速记式初稿，待逐句扩写复核，不代表整理完成；"
             page_sources[f"juan{volume['volume']:02d}"] = source
     return {"title": "聊斋志异", "author": "［清］蒲松龄", "unit": "篇",
             "count_entries": True, "summary_unit": "篇",
+            "count": lambda secs: (sum(bool(s["chunks"]) for s in secs), "篇"),
+            "index_footer": status,
             "page_sources": page_sources,
             "intro": "文言短篇小说集，写狐鬼花妖、世态人情。保留中华书局全本全注全译本的十二卷篇序；后续原文改取维基文库，继续逐句配自撰白话、注释与题解。" + status,
             "pages": [("zizhi", "聊斋自志")] + [
@@ -541,7 +550,25 @@ def _zuozhuan_spec():
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
 
 
+def _zhenglun_changyan_spec():
+    import json
+    progress = json.loads((ROOT / "sources/zhenglun-changyan/progress.json").read_text(encoding="utf8"))
+    pages = progress["pages"]
+    body = next(p for p in pages if p["slug"] == "zhenglun")
+    done = sum(u["status"] == "complete" for u in body["units"])
+    status = f"《政论》现已注译正文{done}/{len(body['units'])}段；《昌言》仍待整理，合目尚未完成。"
+    return {"title": "政论·昌言", "author": "［东汉］崔寔／仲长统", "unit": "项",
+            "count_entries": True, "summary_unit": "项", "index_footer": status,
+            "intro": "东汉两部政论著作合目，分别署崔寔《政论》、仲长统《昌言》。原书多佚，据维基文库现存辑本整理，保留引书、异文、阙题与缺佚说明，不补造亡文。" + status,
+            "pages": [(p["slug"], p["title"]) for p in pages],
+            "page_sources": {p["slug"]: dict(p["source"], after="底本〈夹注〉原样分条移入注释，原位映射保存在来源进度中；")
+                             for p in pages if "source" in p},
+            "page_options": {p["slug"]: {"footer": "白话、题解及释词为编者自撰；标作底本夹注的异文、引书说明沿用维基辑本，分别保留，不混署古作者。"}
+                             for p in pages}}
+
+
 POETRY = {
+    "zhenglun-changyan": _zhenglun_changyan_spec(),
     **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
     "zuozhuan": _zuozhuan_spec(),
     "canying": _canying_spec(),

@@ -1,0 +1,65 @@
+{
+  "pages": [
+    {
+      "page": "zhenglun-xu",
+      "completed_units": 1,
+      "total_units": 1,
+      "sentence_pairs": 30,
+      "source_notes": 0,
+      "editor_notes": 9
+    },
+    {
+      "page": "zhenglun",
+      "completed_units": 56,
+      "total_units": 56,
+      "sentence_pairs": 361,
+      "source_notes": 166,
+      "editor_notes": 222
+    },
+    {
+      "page": "changyan-shang",
+      "completed_units": 0,
+      "total_units": 14,
+      "sentence_pairs": 0,
+      "source_notes": 0,
+      "editor_notes": 0
+    },
+    {
+      "page": "changyan-zhong",
+      "completed_units": 0,
+      "total_units": 19,
+      "sentence_pairs": 0,
+      "source_notes": 0,
+      "editor_notes": 0
+    },
+    {
+      "page": "changyan-xia",
+      "completed_units": 0,
+      "total_units": 92,
+      "sentence_pairs": 0,
+      "source_notes": 0,
+      "editor_notes": 0
+    },
+    {
+      "page": "changyan-fulu",
+      "completed_units": 0,
+      "total_units": 14,
+      "sentence_pairs": 0,
+      "source_notes": 0,
+      "editor_notes": 0
+    }
+  ],
+  "source_reconstruction_matches": true,
+  "rendered_pairs_match": true,
+  "note_counts_match": true,
+  "scope": "Technical coverage; semantic completeness requires editorial reading.",
+  "browser_visual_check": false,
+  "next": {
+    "book": "昌言",
+    "page_slug": "changyan-shang",
+    "source_block_index": 1,
+    "unit_id": "001",
+    "opening": "豪杰之当天命者",
+    "action": "从卷上理乱篇首段开始；先读快照完整主文及夹注，按现有原位映射续作完整逐句白话，不重写政论。"
+  }
+}

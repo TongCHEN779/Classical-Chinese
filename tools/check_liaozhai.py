@@ -65,12 +65,14 @@ def source_entries(snapshot):
 def check_volume(volume):
     slug = f"juan{volume['volume']:02d}"
     completed = [e for e in volume["entries"] if e["status"] == "complete"]
+    drafted = [e for e in volume["entries"] if e["status"] == "draft"]
+    materialized = [e for e in volume["entries"] if e["status"] in ("complete", "draft")]
     if volume["status"] == "complete":
         assert len(completed) == len(volume["entries"])
     elif volume["status"] == "pending":
         assert not completed
     expected, checked, paragraphs, sentences, notes = [], [], 0, 0, 0
-    for entry in completed:
+    for entry in materialized:
         path = ROOT / "src/liaozhai" / slug / f"{entry['id']}.txt"
         sections = build.parse_poems([path])
         assert len(sections) == 1 and sections[0]["title"] == entry["title"], path
@@ -96,18 +98,20 @@ def check_volume(volume):
         assert (p, s, n) == (review["paragraphs"], review["sentence_pairs"], review["notes"]), path
         paragraphs, sentences, notes = paragraphs + p, sentences + s, notes + n
         checked.append(entry["title"])
-    if completed:
+    if materialized:
         reader = Reader()
         reader.feed((ROOT / "liaozhai" / f"{slug}.html").read_text())
         assert reader.translations == expected, slug
         assert len(reader.ids) == len(set(reader.ids)), slug
-        assert len(reader.anchors) == len(completed), slug
+        assert len(reader.anchors) == len(materialized), slug
         assert set(reader.anchors) <= set(reader.ids), slug
     catalog = volume.get("catalog_source")
     if catalog:
         source = json.loads((ROOT / catalog["snapshot"]).read_text())
         assert [e["title"] for e in volume["entries"]] == list(source_entries(source)), slug
     return {"volume": volume["volume"], "wiki_entries_checked": len(checked),
+            "group_entries_without_original_text": sum(e.get("kind") == "group" for e in materialized),
+            "draft_entries_not_editorially_complete": len(drafted),
             "paragraphs": paragraphs, "sentence_pairs": sentences, "notes": notes,
             "source_coverage_and_rendered_translations_match": True}
 
