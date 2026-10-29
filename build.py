@@ -556,7 +556,10 @@ def _zhenglun_changyan_spec():
     pages = progress["pages"]
     body = next(p for p in pages if p["slug"] == "zhenglun")
     done = sum(u["status"] == "complete" for u in body["units"])
-    status = f"《政论》现已注译正文{done}/{len(body['units'])}段；《昌言》仍待整理，合目尚未完成。"
+    changyan = [u for p in pages if p["slug"].startswith("changyan") for u in p["units"]]
+    changyan_done = sum(u["status"] == "complete" for u in changyan)
+    status = (f"《政论》正文{done}/{len(body['units'])}段、《昌言》含资料附录{changyan_done}/{len(changyan)}段已注译。"
+              + ("所据辑本整理完成。" if progress["status"] == "complete" else "合目尚未完成。"))
     return {"title": "政论·昌言", "author": "［东汉］崔寔／仲长统", "unit": "项",
             "count_entries": True, "summary_unit": "项", "index_footer": status,
             "intro": "东汉两部政论著作合目，分别署崔寔《政论》、仲长统《昌言》。原书多佚，据维基文库现存辑本整理，保留引书、异文、阙题与缺佚说明，不补造亡文。" + status,

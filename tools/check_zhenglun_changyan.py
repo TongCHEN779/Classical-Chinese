@@ -22,6 +22,13 @@ def main():
         if page.get('kind') == 'editorial':
             continue
         snapshot = json.loads((ROOT / page['source']['snapshot']).read_text())
+        if page['slug'] == 'zhenglun-xu':
+            source_indexes = [0]
+        elif page['slug'] == 'zhenglun':
+            source_indexes = progress['books'][0]['text_blocks']
+        else:
+            source_indexes = [i for i, b in enumerate(snapshot['blocks']) if b['type'] == 'p']
+        assert [u['source_block_index'] for u in page['units']] == source_indexes, page['slug']
         expected, completed, source_count, editor_count = [], 0, 0, 0
         for unit in page['units']:
             raw = snapshot['blocks'][unit['source_block_index']]['text']

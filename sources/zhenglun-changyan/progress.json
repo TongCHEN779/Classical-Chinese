@@ -114,7 +114,7 @@
           "snapshot": "sources/zhenglun-changyan/wikisource/pages/bbc80a08d312744e.json",
           "blocks": 18,
           "characters": 5274,
-          "annotation_status": "pending"
+          "annotation_status": "complete"
         },
         {
           "title": "昌言/卷中",
@@ -142,16 +142,17 @@
         }
       ],
       "editorial_policy": "弁言署胡不归，属现代编者说明；附录需逐段区分《后汉书》传记、所引仲长统诗与其他材料，不把全附录署作昌言正文。",
-      "completed_units": 0
+      "completed_units": 14,
+      "annotation_status": "in_progress"
     }
   ],
   "next": {
     "book": "昌言",
-    "page_slug": "changyan-shang",
-    "source_block_index": 1,
+    "page_slug": "changyan-zhong",
+    "source_block_index": 0,
     "unit_id": "001",
-    "opening": "豪杰之当天命者",
-    "action": "从卷上理乱篇首段开始；先读快照完整主文及夹注，按现有原位映射续作完整逐句白话，不重写政论。"
+    "opening": "德教者，人君之常任也",
+    "action": "卷上已全成，接卷中第一段；正文与夹注分清，保留全部引书、异文与原位映射，不重写已完成页。"
   },
   "site_entry": {
     "slug": "zhenglun-changyan",
@@ -1662,7 +1663,7 @@
       "slug": "changyan-shang",
       "title": "昌言·卷上",
       "author": "仲长统",
-      "annotation_status": "pending",
+      "annotation_status": "complete",
       "source": {
         "url": "https://zh.wikisource.org/zh-hans/%E6%98%8C%E8%A8%80/%E5%8D%B7%E4%B8%8A",
         "revision": "343379",
@@ -1674,7 +1675,7 @@
           "id": "001",
           "source_block_index": 1,
           "source_heading": "理乱篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "74ac7f8515e53625aac73093a2ffd670beb7a30baa927956d6fc62e2fdb04467",
           "main_sha256": "812d2ccaa198fa62996aab58864fd525e62ec9ae23d6c42701257558bbc2012d",
           "source_notes": [
@@ -1700,23 +1701,31 @@
               "main_offset": 188,
               "text": "\n"
             }
-          ]
+          ],
+          "title": "理乱篇·开国与继体",
+          "sentence_pairs": 21,
+          "source_note_count": 4,
+          "editor_note_count": 9
         },
         {
           "id": "002",
           "source_block_index": 2,
           "source_heading": "理乱篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8e77218db8925353b8315b54d45c53aded166ebe3e28b87b521f790482e4d79b",
           "main_sha256": "8e77218db8925353b8315b54d45c53aded166ebe3e28b87b521f790482e4d79b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "理乱篇·豪强荣乐与君子困境",
+          "sentence_pairs": 23,
+          "source_note_count": 0,
+          "editor_note_count": 8
         },
         {
           "id": "003",
           "source_block_index": 3,
           "source_heading": "理乱篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e7481265b01d6b070b78690f48b7148fb91270892a6866028addc428d5e456b4",
           "main_sha256": "962edb44866979abf8b421e2cb3407196627ef6b6b69e3e853d389f0ff500c97",
           "source_notes": [
@@ -1725,43 +1734,59 @@
               "text": "〈（《后汉书•仲长统传》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "理乱篇·乱祸递增之叹",
+          "sentence_pairs": 12,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "004",
           "source_block_index": 5,
           "source_heading": "损益篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "834beb064226d2acd1e81c05b6593eec42868522e5b9d24d191e01aed3de6ddf",
           "main_sha256": "834beb064226d2acd1e81c05b6593eec42868522e5b9d24d191e01aed3de6ddf",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "损益篇·封国之变有善",
+          "sentence_pairs": 17,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "005",
           "source_block_index": 6,
           "source_heading": "损益篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "06f32bc776e58739f5d2489e03a19ff0d19ee391035c4c581b8c2f5dbd45478b",
           "main_sha256": "06f32bc776e58739f5d2489e03a19ff0d19ee391035c4c581b8c2f5dbd45478b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "损益篇·井田之复",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 7,
           "source_heading": "损益篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a4ceccbc7ba248aac253914fd811d87b290873481488ded99f6459bd121b1402",
           "main_sha256": "a4ceccbc7ba248aac253914fd811d87b290873481488ded99f6459bd121b1402",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "损益篇·恢复中刑之议",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "007",
           "source_block_index": 8,
           "source_heading": "损益篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "06c646757c87d0ec9e081e5e0171201f46a349cdd5b9fa41cfc54f4028422d59",
           "main_sha256": "28f5d8820ea5b3589819f51c8bec19a7d64a18944d5de7d15a4cf38f15fe86b1",
           "source_notes": [
@@ -1770,33 +1795,45 @@
               "text": "〈（“而诸夏”下四十九字从《通典》卷一《食货》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "损益篇·分职与十六政务",
+          "sentence_pairs": 13,
+          "source_note_count": 1,
+          "editor_note_count": 7
         },
         {
           "id": "008",
           "source_block_index": 9,
           "source_heading": "损益篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "55ffe78e9e7da335aa734d9d1c9ebb4aedf29c4349c480398405e46d66755905",
           "main_sha256": "55ffe78e9e7da335aa734d9d1c9ebb4aedf29c4349c480398405e46d66755905",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "损益篇·人才逐层选用",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "009",
           "source_block_index": 10,
           "source_heading": "损益篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3aceacc9b47ea1047fe2054519d982ea47054b2c41dd74a116c294e695c49ad2",
           "main_sha256": "3aceacc9b47ea1047fe2054519d982ea47054b2c41dd74a116c294e695c49ad2",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "损益篇·厚禄与蓄积的答难",
+          "sentence_pairs": 18,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "010",
           "source_block_index": 11,
           "source_heading": "损益篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "39d9ed1db339c0a35e569d0573306e8883bd3746b2e0eb0f1dbd29aacceeac4d",
           "main_sha256": "d00e82715fbe25418a738fe351de07451090bc69f5cbdc3971ebe996d793ea27",
           "source_notes": [
@@ -1805,13 +1842,17 @@
               "text": "〈（《后汉书•仲长统传》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "损益篇·常税常禄与田额",
+          "sentence_pairs": 11,
+          "source_note_count": 1,
+          "editor_note_count": 5
         },
         {
           "id": "011",
           "source_block_index": 13,
           "source_heading": "法诫篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ec4b545839736c127587c4e6ad0469764ecefd0db1c2f84b0d01dcd13ee3e25a",
           "main_sha256": "f958eac13f0253a5aebc167a64655b0b3a067c5bf6f071351abf4aa46130932b",
           "source_notes": [
@@ -1820,13 +1861,17 @@
               "text": "〈（“冢宰”下八十五字据《御览》卷二百六补，按此条《全后汉文》未收）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "法诫篇·冢宰与丞相",
+          "sentence_pairs": 12,
+          "source_note_count": 1,
+          "editor_note_count": 6
         },
         {
           "id": "012",
           "source_block_index": 14,
           "source_heading": "法诫篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b8301c727918f1fe41fb070c17ba7ea6f966abdbdd1cb4cdeea824aae3ec83a7",
           "main_sha256": "deeae5c8999536ee4abfc71d4adcfb8a719a1917f39ac0af1c50cb0eb1eac0c5",
           "source_notes": [],
@@ -1835,13 +1880,17 @@
               "main_offset": 330,
               "text": "\n"
             }
-          ]
+          ],
+          "title": "法诫篇·有责无权的三公",
+          "sentence_pairs": 27,
+          "source_note_count": 0,
+          "editor_note_count": 9
         },
         {
           "id": "013",
           "source_block_index": 15,
           "source_heading": "法诫篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b6855e93f6626ac22b7a9df0eac9691a2a5052aed4aae18279b8ee242039f9ca",
           "main_sha256": "883fed21c3327a8471df252e5412137acdf85f445945d1e0d6399b8c366b2b40",
           "source_notes": [
@@ -1850,13 +1899,17 @@
               "text": "〈（《后汉书•仲长统传》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "法诫篇·何独疑丞相权重",
+          "sentence_pairs": 5,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "014",
           "source_block_index": 17,
           "source_heading": "阙题一篇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b93c25650a516c0f3ffcc3c65b7e1fd0502818c40ac0f5056a48db9f5331b9bb",
           "main_sha256": "4688fc8495a0976e43e928297957978d37b3d77b69bb89be0a5c94486947f006",
           "source_notes": [
@@ -1869,7 +1922,11 @@
               "text": "〈（《后汉书•仲长统传》）《全后汉文》注：“本《传》，统常以为凡游帝王者，欲以立身扬名耳，而名不常存，人生易灭，优游偃仰，可以自娱，欲卜居清旷，以乐其志，论之曰云云。据《文选》《闲居赋》注引《昌言》曰‘沟池自周，竹木自环’，今此有‘沟池环匝，竹木周布’二语，知即三十四篇之一。疑在《自叙篇》，或当以‘卜居’名篇。胡维新《两京遗篇》题为《乐志论》，而出《昌言》外，非也。”〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "阙题一篇·清旷自娱之愿",
+          "sentence_pairs": 13,
+          "source_note_count": 2,
+          "editor_note_count": 6
         }
       ]
     },

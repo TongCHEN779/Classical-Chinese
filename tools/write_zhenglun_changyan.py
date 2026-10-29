@@ -25,7 +25,11 @@ def add(slug,number,title,intro,translation,notes):
  else:j['next']=None;j['status']='complete';j['annotation_status']='complete'
  for book in j['books']:
   related=[p for p in j['pages'] if p['slug'].startswith('changyan' if book['title']=='昌言' else 'zhenglun')]
+  book['completed_units']=sum(u['status']=='complete' for p in related if book['title']=='昌言' or p['slug']=='zhenglun' for u in p['units'])
   book['annotation_status']='complete' if all(all(u['status']=='complete'for u in p['units']) for p in related) else 'in_progress'
+  for cached in book.get('pages',[]):
+   rendered=next((p for p in related if p.get('source',{}).get('snapshot')==cached['snapshot']),None)
+   if rendered:cached['annotation_status']=rendered['annotation_status']
  save(j);print(slug,number,len(build.split_sents(main)),len(source_notes),len(notes))
 
 if __name__ == '__main__':

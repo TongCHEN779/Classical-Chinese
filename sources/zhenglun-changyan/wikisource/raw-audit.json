@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "title": "政論",
+      "revision": "2745472",
+      "raw_snapshot": "sources/zhenglun-changyan/wikisource/raw/0d8946aedf41a9df.html.snapshot",
+      "raw_sha256": "2dfb5878943631b7ce59ff66a9ac3b3e4f29e03eaf56c40de973af2277da9a4b",
+      "unparsed_prose_containers": []
+    },
+    {
+      "title": "昌言",
+      "revision": "2160732",
+      "raw_snapshot": "sources/zhenglun-changyan/wikisource/raw/9b630c63c42ec6fd.html.snapshot",
+      "raw_sha256": "9456b53d83401dfcbeaae6e86b3dd6d1ff08d4059f1488ce344429430af8605c",
+      "unparsed_prose_containers": []
+    },
+    {
+      "title": "昌言/卷上",
+      "revision": "343379",
+      "raw_snapshot": "sources/zhenglun-changyan/wikisource/raw/bbc80a08d312744e.html.snapshot",
+      "raw_sha256": "181b360430640b5721714957fe07658396f79af2a493138505d3b31f327e20e2",
+      "unparsed_prose_containers": []
+    },
+    {
+      "title": "昌言/附錄",
+      "revision": "1557039",
+      "raw_snapshot": "sources/zhenglun-changyan/wikisource/raw/c232d753e09e7bb1.html.snapshot",
+      "raw_sha256": "6f2717e820b560916a387b1d82327b36d324931e33205f87e4a7f3d7d7c8a4b0",
+      "unparsed_prose_containers": []
+    },
+    {
+      "title": "昌言/卷下",
+      "revision": "343382",
+      "raw_snapshot": "sources/zhenglun-changyan/wikisource/raw/d8b6b4e3ca1fa64a.html.snapshot",
+      "raw_sha256": "491258ffdc33baba2d8215228abc73d1895db88d26329f342115096c985a2fc1",
+      "unparsed_prose_containers": []
+    },
+    {
+      "title": "昌言/卷中",
+      "revision": "343380",
+      "raw_snapshot": "sources/zhenglun-changyan/wikisource/raw/d9d2cc591e406ac4.html.snapshot",
+      "raw_sha256": "ce15bd70ec7d9822d506b1a83584a8928bd5ac7c2e89be18b23a9fbfa445ed9a",
+      "unparsed_prose_containers": []
+    },
+    {
+      "title": "昌言/弁言",
+      "revision": "343373",
+      "raw_snapshot": "sources/zhenglun-changyan/wikisource/raw/e73b9318809ff810.html.snapshot",
+      "raw_sha256": "1dcc7812d08058b25bb38164d68c53039b523b06b1827708f6325865c5ff7c29",
+      "unparsed_prose_containers": []
+    }
+  ],
+  "policy": "Raw HTML at matching revisions retained; inspect any unparsed prose before claiming whole-book coverage."
+}
