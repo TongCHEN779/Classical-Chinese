@@ -1,6 +1,6 @@
 {
   "title": "戰國策 (士禮居叢書本)",
-  "status": "source_planning",
+  "status": "in_progress",
   "edition": "维基文库士禮居叢書本，刘向编，黄丕烈札记；不混其他版本",
   "source_index": {
     "url": "https://zh.wikisource.org/wiki/戰國策_(士禮居叢書本)",
@@ -10,11 +10,3024 @@
   "planned_scope": "目录所列六篇序、三十三卷正文、六篇附文；全览页不重复收入",
   "completed_units": 0,
   "next": {
-    "action": "获取指定目录原HTML，单独解析真实链接；通用下载器因标题空格与下划线差异未识别链接，不能把零链接视为无正文"
+    "action": "东周西周完成后核对其余三十一卷与序附，按原队列续编，不能标全书完成"
   },
-  "next_new_entry": "序：戰國策書錄",
+  "next_new_entry": {
+    "action": "东周西周完成后核对其余三十一卷与序附，按原队列续编，不能标全书完成"
+  },
   "validation": {
     "source_index_cached": true,
     "translation_complete": false
-  }
+  },
+  "pages": [
+    {
+      "slug": "dongzhou",
+      "title": "东周",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%9D%B1%E5%91%A8",
+        "revision": "2458631",
+        "snapshot": "sources/zhanguoce/wikisource/dongzhou.json"
+      },
+      "preface_block_indices": [
+        0
+      ],
+      "units": [
+        {
+          "id": "001",
+          "title": "秦兴师临周而求九鼎",
+          "source_block_indices": [
+            2,
+            3
+          ],
+          "status": "complete",
+          "raw_sha256": "023d1745aa29322147855cfd30ccb657c1bd09584fa9c77fefcdcc6abecf7b99",
+          "main_sha256": "db6cd66955c739995985d591526dd4a955ee1daa7842ac67a751d29238cf69a1",
+          "source_notes": [
+            {
+              "main_offset": 5,
+              "text": "〈姚本续：周显王，后语。〉"
+            },
+            {
+              "main_offset": 20,
+              "text": "〈姚本续：率，名也。当如字。或云，力出切，后语注。鲍本周人。〉"
+            },
+            {
+              "main_offset": 47,
+              "text": "〈姚本续：齐宣王，后语。鲍本闵。正曰：大事记云，姚氏考春秋后语，周显王、齐宣王也。今附载于显王三十三年宋太丘社亡之前。〉"
+            },
+            {
+              "main_offset": 54,
+              "text": "〈鲍本“为”作“于”。○〉"
+            },
+            {
+              "main_offset": 76,
+              "text": "〈姚本刘、曾、集，一作“画”，钱作“尽”。鲍本尽其心思。〉"
+            },
+            {
+              "main_offset": 78,
+              "text": "〈鲍本计，犹谋。〉"
+            },
+            {
+              "main_offset": 88,
+              "text": "〈鲍本谓齐。〉"
+            },
+            {
+              "main_offset": 93,
+              "text": "〈鲍本周有秦兵，危。〉"
+            },
+            {
+              "main_offset": 103,
+              "text": "〈鲍本厚，犹重。札记今本“宝”作“实”，鲍本作“宝”。〉"
+            },
+            {
+              "main_offset": 117,
+              "text": "〈鲍本无“悦”字。○补曰：一本“大说”。〉"
+            },
+            {
+              "main_offset": 127,
+              "text": "〈鲍本即后田臣思，凡陈、田皆齐公族。〉"
+            },
+            {
+              "main_offset": 166,
+              "text": "〈鲍本东之齐，解免之。〉"
+            },
+            {
+              "main_offset": 205,
+              "text": "〈鲍本问其路所从出。礼，“遂上有径，洫上有涂”。〉"
+            },
+            {
+              "main_offset": 222,
+              "text": "〈鲍本径，步道也。犹言假涂。〉"
+            },
+            {
+              "main_offset": 248,
+              "text": "〈鲍本台名曰晖。故孟子称“梁有台池之乐”。〉"
+            },
+            {
+              "main_offset": 253,
+              "text": "〈鲍本“少”作“沙”。○补曰：“少”当作“沙”。九域图，开封有沙海，引此。札记丕烈案：此不当辄改。〉"
+            },
+            {
+              "main_offset": 284,
+              "text": "〈鲍本楚非适齐之途，既不可入梁，亦无从至楚。其云然不可晓也。〉"
+            },
+            {
+              "main_offset": 308,
+              "text": "〈姚本续：后语作“章华之庭”。注云，徐广曰，华容有章华亭。鲍本即南阳叶也。〉"
+            },
+            {
+              "main_offset": 365,
+              "text": "〈姚本一作“瓿”。鲍本“醯壶”作“壶酰”，“甀”作“瓿”。○壶，昆吾圜器。瓿，甂也。补曰：一本“醯壶”，此文殽次。〉"
+            },
+            {
+              "main_offset": 389,
+              "text": "〈姚本曾、集作“凫逝”。鲍本并喻其轻疾。〉"
+            },
+            {
+              "main_offset": 392,
+              "text": "〈姚本“止”一作“可至”。鲍本集韵，漓，渗流貌。〉"
+            },
+            {
+              "main_offset": 400,
+              "text": "〈鲍本“伐”作“代”。○〉"
+            },
+            {
+              "main_offset": 403,
+              "text": "〈姚本一本“得”上有“凡”字。〉"
+            },
+            {
+              "main_offset": 410,
+              "text": "〈姚本一本无“凡一”二字，“鼎而”作“而鼎”。〉"
+            },
+            {
+              "main_offset": 414,
+              "text": "〈鲍本挽，引也。〉"
+            },
+            {
+              "main_offset": 429,
+              "text": "〈鲍本士，一人也。二千五百人为师。徒，步行者。正曰：左传注，步卒七十二人，甲士三人。又百人为卒。徒，众也。此“士卒师徒”，亦大概言之耳。〉"
+            },
+            {
+              "main_offset": 434,
+              "text": "〈鲍本“器械”作“械器”。○械，器之总名。被具，士卒所服用之具。〉"
+            },
+            {
+              "main_offset": 436,
+              "text": "〈鲍本“以”作“已”。○〉"
+            },
+            {
+              "main_offset": 441,
+              "text": "〈鲍本备人之所应用，使称足此八十一万人。正曰：称此者，彼此均等，犹史言他物称是。谓士众赍械具备挽鼎之役者，又且八十一万也。〉"
+            },
+            {
+              "main_offset": 458,
+              "text": "〈鲍本“窃”作“切”。○〉"
+            },
+            {
+              "main_offset": 475,
+              "text": "〈鲍本“来”下无“者”字。○〉"
+            },
+            {
+              "main_offset": 483,
+              "text": "〈鲍本言许之而实不与也。〉"
+            },
+            {
+              "main_offset": 514,
+              "text": "〈鲍本补曰：洪氏迈，原策首载此，以为奇谋，此特儿童之见尔，疑必无是事，而好事者饰之。愚按，左氏尝载楚子问鼎事，当时争欲得鼎，以见其强，不可以为无。〉"
+            }
+          ],
+          "format_breaks": [
+            {
+              "main_offset": 378,
+              "text": "\n"
+            }
+          ],
+          "sentence_pairs": 26,
+          "source_note_count": 33,
+          "editor_note_count": 5
+        },
+        {
+          "id": "002",
+          "title": "秦攻宜阳",
+          "source_block_indices": [
+            5,
+            6
+          ],
+          "status": "complete",
+          "raw_sha256": "17ab7a8ec24d363ccc012d79be236e182a8c074eba2cc3766c202cb2618e6f5e",
+          "main_sha256": "f6e08474f93631a5fc98fbc0d2466c27d942db35dfdfb28d854b5e4644a53d18",
+          "source_notes": [
+            {
+              "main_offset": 5,
+              "text": "〈鲍本韩邑，属弘农。秦武三年攻宜阳，赧之七年也。补曰：大事记云，今河南有福昌县，城东南北三面，峭绝天险，黾池、二殽皆在境内，盖控扼之地。此据甘茂传文。年表，拔宜阳在次年。宜阳之役，五月而不拔，凡涉两岁也。通鉴、大事记皆于赧七年书伐，八年书拔。景翠救韩在八年。〉"
+            },
+            {
+              "main_offset": 10,
+              "text": "〈鲍本“赵”作“周”。○补曰：一本“赵累”。大事记引。〉"
+            },
+            {
+              "main_offset": 44,
+              "text": "〈鲍本士之有材武者。〉"
+            },
+            {
+              "main_offset": 62,
+              "text": "〈鲍本楚将。〉"
+            },
+            {
+              "main_offset": 73,
+              "text": "〈鲍本楚与韩邻而与秦相图，故救之。〉"
+            },
+            {
+              "main_offset": 86,
+              "text": "〈鲍本甘茂，下蔡人，仕秦。补曰：“茂”一作“戊”，后多有。说苑作“戊”，古字通。〉"
+            },
+            {
+              "main_offset": 88,
+              "text": "〈鲍本集韵，羁旅，寓也。〉"
+            },
+            {
+              "main_offset": 101,
+              "text": "〈鲍本言且相秦。〉"
+            },
+            {
+              "main_offset": 112,
+              "text": "〈鲍本言不得留。〉"
+            },
+            {
+              "main_offset": 122,
+              "text": "〈鲍本“义”作“议”。○〉"
+            },
+            {
+              "main_offset": 153,
+              "text": "〈札记今本“为”误“曰”。〉"
+            },
+            {
+              "main_offset": 180,
+              "text": "〈鲍本楚卿。〉"
+            },
+            {
+              "main_offset": 190,
+              "text": "〈姚本集、曾作“耳”，刘、钱作“矣”。〉"
+            },
+            {
+              "main_offset": 204,
+              "text": "〈鲍本翠时盖援宜而有秦私，故说之云。补曰：秦策，冯章许楚汉中，楚懽而不进，所说有秦私者。窃谓，此策上既言秦之必拔，翠之不胜则死，而又曰“不如背秦援宜阳”，意殊不类。恐此句有缺误，“背”下或有“之”字，或“秦”下复有“秦”字，“援”字或作“拔”。劝之避秦兵，待秦既拔，然后进兵乘其敝。当秦惧之，韩德之，而交得赂以为利。下文秦拔宜阳，景翠果进兵，“果”字可见。又秦策，“楚畔秦而合于韩”句，意似与此同。然彼指翠未救时言之尔。其后韩、楚虽合，楚不为韩氏，谓先战，固已预知之矣。札记丕烈案：吴说是也。此必“背”下有脱，但不详何字。〉"
+            },
+            {
+              "main_offset": 213,
+              "text": "〈鲍本乘，谓因而攻之。〉"
+            },
+            {
+              "main_offset": 225,
+              "text": "〈鲍本“中”作“仲”。○札记今本“中”作“仲”。〉"
+            },
+            {
+              "main_offset": 261,
+              "text": "〈鲍本属济阴冤句。〉"
+            },
+            {
+              "main_offset": 283,
+              "text": "〈鲍本德，恩之也。〉"
+            },
+            {
+              "main_offset": 286,
+              "text": "〈鲍本补曰：“为寡”、“为己”之“为”，去声。馀如字。〉"
+            }
+          ],
+          "format_breaks": [
+            {
+              "main_offset": 861,
+              "text": "\n"
+            }
+          ],
+          "sentence_pairs": 13,
+          "source_note_count": 19,
+          "editor_note_count": 4
+        },
+        {
+          "id": "003",
+          "title": "东周与西周战",
+          "source_block_indices": [
+            8
+          ],
+          "status": "complete",
+          "raw_sha256": "4d9a83e5f75e3123fa4997096b2c9dd0d51b6b331e40a76bd1de44a9e2412668",
+          "main_sha256": "ad9783b7006816baa4587f6d4fe909eee87342c2b16a77cde931b1441f473ba9",
+          "source_notes": [
+            {
+              "main_offset": 16,
+              "text": "〈姚本集本改作“谪”，一作“谓”。〉"
+            },
+            {
+              "main_offset": 18,
+              "text": "〈鲍本襄。〉"
+            },
+            {
+              "main_offset": 39,
+              "text": "〈鲍本“案”作“按”。○按，下，与举反。〉"
+            },
+            {
+              "main_offset": 59,
+              "text": "〈鲍本欲韩出兵，故赂之。纪八年有。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 3,
+          "source_note_count": 4,
+          "editor_note_count": 3
+        },
+        {
+          "id": "004",
+          "title": "东周与西周争",
+          "source_block_indices": [
+            10
+          ],
+          "status": "complete",
+          "raw_sha256": "fd2622be2ed042b9c63a13abbf750ed17d87e6c15ca622418b973428f2df4106",
+          "main_sha256": "c872e014ac4cee4deb20ee1661f58f5a24649ed745e8ab6007dc1c662ca15e17",
+          "source_notes": [
+            {
+              "main_offset": 16,
+              "text": "〈鲍本和二国以为己援。〉"
+            },
+            {
+              "main_offset": 18,
+              "text": "〈鲍本疑楚人。两见楚策。正曰：无明征。注例，以国姓者，皆其国人，齐明岂不可为齐人邪？故大事记止云当时之辩士也。〉"
+            },
+            {
+              "main_offset": 66,
+              "text": "〈鲍本言东兵急则入，不急则已。〉"
+            },
+            {
+              "main_offset": 101,
+              "text": "〈鲍本趣，疾也。督使疾战。我，谓东周。〉"
+            },
+            {
+              "main_offset": 119,
+              "text": "〈鲍本言有恩于楚、韩。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 5,
+          "editor_note_count": 3
+        },
+        {
+          "id": "005",
+          "title": "东周欲为稻",
+          "source_block_indices": [
+            12
+          ],
+          "status": "complete",
+          "raw_sha256": "a40e2981255b32f03ff3154e73fffc7875ceae814a2fdac71e11f2362d7e4fd0",
+          "main_sha256": "7b5654c78cedbf4022032fb6aa58266172785caf4074cdd598cdf17a85899cb9",
+          "source_notes": [
+            {
+              "main_offset": 4,
+              "text": "〈鲍本为，谓种之。〉"
+            },
+            {
+              "main_offset": 12,
+              "text": "〈鲍本稻宜湿，西周居河之上流。正曰：未知专指河否？〉"
+            },
+            {
+              "main_offset": 19,
+              "text": "〈鲍本非代则厉。〉"
+            },
+            {
+              "main_offset": 72,
+              "text": "〈鲍本麦宜燥也。〉"
+            },
+            {
+              "main_offset": 125,
+              "text": "〈鲍本有望于上则仰。补曰：为，去声。仰，疑向反。〉"
+            },
+            {
+              "main_offset": 149,
+              "text": "〈鲍本无“遂下水”三字。○〉"
+            },
+            {
+              "main_offset": 159,
+              "text": "〈鲍本彪谓：此策不可行。东、西周壤地相接，岂不能候其所种？苏子，东人也，为东游说而岂得不疑？且今下水，安能保其不夺？虽一为下，何补哉！正曰：据此策，则西人可以制周，必不疑于其说。苏子公为反复以得金，岂顾其复夺哉？大事记云，其微如此，其所争又如此，可不哀哉！然则又何足深辨也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 11,
+          "source_note_count": 7,
+          "editor_note_count": 4
+        },
+        {
+          "id": "006",
+          "title": "昭献在阳翟",
+          "source_block_indices": [
+            14
+          ],
+          "status": "complete",
+          "raw_sha256": "54144e35c4c0e63179a5ecc1d62ba20771687a4d826e96cfb50e39973bac655b",
+          "main_sha256": "2bb6db25e9d913dca64274fa782bd98a838a0fb0e3dd0fb35be53b3bc3c41d1d",
+          "source_notes": [
+            {
+              "main_offset": 6,
+              "text": "〈鲍本属颍川。补曰：韩策，楚昭献相韩。〉"
+            },
+            {
+              "main_offset": 14,
+              "text": "〈鲍本往与献会。〉"
+            },
+            {
+              "main_offset": 46,
+              "text": "〈鲍本此言畴昔之事。陈、向、许皆仕周，而位在相下。〉"
+            },
+            {
+              "main_offset": 57,
+              "text": "〈鲍本亦其王遇。〉"
+            },
+            {
+              "main_offset": 63,
+              "text": "〈鲍本“许”作“叶”。○札记今本“许”作“叶”。〉"
+            },
+            {
+              "main_offset": 104,
+              "text": "〈姚本曾作“谁往周”，集、刘、钱无“周”字。鲍本言必君自往。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 6,
+          "editor_note_count": 3
+        },
+        {
+          "id": "007",
+          "title": "秦假道于周以伐韩",
+          "source_block_indices": [
+            16
+          ],
+          "status": "complete",
+          "raw_sha256": "933aeded51209ab75f099e530049848787807651f17cd41b78fede519376fb6f",
+          "main_sha256": "6e844af3da12f7e10aee8be93195786aeaa6fb9f867f0fa2257d37d38323ee68",
+          "source_notes": [
+            {
+              "main_offset": 22,
+              "text": "〈姚本续：史记两“恶”作“畏”。〉"
+            },
+            {
+              "main_offset": 27,
+              "text": "〈姚本一作“史厌”。鲍本韩史。疑即“厌”。补曰：“黡”，正义云，乌减、于点二反。〉"
+            },
+            {
+              "main_offset": 42,
+              "text": "〈鲍本韩公族。〉"
+            },
+            {
+              "main_offset": 49,
+              "text": "〈鲍本绝，横渡。塞，障也。为垣垒以遮止邻国往来。〉"
+            },
+            {
+              "main_offset": 69,
+              "text": "〈鲍本使周发使。〉"
+            },
+            {
+              "main_offset": 77,
+              "text": "〈鲍本秦、楚相图之国也，周使使楚，故秦疑其图己。〉"
+            },
+            {
+              "main_offset": 85,
+              "text": "〈鲍本不受秦伐。〉"
+            },
+            {
+              "main_offset": 92,
+              "text": "〈鲍本武。〉"
+            },
+            {
+              "main_offset": 97,
+              "text": "〈鲍本补曰：强，巨两反。〉"
+            },
+            {
+              "main_offset": 113,
+              "text": "〈姚本集：一去“弗”字。〉"
+            },
+            {
+              "main_offset": 138,
+              "text": "〈鲍本纪，八年。彪谓：战国之士，设心措辞，无不出于诈，若此者君子之所恕也。下章次之。正曰：鲍意尊周，故谓行诈免难所可恕。与前注为伍得章失同。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 5,
+          "source_note_count": 11,
+          "editor_note_count": 3
+        },
+        {
+          "id": "008",
+          "title": "楚攻雍氏",
+          "source_block_indices": [
+            18
+          ],
+          "status": "complete",
+          "raw_sha256": "0851c1c33f105a4e4e5349619fcacde70c8b88654e7a6b36b725aa7673f24052",
+          "main_sha256": "b236b09a81f655e04784abe348af13c609be2b9aa17dac040160bd209bb56b1a",
+          "source_notes": [
+            {
+              "main_offset": 5,
+              "text": "〈鲍本此亦赧之十五年也。〉"
+            },
+            {
+              "main_offset": 7,
+              "text": "〈鲍本粻，食米也。时秦救韩，周以米饷之。正曰：诗传，粮也。音张。〉"
+            },
+            {
+              "main_offset": 13,
+              "text": "〈鲍本怀。〉"
+            },
+            {
+              "main_offset": 55,
+              "text": "〈鲍本劲，强也。〉"
+            },
+            {
+              "main_offset": 69,
+              "text": "〈鲍本周以楚怒之，故恐。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 3,
+          "source_note_count": 5,
+          "editor_note_count": 2
+        },
+        {
+          "id": "009",
+          "title": "周最谓石礼",
+          "source_block_indices": [
+            20
+          ],
+          "status": "complete",
+          "raw_sha256": "d735a6bd2ef96b0aef7021d042933fa8bbd9534ae842f81ac2a6f0806b6549c8",
+          "main_sha256": "e9204e38f65b9b8b0973886d0d33e3fb4c5e3fa8dd2703740e6138128ce6a03e",
+          "source_notes": [
+            {
+              "main_offset": 5,
+              "text": "〈鲍本“石”作“吕”。○凡吕皆齐人。礼以秦昭十三年奔魏，十九年复归秦，其相齐在薛公归薛后，见孟尝传，盖赧二十一年后也。正曰：吕皆齐人，此类无据，当缺。晋有吕锜、吕相，本魏氏，不必吕尚后也。注“奔魏”，据秦纪。按，穰侯传，冉相秦，欲诛吕礼，礼出奔齐。大事记从之。“归秦”，据秦纪及穰侯传。按，秦纪下接齐破宋之文，年表破宋在秦昭二十一年，则纪误矣。按，吕礼相齐，孟尝君遗穰侯书，劝秦伐齐而礼亡，事当在齐灭宋前。大事记书于赧王二十九年之首（即秦昭二十一年），则礼自奔齐至去齐，首尾九年。然解题亦据纪为说，谓后六年来归，则未改也。札记丕烈案：“吕”字是也。〉"
+            },
+            {
+              "main_offset": 23,
+              "text": "〈鲍本秦攻齐，礼使之也。齐欲免攻，故可使之相礼。〉"
+            },
+            {
+              "main_offset": 32,
+              "text": "〈鲍本“处”作“虑”。○正曰：前后章有此字，义当同。札记丕烈案：后策文有“必不处矣”，又有“请谓王听东方之处”。吴氏指此也。〉"
+            },
+            {
+              "main_offset": 37,
+              "text": "〈鲍本“令”下衍“周”字。○〉"
+            },
+            {
+              "main_offset": 43,
+              "text": "〈鲍本与齐俱事秦。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 5,
+          "editor_note_count": 3
+        },
+        {
+          "id": "010",
+          "title": "周相吕仓见客于周君",
+          "source_block_indices": [
+            22
+          ],
+          "status": "complete",
+          "raw_sha256": "a58503600f49e231be79fb13f36a6ba8723eeaa9a3d36e404aef6f898bfb411d",
+          "main_sha256": "7baf9fa736ba2f78395b89cb51edcbebed74dfe791b1f53ee02d32929e5541f1",
+          "source_notes": [
+            {
+              "main_offset": 10,
+              "text": "〈鲍本言之于君，使得见。补曰：见，贤遍反。〉"
+            },
+            {
+              "main_offset": 20,
+              "text": "〈鲍本“藉”作“籍”，下同。○伤，犹毁。此即后工陈籍。〉"
+            },
+            {
+              "main_offset": 44,
+              "text": "〈鲍本不可听用。〉"
+            },
+            {
+              "main_offset": 51,
+              "text": "〈鲍本彪谓：工师籍，非端人也。德义不愆，何恤人之言。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 2,
+          "source_note_count": 4,
+          "editor_note_count": 2
+        },
+        {
+          "id": "011",
+          "title": "周文君免士工师籍",
+          "source_block_indices": [
+            24,
+            25
+          ],
+          "status": "complete",
+          "raw_sha256": "c2f0359851de0001a09087862b23db9d1fc9039d5e8e2218586268328df5a7b9",
+          "main_sha256": "442ba280db319cc01ed9bb80615d2b7487cf4f749441a351a9262df5fc1b18c9",
+          "source_notes": [
+            {
+              "main_offset": 3,
+              "text": "〈鲍本史书东周略甚，岂惠公后有此君邪？不然，则惠公别称也。鸿烈道应训亦称周昭文君。此后书训，皆鸿烈也。〉"
+            },
+            {
+              "main_offset": 5,
+              "text": "〈姚本集、曾，一去“士”字。鲍本“免”下衍“士”字。○补曰：疑衍。札记丕烈案：楚策，韩求相工陈籍，即此也。“陈”乃“师”字形近之讹。〉"
+            },
+            {
+              "main_offset": 26,
+              "text": "〈鲍本亦不说也。〉"
+            },
+            {
+              "main_offset": 37,
+              "text": "〈鲍本诽，谤也。〉"
+            },
+            {
+              "main_offset": 64,
+              "text": "〈鲍本见襄十一年。〉"
+            },
+            {
+              "main_offset": 81,
+              "text": "〈鲍本司空主土工。传言子罕亲执朴以行筑者，是也。〉"
+            },
+            {
+              "main_offset": 96,
+              "text": "〈鲍本“七”作“女”。○〉"
+            },
+            {
+              "main_offset": 103,
+              "text": "〈鲍本闾，里中门也。为门为市于宫中，使女子居之。正曰：宫中为七市，女闾此七百也。〉"
+            },
+            {
+              "main_offset": 117,
+              "text": "〈鲍本妇人谓嫁曰归，夫家曰家。仲盖三取女也。〉"
+            },
+            {
+              "main_offset": 129,
+              "text": "〈鲍本管仲为此，人皆毁之。仲非乐于毁也，其意欲掩盖桓公耳。一说仲欲掩公之非，宁自毁也。〉"
+            },
+            {
+              "main_offset": 161,
+              "text": "〈鲍本彪谓：此言掩君之非可耳！而齿见誉者于杀君之列，则后世名卿贤相，何道而可以安于朝廷之上？不仁哉此言也！补曰：汉高帝系治萧何曰，“吾闻李斯相秦，有善归主，有恶自与”云云。王卫尉曰，“秦以不闻其过，亡天下”。李斯之分过，又何足法哉？〉"
+            },
+            {
+              "main_offset": 167,
+              "text": "〈鲍本“彊”作“强”。○言师籍之得众。札记今本“彊”误“疆”。〉"
+            },
+            {
+              "main_offset": 173,
+              "text": "〈鲍本“成”作“如”。○〉"
+            },
+            {
+              "main_offset": 179,
+              "text": "〈鲍本卒相仓也。〉"
+            }
+          ],
+          "format_breaks": [
+            {
+              "main_offset": 154,
+              "text": "\n"
+            }
+          ],
+          "sentence_pairs": 11,
+          "source_note_count": 14,
+          "editor_note_count": 3
+        },
+        {
+          "id": "012",
+          "title": "温人之周",
+          "source_block_indices": [
+            27
+          ],
+          "status": "complete",
+          "raw_sha256": "babe281e683f8fe4862120e2daa20a09d0961f5a39951cd61c565dfad7e97e8a",
+          "main_sha256": "975ecb2867541a3f702ce20146b76cfdb9d4b4a64eb2f1763d5dd1d71e10d465",
+          "source_notes": [
+            {
+              "main_offset": 1,
+              "text": "〈鲍本温，时为西邑，綦母恢请之也。正曰：西周得温囿耳。〉"
+            },
+            {
+              "main_offset": 9,
+              "text": "〈鲍本并东周。〉"
+            },
+            {
+              "main_offset": 12,
+              "text": "〈姚本一本，“周不内，问曰：客耶？对曰”。续：韩非子文与一本同。〉"
+            },
+            {
+              "main_offset": 17,
+              "text": "〈鲍本矫称东人。〉"
+            },
+            {
+              "main_offset": 23,
+              "text": "〈鲍本补曰：韩非子作“巷人”。〉"
+            },
+            {
+              "main_offset": 90,
+              "text": "〈鲍本小雅北山诗。普，遍；率，从也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 6,
+          "editor_note_count": 2
+        },
+        {
+          "id": "013",
+          "title": "或为周最谓金投",
+          "source_block_indices": [
+            29
+          ],
+          "status": "complete",
+          "raw_sha256": "3965f739194981ad171275a0e36e921426d9c8e8b9ffa4e7dfd153db2beec76e",
+          "main_sha256": "7325ea2184dac04be2d8df68716d50a9294f626479413058ab5499eae5c870dc",
+          "source_notes": [
+            {
+              "main_offset": 7,
+              "text": "〈鲍本盖赵人之不善齐者。〉"
+            },
+            {
+              "main_offset": 20,
+              "text": "〈鲍本周使最之齐，秦以此疑周、齐与天下合而谋己。正曰：无考。〉"
+            },
+            {
+              "main_offset": 27,
+              "text": "〈姚本曾本作“予”，集本改作“予”，刘作“子”。鲍本不敢违投。〉"
+            },
+            {
+              "main_offset": 32,
+              "text": "〈鲍本秦既疑齐，投又不善齐，故齐惧伐。〉"
+            },
+            {
+              "main_offset": 38,
+              "text": "〈鲍本“齐”下衍“韩”字。○补曰：疑衍。札记丕烈案：此不衍，谓秦恐齐、韩之合也。下文云必先合秦者，必先合齐于秦也。故下文即云秦、齐合。鲍误以“恐”字属上句读，所解全谬。吴氏依之，亦非。〉"
+            },
+            {
+              "main_offset": 54,
+              "text": "〈鲍本言赵必破而为墟。“墟”，“虚”字同，大丘也。〉"
+            },
+            {
+              "main_offset": 75,
+              "text": "〈鲍本属上党，盖韩地。〉"
+            },
+            {
+              "main_offset": 79,
+              "text": "〈鲍本二国有秦兵，故赵得取其边地。〉"
+            },
+            {
+              "main_offset": 86,
+              "text": "〈鲍本佐秦故。〉"
+            },
+            {
+              "main_offset": 92,
+              "text": "〈鲍本韩，魏唇齿之国故也。〉"
+            },
+            {
+              "main_offset": 97,
+              "text": "〈鲍本“因”作“困”。○札记今本下“因”字作“困”。〉"
+            },
+            {
+              "main_offset": 102,
+              "text": "〈鲍本为，犹谋也。东谓齐。〉"
+            },
+            {
+              "main_offset": 108,
+              "text": "〈鲍本齐合赵也。始时赵与齐隙，无合理。今得秦、韩，故齐惧而合。其实，最时相齐，虑有赵患，故为最谋者，侈之韩、魏也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 13,
+          "editor_note_count": 3
+        },
+        {
+          "id": "014",
+          "title": "周最谓金投",
+          "source_block_indices": [
+            31
+          ],
+          "status": "complete",
+          "raw_sha256": "73246aed0300e89cae766f4237ed59e319c1f86fa56210df1b1dee72b8cc97ce",
+          "main_sha256": "af61617b466b52e269619eacdb71a8392722af1082d640d5ed33dc86d1a40366",
+          "source_notes": [
+            {
+              "main_offset": 11,
+              "text": "〈姚本钱、刘作“全”。鲍本负，犹失也，其失在此。正曰：负，持也。“令”字疑“合”。〉"
+            },
+            {
+              "main_offset": 20,
+              "text": "〈鲍本胜齐。〉"
+            },
+            {
+              "main_offset": 26,
+              "text": "〈鲍本封，谓疆理之。〉"
+            },
+            {
+              "main_offset": 33,
+              "text": "〈鲍本割，谓出地。〉"
+            },
+            {
+              "main_offset": 40,
+              "text": "〈鲍本诸国求地于齐，齐不多割，则必战。此秦弱齐之计。正曰：此秦制齐之命。〉"
+            },
+            {
+              "main_offset": 47,
+              "text": "〈鲍本赵伤也。时赵令秦与齐战，战不胜，则秦必咎赵，能无伤乎？正曰：赵恃合于秦以与齐战，不胜，则国大伤而听命于秦矣。〉"
+            },
+            {
+              "main_offset": 53,
+              "text": "〈鲍本赵听也。〉"
+            },
+            {
+              "main_offset": 64,
+              "text": "〈鲍本魏地，后为秦郡。〉"
+            },
+            {
+              "main_offset": 65,
+              "text": "〈姚本曾、钱、集作“西”。钱，一作“而”。〉"
+            },
+            {
+              "main_offset": 66,
+              "text": "〈鲍本“止”作“土”。○札记丕烈按：此有误，但所改未是。〉"
+            },
+            {
+              "main_offset": 71,
+              "text": "〈鲍本秦之所难者，齐也。已收齐，则韩、魏不守。〉"
+            },
+            {
+              "main_offset": 90,
+              "text": "〈鲍本赵以大伤，故亦见制。〉"
+            },
+            {
+              "main_offset": 91,
+              "text": "〈鲍本“复”作“覆”。○补曰：“覆”通。〉"
+            },
+            {
+              "main_offset": 96,
+              "text": "〈鲍本覆，如覆器然。国，赵也。身，谓投。〉"
+            },
+            {
+              "main_offset": 101,
+              "text": "〈鲍本言非计。〉"
+            },
+            {
+              "main_offset": 104,
+              "text": "〈鲍本此策，最为齐使赵拒秦也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 16,
+          "editor_note_count": 3
+        },
+        {
+          "id": "015",
+          "title": "石行秦谓大梁造",
+          "source_block_indices": [
+            33
+          ],
+          "status": "complete",
+          "raw_sha256": "c78d8854700110b36e8e5a9e7c5406ce35ee728bb2efff462e6a696714e99c27",
+          "main_sha256": "0917414e011bfbeec70e491da2b471bd4f775cd93ae5ed7de5fb1e24782b73d6",
+          "source_notes": [
+            {
+              "main_offset": 3,
+              "text": "〈姚本刘本作“右行楚”。鲍本周人。正曰：无考。一本“石”作“右”。右行，秦官也。〉"
+            },
+            {
+              "main_offset": 7,
+              "text": "〈姚本续：商子作“大梁造”。鲍本秦爵，“梁”作“良”。秦孝十年卫鞅，惠文五年公孙衍，昭襄十五年白起，皆为之。此盖起也。正曰：无考。〉"
+            },
+            {
+              "main_offset": 20,
+              "text": "〈鲍本备，谨待之。〉"
+            },
+            {
+              "main_offset": 31,
+              "text": "〈鲍本行秦谓之。〉"
+            },
+            {
+              "main_offset": 50,
+              "text": "〈鲍本秦欲卑周，争者争此也。既谨待之，则争必得矣。补曰：王应麟云，周赧王卒于乙巳。明年丙午，秦迁西周君，而东周君犹存。壬子，秦迁东周君，而周遂不祀。作史者当自丙午至壬子系周统于七国之上，乃得春秋存陈之义。大事记，周赧后即系秦，朱子以为未当。纲目以七国如楚、汉并书之。今按解题云，自赧王降，周统已绝，东周虽未亡，特邾、莒附庸之类耳。所以存而未论也。朱子虽以七国并书，而赧王之后，亦不以东周系统者，其意亦不异。纲目之成，在乾道壬辰，而淳熙辛丑吕子卒，大事记始出，非矫之也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 2,
+          "source_note_count": 5,
+          "editor_note_count": 2
+        },
+        {
+          "id": "016",
+          "title": "谓薛公",
+          "source_block_indices": [
+            35
+          ],
+          "status": "complete",
+          "raw_sha256": "59548afcfc662348911e8e7bd96610398539802d1bbc9b2dcefb901a183cdb3c",
+          "main_sha256": "ad070c439500c64bb03410b397db27b91dbb52a8908603d5fc4fe6138b74f4b7",
+          "source_notes": [
+            {
+              "main_offset": 1,
+              "text": "〈姚本刘本题起“谓”字。〉"
+            },
+            {
+              "main_offset": 3,
+              "text": "〈鲍本田文。札记今本“公”误“君”。〉"
+            },
+            {
+              "main_offset": 11,
+              "text": "〈鲍本“王”下有“厚”字。○闵王。札记今本“王”下有“厚”字。丕烈案：有者当是。〉"
+            },
+            {
+              "main_offset": 16,
+              "text": "〈鲍本补曰：史，秦亡将吕礼相齐，欲困苏代，代乃谓云云。史，周最于齐王至厚也，而齐王逐之。策文省而胜。〉"
+            },
+            {
+              "main_offset": 20,
+              "text": "〈姚本续：史记作“亲弗”，注云，人姓名。索隐引战国策作“祝弗”，盖“祝”为得也。鲍本齐人。补曰：“祝弗”史作“亲弗”，索隐谓策得之。一本“况弗”。札记丕烈案：鲍本当不作“祝弗”，故吴校如此。详姚校云，索隐引战国策作“祝弗”，疑亦本不作“祝弗”也，今无可考。〉"
+            },
+            {
+              "main_offset": 29,
+              "text": "〈鲍本无下“秦”字，“取秦”下补“也秦”二字。○札记今本“取秦”下有“也”字，乃误涉鲍也。鲍本“秦”字不重。〉"
+            },
+            {
+              "main_offset": 34,
+              "text": "〈鲍本上章所谓以齐事秦。正曰：注据史补二字。然言齐合则秦自见，省文尔。下章齐合亦然。〉"
+            },
+            {
+              "main_offset": 38,
+              "text": "〈鲍本与，犹如也。言二国合，则齐所重无如礼者。正曰：史，“亲弗与吕礼重矣”，言二国合，则二人重。策，“齐合，弗与礼重矣”，言齐与秦合，则一人重于齐。视史语简而胜。上文“秦”字省，尤可见。〉"
+            },
+            {
+              "main_offset": 42,
+              "text": "〈鲍本“有”下衍“周”字。○补曰：史作“用”。札记今本无“周”字，乃误涉鲍也。〉"
+            },
+            {
+              "main_offset": 44,
+              "text": "〈鲍本秦有之。正曰：有用齐者，言二子用齐。〉"
+            },
+            {
+              "main_offset": 57,
+              "text": "〈鲍本亦与赵攻秦。〉"
+            },
+            {
+              "main_offset": 62,
+              "text": "〈鲍本能左右之曰“以”。以，犹使。正曰：从史，“以”下有“和”字是。“急北兵”读，“秦、魏”句。是时秦怒齐，齐、赵交恶，秦欲合魏。前章，魏贵合秦以攻齐、赵，难与齐战；下章，齐合则赵恐伐，可见皆一时事也。秦、赵、魏合，为攻齐也。故云“急北兵趋赵以和秦、魏”也。趋，即趣，促也。谓不如急北方之兵，促赵之应秦、魏，而相与以攻齐也。魏策，周最入齐，秦让魏，魏谓秦曰，“大国欲急兵，则趋赵而已”。趋，即趣也。此语正同。虽时有后先，而事理不误尔（魏策载周最入齐，知在后）。史载此策，在文谢病归薛后，文从其计。而吕礼嫉害文，乃劝秦伐齐。吕礼亡，其后齐灭宋，文乃奔魏。且文在齐，岂敢召穰侯之兵哉？召秦伐齐必文也，去齐而史失之也。此策云，“收周最，反齐王”，则亦文奔魏之后，召秦兵之前乎？〉"
+            },
+            {
+              "main_offset": 70,
+              "text": "〈鲍本齐初逐最，欲取秦合也；今攻秦，收最用之，可图后举。行，犹举。正曰：当从史，无“为”字，“后”作“厚”。行，下孟反。最本厚于齐，今齐逐之，故收最以厚其行。上文“厚”字，同义。〉"
+            },
+            {
+              "main_offset": 77,
+              "text": "〈鲍本齐前与秦合，今与赵攻之，信反也。正曰：齐周礼以合秦取信，今反之，使不合也。〉"
+            },
+            {
+              "main_offset": 84,
+              "text": "〈鲍本率，犹从也。谓从齐。补曰：“率”，史作“变”。索隐云，齐、秦合则弗、礼用；用则轻孟尝。二说皆通。札记今本“又”误“以”。〉"
+            },
+            {
+              "main_offset": 92,
+              "text": "〈鲍本果，犹决也。走，去音，趋之也。言不趋齐。正曰：史，齐无秦，则天下集齐，亲弗必走。此“果”字，当从史作“集”。谓齐无秦合，而秦、赵、魏合，则天下之兵集于齐，祝弗必走。言弗而不及礼者，齐听弗而相礼，弗走，礼不待言矣。〉"
+            },
+            {
+              "main_offset": 105,
+              "text": "〈鲍本言必重文。孟尝传有。〉"
+            },
+            {
+              "main_offset": 105,
+              "text": "〈鲍本正曰：以章参之，史可以互正。如弗乃祝弗名，易知，而注乃释以他说，其误甚矣。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 5,
+          "source_note_count": 18,
+          "editor_note_count": 2
+        },
+        {
+          "id": "017",
+          "title": "齐听祝弗",
+          "source_block_indices": [
+            37
+          ],
+          "status": "complete",
+          "raw_sha256": "fa9e451b84375317f178c155260926fe1603b2e663b069bfc5e906049234e3eb",
+          "main_sha256": "2cdca378cd795f72467f49b8d46090882dfe902d83d6ee95ca891f05b8d48c99",
+          "source_notes": [
+            {
+              "main_offset": 1,
+              "text": "〈姚本刘本题起“齐”字。〉"
+            },
+            {
+              "main_offset": 12,
+              "text": "〈鲍本闵。〉"
+            },
+            {
+              "main_offset": 31,
+              "text": "〈鲍本补曰：“深取”之“深”，恐因下文衍。〉"
+            },
+            {
+              "main_offset": 43,
+              "text": "〈鲍本秦得齐，则益强，故能得天下；得天下，则亦不能存齐。〉"
+            },
+            {
+              "main_offset": 49,
+              "text": "〈鲍本“夫”下补“秦”字。○正曰：说见上。此下云“急兵以示秦”，则无“秦”字尤明矣。札记今本“夫”下有“秦”字，乃误涉鲍也。鲍补“秦”字，吴氏有正。〉"
+            },
+            {
+              "main_offset": 54,
+              "text": "〈鲍本秦伐之。〉"
+            },
+            {
+              "main_offset": 61,
+              "text": "〈鲍本赵兵攻齐。〉"
+            },
+            {
+              "main_offset": 66,
+              "text": "〈鲍本攻齐。〉"
+            },
+            {
+              "main_offset": 68,
+              "text": "〈鲍本之，犹趋。〉"
+            },
+            {
+              "main_offset": 77,
+              "text": "〈鲍本以赵攻齐则得齐，趋齐受赵亦得赵。故其理同。〉"
+            },
+            {
+              "main_offset": 82,
+              "text": "〈鲍本处，犹据也。秦不据齐，理同。而独不据齐，齐无兵而赵已出兵故也。正曰：注难通，“处”义未详。〉"
+            },
+            {
+              "main_offset": 92,
+              "text": "〈鲍本理在受兵于赵。正曰：言天下必将归秦。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 12,
+          "editor_note_count": 2
+        },
+        {
+          "id": "018",
+          "title": "苏厉为周最谓苏秦",
+          "source_block_indices": [
+            39
+          ],
+          "status": "complete",
+          "raw_sha256": "7c107d5993c3fb970eb544eddcc780b055d779509fdc040be9a38155915acabd",
+          "main_sha256": "9ecf9df4c2b848ce921a26a4b6af244732ec8a9e0f7cd1a9e66131e9344ba40d",
+          "source_notes": [
+            {
+              "main_offset": 8,
+              "text": "〈鲍本“秦”作“子”。○札记丕烈案：此有误，但所改未是。〉"
+            },
+            {
+              "main_offset": 16,
+              "text": "〈鲍本君，谓苏子。王，周君也。此时与赧俱王，其称公，后避秦也。正曰：尤缪。〉"
+            },
+            {
+              "main_offset": 21,
+              "text": "〈鲍本地，周地。〉"
+            },
+            {
+              "main_offset": 28,
+              "text": "〈姚本曾无“故”字。〉"
+            },
+            {
+              "main_offset": 30,
+              "text": "〈姚本“怒”，一作“恐”。鲍本称故者，特为之。怒，苏子怒最。〉"
+            },
+            {
+              "main_offset": 34,
+              "text": "〈鲍本怒最而反其所合。〉"
+            },
+            {
+              "main_offset": 38,
+              "text": "〈姚本一作“全以”。〉"
+            },
+            {
+              "main_offset": 46,
+              "text": "〈鲍本时齐与楚善，合齐则得与楚为与国，可至再世。产子，言易世也。与，党与也。补曰：刘辰翁云，“吏”字当作“更”，平声。〉"
+            },
+            {
+              "main_offset": 54,
+              "text": "〈鲍本与最同合魏、赵，此厉本谋也，前皆游辞耳。故为，为周最。〉"
+            },
+            {
+              "main_offset": 70,
+              "text": "〈鲍本补曰：最欲合赵、魏，而苏秦欲合齐，厉为最，故言若不发最之事，则君合齐，而最合赵、魏也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 2,
+          "source_note_count": 10,
+          "editor_note_count": 2
+        },
+        {
+          "id": "019",
+          "title": "谓周最曰仇赫之相宋",
+          "source_block_indices": [
+            41
+          ],
+          "status": "complete",
+          "raw_sha256": "e51e71d3685db6ae46d6e2ea3066aa1a09a0d34fdc6dbed9fc5ba21def26c4cd",
+          "main_sha256": "d3d83fd9a8a7402f92fd414bddc99bdc4674c8fcdeb44709fc2d311064f9af50",
+          "source_notes": [
+            {
+              "main_offset": 8,
+              "text": "〈姚本续：史记，机郝。鲍本补曰：“赫”，一本作“郝”。〉"
+            },
+            {
+              "main_offset": 22,
+              "text": "〈鲍本绝句。〉"
+            },
+            {
+              "main_offset": 26,
+              "text": "〈鲍本韩、魏、齐也。魏纪，哀二十一年，与韩、齐败秦函谷，盖此时秦欲败之，反为所败也。赧十八年。正曰：“哀”当作“襄”，下同。“十八”当作“十七”，年表文，大事记从之。〉"
+            },
+            {
+              "main_offset": 40,
+              "text": "〈鲍本即三国。〉"
+            },
+            {
+              "main_offset": 66,
+              "text": "〈鲍本此应秦也。〉"
+            },
+            {
+              "main_offset": 70,
+              "text": "〈鲍本“卖”下无“赵”字。○补曰：一本“则卖赵、宋”。〉"
+            },
+            {
+              "main_offset": 75,
+              "text": "〈鲍本此应三国也。以国情输之曰卖。言赫不忠于宋，不应秦则应三国。以此知赫本非宋人。〉"
+            },
+            {
+              "main_offset": 86,
+              "text": "〈鲍本韩襄、魏哀。〉"
+            },
+            {
+              "main_offset": 96,
+              "text": "〈鲍本此卖犹欺。〉"
+            },
+            {
+              "main_offset": 106,
+              "text": "〈鲍本使韩、魏皆相之。〉"
+            },
+            {
+              "main_offset": 112,
+              "text": "〈鲍本视，示字。二国同相最，可见其交之固。补曰：离，去声。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 11,
+          "editor_note_count": 2
+        },
+        {
+          "id": "020",
+          "title": "为周最谓魏王",
+          "source_block_indices": [
+            43
+          ],
+          "status": "complete",
+          "raw_sha256": "808d842e979b6243be21d4d0d0cc8cb49d800e82362924a18bc94327088f9cf8",
+          "main_sha256": "29eb45111f892cf6a450865ec4097e4c1eefc4d8b32fb6c629af432a55bdac28",
+          "source_notes": [
+            {
+              "main_offset": 6,
+              "text": "〈鲍本哀。正曰：襄。〉"
+            },
+            {
+              "main_offset": 19,
+              "text": "〈鲍本难，言其不和。正曰：难，畏阻意。〉"
+            },
+            {
+              "main_offset": 31,
+              "text": "〈姚本曾、集改“劲”作“助”。鲍本劲赵以兵，使之强。〉"
+            },
+            {
+              "main_offset": 38,
+              "text": "〈鲍本难先战。〉"
+            },
+            {
+              "main_offset": 43,
+              "text": "〈鲍本违其劲之之意。〉"
+            },
+            {
+              "main_offset": 56,
+              "text": "〈鲍本齐固秦所欲合，故其劲赵谓之阴劲。正曰：秦欲伐齐，赵欲合齐，故云“争齐”。〉"
+            },
+            {
+              "main_offset": 60,
+              "text": "〈鲍本无主其事与齐者。〉"
+            },
+            {
+              "main_offset": 71,
+              "text": "〈鲍本最时在魏，欲之齐，故此士为之言，使得去。〉"
+            },
+            {
+              "main_offset": 76,
+              "text": "〈鲍本与，即谓齐。齐，魏之与国。〉"
+            },
+            {
+              "main_offset": 81,
+              "text": "〈鲍本“之急”作“急之”，“急之”下重“急之”。○原作“之急”，急之以兵，则非合矣。〉"
+            },
+            {
+              "main_offset": 88,
+              "text": "〈鲍本“也”作“矣”。○〉"
+            },
+            {
+              "main_offset": 91,
+              "text": "〈鲍本言秦见齐有魏兵必伐之。有此有彼曰“因”，犹言无他事矣。齐败魏马陵，宜为魏仇，因此言“合与”，盖其国形宜相依也。正曰：“而以”止“伐齐”，句。因，犹依也。言今不合与收齐，而以秦兵之急则伐齐（下章秦欲合魏伐齐，可见），是无可依之事矣。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 12,
+          "editor_note_count": 3
+        },
+        {
+          "id": "021",
+          "title": "谓周最曰魏王以国与先生",
+          "source_block_indices": [
+            45
+          ],
+          "status": "complete",
+          "raw_sha256": "bc61e6ecbf91cfb90dd5d584c8b6952a830e0742954a2c37ea265d44682ebbb2",
+          "main_sha256": "4f3833b5cb11d2cb8cb4b02dfda48a54aa09397837c4de1b28568757f09d6846",
+          "source_notes": [
+            {
+              "main_offset": 8,
+              "text": "〈鲍本哀。正曰：昭。〉"
+            },
+            {
+              "main_offset": 14,
+              "text": "〈鲍本以德齿尊称之也。与，谓相之。正曰：孟子注，学士年长者，谓之先生。〉"
+            },
+            {
+              "main_offset": 15,
+              "text": "〈鲍本贵，犹欲。〉"
+            },
+            {
+              "main_offset": 24,
+              "text": "〈鲍本田文。〉"
+            },
+            {
+              "main_offset": 27,
+              "text": "〈鲍本齐闵王也。最尝仕齐，故称之然。正曰：“故主”上恐缺一字。〉"
+            },
+            {
+              "main_offset": 41,
+              "text": "〈鲍本谓齐王、田文欲去国以避秦兵。正曰：此田文相魏时也，下文“谓魏王、薛公”可见。文激于祝弗、吕礼之故，劝秦伐齐。盖言文犹背齐，以起下文“最不与伐齐”之意。大事记，赧王二十九年，魏以田文为相，谓其去齐相魏，在齐灭宋之前。史在灭宋后，非。〉"
+            },
+            {
+              "main_offset": 47,
+              "text": "〈鲍本最本善齐，固不背齐。然今相魏，魏有以秦伐齐之形，犹为虚信。信，谓亲之。〉"
+            },
+            {
+              "main_offset": 48,
+              "text": "〈姚本曾，“为”下有“物”字。刘无。〉"
+            },
+            {
+              "main_offset": 49,
+              "text": "〈鲍本茂，盛美也。〉"
+            },
+            {
+              "main_offset": 54,
+              "text": "〈鲍本明，犹示也。臣，魏臣。〉"
+            },
+            {
+              "main_offset": 58,
+              "text": "〈鲍本据，仗持也，犹言为之。此言最在魏，示朝臣以为齐王，不欺之，此所谓“茂行”。正曰：“修虚信为茂行”句，“明群臣据故主”句。〉"
+            },
+            {
+              "main_offset": 60,
+              "text": "〈鲍本与，去音。正曰：与，如字，许也。〉"
+            },
+            {
+              "main_offset": 64,
+              "text": "〈鲍本“齐”下无“者”字。○〉"
+            },
+            {
+              "main_offset": 70,
+              "text": "〈鲍本产，犹生也。魏欲伐齐，己独不与，犹生此节目也。违秦不伐齐，故秦忿。〉"
+            },
+            {
+              "main_offset": 98,
+              "text": "〈鲍本最之知略，足以全齐。〉"
+            },
+            {
+              "main_offset": 102,
+              "text": "〈鲍本万一有伤齐者。〉"
+            },
+            {
+              "main_offset": 108,
+              "text": "〈鲍本此则非虚信矣。〉"
+            },
+            {
+              "main_offset": 116,
+              "text": "〈鲍本伐秦。〉"
+            },
+            {
+              "main_offset": 118,
+              "text": "〈鲍本“臣”作“秦”。○〉"
+            },
+            {
+              "main_offset": 121,
+              "text": "〈鲍本为，去音。言其为之如奴事主。〉"
+            },
+            {
+              "main_offset": 132,
+              "text": "〈鲍本累者，事相连及，犹误也。交，谓齐、魏。〉"
+            },
+            {
+              "main_offset": 135,
+              "text": "〈鲍本此言非人之情。〉"
+            },
+            {
+              "main_offset": 153,
+              "text": "〈鲍本此累，犹患。〉"
+            },
+            {
+              "main_offset": 157,
+              "text": "〈鲍本正曰：按魏策，周最入齐，秦王怒，令姚贾让魏王，魏王为之谓秦王曰，“魏之所以为王通天下者，以周最也。今最遁寡人入齐，齐无通于天下矣。敝邑之事，王亦无齐累矣”。最入齐，则正与此章相首尾。所谓“敝邑之事，王亦无齐累”语，又与此合。曰：“请为王入齐，天下不能伤齐”者，最自许其足以全齐。“有变”，谓秦伐齐，齐急则请魏之救；“无变”，谓秦不能伐，则王遂伐之。此厚齐之说也。“且臣为齐奴”以下，以为魏言之。“为齐奴”，为齐奴隶也。交，指秦也。累，连及也。不可以最故，使魏恶于秦。王使最得入齐为赐厚矣。最入齐，则秦无疑于魏，是魏不为齐所累也。补曰：“为王”、“为救”之为”，去声。馀如字。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 24,
+          "editor_note_count": 3
+        },
+        {
+          "id": "022",
+          "title": "赵取周之祭地",
+          "source_block_indices": [
+            47
+          ],
+          "status": "complete",
+          "raw_sha256": "01c2470c7f7c7f5025039a99998d6a2c5941da2ae8367f7b321b059061aeff8e",
+          "main_sha256": "1cca803d3818e5d9d06a09c2f73638611e68fc92af40b2b771161bdbfef07dc8",
+          "source_notes": [
+            {
+              "main_offset": 17,
+              "text": "〈鲍本凡郑，皆郑人。〉"
+            },
+            {
+              "main_offset": 33,
+              "text": "〈鲍本一斤为一金。正曰：正义云，秦以一镒为一金。孟康云，二十四两。国语注同。赵岐云，二十两。〉"
+            },
+            {
+              "main_offset": 70,
+              "text": "〈鲍本谴，谪问也。〉"
+            },
+            {
+              "main_offset": 81,
+              "text": "〈鲍本神祸也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 4,
+          "editor_note_count": 2
+        },
+        {
+          "id": "023",
+          "title": "杜赫欲重景翠于周",
+          "source_block_indices": [
+            49
+          ],
+          "status": "complete",
+          "raw_sha256": "8ccdcf3070840777ea4e1b24114ecdb05823ef77705f95e56964ec5fd146c73b",
+          "main_sha256": "f64e22e993850695dd93b3bc416244c421ad12617cfe0a7421c8c57c80123b5d",
+          "source_notes": [
+            {
+              "main_offset": 2,
+              "text": "〈鲍本周人。正曰：楚策云，楚杜赫。〉"
+            },
+            {
+              "main_offset": 23,
+              "text": "〈鲍本“子”作“之”。○札记今本“子”作“之”。〉"
+            },
+            {
+              "main_offset": 36,
+              "text": "〈鲍本国小，必赂以求援。不可胜赂，故宜察。〉"
+            },
+            {
+              "main_offset": 70,
+              "text": "〈鲍本多鸟处，有触罗者，傍鸟必觉，觉则群惊而去矣。〉"
+            },
+            {
+              "main_offset": 120,
+              "text": "〈鲍本均之，费财。而小人多，则多费也。〉"
+            },
+            {
+              "main_offset": 137,
+              "text": "〈鲍本不必，犹不可知也。言不终穷，或且为大人者，此指翠也。〉"
+            },
+            {
+              "main_offset": 144,
+              "text": "〈鲍本齐策、楚策皆有杜赫。在齐则威王时，于周显王背也。自显、威至是八十年矣，疑“赫”字误。景翠实此时人。正曰：按齐策，田忌亡齐之楚，邹忌代相，恐其以楚权复齐，杜赫曰，“臣请为留楚”。忌出奔，实宣王时。宣王二年，忌有马陵之战，其奔必后此（史以为威王时者误，说见齐策）。楚策，五国伐秦，魏欲和，杜赫云云，在楚怀王十一年，当慎靓王三年。大事记据韩世家注，赧王三年，书楚景翠围韩雍氏。自宣王二年至赧王三年，为三十年。自慎靓王三年至此为七年。则翠之与赫，何不相及之有？〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 7,
+          "editor_note_count": 2
+        },
+        {
+          "id": "024",
+          "title": "周共太子死",
+          "source_block_indices": [
+            51
+          ],
+          "status": "complete",
+          "raw_sha256": "f1c653649e4ff7e718cefadf28b08e2802252880bf1f0720eb7f6de3b2279834",
+          "main_sha256": "340c1782c28e80d8c5b12ce7d16c2fc13502737c49dedabbfaff69b05e43f1c4",
+          "source_notes": [
+            {
+              "main_offset": 6,
+              "text": "〈姚本续：史记，西周武公之共太子死。徐广云，惠王，公之长子。今乃编在东周。鲍本周纪云，西周武公之共太子死。正曰：策原在东周，鲍据周纪改此，恐有误，而下注周纪之文，以存疑。〉"
+            },
+            {
+              "main_offset": 18,
+              "text": "〈鲍本适，犹定也，故与莫反。正曰：适，专主也。〉"
+            },
+            {
+              "main_offset": 24,
+              "text": "〈鲍本司马，楚卿，疑即昭翦。〉"
+            },
+            {
+              "main_offset": 27,
+              "text": "〈姚本一本无“楚”字。鲍本怀。〉"
+            },
+            {
+              "main_offset": 37,
+              "text": "〈姚本“咎”一作“右”。鲍本周君别子。〉"
+            },
+            {
+              "main_offset": 45,
+              "text": "〈鲍本请于周，请立为太子。〉"
+            },
+            {
+              "main_offset": 47,
+              "text": "〈姚本“左”一作“右”。鲍本楚人。正曰：此类当因旧注，凡有明征者可定。其生地不可考而仕国可见者，则当曰“某国臣”。正义注此正作“楚臣”。高注亦多作臣。后放此。〉"
+            },
+            {
+              "main_offset": 90,
+              "text": "〈鲍本“今”作“令”。○札记丕烈案：史记作“令”。〉"
+            },
+            {
+              "main_offset": 93,
+              "text": "〈姚本“资”一作“奉”。〉"
+            },
+            {
+              "main_offset": 95,
+              "text": "〈鲍本封之以为之资。〉"
+            },
+            {
+              "main_offset": 105,
+              "text": "〈鲍本此左成告翦之辞。为，皆去音，犹助也。〉"
+            },
+            {
+              "main_offset": 115,
+              "text": "〈鲍本楚相之御，姓展。〉"
+            },
+            {
+              "main_offset": 116,
+              "text": "〈鲍本“廧”，“啬”字同，小臣也，空其名。〉"
+            },
+            {
+              "main_offset": 129,
+              "text": "〈鲍本王，楚王。类，犹似。若，汝也。言楚王之意然。〉"
+            },
+            {
+              "main_offset": 132,
+              "text": "〈鲍本此亦左成喻翦之言。健，犹悍也。正曰：此亦成作翦语，语展子者。〉"
+            },
+            {
+              "main_offset": 136,
+              "text": "〈鲍本国中。〉"
+            },
+            {
+              "main_offset": 138,
+              "text": "〈姚本“便”，刘作“使”。曾云，恐作“便”。〉"
+            },
+            {
+              "main_offset": 144,
+              "text": "〈鲍本二士居中与国事，以其悍，故相国不之便；若出而使周，则不居中用事，相国之所欲也。故以此说之，相国必从。〉"
+            },
+            {
+              "main_offset": 152,
+              "text": "〈鲍本此策，周纪有。原在东周。正曰：见上。补曰：“共”，“恭”同。适，丁历反。咎，音皋。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 7,
+          "source_note_count": 19,
+          "editor_note_count": 3
+        },
+        {
+          "id": "025",
+          "title": "三国隘秦",
+          "source_block_indices": [
+            53
+          ],
+          "status": "complete",
+          "raw_sha256": "c5025deb481d2dd7a964b96934c421a916369f0c75616ab03c958f378363f7f5",
+          "main_sha256": "07f7bcf03e0641e9851ebd0e2200b7b843438ca5d2a60b8d16326b4670242f65",
+          "source_notes": [
+            {
+              "main_offset": 5,
+              "text": "〈鲍本赧十八年，注见前。隘，谓隔绝之。正曰：“八”当作“七”。补曰：策“隘”、“厄”字通。此当乙革反。〉"
+            },
+            {
+              "main_offset": 16,
+              "text": "〈鲍本见其隘于三国。〉"
+            },
+            {
+              "main_offset": 22,
+              "text": "〈鲍本不进。〉"
+            },
+            {
+              "main_offset": 44,
+              "text": "〈姚本曾、集、刘、钱作“亡”。〉"
+            },
+            {
+              "main_offset": 55,
+              "text": "〈鲍本昭王。〉"
+            },
+            {
+              "main_offset": 60,
+              "text": "〈鲍本“谓”作“为”。○札记丕烈案：史记作“为”。〉"
+            },
+            {
+              "main_offset": 68,
+              "text": "〈鲍本听，侦候之。东，三国也。处，其所为。〉"
+            },
+            {
+              "main_offset": 80,
+              "text": "〈鲍本衍“重周”二字。札记丕烈案：鲍衍非也。此有脱误。〉"
+            },
+            {
+              "main_offset": 85,
+              "text": "〈鲍本秦重相，则周重矣。〉"
+            },
+            {
+              "main_offset": 91,
+              "text": "〈鲍本齐重，天下重之也。故，犹旧也。有，言善之。〉"
+            },
+            {
+              "main_offset": 96,
+              "text": "〈鲍本此时秦、齐为天下重，已善秦，不可忽齐，故又劝之取齐。正曰：有，谓收己也。取，谓得于彼也。齐为重国，故能收有周，而周已取之矣。今复取秦，是周常不失重国之交。〉"
+            },
+            {
+              "main_offset": 102,
+              "text": "〈鲍本补曰：凡“轻重”字，自然重者，上声，重之者，去声。此章“轻重”、“齐重”、“重国”之“重”，上声。馀去声。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 12,
+          "editor_note_count": 3
+        },
+        {
+          "id": "026",
+          "title": "昌他亡西周",
+          "source_block_indices": [
+            55
+          ],
+          "status": "complete",
+          "raw_sha256": "c1ff166b5b20e3b2c247dce300ddc781cdc79636ecfd0df8c11b0302710bd9b4",
+          "main_sha256": "535bd9a021f3e951500ca24ace43e74f4ffe8f445a457add49faeddf4632d373",
+          "source_notes": [
+            {
+              "main_offset": 1,
+              "text": "〈鲍本“昌”作“宫”。○元作“昌”，下同。此书作“宫”，不一。正曰：且当依本文。〉"
+            },
+            {
+              "main_offset": 6,
+              "text": "〈鲍本以罪去国曰亡。〉"
+            },
+            {
+              "main_offset": 12,
+              "text": "〈鲍本输，言委以告之。〉"
+            },
+            {
+              "main_offset": 32,
+              "text": "〈鲍本“且”作“雎”。○元作“且”，“雎”之省也，犹“赵”作“肖”，“齐”作“立”。故后唐且，史作“雎”。裴骃亦曰，“唐雎以华颠悟秦也”。此西人，下同。正曰：且当依本文。札记今本“且”作“雎”，下同，乃误涉鲍也。〉"
+            },
+            {
+              "main_offset": 62,
+              "text": "〈鲍本“昌他”下无“书”字。○为反间书以遗之。札记今本无“书”字，改“昌”为“宫”，乃误涉鲍也。〉"
+            },
+            {
+              "main_offset": 82,
+              "text": "〈鲍本亟，急也。〉"
+            },
+            {
+              "main_offset": 87,
+              "text": "〈姚本一本止一“亡来”字。〉"
+            },
+            {
+              "main_offset": 98,
+              "text": "〈鲍本事泄露则死，而不亟来，自取之也。正曰：本文明白，注少“久”字，似不必。〉"
+            },
+            {
+              "main_offset": 106,
+              "text": "〈鲍本侦候之吏。扬雄曰，“西北一候”。〉"
+            },
+            {
+              "main_offset": 127,
+              "text": "〈鲍本得其人与书。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 10,
+          "editor_note_count": 3
+        },
+        {
+          "id": "027",
+          "title": "昭翦与东周恶",
+          "source_block_indices": [
+            57
+          ],
+          "status": "complete",
+          "raw_sha256": "fc9bb405c4603846ee62ade7cd0999b073fcaa9f2f95df471885b16525ae6d32",
+          "main_sha256": "ada95a8a8966e75916353b1c5498e3b70d2a619181fbbb6a86bc46ce94dd5600",
+          "source_notes": [
+            {
+              "main_offset": 10,
+              "text": "〈鲍本“照”作“昭”，下同。○札记今本“照”作“昭”。丕烈案：“昭”字是也。〉"
+            },
+            {
+              "main_offset": 18,
+              "text": "〈鲍本为人谋者，画之以筹。〉"
+            },
+            {
+              "main_offset": 32,
+              "text": "〈鲍本“西”上补“曰”字。○正曰：古书多如此，不必补。〉"
+            },
+            {
+              "main_offset": 39,
+              "text": "〈鲍本“尝”作“常”。○补曰：当作“常”，古通。〉"
+            },
+            {
+              "main_offset": 56,
+              "text": "〈鲍本集韵，宣扬也。〉"
+            },
+            {
+              "main_offset": 64,
+              "text": "〈鲍本“西周”作“以恶”。○补曰：字有讹，未详。〉"
+            },
+            {
+              "main_offset": 67,
+              "text": "〈鲍本王，楚怀王。〉"
+            },
+            {
+              "main_offset": 85,
+              "text": "〈鲍本此翦自计。〉"
+            },
+            {
+              "main_offset": 96,
+              "text": "〈鲍本翦恶东必善西，西善翦，则楚亦因重西矣。东欲坏其交，故贼翦，翦死则西无内主于楚，东因得使楚恶之。〉"
+            },
+            {
+              "main_offset": 101,
+              "text": "〈鲍本彪谓：周衰，君臣唯贪利而畏祸，故一切趋避变乱于游谈之口，而无有持操。翦之虑死如此，其能复固其所守乎？〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 10,
+          "editor_note_count": 3
+        },
+        {
+          "id": "028",
+          "title": "严氏为贼",
+          "source_block_indices": [
+            59
+          ],
+          "status": "complete",
+          "raw_sha256": "235811e072ababa21dfe91172b62bd7ec2411749e35db0f3ea32dee285ce328b",
+          "main_sha256": "80c9bdacc7c5037e93370c07fd1f908f2ef983d3923cb26d841ca97f18320d24",
+          "source_notes": [
+            {
+              "main_offset": 8,
+              "text": "〈姚本曾，一作“坚”。鲍本严仲杀韩相傀，列侯三年，书杀侠累是也。杀人不以道曰贼。于此为五年。正曰：韩策，阳坚，此作“竖”，字有讹。索隐曰，纪年，韩山坚贼其君哀侯。韩山坚即韩严，非严遂使聂政杀侠累事也。说见上及韩策。鸿烈人间训注，竖，小使也。韩策名“坚”。〉"
+            },
+            {
+              "main_offset": 14,
+              "text": "〈鲍本出亡过周。〉"
+            },
+            {
+              "main_offset": 28,
+              "text": "〈鲍本乘，四马也。一车驾四马，所谓驷马车。〉"
+            },
+            {
+              "main_offset": 36,
+              "text": "〈鲍本让，谯责也。然则此时周之令已不行于诸侯矣。正曰：此东周君也。策文明曰“小国”。〉"
+            },
+            {
+              "main_offset": 47,
+              "text": "〈鲍本“客谓周君曰”作“客谓周君正语之曰”。○使以留之之情告之。补曰：一本“客谓周君曰正语之”。“正”，犹直也。〉"
+            },
+            {
+              "main_offset": 58,
+              "text": "〈鲍本孤寡不穀，王侯之称。〉"
+            },
+            {
+              "main_offset": 80,
+              "text": "〈鲍本待韩之命。〉"
+            },
+            {
+              "main_offset": 87,
+              "text": "〈鲍本“足”下衍“亦”字。○补曰：疑在“不”字上。一本无。札记今本无“亦”字，乃误涉鲍也，鲍衍“亦”字。〉"
+            },
+            {
+              "main_offset": 106,
+              "text": "〈鲍本原在东周策，时周未分也。彪谓：客之辩虽足以文周，而周君实为天下逋逃主，所谓欲盖而彰者，何以示天下乎！正曰：考其时则烈王五年，王都东周，若以王都为尊，则旧卷首东周是矣。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 5,
+          "source_note_count": 9,
+          "editor_note_count": 2
+        }
+      ],
+      "annotation_status": "complete"
+    },
+    {
+      "slug": "xizhou",
+      "title": "西周",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E8%A5%BF%E5%91%A8",
+        "revision": "2458657",
+        "snapshot": "sources/zhanguoce/wikisource/xizhou.json"
+      },
+      "preface_block_indices": [
+        0
+      ],
+      "units": [
+        {
+          "id": "001",
+          "title": "薛公以齐为韩魏攻楚",
+          "source_block_indices": [
+            2
+          ],
+          "status": "complete",
+          "raw_sha256": "cff25c6d8b8a846c8ab933bf1a35c3cbfe27df4f66b1d32a4d595f9dcd9ebb3e",
+          "main_sha256": "98d793fc8354d0b3229e725cf1261583f1a425cb41ef4fe9368b7f45dd04f2e1",
+          "source_notes": [
+            {
+              "main_offset": 2,
+              "text": "〈姚本薛，齐邑也。齐公子田婴也，孟尝君田文之父也。封于薛，号靖郭毛君，今属鲁国也。鲍本靖郭君田婴之子孟尝君田文也。袭其父封薛。薛属鲁国。〉"
+            },
+            {
+              "main_offset": 11,
+              "text": "〈鲍本楚怀二十六年，齐、韩、魏攻楚，此十二年也。〉"
+            },
+            {
+              "main_offset": 19,
+              "text": "〈鲍本齐闵二十六年为韩、魏攻秦，此十七年也。正曰：此据史。按通鉴、大事记，赧王二年，当闵王元年。此当作十六年。〉"
+            },
+            {
+              "main_offset": 28,
+              "text": "〈姚本食，粮也。鲍本藉，犹借。〉"
+            },
+            {
+              "main_offset": 30,
+              "text": "〈姚本韩庆，西周臣也。鲍本凡韩皆韩人，其在周，去韩仕周也。凡非本国人，皆自其国求仕者也。〉"
+            },
+            {
+              "main_offset": 33,
+              "text": "〈姚本续：史记，苏代为西周。〉"
+            },
+            {
+              "main_offset": 52,
+              "text": "〈鲍本“年”下无“而”字。○“九”字误，当云“六”或“五”。〉"
+            },
+            {
+              "main_offset": 56,
+              "text": "〈鲍本二县属南阳。补曰：宛，于袁反，邓州县。叶，舒涉反，汝州县。〉"
+            },
+            {
+              "main_offset": 59,
+              "text": "〈鲍本“以”作“为”。○补曰：一本“而取宛、叶以北以强韩、魏”。札记丕烈案：史记作“以”，无“而”字。〉"
+            },
+            {
+              "main_offset": 72,
+              "text": "〈姚本益韩、魏之强也。鲍本益其强。〉"
+            },
+            {
+              "main_offset": 92,
+              "text": "〈姚本广，多也。重，尊也。〉"
+            },
+            {
+              "main_offset": 97,
+              "text": "〈姚本益韩、魏，韩、魏重而齐轻也。〉"
+            },
+            {
+              "main_offset": 101,
+              "text": "〈鲍本更，犹迭。〉"
+            },
+            {
+              "main_offset": 108,
+              "text": "〈鲍本言不可常。〉"
+            },
+            {
+              "main_offset": 114,
+              "text": "〈姚本谓薛公。危，不安也。鲍本并言齐、薛今虽善，韩、魏复或为患。〉"
+            },
+            {
+              "main_offset": 120,
+              "text": "〈鲍本周也。〉"
+            },
+            {
+              "main_offset": 123,
+              "text": "〈姚本阴，私也。鲍本“于”作“为”。○札记丕烈案：史记作“于”。〉"
+            },
+            {
+              "main_offset": 129,
+              "text": "〈姚本无攻秦也。鲍本但出兵临秦，不用攻也。〉"
+            },
+            {
+              "main_offset": 136,
+              "text": "〈姚本勿示秦以少兵少粮也。鲍本勿示秦以弱。〉"
+            },
+            {
+              "main_offset": 144,
+              "text": "〈姚本临，犹守也。函谷，关名也，在弘农城北，今在新安东。无攻秦。鲍本临，言以兵至其地。补曰：正义云，陕州桃林县西南有洪溜涧，古函谷也。今属灵宝县。〉"
+            },
+            {
+              "main_offset": 151,
+              "text": "〈鲍本心所欲也。〉"
+            },
+            {
+              "main_offset": 154,
+              "text": "〈鲍本昭襄。〉"
+            },
+            {
+              "main_offset": 160,
+              "text": "〈鲍本“必”下补“不”字。○补曰：史，下有“不”字，是。〉"
+            },
+            {
+              "main_offset": 164,
+              "text": "〈姚本张，彊也。鲍本张，去音，大之也。〉"
+            },
+            {
+              "main_offset": 187,
+              "text": "〈鲍本“也”作“而”。○补曰：史作“而”。楚之东地，即楚策“下东国”云。〉"
+            },
+            {
+              "main_offset": 196,
+              "text": "〈姚本出，归也。是时张仪诱楚怀王令召秦，秦使质之，故曰归楚王以为和。鲍本怀。楚怀三十年，张仪诱楚王会秦，秦留之。此十六年也。〉"
+            },
+            {
+              "main_offset": 203,
+              "text": "〈鲍本“忠”作“患”。○札记今本“忠”作“惠”，鲍本作“患”。丕烈案：史记作“惠”。〉"
+            },
+            {
+              "main_offset": 210,
+              "text": "〈鲍本“破”作“攻”。○秦得无攻，周之力也。札记丕烈案：史记作“破”。“破秦”，上文有。鲍改误甚。〉"
+            },
+            {
+              "main_offset": 216,
+              "text": "〈姚本楚东国，近齐南境者也。〉"
+            },
+            {
+              "main_offset": 232,
+              "text": "〈鲍本齐出之，齐之恩也。〉"
+            },
+            {
+              "main_offset": 240,
+              "text": "〈姚本恩德齐，使得归，楚王必以东国与齐也。〉"
+            },
+            {
+              "main_offset": 252,
+              "text": "〈鲍本无三国之兵故。〉"
+            },
+            {
+              "main_offset": 260,
+              "text": "〈姚本三晋，晋三卿韩氏、魏氏、赵氏分晋而君之，故曰三晋也。〉"
+            },
+            {
+              "main_offset": 267,
+              "text": "〈鲍本秦居晋西，不弱而善齐，三晋畏秦，故齐重。〉"
+            },
+            {
+              "main_offset": 301,
+              "text": "〈鲍本孟尝传有。今按楚记，三国攻楚，秦救之，引去。与此言取宛、叶小驳。正曰：大事记，颖滨苏氏云，秦昭王欺楚怀王，要之割地。诸侯孰视，无敢一言问秦者。惟田文怨秦，借楚为名，与韩、魏伐秦，自山东难秦，未有若此其壮者也。惜其听苏代之计，临函谷而无攻，以求楚东国，而名义索然以尽。由此观之，秦惟不遇桓、文之君，故横行而莫之制，世岂有以大义而屈于不义者哉？“为强”、“为和”之“为”，如字，馀去声。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 11,
+          "source_note_count": 35,
+          "editor_note_count": 3
+        },
+        {
+          "id": "002",
+          "title": "秦攻魏将𡱝武军于伊阙",
+          "source_block_indices": [
+            4
+          ],
+          "status": "complete",
+          "raw_sha256": "80ebc53b69d24986ea500eb726ec6ff44c22ef5b1c2e4238ebc7488179a8b358",
+          "main_sha256": "b7aa5b6f06c8c25b31b247bef75780a63e45870b4b28ccd057b24521e428ec22",
+          "source_notes": [
+            {
+              "main_offset": 11,
+              "text": "〈鲍本唐志，为县，属河南。注，北有伊阙故关。此役秦昭十四年，此二十二年。补曰：正义云，水经注，禹疏龙门以通水，两山相对若阙，故谓之伊阙。今洛南犹谓之龙门也。诸本“犀”作“𡱝”，当正。札记丕烈案：“𡱝”即“犀”别体耳。后策文杀𡱝武，史记作“仆师武”，集解引此作“犀师”。“犀”者，声之转也。〉"
+            },
+            {
+              "main_offset": 17,
+              "text": "〈姚本秦攻魏将𡱝武军于伊阙，秦遂进攻周。伊阙，在洛阳西南六十里，禹所辟也，水所由此流入于洛川也。〉"
+            },
+            {
+              "main_offset": 23,
+              "text": "〈姚本李兑，赵将也。鲍本赵司寇。〉"
+            },
+            {
+              "main_offset": 30,
+              "text": "〈姚本禁，止也。〉"
+            },
+            {
+              "main_offset": 49,
+              "text": "〈鲍本赵，魏邻也。魏有秦兵，则赵无事。〉"
+            },
+            {
+              "main_offset": 55,
+              "text": "〈鲍本得，犹胜。正曰：得其土地人民也。〉"
+            },
+            {
+              "main_offset": 67,
+              "text": "〈鲍本“待”作“持”。○补曰：字有讹。札记今本“待”作“持”。〉"
+            },
+            {
+              "main_offset": 115,
+              "text": "〈姚本讲，和也。一曰“战”。鲍本讲，和解也。补曰：史甘茂传索隐云，邹氏“讲”读曰“媾”。又曰汉、史“媾”、“讲”两字常杂。愚按，“构”、“构”、“购”（韩世家有）亦然。今凡为和解之义者，定读从“媾”；为交结之义者，字当从“扌”。后放此。〉"
+            },
+            {
+              "main_offset": 118,
+              "text": "〈姚本曾，一作“攻”，刘作“而”。〉"
+            },
+            {
+              "main_offset": 133,
+              "text": "〈鲍本却，犹退。〉"
+            },
+            {
+              "main_offset": 153,
+              "text": "〈鲍本支，犹拒。〉"
+            },
+            {
+              "main_offset": 159,
+              "text": "〈鲍本与秦和也。〉"
+            },
+            {
+              "main_offset": 161,
+              "text": "〈姚本君，谓李兑也。鲍本凡言重，皆制人而不制于人者也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 10,
+          "source_note_count": 13,
+          "editor_note_count": 3
+        },
+        {
+          "id": "003",
+          "title": "秦令樗里疾以车百乘入周",
+          "source_block_indices": [
+            6
+          ],
+          "status": "complete",
+          "raw_sha256": "9ad71607199841e2a9995aa6146a3a7f095ae0eaac2326e94fc083c577fb7cc2",
+          "main_sha256": "3f4f5311da51bf4d53e5af390eb2f3676ab7c3303dacc20f72505c86ff03ea93",
+          "source_notes": [
+            {
+              "main_offset": 5,
+              "text": "〈姚本疾，秦公子名也。其里有大樗树，因号樗里子也。鲍本秦惠王弟。其居在渭南阴乡樗里，故号樗里子。后相武王。〉"
+            },
+            {
+              "main_offset": 19,
+              "text": "〈姚本百人为卒。〉"
+            },
+            {
+              "main_offset": 22,
+              "text": "〈姚本甚敬，敬樗里疾也。〉"
+            },
+            {
+              "main_offset": 24,
+              "text": "〈姚本楚王，怀王也。一曰顷襄王之子，怀王之孙也。〉"
+            },
+            {
+              "main_offset": 35,
+              "text": "〈姚本怒周敬重秦客，故责让之也。鲍本谓疾。〉"
+            },
+            {
+              "main_offset": 37,
+              "text": "〈姚本续：后语，游胜。游腾，周臣也。鲍本周人。正曰：高注作“臣”。〉"
+            },
+            {
+              "main_offset": 51,
+              "text": "〈姚本智伯，晋卿智襄子孙也。厹由，狄国，或作仇首也。鲍本夷国，属临淮。汉志，“由”作“犹”。又九域图，并州有仇犹城，引此。正曰：高注狄国。括地志云，并州盂县外城，俗名原仇山。史樗里传作“仇犹”，韩子“仇繇”，吕春秋、刘外纪“夙繇”。高注“或作仇首”。汉志，临淮，乃泗之连水。罗氏路史谓，非智伯所伐者。厹，音求，字又作“叴”、“㕤”。札记丕烈案：“夙”是“厹”形近之讹。“厹”、“仇”同字。〉"
+            },
+            {
+              "main_offset": 59,
+              "text": "〈姚本广大车也。鲍本欲开道也。〉"
+            },
+            {
+              "main_offset": 75,
+              "text": "〈姚本厹由贪大锺之赂，开道至晋以受锺，智伯随入兵伐而取之也。鲍本受其锺，不防以兵。〉"
+            },
+            {
+              "main_offset": 81,
+              "text": "〈姚本桓归蔡姬，未绝；蔡人嫁之，故伐蔡也。不欲令蔡知，故诈言诛楚也。鲍本僖三年，蔡姬沈舟荡公，公怒，归之，未绝也。蔡嫁之，故伐之。蔡，蔡叔度所封，属汝南，后徙封下蔡。〉"
+            },
+            {
+              "main_offset": 84,
+              "text": "〈鲍本号，声言也。以伐楚号众。〉"
+            },
+            {
+              "main_offset": 91,
+              "text": "〈鲍本无钟鼓曰袭。正曰：此据左氏说。陆氏纂例，掩其不备曰袭。〉"
+            },
+            {
+              "main_offset": 97,
+              "text": "〈鲍本“秦”下无“者”字。○札记丕烈案：史记无。〉"
+            },
+            {
+              "main_offset": 103,
+              "text": "〈姚本秦欲吞灭诸侯，故谓虎狼国也。鲍本喻其贪残。〉"
+            },
+            {
+              "main_offset": 106,
+              "text": "〈姚本吞，灭也。札记丕烈案：史记无。〉"
+            },
+            {
+              "main_offset": 132,
+              "text": "〈姚本戒，以二国为戒也。鲍本“戒”作“惑”。○一本“戒之”。札记丕烈案：史记作“以仇犹、蔡观焉”，与策文不同。〉"
+            },
+            {
+              "main_offset": 141,
+              "text": "〈鲍本戈矛之属。〉"
+            },
+            {
+              "main_offset": 149,
+              "text": "〈鲍本卫，行列为护也。〉"
+            },
+            {
+              "main_offset": 157,
+              "text": "〈鲍本“之”下无“也”字。○补曰：一本有“也”字。札记丕烈案：史记无。〉"
+            },
+            {
+              "main_offset": 173,
+              "text": "〈姚本钱、刘一无“国”字。鲍本恐秦亡之。〉"
+            },
+            {
+              "main_offset": 179,
+              "text": "〈姚本恐不敬其使，一日之中以灭亡国，而为大王忧也。鲍本为楚王忧。〉"
+            },
+            {
+              "main_offset": 184,
+              "text": "〈鲍本补曰：樗里传有。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 22,
+          "editor_note_count": 3
+        },
+        {
+          "id": "004",
+          "title": "雍氏之役",
+          "source_block_indices": [
+            8
+          ],
+          "status": "complete",
+          "raw_sha256": "61fee8c6766a364cd91658b55346cc3c2a6e6b87cedb356ab7a66e0dea6d35e2",
+          "main_sha256": "449cf20ea66d52bfa89154a478d39327bc7d0c1966ca27b9e36e377554059611",
+          "source_notes": [
+            {
+              "main_offset": 5,
+              "text": "〈姚本雍，韩别邑也。楚攻韩，围雍氏，故曰役。役，事也。鲍本周纪注，阳翟有雍氏城。韩纪注，赧王三年、十五年，楚再围雍氏。此十五年也。〉"
+            },
+            {
+              "main_offset": 13,
+              "text": "〈姚本韩召兵及粮于周也。鲍本征，犹索。〉"
+            },
+            {
+              "main_offset": 22,
+              "text": "〈姚本苏代，苏秦兄也。鲍本秦之弟，洛阳人。〉"
+            },
+            {
+              "main_offset": 29,
+              "text": "〈姚本患，忧。〉"
+            },
+            {
+              "main_offset": 54,
+              "text": "〈姚本高都，韩邑。今属上党。鲍本属上党。正曰：水经云，伊水迳邥邮亭，又北迳高都。杜预云，河南新城有邥邮亭。括地志云，高都故城在洛州伊阙县北。京相璠云，非在上党者。〉"
+            },
+            {
+              "main_offset": 73,
+              "text": "〈姚本听，从也。鲍本以国事从之。〉"
+            },
+            {
+              "main_offset": 83,
+              "text": "〈姚本公中，韩公侈，为相国也。鲍本“中”作“仲”。○韩公族。正曰：古“仲”字省。补曰：索隐云，公仲侈。裴骃云，相国，秦官。韩亦有相国，仿秦也。〉"
+            },
+            {
+              "main_offset": 95,
+              "text": "〈姚本昭应，楚将也。鲍本昭、屈、景皆楚之族姓。〉"
+            },
+            {
+              "main_offset": 98,
+              "text": "〈鲍本怀王。〉"
+            },
+            {
+              "main_offset": 104,
+              "text": "〈鲍本“罢”，“疲”同，劳也。〉"
+            },
+            {
+              "main_offset": 118,
+              "text": "〈鲍本“收”作“攻”。○补曰：一本“收之”。〉"
+            },
+            {
+              "main_offset": 141,
+              "text": "〈鲍本得城曰拔，如拔物然。〉"
+            },
+            {
+              "main_offset": 146,
+              "text": "〈姚本病，困也。〉"
+            },
+            {
+              "main_offset": 169,
+              "text": "〈鲍本犹以饥疲告之。〉"
+            },
+            {
+              "main_offset": 264,
+              "text": "〈姚本折，屈也。鲍本入，犹归。〉"
+            },
+            {
+              "main_offset": 282,
+              "text": "〈姚本节，符信也。鲍本节，符信也，行者所执。焚之者，不通周也。周官，通达于天下必有节，无节则不达。〉"
+            },
+            {
+              "main_offset": 333,
+              "text": "〈鲍本纪有而略，周君为东周。补曰：正义，雍，于恭反。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 18,
+          "source_note_count": 17,
+          "editor_note_count": 3
+        },
+        {
+          "id": "005",
+          "title": "周君之秦",
+          "source_block_indices": [
+            10
+          ],
+          "status": "complete",
+          "raw_sha256": "cbbc8283f446c2443a93a79455dd77ffe2cca3f55f56153a307f685f79176cb7",
+          "main_sha256": "0ed71a96e4e7f6479047c693b53759886fea7ffbeb47586dfde716bbe84f9f6b",
+          "source_notes": [
+            {
+              "main_offset": 8,
+              "text": "〈姚本谓，有人谓周最，姓名不见也。最，周公子也。鲍本最时从王。〉"
+            },
+            {
+              "main_offset": 16,
+              "text": "〈鲍本秦昭。〉"
+            },
+            {
+              "main_offset": 29,
+              "text": "〈姚本原，周邑也。太后，秦昭王母也。鲍本“应”作“原”。○补曰：史同。徐注，颖川父城县应乡。札记今本“应”作“原”。丕烈案：史记作“应”。考索隐云，案战国策作“原”。原，周地。小司马依高注为说，则作“原”为是，因史记而讹为“应”也。吴氏引姚本云史同，失考索隐耳。〉"
+            },
+            {
+              "main_offset": 43,
+              "text": "〈鲍本有，言得其意。〉"
+            },
+            {
+              "main_offset": 46,
+              "text": "〈鲍本周、秦之交。〉"
+            },
+            {
+              "main_offset": 52,
+              "text": "〈姚本公，周最也。〉"
+            },
+            {
+              "main_offset": 70,
+              "text": "〈鲍本纪四十五年有。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 7,
+          "editor_note_count": 2
+        },
+        {
+          "id": "006",
+          "title": "苏厉谓周君",
+          "source_block_indices": [
+            12
+          ],
+          "status": "complete",
+          "raw_sha256": "7be609e021fa07447bf98cf9ff2ed81059c41af8cc14437ceebfc2fb4cac1a38",
+          "main_sha256": "d21377daaba8fb9272d13eb9734a72a7bfcaf79091c5fa517d4d6a646591c2ba",
+          "source_notes": [
+            {
+              "main_offset": 2,
+              "text": "〈鲍本亦秦之弟。〉"
+            },
+            {
+              "main_offset": 17,
+              "text": "〈姚本𡱝武，魏将。〉"
+            },
+            {
+              "main_offset": 33,
+              "text": "〈姚本白起，秦将也。杀𡱝武于伊阙。蔺、石，本属西河；祁，本属太原也。〉"
+            },
+            {
+              "main_offset": 42,
+              "text": "〈姚本是，实也；攻，巧玄也。白起用兵，又有天命之助也。鲍本攻，功字，言善巧也。正曰：“攻”、“工”字通借。〉"
+            },
+            {
+              "main_offset": 48,
+              "text": "〈鲍本魏都。〉"
+            },
+            {
+              "main_offset": 79,
+              "text": "〈姚本养，姓；由基，名。楚善射人也。鲍本楚共王将。〉"
+            },
+            {
+              "main_offset": 91,
+              "text": "〈鲍本发，发矢。〉"
+            },
+            {
+              "main_offset": 114,
+              "text": "〈姚本集、刘、钱无“也”字。鲍本意欲其息。〉"
+            },
+            {
+              "main_offset": 125,
+              "text": "〈姚本刘、钱下有“曰”字。〉"
+            },
+            {
+              "main_offset": 127,
+              "text": "〈鲍本善，善我。〉"
+            },
+            {
+              "main_offset": 158,
+              "text": "〈姚本支左屈右，善射法也。鲍本支，去竹之支也。盖取其直左右臂。正曰：列女传云，左手如拒，右手如附枝，右手发之，左手不知，此射之道也。〉"
+            },
+            {
+              "main_offset": 175,
+              "text": "〈姚本“已”，钱、刘作“以”。鲍本“已”作“以”。○百中善也，此时宜息。札记丕烈案：史记作“以”。〉"
+            },
+            {
+              "main_offset": 186,
+              "text": "〈鲍本“钩”作“拘”。○补曰：“拘”有钩音，古或通。札记丕烈案：“拘”当是。此亦因史记而讹为“钩”耳。〉"
+            },
+            {
+              "main_offset": 194,
+              "text": "〈鲍本尽，犹灭。〉"
+            },
+            {
+              "main_offset": 241,
+              "text": "〈姚本曾一作“周”，集、刘作“过”。〉"
+            },
+            {
+              "main_offset": 245,
+              "text": "〈鲍本践，履也，犹过。〉"
+            },
+            {
+              "main_offset": 262,
+              "text": "〈姚本灭，没也。〉"
+            },
+            {
+              "main_offset": 273,
+              "text": "〈鲍本周纪三十四年有。补曰：“射之”、“射柳”之“射”，食亦反。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 12,
+          "source_note_count": 18,
+          "editor_note_count": 3
+        },
+        {
+          "id": "007",
+          "title": "楚兵在山南",
+          "source_block_indices": [
+            14
+          ],
+          "status": "complete",
+          "raw_sha256": "98e8d608f44244d1382ac5af09feefb25b8411a43d25049d0d7aedf682a7e9c5",
+          "main_sha256": "8cdead853dceae4533893e5f84f59af8ae9b2d86d0d9045d0a1cb57cd851015e",
+          "source_notes": [
+            {
+              "main_offset": 6,
+              "text": "〈姚本在周之山南也。鲍本山，吴岳，属扶风。礼所谓岳山也。正曰：岍山，秦地，非此所指。〉"
+            },
+            {
+              "main_offset": 8,
+              "text": "〈姚本吾得，楚将也。“吾”当为“五”，楚五将者也。鲍本“吾”作“伍”。○补曰：“吾”字讹，当作“伍”。札记丕烈案：鲍改吴补皆非，高注可证。〉"
+            },
+            {
+              "main_offset": 12,
+              "text": "〈鲍本顷襄。〉"
+            },
+            {
+              "main_offset": 14,
+              "text": "〈鲍本“怒”作“怨”。○属，连也，犹结。〉"
+            },
+            {
+              "main_offset": 38,
+              "text": "〈姚本或，犹有人谓周君也。使太子与军正于境迎吾得也。鲍本周太子也。将，去音。军正，犹卒正，军之率也。正曰：此谓将军而正迎也。史穰且传“军正”无注。〉"
+            },
+            {
+              "main_offset": 50,
+              "text": "〈鲍本“君”作“军”。○〉"
+            },
+            {
+              "main_offset": 58,
+              "text": "〈姚本泄，犹使楚闻之也。鲍本微漏其言，使楚知之。〉"
+            },
+            {
+              "main_offset": 75,
+              "text": "〈姚本一无“必”字。〉"
+            },
+            {
+              "main_offset": 78,
+              "text": "〈姚本曾、集作“谋”，钱、刘作“某”。鲍本此以间得于楚，言与得之器，其款识云然。〉"
+            },
+            {
+              "main_offset": 86,
+              "text": "〈鲍本楚王。〉"
+            },
+            {
+              "main_offset": 93,
+              "text": "〈姚本效，致也。鲍本得实未尝得器，故无以效。〉"
+            },
+            {
+              "main_offset": 99,
+              "text": "〈鲍本以其欺也。彪谓：此谋虽不出于正，而免国于难可也。正曰：鲍以此为尊周，缪矣。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 4,
+          "source_note_count": 12,
+          "editor_note_count": 3
+        },
+        {
+          "id": "008",
+          "title": "楚请道于二周之间",
+          "source_block_indices": [
+            16
+          ],
+          "status": "complete",
+          "raw_sha256": "6985b60a3e5d588951432a09533281f9b6069842727894df10c015dc3afee6dc",
+          "main_sha256": "e7a2366588fba15938d00ad010de9eafcb36f4ffa6023e03642e96422bf6273c",
+          "source_notes": [
+            {
+              "main_offset": 9,
+              "text": "〈鲍本以假道请。〉"
+            },
+            {
+              "main_offset": 11,
+              "text": "〈姚本临，犹伐也。〉"
+            },
+            {
+              "main_offset": 22,
+              "text": "〈鲍本“秦”作“子”。○秦字季子，洛阳人，其死时，东、西周未分，此当为代若厉，诸如此处不一。正曰：东、西周见前。史不曰苏秦东周洛阳人乎？〉"
+            },
+            {
+              "main_offset": 23,
+              "text": "〈姚本曾一作“调”。集、刘作“谓”。〉"
+            },
+            {
+              "main_offset": 31,
+              "text": "〈姚本属，犹至也，通也。鲍本除，去秽也。〉"
+            },
+            {
+              "main_offset": 35,
+              "text": "〈鲍本夏纪注，河出金城、积石。盖道行两周之间，使楚所假连及之。正曰：河，东过洛、汭，在巩县东，洛邑北望有河。〉"
+            },
+            {
+              "main_offset": 40,
+              "text": "〈鲍本恶楚。〉"
+            },
+            {
+              "main_offset": 53,
+              "text": "〈鲍本道广可以出鼎。〉"
+            },
+            {
+              "main_offset": 71,
+              "text": "〈姚本方城，楚塞也。外，北也。〉"
+            },
+            {
+              "main_offset": 82,
+              "text": "〈姚本四国，齐、秦、韩、魏也。〉"
+            },
+            {
+              "main_offset": 90,
+              "text": "〈鲍本与之道。正曰：谓鼎也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 5,
+          "source_note_count": 11,
+          "editor_note_count": 2
+        },
+        {
+          "id": "009",
+          "title": "司寇布为周最谓周君",
+          "source_block_indices": [
+            18
+          ],
+          "status": "complete",
+          "raw_sha256": "53a2b852734dc543cbfd3833c75583d8437ae8601e0078e4f9340c93d9ad7273",
+          "main_sha256": "84fc3bb8fd12c6e911a969a9b70bbe972020217c38a1e25a396f939da0272bb3",
+          "source_notes": [
+            {
+              "main_offset": 3,
+              "text": "〈姚本布，周臣也。鲍本司寇，周官，布其名。〉"
+            },
+            {
+              "main_offset": 28,
+              "text": "〈鲍本闵王善最，欲其为太子，以赂进之。最时让立，周以最不肯立告齐。正曰：闵王说见前章，此并无据。〉"
+            },
+            {
+              "main_offset": 42,
+              "text": "〈姚本齐太公，田常孙田和也，始代吕氏为齐侯，号曰太公。函，姓；冶，官名也。因以为氏。知铸冶，晓铁理，能相剑。太公不知其剑善，故归之而责其买剑金。〉"
+            },
+            {
+              "main_offset": 72,
+              "text": "〈姚本虽愿千金，犹未尽其本价也，故折其（钱、刘下有“剑”字），不卖与越人也。鲍本折，折剑。正曰：高注云，“虽千金，犹未尽其本价，故折其钱而不卖”。则“折”作“折阙”义，若作“断折”，则于下文不通。〉"
+            },
+            {
+              "main_offset": 77,
+              "text": "〈鲍本“属”，“嘱”同。集韵，托辞。〉"
+            },
+            {
+              "main_offset": 79,
+              "text": "〈姚本函冶氏属其子曰。〉"
+            },
+            {
+              "main_offset": 88,
+              "text": "〈姚本必无以语人，独知其利。鲍本无以告人，自知其良。正曰：因高注。愚意，“必无独知”当作一句，言凡有售，必使众知其良，不可独知也。〉"
+            },
+            {
+              "main_offset": 97,
+              "text": "〈鲍本周虽以最不肯立告齐，犹欲立之，特未定耳。〉"
+            },
+            {
+              "main_offset": 101,
+              "text": "〈鲍本契，约也。当两知之，今则独。补曰：礼记“右契”注，一书两札，同而别之。〉"
+            },
+            {
+              "main_offset": 122,
+              "text": "〈姚本果，周太子也。鲍本“为”作“谓”。○补曰：策“为”、“谓”通借，此当作“谓”。亦周子也。札记丕烈案：“谓”、“为”非通借，乃写者乱之，后仿此。〉"
+            },
+            {
+              "main_offset": 124,
+              "text": "〈鲍本让，饰说也。〉"
+            },
+            {
+              "main_offset": 134,
+              "text": "〈姚本嫁，卖。鲍本“之”下补“于”字，“齐”下无“也”字。○言欺齐。〉"
+            },
+            {
+              "main_offset": 139,
+              "text": "〈鲍本巧，犹诈。〉"
+            },
+            {
+              "main_offset": 144,
+              "text": "〈鲍本心欲之而言不肯。〉"
+            },
+            {
+              "main_offset": 152,
+              "text": "〈鲍本可信之货，非独知也。〉"
+            },
+            {
+              "main_offset": 157,
+              "text": "〈鲍本爱，犹吝。〉"
+            },
+            {
+              "main_offset": 168,
+              "text": "〈鲍本然则立最信矣。从周纪，皆当为楚王。正曰：使众见之而信最之当立。从周纪改楚，非。补曰：“为周”、“为君”、“为齐”之“为”，去声。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 8,
+          "source_note_count": 17,
+          "editor_note_count": 3
+        },
+        {
+          "id": "010",
+          "title": "秦召周君",
+          "source_block_indices": [
+            20
+          ],
+          "status": "complete",
+          "raw_sha256": "c9854b12807219991a4f23905bb307fdab794b008e95038ee1b7b2281639dc91",
+          "main_sha256": "a27ebc7c9cd8e1284b65f73a6a4b86b5846bded33582b3c0438b4294c5cf9807",
+          "source_notes": [
+            {
+              "main_offset": 10,
+              "text": "〈鲍本意不欲往。〉"
+            },
+            {
+              "main_offset": 17,
+              "text": "〈姚本史记作韩王。鲍本安釐。正曰：无考。〉"
+            },
+            {
+              "main_offset": 34,
+              "text": "〈姚本南阳，魏邑也。〉"
+            },
+            {
+              "main_offset": 38,
+              "text": "〈鲍本“出”下有“兵”字。○札记丕烈案：史记有。〉"
+            },
+            {
+              "main_offset": 42,
+              "text": "〈姚本史记作南阳。鲍本河南，洛阳也。时未为郡，言河之南耳。正曰：河南即西周郏鄏。考王封弟河南，其名久矣。〉"
+            },
+            {
+              "main_offset": 57,
+              "text": "〈姚本以魏兵在河南为辞，不往诣秦也。〉"
+            },
+            {
+              "main_offset": 68,
+              "text": "〈鲍本越，度也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 5,
+          "source_note_count": 7,
+          "editor_note_count": 2
+        },
+        {
+          "id": "011",
+          "title": "𡱝武败于伊阙",
+          "source_block_indices": [
+            22
+          ],
+          "status": "complete",
+          "raw_sha256": "daa7d1c5cd907cf14796119be3423ceb7ad426129322881dbc6cc6d2e8cf9a8d",
+          "main_sha256": "3fb02fb8a06b7bf96604d6292f6aab203b58df2f80631eb2d2c3f053c3012578",
+          "source_notes": [
+            {
+              "main_offset": 14,
+              "text": "〈姚本秦将白起败魏将𡱝武于伊阙，遂进攻，周君故求救于魏也。鲍本补曰：大事记，秦怒东周助韩、魏，故攻之。按策文当作西周。〉"
+            },
+            {
+              "main_offset": 16,
+              "text": "〈鲍本昭。〉"
+            },
+            {
+              "main_offset": 24,
+              "text": "〈姚本故不救周。鲍本意者有赵或韩兵也。正曰：赵兵无考。周、韩、魏共伐秦，此时韩、魏必和。〉"
+            },
+            {
+              "main_offset": 36,
+              "text": "〈姚本梁，魏惠王之都也。畜禽曰苑囿，有林池曰园也。鲍本陈留浚仪注，魏惠王自安邑徙大梁，有林池曰囿。正曰：囿者，蕃育鸟兽之所。〉"
+            },
+            {
+              "main_offset": 39,
+              "text": "〈姚本綦母恢，周臣也。〉"
+            },
+            {
+              "main_offset": 51,
+              "text": "〈姚本温囿，今在河内，是时属魏。下，犹减也。此，□梁囿（一作梁）也。温囿近周，□能为君取□温囿也。鲍本温属河内。言其乐不在梁下。〉"
+            },
+            {
+              "main_offset": 55,
+              "text": "〈鲍本近周。〉"
+            },
+            {
+              "main_offset": 59,
+              "text": "〈札记今本脱“君”字。〉"
+            },
+            {
+              "main_offset": 97,
+              "text": "〈姚本患，忧也。鲍本“怨王”作“怨乎”。○〉"
+            },
+            {
+              "main_offset": 106,
+              "text": "〈姚本周，天子也，故曰谋主也。鲍本犹为天子故。正曰：韩世家，使公孙喜率周、魏伐秦，败伊阙，缘是，故称谋主。比周君也。〉"
+            },
+            {
+              "main_offset": 112,
+              "text": "〈鲍本“王”作“乎”。○札记今本“王”作“乎”。〉"
+            },
+            {
+              "main_offset": 113,
+              "text": "〈姚本捍，御也。传曰，捍御北狄也。鲍本设，施阵。捍，卫也。〉"
+            },
+            {
+              "main_offset": 122,
+              "text": "〈姚本言魏为周无所捍御也。〉"
+            },
+            {
+              "main_offset": 149,
+              "text": "〈姚本南阳，魏邑。〉"
+            },
+            {
+              "main_offset": 157,
+              "text": "〈鲍本言赵、韩援魏之路绝。正曰：是时魏上党被兵，若周、秦攻南阳，则魏又当御其攻，而上党必绝。后云“上党无患”，言得并力于此也。〉"
+            },
+            {
+              "main_offset": 188,
+              "text": "〈姚本形，势也。小利，谓温囿也。鲍本“不”下有“好”字。○国小多忧，其势宜不得游观。札记今本“不”下有“好”字。丕烈案：此“小”字因下文而衍，读以“秦”字句绝。鲍本有“好”字，乃读“利”字为句，所解全谬。今本依之，非也。〉"
+            },
+            {
+              "main_offset": 192,
+              "text": "〈姚本戍，守也。鲍本戍，守边也，许为周捍秦。〉"
+            },
+            {
+              "main_offset": 211,
+              "text": "〈鲍本云得戍卒之援。〉"
+            },
+            {
+              "main_offset": 219,
+              "text": "〈姚本“利”，钱作“私”。私，爱也。鲍本“利”作“私”。○补曰：作“利”字，则与上协。得戍公也，得囿私也。札记丕烈案：吴氏说非是，详高注。姚校皆作“私”。秦策“而私商于之地”，亦其证。〉"
+            },
+            {
+              "main_offset": 238,
+              "text": "〈鲍本“岁”上有“计”字。○魏人贡其上之数。〉"
+            },
+            {
+              "main_offset": 256,
+              "text": "〈鲍本周许魏之数。〉"
+            },
+            {
+              "main_offset": 260,
+              "text": "〈鲍本“每”作“无”。○札记今本“每”作“无”。〉"
+            },
+            {
+              "main_offset": 261,
+              "text": "〈鲍本周善事魏，则赵、韩必不加兵。〉"
+            },
+            {
+              "main_offset": 268,
+              "text": "〈姚本温囿贡于魏王八十金耳，周君得之则贡百二十金，故曰“是赢四十金”。鲍本赢，有余贾利也。〉"
+            },
+            {
+              "main_offset": 274,
+              "text": "〈鲍本鸿烈汎论训注，齐人，即芒卯。〉"
+            },
+            {
+              "main_offset": 284,
+              "text": "〈鲍本“戍”下无“也”字。○〉"
+            },
+            {
+              "main_offset": 286,
+              "text": "〈鲍本彪谓：周君非贤君也，秦兵在境，而乐于囿，其志荒矣。恢虽能得囿，非君子所以事其君者也。补曰：“为辞”、“为乐”之“为”，如字，馀去声。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 16,
+          "source_note_count": 27,
+          "editor_note_count": 4
+        },
+        {
+          "id": "012",
+          "title": "韩魏易地",
+          "source_block_indices": [
+            24
+          ],
+          "status": "complete",
+          "raw_sha256": "629d443b2ae05ff2d7b5d198eb0a618a7f571ec955cc8ab96dfae560552a3cb5",
+          "main_sha256": "cb69c5a0395a61a47ecbe3cd4c47d7e2b3b9f3285111e2b37d747e5bdb5e620a",
+          "source_notes": [
+            {
+              "main_offset": 6,
+              "text": "〈鲍本韩策书此在楚围雍氏后。〉"
+            },
+            {
+              "main_offset": 11,
+              "text": "〈姚本利，便也。〉"
+            },
+            {
+              "main_offset": 13,
+              "text": "〈姚本樊馀，周臣也。曾，下有“为周”字。〉"
+            },
+            {
+              "main_offset": 16,
+              "text": "〈姚本为周谓楚王。楚王，怀王。〉"
+            },
+            {
+              "main_offset": 41,
+              "text": "〈鲍本易地，则魏亦有得；而独言亡者，亡多于得也。〉"
+            },
+            {
+              "main_offset": 47,
+              "text": "〈鲍本魏虽多亡，然且为之。〉"
+            },
+            {
+              "main_offset": 52,
+              "text": "〈鲍本东、西。〉"
+            },
+            {
+              "main_offset": 62,
+              "text": "〈鲍本汉志，武王迁九鼎于郏鄏。郏鄏属河南，为东周。正曰：说见前。〉"
+            },
+            {
+              "main_offset": 73,
+              "text": "〈鲍本河内修武注，晋始启南阳是也。京兆、山阳皆有郑，河南有新郑。此在楚、魏之间，新郑也。河南郡注，秦三川郡也。周纪“三川震”注，泾、渭、洛。补曰：杜注，在晋山南河北，故曰南阳。郑本在西都畿内咸林。武公得虢、桧之地，乃徙其封，是为新郑。咸林今华州郑县，新郑今郑州。正曰：三州，河、洛、伊。张仪所谓天下朝市，秦武王所谓车通以窥周室者也。秦拔成皋、荥阳，初置三川郡。〉"
+            },
+            {
+              "main_offset": 86,
+              "text": "〈鲍本南阳郡注，叶公邑，号方城。补曰：正义云，方城山在叶县西。〉"
+            },
+            {
+              "main_offset": 99,
+              "text": "〈姚本羊肠，赵险塞名也。山形屈璧（钱作辟），状如羊肠。今在太原晋阳之西北也。鲍本上党壶关有羊肠阪。此皆以所近之国强故危。〉"
+            },
+            {
+              "main_offset": 109,
+              "text": "〈鲍本“曰”作“日”。○札记今本“曰”作“日”。丕烈案：旧“日”字多写为“曰”字者。〉"
+            },
+            {
+              "main_offset": 127,
+              "text": "〈鲍本“赵”下有“兵”字，“易”下无“也”字。○补曰：一本“因赵以止易也”。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 7,
+          "source_note_count": 13,
+          "editor_note_count": 3
+        },
+        {
+          "id": "013",
+          "title": "秦欲攻周",
+          "source_block_indices": [
+            26
+          ],
+          "status": "complete",
+          "raw_sha256": "df97ed66f6075a2e8d17d6a3f19abb9e9b305d66e218da2879b168021aa0f7ce",
+          "main_sha256": "b70717bf5f973dfe5354a0c6cc7b3d374e9a89dd232338759f9473096f9a29c0",
+          "source_notes": [
+            {
+              "main_offset": 10,
+              "text": "〈鲍本昭。〉"
+            },
+            {
+              "main_offset": 20,
+              "text": "〈鲍本“王之国”作“国之”。○札记丕烈案：史记作“为王计者”。〉"
+            },
+            {
+              "main_offset": 40,
+              "text": "〈鲍本声，犹名也。周，天子也，今见攻，故天下畏秦。正曰：畏，犹恶也。周地狭不足以利国，而有攻天子之恶名，见畏恶于天下。与司马错说同意。〉"
+            },
+            {
+              "main_offset": 55,
+              "text": "〈姚本弊，罢也。鲍本攻虽胜，不无伤失。〉"
+            },
+            {
+              "main_offset": 78,
+              "text": "〈鲍本“罢”，“疲”同。下同。〉"
+            },
+            {
+              "main_offset": 93,
+              "text": "〈鲍本天下合齐而与秦战，战则必疲。〉"
+            },
+            {
+              "main_offset": 98,
+              "text": "〈姚本横行，东行。鲍本横行，无畏忌也。〉"
+            },
+            {
+              "main_offset": 103,
+              "text": "〈鲍本纪有。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 8,
+          "editor_note_count": 3
+        },
+        {
+          "id": "014",
+          "title": "宫他谓周君",
+          "source_block_indices": [
+            28
+          ],
+          "status": "complete",
+          "raw_sha256": "a572c356b798a4cc0d8eaeb5f7ec143e5da2656e26243f9e0fb6ed640aa6d088",
+          "main_sha256": "b86f5257769ad12c2e02cd5c0f21ae3033ddfccf051bb29180b8bae0aaedacdc",
+          "source_notes": [
+            {
+              "main_offset": 2,
+              "text": "〈姚本宫他，周臣也。鲍本周人。〉"
+            },
+            {
+              "main_offset": 15,
+              "text": "〈鲍本宛属南阳，故申伯国。南阳，三晋时属韩。韩釐五年，秦拔我宛。盖宛亡在春秋之晋。三晋分晋，乃属韩也。〉"
+            },
+            {
+              "main_offset": 21,
+              "text": "〈姚本谷不熟曰饥。亡，灭也。鲍本此下皆恃远轻近而亡。秦饥不暇救宛，故晋灭之。其亡不经见。〉"
+            },
+            {
+              "main_offset": 35,
+              "text": "〈姚本韩哀侯灭亡郑。鲍本郑，河南新郑。郑君乙二十一年，韩哀侯灭之。〉"
+            },
+            {
+              "main_offset": 37,
+              "text": "〈姚本钱、刘下有“臣”字。〉"
+            },
+            {
+              "main_offset": 42,
+              "text": "〈姚本为齐所灭亡。鲍本鲁邹县，故邾也。邾，曹姓国，二十九世，楚灭之。莒属城阳国，故盈姓国，三十世，楚灭之。盖恃齐也。〉"
+            },
+            {
+              "main_offset": 49,
+              "text": "〈姚本为楚所灭亡。鲍本陈，舜后，汉淮阳国。楚惠王十年灭陈，四十二年灭蔡。皆不见所恃。盖即恃楚，不备之也。〉"
+            },
+            {
+              "main_offset": 53,
+              "text": "〈鲍本援，引也。故有助意。〉"
+            },
+            {
+              "main_offset": 81,
+              "text": "〈鲍本“最”原作“早”，又改作“最”。○补曰：姚本正作“最”。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 9,
+          "editor_note_count": 2
+        },
+        {
+          "id": "015",
+          "title": "谓齐王",
+          "source_block_indices": [
+            30
+          ],
+          "status": "complete",
+          "raw_sha256": "106325c8d80068c017c5c47be13cb041982d582ec08cbccda82fee2208cf2c03",
+          "main_sha256": "555e9425b5e88e582e1d5c773dcf7b24a102491fe7cdb2f250fae302b0054a2d",
+          "source_notes": [
+            {
+              "main_offset": 3,
+              "text": "〈鲍本凡言“谓”、言“为”而不人，失之也，犹言“或为”、“或谓”。王，闵王。正曰：周最，屡见东、西周策。“谓周最曰，仇赫之相宋”云云，事在赧王十七年；“周最于齐王厚也，而逐之，听祝弗相吕礼”云云，礼之相，在赧王二十九年，此则正当齐闵之世；周纪，赧王四十五年，“周君之秦，客谓周最以应为太后养地”；五十八年，有“周聚以收齐”，则正当顷襄王之世。相距凡四十年，不可定为闵王时也。按策，西周两章皆云最为太子，而东周又出最名，无曰太子云者，疑或自是二人，然无所考。〉"
+            },
+            {
+              "main_offset": 18,
+              "text": "〈姚本赍，进也。周最为周之太子。鲍本赍，持遗也。最，周之庶子。凡周皆周之族。正曰：鲍意此即上章事，而上有五庶子之文尔，无明据。〉"
+            },
+            {
+              "main_offset": 27,
+              "text": "〈姚本刘，一作“秆”。鲍本齐人。〉"
+            },
+            {
+              "main_offset": 29,
+              "text": "〈姚本续：一作“地”。〉"
+            },
+            {
+              "main_offset": 30,
+              "text": "〈鲍本进，犹荐。〉"
+            },
+            {
+              "main_offset": 37,
+              "text": "〈鲍本齐人。〉"
+            },
+            {
+              "main_offset": 73,
+              "text": "〈姚本置，立也。欲立谁为太子也。〉"
+            },
+            {
+              "main_offset": 81,
+              "text": "〈鲍本“悍”下无“请”字。○补曰：一本“悍请令”。〉"
+            },
+            {
+              "main_offset": 97,
+              "text": "〈姚本左尚以教司马悍劝王赍周最地，以此得尊宠之职。鲍本以教悍得齐王意，故委任之。疑此即上章“楚王”、“楚人”。补曰：最，史作聚。索隐云，“最”，古“聚”字。说文同。赵策颜最，史亦作颜聚。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 6,
+          "source_note_count": 9,
+          "editor_note_count": 3
+        },
+        {
+          "id": "016",
+          "title": "三国攻秦反",
+          "source_block_indices": [
+            32
+          ],
+          "status": "complete",
+          "raw_sha256": "559c6003e32661eead2a0c4054a24a95cfd972347133508bb8cf4d8551818fd4",
+          "main_sha256": "b140f4e737e0e9d006a187867ac7acc1de354eec28fd90e888a0a7d745303cc9",
+          "source_notes": [
+            {
+              "main_offset": 2,
+              "text": "〈姚本三国，魏、韩、齐也。〉"
+            },
+            {
+              "main_offset": 6,
+              "text": "〈姚本反，还也。〉"
+            },
+            {
+              "main_offset": 12,
+              "text": "〈鲍本“藉”亦“借”。〉"
+            },
+            {
+              "main_offset": 21,
+              "text": "〈鲍本哀。正曰：此据史。按通鉴、大事记，显王三十五年，乃魏惠王后元年；慎靓王三年，当魏襄元年。说见魏策。此当作襄，事在二十一年。〉"
+            },
+            {
+              "main_offset": 34,
+              "text": "〈鲍本“德”作“听”。○听，犹顺从。三国近楚、宋，秦听之则强而害楚、宋，故不利也。正曰：三国不攻秦而解，故秦德之；秦德之，则和而不利于楚、宋。〉"
+            },
+            {
+              "main_offset": 42,
+              "text": "〈鲍本楚、宋攻魏之廪库。正曰：邑落曰聚。如𢠸狐聚、阳人聚之类。〉"
+            },
+            {
+              "main_offset": 47,
+              "text": "〈鲍本若为秦报魏王。〉"
+            },
+            {
+              "main_offset": 58,
+              "text": "〈鲍本舍，军次也。魏东还，必道周，周必宾之，故恐。今速东，则无宾之之费矣。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 3,
+          "source_note_count": 8,
+          "editor_note_count": 3
+        },
+        {
+          "id": "017",
+          "title": "𡱝武败",
+          "source_block_indices": [
+            34
+          ],
+          "status": "complete",
+          "raw_sha256": "14cec368276a14371efd40fae5c1b42556f69005926efc67f679333e3ffbc2ca",
+          "main_sha256": "e87f9baea2720054417f0441dceac1cf94986702523fc54b366e8d4310578434",
+          "source_notes": [
+            {
+              "main_offset": 7,
+              "text": "〈姚本集、曾、钱，一无下“周”字。刘有。〉"
+            },
+            {
+              "main_offset": 8,
+              "text": "〈鲍本周相。〉"
+            },
+            {
+              "main_offset": 38,
+              "text": "〈鲍本皆美恶之恶。正曰：左传，周、郑交恶，杜注，两相疾恶。据此，则皆当乌故反。〉"
+            },
+            {
+              "main_offset": 40,
+              "text": "〈鲍本主君称周君。〉"
+            },
+            {
+              "main_offset": 46,
+              "text": "〈鲍本秦之所重。〉"
+            },
+            {
+              "main_offset": 49,
+              "text": "〈鲍本欲得周相。〉"
+            },
+            {
+              "main_offset": 57,
+              "text": "〈鲍本此人欲代足相周，故败其使事，此二国所以必恶。〉"
+            },
+            {
+              "main_offset": 65,
+              "text": "〈鲍本“臣”下“为”字在“能”字下。○〉"
+            },
+            {
+              "main_offset": 71,
+              "text": "〈鲍本免己之相，以顺欲者。〉"
+            },
+            {
+              "main_offset": 92,
+              "text": "〈鲍本此下或人复说足也。〉"
+            },
+            {
+              "main_offset": 102,
+              "text": "〈鲍本“且”作“是”。○〉"
+            },
+            {
+              "main_offset": 111,
+              "text": "〈鲍本虽以免自请，势不可免也。〉"
+            },
+            {
+              "main_offset": 122,
+              "text": "〈姚本为秦所善。〉"
+            },
+            {
+              "main_offset": 129,
+              "text": "〈鲍本“且”作“是”，“成事”作“事成”。○补曰：恐当作“事成”。〉"
+            },
+            {
+              "main_offset": 138,
+              "text": "〈鲍本“公”下补“者”字。○札记今本“公”下有“者”字，乃误涉鲍也。鲍补“者”字。〉"
+            },
+            {
+              "main_offset": 140,
+              "text": "〈鲍本意其恶足于秦也。〉"
+            }
+          ],
+          "format_breaks": [],
+          "sentence_pairs": 7,
+          "source_note_count": 16,
+          "editor_note_count": 3
+        }
+      ],
+      "annotation_status": "complete"
+    }
+  ],
+  "scope_note": "本轮用户指定东周、西周两册；其余卷序附文仍待整理，不据两册完成标记全书完成。"
 }
