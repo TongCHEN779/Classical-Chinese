@@ -1,0 +1,29 @@
+{
+  "title": "曾國藩家書",
+  "url": "https://zh.wikisource.org/zh-hans/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8",
+  "revision": "1374309",
+  "fetched_at": "2026-10-29T13:58:45.036786+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "目录"
+    }
+  ],
+  "links": [
+    {
+      "title": "曾國藩家書/1",
+      "label": "第一章 治学篇"
+    },
+    {
+      "title": "曾國藩家書/2",
+      "label": "第二章 修身篇"
+    },
+    {
+      "title": "曾國藩家書/3",
+      "label": "第三章 齐家篇"
+    }
+  ],
+  "text_sha256": "52daa71ebc31058156b21dc21c01ed18eb4e9a723749259cacd1558afe32dfea"
+}

@@ -598,7 +598,21 @@ def _classics_spec():
             "index_footer": "已整理10篇。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
 
 
+def _zengguofan_spec():
+    progress = json.loads((ROOT / "sources/zengguofan/progress.json").read_text(encoding="utf8"))
+    done, total = progress["annotated_letters"], progress["letters"]
+    return {"title": "曾国藩家书", "author": "［清］曾国藩", "unit": "篇",
+            "prose": True, "count_entries": True, "strict_pairs": True,
+            "intro": f"清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家。依维基文库三章分类辑录本收录{total}封家信及附文；已为{done}封配逐句白话、题解与注释，其中齐家篇11封全部完成，其余篇目注译进度见章内题解。本版本不等于《曾文正公家书》全集。",
+            "index_footer": f"三章原文及附文已收录；{done}/{total}封完成注译。维基文库目录所列第四章无正文，未补造篇目。",
+            "reading_hint": "鼠标悬停或触屏点按已注译的原文，可看本句白话；点击题解、注释可展开。未注译的条目标明“待整理”。",
+            "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
+            "page_sources": {p["slug"]: {**p["source"], "after": "仅整理夹注内句末标点，疑字照录，原站标题与日期不合处另注。"}
+                             for p in progress["pages"]}}
+
+
 POETRY = {
+    "zengguofan": _zengguofan_spec(),
     "classic_list": _classics_spec(),
     "mengxi": _mengxi_spec(),
     "zhenglun-changyan": _zhenglun_changyan_spec(),

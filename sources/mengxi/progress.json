@@ -4374,17 +4374,21 @@
           "id": "001",
           "source_block_index": 1,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1406d3ce7e874f4f4300b9ea80490f814e2ecc43de4a8c5b141bc6f901474752",
           "main_sha256": "1406d3ce7e874f4f4300b9ea80490f814e2ecc43de4a8c5b141bc6f901474752",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "许我不下驴",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "002",
           "source_block_index": 2,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3cbf7b3c1e493b59c1aad3762124704659dddc19fb5d2f981fe4f8896f76a953",
           "main_sha256": "c5e39db0162c107753f4fbea1b33b86cc1af580e1959ec8e297f2e2e08aa5714",
           "source_notes": [
@@ -4397,23 +4401,31 @@
               "text": "〈荷辇十二人：前二人曰前竿，次二人曰前绦，又次曰前胁；后一人曰后胁，又后曰后绦，未后曰后竿。辇前队长一人，曰传倡；后一人，曰报赛。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "木经三分法",
+          "sentence_pairs": 10,
+          "source_note_count": 2,
+          "editor_note_count": 5
         },
         {
           "id": "003",
           "source_block_index": 3,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a71622888421472366b75e0d27a84120b5f2d8094bb7b2b5d132b589aad99382",
           "main_sha256": "a71622888421472366b75e0d27a84120b5f2d8094bb7b2b5d132b589aad99382",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "测量与缀术",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "004",
           "source_block_index": 4,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1a69c027b6a6716651d153e51532a891525da5ade16060981e65010650df116d",
           "main_sha256": "f008f6e8291fb5a05373e5ee47154324ba4128330e174caf97aa682e5b1ce787",
           "source_notes": [
@@ -4422,23 +4434,31 @@
               "text": "〈假令积罂：最上行纵横各二罂，最下行各十二罂，行行相次。先以上二行相次，率至十二，当十一行也。以刍童法求之，倍上行长得四，并入下长得十六，以上广乘之，得之三十二；又倍下行长得二十四，并入上长，得二十六，以下广乘之，得三百一十二；并二位得三百四十四，以高乘之，得三千七百八十四。重列下广十二，以上广减之，馀十，以高乘之，得一百一十，并入上位，得三千八百九十四；六而一，得六百四十九，此为罂数也。刍童求见实方之积，隙积求见合角不尽，益出羡积也。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "隙积与会圆",
+          "sentence_pairs": 24,
+          "source_note_count": 1,
+          "editor_note_count": 11
         },
         {
           "id": "005",
           "source_block_index": 5,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e03c708edcea5d21adbaf005c2f06c09e782d53a9d9ebc39be09fa3d5e1c178e",
           "main_sha256": "e03c708edcea5d21adbaf005c2f06c09e782d53a9d9ebc39be09fa3d5e1c178e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "蹙融争先",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "006",
           "source_block_index": 6,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bf6d0723905b9bb083577f9a9dbcc6a7ce4d3d9305677ce088620b746572e395",
           "main_sha256": "f635fc228a3f0a05f20a6b7753117334c2c12149a5f6b6c70dd8ed86258f675b",
           "source_notes": [
@@ -4451,13 +4471,17 @@
               "text": "〈“柱”谓挽过吻则木强而不来。“节”谓把梢裨木，长则柱，短则虚。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "制弓六善",
+          "sentence_pairs": 10,
+          "source_note_count": 2,
+          "editor_note_count": 6
         },
         {
           "id": "007",
           "source_block_index": 7,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "161128f6d7fc60edb0866bab19cea2ceeab963c3e5fd57d3f0b8bcd8ba7e4e43",
           "main_sha256": "a99e8ffcfb4b4d76fdd1d817c69c35164d3c6415b4c7fe9fc1316e9cb6982b45",
           "source_notes": [
@@ -4482,73 +4506,101 @@
               "text": "〈得一百三十五兆八百五十一万七千一百七十四亿四千八百二十八万七千三百三十四局，此是两行，凡三十八路变得此数也。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "棋局都数",
+          "sentence_pairs": 14,
+          "source_note_count": 5,
+          "editor_note_count": 7
         },
         {
           "id": "008",
           "source_block_index": 8,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1d72cce694e045307806ece742b7e8e6c8873e731f9689a8b15450be096320d1",
           "main_sha256": "1d72cce694e045307806ece742b7e8e6c8873e731f9689a8b15450be096320d1",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "弹棋与击鞠",
+          "sentence_pairs": 15,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "009",
           "source_block_index": 9,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7ca9b1e23eb81142e7e16ed771ba33baa9de3c92341e75d1b46b5c5f11ee088c",
           "main_sha256": "7ca9b1e23eb81142e7e16ed771ba33baa9de3c92341e75d1b46b5c5f11ee088c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "算法不胶一法",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "010",
           "source_block_index": 10,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5374948efce9b2b5c7cf08163852d2fc1aa94026025bc86a8e340ccc5a674930",
           "main_sha256": "5374948efce9b2b5c7cf08163852d2fc1aa94026025bc86a8e340ccc5a674930",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "毕昇活版",
+          "sentence_pairs": 16,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "011",
           "source_block_index": 11,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6a0d26669e52bb6667d480eea8dcd65ff9a7ff1009a1e1d22cfebde4ddcc4263",
           "main_sha256": "6a0d26669e52bb6667d480eea8dcd65ff9a7ff1009a1e1d22cfebde4ddcc4263",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "卫朴历算",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "012",
           "source_block_index": 12,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "750598c726c10d33909608183eb69db7fadffffb153faf1ae1e5a69b5027c171",
           "main_sha256": "750598c726c10d33909608183eb69db7fadffffb153faf1ae1e5a69b5027c171",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "灸数称壮",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "013",
           "source_block_index": 13,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d45191c91c599ced5fddd9956fcbeb6d517638db17fc46665877b39cde1f5166",
           "main_sha256": "d45191c91c599ced5fddd9956fcbeb6d517638db17fc46665877b39cde1f5166",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "分曹围棋的配对术",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "014",
           "source_block_index": 14,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3ea2ab4f10e0f7a86d1300a042357ee49fbd7b1944b8e2470690e2710ccc9911",
           "main_sha256": "a4f30016ce3a843503082cfa3323d33d021b395d924b2918f191e49bb49c9ea3",
           "source_notes": [
@@ -4557,80 +4609,112 @@
               "text": "〈必定反。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "跋焦羊卜",
+          "sentence_pairs": 7,
+          "source_note_count": 1,
+          "editor_note_count": 5
         },
         {
           "id": "015",
           "source_block_index": 15,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "904b67a192ea8bf20dc5c3e7f90d6e07ee63739a83b9ac654fb4fa68b894a982",
           "main_sha256": "904b67a192ea8bf20dc5c3e7f90d6e07ee63739a83b9ac654fb4fa68b894a982",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "喻皓定木塔",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "016",
           "source_block_index": 16,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bd75ce8b8fc27f983610f9104f6527039de2da1da616cb0d7cd92a2107cf7345",
           "main_sha256": "bd75ce8b8fc27f983610f9104f6527039de2da1da616cb0d7cd92a2107cf7345",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "须发眉与脏气旧说",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "017",
           "source_block_index": 17,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b527b9be1b1ec155596166ec74af7f864d191583385d8987d339eb363934b8fd",
           "main_sha256": "b527b9be1b1ec155596166ec74af7f864d191583385d8987d339eb363934b8fd",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "服石方论与拘书之弊",
+          "sentence_pairs": 16,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "018",
           "source_block_index": 18,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9b1cab8ac328f43cd6fe27e03db871d908e3c53c198151fd9ebc615d4ee26a39",
           "main_sha256": "9b1cab8ac328f43cd6fe27e03db871d908e3c53c198151fd9ebc615d4ee26a39",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "药物个案与亲见之说",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "019",
           "source_block_index": 19,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8ca1633eb7b03f18b74825f963c415df0f4cbc3dcad9b3c3c87546b2f248290e",
           "main_sha256": "8ca1633eb7b03f18b74825f963c415df0f4cbc3dcad9b3c3c87546b2f248290e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "横摹循旧迹",
+          "sentence_pairs": 1,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "020",
           "source_block_index": 20,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "61f52b4f7f6c67a275fd493802b49d7f50a8bf3258f5b2351e89f5910d63980b",
           "main_sha256": "61f52b4f7f6c67a275fd493802b49d7f50a8bf3258f5b2351e89f5910d63980b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "散隶与散草",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "021",
           "source_block_index": 21,
           "source_heading": "技艺",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "279c90feb829345e428e97f618ae25e9798601bbcf0c977b1ad6d3c382908f1a",
           "main_sha256": "279c90feb829345e428e97f618ae25e9798601bbcf0c977b1ad6d3c382908f1a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "奉真延病者三日",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 7
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan19",
@@ -4646,194 +4730,270 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "429d503fb2c461b5a2d0561cedffb381736b802c63a1c704c52207d3de769ce2",
           "main_sha256": "429d503fb2c461b5a2d0561cedffb381736b802c63a1c704c52207d3de769ce2",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "古器纹饰与礼图",
+          "sentence_pairs": 26,
+          "source_note_count": 0,
+          "editor_note_count": 8
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e13ed7bfcede515a86b35f3b6cb98e7f8005f8b9e634f220adbd3894169aa247",
           "main_sha256": "e13ed7bfcede515a86b35f3b6cb98e7f8005f8b9e634f220adbd3894169aa247",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "铜罍云雷纹",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cdfb4bc37dd361a171dc304257d271838d6230618941a29362eb2fe5d6fe6d77",
           "main_sha256": "cdfb4bc37dd361a171dc304257d271838d6230618941a29362eb2fe5d6fe6d77",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "吴钩刀形",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d37d87ec87de11e05d2935de737589a0b482af3a160da91b473e12902fc7653d",
           "main_sha256": "d37d87ec87de11e05d2935de737589a0b482af3a160da91b473e12902fc7653d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "矢服听声",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7db1aa2ac6d1575db1d05d1cb99715ff450a549bdf805a56f6caf93aacc713d2",
           "main_sha256": "7db1aa2ac6d1575db1d05d1cb99715ff450a549bdf805a56f6caf93aacc713d2",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "铜弩机工匠铭",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2127daf508800a0d7e87b6e6cad19ff1cc13819b19e5fa4f3818c44d7b903778",
           "main_sha256": "2127daf508800a0d7e87b6e6cad19ff1cc13819b19e5fa4f3818c44d7b903778",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "李定献神臂弓",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "397b0d6a7c4487cc324d37d1064acf35478ec51959593815bbccfbc497343c49",
           "main_sha256": "397b0d6a7c4487cc324d37d1064acf35478ec51959593815bbccfbc497343c49",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "古剑钢铁与鱼肠纹",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0e953bebd3cbc3a7a8c3da5fe863f52039b32cab358699472f5e445aafebaf41",
           "main_sha256": "0e953bebd3cbc3a7a8c3da5fe863f52039b32cab358699472f5e445aafebaf41",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "朱鲔墓刻冠服",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4ef3f0347d3ca617b4a5e02653b4ae9f925b6aae55744211967f89a69ac0e770",
           "main_sha256": "4ef3f0347d3ca617b4a5e02653b4ae9f925b6aae55744211967f89a69ac0e770",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "古镜凹凸取像",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "59141fb5afae11290cf220f0ebce7797c3ffb59ccea30a0fd6c987df9994e9bc",
           "main_sha256": "59141fb5afae11290cf220f0ebce7797c3ffb59ccea30a0fd6c987df9994e9bc",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "肺石达冤",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "af2081d9927df1c3fdbb631545f9108567117fd77cb50f3420aa45cc7121c795",
           "main_sha256": "af2081d9927df1c3fdbb631545f9108567117fd77cb50f3420aa45cc7121c795",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "得一钱非年号",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "012",
           "source_block_index": 11,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b09549cc579965d726bd4ab7574be1baae7b9079af9ad26b900f26a69f8064aa",
           "main_sha256": "b09549cc579965d726bd4ab7574be1baae7b9079af9ad26b900f26a69f8064aa",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "透光镜的解释与疑问",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "013",
           "source_block_index": 12,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4be8abeaf631b8d685d88e53270746b244660ce2f83f0a6b6d669ba194d3a86e",
           "main_sha256": "4be8abeaf631b8d685d88e53270746b244660ce2f83f0a6b6d669ba194d3a86e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "望山刻度与弩射",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "014",
           "source_block_index": 13,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5e9a0fb3b4c31947cd8e76b172b4ca4eb8d726ceae3cd455b63aaa70aec1413d",
           "main_sha256": "5e9a0fb3b4c31947cd8e76b172b4ca4eb8d726ceae3cd455b63aaa70aec1413d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "铜匜刻铭",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "015",
           "source_block_index": 14,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "717aa0feffbf71948b6a3aa30a1b232558f2a5cd65351e2ff4e333f120fe644a",
           "main_sha256": "717aa0feffbf71948b6a3aa30a1b232558f2a5cd65351e2ff4e333f120fe644a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "瘊子甲验材",
+          "sentence_pairs": 11,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "016",
           "source_block_index": 15,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b139d5e331b5f2395718a421ac7c7e0c585139710058a525a3f150c59502e5b6",
           "main_sha256": "b139d5e331b5f2395718a421ac7c7e0c585139710058a525a3f150c59502e5b6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "古玉精巧与工不苟",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "017",
           "source_block_index": 16,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d3038d67f2ce53e08f92cf21d92235e9a9966640ac4b5d2fea6804e04745819e",
           "main_sha256": "d3038d67f2ce53e08f92cf21d92235e9a9966640ac4b5d2fea6804e04745819e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "藻井异名",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "018",
           "source_block_index": 17,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0e6508624fc38fcd4539f2f4ce0f11d54cea8a4bb7816ad7e3762962e437458b",
           "main_sha256": "0e6508624fc38fcd4539f2f4ce0f11d54cea8a4bb7816ad7e3762962e437458b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "出土官印何以多军职",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "019",
           "source_block_index": 18,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "605dfca1c1b6bd08aadbf7d6a58e0d250c3dd7672093d1aea413dc07ee73ec90",
           "main_sha256": "605dfca1c1b6bd08aadbf7d6a58e0d250c3dd7672093d1aea413dc07ee73ec90",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "唐玉辂的坚久",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan20",
@@ -4849,67 +5009,91 @@
           "id": "001",
           "source_block_index": 1,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c99620eb6cd6edbc74e769f3603415cf473eaa552db1759280046c8cbbc06ac7",
           "main_sha256": "c99620eb6cd6edbc74e769f3603415cf473eaa552db1759280046c8cbbc06ac7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "雷楔与雷州之名",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "002",
           "source_block_index": 2,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6bcc168cba9cf05a93d8e3710ca205bb766444835ca74f1efb514d0cf2a6d729",
           "main_sha256": "6bcc168cba9cf05a93d8e3710ca205bb766444835ca74f1efb514d0cf2a6d729",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "应天寺鳗井传说",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "003",
           "source_block_index": 3,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b5a5ed7aa57a3df42de12a7179f4320df0fce6acac01e36a521adcd7e6825b4f",
           "main_sha256": "b5a5ed7aa57a3df42de12a7179f4320df0fce6acac01e36a521adcd7e6825b4f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "常州坠星石",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "004",
           "source_block_index": 4,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "07e70ca756fe9ab1dd4a4fec3ca3aaee11f9d6fbbc48feda272fecf2c7aed349",
           "main_sha256": "07e70ca756fe9ab1dd4a4fec3ca3aaee11f9d6fbbc48feda272fecf2c7aed349",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "女巫知心与空箧",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "005",
           "source_block_index": 5,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "12812ea53ebc307b70571d15b0db0d64200b70ba5fdd484f51562fcc5b419d19",
           "main_sha256": "12812ea53ebc307b70571d15b0db0d64200b70ba5fdd484f51562fcc5b419d19",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "陈允须发返黑",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 6,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "214f0bed23261fb95094febc7230283a9e575411bf1200035f003b73c03d03d9",
           "main_sha256": "214f0bed23261fb95094febc7230283a9e575411bf1200035f003b73c03d03d9",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "石卒化银与作者怀疑",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "007",
           "source_block_index": 7,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "815292d75e51a2d15bd273e722434d42196f42b6d4ca12da0f2f155787087ea2",
           "main_sha256": "b2491c24eb4ce540f41b2f29cdf8bd1ae83c6b24de8959a1762d619172296f3b",
           "source_notes": [],
@@ -4918,130 +5102,182 @@
               "main_offset": 179,
               "text": "\n"
             }
-          ]
+          ],
+          "title": "咸平佛牙舍利传闻",
+          "sentence_pairs": 11,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "008",
           "source_block_index": 8,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9cb0a3c4807c21046f5c88d0c30ee59d807ed4b7292e3aeab33485e0e5b377f8",
           "main_sha256": "9cb0a3c4807c21046f5c88d0c30ee59d807ed4b7292e3aeab33485e0e5b377f8",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "菜花佛形与彭蠡小龙",
+          "sentence_pairs": 30,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "009",
           "source_block_index": 9,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b62d979ccc25bfb64ade73e3854947cacce588d7885a7ffb33d8e2767febda1d",
           "main_sha256": "b62d979ccc25bfb64ade73e3854947cacce588d7885a7ffb33d8e2767febda1d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "所谓龙卵",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "010",
           "source_block_index": 10,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0215af7864fffb70ac26f851ad72b03ab6d18419b4e40afd46422554ea952433",
           "main_sha256": "0215af7864fffb70ac26f851ad72b03ab6d18419b4e40afd46422554ea952433",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "雷火熔金与草木不焚",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "011",
           "source_block_index": 11,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "977cfe95ae73891f6d7dac7b685266a0a66daab977716591f139876bbc1923d5",
           "main_sha256": "977cfe95ae73891f6d7dac7b685266a0a66daab977716591f139876bbc1923d5",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "尹师鲁临终故事",
+          "sentence_pairs": 22,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "012",
           "source_block_index": 12,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "78ec3ec12f9b085b3bf3dc9d19a39900e20eca33167ed8238dd5ec499f1dd51c",
           "main_sha256": "78ec3ec12f9b085b3bf3dc9d19a39900e20eca33167ed8238dd5ec499f1dd51c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "郑夷甫知死期传闻",
+          "sentence_pairs": 23,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "013",
           "source_block_index": 13,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f5d5fff34bf540cf7869153313fca6c1e5246d3b3d734f69462f6be38edd5076",
           "main_sha256": "f5d5fff34bf540cf7869153313fca6c1e5246d3b3d734f69462f6be38edd5076",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "前知与先后之论",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "014",
           "source_block_index": 14,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "239ba90e05c746fc2fd451dcc498d86cfad7dfb6b4d2a736a49f6076b1ff4de6",
           "main_sha256": "239ba90e05c746fc2fd451dcc498d86cfad7dfb6b4d2a736a49f6076b1ff4de6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "文捷与沈遘舍利故事",
+          "sentence_pairs": 24,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "015",
           "source_block_index": 15,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5d2f8eaa96321104da46338a47c2448bd89b72725d758516fd6477d739ca8e6f",
           "main_sha256": "5d2f8eaa96321104da46338a47c2448bd89b72725d758516fd6477d739ca8e6f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "汉水蛤筒藏经",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "016",
           "source_block_index": 16,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6a112c63e55a0c6991a09be8c2ad2815e8a67afe614aec4bf2f8f4235e6ba71a",
           "main_sha256": "6a112c63e55a0c6991a09be8c2ad2815e8a67afe614aec4bf2f8f4235e6ba71a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "张忠定与陈图南预言",
+          "sentence_pairs": 19,
+          "source_note_count": 0,
+          "editor_note_count": 7
         },
         {
           "id": "017",
           "source_block_index": 17,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "00d14d524f956637ba057925f44dbc695db9c6fa73e916264000ceb0785ef546",
           "main_sha256": "00d14d524f956637ba057925f44dbc695db9c6fa73e916264000ceb0785ef546",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "道亲献龙寿丹",
+          "sentence_pairs": 25,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "018",
           "source_block_index": 18,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7ec4f239a86d235d109da6e43128d8629ccde51d9ebef3da782cbfd4e581024c",
           "main_sha256": "7ec4f239a86d235d109da6e43128d8629ccde51d9ebef3da782cbfd4e581024c",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "太平观钱文与神号",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "019",
           "source_block_index": 19,
           "source_heading": "神奇",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0368ae482d66b59a73574b82996d085c1b88e29a10f4f900ed9d2e66d1fcd875",
           "main_sha256": "0368ae482d66b59a73574b82996d085c1b88e29a10f4f900ed9d2e66d1fcd875",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "王捷金龟故事",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 6
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan21",
@@ -5057,97 +5293,133 @@
           "id": "001",
           "source_block_index": 1,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5b7a6a27e9be1d621b31f82ebd1f195e9fd7e182a2021fb6a89c0bfb2627f747",
           "main_sha256": "5b7a6a27e9be1d621b31f82ebd1f195e9fd7e182a2021fb6a89c0bfb2627f747",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "涧中看虹",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "002",
           "source_block_index": 2,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "922471cde54c81382a73fb814a8bbd42a86927b47ac0ff2ffb3f8ce8433563ee",
           "main_sha256": "922471cde54c81382a73fb814a8bbd42a86927b47ac0ff2ffb3f8ce8433563ee",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "苏州壁字传闻",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "003",
           "source_block_index": 3,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fd6ff38d5efc0378e50d29de994015e4baa594de73593f120bd08ce99837f356",
           "main_sha256": "fd6ff38d5efc0378e50d29de994015e4baa594de73593f120bd08ce99837f356",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "肤施与尸毗墓附会",
+          "sentence_pairs": 11,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "004",
           "source_block_index": 4,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "18be5fff2b212d5548bc3c6eda72f2c22747cc78f338c46a5399cad24d041640",
           "main_sha256": "18be5fff2b212d5548bc3c6eda72f2c22747cc78f338c46a5399cad24d041640",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "按镜有声",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "005",
           "source_block_index": 5,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c5ea7fa3fae2a63fd15c87d30c284426385db534ff4a52490f63940d1baae75f",
           "main_sha256": "c5ea7fa3fae2a63fd15c87d30c284426385db534ff4a52490f63940d1baae75f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "雷击字迹",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 6,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1e75595af6128613151b2c9fb016a8882cd8f1a63f31513467c3ac75e3d7ea78",
           "main_sha256": "1e75595af6128613151b2c9fb016a8882cd8f1a63f31513467c3ac75e3d7ea78",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "学士名字从糸",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "007",
           "source_block_index": 7,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "748248f5898be2b184f745fb380a3d1ea0aa38db95ff9ba4e17816599526ef77",
           "main_sha256": "748248f5898be2b184f745fb380a3d1ea0aa38db95ff9ba4e17816599526ef77",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "柿木天然字纹",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "008",
           "source_block_index": 8,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "74cf0a524a7fb806cd24ac773fd3b0d1e74ea29af3bda13ee1638fe2a120ca41",
           "main_sha256": "74cf0a524a7fb806cd24ac773fd3b0d1e74ea29af3bda13ee1638fe2a120ca41",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "夜光物与发光鸭卵",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "009",
           "source_block_index": 9,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "dffae1c17d15179fb253b59db91c624868e43601069062aff3902b551b70f2e3",
           "main_sha256": "dffae1c17d15179fb253b59db91c624868e43601069062aff3902b551b70f2e3",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "雷州咒肉案",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "010",
           "source_block_index": 10,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "876f60a099c20c138517889e882632c86b498b5ccbd669b4bf101fcc39aed537",
           "main_sha256": "d019b47c0ca3dc16be0ec6574f914b0f76025b4f945275ba8df87d87af860f8f",
           "source_notes": [],
@@ -5156,220 +5428,308 @@
               "main_offset": 359,
               "text": "\n"
             }
-          ]
+          ],
+          "title": "印子金与麟趾袅蹄",
+          "sentence_pairs": 18,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "011",
           "source_block_index": 11,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7bcdcf26c81d6556722f625ccde809c2812c9d35f8ddbae587db9a9d55570175",
           "main_sha256": "7bcdcf26c81d6556722f625ccde809c2812c9d35f8ddbae587db9a9d55570175",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "紫姑降神与女仙集",
+          "sentence_pairs": 23,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "012",
           "source_block_index": 12,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "96cf6ad7b3182daaee7ca40e1a8c31b1c7a8723a141c63e273e4344be0861074",
           "main_sha256": "96cf6ad7b3182daaee7ca40e1a8c31b1c7a8723a141c63e273e4344be0861074",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "几种奇疾记述",
+          "sentence_pairs": 13,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "013",
           "source_block_index": 13,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "76b891ecd05132f648e6c624c3bd18d8d1a98ef872ac78cf8d844352c5b03e53",
           "main_sha256": "76b891ecd05132f648e6c624c3bd18d8d1a98ef872ac78cf8d844352c5b03e53",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "湖上明珠",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "014",
           "source_block_index": 14,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "db66ff8d8fd63cd347ce32ed538c1fddc739a61c652ea8e930af274ab5894ff2",
           "main_sha256": "db66ff8d8fd63cd347ce32ed538c1fddc739a61c652ea8e930af274ab5894ff2",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "巨嵎山震动",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "015",
           "source_block_index": 15,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bfeb14497827539821f446abaedbcc4548ad0f5465e182d986b01b175f922c81",
           "main_sha256": "bfeb14497827539821f446abaedbcc4548ad0f5465e182d986b01b175f922c81",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "滴翠珠",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "016",
           "source_block_index": 16,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a8741be80ad86385a373260ad68d21a95a5b73819ad40ac603c5ce061251fa0d",
           "main_sha256": "a8741be80ad86385a373260ad68d21a95a5b73819ad40ac603c5ce061251fa0d",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "登州与高唐海市",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "017",
           "source_block_index": 17,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f2dac87750009ddb6d3cfc6025a054897754aa6c0a830a29a91d660a3a2ff455",
           "main_sha256": "f2dac87750009ddb6d3cfc6025a054897754aa6c0a830a29a91d660a3a2ff455",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "地下石竹与古环境",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "018",
           "source_block_index": 18,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e4bb65a5e2d062bcd520824fe2237c329a54602a058126f253350c36c5253b58",
           "main_sha256": "e4bb65a5e2d062bcd520824fe2237c329a54602a058126f253350c36c5253b58",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "井中蛇形石",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "019",
           "source_block_index": 19,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8837b29604e38e9f53528b8cf36e56c45f4c8a0ed7d77e93a8a8a70766515d07",
           "main_sha256": "8837b29604e38e9f53528b8cf36e56c45f4c8a0ed7d77e93a8a8a70766515d07",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "息石与药金猜测",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "020",
           "source_block_index": 20,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a7ebb4f87a60c761daa9c74fc80723bbb4955f56f15dd388fd0a89dd8f088790",
           "main_sha256": "a7ebb4f87a60c761daa9c74fc80723bbb4955f56f15dd388fd0a89dd8f088790",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "李遥买杖发旧罪",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "021",
           "source_block_index": 21,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bdbea680ebd2370421337f134f9e83e9240b43dc18bb32590e38055c2685a52e",
           "main_sha256": "bdbea680ebd2370421337f134f9e83e9240b43dc18bb32590e38055c2685a52e",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "交趾异兽与天禄",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "022",
           "source_block_index": 22,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3f418eddef99c1defcf75c083b2b32e73e56daa459d7d3c88150344fe8bff818",
           "main_sha256": "3f418eddef99c1defcf75c083b2b32e73e56daa459d7d3c88150344fe8bff818",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宝剑屈伸",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "023",
           "source_block_index": 23,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "64f3aa9fd1b9afa42366cac8a205e8ffd69b75698422c792dbcdffc6775cb128",
           "main_sha256": "64f3aa9fd1b9afa42366cac8a205e8ffd69b75698422c792dbcdffc6775cb128",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宝镜所卜近事",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "024",
           "source_block_index": 24,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1ae73c3e4ea7cbd305d676f67194530bc55762c8bc774fa1a726113bc7cfe748",
           "main_sha256": "1ae73c3e4ea7cbd305d676f67194530bc55762c8bc774fa1a726113bc7cfe748",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "三司使宅的遭际",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "025",
           "source_block_index": 25,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a94ed8c3e5e06110551b8d509985925c7cde9afe7e51fde48446f5bf6f74fa22",
           "main_sha256": "a94ed8c3e5e06110551b8d509985925c7cde9afe7e51fde48446f5bf6f74fa22",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "鳄鱼形貌旧记",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "026",
           "source_block_index": 26,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a05aa1f477caacdf7a571a3010b64d45038e5bbea355177f4907c803b46947f6",
           "main_sha256": "a05aa1f477caacdf7a571a3010b64d45038e5bbea355177f4907c803b46947f6",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "海蛮师",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "027",
           "source_block_index": 27,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a4e15f2613b150a7e6ce84d2d19f55bf3c3d961d3168a4d13d7ab766aa97272f",
           "main_sha256": "a4e15f2613b150a7e6ce84d2d19f55bf3c3d961d3168a4d13d7ab766aa97272f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "邕州佛像摇动",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "028",
           "source_block_index": 28,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "35a9ca0dd910fad2471b93b10b2a43f2c002f858822fe11f0f22ae7f073bae55",
           "main_sha256": "35a9ca0dd910fad2471b93b10b2a43f2c002f858822fe11f0f22ae7f073bae55",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "买宅掘钱与金匣",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "029",
           "source_block_index": 29,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e917dc2beb894c02d0f959c95bc5bdc1e0cff665e5e73f5abb5d5ab3e739772f",
           "main_sha256": "e917dc2beb894c02d0f959c95bc5bdc1e0cff665e5e73f5abb5d5ab3e739772f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "武成旋风灾",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "030",
           "source_block_index": 30,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "893d0efd1e2fb0ea1508ca9bc33b930a84c6bbd4ec0a2247e8e6553472058c0a",
           "main_sha256": "893d0efd1e2fb0ea1508ca9bc33b930a84c6bbd4ec0a2247e8e6553472058c0a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "霜冰花纹",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "031",
           "source_block_index": 31,
           "source_heading": "异事异疾〈附〉",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7c61d7a08d9eb39813b34774ceca32a82c447f895425efe1f151558fb6d34af7",
           "main_sha256": "7c61d7a08d9eb39813b34774ceca32a82c447f895425efe1f151558fb6d34af7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "人头形雹与胜兆说",
+          "sentence_pairs": 2,
+          "source_note_count": 0,
+          "editor_note_count": 3
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan22",
@@ -7694,13 +8054,13 @@
     }
   ],
   "next": {
-    "page_slug": "juan18",
+    "page_slug": "juan22",
     "unit_id": "001",
     "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
-    "page_slug": "juan18",
+    "page_slug": "juan22",
     "unit_id": "001",
     "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
@@ -7717,17 +8077,17 @@
     }
   ],
   "validation": {
-    "scope": "四库提要、自序及卷一至十七；余307段待译",
+    "scope": "四库提要、自序及卷一至二十一；余217段待译",
     "build": "passed",
     "source_reconstruction": "passed",
-    "completed_units": 288,
-    "sentence_pairs": 2989,
-    "independent_notes": 1309,
+    "completed_units": 378,
+    "sentence_pairs": 3813,
+    "independent_notes": 1703,
     "site_tests": {
       "passed": 13,
-      "seconds": 73.23
+      "seconds": 84.826
     },
-    "html_pages": 1075,
+    "html_pages": 1083,
     "diff_check": "passed",
     "browser_visual_check": false
   },
@@ -7840,6 +8200,56 @@
       "王维霓裳故事反驳完整译出",
       "乐毅论不同传闻分别保留",
       "徐黄人物年代照底本，不作已解决画史考证"
+    ]
+  },
+  "editorial_review_juan18": {
+    "units": 21,
+    "sentence_pairs": 198,
+    "notes": 117,
+    "complete": true,
+    "cautions": [
+      "隙积与割圆步骤及异文全译，原位值和弧长近似疑点加注，不补算法",
+      "棋局数为位置排列，不称合法对局总数",
+      "毕昇活字制作排版拆版完整",
+      "軎术及祖亘字样有疑照存",
+      "古医案因果归属原作者，未给现代用药结论"
+    ]
+  },
+  "editorial_review_juan19": {
+    "units": 19,
+    "sentence_pairs": 127,
+    "notes": 70,
+    "complete": true,
+    "cautions": [
+      "古器铭文及谣瓮、柔铁不茎干、但无非精钢等疑字照存加注",
+      "透光镜反射显纹，不误作光穿透金属",
+      "器物亲见、引书、推测及神物传说区别译出"
+    ]
+  },
+  "editorial_review_juan20": {
+    "units": 19,
+    "sentence_pairs": 256,
+    "notes": 88,
+    "complete": true,
+    "cautions": [
+      "自然观察与神异传说、佛教阐释分清",
+      "祥符七年乙卯纪年矛盾照存加注",
+      "道亲丹未进御，不归因康复",
+      "锻工毕昇不与同名活字发明者擅合",
+      "预知与服丹个案不写成科学或医学结论"
+    ]
+  },
+  "editorial_review_juan21": {
+    "units": 31,
+    "sentence_pairs": 243,
+    "notes": 119,
+    "complete": true,
+    "cautions": [
+      "亲见、引书、传闻及神异归因分清",
+      "虹观察方向、石化竹古环境假说完整译出",
+      "奇疾不据短记作现代诊断",
+      "原文重复句和疑字不删不换",
+      "三司厚卿语疑不据发字另造姓名"
     ]
   }
 }

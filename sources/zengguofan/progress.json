@@ -1,0 +1,757 @@
+{
+  "title": "曾国藩家书",
+  "edition": "维基文库三章分类辑录本",
+  "pages": [
+    {
+      "slug": "part01",
+      "title": "第1章 治学篇",
+      "source": {
+        "title": "曾國藩家書/1",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8/1",
+        "revision": "2123422",
+        "text_sha256": "4154d914a83c298661f7e1e9fa61ebab384b3b5eb2aabd0e790132669bc17ab8"
+      },
+      "units": [
+        {
+          "number": 1,
+          "title": "禀父母七月初四日",
+          "source_block": 0,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 39,
+          "notes": 20
+        },
+        {
+          "number": 2,
+          "title": "致澄弟温弟沅弟季弟九月十八日",
+          "source_block": 12,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 88,
+          "notes": 30
+        },
+        {
+          "number": 3,
+          "title": "致澄弟温弟沅弟季弟正月十七日",
+          "source_block": 28,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 4,
+          "title": "致温弟六月初六日",
+          "source_block": 52,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 5,
+          "title": "致澄弟温弟沅弟季弟五月十二日",
+          "source_block": 63,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 6,
+          "title": "致澄弟温弟沅弟季弟十月二十一日",
+          "source_block": 74,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 7,
+          "title": "致澄弟温弟沅弟季弟十一月二十一日",
+          "source_block": 81,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 8,
+          "title": "致澄弟温弟沅弟季弟二月初一日",
+          "source_block": 88,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 9,
+          "title": "谕纪泽十月初二日",
+          "source_block": 95,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 10,
+          "title": "谕纪泽十一月初五日",
+          "source_block": 104,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 11,
+          "title": "谕纪泽七月二十一日",
+          "source_block": 111,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 12,
+          "title": "谕纪泽八月初三日",
+          "source_block": 118,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 13,
+          "title": "谕纪泽八月二十日",
+          "source_block": 124,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 14,
+          "title": "谕纪泽九月二十八日",
+          "source_block": 133,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 15,
+          "title": "谕纪泽十月二十五日",
+          "source_block": 137,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 16,
+          "title": "谕纪泽三月初三日清明",
+          "source_block": 145,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 17,
+          "title": "谕纪泽四月二十一日",
+          "source_block": 153,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 18,
+          "title": "谕纪泽五月初四日",
+          "source_block": 159,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 19,
+          "title": "谕纪泽六月十四日辰刻",
+          "source_block": 165,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 20,
+          "title": "谕纪泽闰三月初四日",
+          "source_block": 171,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 21,
+          "title": "谕纪泽四月二十四日",
+          "source_block": 177,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 22,
+          "title": "谕纪泽正月十四日",
+          "source_block": 184,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 23,
+          "title": "谕纪泽纪鸿四月二十四日",
+          "source_block": 192,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 24,
+          "title": "谕纪泽五月十四日",
+          "source_block": 198,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 25,
+          "title": "谕纪泽纪鸿七月初三日",
+          "source_block": 205,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 26,
+          "title": "谕纪鸿正月十八日",
+          "source_block": 211,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 27,
+          "title": "谕纪泽十月十一日",
+          "source_block": 217,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 28,
+          "title": "谕纪泽三月二十二日",
+          "source_block": 226,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        }
+      ]
+    },
+    {
+      "slug": "part02",
+      "title": "第2章 修身篇",
+      "source": {
+        "title": "曾國藩家書/2",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8/2",
+        "revision": "1374311",
+        "text_sha256": "7cdaeb7dba071c278a7d6dd8aeddfbc1996e74533dbea32263911cd898b22937"
+      },
+      "units": [
+        {
+          "number": 1,
+          "title": "致澄弟温弟沅弟季弟十月二十六日",
+          "source_block": 0,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 89,
+          "notes": 28
+        },
+        {
+          "number": 2,
+          "title": "致澄弟温弟沅弟季弟十一月十七日",
+          "source_block": 16,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 62,
+          "notes": 17
+        },
+        {
+          "number": 3,
+          "title": "致温弟沅弟三月初十日",
+          "source_block": 29,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 4,
+          "title": "五箴(并序甲辰春作)",
+          "source_block": 56,
+          "heading_level": "h3",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 5,
+          "title": "立志箴",
+          "source_block": 58,
+          "heading_level": "h4",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 6,
+          "title": "居敬箴",
+          "source_block": 60,
+          "heading_level": "h4",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 7,
+          "title": "主静箴",
+          "source_block": 62,
+          "heading_level": "h4",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 8,
+          "title": "谨言箴",
+          "source_block": 64,
+          "heading_level": "h4",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 9,
+          "title": "有恒箴",
+          "source_block": 66,
+          "heading_level": "h4",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 10,
+          "title": "养身要言(癸卯入蜀道中作)",
+          "source_block": 68,
+          "heading_level": "h3",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 11,
+          "title": "求阙斋课程(癸卯孟夏立)",
+          "source_block": 74,
+          "heading_level": "h3",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 12,
+          "title": "致澄弟温弟沅弟季弟八月二十九日",
+          "source_block": 79,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 13,
+          "title": "致澄弟温弟沅弟季弟九月十九日",
+          "source_block": 87,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 14,
+          "title": "致澄弟温弟沅弟季弟三月三十一日",
+          "source_block": 94,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 15,
+          "title": "谕纪鸿九月二十九夜",
+          "source_block": 105,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 16,
+          "title": "致沅弟正月初四夜",
+          "source_block": 111,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 17,
+          "title": "致沅弟三月初六日",
+          "source_block": 122,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 18,
+          "title": "谕纪泽十月十四日",
+          "source_block": 130,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 19,
+          "title": "致沅弟季弟九月二十四日",
+          "source_block": 138,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 20,
+          "title": "致澄弟二月初四日",
+          "source_block": 145,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 21,
+          "title": "致沅弟季弟五月十五日",
+          "source_block": 151,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 22,
+          "title": "谕纪鸿五月二十七日",
+          "source_block": 160,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 23,
+          "title": "致沅弟季弟五月二十八日",
+          "source_block": 167,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 24,
+          "title": "致沅弟正月二十日",
+          "source_block": 172,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 25,
+          "title": "致沅弟三月二十四日",
+          "source_block": 179,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 26,
+          "title": "致沅弟九月十一日",
+          "source_block": 187,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 27,
+          "title": "致沅弟正月二十六日",
+          "source_block": 192,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 28,
+          "title": "致沅弟六月十六日年初",
+          "source_block": 198,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 29,
+          "title": "谕纪鸿七月初九日",
+          "source_block": 203,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 30,
+          "title": "致沅弟八月初四日",
+          "source_block": 208,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 31,
+          "title": "谕纪鸿九月初一日",
+          "source_block": 215,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 32,
+          "title": "谕纪泽纪鸿二月二十五日",
+          "source_block": 221,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 33,
+          "title": "谕纪泽记鸿三月十四夜",
+          "source_block": 227,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 34,
+          "title": "致沅弟九月十二日",
+          "source_block": 233,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 35,
+          "title": "致沅弟正月初二日",
+          "source_block": 239,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 36,
+          "title": "致沅弟二月二十九日",
+          "source_block": 245,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 37,
+          "title": "致沅弟三月十二日",
+          "source_block": 250,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 38,
+          "title": "谕纪泽纪鸿六月初四日",
+          "source_block": 256,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 39,
+          "title": "附〈忮〉、〈求〉诗二首：",
+          "source_block": 266,
+          "heading_level": "h3",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        },
+        {
+          "number": 40,
+          "title": "论纪泽纪鸿十一月初二日",
+          "source_block": 269,
+          "heading_level": "h2",
+          "status": "original_only",
+          "sentences": 0,
+          "notes": 0
+        }
+      ]
+    },
+    {
+      "slug": "part03",
+      "title": "第3章 齐家篇",
+      "source": {
+        "title": "曾國藩家書/3",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8/3",
+        "revision": "1959182",
+        "text_sha256": "8ca3c66499929b8386636ea4200422640f6777c94ba2ae9f6caf18fd1fd5a74b"
+      },
+      "units": [
+        {
+          "number": 1,
+          "title": "致澄弟温弟沅弟季弟八月十一日",
+          "source_block": 0,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 31,
+          "notes": 14
+        },
+        {
+          "number": 2,
+          "title": "致澄弟十二月二十四日",
+          "source_block": 8,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 24,
+          "notes": 7
+        },
+        {
+          "number": 3,
+          "title": "致澄弟十月十四日",
+          "source_block": 14,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 19,
+          "notes": 10
+        },
+        {
+          "number": 4,
+          "title": "致澄弟十一月十四日",
+          "source_block": 21,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 19,
+          "notes": 8
+        },
+        {
+          "number": 5,
+          "title": "谕纪泽十二月十四日",
+          "source_block": 28,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 21,
+          "notes": 8
+        },
+        {
+          "number": 6,
+          "title": "致澄弟六月初五日",
+          "source_block": 35,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 30,
+          "notes": 10
+        },
+        {
+          "number": 7,
+          "title": "谕纪泽纪鸿六月二十六日",
+          "source_block": 43,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 24,
+          "notes": 8
+        },
+        {
+          "number": 8,
+          "title": "致澄弟七月初四日",
+          "source_block": 49,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 23,
+          "notes": 6
+        },
+        {
+          "number": 9,
+          "title": "致澄弟十二月初六日",
+          "source_block": 56,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 26,
+          "notes": 6
+        },
+        {
+          "number": 10,
+          "title": "谕纪泽二月十三日",
+          "source_block": 63,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 24,
+          "notes": 8
+        },
+        {
+          "number": 11,
+          "title": "致欧阳夫人五月初五日午刻",
+          "source_block": 70,
+          "heading_level": "h2",
+          "status": "annotated",
+          "sentences": 19,
+          "notes": 5
+        }
+      ]
+    }
+  ],
+  "letters": 70,
+  "annotated_letters": 15,
+  "annotated_sentences": 538,
+  "notes": 185
+}

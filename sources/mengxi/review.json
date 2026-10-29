@@ -135,31 +135,31 @@
     },
     {
       "page": "juan18",
-      "completed_units": 0,
+      "completed_units": 21,
       "total_units": 21,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 198,
+      "notes": 117
     },
     {
       "page": "juan19",
-      "completed_units": 0,
+      "completed_units": 19,
       "total_units": 19,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 127,
+      "notes": 70
     },
     {
       "page": "juan20",
-      "completed_units": 0,
+      "completed_units": 19,
       "total_units": 19,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 256,
+      "notes": 88
     },
     {
       "page": "juan21",
-      "completed_units": 0,
+      "completed_units": 31,
       "total_units": 31,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 243,
+      "notes": 119
     },
     {
       "page": "juan22",
@@ -225,16 +225,16 @@
       "notes": 0
     }
   ],
-  "completed_units": 288,
+  "completed_units": 378,
   "total_units": 595,
-  "sentence_pairs": 2989,
-  "notes": 1309,
+  "sentence_pairs": 3813,
+  "notes": 1703,
   "source_reconstruction_matches": true,
   "raw_snapshots_verified": true,
   "rendered_pairs_match": true,
   "note_counts_match": true,
   "next": {
-    "page_slug": "juan18",
+    "page_slug": "juan22",
     "unit_id": "001",
     "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
