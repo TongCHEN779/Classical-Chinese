@@ -4198,7 +4198,7 @@
           "id": "010",
           "source_block_index": 10,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7284da9287a506d585af5e929b1477fa4afa4db80fa8d49fa552c4e87044c3c7",
           "main_sha256": "a01a5168411398ec1e5445afc9a84ed5cad1d25a2c2ad2b19923073dbe15a863",
           "source_notes": [
@@ -4211,110 +4211,154 @@
               "text": "〈音酉〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "字形讹变与拆字隐语",
+          "sentence_pairs": 14,
+          "source_note_count": 2,
+          "editor_note_count": 6
         },
         {
           "id": "011",
           "source_block_index": 11,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a5c2d82c183a7b81c635fa9ef5a9633125b2c73b4d2956d3d7469cc6f83711d7",
           "main_sha256": "a5c2d82c183a7b81c635fa9ef5a9633125b2c73b4d2956d3d7469cc6f83711d7",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "韩偓手写诗的传藏",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "012",
           "source_block_index": 12,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "23d14444f4032aa62bb3471d702b36ed09a814ffeeb8fe9a7d73f4242564797b",
           "main_sha256": "23d14444f4032aa62bb3471d702b36ed09a814ffeeb8fe9a7d73f4242564797b",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "徐铉小篆中锋",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "013",
           "source_block_index": 13,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "519a9908756963cbd4ba0bfdae6cb80212ea7c0ca70c22d350409e516e3b74d5",
           "main_sha256": "519a9908756963cbd4ba0bfdae6cb80212ea7c0ca70c22d350409e516e3b74d5",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "吴道子画圆光",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "014",
           "source_block_index": 14,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "badb4b56cf3853f8ce54319ab5f327479b7334b1b5b39607512ddecaa7fe90e2",
           "main_sha256": "badb4b56cf3853f8ce54319ab5f327479b7334b1b5b39607512ddecaa7fe90e2",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "吊丧问疾书迹传世",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "015",
           "source_block_index": 15,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3a59c6ad079fbb2a38dd5fe6d4e7f40c6d7483298f0295a3dc2b71a1d7303e04",
           "main_sha256": "3a59c6ad079fbb2a38dd5fe6d4e7f40c6d7483298f0295a3dc2b71a1d7303e04",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "鲤字与里数",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "016",
           "source_block_index": 16,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bcbb54ead528a4e00fef093153ceeee20ce4c77a924b04164d65bacd7d503ccf",
           "main_sha256": "bcbb54ead528a4e00fef093153ceeee20ce4c77a924b04164d65bacd7d503ccf",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "徐熙黄筌与没骨图",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "017",
           "source_block_index": 17,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3495f471b358d223fd8332475f0ff78322849e46da17045d3cfd2b5476c6e636",
           "main_sha256": "3495f471b358d223fd8332475f0ff78322849e46da17045d3cfd2b5476c6e636",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "沈辽论结字与运笔",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "018",
           "source_block_index": 18,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "93283bbf75640e9425648aefa402c1a0b52eef803690f4ab6da410b30334e6e3",
           "main_sha256": "93283bbf75640e9425648aefa402c1a0b52eef803690f4ab6da410b30334e6e3",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "乐毅论石本流传",
+          "sentence_pairs": 14,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "019",
           "source_block_index": 19,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "193c67d0a8fd277843a33d4350b77a7420b410ded3d846179e079ece01607081",
           "main_sha256": "193c67d0a8fd277843a33d4350b77a7420b410ded3d846179e079ece01607081",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "寿圣寺壁画与害工传闻",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "020",
           "source_block_index": 20,
           "source_heading": "书画",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2363ccad7e86837a5ac4c8f85cd40a04c318faa3451c73091959380ee33a8d96",
           "main_sha256": "2363ccad7e86837a5ac4c8f85cd40a04c318faa3451c73091959380ee33a8d96",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "董源巨然宜远观",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 5
         }
       ],
-      "annotation_status": "in_progress"
+      "annotation_status": "complete"
     },
     {
       "slug": "juan18",
@@ -7650,15 +7694,15 @@
     }
   ],
   "next": {
-    "page_slug": "juan17",
-    "unit_id": "010",
-    "source_block_index": 10,
+    "page_slug": "juan18",
+    "unit_id": "001",
+    "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
-    "page_slug": "juan17",
-    "unit_id": "010",
-    "source_block_index": 10,
+    "page_slug": "juan18",
+    "unit_id": "001",
+    "source_block_index": 1,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "source_index": {
@@ -7673,15 +7717,15 @@
     }
   ],
   "validation": {
-    "scope": "四库提要、自序、卷一至十六及卷十七前2段；余325段待译",
+    "scope": "四库提要、自序及卷一至十七；余307段待译",
     "build": "passed",
     "source_reconstruction": "passed",
-    "completed_units": 270,
-    "sentence_pairs": 2847,
-    "independent_notes": 1228,
+    "completed_units": 288,
+    "sentence_pairs": 2989,
+    "independent_notes": 1309,
     "site_tests": {
       "passed": 13,
-      "seconds": 73.301
+      "seconds": 73.23
     },
     "html_pages": 1075,
     "diff_check": "passed",
@@ -7785,9 +7829,17 @@
     "policy": "鸬鹚考释、香奁归属、魏野诗事完整逐句译出；沈括考辨与编者事实确认区分，疑字保留加注"
   },
   "editorial_review_juan17_partial": {
-    "units": 2,
-    "sentence_pairs": 17,
-    "notes": 11,
-    "policy": "完整逐句译出书画鉴赏论证，旧说与现代事实分清"
+    "units": 20,
+    "sentence_pairs": 159,
+    "notes": 92,
+    "policy": "完整逐句译出书画鉴赏论证，旧说与现代事实分清",
+    "complete": true,
+    "cautions": [
+      "构形疑字与卯字重复排印不擅重建",
+      "宗教佛光依原说译录",
+      "王维霓裳故事反驳完整译出",
+      "乐毅论不同传闻分别保留",
+      "徐黄人物年代照底本，不作已解决画史考证"
+    ]
   }
 }
