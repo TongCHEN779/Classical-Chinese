@@ -206,5 +206,270 @@
       ],
       "original_sha256": "f95a7abe6e156ef5b5e272518237d15810600bf551181bd7ec7c60bd8b9b0fc5"
     }
+  },
+  {
+    "title": "兰亭集序",
+    "author": "［东晋］王羲之",
+    "intro": "东晋永和九年（353）三月三日，王羲之与友人在会稽山阴兰亭修禊、饮酒赋诗，本文为诗集之序。",
+    "slug": "lanting",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E8%98%AD%E4%BA%AD%E9%9B%86%E5%BA%8F",
+      "label": "维基文库",
+      "revision": "11124686",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/lanting.json",
+      "selected_blocks": [
+        1
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化"
+      ],
+      "original_sha256": "8c07971a9ddd4689061e611b4f6ce3dd59d7af26cc21179300ad4aea829b2796"
+    }
+  },
+  {
+    "title": "桃花源记",
+    "author": "［东晋］陶渊明",
+    "intro": "陶渊明借武陵渔人误入桃花源的故事，写出没有战乱、安宁自足的理想世界，也留下可遇而难寻的距离。",
+    "slug": "taohuayuan",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E6%A1%83%E8%8A%B1%E6%BA%90%E8%A8%98",
+      "label": "维基文库",
+      "revision": "2620894",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/taohuayuan.json",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化"
+      ],
+      "original_sha256": "100bd56adb2e5481ead7717269d3a4d11a58dbbb4212ae255f80e333b59d6873"
+    }
+  },
+  {
+    "title": "赤壁赋",
+    "author": "［宋］苏轼",
+    "intro": "苏轼元丰五年（1082）贬居黄州时作。",
+    "slug": "chibi",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E5%89%8D%E8%B5%A4%E5%A3%81%E8%B3%A6",
+      "label": "维基文库",
+      "revision": "10247882",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/chibi.json",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化"
+      ],
+      "original_sha256": "94462470679d00042948daa056b07531b05f004c1d7a8a06ebdd29186e0c4f22"
+    }
+  },
+  {
+    "title": "出师表",
+    "author": "［蜀汉］诸葛亮",
+    "intro": "诸葛亮于蜀汉建兴五年（227）北伐前，上表后主刘禅，劝广纳忠言、赏罚公平、亲贤远佞，并陈受命以来的责任。",
+    "slug": "chushi",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E5%89%8D%E5%87%BA%E5%B8%AB%E8%A1%A8",
+      "label": "维基文库",
+      "revision": "8738668",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/chushi.json",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化"
+      ],
+      "original_sha256": "670911768c542bf64b2f67b3457ba2a65e8ad890a7dd994a7b13238441cf280a"
+    }
+  },
+  {
+    "title": "过秦论",
+    "author": "［西汉］贾谊",
+    "intro": "贾谊以秦由强盛到速亡的历史，议论攻取与守成的方法何以不同。",
+    "slug": "guoqin",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E9%81%8E%E7%A7%A6%E8%AB%96",
+      "label": "维基文库",
+      "revision": "2605935",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/guoqin.json",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化",
+        "上、中、下三篇分节；中篇一长句按原文逗号处分四个语义单位配译，原字原标点不变"
+      ],
+      "original_sha256": "cbf0f63224989005fbb57327536241ba76fee2e7aac18a80534e66024affd442"
+    }
+  },
+  {
+    "title": "陈情表",
+    "author": "［西晋］李密",
+    "intro": "晋灭蜀汉后，李密被征召为太子洗马，以祖母年老病重、无人奉养为由辞赴。",
+    "slug": "chenqing",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E9%99%B3%E6%83%85%E4%BA%8B%E8%A1%A8",
+      "label": "维基文库",
+      "revision": "10482707",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/chenqing.json",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化"
+      ],
+      "original_sha256": "4b3c845d75378cac8335179f0badc436258c693b8948eb414f92eb6a95de9544"
+    }
+  },
+  {
+    "title": "六国论",
+    "author": "［宋］苏洵",
+    "intro": "苏洵《嘉祐集》中的史论，以“弊在赂秦”贯穿六国灭亡，继而劝为国者不为积威所胁迫，借古议今。",
+    "slug": "liuguo",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E5%85%AD%E5%9C%8B%E8%AB%96%20%28%E8%98%87%E6%B4%B5%29",
+      "label": "维基文库",
+      "revision": "10117626",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/liuguo.json",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化"
+      ],
+      "original_sha256": "b1fc68c15cd38bbf3924c0df47ab24d3c1f06ba5a62d46c97fc2fe1d07b2c1b7"
+    }
+  },
+  {
+    "title": "醉翁亭记",
+    "author": "［宋］欧阳修",
+    "intro": "欧阳修任滁州太守时写，通常系于庆历六年（1046）。",
+    "slug": "zuiweng",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E9%86%89%E7%BF%81%E4%BA%AD%E8%A8%98",
+      "label": "维基文库",
+      "revision": "2667322",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/zuiweng.json",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化"
+      ],
+      "original_sha256": "6b0ba81e03bee66cce6a5b4404651284a335e87e8ad62fcec9616cfaaca129c4"
+    }
+  },
+  {
+    "title": "阿房宫赋",
+    "author": "［唐］杜牧",
+    "intro": "杜牧以秦宫的宏丽、宫女的幽怨和珍宝的挥霍，转入对横征暴敛与不爱民的批判，借秦亡警戒后世。",
+    "slug": "afang",
+    "source": {
+      "url": "https://zh.wikisource.org/zh-hans/%E9%98%BF%E6%88%BF%E5%AE%AE%E8%B3%A6",
+      "label": "维基文库",
+      "revision": "10035503",
+      "after": "取通行主文，夹注移入注释，版本用字照录；"
+    },
+    "provenance": {
+      "kind": "cached_primary_text",
+      "cache": "wikisource/afang.json",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "normalization": "wiki_main_no_apparatus_v1",
+      "adjustments": [
+        "只取明确列出的正文区块，排除复排版本、题跋、后人评语或未选作品",
+        "一作异文与尖括号夹注移入注释；圆括号可选字词展开；段内布局空白移除，标点全角化"
+      ],
+      "original_sha256": "481e7c41e077c1b5649df16b144050c7f9e939ed24468fa1cc0a18d8f0173552"
+    }
   }
 ]

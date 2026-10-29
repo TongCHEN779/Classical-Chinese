@@ -17,7 +17,9 @@ CHAPTERS = ('治学篇', '修身篇', '齐家篇')
 def normalize(text):
     # Source often puts a full stop inside an in-sentence parenthetical gloss.
     # Remove only those gloss full stops, without changing a single character of wording.
-    return re.sub(r'\([^()]*\)', lambda m: m[0].replace('。', ''), text)
+    text = re.sub(r'\([^()]*\)', lambda m: m[0].replace('。', ''), text)
+    # Two source paragraphs end with a stray quote or middle dot after a full stop.
+    return re.sub(r'(?<=[。！？])[‘·]$', '', text)
 
 
 def sections(data):
@@ -70,6 +72,9 @@ def main():
         progress['pages'].append(page)
     progress['letters'] = sum(u['heading_level'] == 'h2' for p in progress['pages'] for u in p['units'])
     progress['annotated_letters'] = sum(u['heading_level'] == 'h2' and u['status'] == 'annotated' for p in progress['pages'] for u in p['units'])
+    progress['units'] = sum(len(p['units']) for p in progress['pages'])
+    progress['annotated_units'] = sum(u['status'] == 'annotated' for p in progress['pages'] for u in p['units'])
+    progress['status'] = 'complete' if progress['annotated_units'] == progress['units'] else 'in_progress'
     progress['annotated_sentences'] = sum(u['sentences'] for p in progress['pages'] for u in p['units'])
     progress['notes'] = sum(u['notes'] for p in progress['pages'] for u in p['units'])
     (BASE / 'progress.json').write_text(json.dumps(progress, ensure_ascii=False, indent=2) + '\n')

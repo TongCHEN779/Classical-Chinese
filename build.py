@@ -591,11 +591,11 @@ def _classics_spec():
     entries = json.loads((ROOT / "sources" / "classic_list" / "entries.json").read_text(encoding="utf8"))
     return {"title": "经典名篇", "author": "个人选藏", "unit": "篇",
             "count_entries": True, "strict_pairs": True, "side_toc": True, "wide_index": True,
-            "intro": "收藏读到的、写得漂亮的文章，按加入顺序排列，重复项合并。十篇均收原文、逐句白话、题解与注释："
+            "intro": f"收藏读到的、写得漂亮的文章，按加入顺序排列，重复项合并。{len(entries)}项均收原文、逐句白话、题解与注释："
                      + "、".join(e["title"] for e in entries) + "。",
             "pages": [(e["slug"], e["title"] + "｜" + e["author"]) for e in entries],
             "page_sources": {e["slug"]: e["source"] for e in entries},
-            "index_footer": "已整理10篇。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
+            "index_footer": f"已整理{len(entries)}项（《过秦论》上中下三篇合列一项）。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
 
 
 def _zengguofan_spec():
@@ -603,11 +603,11 @@ def _zengguofan_spec():
     done, total = progress["annotated_letters"], progress["letters"]
     return {"title": "曾国藩家书", "author": "［清］曾国藩", "unit": "篇",
             "prose": True, "count_entries": True, "strict_pairs": True,
-            "intro": f"清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家。依维基文库三章分类辑录本收录{total}封家信及附文；已为{done}封配逐句白话、题解与注释，其中齐家篇11封全部完成，其余篇目注译进度见章内题解。本版本不等于《曾文正公家书》全集。",
-            "index_footer": f"三章原文及附文已收录；{done}/{total}封完成注译。维基文库目录所列第四章无正文，未补造篇目。",
-            "reading_hint": "鼠标悬停或触屏点按已注译的原文，可看本句白话；点击题解、注释可展开。未注译的条目标明“待整理”。",
+            "intro": f"清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家。依维基文库三章分类辑录本收录{total}封家信及《五箴》等附文，全部配逐句白话、题解与词条注释。本版本不等于《曾文正公家书》全集。",
+            "index_footer": f"三章{done}/{total}封家信及9项附文全部完成注译，共{progress['annotated_sentences']}句白话、{progress['notes']}条注。维基文库目录所列第四章无正文。",
+            "reading_hint": "鼠标悬停或触屏点按原文，可看本句白话；点击题解、注释可展开。",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
-            "page_sources": {p["slug"]: {**p["source"], "after": "仅整理夹注内句末标点，疑字照录，原站标题与日期不合处另注。"}
+            "page_sources": {p["slug"]: {**p["source"], "after": "整理夹注内句末标点，并删除段末孤立的残引号、间隔点；疑字照录，原站标题与日期不合处另注。"}
                              for p in progress["pages"]}}
 
 

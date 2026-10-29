@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit the ten collected essays against cached witnesses and sentence-level HTML."""
+"""Audit collected essays against cached witnesses and sentence-level HTML."""
 import hashlib
 import json
 import re
@@ -22,7 +22,9 @@ def normalize(text):
 def main():
     entries = json.loads((ROOT / 'sources/classic_list/entries.json').read_text())
     expected = ['jinshi', 'bao', 'xiangji', 'yueyang', 'tengwang',
-                'bie', 'hen', 'diwang', 'baixing', 'zhishi']
+                'bie', 'hen', 'diwang', 'baixing', 'zhishi',
+                'lanting', 'taohuayuan', 'chibi', 'chushi', 'guoqin',
+                'chenqing', 'liuguo', 'zuiweng', 'afang']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'
@@ -31,8 +33,11 @@ def main():
     for entry in entries:
         slug = entry['slug']
         sections = build.parse_poems(sorted((ROOT / 'src/classic_list' / slug).glob('*.txt')))
-        assert len(sections) == 1 and sections[0]['intro'], (slug, 'missing introduction')
-        chunks = sections[0]['chunks']
+        assert len(sections) == (3 if slug == 'guoqin' else 1), (slug, 'missing section')
+        assert all(s['intro'] for s in sections), (slug, 'missing introduction')
+        if slug == 'guoqin':
+            assert [s['title'] for s in sections] == ['上篇', '中篇', '下篇']
+        chunks = [c for s in sections for c in s['chunks']]
         assert chunks and any(c['notes'] for c in chunks), (slug, 'missing notes')
         original = ''.join(c['o'].replace('/', '') for c in chunks)
         provenance = entry['provenance']
@@ -55,6 +60,12 @@ def main():
             cached = json.loads((ROOT / 'sources/classic_list' / provenance['cache']).read_text())
             raw = '\n'.join(b['text'] for b in cached['blocks'])
             assert hashlib.sha256(raw.encode()).hexdigest() == cached['text_sha256'], (slug, 'source cache digest')
+            if 'selected_blocks' in provenance:
+                raw = ''.join(cached['blocks'][i]['text'] for i in provenance['selected_blocks'])
+            if provenance.get('normalization') == 'wiki_main_no_apparatus_v1':
+                raw = re.sub('一作“[^”]*”', '', raw)
+                raw = re.sub('〈[^〉]*〉', '', raw)
+                raw = raw.replace('（', '').replace('）', '')
             witness = normalize(raw)
             if slug == 'xiangji':
                 witness = witness.replace('一作“逐”', '')
@@ -91,7 +102,7 @@ def main():
     assert [a['href'] for a in index.select('.vols a')] == [s + '.html' for s in expected]
     home = BeautifulSoup((ROOT / 'index.html').read_text(), 'html.parser')
     assert len(home.select('a[href="classic_list/index.html"]')) == 1
-    print(f'OK: 10 complete local essays, {sentence_count} sentence hovers, {note_count} notes; sources and links match')
+    print(f'OK: {len(entries)} local works, {sentence_count} sentence hovers, {note_count} notes; sources and links match')
 
 
 if __name__ == '__main__':

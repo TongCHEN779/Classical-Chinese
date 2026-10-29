@@ -177,68 +177,63 @@
     },
     {
       "page": "juan24",
-      "completed_units": 0,
+      "completed_units": 30,
       "total_units": 30,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 217,
+      "notes": 114
     },
     {
       "page": "juan25",
-      "completed_units": 0,
+      "completed_units": 29,
       "total_units": 29,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 316,
+      "notes": 102
     },
     {
       "page": "juan26",
-      "completed_units": 0,
+      "completed_units": 28,
       "total_units": 28,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 195,
+      "notes": 82
     },
     {
       "page": "bu01",
-      "completed_units": 0,
+      "completed_units": 31,
       "total_units": 31,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 276,
+      "notes": 84
     },
     {
       "page": "bu02",
-      "completed_units": 0,
+      "completed_units": 28,
       "total_units": 28,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 423,
+      "notes": 73
     },
     {
       "page": "bu03",
-      "completed_units": 0,
+      "completed_units": 29,
       "total_units": 29,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 361,
+      "notes": 77
     },
     {
       "page": "xu-bi",
-      "completed_units": 0,
+      "completed_units": 11,
       "total_units": 11,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 64,
+      "notes": 22
     }
   ],
-  "completed_units": 409,
+  "completed_units": 595,
   "total_units": 595,
-  "sentence_pairs": 4013,
-  "notes": 1820,
+  "sentence_pairs": 5865,
+  "notes": 2374,
   "source_reconstruction_matches": true,
   "raw_snapshots_verified": true,
   "rendered_pairs_match": true,
   "note_counts_match": true,
-  "next": {
-    "page_slug": "juan24",
-    "unit_id": "001",
-    "source_block_index": 1,
-    "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
-  },
+  "next": null,
   "browser_visual_check": false,
   "scope": "Technical coverage; semantic completeness requires editorial reading."
 }

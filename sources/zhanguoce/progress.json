@@ -1,0 +1,20 @@
+{
+  "title": "戰國策 (士禮居叢書本)",
+  "status": "source_planning",
+  "edition": "维基文库士禮居叢書本，刘向编，黄丕烈札记；不混其他版本",
+  "source_index": {
+    "url": "https://zh.wikisource.org/wiki/戰國策_(士禮居叢書本)",
+    "revision": "2459732",
+    "snapshot": "sources/zhanguoce/wikisource/index.json"
+  },
+  "planned_scope": "目录所列六篇序、三十三卷正文、六篇附文；全览页不重复收入",
+  "completed_units": 0,
+  "next": {
+    "action": "获取指定目录原HTML，单独解析真实链接；通用下载器因标题空格与下划线差异未识别链接，不能把零链接视为无正文"
+  },
+  "next_new_entry": "序：戰國策書錄",
+  "validation": {
+    "source_index_cached": true,
+    "translation_complete": false
+  }
+}
