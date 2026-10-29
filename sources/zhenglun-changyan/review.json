@@ -26,27 +26,27 @@
     },
     {
       "page": "changyan-zhong",
-      "completed_units": 0,
+      "completed_units": 19,
       "total_units": 19,
-      "sentence_pairs": 0,
-      "source_notes": 0,
-      "editor_notes": 0
+      "sentence_pairs": 169,
+      "source_notes": 28,
+      "editor_notes": 91
     },
     {
       "page": "changyan-xia",
-      "completed_units": 0,
+      "completed_units": 92,
       "total_units": 92,
-      "sentence_pairs": 0,
-      "source_notes": 0,
-      "editor_notes": 0
+      "sentence_pairs": 158,
+      "source_notes": 100,
+      "editor_notes": 183
     },
     {
       "page": "changyan-fulu",
-      "completed_units": 0,
+      "completed_units": 14,
       "total_units": 14,
-      "sentence_pairs": 0,
-      "source_notes": 0,
-      "editor_notes": 0
+      "sentence_pairs": 110,
+      "source_notes": 5,
+      "editor_notes": 54
     }
   ],
   "source_reconstruction_matches": true,
@@ -54,12 +54,5 @@
   "note_counts_match": true,
   "scope": "Technical coverage; semantic completeness requires editorial reading.",
   "browser_visual_check": false,
-  "next": {
-    "book": "昌言",
-    "page_slug": "changyan-zhong",
-    "source_block_index": 0,
-    "unit_id": "001",
-    "opening": "德教者，人君之常任也",
-    "action": "卷上已全成，接卷中第一段；正文与夹注分清，保留全部引书、异文与原位映射，不重写已完成页。"
-  }
+  "next": null
 }

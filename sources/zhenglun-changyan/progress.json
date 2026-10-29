@@ -1,7 +1,7 @@
 {
   "title": "政论·昌言",
-  "status": "in_progress",
-  "annotation_status": "in_progress",
+  "status": "complete",
+  "annotation_status": "complete",
   "policy": "同一网站书目条目，分清崔寔《政论》、仲长统《昌言》；原书多佚，只整理所选维基辑本现存全文，不把原文下载记完成。",
   "books": [
     {
@@ -122,7 +122,7 @@
           "snapshot": "sources/zhenglun-changyan/wikisource/pages/d9d2cc591e406ac4.json",
           "blocks": 19,
           "characters": 5773,
-          "annotation_status": "pending"
+          "annotation_status": "complete"
         },
         {
           "title": "昌言/卷下",
@@ -130,7 +130,7 @@
           "snapshot": "sources/zhenglun-changyan/wikisource/pages/d8b6b4e3ca1fa64a.json",
           "blocks": 92,
           "characters": 5629,
-          "annotation_status": "pending"
+          "annotation_status": "complete"
         },
         {
           "title": "昌言/附錄",
@@ -138,25 +138,18 @@
           "snapshot": "sources/zhenglun-changyan/wikisource/pages/c232d753e09e7bb1.json",
           "blocks": 14,
           "characters": 2542,
-          "annotation_status": "pending"
+          "annotation_status": "complete"
         }
       ],
       "editorial_policy": "弁言署胡不归，属现代编者说明；附录需逐段区分《后汉书》传记、所引仲长统诗与其他材料，不把全附录署作昌言正文。",
-      "completed_units": 14,
-      "annotation_status": "in_progress"
+      "completed_units": 139,
+      "annotation_status": "complete"
     }
   ],
-  "next": {
-    "book": "昌言",
-    "page_slug": "changyan-zhong",
-    "source_block_index": 0,
-    "unit_id": "001",
-    "opening": "德教者，人君之常任也",
-    "action": "卷上已全成，接卷中第一段；正文与夹注分清，保留全部引书、异文与原位映射，不重写已完成页。"
-  },
+  "next": null,
   "site_entry": {
     "slug": "zhenglun-changyan",
-    "status": "created_in_progress",
+    "status": "complete",
     "search_status": "included"
   },
   "remaining_queue": [
@@ -1934,7 +1927,7 @@
       "slug": "changyan-zhong",
       "title": "昌言·卷中",
       "author": "仲长统",
-      "annotation_status": "pending",
+      "annotation_status": "complete",
       "source": {
         "url": "https://zh.wikisource.org/zh-hans/%E6%98%8C%E8%A8%80/%E5%8D%B7%E4%B8%AD",
         "revision": "343380",
@@ -1946,7 +1939,7 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "67f16b8b409aab7a84e15afa69bf598eae7772f356327a16390ce3b6dcb5e4c8",
           "main_sha256": "f695bcd22945f32c127e2164d5f031ba325483459c572bdd9ab0d5132fcf3892",
           "source_notes": [
@@ -1955,13 +1948,17 @@
               "text": "〈（“高辛”已下二十三字从《意林》补）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "德教为本与制度有常",
+          "sentence_pairs": 9,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "75e69aebd7332ec4769f9013997ffd704983a3947aa31b384f453d75fb018763",
           "main_sha256": "5ad441fd5950d7b6149f89a86344fd169f073cf581d6e19e61f1efe485b3ed75",
           "source_notes": [
@@ -1970,13 +1967,17 @@
               "text": "〈（本作“忠仁”，依《文选》庾亮《让中书令表》注改）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "施政简明与治乱异宜",
+          "sentence_pairs": 7,
+          "source_note_count": 1,
+          "editor_note_count": 5
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b2af4267ef1e68c13d50742915b0a31eddf2c67c5e2253abc88c0a39806cc7d3",
           "main_sha256": "d4c2b951ada1492c0e8ce465a8ca49e45ca7ed5fd6834664ab45bfe4071179e5",
           "source_notes": [
@@ -1985,13 +1986,17 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "躬行立范与诰刑并用",
+          "sentence_pairs": 6,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "94f65c1f774fc008bacff3b796137305a2c38be9e775ca82d60125ee74259eed",
           "main_sha256": "e90d72f483aa465aac87b677c5b71e143f5f759cb23617a124e0c69a45bed425",
           "source_notes": [
@@ -2000,23 +2005,31 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "婚礼戏谑与风俗源头",
+          "sentence_pairs": 5,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a8175f0e16f72eefdeecbdc8cd7aa5a71c8f833e821a255c8772dbf3aff3764f",
           "main_sha256": "a8175f0e16f72eefdeecbdc8cd7aa5a71c8f833e821a255c8772dbf3aff3764f",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "外戚辅政的结构性危险",
+          "sentence_pairs": 6,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "003bb64d59a6346b8febe6323eb8956c8eb0aebfac5d40e99b01970cf15ddec5",
           "main_sha256": "4b8d50a329c084157d6a668a1550e2ded6a71777868e2f1aed58f0dc2f09145f",
           "source_notes": [
@@ -2025,13 +2038,17 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "母妻私亲与君主自持",
+          "sentence_pairs": 7,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "49648a702b5a3cc16e7466d5dd68ddc6fdd88e67a23a729050ebb4086eb5507a",
           "main_sha256": "72f8e3adb4e5f3e340a1c774fbeceb5b3346619e5ecef306d77ffbaccd7ade77",
           "source_notes": [
@@ -2048,13 +2065,17 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宦官擅权的累积",
+          "sentence_pairs": 15,
+          "source_note_count": 3,
+          "editor_note_count": 6
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "dc05160c55801c4d834ea66cb8e6f3fc76b8b0fb9ece0b0727d21062d26f23c6",
           "main_sha256": "0476767961b024ab402af55268a97f798d485402ed1c4afeaf586fc980bed66c",
           "source_notes": [
@@ -2063,23 +2084,31 @@
               "text": "〈（《全后汉文》注：有脱字）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "养生修德与巫祝流弊",
+          "sentence_pairs": 6,
+          "source_note_count": 1,
+          "editor_note_count": 5
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "61c6dc3f90480e4c696907c6f15de885b80c0ccdecc1a2eb07bd7f6a4b74b2ba",
           "main_sha256": "61c6dc3f90480e4c696907c6f15de885b80c0ccdecc1a2eb07bd7f6a4b74b2ba",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "禁忌迷信与上行下效",
+          "sentence_pairs": 12,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3bd93b4d6e59779a20672d7a42425a4afafd2f91ad0fb4cee99d819739936d52",
           "main_sha256": "29f17f29b0628a58e573115eb946bb639cfc1d2181d1a6ca652568c8b4594f9e",
           "source_notes": [
@@ -2088,13 +2117,17 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "皇族教育与幼殇礼制",
+          "sentence_pairs": 9,
+          "source_note_count": 1,
+          "editor_note_count": 5
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bd2af21cb221800dd29559bed303c739ee97d32ad02f5d2130cc9afee4044bfe",
           "main_sha256": "5d2794bcba4ed21054502c14e733131950f48fb33db3bd19173a57afcaa8f469",
           "source_notes": [
@@ -2107,13 +2140,17 @@
               "text": "〈（《全后汉文》注：有脱文）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宫室苑囿与后宫中制",
+          "sentence_pairs": 17,
+          "source_note_count": 2,
+          "editor_note_count": 6
         },
         {
           "id": "012",
           "source_block_index": 11,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b51e39d0fa5dfdba987a932467c1dbb37782e9cb5a4de7c5ed617d90eda8e380",
           "main_sha256": "35684f6c731983d8cfcf39285b65f3c44f3756d3f57bbd9883a7ed3dac27b9f6",
           "source_notes": [
@@ -2126,23 +2163,31 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "清节不可偏离中道",
+          "sentence_pairs": 9,
+          "source_note_count": 2,
+          "editor_note_count": 6
         },
         {
           "id": "013",
           "source_block_index": 12,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e1fad5cd9ef7e0af2b8a822153ae8053913a14191fa2fb3896bb40f79e1e3e34",
           "main_sha256": "e1fad5cd9ef7e0af2b8a822153ae8053913a14191fa2fb3896bb40f79e1e3e34",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "尊礼大臣与议政自益",
+          "sentence_pairs": 19,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "014",
           "source_block_index": 13,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c9b8401c66ed77de82981cb9b0d504b3140f2e0904bea50cf6965f90eeec2071",
           "main_sha256": "46ace2a51831a85dae6e46058dcb9d245538598794478126422728b3d7b97559",
           "source_notes": [
@@ -2159,13 +2204,17 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "五种拒谏与恩权分离",
+          "sentence_pairs": 6,
+          "source_note_count": 3,
+          "editor_note_count": 4
         },
         {
           "id": "015",
           "source_block_index": 14,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e42279fc26e10edbfde0315910dc35b497f330d4feeb86df718c2345cce37421",
           "main_sha256": "65f83d7615e5537c4f7ea6e950935ebe97ba44b1f5abd282502030d64f2ef985",
           "source_notes": [
@@ -2190,13 +2239,17 @@
               "text": "〈（《全后汉文》作“难必相恤，利必相及”，注：“恤利必相”四字从《意林》补）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "事亲事君与交友的持守",
+          "sentence_pairs": 9,
+          "source_note_count": 5,
+          "editor_note_count": 5
         },
         {
           "id": "016",
           "source_block_index": 15,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2291176e52eaf75df400acdf568fc21db3243e877340c04412c28e60f04a4227",
           "main_sha256": "20bcddd9531760afbeaa48e42c8cc6a992a8a9cdabb5ce52b6f70707a81f8546",
           "source_notes": [
@@ -2217,23 +2270,31 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "孝道不等于一味顺从",
+          "sentence_pairs": 4,
+          "source_note_count": 4,
+          "editor_note_count": 4
         },
         {
           "id": "017",
           "source_block_index": 16,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f8a8f8ceb06ea1928ca771a8bb253922cac5fd68fc9bf93285a5adbcc4dc00f3",
           "main_sha256": "f8a8f8ceb06ea1928ca771a8bb253922cac5fd68fc9bf93285a5adbcc4dc00f3",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "成败在人事而非占验",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "018",
           "source_block_index": 17,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ee1044ccfaf743835b14235a05c9ebad2d03dff628b53a6a0dbae75853769ca2",
           "main_sha256": "34d63764d2105fc02fe42cf4170cb568b7c3fed7d779aff136e47d495d348592",
           "source_notes": [
@@ -2242,13 +2303,17 @@
               "text": "〈（《全后汉文》注：脱一字）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "天文官与治国根本",
+          "sentence_pairs": 12,
+          "source_note_count": 1,
+          "editor_note_count": 7
         },
         {
           "id": "019",
           "source_block_index": 18,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "456ad3d425d6ea435150924e434fa54a86a11fa76706f0b37def3bae75239553",
           "main_sha256": "366b5b082a884646e281f41fe85a88bbc6509b02368ac2c6ec6af2c7bdc31779",
           "source_notes": [
@@ -2257,7 +2322,11 @@
               "text": "〈（《群书治要》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "反求诸己胜于庆贺祥瑞",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 4
         }
       ]
     },
@@ -2265,7 +2334,7 @@
       "slug": "changyan-xia",
       "title": "昌言·卷下",
       "author": "仲长统",
-      "annotation_status": "pending",
+      "annotation_status": "complete",
       "source": {
         "url": "https://zh.wikisource.org/zh-hans/%E6%98%8C%E8%A8%80/%E5%8D%B7%E4%B8%8B",
         "revision": "343382",
@@ -2277,7 +2346,7 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5491c09c16fa6ddef55f1a34606abf096910291bbfc6334bb443febd18b2688e",
           "main_sha256": "bf79ea9f8a7a1d21a76b0ddfba4b5c0c7d3885c552601eae67f9b415b838bef6",
           "source_notes": [
@@ -2286,13 +2355,17 @@
               "text": "〈（《意林》）按此条已补于《治要》引文一。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "典籍与常道重见辑文",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c2a736ca56f8861b706ff00760fd220b8f5953e6a8bb4faf70d06f4f22346f8d",
           "main_sha256": "98a6a920b60e2a486b38dc99eea5e312320d7d3d3b3c02c939b20ff35f3c4b0e",
           "source_notes": [
@@ -2301,13 +2374,17 @@
               "text": "〈（《意林》）按此条出《理乱篇》〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "昏君纵欲而不知命去",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4a45c3f1d1218adf716058ef5b5426afdcebe78fffbbc0022c964e3c20826f97",
           "main_sha256": "5372fa5b523ee65fa1205acb2fc9c1bfe9c9e23c5eb0407692d616f765986563",
           "source_notes": [
@@ -2316,13 +2393,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "边将与中原礼仪",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "68baa43b659508e6a96be8c3bc66156b6f2b11d4d803b918f97c1c4bebbc3e24",
           "main_sha256": "73bc9ec349bb6c94d96a151d2e3a8fdba334197a06af6f780d7562c70334c0ae",
           "source_notes": [
@@ -2331,13 +2412,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "哀帝与董贤的亲昵",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d0e4a9faee14adb9aa70d8a14c42efcc4339f67e86f642cc51effc1b21ee0269",
           "main_sha256": "be7b4e81b9286d16160cdd7b76090e1754246dc90e01f9db2ab6548245a139a8",
           "source_notes": [
@@ -2346,13 +2431,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宦臣子弟任刺史",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "69ad2033a576777dac856230e1bacedf44235d4020f9970df8e7bcffb8223720",
           "main_sha256": "b429a5b57ba29f3700a979ba8290083450f0a1142fa2685f811fd0d909ec7831",
           "source_notes": [
@@ -2361,13 +2450,17 @@
               "text": "〈（《意林》）《全后汉文》注：“案《刘子•心隐》作‘日在天之外，而心在人之内’。”按四库本《刘子》作“日在天之内，而光在人之外”。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "日与人的残句异文",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5f8e709e05bc07a8598500b35bae7e4063aaab361996d46399aff98fe10fd28d",
           "main_sha256": "7513f460c5147f45561536b2275af092e53a76f47bdac0e8f010eb9ed308dfc5",
           "source_notes": [
@@ -2376,13 +2469,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "爱憎相应",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "324e9c812b11c58ae242606775793600cb4778e0dc69fbfb5d95512c0f48859f",
           "main_sha256": "ce2049591cadecc2bf53d1ebab3268ff8db34c48d0dffbb1648b8e4514cfbfde",
           "source_notes": [
@@ -2391,13 +2488,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "士人的三俗三贱",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "df49549e7b0260543cc7bd96e9161afe636751178fa46e792901234f83a1a4ff",
           "main_sha256": "e8848b604632cea73b4e6263bca293019bd5e77d5572744b3848935bd8460648",
           "source_notes": [
@@ -2414,13 +2515,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "学者三奸与知行之病",
+          "sentence_pairs": 3,
+          "source_note_count": 3,
+          "editor_note_count": 3
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ee7a862c2be599dd320628b2183e169e98eeae28a5748ba0d04fac6d6dd5f7bc",
           "main_sha256": "a28bf3628e4dd8a66be40f42854b4c34e7698ce1896c35f80e588f4f307d073f",
           "source_notes": [
@@ -2429,13 +2534,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "异同不足定爱憎",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f32bbbae6f0ad91863053ab4dd1d604342ebf7563ec022c16cfc840becf24af0",
           "main_sha256": "8f9ad2601839c1cbdd0f8f6e00457f8740d28b93b5f8d1172633f4f8e15cf218",
           "source_notes": [
@@ -2444,13 +2553,17 @@
               "text": "〈（《意林》原注：案句有缺文。）（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "才智与图事残句",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "012",
           "source_block_index": 11,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "267465bd4ee30c8651d9eccfd38d02e9b3b41dee154e5b3fc2eda16b981a5a26",
           "main_sha256": "26608099f4e672b0a37814071d7056770d7f13159d8bdb161b9a0f1d728077ba",
           "source_notes": [
@@ -2459,13 +2572,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "亲疏皆须公正",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "013",
           "source_block_index": 12,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3c18b2c1dd546f5ed4676ee89d4e8897828f8df4dea972ebff2c717875173f21",
           "main_sha256": "feb4089a902114fe81772c434817bdde77b99283653dc459795be12282ac228e",
           "source_notes": [
@@ -2474,13 +2591,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "婚姻轻薄与声色伤身",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "014",
           "source_block_index": 13,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "094a1a9067277bf841646cd374355c59a075ec0d3e1fae7024046877b71c5a4b",
           "main_sha256": "ae2f2e34bd64cd209428f550c455009659010e4eb64d08b5e52d0af2f6336f5e",
           "source_notes": [
@@ -2489,13 +2610,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "九种性情各有所偏",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "015",
           "source_block_index": 14,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5101e4d5150a078a6927fcbb46d492c845c03ff249450c1dcf355205e44812e3",
           "main_sha256": "d6b9ec7985cda0a4bb7484f076688f64dd65cb58275287b9f2baac6bcb4de070",
           "source_notes": [
@@ -2508,13 +2633,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "洗心与修德",
+          "sentence_pairs": 3,
+          "source_note_count": 2,
+          "editor_note_count": 2
         },
         {
           "id": "016",
           "source_block_index": 15,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8de3167a3e04e3f5fc271d35d360c78f117aad0135e723506d2d0e2483565d78",
           "main_sha256": "d31db8a25a3f6b0b5f2beb28e46a1a88bdada314e34703e52fe7af1f235230f3",
           "source_notes": [
@@ -2527,13 +2656,17 @@
               "text": "〈（《意林》）按此条已补《治要》八。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "交友厚信异文",
+          "sentence_pairs": 3,
+          "source_note_count": 2,
+          "editor_note_count": 2
         },
         {
           "id": "017",
           "source_block_index": 16,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6ef9fc4b9ab29c40325d049ead874cd34f017ab16de501106fbda05ac419f3bd",
           "main_sha256": "7a23e5e2ac2996a488a3e65d44c99228bfc41e67c83ed7f863c168538edb0a15",
           "source_notes": [
@@ -2542,13 +2675,17 @@
               "text": "〈（《御览》卷四百六）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "独处责己与会友扬善",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "018",
           "source_block_index": 17,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2fee7d6479008bc34c7300f44f2090ad7f34de33f5d5a9106741cc1547d4f93e",
           "main_sha256": "04bdd89252718bbecda2fe648b8edcd9f2933049e8d594939a0acf13b90590e6",
           "source_notes": [
@@ -2557,13 +2694,17 @@
               "text": "〈（《意林》）按此条见《治要》八。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "忠义未至重见辑文",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "019",
           "source_block_index": 18,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bcef6239627c52e04d6ceaaafd22d8e40493857b298b1690409c4e93f9236ba8",
           "main_sha256": "d74c05d58afeed013bf29cb6a957ae195deb6f601dd4703597cc7ffe6e1a622a",
           "source_notes": [
@@ -2580,13 +2721,17 @@
               "text": "〈（《文选》卷五十沈约《宋书谢灵运传论》注作“布”）。（《意林》）按《北堂书钞》卷一百《叹赏类》作“英才若雨，妙句如云”。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "违亲求学与辞章残句",
+          "sentence_pairs": 2,
+          "source_note_count": 3,
+          "editor_note_count": 2
         },
         {
           "id": "020",
           "source_block_index": 19,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9154c704425cf44e0fb0a4cb5d8c839bbf3ddeab77424f17717f2541f1766e4a",
           "main_sha256": "d87a2d0f8740f879519d63f559a2643bf522d12bff6253e9e0f0ab3a5e9245a8",
           "source_notes": [
@@ -2595,13 +2740,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "爱憎与快意",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "021",
           "source_block_index": 20,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "08518a6071b44276d5325ec37187c15f11ffe569fbcd20aad3a2995429da11b8",
           "main_sha256": "e97da734f0ad005fb07cb3bbbe621b2a76fd56712fee8bd36fc5cc6b54fe1c19",
           "source_notes": [
@@ -2610,13 +2759,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "胎食与飞升之说",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "022",
           "source_block_index": 21,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b44bc610165b8ad759376ce4915b2840e226b4a4720487d37fd8dc61089b9ae3",
           "main_sha256": "242a40a65d7986d6c10d3391988875be93c4ab166896b46d21fa0070dad80884",
           "source_notes": [
@@ -2625,13 +2778,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "寒暑寿夭之说",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "023",
           "source_block_index": 22,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "8a3b85f354db54e49da301f6a4d1ec41fa811d7e9f41625cfbc00a7c258af03b",
           "main_sha256": "5971b2f7066d9226ecb114b26ba95f4f47c6f1abd44f5f0199fcc47e9c800344",
           "source_notes": [
@@ -2640,13 +2797,17 @@
               "text": "〈（《御览》卷八百二十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "人寿与蚕期的类比",
+          "sentence_pairs": 4,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "024",
           "source_block_index": 23,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1900bc41f9bbd5db74f9d712217aa6686e4a6ee872b486a363090ff7f487bcc3",
           "main_sha256": "95d05f02789819988c41b489684dc508293eb3fc9c685768801dff7f631cd522",
           "source_notes": [
@@ -2655,13 +2816,17 @@
               "text": "〈（《困学纪闻》卷十）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "寒温养生及引者附说",
+          "sentence_pairs": 6,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "025",
           "source_block_index": 24,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "24872fd63b6753ff32453f6c1d0f64d6a686825da705b6f39170ad6596058ecd",
           "main_sha256": "f42c473ea6712170f3e4408f3ceaeeb3cc2e63c54c1ea8a53fd069527d25e3b9",
           "source_notes": [
@@ -2670,13 +2835,17 @@
               "text": "〈（《意林》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "商秦先世残说",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "026",
           "source_block_index": 25,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3d14eda32cbccd5305b60120b48e129d887937d97ab3589579b933946e58aece",
           "main_sha256": "9120244ef88a395647472112cb7f49e3a10ce6b7d08e48d0041fb42b0a3798e5",
           "source_notes": [
@@ -2685,13 +2854,17 @@
               "text": "〈（《北堂书钞》未改本卷四十九《设官》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "官级循序而进",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "027",
           "source_block_index": 26,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "50554cb86502c25ff80e9ce4ffc629d2522dd81dd34afa969c454e01e06e3a1f",
           "main_sha256": "c24554cbb9651e03392532938fa0d782f0258e1d325ad2c12a2844322fa01ff1",
           "source_notes": [
@@ -2700,13 +2873,17 @@
               "text": "〈（《北堂书钞》未改本卷三十六《清静》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宗均听事",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "028",
           "source_block_index": 27,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "533bbcbf16294ab7b87a4d6f6d00fc0a7b23061e9883942fa5cf430a29d45a7f",
           "main_sha256": "5922305840ac41098a8893440a15044e571981591073594cefea9f684fbe5df6",
           "source_notes": [
@@ -2715,13 +2892,17 @@
               "text": "〈（《类聚》卷四十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "冢宰之始",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "029",
           "source_block_index": 28,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c5b314237b5e8fdb9b3d5fb7814cadc9d1666802a5dfb337d82fa60a67ea74d1",
           "main_sha256": "f290eee5929c57abcae75b3083a935b7a4ba72f1623795899e419b3ea0a69166",
           "source_notes": [
@@ -2730,13 +2911,17 @@
               "text": "〈（《类聚》卷八十九）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宫树异物与称贺",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "030",
           "source_block_index": 29,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "497aad63a3adf4181ac7e16b77d1834dbdc78dcd15b36c24d5a5a1087a6c9112",
           "main_sha256": "1a68c787df5e039bb0b74b4a25ef0a756e7303e6faab6f249d5a1607f39cf736",
           "source_notes": [
@@ -2749,13 +2934,17 @@
               "text": "〈（《御览》卷九百七十一）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "忧鲜果而忘治德",
+          "sentence_pairs": 2,
+          "source_note_count": 2,
+          "editor_note_count": 2
         },
         {
           "id": "031",
           "source_block_index": 30,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6b0adc0b1184c0b6b41667dd94cb007ac6fb0fd53c7cfeecc75c59cb42de92b1",
           "main_sha256": "17f91f2a052af1acc5e19342fb033dff139da6b38dc3cd0493852e3610f05de1",
           "source_notes": [
@@ -2764,13 +2953,17 @@
               "text": "〈（《类聚》卷九十八）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "长乐宫异物另引",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "032",
           "source_block_index": 31,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7b6e9b1ef2ca1f6af1ec7a89a081a3872923dc89a2aec9c3d34e98ef7e100b31",
           "main_sha256": "c245a09aac4bf08966023d1ce2ae363039fa26ac612de318570784da874be9bb",
           "source_notes": [
@@ -2779,13 +2972,17 @@
               "text": "〈（《御览》卷九百六十）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "安帝宫树异物异引",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "033",
           "source_block_index": 32,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "81e8367d2f423eb12e77cc519c7bf22f16480ca2eddbf32c1f3e2c2726a6801a",
           "main_sha256": "46e207386257ebd6deae6164c6b05f5440821fdc1e6f9bd9097a5ef0df1ce404",
           "source_notes": [
@@ -2794,13 +2991,17 @@
               "text": "〈（《初学记》卷二十六、《御览》卷六百九十二无“持”字）按《南齐书•舆服志》：“百官执手板，尚书令、仆、尚书，手板头复有白笔，以紫皮裹之，名曰‘笏’。汉末仲长统谓百司皆宜执之。”〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "执笏记令",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "034",
           "source_block_index": 33,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5ab4c39ad7f2666eb721442ad0eb3d2e1a326bab93b792f1a9b38e987962e77b",
           "main_sha256": "17c8209bdd0b8c79c51f5198c5fb7193f3c5fe39ac6d23f1c88d11996934a93f",
           "source_notes": [
@@ -2809,13 +3010,17 @@
               "text": "〈（《御览》卷二百三）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "循级任官与选才",
+          "sentence_pairs": 5,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "035",
           "source_block_index": 34,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3da91cacb8cd057edf062cd4cc3f9acad9349badba8ff109e4d90b5865d2f0c6",
           "main_sha256": "b31d7c9929cd96108f02dcaa55545fd88d0ac25d0e8e0ef93de06739ab58d251",
           "source_notes": [
@@ -2824,13 +3029,17 @@
               "text": "〈（《御览》卷八百二十六）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "石攻玉与灰洗布",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "036",
           "source_block_index": 35,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a1692c08445988e71d069cdbae8bef2122a8d80fbf866b4e18383bc1636650a5",
           "main_sha256": "5618bbfc02aa5b513f540ad717eacb6470eea2ebcac44d54fb27391402710ce7",
           "source_notes": [
@@ -2839,13 +3048,17 @@
               "text": "〈（《御览》卷五百九十五引《唐书》：冯履谦补河北尉，有部人张怀道任江阳尉，与谦畴旧，銄镜一面。谦集寮吏，遍视之，曰：“此张公所致也，吾与之有旧，吾效官以俸禄自守，岂私受遗哉！昌言曰：‘清水见底，明镜照心。’余之效官，必至于此。”复书于使者，乃归之。按此条所谓“昌言”，疑“谠言”，非指仲长子之《昌言》也。附此备考）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "明镜照心存疑材料",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "037",
           "source_block_index": 36,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "df2c9d3b652d6ae8439d863435142456ae89c218a30a9f150f6800f4fdba94d3",
           "main_sha256": "9bd666a443af47fc5a38ba028696e64c1665b2abb250aa903de442239d67d73e",
           "source_notes": [
@@ -2854,13 +3067,17 @@
               "text": "〈（《博物志》卷五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "曹魏方士名录",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "038",
           "source_block_index": 37,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1646a903798caf1f95abbd1b50bc805fdf114b3f5d4f97e12b7e95ac95a513c9",
           "main_sha256": "ebe9a9088459a287be4c893642f12e6cabf3118f6355cb635481fa57f22e12f6",
           "source_notes": [
@@ -2873,13 +3090,17 @@
               "text": "〈（《博物志》卷五引《典论》）《全后汉文》注：“案此二条出《典论》，又与子建相乱，非皆《昌言》原文，故附载焉。”〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "房中服药及黄白术材料",
+          "sentence_pairs": 5,
+          "source_note_count": 2,
+          "editor_note_count": 5
         },
         {
           "id": "039",
           "source_block_index": 38,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6bd108ea2ac6ff6cc308ac61a720e48d8c606191eb6751c5b69248417dfe0057",
           "main_sha256": "2fb63583d5657340ccb9270f0d7c87ddf689f0f52b76fe7bada92e357ac15972",
           "source_notes": [
@@ -2888,13 +3109,17 @@
               "text": "〈（《抱朴子•至理》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "行气与不死术的辩解",
+          "sentence_pairs": 9,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "040",
           "source_block_index": 39,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "59e1ec41147b152aa15c3f7862c8cf34a269dbd16aab7ff17ea7836cefc9a374",
           "main_sha256": "a9c1be3577dfe23538181854c0d169416947a21e579c76dad2a404d4a3470dad",
           "source_notes": [
@@ -2903,13 +3128,17 @@
               "text": "〈（《抱朴子•至理》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "卜成升天传说",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "041",
           "source_block_index": 40,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "43d8a8d3bf33a5b50c8f90713b1a758a93f30665cfcb0c61917168c8f50158fa",
           "main_sha256": "fb271eb8c806ba91052cdf21dfb18eb77c04e8c746e7f5ea7230547aa9a93e2f",
           "source_notes": [
@@ -2918,13 +3147,17 @@
               "text": "〈（《水经注》卷十五）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "卜成游山另引",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "042",
           "source_block_index": 41,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3a89772cfff43e9c280d791ce38a99a6b1ad98d217f238640087c1d8a9d593e4",
           "main_sha256": "019eef4b9f8436daedc3d532ed5f3814b4f99869a379a9e7073d5be46e8c9e07",
           "source_notes": [
@@ -2933,13 +3166,17 @@
               "text": "〈（《御览》卷六百九十一）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "蓟子训预言死期",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "043",
           "source_block_index": 42,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "12f2aa70d86fb699444b375479545c30a98afa3edb99e1f40e9be6c10f6ff226",
           "main_sha256": "268d6359d70118f56e86752d2a2932c47ac46c532428921a791e9da285813873",
           "source_notes": [
@@ -2948,13 +3185,17 @@
               "text": "〈（《齐民要术序》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "天时与勤农",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "044",
           "source_block_index": 43,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "c6420e1ce32b93a41185a9ca7557de2f841e8a65c10ac76cc2fed09d8772f096",
           "main_sha256": "e76a4644781d60247541dcfcd1970d0f71e48ca9306c61d6a30c6afe8ee5ddff",
           "source_notes": [
@@ -2963,13 +3204,17 @@
               "text": "〈（《齐民要术序》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "垦殖与辨地",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "045",
           "source_block_index": 44,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7b353bb78b32852cd9f3f6aeb8a405ecc49d916505499436c8016462972091e4",
           "main_sha256": "ace05eef209ffb46c3e3d0dc38c891ec090125d3b0e10ca40843aa3dbcef2f6a",
           "source_notes": [
@@ -2978,13 +3223,17 @@
               "text": "〈（《齐民要术序》）《全后汉文》下有“此督课之方也。且天子亲耕，皇后亲蚕，况夫田父而怀窳惰乎”二十四字。按验之《齐民要术序》，疑此乃贾思勰语。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "督课农作与居处",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "046",
           "source_block_index": 45,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "501dcee494cb45f9f8f8d3e48838c9ae8b719452257cb34d3bef15855581f8d7",
           "main_sha256": "b31afeb91f061f3280476747161e2e9f3f36942c01c55815b542bb5db96359a8",
           "source_notes": [
@@ -2993,13 +3242,17 @@
               "text": "〈（《齐民要术序》）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "习俗使人不自知非",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "047",
           "source_block_index": 46,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "574c47e3560aeec2da35345de4f6919da4088060c0a839e87f8bfee2b92c7a38",
           "main_sha256": "bdc92c63ca2635a4a5b59c34b04a5b7fcf0b3d02843d17549fba8d99ec597536",
           "source_notes": [
@@ -3008,13 +3261,17 @@
               "text": "〈（《长短经•政体》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "严法不能解民怨",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "048",
           "source_block_index": 47,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2d144299bbe5f122f8680f4b19d593563b516b12425b2526ed4dce02a88d89fb",
           "main_sha256": "ada93eccfa39ba624a8fd8cad08b45e292e0c5ce3fb0f9b63d0055724b1a2bca",
           "source_notes": [
@@ -3023,13 +3280,17 @@
               "text": "〈（《李文饶外集》卷三《朋党论》）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "同异爱憎与朋党",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "049",
           "source_block_index": 48,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "32423822e2cb2408ac7e3e42c2d321813e2e47303c3c26bb1dbae09fe29f63ba",
           "main_sha256": "23db637089a6a4683ebd74f6e44126e5664ff1bc09e4b7392b65d368ec88a626",
           "source_notes": [
@@ -3038,13 +3299,17 @@
               "text": "〈（《李文饶外集》卷三《朋党论》）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "才勇也能助恶",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "050",
           "source_block_index": 49,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e706a048877ac48dd6328b9ec884e1ccbcaff3a02d3f3ba75ade48d0ef4f208e",
           "main_sha256": "547345d094096449b39ef97e8053da93bae9977bc2dabca0e60b97f751a6b948",
           "source_notes": [
@@ -3053,13 +3318,17 @@
               "text": "〈（《刘梦德文集》卷十四《答道州薛侍郎论方书》）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "纵食与求神残文",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "051",
           "source_block_index": 50,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "376444169a1f61b33846d60affec1c671c747fbe62eb2c3b718be193d281dcec",
           "main_sha256": "6ad34d2a251da3bff9bde9e84b6c42c2cb8e994fe68713e9e195098d69161428",
           "source_notes": [
@@ -3068,13 +3337,17 @@
               "text": "〈（《史记•滑稽列传》索隐引）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "东方朔与滑稽人物",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "052",
           "source_block_index": 51,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "99326f3daa4510971e649dd0cdf6226e0a73f47d5346d479e3a33e699d91b1d6",
           "main_sha256": "77417908d00067814f9167dbedc1f78788710ae7e9aa6cc86d5044ea7e424794",
           "source_notes": [
@@ -3083,13 +3356,17 @@
               "text": "〈（《文选》卷六左思《魏都赋》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "清和教化残句",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "053",
           "source_block_index": 52,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "54f4a63c0bac3c7218e6182f6a565267a1fd656c683c0d5db413b85160a89bec",
           "main_sha256": "68af2713507157c3b6bff55984441e70996e423a98292523634ce06da4f3dbeb",
           "source_notes": [
@@ -3098,13 +3375,17 @@
               "text": "〈（《文选》卷十一孙绰《游天台山赋并序》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "不坐华帐翠屏",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "054",
           "source_block_index": 53,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "051abd2b0004edc19ecdbb581dad1d77f5c1640202b48dd6c480face872a4a68",
           "main_sha256": "2c8a332e08d051f1624023189ef1c6a33f6fb37b323ab0edbf4aacfeee32abcd",
           "source_notes": [
@@ -3113,13 +3394,17 @@
               "text": "〈（《文选》卷十六潘安仁《怀旧赋并序》、卷二十三阮籍《咏怀》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "墓树标识之一",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "055",
           "source_block_index": 54,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "89d1a546c7e3c3073265cf4f37c6b7739b06d1a6e00ac4d379705b3f4be12d77",
           "main_sha256": "1229c3b2e4fd1141bb29f00fa4a6b64b89ff6dfb2865f492121b8e3b872efe11",
           "source_notes": [
@@ -3128,13 +3413,17 @@
               "text": "〈（《文选》卷二十八陆士衡《门有车马客行》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "墓树标识之二",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "056",
           "source_block_index": 55,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f140e3ff2a5453cec0d266d0f6827624fd69c062cff9a5e8de86353b4e0eabbf",
           "main_sha256": "d57fb17b3b84dace586f5b169a71f6344cf64ae9239a143e9d7ec5441bb2d2d8",
           "source_notes": [
@@ -3143,13 +3432,17 @@
               "text": "〈（《文选》卷二十九《古诗一十九首》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "墓树标识之三",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "057",
           "source_block_index": 56,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cb4f84b451dadd2ad03dcf721a3e2abc8f5b4ccba4076ffff6728e56dd26ed02",
           "main_sha256": "bf48cfefa60186b02b9719312f1c25690c4497c5428acbf3e292584ba7487bcb",
           "source_notes": [
@@ -3158,13 +3451,17 @@
               "text": "〈（《文选》卷三十一江淹《杂体诗•潘岳悼亡》、卷四十三丘迟《与陈伯之书》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "墓树标识之四",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "058",
           "source_block_index": 57,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "55890ccfb6e1101c8f771a5fdfa1111f68671d2cc7a2684026c1f37de7c8108a",
           "main_sha256": "6b63a866dcd09fe0d235d8cb085cb2270962eb5679727a8ca6328ddc6122ba34",
           "source_notes": [
@@ -3173,13 +3470,17 @@
               "text": "〈（《文选》卷四十四陈琳《为袁绍檄豫州仲》注）按《全后汉文》作“古之葬者，松柏梧桐，以识其坟也”，无“植”字，疑非。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "墓树标识之五",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "059",
           "source_block_index": 58,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "43fe5679982656359b926e93cf92c6aac12708d7c59c8b4477f01d328b22eace",
           "main_sha256": "fb4108c817ccea47b3f18a3458b0e7f1d936281e00f07d9a0792de0e262b6ff1",
           "source_notes": [
@@ -3188,13 +3489,17 @@
               "text": "〈（《文选》卷十七陆机《文赋》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "六情",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "060",
           "source_block_index": 59,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d79244ae716460fd37cf1e07d39ff71f9b7fabff4a0e43ab97c1689e6fed75ea",
           "main_sha256": "1e1e0606e99a093198f6dd1a91860d9403cbe723c0e1506087aac79411a46ee4",
           "source_notes": [
@@ -3203,13 +3508,17 @@
               "text": "〈（《文选》卷十八马融《长笛赋并序》注）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "论议贵在核实",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "061",
           "source_block_index": 60,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "54a13373908f908a234574109c8736f3e5094b0dc83f621bc09535679d79479d",
           "main_sha256": "c7b5ec7e5173d01d910ee2aae778bfb4d72cccc5647fc338676b33bbc81ad2d6",
           "source_notes": [
@@ -3218,13 +3527,17 @@
               "text": "〈（《文选》卷十八嵇康《琴赋并序》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "顺流难限",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "062",
           "source_block_index": 61,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "6272e5cea4b5c78634734048c730cbc90cbdba65d0f914bea577a8f1a89171b2",
           "main_sha256": "8d56a1cad57f1bde199fe50a27eda1ffa33cbfb411329f9b126224fa16d71f18",
           "source_notes": [
@@ -3233,13 +3546,17 @@
               "text": "〈（《文选》卷二十四曹植《赠白马王彪》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "疾驰如影如响",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "063",
           "source_block_index": 62,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3b922eba94ff105abb58972abce4857a1b342043d42a8206c26ad7a5e8966e0a",
           "main_sha256": "a5b0f69984c6399f3101b00eb61477636f5f49a5f47f05be3d175d7aa948d170",
           "source_notes": [
@@ -3248,13 +3565,17 @@
               "text": "〈（《文选》卷二十五谢灵运《还旧园作见颜范二中书》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "筑基兴功",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "064",
           "source_block_index": 63,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "be2fd1f74a2834d85a5143109d216f41d61365d1c7357715ade20e155549e9ed",
           "main_sha256": "8d1fe5b62b7ebc3ef95544ef2c0b9bc8bca2439bd8e4cffffce7a92445cf0af7",
           "source_notes": [
@@ -3263,13 +3584,17 @@
               "text": "〈（《文选》卷三十五张协《七命》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "上古隐士居处",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "065",
           "source_block_index": 64,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "093644e052960149c02f17fd76dfdb5db32c7f6de2eb1e6e334fd06d65e9c08d",
           "main_sha256": "26ca22dc3923a9b6ebfa945c2704f0c7a41b26257e59c5f703791f05ff688dcd",
           "source_notes": [
@@ -3278,13 +3603,17 @@
               "text": "〈（《文选》卷二十六谢灵运《入华子岗》、卷四十二曹植《与吴季重书》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "升天路譬喻之一",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "066",
           "source_block_index": 65,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7a43143115f8d2afb6edd522bc933f1513028509638e096d5bd9be01fcdf05ce",
           "main_sha256": "0a233cda852c1462e48c1f6353f525558d55ec1ac37c3c918175ef6e54a968e9",
           "source_notes": [
@@ -3293,13 +3622,17 @@
               "text": "〈（《文选》卷二十六陶渊明《始作镇军参军经曲阿作》注）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "隐士负戴入山",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "067",
           "source_block_index": 66,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fceaddefda1c7ce0ec56d098d5fe8bb598a5ac59d8f75274f9a8424f8ec18919",
           "main_sha256": "1bcc49cf322f4f440a74c605d3573c98e43a517c88a0f09d6f27aa886a8b7d22",
           "source_notes": [
@@ -3308,13 +3641,17 @@
               "text": "〈（《文选》卷二十九曹植《杂诗六首》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "升天路譬喻之二",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "068",
           "source_block_index": 67,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "97304d57f78d3389f0c5ad597b26ccd50082b29eb5b2606b7e29967fc340b64a",
           "main_sha256": "ded95a37d8a742df5b8bc6e3fade48621d02c2f2cd53ee49999afed2215234ee",
           "source_notes": [
@@ -3323,13 +3660,17 @@
               "text": "〈（《文选》卷二十八陆机《塘上行》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "强智相凌",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "069",
           "source_block_index": 68,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "7bf8e2e0fd242cfcc2febf42fbaac6e873d440574201989732ce6f423108fb6f",
           "main_sha256": "5ffae7520d25e788ed0f5b1ce9ef7f986a3f29963c08d890c3767888e0fbd569",
           "source_notes": [
@@ -3338,13 +3679,17 @@
               "text": "〈（《文选》卷二十八鲍照《白头吟》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "苛求丝发之衅",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "070",
           "source_block_index": 69,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bef561f4720e7a4fdb753e98f1e50625396f4cb49d2f3a59cde5072d1d71916d",
           "main_sha256": "5d01e2a67d3ac75e8cb153f6b573b31c3abee1023fb08fe5697b5ed753a3a959",
           "source_notes": [
@@ -3353,13 +3698,17 @@
               "text": "〈（《文选》卷三十谢眺《始出尚书省》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "军荒之时士人自苦",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 4
         },
         {
           "id": "071",
           "source_block_index": 70,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e2a5d9f4a650b9e83ca47f749c1c4ffd43d12bd3d0e76314ee29d0c69ead0c6a",
           "main_sha256": "2e15daac47451eac90f33be6416faee3f0cea171068b1aa703b894223d9f79b2",
           "source_notes": [
@@ -3368,13 +3717,17 @@
               "text": "〈（《文选》卷三十一袁淑《效曹子建乐府白马篇》注）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "冰洁霜严",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "072",
           "source_block_index": 71,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "70b6aa27a5226a5878b853f17634910467409ad5fc34d7ab5819d4e8083080ab",
           "main_sha256": "42427470b353ac922f8ffb1bca0105953e118abe829ebb7c2baabb9801adb51c",
           "source_notes": [
@@ -3383,13 +3736,17 @@
               "text": "〈（《文选》卷三十九任昉《为卞彬谢修卞忠贞墓启》、卷四十《奏弹刘整》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "引入教义",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "073",
           "source_block_index": 72,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "83e89d3cc04e77826773bb3684bd24d50ef3e40c725544dad16b23d9a31359f8",
           "main_sha256": "1e413a7d660b05a34165c56fdeab2b35b86f74213f0f92de181873536797175b",
           "source_notes": [
@@ -3398,13 +3755,17 @@
               "text": "〈（《文选》卷四十二曹植《与杨德祖书》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "高洁独立为士之次",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "074",
           "source_block_index": 73,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "acb8b38f5204de6b4970ba0bc11f1c1c9a0fef0687ebe0fa8bcfa2ef6d17a044",
           "main_sha256": "c2e0cda699002d09d85a4a8a7ad9dc50d1f726065874f3632643b155866e4a23",
           "source_notes": [
@@ -3413,13 +3774,17 @@
               "text": "〈（《文选》卷四十五石崇《思归引序》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "节操凌云",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "075",
           "source_block_index": 74,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "13b614ecd70ee2ef9edc92025f84cc0fba57b774c434d759e9d3000dc3dfbafa",
           "main_sha256": "d038b56c19eb8de67b7d1a9060897905a1c80b8e0ec50eacc8526339965187bd",
           "source_notes": [
@@ -3428,13 +3793,17 @@
               "text": "〈（《文选》卷四十六颜延年《三月三日曲水诗序》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "奸息道清之一",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "076",
           "source_block_index": 75,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "07b41e5d7255fcd7a291c0e135f46aa8e02737c94fd16d345aa2cc62c00bf2ba",
           "main_sha256": "ea18297d53869e36d82f8b20f97d531e03cd8b2a0bf0cb5e4e0ba83a2379ddca",
           "source_notes": [
@@ -3443,13 +3812,17 @@
               "text": "〈（《文选》卷四十六王融《三月三日曲水诗序》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "奸息道清之二",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "077",
           "source_block_index": 76,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "e68c8906fb71d56bb5f0c2dec7e2e2919daba8c010234be58924b39a454692f6",
           "main_sha256": "ea18297d53869e36d82f8b20f97d531e03cd8b2a0bf0cb5e4e0ba83a2379ddca",
           "source_notes": [
@@ -3458,13 +3831,17 @@
               "text": "〈（《文选》卷二十五傅咸《赠何劭王济》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "奸息道清之三",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "078",
           "source_block_index": 77,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "be45fe402a1e8c17a2a36fee83b9b4897fef4f64e99df8f07292e35c8b5a2570",
           "main_sha256": "b46d4aa6c4d2b2f7e5ef04aeb8f4b2118913672c1a0a8b123cd56297d2932e58",
           "source_notes": [
@@ -3473,13 +3850,17 @@
               "text": "〈（《文选》卷四十六任昉《王文宪集序》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "子长班固述作",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "079",
           "source_block_index": 78,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4c8ffa80e28aded1c1e00e169499169cf0d58ef5c70a8705c5310e4b14b14f70",
           "main_sha256": "739e72ff3cf9665f4fbbf737a9d17215a85ad25bddead64a6bc632ab4fdc2ecd",
           "source_notes": [
@@ -3488,13 +3869,17 @@
               "text": "〈（《文选》卷四十九干宝《晋纪论》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "高光际会残句",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "080",
           "source_block_index": 79,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3ff88bdd129f92d6feaad49ef56bd418fe08fdea6db4f58245b6509efc0c9c93",
           "main_sha256": "acf66ff8ab058121739da2403c1a334c51e5bf00bfad79d86338b9a84db63617",
           "source_notes": [
@@ -3503,13 +3888,17 @@
               "text": "〈（《文选》卷五十范晔《宦者传论》、《后汉书•宦者列传》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "歌舞千曹",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "081",
           "source_block_index": 80,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "0012985a6ca7220ba861479b72f4dcf650a791b66313ab224a578fd922c2743e",
           "main_sha256": "456b4c3d581e61bd6abcdcfeb0a0f15c0fce7d9910fa6639e92dc12ecd2eb677",
           "source_notes": [
@@ -3518,13 +3907,17 @@
               "text": "〈（《文选》卷五十范晔《宦者传论》注）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "武帝中书掌机事",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "082",
           "source_block_index": 81,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "91db50cf2294674d910efc042faba5ea7fb563d32885e480f7f863a870843a27",
           "main_sha256": "8e90be0f5f68691b83d3de977da9ed916af5c33707bf6ecca10f0fa14651697f",
           "source_notes": [
@@ -3533,13 +3926,17 @@
               "text": "〈（《文选》卷五十范晔《宦者传论》注）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "宦者星与周礼官职",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "083",
           "source_block_index": 82,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "259dd1d60237ea961e3ca6e36f3380f4b7dcca0e53c85c81b772818fe29ecab6",
           "main_sha256": "4d2deab74db98b52f2953e64bee77381ab72ed4db68da6c6055b1d5a7a0f93d8",
           "source_notes": [
@@ -3548,13 +3945,17 @@
               "text": "〈（《文选》卷五十三李康《运命论》注）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "汉祖轻文简礼",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "084",
           "source_block_index": 83,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "31cd0805409a90023f95f4118f6787cf110395452e496d679e4cbce64eb5f2a8",
           "main_sha256": "dbd0af7c34eaa23fdcbd7b8665f3b23ae296df2aeab2c4fbc6f4b379b80ffcaf",
           "source_notes": [
@@ -3563,13 +3964,17 @@
               "text": "〈（《文选》卷五十五陆机《演连珠》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "窥心测意日甚",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "085",
           "source_block_index": 84,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2f445ea1449bcb057d36691c0c19e47c237661792d55f25bba84943a9da3d881",
           "main_sha256": "3d7a09fa905419de610135e08df47f5fdcd52d513b24dd41820fdc2483a8e5b8",
           "source_notes": [
@@ -3578,13 +3983,17 @@
               "text": "〈（《文选》卷五十六陆倕《石阙铭》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "案前筹划与百代制度",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "086",
           "source_block_index": 85,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cebcc8316312a7d80b35959f91ae2a58c0cf5ae9bf9ee017bf7e2740165b2374",
           "main_sha256": "d69e52bfb97d57da5045eba7a9eb6fa0d5d034a637a8450fb5a2d25eda3b98f8",
           "source_notes": [
@@ -3593,13 +4002,17 @@
               "text": "〈（《文选》卷五十六陆倕《石阙铭》注）直道正辞，贞亮之节。（《文选》卷五十八蔡邕《郭有道碑文并序》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "五位正方与夹注内佚句",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "087",
           "source_block_index": 86,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d7cc189aeebbce30af5b3c309eb39342ff7e19ac251b0f9589f30678b04f6fc0",
           "main_sha256": "ab8276d08381e0a0949eb069a8f678dede39b581f7b3e5405c80d9600e6e44f0",
           "source_notes": [
@@ -3608,13 +4021,17 @@
               "text": "〈（《文选》卷五十九王巾《头陁寺碑文》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "人才州以千计",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "088",
           "source_block_index": 87,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "80d10b2860630aee18a53604582e3138bf28d9f65363c0c86292a1ff29da8aa1",
           "main_sha256": "29e1f88b5f8a57f614591117d88b51c4325b9f2b323d7b8a63070695d90c7a66",
           "source_notes": [
@@ -3623,13 +4040,17 @@
               "text": "〈（《文选》卷五十九王巾《头陁寺碑文》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "一人好恶裁万品",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "089",
           "source_block_index": 88,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4b6acebb9da834aee83c4f8c6ef5b4f7d96b884a114818c5de5a5876ef3ba60b",
           "main_sha256": "881e22a720e94f804e7c8cf5c1cc23fa2c93f19d4fc94b8066b5f6ae66f3e9a8",
           "source_notes": [
@@ -3638,13 +4059,17 @@
               "text": "〈（《文选》卷五十九沈约《齐故安陆昭王碑文》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "师傅之德可为模范",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "090",
           "source_block_index": 89,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "030ea89f4abc8115afb02f1edb1fdd064f4eb48847ad3d2ae89880556eec04f3",
           "main_sha256": "854c0ed8eeb9732221b01bb6edcb4982a4625776190c8c43532f2fe26b58567c",
           "source_notes": [
@@ -3653,13 +4078,17 @@
               "text": "〈（《文选》卷六十任肪《齐竟陵文宣王行状》注）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "救急赴难",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "091",
           "source_block_index": 90,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "a31c6d515abc9a24d434e95b4f18dd7392aae146bd762cbd44c296af0bd59e25",
           "main_sha256": "d62ba27aaa490d841e3f4bfb9378ef3c2f83119f153ae1844c15c72e7d72679e",
           "source_notes": [
@@ -3668,13 +4097,17 @@
               "text": "〈（《众经音义》引）按此条《全后汉文》未收。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "绳墨弹线残句",
+          "sentence_pairs": 1,
+          "source_note_count": 1,
+          "editor_note_count": 2
         },
         {
           "id": "092",
           "source_block_index": 91,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "1c33a787b41d5906637c7b1924f5fd69906817f45008536eb95da7ebd705e0ec",
           "main_sha256": "4a2f30589eedc6ba4b671a5ffefae4d3d54773ef793f6f5e8d42e7b950fae519",
           "source_notes": [
@@ -3683,7 +4116,11 @@
               "text": "〈（《文选》颜延年《三月三日曲水诗序》注）按此条据《文选》卷四十六李善注，出《风俗通》，《全后汉文》误收入《昌言》。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "禊礼误收资料",
+          "sentence_pairs": 3,
+          "source_note_count": 1,
+          "editor_note_count": 3
         }
       ]
     },
@@ -3691,7 +4128,7 @@
       "slug": "changyan-fulu",
       "title": "昌言·附录",
       "author": "范晔等（逐段区分）",
-      "annotation_status": "pending",
+      "annotation_status": "complete",
       "source": {
         "url": "https://zh.wikisource.org/zh-hans/%E6%98%8C%E8%A8%80/%E9%99%84%E9%8C%84",
         "revision": "1557039",
@@ -3703,77 +4140,105 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "fcefcac0638e3bcca21ec026002261ad6fed955c46679ca32680c836cfe040d8",
           "main_sha256": "fcefcac0638e3bcca21ec026002261ad6fed955c46679ca32680c836cfe040d8",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "范晔本传：游学与识高干",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ffb9b846628704b92f21efd4ffb8df12e1d2cab0ad50413c7e733fccdb420e55",
           "main_sha256": "ffb9b846628704b92f21efd4ffb8df12e1d2cab0ad50413c7e733fccdb420e55",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "范晔本传：任诞与乐志",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 3
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "b22d1644ce88cdbfbfe3ad2d4a7823f39245172995ac837cd37af5d683da9bcb",
           "main_sha256": "b22d1644ce88cdbfbfe3ad2d4a7823f39245172995ac837cd37af5d683da9bcb",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "仲长统诗之一：超脱形迹",
+          "sentence_pairs": 9,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "53f2e915bf306974971a527233efd4df3775c1be8f26f09032eb1e1849c9ec22",
           "main_sha256": "53f2e915bf306974971a527233efd4df3775c1be8f26f09032eb1e1849c9ec22",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "仲长统诗之二：放志太清",
+          "sentence_pairs": 10,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "005",
           "source_block_index": 4,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2c62cfc0ee2743502997d1e2ca5df16ff61c4b25c89a056c49010f824b63105a",
           "main_sha256": "2c62cfc0ee2743502997d1e2ca5df16ff61c4b25c89a056c49010f824b63105a",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "范晔本传：仕履与著书",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "006",
           "source_block_index": 5,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "259c033bf98d2fd23801519d6ed3aa34bc436f90460433729d8e100bb51e4eee",
           "main_sha256": "259c033bf98d2fd23801519d6ed3aa34bc436f90460433729d8e100bb51e4eee",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "范晔崔寔传所引仲长统评语",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "007",
           "source_block_index": 6,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "ad8a94d3101004f23a9fc416d5fe9855b7e590dd64c6d32f0d6c38bdf301f510",
           "main_sha256": "ad8a94d3101004f23a9fc416d5fe9855b7e590dd64c6d32f0d6c38bdf301f510",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "陈寿及旧注所记缪袭",
+          "sentence_pairs": 8,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "008",
           "source_block_index": 7,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "bc4f4c3d0f4545ce3360b404a62a0fe86ca024950761eeb4e9feda4c146024c2",
           "main_sha256": "cef219266ef24b2a1c9e214d6a31cb6dc31cf8c51876cf4f2797192f6dbf816b",
           "source_notes": [
@@ -3786,13 +4251,17 @@
               "text": "〈（《三国志•魏书•刘劭传》注）《全后汉文》作《撰上仲长统昌言表》，并注曰：“《后汉书•仲长统传》云：‘友人东海缪袭，常称统才章足继西京董、贾、刘、杨。’当亦《表》中语。”《御览》卷七百三十九引作“缪袭《撰仲长统昌言表》”。〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "缪袭昌言表",
+          "sentence_pairs": 14,
+          "source_note_count": 2,
+          "editor_note_count": 5
         },
         {
           "id": "009",
           "source_block_index": 8,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "2ae4ca7ebf9cb64bacf6954a6ac7c8124c9c60c0cbdc8e990964f94681424c85",
           "main_sha256": "72ca58f6f0b6dcac24e61c223461c33eb1182b952c7cf573f44ea11a2ae33306",
           "source_notes": [
@@ -3801,13 +4270,17 @@
               "text": "〈（《尹文子》道藏本）《四库全书总目提要》：“序中所称熙伯，盖缪袭之字。其山阳仲长氏，不知为谁，李淑《邯郸书目》以为仲长统，然统卒于建安之末，与所云黄初末者不合，晁公武因此而疑史误，未免附会矣。”《全后汉文》注：“按统卒于献帝逊位之岁，而此序，言‘黄初末始到京师’，当是后人妄改，或此序非统作也。疑莫能明。”〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "仲长氏尹文子序：作者存疑",
+          "sentence_pairs": 9,
+          "source_note_count": 1,
+          "editor_note_count": 5
         },
         {
           "id": "010",
           "source_block_index": 9,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "d3d9dc5bb6b53991d2650fc33d12601bae0bd3af60400621e4f2ae13a1b88aec",
           "main_sha256": "3c699e64435cffd842aee53e43aa723930c1740a57ff38d1e31b66cc49f19b1e",
           "source_notes": [
@@ -3816,33 +4289,45 @@
               "text": "〈（《御览》卷六百二）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "抱朴子所记缪袭编次",
+          "sentence_pairs": 2,
+          "source_note_count": 1,
+          "editor_note_count": 1
         },
         {
           "id": "011",
           "source_block_index": 10,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "4e9906f82565b05ec711b76db7424a8c51b15ee42cdaa9675deb33265eb88d00",
           "main_sha256": "4e9906f82565b05ec711b76db7424a8c51b15ee42cdaa9675deb33265eb88d00",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "刘勰诸子论所列昌言",
+          "sentence_pairs": 3,
+          "source_note_count": 0,
+          "editor_note_count": 2
         },
         {
           "id": "012",
           "source_block_index": 11,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "3dc0fe3d8d86f04d11e4250ced2ae55f98cbf6720506a7a5c48b6c2618abb633",
           "main_sha256": "3dc0fe3d8d86f04d11e4250ced2ae55f98cbf6720506a7a5c48b6c2618abb633",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "刘勰史传论及佚文线索",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "013",
           "source_block_index": 12,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "67e7aef31c54f5ed7832307fbd84f091dc6605f4173d2ae513cbda488991dafa",
           "main_sha256": "fd74cf990631f9c922be91867561b031b3a5559d2a25a5b9df0ade2ea41dcbea",
           "source_notes": [
@@ -3851,20 +4336,59 @@
               "text": "〈（《韩昌黎全集》卷十二）〉"
             }
           ],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "韩愈后汉三贤赞之三",
+          "sentence_pairs": 8,
+          "source_note_count": 1,
+          "editor_note_count": 3
         },
         {
           "id": "014",
           "source_block_index": 13,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "cf0a57189fd9279a9c191d59a474ebd34e5983fd687d451c59e8c7a074eb42b5",
           "main_sha256": "cf0a57189fd9279a9c191d59a474ebd34e5983fd687d451c59e8c7a074eb42b5",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "铁桥漫稿所记流传与辑佚",
+          "sentence_pairs": 15,
+          "source_note_count": 0,
+          "editor_note_count": 6
         }
       ]
     }
   ],
-  "apparatus_policy": "原文〈夹注〉原样逐条移至独立注释，记录主文字符偏移；覆盖审计必须重构原快照文字，防止异文和引书失落。"
+  "apparatus_policy": "原文〈夹注〉原样逐条移至独立注释，记录主文字符偏移；覆盖审计必须重构原快照文字，防止异文和引书失落。",
+  "editorial_review": {
+    "date": "2026-10-29",
+    "completed_scope": "所据现存辑本及资料附录，不指原书三十四篇足本",
+    "attribution_cautions": [
+      "卷下036书名归属存疑",
+      "卷下037—038多家转引，非全为昌言原文",
+      "卷下050核对刘禹锡原书，昌言为动词，疑误收",
+      "卷下086夹注内直道正辞句另给白话",
+      "卷下092底本明言出风俗通，误收备考",
+      "附录009尹文子序作者存疑，不定署仲长统"
+    ],
+    "external_check": {
+      "title": "刘禹锡答道州薛侍郎论方书书",
+      "url": "https://zh.wikisource.org/zh-hans/答道州薛侍郎論方書書",
+      "finding": "昌言曰承接少壮轻医者，非引书；有时而既须连读，下一句是刘禹锡议论。"
+    },
+    "upper_revision": "复核并扩写卷上14段202句，减少文言短语，原文、句数及既有注释不变。"
+  },
+  "validation": {
+    "build": "passed",
+    "source_reconstruction": "passed",
+    "sentence_pairs": 1030,
+    "independent_notes": 950,
+    "site_tests": {
+      "passed": 12,
+      "seconds": 70.678
+    },
+    "diff_check": "passed",
+    "browser_visual_check": false,
+    "publication": "local_only"
+  }
 }

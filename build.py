@@ -570,7 +570,23 @@ def _zhenglun_changyan_spec():
                              for p in pages}}
 
 
+def _mengxi_spec():
+    import json
+    progress = json.loads((ROOT / "sources/mengxi/progress.json").read_text(encoding="utf8"))
+    pages = progress["pages"]
+    total = sum(len(p["units"]) for p in pages)
+    done = sum(u["status"] == "complete" for p in pages for u in p["units"])
+    status = f"已注译{done}/{total}个原文段落单元；段落不等同原书条数。全书整理中。"
+    return {"title": "梦溪笔谈", "author": "［北宋］沈括", "unit": "段",
+            "count_entries": True, "summary_unit": "段", "index_footer": status,
+            "intro": "据维基文库通行电子辑录整理，范围含四库提要、作者自序、正文二十六卷、补笔谈三卷和续笔谈十一篇。提要另署清代馆臣，不混用另名版本。" + status,
+            "pages": [(p["slug"], p["title"] + (f"（已译{sum(u['status'] == 'complete' for u in p['units'])}/{len(p['units'])}段）"
+                       if p.get("annotation_status") == "in_progress" else "")) for p in pages],
+            "page_sources": {p["slug"]: p["source"] for p in pages if "source" in p}}
+
+
 POETRY = {
+    "mengxi": _mengxi_spec(),
     "zhenglun-changyan": _zhenglun_changyan_spec(),
     **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
     "zuozhuan": _zuozhuan_spec(),
