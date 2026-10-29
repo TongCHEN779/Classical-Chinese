@@ -3596,41 +3596,57 @@
           "id": "001",
           "source_block_index": 0,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "f1653e459da813f0b0c02b3ec8a8c56db50574c5afef7e9048bb4d2beadd9bd3",
           "main_sha256": "f1653e459da813f0b0c02b3ec8a8c56db50574c5afef7e9048bb4d2beadd9bd3",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "郭索与钩辀",
+          "sentence_pairs": 4,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "002",
           "source_block_index": 1,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "5aab773b96511a26684601ecae334698e9f33f71c198fb071f94b2c9fc9aae09",
           "main_sha256": "5aab773b96511a26684601ecae334698e9f33f71c198fb071f94b2c9fc9aae09",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "诗句错综与倒装",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 5
         },
         {
           "id": "003",
           "source_block_index": 2,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "52fb6113a1a579ab3151232ead2ae5b0a5498ba6fb0b9558301d21adaa617f04",
           "main_sha256": "52fb6113a1a579ab3151232ead2ae5b0a5498ba6fb0b9558301d21adaa617f04",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "富贵诗的贫眼",
+          "sentence_pairs": 5,
+          "source_note_count": 0,
+          "editor_note_count": 4
         },
         {
           "id": "004",
           "source_block_index": 3,
           "source_heading": "",
-          "status": "pending",
+          "status": "complete",
           "raw_sha256": "9749a4600cf83189ab442457f5abd7fb5d4cc65f8f08898f3018d0fe71438cca",
           "main_sha256": "9749a4600cf83189ab442457f5abd7fb5d4cc65f8f08898f3018d0fe71438cca",
           "source_notes": [],
-          "format_breaks": []
+          "format_breaks": [],
+          "title": "崔护诗的两种第三句",
+          "sentence_pairs": 7,
+          "source_note_count": 0,
+          "editor_note_count": 6
         },
         {
           "id": "005",
@@ -3763,7 +3779,7 @@
           "format_breaks": []
         }
       ],
-      "annotation_status": "pending"
+      "annotation_status": "in_progress"
     },
     {
       "slug": "juan15",
@@ -7491,14 +7507,14 @@
   ],
   "next": {
     "page_slug": "juan14",
-    "unit_id": "001",
-    "source_block_index": 0,
+    "unit_id": "005",
+    "source_block_index": 4,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "next_new_entry": {
     "page_slug": "juan14",
-    "unit_id": "001",
-    "source_block_index": 0,
+    "unit_id": "005",
+    "source_block_index": 4,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "source_index": {
@@ -7513,17 +7529,17 @@
     }
   ],
   "validation": {
-    "scope": "四库提要、自序及卷一至十三237段；余358段待译",
+    "scope": "四库提要、自序、卷一至十三及卷十四前4段；余354段待译",
     "build": "passed",
     "source_reconstruction": "passed",
-    "completed_units": 237,
-    "sentence_pairs": 2525,
-    "independent_notes": 1036,
+    "completed_units": 241,
+    "sentence_pairs": 2548,
+    "independent_notes": 1055,
     "site_tests": {
       "passed": 13,
-      "seconds": 72.343
+      "seconds": 72.934
     },
-    "html_pages": 1060,
+    "html_pages": 1061,
     "diff_check": "passed",
     "browser_visual_check": false
   },
@@ -7602,5 +7618,11 @@
       "苏昆堤畎字校异混入正文，原样保留并说明",
       "造一马持战鼓及和蕃酋语有疑，不补造器物结构或确定校文"
     ]
+  },
+  "editorial_review_juan14_partial": {
+    "units": 4,
+    "sentence_pairs": 23,
+    "notes": 19,
+    "policy": "完整配译引诗及诗论，异文照存加注，作者评价不写成客观事实"
   }
 }

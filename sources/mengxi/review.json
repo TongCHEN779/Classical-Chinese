@@ -107,10 +107,10 @@
     },
     {
       "page": "juan14",
-      "completed_units": 0,
+      "completed_units": 4,
       "total_units": 17,
-      "sentence_pairs": 0,
-      "notes": 0
+      "sentence_pairs": 23,
+      "notes": 19
     },
     {
       "page": "juan15",
@@ -225,18 +225,18 @@
       "notes": 0
     }
   ],
-  "completed_units": 237,
+  "completed_units": 241,
   "total_units": 595,
-  "sentence_pairs": 2525,
-  "notes": 1036,
+  "sentence_pairs": 2548,
+  "notes": 1055,
   "source_reconstruction_matches": true,
   "raw_snapshots_verified": true,
   "rendered_pairs_match": true,
   "note_counts_match": true,
   "next": {
     "page_slug": "juan14",
-    "unit_id": "001",
-    "source_block_index": 0,
+    "unit_id": "005",
+    "source_block_index": 4,
     "action": "先核快照与完整主文，按句自撰完整白话及独立释词，不重写完成稿。"
   },
   "browser_visual_check": false,
