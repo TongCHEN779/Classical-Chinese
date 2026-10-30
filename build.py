@@ -262,7 +262,8 @@ def build_book(book):
         for v in range(1, nvol + 1):
             label = part[4] if len(part) > 4 else f"卷{cn(v)}"
             if (pslug, v) in done:
-                cells.append(f'<li class="ok"><a href="{pslug}/juan{v:02d}.html">{label}<small>{done[(pslug, v)]}则</small></a></li>')
+                count = "" if len(part) > 4 else f"<small>{done[(pslug, v)]}则</small>"
+                cells.append(f'<li class="ok"><a href="{pslug}/juan{v:02d}.html">{label}{count}</a></li>')
             else:
                 cells.append(f'<li class="todo"><span>{label}<small>待整理</small></span></li>')
         sections.append(f'<section class="part"><h2>{esc(ptitle)}<small>{esc(pord)}{'' if len(part) > 4 else f' · 共{nvol}卷'}</small></h2><ul class="vols">{"".join(cells)}</ul></section>')
@@ -272,7 +273,7 @@ def build_book(book):
 {intro_html(book["slug"])}
 </header>
 <main>{"".join(sections)}</main>
-<footer>已整理 {sum(done.values())} 则。</footer>"""
+<footer>已整理 {sum(n for (p, _), n in done.items() if p != "xu")} 则。</footer>"""
     out = ROOT / book["slug"] / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page(book["title"], body, "../"), encoding="utf8")
