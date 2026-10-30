@@ -669,6 +669,36 @@ def _zizhitongjian_spec():
             "pages": pages}
 
 
+def _prose_pages_spec(slug, title, author, intro, footer, groups):
+    """《东京梦华录》《传习录》：页表读自 sources/<slug>/progress.json；groups 把页按卷分组。"""
+    progress = json.loads((ROOT / f"sources/{slug}/progress.json").read_text(encoding="utf8"))
+    pages = []
+    for name, prefixes in groups:
+        members = [p for p in progress["pages"] if p["slug"].startswith(prefixes)]
+        if members:
+            pages.append((None, name))
+            pages.extend((p["slug"], p["title"]) for p in members)
+    return {"title": title, "author": author, "unit": "节", "summary_unit": "节", "wide_index": True,
+            "intro": intro, "index_footer": footer, "reading_hint": "鼠标悬停或触屏点按原文，可看本句白话；点击题解、注释可展开。",
+            "pages": pages,
+            "page_sources": {p["slug"]: {**p["source"], "after": "原站标点保持不变；"} for p in progress["pages"]}}
+
+
+def _donglinghualu_spec():
+    return _prose_pages_spec(
+        "donglinghualu", "东京梦华录", "［宋］孟元老",
+        "南宋孟元老追忆北宋徽宗时东京汴梁城坊、官署、节令、风俗、饮食与游乐的笔记，共十卷。依维基文库本收序与卷一至卷十，每节配题解、逐句白话与注释。",
+        "序及卷一至卷十全部整理完成；原站标点与文字保持不变，疑误字只在注中说明。", [("序", ("xu",)), ("正文", ("juan",))])
+
+
+def _chuanxilu_spec():
+    return _prose_pages_spec(
+        "chuanxilu", "传习录", "［明］王守仁 撰，门人徐爱等 录",
+        "王阳明与弟子问答、论学书信的汇编，分上、中、下三卷，共三百四十二条，及徐爱引言、钱德洪序跋。依维基文库本收录，每条配题解、逐句白话与注释。",
+        "卷上、中、下及序跋全部整理完成；条目编号为维基文库本所标，原站标点与文字保持不变，疑误字只在注中说明。",
+        [("卷上", ("shang",)), ("卷中", ("zhong",)), ("卷下", ("xia",))])
+
+
 POETRY = {
     "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
@@ -678,6 +708,8 @@ POETRY = {
     **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
     "zuozhuan": _zuozhuan_spec(),
     "zizhitongjian": _zizhitongjian_spec(),
+    "donglinghualu": _donglinghualu_spec(),
+    "chuanxilu": _chuanxilu_spec(),
     "canying": _canying_spec(),
     "xiaochuang": _xiaochuang_spec(),
     "xianqing": _xianqing_spec(),
@@ -922,19 +954,26 @@ def build_poetry(bslug, spec):
     return total
 
 
+# 书名首字的拼音首字母，供首页字母索引使用；新增书目若首字不在表内，build 会报错提醒补充。
+INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传",
+                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDC"))
+
+
 def build_home():
-    cards = "".join(
-        f'<li><a href="{b["slug"]}/index.html"><strong>{esc(b["title"])}</strong><span>{esc(b["author"])}</span><p>{esc(b["intro"])}</p></a></li>'
-        for b in BOOKS
-    )
-    for k, v in POETRY.items():
-        cards += (f'<li><a href="{k}/index.html"><strong>{esc(v["title"])}</strong><span>{esc(v["author"])}</span>'
-                  f'<p>{esc(v["intro"])}</p></a></li>')
+    def card(href, b):
+        first = b["title"][0]
+        assert first in INITIAL, f"首页字母索引缺少“{first}”的拼音首字母（build.py INITIAL）"
+        return (f'<li data-letter="{INITIAL[first]}"><a href="{href}/index.html"><strong>{esc(b["title"])}</strong>'
+                f'<span>{esc(b["author"])}</span><p>{esc(b["intro"])}</p></a></li>')
+    cards = "".join(card(b["slug"], b) for b in BOOKS) + "".join(card(k, v) for k, v in POETRY.items())
+    letters = "".join(f'<button type="button" class="letter" data-letter="{c}" aria-pressed="false">{c}</button>'
+                      for c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
     body = f"""<header class="top"><h1>古典文库<small>文言典籍逐句对照白话，白话小说径读原文</small></h1></header>
 <main>
 <div class="book-search" role="search" aria-label="搜索书籍">
 <label for="book-search">搜索书名、作者或简介</label>
 <div class="search-row"><input type="search" id="book-search" placeholder="例如：聊斋、王夫之、诗经" autocomplete="off" aria-controls="book-list"><button type="button" id="search-clear">清空</button></div>
+<div class="letters" id="letter-bar" role="group" aria-label="按书名首字拼音首字母浏览">{letters}</div>
 <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
 </div>
 <ul class="books" id="book-list">{cards}</ul>

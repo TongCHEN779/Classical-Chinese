@@ -9,23 +9,36 @@
     return text.normalize('NFKC').toLowerCase().replace(/./g, function (ch) { return variants[ch] || ch; });
   }
   var texts = cards.map(function (card) { return normalize(card.textContent); });
+  var letters = Array.from(document.querySelectorAll('#letter-bar .letter'));
+  var letter = '';
+  letters.forEach(function (btn) {
+    btn.disabled = !cards.some(function (card) { return card.dataset.letter === btn.dataset.letter; });
+    btn.addEventListener('click', function () {
+      letter = letter === btn.dataset.letter ? '' : btn.dataset.letter;
+      filter();
+    });
+  });
   function filter() {
     var words = normalize(input.value).trim().split(/\s+/).filter(Boolean);
+    var browsing = words.length > 0 || letter !== '';
     var count = 0;
+    letters.forEach(function (btn) { btn.setAttribute('aria-pressed', btn.dataset.letter === letter ? 'true' : 'false'); });
     cards.forEach(function (card, i) {
-      var match = words.every(function (word) { return texts[i].includes(word); });
+      var match = browsing && (!letter || card.dataset.letter === letter) &&
+        words.every(function (word) { return texts[i].includes(word); });
       card.hidden = !match;
       if (match) count++;
     });
-    status.textContent = words.length ? '找到 ' + count + ' 本，共 ' + cards.length + ' 本' : '共 ' + cards.length + ' 本书';
-    empty.hidden = count !== 0;
+    status.textContent = !browsing ? '共 ' + cards.length + ' 本书，点击上方字母或输入关键词查看' :
+      '找到 ' + count + ' 本，共 ' + cards.length + ' 本' + (letter ? '（首字母 ' + letter + '）' : '');
+    empty.hidden = !browsing || count !== 0;
   }
   input.addEventListener('input', filter);
   input.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape') { input.value = ''; filter(); }
+    if (event.key === 'Escape') { input.value = ''; letter = ''; filter(); }
   });
   document.getElementById('search-clear').addEventListener('click', function () {
-    input.value = ''; filter(); input.focus();
+    input.value = ''; letter = ''; filter(); input.focus();
   });
   filter();
 })();

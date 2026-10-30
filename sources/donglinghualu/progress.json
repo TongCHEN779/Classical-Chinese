@@ -1,0 +1,126 @@
+{
+  "book": "东京梦华录",
+  "pages": [
+    {
+      "slug": "xu",
+      "title": "序",
+      "sections": 1,
+      "source": {
+        "title": "東京夢華錄",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84",
+        "revision": "2503718",
+        "text_sha256": "56ec432652b898e76951b6737282625f1d719098151de3462d4512e4f08fc4e7"
+      }
+    },
+    {
+      "slug": "juan01",
+      "title": "卷一｜东都外城、旧京城、河道等",
+      "sections": 6,
+      "source": {
+        "title": "東京夢華錄/卷一",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E4%B8%80",
+        "revision": "854041",
+        "text_sha256": "851584dcd146b91cfc9a16631f494ac97805b80ee0512a358785b14622c20ac4"
+      }
+    },
+    {
+      "slug": "juan02",
+      "title": "卷二｜御街、宣德楼前省府宫宇、朱雀门外街巷等",
+      "sections": 8,
+      "source": {
+        "title": "東京夢華錄/卷二",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E4%BA%8C",
+        "revision": "1503040",
+        "text_sha256": "96b1f927c8403aba0a64842976a40cab9f94b51524e2a5b12e19bca98720a3b8"
+      }
+    },
+    {
+      "slug": "juan03",
+      "title": "卷三｜马行街北诸医铺、大内西右掖门外街巷、大内前州桥东街巷等",
+      "sections": 13,
+      "source": {
+        "title": "東京夢華錄/卷三",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E4%B8%89",
+        "revision": "2313204",
+        "text_sha256": "79f74e4d9eff2f2809db690e5e03336873906e607fa28a24d67fd646c16b3131"
+      }
+    },
+    {
+      "slug": "juan04",
+      "title": "卷四｜军头司、皇太子纳妃、公主出降等",
+      "sections": 12,
+      "source": {
+        "title": "東京夢華錄/卷四",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E5%9B%9B",
+        "revision": "1488155",
+        "text_sha256": "ab6514ed7041ecc6c671a66068d3708b9bd3b2db7a7c9474227fd12c49a28f43"
+      }
+    },
+    {
+      "slug": "juan05",
+      "title": "卷五｜民俗、京瓦伎艺、娶妇等",
+      "sections": 4,
+      "source": {
+        "title": "東京夢華錄/卷五",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E4%BA%94",
+        "revision": "1488156",
+        "text_sha256": "b126ea997bd28bda41f374bd5ad60a67af3aed923245ba3fa0c3b84ed2bb5084"
+      }
+    },
+    {
+      "slug": "juan06",
+      "title": "卷六｜正月、元旦朝会、立春等",
+      "sections": 8,
+      "source": {
+        "title": "東京夢華錄/卷六",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E5%85%AD",
+        "revision": "854156",
+        "text_sha256": "6c47f5076dc0c92d493a9c431633f9bf865ba3862dca73c2786de956f1840f66"
+      }
+    },
+    {
+      "slug": "juan07",
+      "title": "卷七｜清明节、三月一日开金明池琼林苑、驾幸临水殿观争标锡宴等",
+      "sections": 9,
+      "source": {
+        "title": "東京夢華錄/卷七",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E4%B8%83",
+        "revision": "1488146",
+        "text_sha256": "79e7fe880762efc752e4c6626886b0fc0c0dfca771ebd4759f6e7aa32dc250f0"
+      }
+    },
+    {
+      "slug": "juan08",
+      "title": "卷八｜四月八日、端午、六月六日崔府君生日二十四日神保观神生日等",
+      "sections": 10,
+      "source": {
+        "title": "東京夢華錄/卷八",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E5%85%AB",
+        "revision": "1741975",
+        "text_sha256": "4d0f5a4235eecf702175be059f4915605213ba9270c76afbf66c92e8899c3bb5"
+      }
+    },
+    {
+      "slug": "juan09",
+      "title": "卷九｜十月一日、天宁节、宰执亲王宗室百官入内上寿等",
+      "sections": 4,
+      "source": {
+        "title": "東京夢華錄/卷九",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E4%B9%9D",
+        "revision": "1488148",
+        "text_sha256": "598d3efc163f4ac732a685963f8344af202ad085bfe8c398692f75ac3e5393e8"
+      }
+    },
+    {
+      "slug": "juan10",
+      "title": "卷十｜冬至、大礼预教车象、车驾宿大庆殿等",
+      "sections": 12,
+      "source": {
+        "title": "東京夢華錄/卷十",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%B1%E4%BA%AC%E5%A4%A2%E8%8F%AF%E9%8C%84/%E5%8D%B7%E5%8D%81",
+        "revision": "854174",
+        "text_sha256": "6b5452ef9b8dad71330ccfb69dfd4bdf3e53966b5e0e75a145c022b52e49a91e"
+      }
+    }
+  ]
+}

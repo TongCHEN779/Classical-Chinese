@@ -37,6 +37,10 @@ footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:cente
 .search-row input{flex:1;min-width:0;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font:inherit;font-size:16px;padding:9px 12px}
 .search-row input:focus{outline:2px solid var(--accent);outline-offset:2px}
 .search-row button{border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--accent);font:inherit;font-size:15px;padding:6px 14px;cursor:pointer}
+.letters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.letter{min-width:34px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--accent);font:inherit;font-size:15px;padding:4px 0;cursor:pointer}
+.letter[aria-pressed="true"]{background:var(--accent);color:var(--card);border-color:var(--accent)}
+.letter:disabled{color:var(--muted);opacity:.4;cursor:default}
 .search-status,.search-empty{font-size:15px;color:var(--muted)}
 .books [hidden],.search-empty[hidden]{display:none}
 .part h2 small{font-size:14px;color:var(--muted);margin-left:10px;font-weight:normal}
