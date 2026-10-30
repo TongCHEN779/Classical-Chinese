@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser" lang="zh" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>戰國策 (士禮居叢書本)/秦/四 - 维基文库，自由的图书馆</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )zhwikisourcemwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"44f401d1-96b4-4389-8f27-79625b9771ad","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"戰國策_(士禮居叢書本)/秦/四","wgTitle":"戰國策 (士禮居叢書本)/秦/四","wgCurRevisionId":2458655,"wgRevisionId":2458655,"wgArticleId":8593,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["劉向","西漢","PD-old"],"wgPageViewLanguage":"zh","wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"戰國策_(士禮居叢書本)/秦/四","wgRelevantArticleId":8593,"wgTempUserName":null,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikisource","wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":50000,"prpProofreadPageBookNamespaces":[0],"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgULSContentLanguageSelectorEnabled":true,"wgULSLanguageSelectorV2Enabled":true,"wgWikibaseItemId":"Q85368185","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true,"wgSiteNoticeId":"2.0"};
+RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","ext.wikisource.icons":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.interface.helpers.linker.styles":"ready","mediawiki.action.styles":"ready","mediawiki.codex.messagebox.styles":"ready","ext.cite.styles":"ready","ext.proofreadpage.base":"ready","ext.proofreadpage.article":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.dismissableSiteNotice.styles":"ready"};RLPAGEMODULES=["ext.wikisource.download","ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.noteTA","ext.gadget.tabbedwindow","ext.gadget.PageNumbers","ext.gadget.scrollUpButton","ext.gadget.unihan-helper","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.dismissableSiteNotice.styles%7Cext.proofreadpage.article%2Cbase%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cext.wikisource.icons%7Cmediawiki.action.styles%7Cmediawiki.codex.messagebox.styles%7Cmediawiki.interface.helpers.linker.styles%7Cmediawiki.interface.helpers.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=ext.gadget.text-spacing&amp;only=styles&amp;skin=vector-2022">
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.48.0-wmf.1">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="noindex,nofollow,max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="戰國策 (士禮居叢書本)/秦/四 - 维基文库，自由的图书馆">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//thumb.wikimedia.org">
+<link rel="alternate" type="application/x-wiki" title="编辑" href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit">
+<link rel="icon" href="/static/favicon/wikisource.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikisource (zh)">
+<link rel="EditURI" type="application/rsd+xml" href="//zh.wikisource.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://zh.wikisource.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B">
+<link rel="alternate" hreflang="zh" href="https://zh.wikisource.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B">
+<link rel="alternate" hreflang="zh-Hans" href="https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B">
+<link rel="alternate" hreflang="zh-Hant" href="https://zh.wikisource.org/zh-hant/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B">
+<link rel="alternate" hreflang="x-default" href="https://zh.wikisource.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">
+<link rel="alternate" type="application/atom+xml" title="Wikisource的Atom订阅" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt action-view skin-vector-2022 ns-0 ns-subject mw-editable page-戰國策_士禮居叢書本_秦_四 rootpage-戰國策_士禮居叢書本 skin--responsive skin-vector skin-vector-search-vue">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">跳转到内容</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="站点">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="主菜单" >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="主菜单"   >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">主菜单</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">主菜单</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin" aria-label="将 主菜单 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin" aria-label="隐藏主菜单">隐藏</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		导航
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikisource:%E9%A6%96%E9%A1%B5" title="访问首页​[z]" accesskey="z"><span>首页</span></a></li><li id="n-randomwork" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Main"><span>随机作品</span></a></li><li id="n-randomauthor" class="mw-list-item"><a href="/wiki/Special:Random/Author"><span>随机作者</span></a></li><li id="n-randomindex" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Index"><span>随机原本</span></a></li><li id="n-allpages" class="mw-list-item"><a href="/wiki/Special:AllPages"><span>所有页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-editor" class="vector-menu mw-portlet mw-portlet-editor"  >
+	<div class="vector-menu-heading">
+		编者
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/wiki/Wikisource:%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5" title="关于本项目，您可以做什么，以及何处能找到相关资料"><span>社群首页</span></a></li><li id="n-scriptorium" class="mw-list-item"><a href="/wiki/Wikisource:%E5%86%99%E5%AD%97%E9%97%B4"><span>写字间</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="本wiki的最近更改列表​[r]" accesskey="r"><span>最近更改</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="所有特殊页面的列表​[q]" accesskey="q"><span>特殊页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-help" class="vector-menu mw-portlet mw-portlet-help"  >
+	<div class="vector-menu-heading">
+		帮助
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="查找帮助的地方"><span>帮助</span></a></li><li id="n-about" class="mw-list-item"><a href="/wiki/Wikisource:%E5%85%B3%E4%BA%8E"><span>关于维基文库</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikisource:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC"><span>联系我们</span></a></li><li id="n-policy" class="mw-list-item"><a href="/wiki/Wikisource:%E6%96%B9%E9%92%88%E4%B8%8E%E6%8C%87%E5%BC%95"><span>方针与指引</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-do" class="vector-menu mw-portlet mw-portlet-do emptyPortlet"  >
+	<div class="vector-menu-heading">
+		显示选项
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikisource:%E9%A6%96%E9%A1%B5" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikisource.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikisource" src="/static/images/mobile/copyright/wikisource-wordmark-zh.svg" style="width: 7.125em; height: 1.5em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="搜索Wikisource内容​[f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="搜索Wikisource内容" aria-label="搜索Wikisource内容" autocapitalize="none" spellcheck="false" title="搜索Wikisource内容​[f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">搜索</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="个人工具">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="外观">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="更改页面字体大小、宽度和颜色的外观" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="外观"   >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">外观</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikisource.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span>资助</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E6%88%B0%E5%9C%8B%E7%AD%96+%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B&amp;returntoquery=oldid%3D2458655" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span>创建账号</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E6%88%B0%E5%9C%8B%E7%AD%96+%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B&amp;returntoquery=oldid%3D2458655" title="我们推荐您登录，但这不是强制性的​[o]" accesskey="o" class=""><span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out vector-user-links-dropdown--collapsible"  title="更多选项" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="个人工具"   >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">个人工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal"  title="用户菜单" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikisource.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart cdx-button__icon"></span>
+
+<span>资助</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E6%88%B0%E5%9C%8B%E7%AD%96+%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B&amp;returntoquery=oldid%3D2458655" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span>创建账号</span></a>
+</li>
+<li id="pt-login" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E6%88%B0%E5%9C%8B%E7%AD%96+%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B&amp;returntoquery=oldid%3D2458655" title="我们推荐您登录，但这不是强制性的​[o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn cdx-button__icon"></span>
+
+<span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003E关闭\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003C!-- CentralNotice --\u003E\u003Cdiv id=\"localNotice\" data-nosnippet=\"\"\u003E\u003Cdiv class=\"anonnotice\" lang=\"zh\" dir=\"ltr\"\u003E\u003Cp\u003E恭喜！维基文库收录的文章数量达到\u003Ca href=\"/wiki/Special:Statistics\" title=\"Special:Statistics\"\u003E五百万篇\u003C/a\u003E！\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="站点">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" aria-label="目录" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	data-pinned-container-id="vector-toc-pinned-container"
+	data-unpinned-container-id="vector-toc-unpinned-container"
+>
+	<h2 class="vector-pinnable-header-label">目录</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin" aria-label="将 目录 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin" aria-label="隐藏目录">隐藏</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">（首段）</div>
+			</a>
+		</li>
+		<li id="toc-秦取楚漢中"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#秦取楚漢中">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">1</span>
+				<span>秦取楚漢中</span>
+			</div>
+		</a>
+		
+		<ul id="toc-秦取楚漢中-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-薛公入魏而出齊女[1]"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#薛公入魏而出齊女[1]">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">2</span>
+				<span>薛公入魏而出齊女<sup><span>[</span>1<span>]</span></sup></span>
+			</div>
+		</a>
+		
+		<ul id="toc-薛公入魏而出齊女[1]-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-三國攻秦入函谷"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#三國攻秦入函谷">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">3</span>
+				<span>三國攻秦入函谷</span>
+			</div>
+		</a>
+		
+		<ul id="toc-三國攻秦入函谷-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-秦昭王謂左右[2]"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#秦昭王謂左右[2]">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">4</span>
+				<span>秦昭王謂左右<sup><span>[</span>2<span>]</span></sup></span>
+			</div>
+		</a>
+		
+		<ul id="toc-秦昭王謂左右[2]-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-楚魏戰於陘山"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#楚魏戰於陘山">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">5</span>
+				<span>楚魏戰於陘山</span>
+			</div>
+		</a>
+		
+		<ul id="toc-楚魏戰於陘山-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-楚使者景鯉在秦[3]"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#楚使者景鯉在秦[3]">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">6</span>
+				<span>楚使者景鯉在秦<sup><span>[</span>3<span>]</span></sup></span>
+			</div>
+		</a>
+		
+		<ul id="toc-楚使者景鯉在秦[3]-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-楚王使景鯉如秦"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#楚王使景鯉如秦">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">7</span>
+				<span>楚王使景鯉如秦</span>
+			</div>
+		</a>
+		
+		<ul id="toc-楚王使景鯉如秦-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-秦王欲見頓弱"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#秦王欲見頓弱">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">8</span>
+				<span>秦王欲見頓弱</span>
+			</div>
+		</a>
+		
+		<ul id="toc-秦王欲見頓弱-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-頃襄王二十年"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#頃襄王二十年">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">9</span>
+				<span>頃襄王二十年</span>
+			</div>
+		</a>
+		
+		<ul id="toc-頃襄王二十年-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-或為六國說秦王"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#或為六國說秦王">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">10</span>
+				<span>或為六國說秦王</span>
+			</div>
+		</a>
+		
+		<ul id="toc-或為六國說秦王-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<nav aria-label="目录" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="目录" >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="开关目录"   >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">开关目录</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span lang="zh" dir="ltr"><span class="mw-page-title-main">戰國策 (士禮居叢書本)/秦/四</span></span></h1>
+			
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector"  aria-label="添加语言" aria-description="这篇条目只在此语言可用。请添加该条目的其他语言版本"  >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-0" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">添加语言</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="uls-after-portlet-link"></span><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q85368185#sitelinks-wikisource" title="添加跨语言链接" class="wbc-editpage">添加链接</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="命名空间">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-nstab-main" class="selected mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B" title="查看内容页面​[c]" accesskey="c" class=""><span>作品</span></a>
+</li>
+<li id="ca-talk" class="new mw-list-item vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=Talk:%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;redlink=1" rel="discussion" class="new" title="有关内容页面的讨论（页面不存在）​[t]" accesskey="t"><span>讨论</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown "  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="更改语言变体"    >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">不转换</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-varlang-0" class="selected ca-variants-zh mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;variant=zh&amp;oldid=2458655" lang="zh" hreflang="zh"><span>不转换</span></a></li><li id="ca-varlang-1" class="ca-variants-zh-Hans mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;variant=zh-hans&amp;oldid=2458655" lang="zh-Hans" hreflang="zh-Hans"><span>简体</span></a></li><li id="ca-varlang-2" class="ca-variants-zh-Hant mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;variant=zh-hant&amp;oldid=2458655" lang="zh-Hant" hreflang="zh-Hant"><span>繁體</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="查看">
+			    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view" class="selected mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B" class=""><span>阅读</span></a>
+</li>
+<li id="ca-edit" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit" title="编辑该页面​[e]" accesskey="e" class=""><span>编辑</span></a>
+</li>
+<li id="ca-history" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=history" title="此页面过去的修订​[h]" accesskey="h" class=""><span>查看历史</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</nav>
+
+							<nav class="vector-page-tools-landmark" aria-label="页面工具">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="工具"   >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-verticalEllipsis mw-ui-icon-wikimedia-verticalEllipsis cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">工具</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin" aria-label="将 工具 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin" aria-label="隐藏工具">隐藏</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  >
+	<div class="vector-menu-heading">
+		操作
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view-more" class="selected mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B" class=""><span class="vector-icon mw-ui-icon-eye mw-ui-icon-wikimedia-eye cdx-button__icon"></span>
+
+<span>阅读</span></a>
+</li>
+<li id="ca-edit-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit" title="编辑该页面​[e]" accesskey="e" class=""><span class="vector-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit cdx-button__icon"></span>
+
+<span>编辑</span></a>
+</li>
+<li id="ca-history-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=history" title="此页面过去的修订​[h]" accesskey="h" class=""><span class="vector-icon mw-ui-icon-history mw-ui-icon-wikimedia-history cdx-button__icon"></span>
+
+<span>查看历史</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		常规
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B" title="所有链接至本页面的wiki页面列表​[j]" accesskey="j"><span>链入页面</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B" rel="nofollow" title="链自本页的页面的最近更改​[k]" accesskey="k"><span>相关更改</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=zh" title="上传文件​[u]" accesskey="u"><span>上传文件</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;oldid=2458655" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B&amp;id=2458655&amp;wpFormIdentifier=titleform" title="有关如何引用此页面的信息"><span>引用此页</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fzh.wikisource.org%2Fw%2Findex.php%3Ftitle%3D%25E6%2588%25B0%25E5%259C%258B%25E7%25AD%2596_%28%25E5%25A3%25AB%25E7%25A6%25AE%25E5%25B1%2585%25E5%258F%25A2%25E6%259B%25B8%25E6%259C%25AC%29%2F%25E7%25A7%25A6%2F%25E5%259B%259B%26oldid%3D2458655"><span>获取短链接</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-electronpdfservice-sidebar-portlet-heading" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading"  >
+	<div class="vector-menu-heading">
+		打印/导出
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="本页面的可打印版本​[p]" accesskey="p"><span>可打印版</span></a></li><li id="wikisource-download-epub" class="mw-list-item"><a title="下载此作品的EPUB版本" href="https://ws-export.wmcloud.org/?format=epub&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B"><span>下载为EPUB</span></a></li><li id="wikisource-download-mobi" class="mw-list-item"><a title="下载此作品的MOBI版本" href="https://ws-export.wmcloud.org/?format=mobi&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B"><span>下载为MOBI</span></a></li><li id="wikisource-download-pdf" class="mw-list-item"><a title="下载此作品的PDF版本" href="https://ws-export.wmcloud.org/?format=pdf&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B"><span>下载为PDF</span></a></li><li id="wikisource-download-choose" class="mw-list-item"><a title="打开一个表单来选择其他格式和字体等。" href="https://ws-export.wmcloud.org/?lang=zh&amp;title=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B"><span>其他格式</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		在其他项目中
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q85368185" title="链接到连接的数据仓库项目​[g]" accesskey="g"><span>维基数据项目</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="页面工具">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="外观">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">外观</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin" aria-label="将 外观 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin" aria-label="隐藏外观">隐藏</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-~ext-wikisource-download" class="mw-indicator"><span id='ooui-php-1' class='ext-wikisource-download-button oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-buttonElement-size-medium oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonWidget' data-ooui='{"_":"OO.ui.ButtonWidget","href":"https:\/\/ws-export.wmcloud.org\/?format=epub&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B","rel":["nofollow"],"label":"\u4e0b\u8f7d","title":"\u4e0b\u8f7d\u6b64\u4f5c\u54c1\u7684EPUB\u7248\u672c","flags":["primary","progressive"],"data":{"wsExportUrl":"https:\/\/ws-export.wmcloud.org"},"classes":["ext-wikisource-download-button"]}'><a role='button' title='下载此作品的EPUB版本' tabindex='0' href='https://ws-export.wmcloud.org/?format=epub&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E7%A7%A6%2F%E5%9B%9B' rel='nofollow' class='oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>下载</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></a></span></div>
+		</div>
+
+						<div id="siteSub" class="noprint">維基文庫，自由的圖書館</div>
+						<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <bdi dir="ltr"><a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)" title="戰國策 (士禮居叢書本)">戰國策 (士禮居叢書本)</a></bdi></div><div class="cdx-message--warning mw-revision cdx-message cdx-message--block" aria-live="polite"><span class="cdx-message__icon"></span><div class="cdx-message__content"><div id="mw-revision-info"><a href="/wiki/User:Ericliu1912" class="mw-userlink" title="User:Ericliu1912" data-mw-revid="2458655"><bdi>Ericliu1912</bdi></a>​<span class="mw-usertoollinks">（<a href="/wiki/User_talk:Ericliu1912" class="mw-usertoollinks-talk" title="User talk:Ericliu1912">留言</a> | <a href="/wiki/Special:Contributions/Ericliu1912" class="mw-usertoollinks-contribs" title="Special:Contributions/Ericliu1912">贡献</a>）</span>2024年10月7日 (一) 08:13的版本 <span class="comment">（Ericliu1912移动页面<a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96%E9%BB%83%E4%B8%95%E7%83%88%E6%9C%AD%E8%A8%98/%E7%A7%A6/%E5%9B%9B" class="mw-redirect" title="戰國策黃丕烈札記/秦/四">戰國策黃丕烈札記/秦/四</a>至<a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B" title="戰國策 (士禮居叢書本)/秦/四">戰國策 (士禮居叢書本)/秦/四</a>）</span></div><div id="mw-revision-nav">(<a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;diff=prev&amp;oldid=2458655" title="戰國策 (士禮居叢書本)/秦/四">差异</a>) <a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;direction=prev&amp;oldid=2458655" title="戰國策 (士禮居叢書本)/秦/四">←上一版本</a> | 最后版本 (差异) | 下一版本→ (差异)</div></div></div></div></div>
+						
+					</div>
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="zh" dir="ltr"><table style="width:100%; margin-bottom:0px; border:1px solid #AADDAA; background-color: #E4F2E4; text-align:center;" class="ws-header">
+
+<tbody><tr>
+<td class="noprint" style="width:25%; text-align:left; font-size:small;">←<a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96/%E5%8D%B705" class="mw-redirect" title="戰國策/卷05">秦策三</a>
+</td>
+<td style="width:50%;"><b>戰國策卷六</b>　秦四<br /><span style="color:#999999">作者：</span><a href="/wiki/Author:%E5%8A%89%E5%90%91" title="Author:劉向">劉向</a>　<span style="color:#999999">西漢</span>
+</td>
+<td class="noprint" style="width:25%; text-align:right; font-size:small;"><a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96/%E5%8D%B707" class="mw-redirect" title="戰國策/卷07">秦策五</a>→
+</td></tr></tbody></table>
+<table style="width:100%; background:#F2F9F2; font-size:small; border-bottom:1px solid #D5ECD5" class="ws-header">
+
+<tbody><tr>
+<td><div style="color:#464646"><ul id="plainSister" style="display:inline-block; font-size:93%; line-height:normal; list-style-type:none; list-style-image:none; list-style-position:outside; border:1px solid var(--border-color-base,#AAA); float:right; clear:right; margin:0.5ex 0.5ex 0.5ex 0.5ex; padding:0.0ex 0.0ex 0.0ex 0.0ex; background-color:var(--background-color-base,#FFFFFF);color: inherit;"><li class="noprint sisitem"><span class="sisicon" style="padding-right:1ex;"><span typeof="mw:File/Frameless"><a href="/wiki/Special:SiteMatrix" title="Special:SiteMatrix"><img alt="姊妹计划" src="//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/20px-Wikimedia-logo.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/40px-Wikimedia-logo.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="1024" data-file-height="1024" /></a></span></span><a href="/wiki/Special:SiteMatrix" title="Special:SiteMatrix">姊妹计划</a>: <a href="https://www.wikidata.org/wiki/Q85368185" class="extiw" title="d:Q85368185">数据项</a></li></ul> </div>
+</td></tr></tbody></table>
+<meta property="mw:PageProp/toc" />
+<div class="mw-heading mw-heading2"><h2 id="秦取楚漢中"><span id=".E7.A7.A6.E5.8F.96.E6.A5.9A.E6.BC.A2.E4.B8.AD"></span>秦取楚漢中</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=1" title="编辑章节：秦取楚漢中"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>秦取楚漢中，再戰於藍田，大敗楚軍。韓、魏聞楚之困，乃南襲至鄧，楚王引歸。後三國<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本齊、韓、魏。<span style="color:transparent;font-size:0px">〉</span></small>謀攻楚，恐秦之救也，或說薛公：「可發使告楚曰：『今三國之兵且去楚，楚能應而共攻秦，雖<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「秦取楚漢中再戰於藍田大敗楚軍韓魏聞楚之困乃南襲至鄧楚王引歸後三國謀攻楚恐秦之救也或說薛公可發使告楚曰今三國之兵且去楚楚能應而共攻秦雖」六十六字。○　補曰：姚氏本章首有此六十六字。　札記丕烈案：無者脫。<span style="color:transparent;font-size:0px">〉</span></small>藍田豈難得哉！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本去，舍也。舍楚而往攻秦。藍田，秦邑也，攻秦則得之矣，故曰「豈難得哉」。藍田，今長安東南。　鮑本屬京兆。此策上有脫簡，蓋三國攻楚，楚求秦救，薛公時在魏，說者欲使薛公遣使之楚，告以舍楚攻秦，以疑秦使不救楚。此言三國既舍楚攻秦，藍田可得也<span style="color:transparent;font-size:0px">〉</span></small>況於楚之故地？』<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本藍田，秦近邑也，尚可得，而況楚地？謂秦且以漢中予楚。<span style="color:transparent;font-size:0px">〉</span></small>楚疑於秦之未必救己也，而今三國之辭去，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「去」作「云」。○　三國攻楚，史不書。「辭云」，上所言者也。補曰：當作「云」。<span style="color:transparent;font-size:0px">〉</span></small>則楚之應之也必勸，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本應，和也。勸，進也。　鮑本勸，樂之也，言樂從，從三國攻秦。此一說也。<span style="color:transparent;font-size:0px">〉</span></small>是楚與三國謀出秦兵矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本出兵敵三國也，其謀自楚。<span style="color:transparent;font-size:0px">〉</span></small>秦為知之，必不救也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本知楚與三國謀，故必不肯救之（一無「肯」、「之」二字）。<span style="color:transparent;font-size:0px">〉</span></small>三國疾攻楚，楚必走秦以急；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本以下有「告」字。走，去也。告急求救也。　鮑本趨秦告急。<span style="color:transparent;font-size:0px">〉</span></small>秦愈不敢出，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本秦益疑，故不敢出兵。　鮑本畏三國也，此又一說。<span style="color:transparent;font-size:0px">〉</span></small>則是我離秦而攻楚也，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本我，三國也。離，言絕其交。<span style="color:transparent;font-size:0px">〉</span></small>兵必有功。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本離，絕也。使秦疑楚而不救也。三國得專勢攻楚，故兵出必有功也。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>薛公曰：「善。」遂發重使之楚，楚之應之果勸。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本果，竟。<span style="color:transparent;font-size:0px">〉</span></small>於是三國并力攻楚，楚果告急於秦，秦遂不敢出兵。大臣<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「臣」，曾作「勝」。　鮑本衍「臣」字。　補曰：姚氏云，曾作「勝」。高注亦作「大勝」。<span style="color:transparent;font-size:0px">〉</span></small>有功。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本三國伐楚大勝有功也。<span style="color:transparent;font-size:0px">〉</span></small>　　<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本此章應屬齊若魏，然附之齊，則薛公時在魏；附之魏，則無薛公事。以其事不完不明，而齊、魏無所適屬也，故次之此。正曰：秦惠王後十三年，取楚漢中，非薛公在魏時事。鮑不見脫簡文，故其說妄謬而次之此。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="薛公入魏而出齊女[1]"><span id=".E8.96.9B.E5.85.AC.E5.85.A5.E9.AD.8F.E8.80.8C.E5.87.BA.E9.BD.8A.E5.A5.B3.5B1.5D"></span>薛公入魏而出齊女<sup id="cite&#95;ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">&#91;</span>1<span class="cite-bracket">&#93;</span></a></sup></h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=2" title="编辑章节：薛公入魏而出齊女[1]"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>薛公入魏而出齊女。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本婦人大歸曰「出」。　鮑本魏公子負芻之母，薛公惡齊，故逐之。<span style="color:transparent;font-size:0px">〉</span></small>韓春謂秦王曰：「何不取為妻，以齊、秦劫<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「劫」，「劫」同。<span style="color:transparent;font-size:0px">〉</span></small>魏，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本秦王，昭王也。勸使取魏所出齊女以為妻，而與齊并勢攻魏。<span style="color:transparent;font-size:0px">〉</span></small>則上黨，秦之有也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本攻魏則并得上黨也。　鮑本此上黨屬魏。<span style="color:transparent;font-size:0px">〉</span></small>齊、秦合而立負蒭，負蒭立，其母在秦，則魏，秦之縣也<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本負蒭即魏公子，其母即魏所出齊女也。欲令秦王取之，故曰「其母在秦」，故云「魏，秦之縣也」。　鮑本言負芻以母故必事秦。<span style="color:transparent;font-size:0px">〉</span></small>已。呡<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本呡，魏之臣也。　鮑本「呡」作「珉」。○　下同。字書無之。而韓呡，韓策作「珉」，今並從之。此魏人也。正曰：「已」字句，今連作「已珉」，非。「呡」、「珉」，策字通，恐即「韓珉」也。　札記今本「呡」作「珉」，乃誤涉鮑也。<span style="color:transparent;font-size:0px">〉</span></small>欲以齊、秦劫<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本劫，脅也。<span style="color:transparent;font-size:0px">〉</span></small>魏<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本无「劫魏」二字。○　爭魏權故。補曰：一本「欲以齊、秦劫魏而困薛公」。<span style="color:transparent;font-size:0px">〉</span></small>而困薛公，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本薛公在魏，故欲困苦之也。<span style="color:transparent;font-size:0px">〉</span></small>佐欲定其弟，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本佐，負蒭兄也，故欲定其弟。　鮑本負芻庶兄也。定，定其立。<span style="color:transparent;font-size:0px">〉</span></small>臣請為王因呡與佐也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本臣，韓春自謂也。呡欲困薛，故言請為王因呡與佐也。　鮑本因二人可以劫魏困薛。<span style="color:transparent;font-size:0px">〉</span></small>魏懼而復之，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本復之齊女。　鮑本反齊女。<span style="color:transparent;font-size:0px">〉</span></small>負蒭必以魏歿世事秦。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本世，身。<span style="color:transparent;font-size:0px">〉</span></small>齊女入魏而怨薛公，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本入，還也。齊女還，怨薛公出己也。<span style="color:transparent;font-size:0px">〉</span></small>終以齊奉事王矣。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本王，秦王也。韓春設此言，言齊女以齊奉事王矣。秦王不慊韓春計，故其事無效。　鮑本齊女德秦，而齊，其父母國也，齊又與薛公隙，故女能得之以事秦。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="三國攻秦入函谷"><span id=".E4.B8.89.E5.9C.8B.E6.94.BB.E7.A7.A6.E5.85.A5.E5.87.BD.E8.B0.B7"></span>三國攻秦入函谷</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=3" title="编辑章节：三國攻秦入函谷"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>三國攻秦，入函谷。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本三國，齊、韓、魏也。　鮑本魏記，哀二十一年，與齊、韓共攻秦，此九年也。正曰：「哀」當作「襄」。<span style="color:transparent;font-size:0px">〉</span></small>秦王謂樓緩<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本趙人，見穰侯傳。此九年，相秦而免。<span style="color:transparent;font-size:0px">〉</span></small>曰：「三國之兵深矣，寡人欲割河東而講。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本深，猶盛也。割，分。講，成也。（一「也」字下有「分」字）河東地以卑三國，與之成。　鮑本大河之東，非地名。補曰：「講」，「媾」通，說見前。<span style="color:transparent;font-size:0px">〉</span></small>對曰：「割河東，大費也；免<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「免」作「勉」。○　補曰：策「免」、「勉」通。<span style="color:transparent;font-size:0px">〉</span></small>於國患，大利也。此父兄之任也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本曾云，大利，不入三國；大費，失土。大利不亡國，故曰「父兄之任也」。　鮑本謂公族。<span style="color:transparent;font-size:0px">〉</span></small>王何不召公子池<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「池」作「他」。○　正曰：「池」即「他」，且當從本文。<span style="color:transparent;font-size:0px">〉</span></small>而問焉？」
+</p><p>王召公子池而問焉，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「焉」作「之」。○<span style="color:transparent;font-size:0px">〉</span></small>對曰：「講亦悔，不講亦悔。」王曰：「何也？」對曰：「王割河東而講，三國雖去，王必曰：『惜矣！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本惜河東地也。　鮑本悔其失地。<span style="color:transparent;font-size:0px">〉</span></small>三國且去，吾特以三城從之。』<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本且，將也。特，獨也。三城，河東三縣也。<span style="color:transparent;font-size:0px">〉</span></small>此講之悔也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本悔，恨也。<span style="color:transparent;font-size:0px">〉</span></small>王不講，三國入函谷，咸陽必危，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本咸陽，秦都也。今長安都渭橋西北咸陽城是也。　鮑本咸陽，秦都。扶風渭城也。補曰：大事記，山南曰陽，水北亦曰陽。其地在渭水之北，九𡽀諸山之南，故曰咸陽。<span style="color:transparent;font-size:0px">〉</span></small>王又曰：『惜矣！吾愛三城而不講。』此又不講之悔也。」王曰：「鈞<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「鈞」，「均」同。平也。<span style="color:transparent;font-size:0px">〉</span></small>吾悔也，寧亡三城而悔，無危咸陽而悔也。寡人決<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本決，必。　鮑本決，斷也，猶必。<span style="color:transparent;font-size:0px">〉</span></small>講矣。」卒使公子池以三城講於三國，之兵<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「之兵」上補「三國」二字。○　補曰：宜復有「三國」二字。<span style="color:transparent;font-size:0px">〉</span></small>乃退。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本緩時相秦，對以池之言，豈為侵官哉！而曰「此父兄之任」，焉用彼相矣。補曰：緩之不自言，池以兩悔言，皆箝其主之術也。　周策，韓慶為西周說薛公，令臨函谷而無攻楚，割東國以與齊，而秦出楚王以為和，薛公從之，會公子池來媾，遂罷兵。大事記說見彼章，當參照。按三城者，武遂與韓，封陵與魏，齊城與齊，武遂、封陵在河東，齊城無考。事在年表秦昭九年。下十一年，書韓與齊魏擊秦，與我武遂。大事記謂即此年事，誤分也。通鑑綱目以為樓緩、公子池之對者，誤。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="秦昭王謂左右[2]"><span id=".E7.A7.A6.E6.98.AD.E7.8E.8B.E8.AC.82.E5.B7.A6.E5.8F.B3.5B2.5D"></span>秦昭王謂左右<sup id="cite&#95;ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">&#91;</span>2<span class="cite-bracket">&#93;</span></a></sup></h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=4" title="编辑章节：秦昭王謂左右[2]"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>秦昭王謂左右曰：「今日韓、魏，孰與始強？」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本始，初也。言韓、魏初時強耶？今時強也？<span style="color:transparent;font-size:0px">〉</span></small>對曰：「弗如也。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本言不如始時強也。<span style="color:transparent;font-size:0px">〉</span></small>王曰：「今之如耳、<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本如耳，韓臣。　鮑本魏人。正曰：高注，韓臣。按「如」，姓，魏有如姬。<span style="color:transparent;font-size:0px">〉</span></small>魏齊，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本魏齊，魏臣也。　鮑本魏相。<span style="color:transparent;font-size:0px">〉</span></small>孰與孟嘗、<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本先時相魏。<span style="color:transparent;font-size:0px">〉</span></small>芒卯之賢？」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本不言韓人，魏主兵也。　札記今本「與」誤「如」。<span style="color:transparent;font-size:0px">〉</span></small>對曰：「弗如也。」王曰：「以孟嘗、芒卯之賢，帥強韓、魏之兵以伐秦，猶無奈寡人何也！今以無能之如耳、魏齊，帥弱韓、魏以攻秦，其無奈寡人何，亦明矣！」左右皆曰：「甚<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本甚，謂誠也。<span style="color:transparent;font-size:0px">〉</span></small>然。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「左右皆曰甚然」六字。○　補曰：姚本有。　札記丕烈案：史記有，韓子有，「皆」作「對」。說苑有，作「左右皆曰然」。無者非也，高注亦可證。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>中期<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本中期，秦臣也。　鮑本武王時已出此人，至是四十四、五年矣。補曰：「期」，史作「旗」。說苑，「申旗」。　札記丕烈案：「申」即「中」訛耳。「期」、「旗」同字。<span style="color:transparent;font-size:0px">〉</span></small>推琴<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本續：史記「中旗憑琴」注，引戰國策作「推琴」。後語，「中旗伏琴」。韓子作「推瑟」。說苑作「伏琴」。　鮑本補曰：史，「馮琴」。索隱引後語，「伏琴」。韓子，「推瑟」。說苑「伏瑟」。愚謂，此記其推琴而起對，猶論語記「舍瑟」也。莊子云「孔子推琴」。　札記丕烈案：「推」或「馮」字之訛，「馮」，「伏」聲之轉，與論語、莊子義不同也。吳氏所說未是。<span style="color:transparent;font-size:0px">〉</span></small>對曰：「三<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「三」作「王」。○　札記今本「三」作「王」。鮑本作「王」。丕烈案：「王」字是也。<span style="color:transparent;font-size:0px">〉</span></small>之料<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本料，數也。　鮑本料，量也。<span style="color:transparent;font-size:0px">〉</span></small>天下過<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本過，謬也。<span style="color:transparent;font-size:0px">〉</span></small>矣。昔者六晉<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本六卿分晉。智氏、范、中行氏、魏、韓氏、趙氏，乘周之衰，僭號皆曰諸侯，謂六晉也。曾、劉皆作六晉者，無咎滅趙氏、魏氏。　鮑本智、范、中行、韓、魏、趙，晉卿也，實分晉國。<span style="color:transparent;font-size:0px">〉</span></small>之時，智氏最強，滅破范、中行，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本范、中行氏，於晉最薄而苛峭，故智伯瑤先破滅也。<span style="color:transparent;font-size:0px">〉</span></small>帥韓、魏<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「帥」上有「又」字。○　札記丕烈案：史記、說苑有。韓子作「而從韓、魏」。<span style="color:transparent;font-size:0px">〉</span></small>以圍趙襄子於晉陽。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本智伯殺范、中行氏，志意驕盈，求地於諸侯，趙襄子不與地，故帥韓、魏二君伐趙氏，圍晉陽。晉陽，趙襄子邑。<span style="color:transparent;font-size:0px">〉</span></small>決晉水<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本出晉陽。補曰：正義引括地志云，晉水出并州晉陽縣西，東南流注汾水。<span style="color:transparent;font-size:0px">〉</span></small>以灌晉陽，城不沈者三板耳。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本沈，沒也。廣二尺曰板。　鮑本板，高三尺。<span style="color:transparent;font-size:0px">〉</span></small>智伯出行<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本行，去音。按視也。<span style="color:transparent;font-size:0px">〉</span></small>水，韓康子御，魏桓子<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本說苑、韓子作魏宣子。<span style="color:transparent;font-size:0px">〉</span></small>驂乘。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本三人共載曰「驂乘」。　鮑本徐無鬼疏，在左為驂，在右為御。<span style="color:transparent;font-size:0px">〉</span></small>智伯曰：『始，吾不知水之可亡<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本亡，滅。<span style="color:transparent;font-size:0px">〉</span></small>人之國也，乃今知之。汾水利以灌安邑，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本安邑，魏桓子邑。　鮑本汾水，出汾陽，屬河東。補曰：漢志，汾水出太原汾陽縣北山，至河東汾陽縣入河。正義云，安邑，在絳州夏縣。汾水東北歷安邑、西河入河。<span style="color:transparent;font-size:0px">〉</span></small>絳水利以灌平陽。』<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本平陽，韓康子邑。　鮑本絳水、平陽並屬河東。正曰：晉遷新田，今絳縣。謂平陽為故絳。正義引括地志云，絳水一名白水，今名弗泉，源出絳山。<span style="color:transparent;font-size:0px">〉</span></small>魏桓子肘韓康子，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本不敢正語，以肘築之。<span style="color:transparent;font-size:0px">〉</span></small>康子履魏桓子，躡其踵。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本躡，蹈。踵，跟也。<span style="color:transparent;font-size:0px">〉</span></small>肘足接於車上，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本曾、劉本云，「魏桓子肘韓康子，康子躡其踵，踵、肘接於車上」。<span style="color:transparent;font-size:0px">〉</span></small>而智氏分矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本韓、魏兆其肘、踵之謀，破智伯於車上。智氏貪暴滅亡，三家卒共分之，故曰「智氏分也」。<span style="color:transparent;font-size:0px">〉</span></small>身死國亡，為天下笑。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本智伯身死，為襄子所殺也。身死，國為三家所分，天下共笑也。<span style="color:transparent;font-size:0px">〉</span></small>今秦之強，不能過智伯；韓、魏雖弱，尚賢在晉陽之下也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本賢於趙襄子見圍於晉陽也。賢，猶勝也。　鮑本「在」上有「其」字。○　札記丕烈案：史記、說苑有。　韓子作「未至如其在晉陽之下也」。<span style="color:transparent;font-size:0px">〉</span></small>此乃方其用肘足時也，願王之勿易也。」。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本勿，無。易，輕也。<span style="color:transparent;font-size:0px">〉</span></small>　　<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本彪謂：此賢人君子之言也，人君閒暇，宜數聞之。魏釐十一年有，此四十一年也。以在取邢丘下，故不可先范睢事。正曰：秦自孝公商鞅以來，政俗彌惡，當時動以遺禮義，棄仁恩，虎狼目之。是以魯連、孔順義所不臣，蓋聖賢之徒之所絕也。凡委質於其國者，雖有忠言嘉謨，皆不得在君子之科。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="楚魏戰於陘山"><span id=".E6.A5.9A.E9.AD.8F.E6.88.B0.E6.96.BC.E9.99.98.E5.B1.B1"></span>楚魏戰於陘山</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=5" title="编辑章节：楚魏戰於陘山"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>楚、魏戰於陘山。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本魏記蘇秦傳注，在密縣。密屬河南。楚記，威王卒，魏因喪取我陘山。魏襄六年伐楚，敗之陘山，在此前九年。正曰：徐廣云，召陵有陘亭，密縣有陘山。正義云，括地志云在鄭州新鄭縣西南。大事記取鮑氏所引召陵。韓策引正義，又謂楚北有汾陘之塞，即此，皆一地也。愚恐「汾」字有誤，因「韓陘城汾旁」訛也。說見彼條。　從通鑑，在惠後六年，高注作惠。<span style="color:transparent;font-size:0px">〉</span></small>魏許秦以上洛，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本洛，屬弘農。<span style="color:transparent;font-size:0px">〉</span></small>以絕秦於楚。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本魏許賂秦以上洛，絕秦便不助楚。　鮑本使不助楚。<span style="color:transparent;font-size:0px">〉</span></small>魏戰勝，楚敗於南陽。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本南陽，陘山所在也。　鮑本荊州郡。非修武所謂。<span style="color:transparent;font-size:0px">〉</span></small>秦責<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本責，求也。<span style="color:transparent;font-size:0px">〉</span></small>賂於魏，魏不與。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本賂，上洛也。不與上洛也。<span style="color:transparent;font-size:0px">〉</span></small>營<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本曾「營」或作「管」。<span style="color:transparent;font-size:0px">〉</span></small>淺<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本秦人。<span style="color:transparent;font-size:0px">〉</span></small>謂秦王曰：「王何不謂楚王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本懷。<span style="color:transparent;font-size:0px">〉</span></small>曰，魏許寡人以地，今戰勝，魏王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本襄。正曰：惠。<span style="color:transparent;font-size:0px">〉</span></small>倍寡人也。王何不與寡人遇。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本遇，合也。　鮑本遇，猶會。<span style="color:transparent;font-size:0px">〉</span></small>魏畏秦、楚之合，必與秦地矣。是魏勝楚而亡地於秦也；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本謂失上洛。<span style="color:transparent;font-size:0px">〉</span></small>是王以魏地<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「魏」字。○　補曰：一本「以魏地德寡人」。<span style="color:transparent;font-size:0px">〉</span></small>德寡人，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本秦因楚會得地，楚之惠也。<span style="color:transparent;font-size:0px">〉</span></small>秦之楚者多資矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本之，至也。資，財幣也。　鮑本之，往也。言將以厚幣往結楚好。<span style="color:transparent;font-size:0px">〉</span></small>魏弱，若不出地，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補曰：劉辰翁云，多「弱」字，即「若」。愚謂，以「弱」句，義亦善。<span style="color:transparent;font-size:0px">〉</span></small>則王攻其南，寡人絕<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「絕」作「攻」。○<span style="color:transparent;font-size:0px">〉</span></small>其西，魏必危。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本危，亡。<span style="color:transparent;font-size:0px">〉</span></small>秦王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本昭王也。<span style="color:transparent;font-size:0px">〉</span></small>曰：「善。」以是告楚。楚王揚言<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本揚，顯言之。<span style="color:transparent;font-size:0px">〉</span></small>與秦遇，魏王聞之恐，效上洛於秦。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本魏惠王。效，致也。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="楚使者景鯉在秦[3]"><span id=".E6.A5.9A.E4.BD.BF.E8.80.85.E6.99.AF.E9.AF.89.E5.9C.A8.E7.A7.A6.5B3.5D"></span>楚使者景鯉在秦<sup id="cite&#95;ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">&#91;</span>3<span class="cite-bracket">&#93;</span></a></sup></h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=6" title="编辑章节：楚使者景鯉在秦[3]"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>楚使者景鯉在秦，從秦王與魏王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本襄。正曰：惠。<span style="color:transparent;font-size:0px">〉</span></small>遇於境。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本遇，合。境，秦界也。　鮑本此下脫簡，有秦使周最解說與魏所以遇之意。見高注。而楚策有其事。補曰：按鮑所謂楚策原在韓。曰齊、楚之交善，秦與魏遇，且以善齊而絕齊乎？楚景鯉之秦，與於遇，楚王怒，恐秦以楚為有陰於秦、魏也，且罪鯉云云。<span style="color:transparent;font-size:0px">〉</span></small>楚怒秦合，周冣為楚王曰：「魏請無與楚遇而合<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本遇之合也。<span style="color:transparent;font-size:0px">〉</span></small>於秦，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「楚怒秦合周冣為楚王曰魏請無與楚遇而合於秦」二十字。○　補曰：別本以此足缺文，在「是以鯉與之遇也」句上，即高注「秦使周最解說」者。姚本「楚怒秦合」、「最為楚王曰」、「魏王遇於境」、「楚使者」、「是以」云云，其文缺誤，不如別本明白。　札記此二十字鮑本無，吳氏補有。「合」作「令」，「冣」作「最」，「為」作「謂」。丕烈案：「令」字、「謂」字是也，「冣」作「最」者非。吳氏所稱姚本，與影抄梁溪安氏本合，乃姚氏一本耳。<span style="color:transparent;font-size:0px">〉</span></small>是以鯉與之遇也。弊邑之於與遇善之，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本加好於魏。正曰：敝邑，秦自稱。謂鯉與秦、魏遇此以為善。蓋二國之遇，將以善齊，而絕齊於楚，而楚使在焉，故齊疑之而不與合也。<span style="color:transparent;font-size:0px">〉</span></small>故齊不合也。」楚王因不罪景鯉而德周、秦。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本秦使周最解說楚王與魏遇之意，故不罪景鯉，而弟德周與秦也。<span style="color:transparent;font-size:0px">〉</span></small>　　<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本齊，魏讎也，好魏故齊不合。齊，楚敵也，齊不合故楚說。正曰：以齊、楚交善章考之，其失可見。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="楚王使景鯉如秦"><span id=".E6.A5.9A.E7.8E.8B.E4.BD.BF.E6.99.AF.E9.AF.89.E5.A6.82.E7.A7.A6"></span>楚王使景鯉如秦</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=7" title="编辑章节：楚王使景鯉如秦"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>楚王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本懷。<span style="color:transparent;font-size:0px">〉</span></small>使景鯉如秦。客謂秦王曰：「景鯉，楚王使景<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本無「使景」二字。　鮑本衍「使景」二字。<span style="color:transparent;font-size:0px">〉</span></small>所甚愛，王不如留之以市地。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本市，求也。　鮑本市，買賣所之也。言使楚以地贖鯉如之。<span style="color:transparent;font-size:0px">〉</span></small>楚王聽，則不用兵而得地；楚王不聽，則殺景鯉，更<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補曰：更，平聲。<span style="color:transparent;font-size:0px">〉</span></small>不<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本衍「不」字。　補曰：疑衍。　札記今本無上「不」字，乃誤涉鮑也。<span style="color:transparent;font-size:0px">〉</span></small>與不如景鯉留，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「留」，曾、劉一作「者」。　鮑本「留」作「者」。○　補曰：姚云，「留」，曾、劉作「者」，是。<span style="color:transparent;font-size:0px">〉</span></small>是便<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本便，猶利安。<span style="color:transparent;font-size:0px">〉</span></small>計也。」秦王乃留景鯉。
+</p><p>景鯉使人說秦王曰：「臣見王之權輕天下，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本權，猶勢也。天下所輕。<span style="color:transparent;font-size:0px">〉</span></small>而地不可得也。臣之來使也，聞齊、魏皆且割地以事秦。所以然者，以秦與楚為昆弟國。今大王留臣，是示天下無楚也，齊、魏有何重於孤國也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本言留臣，則秦（一本下有「與楚」二字）絕，秦無楚援，則為孤國，故齊、魏不復尊重秦也。鮑本「有」，猶「又」。補曰：二字古通用，後策陳軫云「又何重孤國」，即此文。<span style="color:transparent;font-size:0px">〉</span></small>楚知秦之孤，不與地，而外結交諸侯<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「諸侯」二字。○<span style="color:transparent;font-size:0px">〉</span></small>以圖，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本圖秦。<span style="color:transparent;font-size:0px">〉</span></small>則社稷必危，不如出臣。」秦王乃出之。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本出，遣景也。景鯉還楚也。<span style="color:transparent;font-size:0px">〉</span></small>　　<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補曰：「來使」之「使」，去聲。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="秦王欲見頓弱"><span id=".E7.A7.A6.E7.8E.8B.E6.AC.B2.E8.A6.8B.E9.A0.93.E5.BC.B1"></span>秦王欲見頓弱</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=8" title="编辑章节：秦王欲見頓弱"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>秦王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本秦王，始皇趙正也。即位二十六年，乃稱帝，故曰秦王。<span style="color:transparent;font-size:0px">〉</span></small>欲見頓弱，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本秦人。<span style="color:transparent;font-size:0px">〉</span></small>頓弱曰：「臣之義不參拜，王能使臣無拜，即可矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「即」作「則」。○　札記「即」，鮑本作「則」，下「從成，即楚王」同。<span style="color:transparent;font-size:0px">〉</span></small>不，即不見也。」秦王許之。於是頓子曰：「天下有<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本「有」字下更有「有」字。　鮑本「有」下補「有」字。○　正曰：一本有，姚同。<span style="color:transparent;font-size:0px">〉</span></small>其實而無其名者，有無其實而有其名者，有無其名又無其實者。王知之乎？」王曰：「弗知。」頓子曰：「有其實而無其名者，商人是也。無把銚推耨之勢，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本銚，芸苗器也，音括。續：銚，姚、調二音，古田器。　鮑本「勢」作「勞」。○　銚，芸苗器。耨，耨器。　補曰：徐按詩傳，錢銚也，七遙反，字與「鍬」同。耨，亦芸田器，莊子作「鎒」。<span style="color:transparent;font-size:0px">〉</span></small>而有積粟之實，此有其實而無其名者也。無其實而有其名者，農夫是也。解凍而耕，暴背而耨，無積粟之實，此無其實而有其名者也。無其名又無其實者，王乃是也。已立為萬乘，無孝之名；以千里養，無孝之實。」秦王悖然而怒。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本悖，艴同，語色艴如也。補曰：艴如，說文文。今論語作「勃」。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>頓弱曰：「山東戰國有六，威不掩於山東，而掩於母，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本秦王，名正也。以母媱通於嫪毐，閉之於雍門宮，故頓弱曰不能掩威於六國，而掩威於母也。　鮑本始皇母，帝太后也。本呂不韋姬，通不韋，又通繆毐，人告之，王怒，九年遷雍。<span style="color:transparent;font-size:0px">〉</span></small>臣竊為大王不取也。」秦王曰：「山東之建國<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「建」作「戰」。○<span style="color:transparent;font-size:0px">〉</span></small>可兼<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本兼，并。<span style="color:transparent;font-size:0px">〉</span></small>與？」頓子曰：「韓，天下之咽喉；魏，天下之胸腹。王資<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本資，給。　鮑本「資」，「齎」同。<span style="color:transparent;font-size:0px">〉</span></small>臣萬金而遊，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本遊，行。<span style="color:transparent;font-size:0px">〉</span></small>聽之韓、魏，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本時不通諸國，故請王聽其往也。<span style="color:transparent;font-size:0px">〉</span></small>入<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本入，納也。<span style="color:transparent;font-size:0px">〉</span></small>其社稷之臣於秦，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本說之使歸秦。<span style="color:transparent;font-size:0px">〉</span></small>即韓、魏從。韓、魏從，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「韓魏從」不重。○　補曰：一本疊此三字。<span style="color:transparent;font-size:0px">〉</span></small>而天下可圖也。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本從於秦。圖，取。<span style="color:transparent;font-size:0px">〉</span></small>秦王曰：「寡人之國貧，恐不能給也。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本給，供。<span style="color:transparent;font-size:0px">〉</span></small>頓子曰：「天下未嘗無事也，非從即橫也。橫成，則秦帝；從成，即楚王。秦帝，即以天下恭養；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本且敬且養。<span style="color:transparent;font-size:0px">〉</span></small>楚王，即王雖有萬金，弗得私也。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本私，愛也。<span style="color:transparent;font-size:0px">〉</span></small>秦王曰：「善。」乃資萬金，使東遊韓、魏，入其將相。北遊於<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本衍「於」字。<span style="color:transparent;font-size:0px">〉</span></small>燕、趙，而殺李牧。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本李牧，趙將。　鮑本趙良將，遷王七年殺之。此十八年。<span style="color:transparent;font-size:0px">〉</span></small>齊<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「王」字。○　補曰：一本此下有「王」字。<span style="color:transparent;font-size:0px">〉</span></small>王入朝，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本朝於秦也。<span style="color:transparent;font-size:0px">〉</span></small>四國<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本四國，燕、趙、韓、魏。　鮑本齊、魏、燕、趙也。殺牧時已虜韓。正曰：高注「燕、趙、韓、魏」，是，上已言齊矣。殺牧，是要終言之。<span style="color:transparent;font-size:0px">〉</span></small>必<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「必」作「畢」。○　補曰：疑「畢」。　札記今本「必」作「畢」，乃誤涉鮑也。丕烈案：鮑改吳補皆非也。古或借「必」為「畢」字。<span style="color:transparent;font-size:0px">〉</span></small>從，頓子之說也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本說始皇在十年還太后前，此要終言之。彪謂：頓子之義高於范睢，而其說過之遠矣，惜其不知擇木！焉有仁人君子而為始皇用哉？魯連視之蔑矣！正曰：大事記，茅焦說秦王曰，秦方以天下為事，而大王有遷母太后之名，恐諸侯聞之由比倍秦。頓子告始皇，山東戰國有六，威不掩於山東，而掩於母。始皇所重者獨兼并諸侯耳，茅焦所以能復太后者，特以諸侯背秦恐之，非能以母子天性感悟之也。愚按：頓弱雖有「威掩於母」之一言，其下即說以「兼并」行許，未嘗正諫遷母之失，又非茅焦比。二人雖異於范睢，於義皆不足取。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="頃襄王二十年"><span id=".E9.A0.83.E8.A5.84.E7.8E.8B.E4.BA.8C.E5.8D.81.E5.B9.B4"></span>頃襄王二十年</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=9" title="编辑章节：頃襄王二十年"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>頃襄王二十年，秦白起拔楚西陵，或拔鄢、郢、夷陵，燒先王之墓。王徙東北，保于陳城，楚遂削弱，為秦所輕。於是白起又將兵來伐。
+</p><p>楚人有黃歇者，游學博聞，襄王以為辯，故使於秦。說昭王曰：「天下莫強於秦、楚，今聞大王欲伐楚，此猶兩虎相鬥而駑犬受其弊，不如善楚。臣請言其說。臣聞之：<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本續：此段首有闕文。史記、新序、後語皆有之，文亦小異。今以後語聊足此段之闕。　鮑本無「頃襄王二十年」至「臣聞之」一百十字，有「說秦王曰」四字。○　按史，此春申君未封時，書在擊芒卯后，此三十四年也。補曰：案，此當下接「物至」云云，而章首「說秦王曰」四字已在此段內，當為衍文。　札記丕烈案：吳說非也。策文但當作「說秦王曰，物至而反」云云，並無闕文。高注：「秦王」云，秦王名正，不以為黃歇說昭王，與史記不同。新序、后語皆本於史，不據此。以為此段首有闕文者，出於姚氏，其實不得高意。李善注文選辨亡論引「楚、魏之兵，雲翔而不敢校」，以為頓子說秦王，蒙上章為說，必戰國策舊讀。且策文即實為黃歇說，亦止當駁高注耳。正文作「說秦王曰」自足，前后多如此例。<span style="color:transparent;font-size:0px">〉</span></small>『物至<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本至，猶極。<span style="color:transparent;font-size:0px">〉</span></small>而反，冬夏是也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本秦王名正，莊王楚之子。冬至生，夏至殺，故曰反也。<span style="color:transparent;font-size:0px">〉</span></small>致<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本致，言取物置之物上。<span style="color:transparent;font-size:0px">〉</span></small>至<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本至，極也。<span style="color:transparent;font-size:0px">〉</span></small>而危，累碁是也。』今大國之地半天下，有二垂，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本邊陲。<span style="color:transparent;font-size:0px">〉</span></small>此從生民以來，萬乘之地未嘗有也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本未嘗有地也。<span style="color:transparent;font-size:0px">〉</span></small>先帝<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本今之王，古之帝，故咸言先帝。　鮑本尊稱之耳，時未為帝。<span style="color:transparent;font-size:0px">〉</span></small>文王、<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本惠文王。非孝文。<span style="color:transparent;font-size:0px">〉</span></small>莊王，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「莊」作「武」。○　按史，秦輕楚頃襄王，歇乃上書說秦昭王，則史與此策書此為「莊王」，謬也。補曰：「莊」當作「武」。　札記丕烈案：鮑改、吳補皆非也，高注可證。史記亦是「莊」字。新序無此以下三句，或以其不合而削之也。<span style="color:transparent;font-size:0px">〉</span></small>王之身，三世<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本文王，始皇祖。莊王，始皇父。故曰三世。<span style="color:transparent;font-size:0px">〉</span></small>而不接地於齊，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本不與通也。<span style="color:transparent;font-size:0px">〉</span></small>以絕從親之要。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本要，約也。<span style="color:transparent;font-size:0px">〉</span></small>今王三使盛橋<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「三」字，「盛」作「成」。○　秦人。補曰：劉伯莊云，「橋」音「矯」。　札記今本無「三」字，「盛」作「成」。丕烈案：史記、新序皆無「三」，當衍也；皆作「盛橋」。此下文云「成橋」，當是策文作「成」，史記作「盛」。「成」、「盛」同字。新序出史記。<span style="color:transparent;font-size:0px">〉</span></small>守<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本守，猶待。<span style="color:transparent;font-size:0px">〉</span></small>事於韓，成橋以北入燕。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本燕入朝秦也。　鮑本「以」作「已」。○　使燕入朝於秦。正曰：「以」，「已」通。補曰：史作「盛橋以其地入秦」，為是。新序同。此言韓入地，下言取魏地也。<span style="color:transparent;font-size:0px">〉</span></small>是王不用甲，不伸威，而出<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本出，言割地。燕入秦，必割地予秦，秦使之出也。<span style="color:transparent;font-size:0px">〉</span></small>百里之地，王可謂能矣。王又舉甲兵而攻魏，杜<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「杜」作「社」。○　補曰：姚本作「杜」，是。　札記丕烈案：鮑本誤。因讀上屬，謬甚。<span style="color:transparent;font-size:0px">〉</span></small>大梁<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本大梁，魏惠王所都也。今陳留浚儀西大梁城是也。<span style="color:transparent;font-size:0px">〉</span></small>之門，舉<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本舉，猶得也。<span style="color:transparent;font-size:0px">〉</span></small>河內，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本屬司隸。正曰：正義云，即懷州也。在河南之北，西河之東，東河之西。<span style="color:transparent;font-size:0px">〉</span></small>拔燕、酸棗、虛、桃人，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本拔，取也。燕，南燕。酸棗，今屬陳留。桃人，邑名，處則未聞。虛，空也。鮑本燕，南燕，屬東郡。酸棗屬陳留。徐注，始皇五年，取酸棗、燕、虛。又蘇代曰，決宿、胥之口，魏無虛、頓丘。按此，則虛，魏地也。桃人，史作桃，注，燕縣有桃城。今按任城有桃聚。補曰：燕，張儀傳注，滑州胙城縣。酸棗，正義云，故城在滑州酸棗縣北，古酸棗縣南。虛，正義云，謂殷虛，今相州所理。大事記解，始皇紀引正義云，姚虛在濮州雷澤縣東，二地不同。按高注作「虛」，文協。<span style="color:transparent;font-size:0px">〉</span></small>楚、燕之兵<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補曰：史作「魏之兵」。意此上皆魏地，當作「魏之兵」。不然，「燕楚」以來援者言之。　札記丕烈案：李善引「燕」作「魏」。史記、新序皆作「邢魏之兵」，「邢」當作「荊」。徐廣曰，平皋有邢丘者，非，即策文之楚也。史記上文桃人，「人」字誤作「入」，乃連「入邢」為讀。新序「人」作「仁」，「人」、「仁」同字。可知劉向時，史記不作「入」也。俗本新序，乃反依今史記改作「入」，誤之甚矣。唯予家所有北宋刻本新序未誤。<span style="color:transparent;font-size:0px">〉</span></small>云翔不敢校，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本云翔，史作「雲翔」，猶解散。　鮑本「云」作「雲」，「不」上有「而」字。○　雲翔，散也。論語注包曰，校，報也。正曰：爾雅「其飛也翔」注，布翅翶翔。按，翔有高起貌。漢書言翔貴，古人每言高翔。　札記丕烈案：李善引作「雲翔而」。史記、新序皆同。<span style="color:transparent;font-size:0px">〉</span></small>王之功亦多矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本不與秦校戰，故曰王之功亦多矣。<span style="color:transparent;font-size:0px">〉</span></small>王申<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本申，洛也。　鮑本「申」作「休甲」。○　元作「申」，無「休」字，今從史。正曰：史文雖順，此作「重」義，自通。　札記丕烈案：史記、新序，「休甲」，與策文不同。<span style="color:transparent;font-size:0px">〉</span></small>息眾二年，然後復之，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本休眾二年而後復用之。<span style="color:transparent;font-size:0px">〉</span></small>又取蒲、衍、首垣，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本河東蒲阪，注故蒲。蘇代曰，北有河外、卷、衍，注不地。今按屬魏。故魏記書拔我卷、垣、蒲陽、衍。而張儀說魏王，秦據卷、衍。又南陽有杜衍。「垣」原作「恒」。河東有首山、首垣。正曰：徐廣及索隱皆云，此「蒲」在衛之長垣蒲鄉。索隱云，衍在河南，與卷近。卷，丘權反。正義云，屬鄭州。「恒」，姚本作「垣」。索隱云，「首」蓋「牛首」，「垣」即「長垣」，非河東之垣也。長垣，開封縣。　札記「垣」，鮑本作「恒」，改作「垣」。丕烈案：史記、新序作「垣」。<span style="color:transparent;font-size:0px">〉</span></small>以臨仁、平兵，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「兵」作「丘」。○　補曰：「兵」，從史文作「丘」。　札記丕烈案：新序作「丘」。<span style="color:transparent;font-size:0px">〉</span></small>小黃、濟陽嬰城，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本當戰國時，皆魏邑也。　鮑本地並屬陳留。嬰，猶縈也，蓋二邑環兵自守。補曰：按燕策，決白馬之口，魏無黃、濟陽。史作外黃。正義云，故黃城，在曹州考城縣東。濟陽故城在曹州冤朐縣西南。大事記云，水經注，河水舊在白馬縣南，泆通黃溝。趙世家，拔魏黃城。正義引括地志云，故黃城在魏州冠氏縣南十里，因黃溝為名。舊注陳留外黃者，非。<span style="color:transparent;font-size:0px">〉</span></small>而魏氏服矣。王又割濮、磨<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本周紀注，在江、漢之南。楚紀注，建寧邵南有濮夷。後志當陽縣注，荊州記沮水西有磨城，子胥所造。正曰：江、漢南之濮，乃書所謂彭濮之濮，沮水、磨城遠不相涉。下文比屬之燕，可見濮即衛之濮上，水出東郡濮陽，南入鉅野者也。索隱云，磨，地近濮。按史表有磨侯程黑。索隱云，表作歷。歷縣在信都，地、邑並無磨。愚按，此字作「磨」與「歷」通，猶樂毅書「磨室」之類。新序正作「濮歷」，則其字甚明。　札記丕烈案：「磨」者「歷」字之誤。顏氏家訓所謂「容成造歷」，以「歷」為「碓磨」之「磨」者也。<span style="color:transparent;font-size:0px">〉</span></small>之北屬之燕，斷齊、秦之要，絕楚、魏之脊。天下五合、六聚而不敢救也，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本天下五合，六國集聚，不敢救助。<span style="color:transparent;font-size:0px">〉</span></small>王之威亦憚矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本憚，難也。六國諸侯皆有畏難秦王之威也。　鮑本補曰：「憚」，史作「單」，是。新序同。「殫」，盡也。　札記丕烈案：此不與策文同，高注可證。<span style="color:transparent;font-size:0px">〉</span></small>王若能持功守威，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補曰：「守威」疑「守成」。　札記丕烈案：史記、新序皆作「威」，吳說未是。<span style="color:transparent;font-size:0px">〉</span></small>省<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本省，減。<span style="color:transparent;font-size:0px">〉</span></small>攻伐之心而肥仁義之誡，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本肥，猶厚也。地，猶道。厚宣仁義之道，則天下皆仰之。「誡」字一本作「誠」字。　鮑本高注「地猶道」，則此「誡」字原作「地」也。補曰：史「誡」作「地」，新序同。　札記丕烈案：此「地」作「誡」，必不知者所改耳。高注甚明，鮑氏亦引高，而反不改為「地」以正之，何也？<span style="color:transparent;font-size:0px">〉</span></small>使無復後患，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本复何（一本「何」字下有「後」字）患之有，故曰使無复後患。<span style="color:transparent;font-size:0px">〉</span></small>三王不足四，五伯不足六也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本言不足小畜之也。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>「王若負<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本負，恃也。<span style="color:transparent;font-size:0px">〉</span></small>人徒之眾，材兵甲之強，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本無「材」字。　鮑本「材」作「恃」，「兵甲」作「甲兵」。○　補曰：元作「材」，史作「仗」。札記丕烈案：史記作「仗兵革」。此「材」者「杖」之訛。新序無此字。<span style="color:transparent;font-size:0px">〉</span></small>壹毀魏氏之威，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本毀，敗也。　鮑本「壹」作「一」。○　前勝魏有威矣，今自挫毀，不持守也。補曰：史作「乘」，新序同。正曰：從「乘」字，義明。<span style="color:transparent;font-size:0px">〉</span></small>而欲以力臣天下之主，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本臣，服也。主，謂諸侯。<span style="color:transparent;font-size:0px">〉</span></small>臣恐有後患。詩云：『靡不有初，鮮克有終。』<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本詩大雅之首章。靡，無也（一本「也」字下有「鮮少也」三字）。<span style="color:transparent;font-size:0px">〉</span></small>易曰：『狐濡其尾。』<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本未濟注，小狐不能涉大川，雖濟而無餘力，將濡其尾，不能終也。<span style="color:transparent;font-size:0px">〉</span></small>此言始之易，終之難也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本言人初始無不為誠信，少能有終也。言秦強，威可以克定天下，恐不能終持之，若狐濡其尾，故難在後也，故曰終之難也。<span style="color:transparent;font-size:0px">〉</span></small>何以知其然也？智氏見伐趙之利，而不知榆次<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本榆次屬太原，智伯葬處。正曰：索隱云，敗於榆次。正義云，屬并州縣。<span style="color:transparent;font-size:0px">〉</span></small>之禍也；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本無「也」字。智伯瑤但貪趙襄子晉陽之地，而不知襄子與韓、魏之陰謀，卒殺于鑿台之上，葬之於榆次。謂（一本無「謂」字）設利於前，而禍隨其后也（一本無「也」字）。<span style="color:transparent;font-size:0px">〉</span></small>吳見伐齊之便，而不知干隧<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本干隧，吳地。蘇秦、春申傳並不注。道應注，干隧在臨淮，豈此耶？蓋或越王逐北至是。正曰：正義云，出萬安山西南一里太湖，即夫差自剄處，在蘇州吳縣西北四十里。<span style="color:transparent;font-size:0px">〉</span></small>之敗也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本無「也」字。吳王夫差自見服越王為前，而心復廣貪齊之寶而伐之，又欲取伯名於晉，而越奄殺之於干隧，亦貪利前而凶在后也。<span style="color:transparent;font-size:0px">〉</span></small>此二國者，非無大功也，設<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「設」字，劉本一作「沒」字。　鮑本「設」作「沒」。○　沒，猶溺。札記丕烈案：史記、新序作「沒」。<span style="color:transparent;font-size:0px">〉</span></small>利於前，而易<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補曰：易，音亦。前之利易後之患也。<span style="color:transparent;font-size:0px">〉</span></small>患於後也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本設，貪（一本下有人字）也。但見目前之利而問伐，不見後患，故曰易患於後也。<span style="color:transparent;font-size:0px">〉</span></small>吳之信越也，從而伐齊，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本從，合也。信越人之卑服，舍之，北師伐齊曰干隧也。<span style="color:transparent;font-size:0px">〉</span></small>既勝<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「既勝」作「遂攻」。○　札記丕烈案：史記、新序作「既勝」。<span style="color:transparent;font-size:0px">〉</span></small>齊人於艾陵，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本艾陵，邑也。　鮑本補曰：艾陵在兗州博縣南。<span style="color:transparent;font-size:0px">〉</span></small>還為越王禽於三江之浦。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本還自黃也，為越所殺（「殺」字一本作「禽」字）也。流尾（「流尾」一本作「浦厓」字）也，即干隧也。　鮑本禮，揚州其川三江。浦，水濱也。高注，即干隧。正曰：書蔡傳，婁江、東江、松江也。<span style="color:transparent;font-size:0px">〉</span></small>智氏信韓、魏，從而伐趙，攻晉陽之城，勝有日矣，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本日，謂明當勝也。　鮑本其日可期。<span style="color:transparent;font-size:0px">〉</span></small>韓、魏反之，殺智伯瑤於鑿臺<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本晉陽下台名。鑿地作渠，以灌晉陽城，因聚土為台而止其上，故曰鑿臺也。　鮑本史注，在榆次。<span style="color:transparent;font-size:0px">〉</span></small>之上。今王妒<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「妒」字，曾本一作「姤」字。<span style="color:transparent;font-size:0px">〉</span></small>楚之不毀<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本謂無傷。<span style="color:transparent;font-size:0px">〉</span></small>也，而忘毀楚之強魏<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本楚毀不能侵之，故強。考下文，宜有「韓」字。補曰：史作「韓、魏」，新序同。<span style="color:transparent;font-size:0px">〉</span></small>也。臣為大王慮而不取。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補曰：史「取」下有「也」字，文順。　札記丕烈案：新序有。<span style="color:transparent;font-size:0px">〉</span></small>詩云：『大武遠宅不涉。』<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本逸詩。　鮑本逸詩。武，足跡。宅，猶居也。言地之居遠者，雖有大足，不涉之也。正曰：威武之大者，遠安定之，不必涉其地也。<span style="color:transparent;font-size:0px">〉</span></small>從此觀之，楚國，援<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本援，助。<span style="color:transparent;font-size:0px">〉</span></small>也；鄰國，敵<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本敵，讎。<span style="color:transparent;font-size:0px">〉</span></small>也。詩云：『他人有心，予忖度之。躍躍毚兔，遇犬獲之。』<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本詩巧言之四章。他人有毀害之心，己忖度之。躍躍，跳走也。毚，狡也。喻狡兔騰躍躍（一本無躍字），以為難得也，或時遇犬獲之。喻讒人如毀傷人，遇明君則治女罪也。　鮑本大雅巧言詩。忖，亦度也。躍躍是也。毚，狡也。言兔雖善走，或時遇犬，犬能得之；人心難知，或可忖度。補曰：躍，天力反。<span style="color:transparent;font-size:0px">〉</span></small>今王中道<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本中道，在前後間。<span style="color:transparent;font-size:0px">〉</span></small>而信韓、魏之善王也，此正吳信越<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本越不可信，而吳信之。<span style="color:transparent;font-size:0px">〉</span></small>也。臣聞，敵不可易，時不可失。臣<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>札記今本「臣」誤「正」。<span style="color:transparent;font-size:0px">〉</span></small>恐韓、魏之卑辭慮患，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本以慮患，故卑辭。<span style="color:transparent;font-size:0px">〉</span></small>而實欺大國也。此何也？<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「此何也」三字。○　札記丕烈案：史記、新序無。<span style="color:transparent;font-size:0px">〉</span></small>王既無重<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本重，猶累。<span style="color:transparent;font-size:0px">〉</span></small>世之德於韓、魏，而有累<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本累，猶重也。<span style="color:transparent;font-size:0px">〉</span></small>世之怨矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「怨」下有「焉」字，「矣」作「夫」。○　札記丕烈案：史記、新序皆作「焉夫」。「矣」或「夫」字訛也。<span style="color:transparent;font-size:0px">〉</span></small>韓、魏父子兄弟接踵而死於秦者，百世矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「百」，一作「累」。　鮑本補曰：「百世」，史作「將十世」。新序同。<span style="color:transparent;font-size:0px">〉</span></small>本國殘，社稷壞，宗廟隳，刳腹折頤，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本頤，頷也。<span style="color:transparent;font-size:0px">〉</span></small>首身分離，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本折，斷。<span style="color:transparent;font-size:0px">〉</span></small>暴<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本暴，日乾也。<span style="color:transparent;font-size:0px">〉</span></small>骨草澤，頭顱僵仆，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本顱，首骨。僵，僨。仆，倒也。<span style="color:transparent;font-size:0px">〉</span></small>相望於境；父子老弱係虜，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本係纍為虜。虜，獲也。<span style="color:transparent;font-size:0px">〉</span></small>相隨於路；鬼神狐祥<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本狐之為妖者。正曰：史「狐傷」，是。新序作「潢洋」二字。楚辭、后語注，潢，戶廣反；洋，音養。<span style="color:transparent;font-size:0px">〉</span></small>無所食，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無人為之依也。<span style="color:transparent;font-size:0px">〉</span></small>百姓不聊<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本聊，賴。<span style="color:transparent;font-size:0px">〉</span></small>生，族類離散，流亡為臣妾，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本男為人臣，女為妾。<span style="color:transparent;font-size:0px">〉</span></small>滿海內矣。韓、魏之不亡，秦社稷之憂也。今王之攻楚，不亦失乎！是<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「是」作「且」。○　札記丕烈案：史記、新序作「且」。<span style="color:transparent;font-size:0px">〉</span></small>王攻楚之日，則惡<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本惡，安也。<span style="color:transparent;font-size:0px">〉</span></small>出兵？王將藉路於仇讎之韓、魏乎！兵出之日而王憂其不反<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本反，還。<span style="color:transparent;font-size:0px">〉</span></small>也，是王以兵資於仇讎之韓、魏。王若不藉路於仇讎之韓、魏，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「王若不藉路於仇讎之韓魏」十一字。○　札記丕烈案：史記、新序有。無者脫耳。<span style="color:transparent;font-size:0px">〉</span></small>必攻陽、右壤。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本「攻」下有「隨」字。隨陽、右壤，皆楚邑也。　鮑本「攻」下有「隨」字，無下「隨陽右壤」四字。○　補曰：一本「隨陽右壤」疊一句。新序同，「陽」作「水」。索隱云，楚都陳，隨水之右壤，蓋在隨之西多山林者是也。　札記丕烈案：俗本新序亦誤脫一句，吳引與北宋刻本正合。<span style="color:transparent;font-size:0px">〉</span></small>隨陽、右壤，此皆廣川大水，山林谿谷不食之地，王雖有之，不為得地。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本與不得地無異。<span style="color:transparent;font-size:0px">〉</span></small>是王有毀楚之名，無得地之實也。
+</p><p>「且王攻楚之日，四國<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本四國，趙、韓、魏、齊也。　鮑本齊、趙、韓、魏也。方言南攻，故不及燕，應言以兵從之，蓋躡秦也。<span style="color:transparent;font-size:0px">〉</span></small>必應<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本無「應」字。　鮑本「必」下無「應」字。○　補曰：姚云一本無，史同。　札記丕烈案：新序無。<span style="color:transparent;font-size:0px">〉</span></small>悉起應王。秦、楚之<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「之」下補「兵」字。○　補曰：史「之」下有「兵」字。　札記丕烈案：新序同。<span style="color:transparent;font-size:0px">〉</span></small>構<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本構，連。<span style="color:transparent;font-size:0px">〉</span></small>而不離，魏氏將出兵而攻留、<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本屬楚國。<span style="color:transparent;font-size:0px">〉</span></small>方與、銍、胡陵、<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本方與、胡陵屬山陽。<span style="color:transparent;font-size:0px">〉</span></small>碭、蕭、相，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本碭屬梁國，餘屬沛。<span style="color:transparent;font-size:0px">〉</span></small>故宋必盡。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本七邑，宋邑也。宋，戰國時屬楚，故言「故宋必盡」也。　鮑本七國故皆宋也。<span style="color:transparent;font-size:0px">〉</span></small>齊人南面，泗北<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本濟陰乘氏注泗水入淮。魯國卞縣注入沛。補曰：書蔡傳，泗水出魯國卞縣桃墟西北陪尾山，四源皆導，因名。西南過彭城，又東南過下邳，入淮。卞，今泗水縣。<span style="color:transparent;font-size:0px">〉</span></small>必舉。此皆平原四達，膏腴之地也，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本廣平曰原野也，為膏潤腴美也。<span style="color:transparent;font-size:0px">〉</span></small>而王使之獨攻。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本秦與楚戰，不暇救七邑及泗北。二國攻之，兵勢無所分也。<span style="color:transparent;font-size:0px">〉</span></small>王破楚於<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本劉本無「於」字。　鮑本楚史、新序同。<span style="color:transparent;font-size:0px">〉</span></small>以肥韓、魏於中國而勁齊，韓、魏之強足以校<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本校，猶亢也。　鮑本「校」，「較」同，直也。言與之敵。<span style="color:transparent;font-size:0px">〉</span></small>於秦矣。齊南以泗為境，東負<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本以泗水為南界。負，背也。　鮑本負，與抱反，背也。<span style="color:transparent;font-size:0px">〉</span></small>海，北倚河，而無後患，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本倚，猶依也。患，難也。<span style="color:transparent;font-size:0px">〉</span></small>天下之國，莫強於齊。齊、魏得地葆<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「葆」，「保」同。<span style="color:transparent;font-size:0px">〉</span></small>利，而詳事<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本事，治。<span style="color:transparent;font-size:0px">〉</span></small>下吏，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「下」作「不」。○　補曰：「不吏」，姚本「下吏」，是。詳其事以下於吏，慎重之意，應上葆利言。　札記丕烈案：史記、新序作「下」，「不」字訛。<span style="color:transparent;font-size:0px">〉</span></small>一年之後，為帝若未能，於以禁<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本禁，制也。<span style="color:transparent;font-size:0px">〉</span></small>王之為帝有餘。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本劉本「餘」字下有「矣」字。言齊、魏未能為帝也，然強大足以禁秦，使不得為帝，有餘力也。<span style="color:transparent;font-size:0px">〉</span></small>夫以王壤土之博，人徒之眾，兵革之強，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本眾，多也。強，盛也。<span style="color:transparent;font-size:0px">〉</span></small>一舉眾<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「一舉眾」三字。○　札記丕烈案：史記、新序「眾」作「事」，此「眾」字必不知者所改耳。高注云，事，戰事也。其字甚明。鮑無此三字者，非。<span style="color:transparent;font-size:0px">〉</span></small>而注地於楚，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本事，戰事也。注，屬。　鮑本注，猶屬。言地廣。正曰：注瀉之注。補曰：史作「樹怨於楚」。新序同。姚本「一舉眾而注地」。<span style="color:transparent;font-size:0px">〉</span></small>詘<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本詘，反。<span style="color:transparent;font-size:0px">〉</span></small>令韓、魏，歸帝重於齊，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本正曰：魏句。詘命令於韓、魏，歸為帝之重於齊。言齊、韓、魏皆強，而齊尤甚也。<span style="color:transparent;font-size:0px">〉</span></small>是王失計也。
+</p><p>「臣為王慮，莫若善楚。秦、楚合而為一，臨以<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本劉本「臨以」作「以臨」。　鮑本「臨以」作「以臨」。○<span style="color:transparent;font-size:0px">〉</span></small>韓，韓必授首。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「授」作「受」。○　言其服而請誅。　札記丕烈案：史記作「斂手」，新序作「拱手」。古或借「首」為「手」，「授」、「受」二字皆有誤也。<span style="color:transparent;font-size:0px">〉</span></small>王襟<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本劉本，「襟」字作「施」字。曾作「襟」。　鮑本蔽障如襟。<span style="color:transparent;font-size:0px">〉</span></small>以山東之險，帶<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本圍繞如帶。<span style="color:transparent;font-size:0px">〉</span></small>以河曲之利，韓必為關中之候。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本為秦察諸侯動靜也。　鮑本比之候吏。<span style="color:transparent;font-size:0px">〉</span></small>若是，王以十成鄭，梁氏寒心，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本梁氏，魏也。寒心，懼也。　鮑本「十」下補「萬」字，「成」作「戍」。○　補曰：史「十」下有「萬」字，是。新序同。「成」史作「戍」，是。新序作「伐」。　札記今本「十」下有「萬」字，「成」作「戍」，乃誤涉鮑也。<span style="color:transparent;font-size:0px">〉</span></small>許、鄢陵<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本并屬潁川。<span style="color:transparent;font-size:0px">〉</span></small>嬰城，上蔡、召陵<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本三地并屬汝南。<span style="color:transparent;font-size:0px">〉</span></small>不往來也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本不往來於魏也。　鮑本韓、魏不通。補曰：史，「上蔡」上有「而」字。新序同。從此，則上以「嬰城」句。<span style="color:transparent;font-size:0px">〉</span></small>如此，而魏亦關內候<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>朴記今本「候」誤「侯」。<span style="color:transparent;font-size:0px">〉</span></small>矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本魏為秦察諸侯動靜也。<span style="color:transparent;font-size:0px">〉</span></small>王一善楚，而關內二萬乘之主注地於齊，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「齊」作「秦」。○　補曰：當作「秦」。　札記丕烈案：鮑改、吳補皆非也。史記「注地於齊」，索隱曰，謂以兵裁之也，新序作「注入地於齊」，皆可證此字之不當作「秦」。<span style="color:transparent;font-size:0px">〉</span></small>齊之右壤<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本壤，地。<span style="color:transparent;font-size:0px">〉</span></small>可拱<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本拱，斂手。<span style="color:transparent;font-size:0px">〉</span></small>手而取也。是王之地一任<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「任」作「注」。○　補曰：史作「經」，是。　札記今本「任」作「經」。丕烈案：新序作「桎」。<span style="color:transparent;font-size:0px">〉</span></small>兩海，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一注「東海」。　鮑本東南。正曰：索隱云，西海至東海。<span style="color:transparent;font-size:0px">〉</span></small>要<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本要，取。　鮑本要，謂中。<span style="color:transparent;font-size:0px">〉</span></small>絕天下也。是燕、趙無齊、楚，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補「齊楚」二字。○　補曰：宜從史疊「齊楚」字，是。新序同。<span style="color:transparent;font-size:0px">〉</span></small>無燕、趙也。然後危動燕、趙，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本以危亡之事恐動之。<span style="color:transparent;font-size:0px">〉</span></small>持齊、楚，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本持，劫之也。補曰：史「直搖齊、楚」。新序同。通鑑綱目從之。<span style="color:transparent;font-size:0px">〉</span></small>此四國者，不待痛而服矣。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本痛，急也。不待急攻而服從也。　鮑本痛，言攻伐之酷。春申傳有。補曰：史，昭王曰善，於是止白起，而謝韓、魏，發使賂楚，約為與國。<span style="color:transparent;font-size:0px">〉</span></small>　　<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本惡，音烏。重世之「重」，平聲。藉，音僭。方與音房預。為王之「為」，去聲。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="或為六國說秦王"><span id=".E6.88.96.E7.82.BA.E5.85.AD.E5.9C.8B.E8.AA.AA.E7.A7.A6.E7.8E.8B"></span>或為六國說秦王</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;action=edit&amp;section=10" title="编辑章节：或為六國說秦王"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>或為六國說秦王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本王，王正也。已為始皇帝。<span style="color:transparent;font-size:0px">〉</span></small>曰：「土廣不足以為安，人眾不足以為強。若土廣者安，人眾者強，則桀、紂之後將存。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本言王者以仁義為安強，雖土廣人眾而無仁義，猶將危亡，故桀、紂不能自存也。<span style="color:transparent;font-size:0px">〉</span></small>昔者，趙氏亦嘗<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本曾作「嘗亦」。<span style="color:transparent;font-size:0px">〉</span></small>強矣。曰趙強何若？<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「何若」作「若何」。○　曰，猶言。<span style="color:transparent;font-size:0px">〉</span></small>舉左案齊，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本言舉兵於左，則齊下。案，下也。<span style="color:transparent;font-size:0px">〉</span></small>舉右案魏，厭案<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本厭，言案之不一。正曰：厭，益涉反，培壓也，又伏也。<span style="color:transparent;font-size:0px">〉</span></small>萬乘之國，二國，千乘之宋也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本宋於七國時為千乘，今使齊、魏如之。<span style="color:transparent;font-size:0px">〉</span></small>築剛平，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本趙地，缺。趙敬侯四年築剛平以侵衛，五年，齊、魏為衛取我剛平，皆不注。正曰：正義云，蓋在河北。<span style="color:transparent;font-size:0px">〉</span></small>衛無東野，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本詳此，則剛平，趙取之衛也。<span style="color:transparent;font-size:0px">〉</span></small>芻牧薪采<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本芻，草也，以食馬。牧，養牛人也。大者薪，小者採。正曰：芻，草也。牧，牧人也。<span style="color:transparent;font-size:0px">〉</span></small>莫敢闚東門。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本剛平，衛地。趙築之以為邑，故衛無東野。故衛人芻牧不敢出於東門。<span style="color:transparent;font-size:0px">〉</span></small>當是時，衛危於累卵，天下之士相從謀曰：『吾將還其委質，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本還，反。言改事也。僖二十三年注，委質，屈膝也。正曰：彼注不明，此強節入。「質」，「贄」通，即下文「抱質」，孟子「傳質」是也。委，致也。<span style="color:transparent;font-size:0px">〉</span></small>而朝於邯鄲之君乎！』於是天下有稱伐邯鄲者，莫不令朝行。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「令」上補「夕」字。○　札記今本「令」上有「夕」字，乃誤涉鮑也。丕烈案：此當衍「不」字。「莫」，即「暮」字也。<span style="color:transparent;font-size:0px">〉</span></small>魏伐邯鄲，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本魏惠三十年伐趙，趙告急齊，是以有馬陵之敗。正曰：在後。<span style="color:transparent;font-size:0px">〉</span></small>因退為逢澤之遇，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本遇，會。　鮑本開封東北有逢池，或曰宋之逢澤。<span style="color:transparent;font-size:0px">〉</span></small>乘夏車，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本夏，取其文。禮有夏篆。正曰：乘夏車者，言中夏之車，下文可徵。夏，亥雅反。禮注，夏，赤也。孤東、夏篆，非天子之車。<span style="color:transparent;font-size:0px">〉</span></small>稱夏<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本夏，中國也。<span style="color:transparent;font-size:0px">〉</span></small>王，朝為<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「朝」上補「一」字。○　正曰：朝，音潮，即驅十二諸侯朝天子者。「為」字疑衍。　札記今本「朝」上有「一」字，乃誤涉鮑也。<span style="color:transparent;font-size:0px">〉</span></small>天子，天下皆從。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本皆從其化。<span style="color:transparent;font-size:0px">〉</span></small>齊太公<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本太公，田和也，始伐（「伐」一本作「代」字）呂氏齊侯，謚為太公，齊威王之祖父也。　鮑本「太公」作「宣王」。○　太公和時無此事。補曰：二字有誤。　札記丕烈案：策文本作「太公」，高注即其證矣。鮑改、吳補皆非其意。<span style="color:transparent;font-size:0px">〉</span></small>聞之，舉兵伐魏，壤地兩分，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本兩分魏之壤地。<span style="color:transparent;font-size:0px">〉</span></small>國家大危。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「壤地兩分國家大危」八字。○　補曰：一本此下有「壤地兩分國家大危」八字。　札記丕烈案：高注可證，無者脫耳。<span style="color:transparent;font-size:0px">〉</span></small>梁王身抱質<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「質」，「贄」同，羔雁之屬。<span style="color:transparent;font-size:0px">〉</span></small>執璧，請為陳侯臣，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本陳侯，齊侯也。陳氏篡，呂氏絕，故曰陳侯也。　鮑本齊陳敬仲之後，故稱陳侯。趙成侯二十二年，魏拔邯鄲，齊亦敗魏于桂陵，不至如此所稱，故定為宣王馬陵之役。正曰：按大事記，周顯王十六年，魏惠十八年，齊威二十六年，趙成侯二十二年，魏拔趙邯鄲，服十二諸侯，遂稱王。齊乘其敝，敗之桂陵。二十七年，秦孝公會諸侯於逢澤以朝王。策謂魏伐邯鄲，遂為逢澤之遇。按魏既克邯鄲，即為齊、楚所襲，天下未嘗皆從。當據史書周顯王三十八年，魏惠三十年，齊宣二年，魏伐韓，齊伐魏以救韓，敗魏于馬陵。魏世家書魏伐趙乃往歲事，是時亦田忌、孫臏將，而桂陵、馬陵易混故爾。其後惠王用惠施之言，朝齊以怒楚。魏策有。顯王三十六年，魏惠後二年，齊宣十年，楚成六年，楚伐齊，大敗申縛於泗上。今以此考之，伐邯鄲乃魏惠十八年事，逢澤之遇，秦為之，非魏也。敗魏馬陵，而魏朝之者，齊宣王也。「舉兵伐魏」一語，在會逢澤後，則亦指馬陵之役。而上文伐邯鄲，乃敗桂陵時事。天下皆從，指服泗上十二諸侯言之，亦未免記舛也。大事記又謂，魏為逢澤之遇，天下皆從，又梁君驅十二諸侯以朝天子，語雖不可盡信，但魏自拔邯鄲後稱王，則無可疑者。<span style="color:transparent;font-size:0px">〉</span></small>天下乃釋梁。郢威王聞之，寢不寐，食不飽，帥天下百姓，以與申縛<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>札記今本「縛」作「縳」。丕烈案：「縛」即「縳」字，下同。申縳見齊策。<span style="color:transparent;font-size:0px">〉</span></small>遇於泗水之上，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本威王，懷王父也。郢，楚都也。怒齊人之臣伏魏王，故帥百姓以與申縛遇，而敗之也。申縛，齊將也。　鮑本郢，楚都也。亦避始皇父諱。楚威七年伐齊敗之徐州。縛，齊將。揚之水注，申，諸姜。<span style="color:transparent;font-size:0px">〉</span></small>而大敗申縛。趙人聞之至枝桑，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本地缺。趙記注，「根桑」一曰「平桑」，疑即此。此魏地也，蓋赴魏之難。<span style="color:transparent;font-size:0px">〉</span></small>燕人聞之至格道。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本燕、趙怒齊之臣魏王，故出兵至枝桑、格道，將伐也。<span style="color:transparent;font-size:0px">〉</span></small>格道不通，平際<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本無「際」字。　鮑本二地缺。<span style="color:transparent;font-size:0px">〉</span></small>絕。齊戰敗不勝，謀則不得，使陳毛釋劍掫，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本掫，夜戒，有所擊引也。釋二者，不自衛，示卑也。補曰：掫，側侯反。<span style="color:transparent;font-size:0px">〉</span></small>委南聽罪，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本聽罪於楚子也。　鮑本委去南面之尊。正曰：聽罪於楚。<span style="color:transparent;font-size:0px">〉</span></small>西說趙，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本說，使人解之。<span style="color:transparent;font-size:0px">〉</span></small>北說燕，內喻其百姓，而天下乃齊釋。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本釋，舍。　鮑本不攻齊也。<span style="color:transparent;font-size:0px">〉</span></small>於是夫<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「夫」作「天」，「天」下補「下」字○　正曰：一本「於是夫」，「天」即「夫」之訛。　札記今本「夫」作「天下」二字，乃誤涉鮑也。<span style="color:transparent;font-size:0px">〉</span></small>積薄而為<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本曾、劉本無「為」字。<span style="color:transparent;font-size:0px">〉</span></small>厚，聚少而為<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本曾、劉本無「為」字。<span style="color:transparent;font-size:0px">〉</span></small>多，以同言郢威王於側紂之間。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「紂」當為「牖」，聲之誤也。<span style="color:transparent;font-size:0px">〉</span></small>臣豈以郢威王為政衰謀亂以至於此哉？郢為強，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本絕句。<span style="color:transparent;font-size:0px">〉</span></small>臨天下諸侯，故天下樂伐之也！」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本補曰：「同言郢威王」云云，言天下又欲謀楚也。此章先言趙強而魏伐之，魏強而齊伐之，齊強而楚伐之，楚強而諸侯又謀之。言強者之不足恃，召天下之所惡，而欲共攻之者也。言此欲以止秦之攻，故云「為六國說也」。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<ol class="references">
+<li id="cite&#95;note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">〔校一〕此篇姚本與《秦取楚漢中》連篇，鮑本另列一篇。據文義，從鮑本。</span>
+</li>
+<li id="cite&#95;note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">〔校一〕此篇姚本與《三國攻秦入函谷》連篇。鮑本另列一篇。據文義，從鮑本。</span>
+</li>
+<li id="cite&#95;note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text">〔校一〕此篇姚本與《楚魏戰於陘山》連篇，鮑本另列一篇，據文義，從鮑本。</span>
+</li>
+</ol>
+<table class="ws-noexport noprint ws-footer" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid var(--border-color-content-added,#a3d3ff); background-color: var(--background-color-progressive-subtle,#eaf3ff); width:100%; margin-bottom:0px; text-align:center; color: inherit;">
+<tbody><tr>
+<td width="20%" align="left">　<a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96/%E5%8D%B705" class="mw-redirect" title="戰國策/卷05">卷五‧秦策三</a>
+</td>
+<td><span style="color:#999"> ◄ </span>
+</td>
+<td width="50%" align="center"><a href="#top">↑返回頂部</a>
+</td>
+<td><span style="color:#999"> ► </span>
+</td>
+<td width="20%" align="right"><a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96/%E5%8D%B707" class="mw-redirect" title="戰國策/卷07">卷七‧秦策五</a>
+</td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r4375040">.mw-parser-output .licenseContainer{box-sizing:border-box;margin-top:1em;margin-bottom:0.25em;clear:both;width:auto;page-break-before:always;break-before:page}.mw-parser-output .licenseContainer>div:first-of-type{display:table;border:2px solid var(--border-subtle,#8888aa);border-collapse:collapse;border-spacing:0 0;empty-cells:hide;box-sizing:border-box;margin:0 auto 0 auto;width:100%;background-color:var(--background-color-neutral-subtle,#f7f8ff);color:var(--color-base,#202122)}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child{display:table-row-group}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child{display:table-row}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div{display:table-cell;padding:5px;vertical-align:middle;width:auto}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:first-child{text-align:left}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2){text-align:center}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div{width:100%}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:first-child{display:block;margin:0 auto 0 auto;text-align:left}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2){display:table;border-top:1px solid var(--border-subtle,#8888aa)}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div{display:table-cell;vertical-align:middle}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div:first-child{text-align:center;padding:5px 0;width:40px}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){text-align:left;padding:5px;font-size:92%}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(3){text-align:right}.mw-parser-output .licensetpl{display:none}.mw-parser-output .licenseContainer.wst-collapsible-box{clear:both;margin:0.25em 0 0.25em 0;font-size:95%;background-color:var(--background-color-neutral-subtle,#f7f8ff);color:var(--color-base,#202122);border:2px solid var(--border-subtle,#8888aa);text-align:left;line-height:1.6}.mw-parser-output .wst-license-container-title{display:inline-block;padding:0.5em}.mw-parser-output .wst-license-container-content{background:transparent;color:inherit;margin:0;padding:3px;text-align:left}.mw-parser-output .licenseContainer.warningLicenseContainer>div:first-child{border:2px solid var(--border-color-error,#b22222);background-color:var(--background-color-error-subtle,#ffeeee);color:var(--color-base,#202122)}.mw-parser-output .licenseContainer.warningLicenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2){border:2px solid var(--border-color-error,#b22222);color:var(--color-base,#202122)}</style><div class="licenseContainer licenseBanner dynlayout-exempt">
+<div><div><div><div>
+<p><span class="imageLeft"><span typeof="mw:File"><span><img alt="" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/60px-PD-icon.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="48" height="48" class="mw-file-element" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="196" data-file-height="196" /></span></span></span>
+</p>
+</div><div>
+<div>
+<p>此作品在全世界都属于<b><a href="https://zh.wikipedia.org/wiki/%E5%85%AC%E6%9C%89%E9%A2%86%E5%9F%9F" class="extiw" title="w:公有领域">公有领域</a></b>，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。
+</p>
+</div>
+</div><div>
+<p><span class="noimageRight"></span>
+</p>
+</div></div></div></div>
+<div class="licensetpl">
+<p><span class="licensetpl&#95;short">Public domain</span><span class="licensetpl&#95;long">Public domain</span><span class="licensetpl&#95;link&#95;req">false</span><span class="licensetpl&#95;attr&#95;req">false</span>
+</p>
+</div>
+</div>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐74cdf769bb‐cl75s
+Cached time: 20261015155101
+Cache expiry: 2592000
+Cache expiry source: Template:PD‐old (currentyear)
+Reduced expiry: false
+Complications: [prevent‐selective‐update, show‐toc]
+CPU time usage: 0.121 seconds
+Real time usage: 0.144 seconds
+Preprocessor visited node count: 2187/1000000
+Revision size: 51552/2097152 bytes
+Post‐expand include size: 101849/2097152 bytes
+Template argument size: 38034/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4949/5000000 bytes
+Lua time usage: 0.026/10.000 seconds
+Lua memory usage: 782996/52428800 bytes
+Number of Wikibase entities loaded: 1/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   83.008      1 -total
+ 44.52%   36.953      1 Template:Album_header
+ 34.64%   28.755      1 Template:Plain_sister
+ 27.16%   22.543      1 Template:PD-old
+ 24.65%   20.464      1 Template:License
+  7.12%    5.908    322 Template:*
+  2.81%    2.333      1 Template:Main_subject
+  1.16%    0.967      1 Template:Footer
+-->
+
+<!-- Render ID 3853aead-c8b0-11f1-ab05-5d47c8fc36fd -->
+
+<!-- Saved in parser cache with key zhwikisource:pcache:8593:|#|:idhash:canonical!zh and timestamp 20261015155101 and revision id 2458655. Rendering was triggered because: page_view
+ -->
+</div><noscript><img src="https://zh.wikisource.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikisource.org/w/index.php?title=戰國策_(士禮居叢書本)/秦/四&amp;oldid=2458655">https://zh.wikisource.org/w/index.php?title=戰國策_(士禮居叢書本)/秦/四&amp;oldid=2458655</a>”</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">分类</a>：<ul><li><a href="/wiki/Category:%E5%8A%89%E5%90%91" title="Category:劉向">劉向</a></li><li><a href="/wiki/Category:%E8%A5%BF%E6%BC%A2" title="Category:西漢">西漢</a></li><li><a href="/wiki/Category:PD-old" title="Category:PD-old">PD-old</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			<footer id="footer" class="mw-footer" >
+				<ul id="footer-info" class="mw-portlet mw-portlet-footer-info">
+	<li id="footer-info-lastmod"> 此页面最后编辑于2024年10月7日 (星期一) 08:13。</li>
+	<li id="footer-info-copyright">本站的全部文字在<a rel="nofollow" class="external text" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">知识共享 署名-相同方式共享 4.0协议</a>之条款下提供，附加条款亦可能应用。（请参阅<a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">使用条款</a>）<br />在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（<b><a href="/wiki/Wikisource:%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF" title="Wikisource:版权信息">详情</a></b>）。<br />
+Wikisource&#174;和维基文库标志是<a rel="nofollow" class="external text" data-mw-original-href="//wikimediafoundation.org/zh" href="https://wikimediafoundation.org/zh">维基媒体基金会</a>的注册商标；维基&#8482;是维基媒体基金会的商标。<br />维基媒体基金会是在美国佛罗里达州登记的501(c)(3)<a class="external text" data-mw-original-href="//donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility" href="https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility">免税</a>、非营利、慈善机构。<br /></li>
+</ul>
+
+				<ul id="footer-places" class="mw-portlet mw-portlet-footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">隐私政策</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikisource:%E5%85%B3%E4%BA%8E">关于维基文库</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikisource:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">法律与安全事项联系方式</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">行为准则</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikisource.org">统计</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie声明</a></li>
+	<li id="footer-places-mobileview"><a href="//zh.wikisource.org/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E7%A7%A6/%E5%9B%9B&amp;oldid=2458655&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">移动版视图</a></li>
+</ul>
+
+				<ul id="footer-icons" class="mw-portlet mw-portlet-footer-icons noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+			</footer>
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="搜索Wikisource内容">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">搜索</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<nav aria-label="目录" class="vector-toc-landmark">
+						
+					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
+						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="开关目录"   >
+						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">开关目录</span>
+						</label>
+						<div class="vector-dropdown-content">
+					
+						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
+						</div>
+					
+						</div>
+					</div>
+			</nav>
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true" ><span lang="zh" dir="ltr"><span class="mw-page-title-main">戰國策 (士禮居叢書本)/秦/四</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock cdx-button__icon"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language cdx-button__icon"></span>
+
+<span>添加语言</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive cdx-button__icon"></span>
+
+<span>添加话题</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-bc9749c55-f256x","wgBackendResponseTime":201,"wgPageParseReport":{"limitreport":{"cputime":"0.121","walltime":"0.144","ppvisitednodes":{"value":2187,"limit":1000000},"revisionsize":{"value":51552,"limit":2097152},"postexpandincludesize":{"value":101849,"limit":2097152},"templateargumentsize":{"value":38034,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4949,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%   83.008      1 -total"," 44.52%   36.953      1 Template:Album_header"," 34.64%   28.755      1 Template:Plain_sister"," 27.16%   22.543      1 Template:PD-old"," 24.65%   20.464      1 Template:License","  7.12%    5.908    322 Template:*","  2.81%    2.333      1 Template:Main_subject","  1.16%    0.967      1 Template:Footer"]},"scribunto":{"limitreport-timeusage":{"value":"0.026","limit":"10.000"},"limitreport-memusage":{"value":782996,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-74cdf769bb-cl75s","timestamp":"20261015155101","ttl":2592000,"transientcontent":false,"expiry-source":"Template:PD-old (currentyear)"}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u6230\u570b\u7b56 (\u58eb\u79ae\u5c45\u53e2\u66f8\u672c)\/\u79e6\/\u56db","url":"https:\/\/zh.wikisource.org\/wiki\/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)\/%E7%A7%A6\/%E5%9B%9B","sameAs":"http:\/\/www.wikidata.org\/entity\/Q85368185","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q85368185","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u57fa\u91d1\u4f1a","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-12-22T00:19:13Z","dateModified":"2024-10-07T08:13:10Z"}</script>
+</body>
+</html>

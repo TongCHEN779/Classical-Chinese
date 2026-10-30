@@ -8,12 +8,12 @@ from zhenglun_changyan_common import source_parts,restore,digest
 from check_liaozhai import Reader
 ap=argparse.ArgumentParser();ap.add_argument('--report',type=Path);args=ap.parse_args()
 j=json.loads((ROOT/'sources/zhanguoce/progress.json').read_text());rows=[]
-assert [p['slug']for p in j['pages']]==[f'xu{i:02}'for i in range(1,7)]+['dongzhou','xizhou']+[f'fu{i:02}'for i in range(1,7)]
+assert [p['slug']for p in j['pages']]==[f'xu{i:02}'for i in range(1,7)]+['dongzhou','xizhou']+[f'qin{i:02}'for i in range(1,6)]+[f'fu{i:02}'for i in range(1,7)]
 for p in j['pages']:
  snap=json.loads((ROOT/p['source']['snapshot']).read_text());covered=list(p['preface_block_indices'])+p.get('source_heading_indices',[]);ts_all=[];nc=0
  raw_path=ROOT/snap['raw_snapshot'];assert digest(raw_path.read_text())==snap['raw_sha256']
  assert snap['revision']==p['source']['revision']
- if p['slug'] in ['dongzhou','xizhou']:
+ if p['slug'] in ['dongzhou','xizhou']or p.get('kind')=='body':
   assert [b['text'] for b in snap['blocks'] if b['type']=='h2']==[u['title'] for u in p['units']]
  for hi in p.get('source_heading_indices',[]):
   assert snap['blocks'][hi]['text'] in [u['title'] for u in p['units']]
@@ -22,9 +22,10 @@ for p in j['pages']:
   covered.extend(u['source_block_indices']);raw='\n'.join(snap['blocks'][i]['text'] for i in u['source_block_indices']);main,notes,breaks=source_parts(raw)
   assert digest(raw)==u['raw_sha256'] and digest(main)==u['main_sha256']
   assert notes==u['source_notes'] and breaks==u['format_breaks'];assert restore(restore(main,notes),breaks)==raw
-  path=ROOT/'src/zhanguoce'/p['slug']/(u['id']+'.txt');secs=build.parse_poems([path]);assert len(secs)==1 and secs[0]['intro'] and len(secs[0]['chunks'])==1
-  c=secs[0]['chunks'][0];assert c['o']==main;ts=c['t'].split('¦');assert len(ts)==len(build.split_sents(main))==u['sentence_pairs'];assert all(t.strip() for t in ts)
-  assert len(build.split_pairs(main,c['t']))==len(ts)
+  path=ROOT/'src/zhanguoce'/p['slug']/(u['id']+'.txt');secs=build.parse_poems([path]);assert len(secs)==1 and secs[0]['intro']
+  chunks=secs[0]['chunks'];assert len(chunks)==(2 if p['slug']=='qin04'and u['id']=='004'else 1)
+  c=chunks[0];assert ''.join(x['o']for x in chunks)==main;ts=[t for x in chunks for t in x['t'].split('¦')];assert len(ts)==len(build.split_sents(main))==u['sentence_pairs'];assert all(t.strip() for t in ts)
+  assert all(len(build.split_pairs(x['o'],x['t']))==len(x['t'].split('¦'))for x in chunks)
   apparatus=[f'底本原注{k:03}（主文第{n["main_offset"]}字后）：'+n['text'] for k,n in enumerate(notes,1)]
   if idx==0 and p['preface_block_indices']:apparatus=['底本卷首注（非本篇主文）：'+snap['blocks'][0]['text']]+apparatus
   assert c['notes'][:len(apparatus)]==apparatus
@@ -38,7 +39,7 @@ for p in j['pages']:
  for target,count in reader.buttons:assert reader.lists[target]==count
  rows.append(dict(page=p['slug'],chapters=len(p['units']),sentence_pairs=len(ts_all),notes=nc))
 home=(ROOT/'index.html').read_text();assert 'zhanguoce/index.html' in home and 'book-search' in home
-report=dict(pages=rows,completed_units=sum(r['chapters'] for r in rows),body_chapters=sum(r['chapters'] for r in rows if r['page']in ['dongzhou','xizhou']),prefaces=6,appendices=6,sentence_pairs=sum(r['sentence_pairs'] for r in rows),notes=sum(r['notes'] for r in rows),source_coverage=True,source_reconstruction=True,raw_snapshot_hashes=True,rendered_pairs=True,note_counts=True,whole_book_complete=False,browser_visual_check=False)
+report=dict(pages=rows,completed_units=sum(r['chapters'] for r in rows),body_chapters=sum(r['chapters'] for r in rows if r['page']in j['completed_volumes']),prefaces=6,appendices=6,sentence_pairs=sum(r['sentence_pairs'] for r in rows),notes=sum(r['notes'] for r in rows),source_coverage=True,source_reconstruction=True,raw_snapshot_hashes=True,rendered_pairs=True,note_counts=True,whole_book_complete=False,browser_visual_check=False)
 assert report['completed_units']==j['completed_units'];assert report['sentence_pairs']==j['sentence_pairs'];assert report['notes']==j['notes']
 if args.report:args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))
