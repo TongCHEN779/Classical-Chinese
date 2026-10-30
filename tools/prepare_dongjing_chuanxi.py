@@ -18,8 +18,6 @@ import prepare_zizhitongjian_fulu as fulu   # shared validator: check_out / stri
 PIECE = 6500
 CN = '一二三四五六七八九十'
 TITLES = {'donglinghualu': '东京梦华录', 'chuanxilu': '传习录'}
-GROUP = {'以下门人徐爱录': '徐爱录', '以下门人陆澄录': '陆澄录', '以下门人薛侃录': '薛侃录', '门人陈九川录': '陈九川录',
-         '以下门人黄修易录': '黄修易录', '以下门人黄省曾录': '黄省曾录', '此后黄以方录': '黄以方录'}
 # 传习录页：(slug, 页名, [所含 h2])；h2 为卷内原站标题（“又”“二”依上文补全）
 CX_PAGES = [
     ('shang1', '卷上·徐爱录（含引言、跋）', '卷上', ['徐爱引言', '以下门人徐爱录', '徐爱跋']),
@@ -88,8 +86,7 @@ def cx_pages():
                 n = None
             elif b['type'] == 'h3':
                 n = t
-                tag = GROUP.get(grp, grp)
-                groups[grp][1].append({'title': f'第{n}条·{tag}', 'paras': []})
+                groups[grp][1].append({'title': f'第{n}条', 'paras': []})
             elif b['type'] == 'p':
                 if n is None:
                     if not groups[grp][1]:
