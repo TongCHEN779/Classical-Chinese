@@ -209,7 +209,8 @@ def main():
             cur['items'].append((t, el.get_text(strip=True)))
     ji_groups = [g for g in groups if g['ji'] != '附録']
     appendix = next(g for g in groups if g['ji'] == '附録')
-    appendix['items'] = [x for x in appendix['items'] if 'zh.wikipedia' not in x[0] and x[1] != '公有领域' and 'http' not in x[0]]
+    appendix['items'] = [x for x in appendix['items'] if 'zh.wikipedia' not in x[0] and x[1] != '公有领域' and 'http' not in x[0]
+                         and '四庫全書本' not in x[0] and '四部叢刊本' not in x[0]]   # edition pages are out of scope
     vol_titles = [t for g in ji_groups for t, _ in g['items']]
     assert vol_titles == [f'{TITLE}/卷{i:03}' for i in range(1, 295)], 'volume links are not 卷001..卷294 in order'
     heads = raw_wikitext(vol_titles + [t for t, _ in appendix['items']])

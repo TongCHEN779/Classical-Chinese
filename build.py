@@ -658,13 +658,14 @@ def _zizhitongjian_spec():
             if v["ji"] == ji["name"]:
                 span = year(v["start_year"]) if v["start_year"] == v["end_year"] else f"{year(v['start_year'])}—{year(v['end_year'])}"
                 pages.append((v["slug"], f"卷{cn(v['n'])}·{v['name']}｜{span}"))
-    pages.append((None, f"附录（{len(cat['appendix'])}项）"))
-    for k, a in enumerate(cat["appendix"], 1):
-        pages.append((f"fulu{k:02}", a["label"]))
-    return {"title": "资治通鉴", "author": "［宋］司马光 撰，［元］胡三省 音注", "unit": "卷", "summary_unit": "卷", "wide_index": True,
-            "intro": "编年体通史，记战国（前403年）至五代后周（959年），共294卷、16纪，另有目录、考异等附录。"
-                     "据维基文库《資治通鑑》，现仅整理目录：纪、卷次、卷名、起止干支与公元纪年；正文、白话、注释尚未开始。",
-            "index_footer": "目录阶段：16纪294卷及附录12项已登记，均待整理；纪年起止据各卷卷首“起…尽…凡…年”换算，个别卷首缺载者据正文年份标目推得，详见 sources/zizhitongjian/README.md。",
+    fulu = json.loads((ROOT / "sources/zizhitongjian/progress.json").read_text(encoding="utf8"))["pages"]
+    pages.append((None, f"附录（{len(fulu)}篇）"))
+    pages.extend((p["slug"], p["title"]) for p in fulu)
+    return {"title": "资治通鉴", "author": "［宋］司马光 撰，［元］胡三省 音注", "unit": "卷", "summary_unit": "卷", "wide_index": True, "no_count": True,
+            "intro": "编年体通史，记战国（前403年）至五代后周（959年），共294卷、16纪。"
+                     "据维基文库《資治通鑑》，现已整理目录（纪、卷次、卷名、起止干支与公元纪年）和附录；294卷正文、白话、注释尚未开始。",
+            "index_footer": "附录含新注序、宋神宗序、进书表、奖谕诏书、校勘人姓名、释例，以及刘恕《资治通鉴外纪》序和卷四至卷十（外纪卷一至卷三在维基文库仅见四库全书本，未收）；"
+                            "每篇配逐句白话、题解与注释，外纪卷四、卷五原站标点不全，已补标点。正文各卷尚待整理；纪年起止据各卷卷首“起…尽…凡…年”换算，个别卷首缺载者据正文年份标目推得，详见 sources/zizhitongjian/README.md。",
             "pages": pages}
 
 
