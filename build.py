@@ -293,7 +293,7 @@ SHIJING_PAGES = [
     ("xiaoya", "小雅"), ("daya", "大雅"), ("songzhou", "周颂"), ("lusong", "鲁颂"), ("shangsong", "商颂"),
 ]
 GUWEN_PAGES = [
-    ("juan01", "卷一·周文"), ("juan02", "卷二·周文"), ("juan03", "卷三·周文"), ("juan04", "卷四·战国文"),
+    ("xu", "序一、序二、例言"), ("juan01", "卷一·周文"), ("juan02", "卷二·周文"), ("juan03", "卷三·周文"), ("juan04", "卷四·战国文"),
     ("juan05", "卷五·秦汉文"), ("juan06", "卷六·汉文"), ("juan07", "卷七·六朝唐文"), ("juan08", "卷八·唐文"),
     ("juan09", "卷九·唐宋文"), ("juan10", "卷十·宋文"), ("juan11", "卷十一·宋文"), ("juan12", "卷十二·明文"),
 ]
@@ -699,6 +699,7 @@ def _chuanxilu_spec():
         [("卷上", ("shang",)), ("卷中", ("zhong",)), ("卷下", ("xia",))])
 
 
+_guwen_xu = json.loads((ROOT / "sources/guwenguanzhi/wikisource/xu.json").read_text(encoding="utf8"))
 POETRY = {
     "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
@@ -728,8 +729,9 @@ POETRY = {
                 "intro": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
                 "pages": SHISHUO_PAGES},
     "guwenguanzhi": {"title": "古文观止", "author": "［清］吴楚材、吴调侯 选编", "unit": "篇",
-                     "intro": "清人选编的古文选本，自先秦至明代共二百二十二篇，分十二卷，为古文入门的经典读本。",
-                     "pages": GUWEN_PAGES},
+                     "intro": "清人选编的古文选本，自先秦至明代共二百二十二篇，分十二卷，为古文入门的经典读本；卷首另收两篇序和例言。",
+                     "pages": GUWEN_PAGES,
+                     "page_sources": {"xu": {**{k: _guwen_xu[k] for k in ("title", "url", "revision")}, "after": "原站标点保持不变；疑误字只在注中说明。"}}},
     "chuci": {"title": "楚辞", "author": "［战国］屈原等", "intro": CHUCI_INTRO, "pages": CHUCI_PAGES},
     "shijing": {"title": "诗经", "author": "［先秦］佚名",
                 "intro": "中国最早的诗歌总集，分风、雅、颂三部分。国风收十五国风土歌谣一百六十首；小雅、大雅为朝廷宴飨、朝会之乐；颂为宗庙祭祀之乐。",
