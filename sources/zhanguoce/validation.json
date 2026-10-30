@@ -79,6 +79,42 @@
       "notes": 295
     },
     {
+      "page": "qi01",
+      "chapters": 17,
+      "sentence_pairs": 245,
+      "notes": 417
+    },
+    {
+      "page": "qi02",
+      "chapters": 8,
+      "sentence_pairs": 96,
+      "notes": 140
+    },
+    {
+      "page": "qi03",
+      "chapters": 12,
+      "sentence_pairs": 192,
+      "notes": 277
+    },
+    {
+      "page": "qi04",
+      "chapters": 11,
+      "sentence_pairs": 252,
+      "notes": 295
+    },
+    {
+      "page": "qi05",
+      "chapters": 1,
+      "sentence_pairs": 123,
+      "notes": 184
+    },
+    {
+      "page": "qi06",
+      "chapters": 10,
+      "sentence_pairs": 202,
+      "notes": 265
+    },
+    {
       "page": "fu01",
       "chapters": 1,
       "sentence_pairs": 14,
@@ -115,12 +151,12 @@
       "notes": 13
     }
   ],
-  "completed_units": 148,
-  "body_chapters": 109,
+  "completed_units": 207,
+  "body_chapters": 168,
   "prefaces": 6,
   "appendices": 6,
-  "sentence_pairs": 1880,
-  "notes": 2901,
+  "sentence_pairs": 2990,
+  "notes": 4479,
   "source_coverage": true,
   "source_reconstruction": true,
   "raw_snapshot_hashes": true,

@@ -8,7 +8,7 @@ from zhenglun_changyan_common import source_parts,restore,digest
 from check_liaozhai import Reader
 ap=argparse.ArgumentParser();ap.add_argument('--report',type=Path);args=ap.parse_args()
 j=json.loads((ROOT/'sources/zhanguoce/progress.json').read_text());rows=[]
-assert [p['slug']for p in j['pages']]==[f'xu{i:02}'for i in range(1,7)]+['dongzhou','xizhou']+[f'qin{i:02}'for i in range(1,6)]+[f'fu{i:02}'for i in range(1,7)]
+assert [p['slug']for p in j['pages']]==[f'xu{i:02}'for i in range(1,7)]+['dongzhou','xizhou']+[f'qin{i:02}'for i in range(1,6)]+[f'qi{i:02}'for i in range(1,7)]+[f'fu{i:02}'for i in range(1,7)]
 for p in j['pages']:
  snap=json.loads((ROOT/p['source']['snapshot']).read_text());covered=list(p['preface_block_indices'])+p.get('source_heading_indices',[]);ts_all=[];nc=0
  raw_path=ROOT/snap['raw_snapshot'];assert digest(raw_path.read_text())==snap['raw_sha256']

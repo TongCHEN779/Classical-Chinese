@@ -589,7 +589,7 @@ def _mengxi_spec():
 
 def _zhanguoce_spec():
     progress = json.loads((ROOT / "sources/zhanguoce/progress.json").read_text(encoding="utf8"))
-    status = "六篇序、六篇附文、东周28篇、西周17篇及秦策一至五64篇已完成注译；其余二十六卷待整理，全书尚未完成。"
+    status = "六篇序、六篇附文、东周28篇、西周17篇、秦策五卷64篇及齐策六卷59篇已完成注译；其余二十卷待整理，全书尚未完成。"
     return {"title": "战国策（士礼居丛书本）", "author": "［汉］刘向编｜［清］黄丕烈札记",
             "unit": "项", "summary_unit": "项", "count_entries": True, "strict_pairs": True, "side_toc": True,
             "index_footer": status,
