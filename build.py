@@ -33,9 +33,9 @@ BOOKS = [
         "slug": "rongzhai",
         "title": "容斋随笔",
         "author": "［宋］洪迈",
-        "intro": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。"
-                 "内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
+        "intro": "",
         "parts": [
+            ("xu", "容斋随笔序", "洪迈《随笔》刻本序", 1, "序"),
             ("bi1", "容斋随笔", "第一笔", 16),
             ("bi2", "容斋续笔", "第二笔", 16),
             ("bi3", "容斋三笔", "第三笔", 16),
@@ -214,7 +214,8 @@ def render_entry(i, e):
 
 
 def build_juan(book, part, vol, src_path, avail):
-    pslug, ptitle, pord, nvol = part
+    pslug, ptitle, pord, nvol = part[:4]
+    is_xu = len(part) > 4
     heading, entries = parse_juan(src_path)
     r = "../../"
     toc = "".join(f'<li><a href="#e{i}">{esc(e["title"])}</a></li>' for i, e in enumerate(entries, 1))
@@ -222,6 +223,8 @@ def build_juan(book, part, vol, src_path, avail):
                  else '<span class="off">&nbsp;</span>')
     next_html = (f'<a href="juan{vol+1:02d}.html">卷{cn(vol+1)} →</a>' if (vol + 1) in avail
                  else '<span class="off">下一卷：待整理</span>')
+    if is_xu:
+        prev_html = next_html = '<span class="off">&nbsp;</span>'
     body = f"""<header class="top">
 {crumbs([("古典文库", r + "index.html"), (book["title"], "../index.html"), (ptitle, None)])}
 <h1>{esc(ptitle)}<small>{esc(pord)}</small></h1>
@@ -253,19 +256,20 @@ def build_book(book):
             vol = int(f.stem[4:])
             done[(part[0], vol)] = build_juan(book, part, vol, f, avail)
     sections = []
-    for pslug, ptitle, pord, nvol in book["parts"]:
+    for part in book["parts"]:
+        pslug, ptitle, pord, nvol = part[:4]
         cells = []
         for v in range(1, nvol + 1):
-            label = f"卷{cn(v)}"
+            label = part[4] if len(part) > 4 else f"卷{cn(v)}"
             if (pslug, v) in done:
                 cells.append(f'<li class="ok"><a href="{pslug}/juan{v:02d}.html">{label}<small>{done[(pslug, v)]}则</small></a></li>')
             else:
                 cells.append(f'<li class="todo"><span>{label}<small>待整理</small></span></li>')
-        sections.append(f'<section class="part"><h2>{esc(ptitle)}<small>{esc(pord)} · 共{nvol}卷</small></h2><ul class="vols">{"".join(cells)}</ul></section>')
+        sections.append(f'<section class="part"><h2>{esc(ptitle)}<small>{esc(pord)}{'' if len(part) > 4 else f' · 共{nvol}卷'}</small></h2><ul class="vols">{"".join(cells)}</ul></section>')
     body = f"""<header class="top">
 {crumbs([("古典文库", "../index.html"), (book["title"], None)])}
 <h1>{esc(book["title"])}<small>{esc(book["author"])}</small></h1>
-<p class="intro">{esc(book["intro"])}</p>
+{intro_html(book["slug"])}
 </header>
 <main>{"".join(sections)}</main>
 <footer>已整理 {sum(done.values())} 则。</footer>"""
@@ -282,10 +286,8 @@ CHUCI_PAGES = [
     ("qijian", "七谏"), ("aishiming", "哀时命"), ("jiuhuai", "九怀"), ("jiutan", "九叹"),
     ("jiusi", "九思"),
 ]
-CHUCI_INTRO = ("战国楚人屈原及其后学的辞赋总集，由西汉刘向辑成，东汉王逸作注。"
-               "此处依今人注译本整理：原文、注释、译文俱全。")
-
 SHIJING_PAGES = [
+    ("xu", "毛诗序"),
     ("zhounan", "周南"), ("shaonan", "召南"), ("beifeng", "邶风"), ("yongfeng", "鄘风"),
     ("weifeng", "卫风"), ("wangfeng", "王风"), ("zhengfeng", "郑风"), ("qifeng", "齐风"),
     ("weifeng2", "魏风"), ("tangfeng", "唐风"), ("qinfeng", "秦风"), ("chenfeng", "陈风"),
@@ -298,6 +300,7 @@ GUWEN_PAGES = [
     ("juan09", "卷九·唐宋文"), ("juan10", "卷十·宋文"), ("juan11", "卷十一·宋文"), ("juan12", "卷十二·明文"),
 ]
 SHISHUO_PAGES = [
+    ("xu", "序"),
     ("dexing", "德行第一"), ("yanyu", "言语第二"), ("zhengshi", "政事第三"), ("wenxue", "文学第四"),
     ("fangzheng", "方正第五"), ("yaliang", "雅量第六"), ("shijian", "识鉴第七"), ("shangyu", "赏誉第八"),
     ("pinzao", "品藻第九"), ("guizhen", "规箴第十"), ("jiewu", "捷悟第十一"), ("suhui", "夙惠第十二"),
@@ -350,7 +353,7 @@ def _liaozhai_spec():
             "count": lambda secs: (sum(bool(s["chunks"]) for s in secs), "篇"),
             "index_footer": status,
             "page_sources": page_sources,
-            "intro": "文言短篇小说集，写狐鬼花妖、世态人情。保留中华书局全本全注全译本的十二卷篇序；后续原文改取维基文库，继续逐句配自撰白话、注释与题解。" + status,
+            "intro": "",
             "pages": [("zizhi", "聊斋自志")] + [
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}" +
                  ("（整理中）" if v["status"] == "in_progress" else "")) for v in volumes
@@ -365,11 +368,10 @@ def _huainanzi_spec():
     status = ("二十一卷全部整理完成。" if len(completed_volumes) == 21 else
               ("已完成" + "、".join(completed_volumes) + "，其余正文待整理。" if completed_volumes else "全文仍在整理中。"))
     return {"title": "淮南子", "author": "［西汉］刘安及其门客", "unit": "节",
-            "page_sources": {f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
-                             for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v.get("entries", []))},
-            "intro": "西汉思想著作，共二十一卷。已完成卷依中华书局陈广忠译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
-                     + f"目前已整理{complete}节。" + status + "分节编号及小标题为整理者所加。",
-            "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
+            "page_sources": {"xu": _xu_source("huainanzi"), **{f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
+                             for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v.get("entries", []))}},
+            "intro": "",
+            "pages": [("xu", "叙（高诱）")] + [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
                        ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
 
 
@@ -384,8 +386,7 @@ def _songlun_spec():
             "count_entries": True, "summary_unit": "篇",
             "page_sources": {f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
                              for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v.get("entries", []))},
-            "intro": "评论宋代政治得失的史论，共十五卷。已完成卷依中华书局刘韶军译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
-                     + f"目前已整理{complete}篇。" + status + "保留原书篇序，篇序后的概括性小标题为整理者所加。",
+            "intro": "",
             "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
                        ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
 
@@ -401,8 +402,7 @@ def _yantielun_spec():
             "count_entries": True, "summary_unit": "篇",
             "page_sources": {f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
                              for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v["entries"])},
-            "intro": "记述汉昭帝始元六年盐铁会议的政论著作，共十卷六十篇。卷一依中华书局陈桐生译注本校录，卷二起原文取维基文库；白话、独立注释与题解均自撰。"
-                     + f"目前已整理{complete}篇。" + status,
+            "intro": "",
             "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}" +
                        ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
 
@@ -419,9 +419,7 @@ def _yuewei_spec():
             "count_entries": True, "summary_unit": "项",
             "page_sources": {f"juan{v['volume']:02d}": next(e["review"] for e in v["entries"] if e.get("review", {}).get("source") == "wikisource")
                              for v in progress["volumes"] if any(e.get("review", {}).get("source") == "wikisource" for e in v.get("entries", []))},
-            "intro": "清代文言笔记，含《滦阳消夏录》《如是我闻》《槐西杂志》《姑妄听之》《滦阳续录》五种，共二十四卷。已完成部分依中华书局韩希明译注本校录，后续原文改取维基文库，继续配自撰逐句白话、独立注释与题解。"
-                     + f"目前已整理{stories}则正文，另收原序、郑序、自题诗二首、各卷卷首自记及卷二十四附录《纪汝佶六则》。" + status
-                     + "原书各则没有篇题，编号与概括标题为整理者所加；目录项数含序、诗与自记。",
+            "intro": "",
             "pages": [(f["slug"], f["title"]) for f in progress["front_matter"]] + [
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}" +
                  ("（整理中）" if v["status"] == "in_progress" else "")) for v in progress["volumes"]]}
@@ -436,7 +434,7 @@ def _mudanting_spec():
     if (ROOT / "src/mudanting/fu/01.txt").exists():
         pages.append(("fu", "附·杜丽娘慕色还魂话本"))
     return {"title": "牡丹亭", "author": "［明］汤显祖", "unit": "出", "no_tip": True, "side_toc": True,
-            "intro": "明代传奇名剧，又名《还魂记》，全五十五出，写杜丽娘因梦生情、因情而死、又因情复生的故事。曲词半文半白，故只录原文，随段附少量注释；卷末附话本《杜丽娘慕色还魂》。",
+            "intro": "",
             "pages": pages}
 
 
@@ -450,7 +448,7 @@ def _hongloumeng_spec():
         no, _, name = head.partition(" ")
         pages.append((d.name, f"{no}·{name}"))
     return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True, "no_tip": True, "side_toc": True,
-            "intro": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。据维基文库汇校本（前八十回以庚辰本为底本，后四十回以程甲本为底本，不含批语），转为简体；白话原文直读，不设悬浮。",
+            "intro": "",
             "pages": pages}
 
 
@@ -459,9 +457,7 @@ def _xianqing_spec():
     progress = json.loads((ROOT / "sources/xianqing/progress.json").read_text(encoding="utf8"))
     return {"title": "闲情偶寄", "author": "［清］李渔", "unit": "项",
             "count_entries": True, "summary_unit": "项",
-            "intro": "清代戏曲与生活艺术论著，八部合为六卷。卷前二序与凡例、卷一《词曲部上》依本地中华书局杜书瀛译注本校录；"
-                     "卷二至卷六（词曲部下、演习部、声容部、居室部、器玩部、饮馔部、种植部、颐养部）据维基文库收录，全部配自撰逐句白话、独立注释与题解。"
-                     "目录项数含总论与卷前材料，不等于原书款数；《演习部·脱套第五》因维基文库页面误录，改据 Project Gutenberg 电子书。",
+            "intro": "",
             "pages": [(f["slug"], f["title"]) for f in progress["front_matter"]] + [
                 (f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}·{v['title']}") for v in progress["volumes"]]}
 
@@ -475,8 +471,7 @@ def _xiaochuang_spec():
             "count": lambda secs: (sum(1 for s in secs if s["title"].isdigit()), "则"),
             "no_tip": True, "side_toc": True, "count_entries": True, "summary_unit": "项",
             "original_only": True,
-            "intro": "又名《醉古堂剑扫》，清言小品集，共十二卷：集醒、集情、集峭、集灵、集素、集景、集韵、集奇、集绮、集豪、集法、集倩。据维基文库简体版收录十二卷及引、自叙、凡例，保留原站校勘记与缺文标记。"
-                     + f"全书{translated}段均配逐句白话（含卷首署名），共{notes}条编者注释；条目编号为整理者所加。",
+            "intro": "",
             "index_footer": f"原文收录1547段；已配白话与编者注释{translated}段。原站校勘记另列，不计作编者注释。",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_options": {p["slug"]: {"no_tip": False,
@@ -498,8 +493,7 @@ def _canying_spec():
             "count_entries": True, "summary_unit": "段",
             "reading_hint": "原文阅读版；白话译文与编者释义尚待整理。括号内为底本夹注，〔缺字〕标记原站未能显示的旧字库字形。左侧编号沿用原站段号。",
             "original_footer": "底本夹注保留在正文括号中；未据影印本逐字校勘。分页与目录摘句为整理者所加，不代表原书卷目。",
-            "intro": "清末民初况周颐的笔记，涉及典章、科举、人物、诗词与金石。据用户选定的中国哲学书电子化计划底本收录全文390段，分13页阅读，保留原站632处夹注。"
-                     + status + "原站旧字库缺字逐处标明，不猜补。段号沿用原站，目录标题与题解为编者所加。",
+            "intro": "",
             "index_footer": f"原文收录390段；已配白话、题解与编者注释{len(completed)}段。",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_options": {p["slug"]: {"no_tip": False,
@@ -524,7 +518,7 @@ def _four_classics_spec(slug):
                if slug == "xixiangji" else {"no_count": True}),
             "index_footer": f"正文 {progress['chapter_count']} {meta['unit']}；另收全书题解及所选版本附文。",
             "reading_hint": "原文直读；点击“题解”“注释”可展开。附基础导读注释，不设白话译文。",
-            "intro": meta["intro"],
+            "intro": "",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
 
@@ -534,7 +528,7 @@ def _shangjunshu_spec():
     progress = json.loads((ROOT / "sources/shangjunshu/progress.json").read_text(encoding="utf8"))
     return {"title": "商君书", "author": "［战国］商鞅及后学（旧题商鞅）", "unit": "目",
             "count_entries": True, "summary_unit": "目",
-            "intro": "法家著作，又名《商子》，讨论变法、耕战、赏刑与法令。依维基文库五卷本整理，现存24篇正文逐句配自撰白话、题解与独立注释；《刑约》《御盗》两篇保留缺佚说明。传文疑误字保留并注。",
+            "intro": "",
             "index_footer": "五卷26目：24篇现存正文，另2目正文亡佚。",
             "pages": [(f"juan{v['volume']:02d}", f"卷{cn(v['volume'])}") for v in progress["volumes"]],
             "page_sources": {f"juan{v['volume']:02d}": v["source"] for v in progress["volumes"]}}
@@ -546,8 +540,7 @@ def _zuozhuan_spec():
     return {"title": "春秋左传", "author": "［春秋］左丘明（相传）", "unit": "年",
             "count_entries": False,
             "count": lambda secs: (len({s["title"].split("·")[0] for s in secs}), "年"),
-            "intro": "先秦编年体史书，依《春秋》经文纪年，记鲁隐公元年至哀公二十七年（前722—前468）及附记之事，是春秋历史叙事与辞令的代表。"
-                     "据维基文库收录杜预序与十二公全文，逐句配自撰白话，并有题解与词条注释；经、传分条，注释偏重人名地名、礼制与笔法术语。",
+            "intro": "",
             "pages": [("tijie", "全书题解")] + [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
 
@@ -564,7 +557,7 @@ def _zhenglun_changyan_spec():
               + ("所据辑本整理完成。" if progress["status"] == "complete" else "合目尚未完成。"))
     return {"title": "政论·昌言", "author": "［东汉］崔寔／仲长统", "unit": "项",
             "count_entries": True, "summary_unit": "项", "index_footer": status,
-            "intro": "东汉两部政论著作合目，分别署崔寔《政论》、仲长统《昌言》。原书多佚，据维基文库现存辑本整理，保留引书、异文、阙题与缺佚说明，不补造亡文。" + status,
+            "intro": "",
             "pages": [(p["slug"], p["title"]) for p in pages],
             "page_sources": {p["slug"]: dict(p["source"], after="底本〈夹注〉原样分条移入注释，原位映射保存在来源进度中；")
                              for p in pages if "source" in p},
@@ -581,7 +574,7 @@ def _mengxi_spec():
     status = f"已注译{done}/{total}个原文段落单元；段落不等同原书条数。全书整理中。"
     return {"title": "梦溪笔谈", "author": "［北宋］沈括", "unit": "段",
             "count_entries": True, "summary_unit": "段", "index_footer": status,
-            "intro": "据维基文库通行电子辑录整理，范围含四库提要、作者自序、正文二十六卷、补笔谈三卷和续笔谈十一篇。提要另署清代馆臣，不混用另名版本。" + status,
+            "intro": "",
             "pages": [(p["slug"], p["title"] + (f"（已译{sum(u['status'] == 'complete' for u in p['units'])}/{len(p['units'])}段）"
                        if p.get("annotation_status") == "in_progress" else "")) for p in pages],
             "page_sources": {p["slug"]: p["source"] for p in pages if "source" in p}}
@@ -596,7 +589,7 @@ def _zhanguoce_spec():
     return {"title": "战国策（士礼居丛书本）", "author": "［汉］刘向编｜［清］黄丕烈札记",
             "unit": "项", "summary_unit": "项", "count_entries": True, "strict_pairs": True, "side_toc": True,
             "index_footer": status,
-            "intro": "仅据维基文库《戰國策 (士禮居叢書本)》，保留所载姚本、鲍本等校注及札记，疑字照录加注。" + status,
+            "intro": "",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_sources": {p["slug"]: dict(p["source"], after="底本夹注分条移入注释；卷首注附于首篇，原位映射另存。题解、白话与编者释词为自撰。") for p in progress["pages"]},
             "page_options": {p["slug"]: {"footer": "本页原作／材料署名：" + p.get("author", "刘向编，士礼居本所录诸家校注") + "。原注与编者自撰题解、白话、释词分别标明；疑文照录，未补造佚文。"} for p in progress["pages"]}}
@@ -626,8 +619,7 @@ def _classics_spec():
     entries = json.loads((ROOT / "sources" / "classic_list" / "entries.json").read_text(encoding="utf8"))
     return {"title": "经典名篇", "author": "个人选藏", "unit": "篇",
             "count_entries": True, "strict_pairs": True, "side_toc": True, "wide_index": True,
-            "intro": f"收藏读到的、写得漂亮的文章，按加入顺序排列，重复项合并。{len(entries)}项均收原文、逐句白话、题解与注释："
-                     + "、".join(e["title"] for e in entries) + "。",
+            "intro": "",
             "pages": [(e["slug"], e["title"] + "｜" + e["author"]) for e in entries],
             "page_sources": {e["slug"]: e["source"] for e in entries},
             "index_footer": f"已整理{len(entries)}项（《过秦论》上中下三篇合列一项）。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
@@ -638,7 +630,7 @@ def _zengguofan_spec():
     done, total = progress["annotated_letters"], progress["letters"]
     return {"title": "曾国藩家书", "author": "［清］曾国藩", "unit": "篇",
             "prose": True, "count_entries": True, "strict_pairs": True,
-            "intro": f"清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家。依维基文库三章分类辑录本收录{total}封家信及《五箴》等附文，全部配逐句白话、题解与词条注释。本版本不等于《曾文正公家书》全集。",
+            "intro": "",
             "index_footer": f"三章{done}/{total}封家信及9项附文全部完成注译，共{progress['annotated_sentences']}句白话、{progress['notes']}条注。维基文库目录所列第四章无正文。",
             "reading_hint": "鼠标悬停或触屏点按原文，可看本句白话；点击题解、注释可展开。",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
@@ -662,14 +654,13 @@ def _zizhitongjian_spec():
     pages.append((None, f"附录（{len(fulu)}篇）"))
     pages.extend((p["slug"], p["title"]) for p in fulu)
     return {"title": "资治通鉴", "author": "［宋］司马光 撰，［元］胡三省 音注", "unit": "卷", "summary_unit": "卷", "wide_index": True, "no_count": True,
-            "intro": "编年体通史，记战国（前403年）至五代后周（959年），共294卷、16纪。"
-                     "据维基文库《資治通鑑》，现已整理目录（纪、卷次、卷名、起止干支与公元纪年）和附录；294卷正文、白话、注释尚未开始。",
+            "intro": "",
             "index_footer": "附录含新注序、宋神宗序、进书表、奖谕诏书、校勘人姓名、释例，以及刘恕《资治通鉴外纪》序和卷四至卷十（外纪卷一至卷三在维基文库仅见四库全书本，未收）；"
                             "每篇配逐句白话、题解与注释，外纪卷四、卷五原站标点不全，已补标点。正文各卷尚待整理；纪年起止据各卷卷首“起…尽…凡…年”换算，个别卷首缺载者据正文年份标目推得，详见 sources/zizhitongjian/README.md。",
             "pages": pages}
 
 
-def _prose_pages_spec(slug, title, author, intro, footer, groups):
+def _prose_pages_spec(slug, title, author, footer, groups):
     """《东京梦华录》《传习录》：页表读自 sources/<slug>/progress.json；groups 把页按卷分组。"""
     progress = json.loads((ROOT / f"sources/{slug}/progress.json").read_text(encoding="utf8"))
     pages = []
@@ -679,7 +670,7 @@ def _prose_pages_spec(slug, title, author, intro, footer, groups):
             pages.append((None, name))
             pages.extend((p["slug"], p["title"]) for p in members)
     return {"title": title, "author": author, "unit": "节", "summary_unit": "节", "wide_index": True,
-            "intro": intro, "index_footer": footer, "reading_hint": "鼠标悬停或触屏点按原文，可看本句白话；点击题解、注释可展开。",
+            "index_footer": footer, "reading_hint": "鼠标悬停或触屏点按原文，可看本句白话；点击题解、注释可展开。",
             "pages": pages,
             "page_sources": {p["slug"]: {**p["source"], "after": "原站标点保持不变；"} for p in progress["pages"]}}
 
@@ -687,19 +678,22 @@ def _prose_pages_spec(slug, title, author, intro, footer, groups):
 def _donglinghualu_spec():
     return _prose_pages_spec(
         "donglinghualu", "东京梦华录", "［宋］孟元老",
-        "南宋孟元老追忆北宋徽宗时东京汴梁城坊、官署、节令、风俗、饮食与游乐的笔记，共十卷。依维基文库本收序与卷一至卷十，每节配题解、逐句白话与注释。",
         "序及卷一至卷十全部整理完成；原站标点与文字保持不变，疑误字只在注中说明。", [("序", ("xu",)), ("正文", ("juan",))])
 
 
 def _chuanxilu_spec():
     return _prose_pages_spec(
         "chuanxilu", "传习录", "［明］王守仁 撰，门人徐爱等 录",
-        "王阳明与弟子问答、论学书信的汇编，分上、中、下三卷，共三百四十二条，及徐爱引言、钱德洪序跋。依维基文库本收录，每条配题解、逐句白话与注释。",
         "卷上、中、下及序跋全部整理完成；条目编号为维基文库本所标，原站标点与文字保持不变，疑误字只在注中说明。",
         [("卷上", ("shang",)), ("卷中", ("zhong",)), ("卷下", ("xia",))])
 
 
-_guwen_xu = json.loads((ROOT / "sources/guwenguanzhi/wikisource/xu.json").read_text(encoding="utf8"))
+def _xu_source(slug):
+    """维基文库序页的出处信息，供序页页脚使用。"""
+    d = json.loads((ROOT / f"sources/{slug}/wikisource/xu.json").read_text(encoding="utf8"))
+    return {"title": d["title"], "url": d["url"], "revision": d["revision"], "after": "原站标点保持不变；疑误字只在注中说明。"}
+
+
 POETRY = {
     "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
@@ -723,20 +717,68 @@ POETRY = {
     "mudanting": _mudanting_spec(),
     "hongloumeng": _hongloumeng_spec(),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
-              "intro": "中国第一部纪传体通史，分本纪、表、书、世家、列传共一百三十卷。此处依《二十四史全译》本，只收原文，十表仅收序言与论赞。",
+              "intro": "",
               "pages": _shiji_pages()},
     "shishuo": {"title": "世说新语", "author": "［南朝宋］刘义庆", "unit": "则",
-                "intro": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
-                "pages": SHISHUO_PAGES},
+                "intro": "",
+                "pages": SHISHUO_PAGES, "page_sources": {"xu": _xu_source("shishuo")}},
     "guwenguanzhi": {"title": "古文观止", "author": "［清］吴楚材、吴调侯 选编", "unit": "篇",
-                     "intro": "清人选编的古文选本，自先秦至明代共二百二十二篇，分十二卷，为古文入门的经典读本；卷首另收两篇序和例言。",
+                     "intro": "",
                      "pages": GUWEN_PAGES,
-                     "page_sources": {"xu": {**{k: _guwen_xu[k] for k in ("title", "url", "revision")}, "after": "原站标点保持不变；疑误字只在注中说明。"}}},
-    "chuci": {"title": "楚辞", "author": "［战国］屈原等", "intro": CHUCI_INTRO, "pages": CHUCI_PAGES},
+                     "page_sources": {"xu": _xu_source("guwenguanzhi")}},
+    "chuci": {"title": "楚辞", "author": "［战国］屈原等", "intro": "", "pages": CHUCI_PAGES},
     "shijing": {"title": "诗经", "author": "［先秦］佚名",
-                "intro": "中国最早的诗歌总集，分风、雅、颂三部分。国风收十五国风土歌谣一百六十首；小雅、大雅为朝廷宴飨、朝会之乐；颂为宗庙祭祀之乐。",
-                "pages": SHIJING_PAGES},
+                "intro": "",
+                "pages": SHIJING_PAGES, "page_sources": {"xu": _xu_source("shijing")}},
 }
+# 首页卡片上的书籍简介：只写书本身。各书目录页的简介若维基文库书名页标题下有介绍，则用 sources/wiki_intros.json 里的原文（已转简体）。
+BOOK_INTRO = {
+    "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
+    "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
+    "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
+    "classic_list": "历代散文、辞赋名篇选集，收《报任安书》《出师表》《兰亭集序》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》等十九篇。",
+    "mengxi": "北宋沈括所著笔记，含《笔谈》二十六卷及《补笔谈》《续笔谈》，涉及天文历法、数学、地理、医药、工艺、艺文、官政与朝野轶事。",
+    "zhenglun-changyan": "东汉两部政论著作合编，分别为崔寔《政论》与仲长统《昌言》，议论时政得失、田制、刑法与吏治。原书多佚，今存为后人辑本。",
+    "xixiangji": "元杂剧，全称《崔莺莺待月西厢记》，通行五本二十一折并楔子，写张生与崔莺莺在红娘帮助下冲破礼教、自主成婚的故事。",
+    "xiyouji": "神魔章回小说，全一百回，通行署吴承恩。写孙悟空出世、大闹天宫及唐僧师徒西行取经、历经八十一难的故事。",
+    "shuihuzhuan": "写北宋末年梁山好汉聚义、招安与征战的章回小说，通行署施耐庵，全书一百二十回。",
+    "sanguoyanyi": "历史演义小说，写东汉末年至西晋统一的兴亡，通行为罗贯中著、毛宗岗父子评改的一百二十回本。",
+    "roupotuan": "清初艳情小说，又名《觉后禅》，全二十回。以因果劝惩为框架，写书生未央生纵欲与报应的经过；含露骨的成人内容，历代屡遭禁毁。",
+    "zuozhuan": "先秦编年体史书，依《春秋》经文纪年，记鲁隐公元年至哀公二十七年（前722—前468）及附记之事，是春秋历史叙事与辞令的代表。",
+    "zizhitongjian": "宋司马光主编的编年体通史，记战国（前403年）至五代后周（959年），共二百九十四卷、十六纪。",
+    "donglinghualu": "南宋孟元老追忆北宋徽宗时东京汴梁城坊、官署、节令、风俗、饮食与游乐的笔记，共十卷。",
+    "chuanxilu": "王阳明与弟子问答、论学书信的汇编，分上、中、下三卷，集中阐述“心即理”“知行合一”“致良知”等心学要旨。",
+    "canying": "清末民初况周颐的笔记，涉及典章、科举、人物、诗词与金石。",
+    "xiaochuang": "又名《醉古堂剑扫》，清言小品集，共十二卷：集醒、集情、集峭、集灵、集素、集景、集韵、集奇、集绮、集豪、集法、集倩。",
+    "xianqing": "清代李渔所著戏曲与生活艺术论著，分词曲、演习、声容、居室、器玩、饮馔、种植、颐养八部。",
+    "yuewei": "清代纪昀所著文言笔记小说，含《滦阳消夏录》《如是我闻》《槐西杂志》《姑妄听之》《滦阳续录》五种，共二十四卷。",
+    "yantielun": "记述汉昭帝始元六年盐铁会议的政论著作，共十卷六十篇。",
+    "songlun": "明末清初王夫之评论宋代政治得失的史论，共十五卷。",
+    "huainanzi": "西汉淮南王刘安及其门客所著的杂家著作，兼取道、儒、法、阴阳诸家，共二十一卷。",
+    "shangjunshu": "法家著作，又名《商子》，讨论变法、耕战、赏刑与法令，今存二十四篇。",
+    "liaozhai": "清代蒲松龄所著文言短篇小说集，多写狐鬼花妖，反映世态人情。",
+    "mudanting": "明代汤显祖所作传奇，又名《还魂记》，全五十五出，写杜丽娘因梦生情、因情而死、又因情复生的故事。",
+    "hongloumeng": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。",
+    "shiji": "西汉司马迁所著的第一部纪传体通史，分本纪、表、书、世家、列传，共一百三十卷。",
+    "shishuo": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
+    "guwenguanzhi": "清人选编的古文选本，自先秦至明代共二百二十二篇，分十二卷，为古文入门的经典读本。",
+    "chuci": "战国楚人屈原及其后学的辞赋总集，由西汉刘向辑成，东汉王逸作注。",
+    "shijing": "中国最早的诗歌总集，分风、雅、颂三部分。国风收十五国风土歌谣一百六十首；小雅、大雅为朝廷宴飨、朝会之乐；颂为宗庙祭祀之乐。",
+}
+WIKI_INTRO = json.loads((ROOT / "sources/wiki_intros.json").read_text(encoding="utf8"))
+assert set(BOOK_INTRO) == set(POETRY) | {b["slug"] for b in BOOKS}, set(BOOK_INTRO) ^ (set(POETRY) | {b["slug"] for b in BOOKS})
+for _b in BOOKS:
+    _b["intro"] = BOOK_INTRO[_b["slug"]]
+for _k, _v in POETRY.items():
+    _v["intro"] = BOOK_INTRO[_k]
+
+
+def intro_html(slug):
+    """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
+    text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
+    return "".join(f'<p class="intro">{esc(x)}</p>' for x in text.split("\n") if x.strip())
+
+
 CIRC = re.compile(r"([\u2460-\u2473\u3251-\u325f]+)")
 
 
@@ -944,7 +986,7 @@ def build_poetry(bslug, spec):
     body = f"""<header class="top">
 {crumbs([("古典文库", "../index.html"), (btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
-<p class="intro">{esc(spec["intro"])}</p>
+{intro_html(bslug)}
 </header>
 <main><section class="part"><ul class="vols"{' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get('wide_index') else ''}>{"".join(cells)}</ul></section></main>
 <footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}</footer>"""
