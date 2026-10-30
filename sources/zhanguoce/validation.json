@@ -115,6 +115,126 @@
       "notes": 265
     },
     {
+      "page": "chu01",
+      "chapters": 20,
+      "sentence_pairs": 296,
+      "notes": 387
+    },
+    {
+      "page": "chu02",
+      "chapters": 9,
+      "sentence_pairs": 125,
+      "notes": 103
+    },
+    {
+      "page": "chu03",
+      "chapters": 10,
+      "sentence_pairs": 130,
+      "notes": 121
+    },
+    {
+      "page": "chu04",
+      "chapters": 14,
+      "sentence_pairs": 288,
+      "notes": 263
+    },
+    {
+      "page": "zhao01",
+      "chapters": 17,
+      "sentence_pairs": 328,
+      "notes": 524
+    },
+    {
+      "page": "zhao02",
+      "chapters": 7,
+      "sentence_pairs": 299,
+      "notes": 368
+    },
+    {
+      "page": "zhao03",
+      "chapters": 23,
+      "sentence_pairs": 413,
+      "notes": 524
+    },
+    {
+      "page": "zhao04",
+      "chapters": 19,
+      "sentence_pairs": 322,
+      "notes": 507
+    },
+    {
+      "page": "wei01",
+      "chapters": 28,
+      "sentence_pairs": 277,
+      "notes": 451
+    },
+    {
+      "page": "wei02",
+      "chapters": 18,
+      "sentence_pairs": 245,
+      "notes": 377
+    },
+    {
+      "page": "wei03",
+      "chapters": 11,
+      "sentence_pairs": 229,
+      "notes": 271
+    },
+    {
+      "page": "wei04",
+      "chapters": 27,
+      "sentence_pairs": 254,
+      "notes": 451
+    },
+    {
+      "page": "han01",
+      "chapters": 25,
+      "sentence_pairs": 240,
+      "notes": 476
+    },
+    {
+      "page": "han02",
+      "chapters": 22,
+      "sentence_pairs": 218,
+      "notes": 351
+    },
+    {
+      "page": "han03",
+      "chapters": 23,
+      "sentence_pairs": 220,
+      "notes": 425
+    },
+    {
+      "page": "yan01",
+      "chapters": 14,
+      "sentence_pairs": 354,
+      "notes": 373
+    },
+    {
+      "page": "yan02",
+      "chapters": 13,
+      "sentence_pairs": 266,
+      "notes": 422
+    },
+    {
+      "page": "yan03",
+      "chapters": 5,
+      "sentence_pairs": 227,
+      "notes": 251
+    },
+    {
+      "page": "songwei",
+      "chapters": 15,
+      "sentence_pairs": 151,
+      "notes": 195
+    },
+    {
+      "page": "zhongshan",
+      "chapters": 10,
+      "sentence_pairs": 206,
+      "notes": 182
+    },
+    {
       "page": "fu01",
       "chapters": 1,
       "sentence_pairs": 14,
@@ -151,17 +271,35 @@
       "notes": 13
     }
   ],
-  "completed_units": 207,
-  "body_chapters": 168,
+  "completed_units": 537,
+  "body_chapters": 497,
+  "source_note_appendices": 1,
   "prefaces": 6,
   "appendices": 6,
-  "sentence_pairs": 2990,
-  "notes": 4479,
+  "sentence_pairs": 8078,
+  "notes": 11501,
   "source_coverage": true,
   "source_reconstruction": true,
   "raw_snapshot_hashes": true,
   "rendered_pairs": true,
   "note_counts": true,
-  "whole_book_complete": false,
-  "browser_visual_check": false
+  "whole_book_complete": true,
+  "browser_visual_check": false,
+  "reading_groups": [
+    {
+      "page": "xu",
+      "articles": 6,
+      "sentence_pairs": 228,
+      "notes": 120
+    },
+    {
+      "page": "fu",
+      "articles": 6,
+      "sentence_pairs": 118,
+      "notes": 86
+    }
+  ],
+  "reading_entries": 510,
+  "reading_sentence_pairs": 8080,
+  "other_agents_pages_preserved": true
 }

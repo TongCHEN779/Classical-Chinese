@@ -589,7 +589,10 @@ def _mengxi_spec():
 
 def _zhanguoce_spec():
     progress = json.loads((ROOT / "sources/zhanguoce/progress.json").read_text(encoding="utf8"))
-    status = "六篇序、六篇附文、东周28篇、西周17篇、秦策五卷64篇及齐策六卷59篇已完成注译；其余二十卷待整理，全书尚未完成。"
+    body_pages = [p for p in progress["pages"] if p["slug"] not in [f"{prefix}{i:02}" for prefix in ("xu", "fu") for i in range(1, 7)]]
+    done = sum(u["status"] == "complete" and u.get("kind") != "source_note_appendix" for p in body_pages for u in p["units"])
+    finished = len(body_pages) == 33 and all(u["status"] == "complete" for p in progress["pages"] for u in p["units"])
+    status = (f"所据士礼居本三十三卷{done}篇策文、六篇序、六篇附文及底本附引1项均已注译。" if finished else f"已注译{done}篇策文，全书整理中。") + "六篇序与六篇附文各合为一个阅读条目，每篇只列一个目录标题。"
     return {"title": "战国策（士礼居丛书本）", "author": "［汉］刘向编｜［清］黄丕烈札记",
             "unit": "项", "summary_unit": "项", "count_entries": True, "strict_pairs": True, "side_toc": True,
             "index_footer": status,
@@ -597,6 +600,26 @@ def _zhanguoce_spec():
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_sources": {p["slug"]: dict(p["source"], after="底本夹注分条移入注释；卷首注附于首篇，原位映射另存。题解、白话与编者释词为自撰。") for p in progress["pages"]},
             "page_options": {p["slug"]: {"footer": "本页原作／材料署名：" + p.get("author", "刘向编，士礼居本所录诸家校注") + "。原注与编者自撰题解、白话、释词分别标明；疑文照录，未补造佚文。"} for p in progress["pages"]}}
+
+
+def _zhanguoce_grouped_spec():
+    spec = _zhanguoce_spec()
+    config = json.loads((ROOT / "sources/zhanguoce/reading-groups.json").read_text(encoding="utf8"))
+    groups = config["groups"]
+    members = {old: g for g in groups for old in g["members"]}
+    pages = []
+    for slug, title in spec["pages"]:
+        if slug not in members:
+            pages.append((slug, title))
+        elif slug == members[slug]["members"][0]:
+            pages.append((members[slug]["slug"], members[slug]["title"]))
+    spec["pages"] = pages
+    spec["page_redirects"] = {old: f'{g["slug"]}.html#e{i}' for g in groups for i, old in enumerate(g["members"], 1)}
+    spec["section_sources"] = {g["slug"]: {e["title"]: dict(e["source"], author=e["author"]) for e in g["entries"]} for g in groups}
+    for g in groups:
+        spec["page_sources"][g["slug"]] = dict(url="https://zh.wikisource.org/wiki/戰國策_(士禮居叢書本)", label="维基文库士礼居本目录", after="每篇的原署、来源和修订号分别列于篇首；完整段落合属一篇，不列分段目录。")
+        spec["page_options"][g["slug"]] = {"footer": "每篇保留原文段落、逐句白话、独立分行原注及编者注；原始分段稿和原位映射另存供核验。"}
+    return spec
 
 
 def _classics_spec():
@@ -623,14 +646,37 @@ def _zengguofan_spec():
                              for p in progress["pages"]}}
 
 
+def _zizhitongjian_spec():
+    cat = json.loads((ROOT / "sources/zizhitongjian/catalog.json").read_text(encoding="utf8"))
+
+    def year(y):
+        return f"前{-y}" if y < 0 else str(y)
+    pages = []
+    for ji in cat["ji"]:
+        pages.append((None, f"{ji['name']}（卷{cn(ji['first'])}至卷{cn(ji['last'])}，共{ji['volumes']}卷）"))
+        for v in cat["volumes"]:
+            if v["ji"] == ji["name"]:
+                span = year(v["start_year"]) if v["start_year"] == v["end_year"] else f"{year(v['start_year'])}—{year(v['end_year'])}"
+                pages.append((v["slug"], f"卷{cn(v['n'])}·{v['name']}｜{span}"))
+    pages.append((None, f"附录（{len(cat['appendix'])}项）"))
+    for k, a in enumerate(cat["appendix"], 1):
+        pages.append((f"fulu{k:02}", a["label"]))
+    return {"title": "资治通鉴", "author": "［宋］司马光 撰，［元］胡三省 音注", "unit": "卷", "summary_unit": "卷", "wide_index": True,
+            "intro": "编年体通史，记战国（前403年）至五代后周（959年），共294卷、16纪，另有目录、考异等附录。"
+                     "据维基文库《資治通鑑》，现仅整理目录：纪、卷次、卷名、起止干支与公元纪年；正文、白话、注释尚未开始。",
+            "index_footer": "目录阶段：16纪294卷及附录12项已登记，均待整理；纪年起止据各卷卷首“起…尽…凡…年”换算，个别卷首缺载者据正文年份标目推得，详见 sources/zizhitongjian/README.md。",
+            "pages": pages}
+
+
 POETRY = {
-    "zhanguoce": _zhanguoce_spec(),
+    "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
     "classic_list": _classics_spec(),
     "mengxi": _mengxi_spec(),
     "zhenglun-changyan": _zhenglun_changyan_spec(),
     **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
     "zuozhuan": _zuozhuan_spec(),
+    "zizhitongjian": _zizhitongjian_spec(),
     "canying": _canying_spec(),
     "xiaochuang": _xiaochuang_spec(),
     "xianqing": _xianqing_spec(),
@@ -743,7 +789,8 @@ def build_poetry(bslug, spec):
     cells, total = [], 0
     for i, (slug, title, files) in enumerate(pages):
         if slug is None:
-            cells.append(f'</ul><h3 class="grp">{esc(title)}</h3><ul class="vols">')
+            wide = ' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get("wide_index") else ""
+            cells.append(f'</ul><h3 class="grp">{esc(title)}</h3><ul class="vols"{wide}>')
             continue
         if not files:
             cells.append(f'<li class="todo"><span>{esc(title)}<small>待整理</small></span></li>')
@@ -761,6 +808,9 @@ def build_poetry(bslug, spec):
             parts = [f'<section class="entry" id="e{si}">']
             multi = len(secs) > 1
             parts.append(f'<h3>{esc(sec["title"])}</h3>' if multi and sec["title"] != title else "")
+            entry_source = spec.get("section_sources", {}).get(slug, {}).get(sec["title"])
+            if entry_source:
+                parts.append(f'<p class="hint source-note">原署／材料归属：{esc(entry_source["author"])}；原文据<a href="{esc(entry_source["url"])}">维基文库</a>（修订版本 {esc(entry_source["revision"])}）。</p>')
             if sec["intro"]:
                 uid += 1
                 items = "".join(f"<p>{esc(x)}</p>" for x in sec["intro"])
@@ -865,6 +915,9 @@ def build_poetry(bslug, spec):
 <footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}</footer>"""
     (ROOT / bslug).mkdir(parents=True, exist_ok=True)
     (ROOT / bslug / "index.html").write_text(page(btitle, body, "../"), encoding="utf8")
+    for old_slug, target in spec.get("page_redirects", {}).items():
+        redirect = f'<!doctype html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="refresh" content="0; url={esc(target)}"><link rel="canonical" href="{esc(target)}"><title>{esc(btitle)}·合并阅读</title></head><body><h1>合并阅读</h1><p>本篇已合入统一阅读页：<a href="{esc(target)}">打开本篇</a></p></body></html>'
+        (ROOT / bslug / (old_slug + ".html")).write_text(redirect, encoding="utf8")
     return total
 
 

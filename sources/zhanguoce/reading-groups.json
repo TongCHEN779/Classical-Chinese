@@ -1,0 +1,252 @@
+{
+  "policy": "六序合为一页、六附合为一页；每篇一个目录项，段落不再分列目录；原始分段稿保留作来源核验。",
+  "groups": [
+    {
+      "slug": "xu",
+      "title": "序（六篇）",
+      "members": [
+        "xu01",
+        "xu02",
+        "xu03",
+        "xu04",
+        "xu05",
+        "xu06"
+      ],
+      "entries": [
+        {
+          "id": "001",
+          "title": "战国策书录",
+          "source_page_slug": "xu01",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E5%8A%89%E5%90%91%E6%9B%B8%E9%8C%84",
+            "revision": "2458611",
+            "snapshot": "sources/zhanguoce/wikisource/xu01.json"
+          },
+          "author": "刘向",
+          "source_unit_ids": [
+            "001",
+            "002",
+            "003",
+            "004",
+            "005"
+          ],
+          "inline_source_headings": []
+        },
+        {
+          "id": "002",
+          "title": "战国策目录序",
+          "source_page_slug": "xu02",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%88%B0%E5%9C%8B%E7%AD%96%E7%9B%AE%E9%8C%84%E5%BA%8F",
+            "revision": "2458623",
+            "snapshot": "sources/zhanguoce/wikisource/xu02.json"
+          },
+          "author": "曾巩",
+          "source_unit_ids": [
+            "001",
+            "002",
+            "003",
+            "004",
+            "005",
+            "006"
+          ],
+          "inline_source_headings": []
+        },
+        {
+          "id": "003",
+          "title": "括苍刊本战国策序",
+          "source_page_slug": "xu03",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%8B%AC%E8%92%BC%E5%88%8A%E6%9C%AC%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BA%8F",
+            "revision": "2458625",
+            "snapshot": "sources/zhanguoce/wikisource/xu03.json"
+          },
+          "author": "耿延禧",
+          "source_unit_ids": [
+            "001"
+          ],
+          "inline_source_headings": []
+        },
+        {
+          "id": "004",
+          "title": "战国策校注序",
+          "source_page_slug": "xu04",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%88%B0%E5%9C%8B%E7%AD%96%E6%A0%A1%E6%B3%A8%E5%BA%8F",
+            "revision": "2458619",
+            "snapshot": "sources/zhanguoce/wikisource/xu04.json"
+          },
+          "author": "鲍彪",
+          "source_unit_ids": [
+            "001",
+            "002",
+            "003",
+            "004"
+          ],
+          "inline_source_headings": []
+        },
+        {
+          "id": "005",
+          "title": "战国策校经序",
+          "source_page_slug": "xu05",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%88%B0%E5%9C%8B%E7%AD%96%E6%A0%A1%E7%B6%93%E5%BA%8F",
+            "revision": "2458621",
+            "snapshot": "sources/zhanguoce/wikisource/xu05.json"
+          },
+          "author": "吴师道",
+          "source_unit_ids": [
+            "001",
+            "002",
+            "003",
+            "004",
+            "005",
+            "006",
+            "007"
+          ],
+          "inline_source_headings": [
+            {
+              "source_block_index": 4,
+              "original": "又",
+              "translation": "又一篇论说。"
+            }
+          ]
+        },
+        {
+          "id": "006",
+          "title": "重刻剡川姚氏本战国策并札记序",
+          "source_page_slug": "xu06",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E9%87%8D%E5%88%BB%E5%89%A1%E5%B7%9D%E5%A7%9A%E6%B0%8F%E6%9C%AC%E6%88%B0%E5%9C%8B%E7%AD%96%E5%B9%B6%E6%9C%AD%E8%A8%98%E5%BA%8F",
+            "revision": "2458669",
+            "snapshot": "sources/zhanguoce/wikisource/xu06.json"
+          },
+          "author": "黄丕烈",
+          "source_unit_ids": [
+            "001",
+            "002",
+            "003"
+          ],
+          "inline_source_headings": []
+        }
+      ]
+    },
+    {
+      "slug": "fu",
+      "title": "附（六篇）",
+      "members": [
+        "fu01",
+        "fu02",
+        "fu03",
+        "fu04",
+        "fu05",
+        "fu06"
+      ],
+      "entries": [
+        {
+          "id": "001",
+          "title": "书战国策后",
+          "source_page_slug": "fu01",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%9B%B8%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C",
+            "revision": "2458627",
+            "snapshot": "sources/zhanguoce/wikisource/fu01.json"
+          },
+          "author": "李廌（李文叔；据附文互证）",
+          "source_unit_ids": [
+            "001"
+          ],
+          "inline_source_headings": []
+        },
+        {
+          "id": "002",
+          "title": "题战国策",
+          "source_page_slug": "fu02",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E9%A1%8C%E6%88%B0%E5%9C%8B%E7%AD%96",
+            "revision": "2458677",
+            "snapshot": "sources/zhanguoce/wikisource/fu02.json"
+          },
+          "author": "王觉",
+          "source_unit_ids": [
+            "001"
+          ],
+          "inline_source_headings": []
+        },
+        {
+          "id": "003",
+          "title": "书阁本战国策后",
+          "source_page_slug": "fu03",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%9B%B8%E9%96%A3%E6%9C%AC%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C",
+            "revision": "2458629",
+            "snapshot": "sources/zhanguoce/wikisource/fu03.json"
+          },
+          "author": "孙朴校语、孙元忠题记，并附刘敞语及书目材料",
+          "source_unit_ids": [
+            "001",
+            "002",
+            "003",
+            "004"
+          ],
+          "inline_source_headings": [
+            {
+              "source_block_index": 3,
+              "original": "题战国策",
+              "translation": "题记：《战国策》。"
+            }
+          ]
+        },
+        {
+          "id": "004",
+          "title": "题战国策后",
+          "source_page_slug": "fu04",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E9%A1%8C%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C",
+            "revision": "2458679",
+            "snapshot": "sources/zhanguoce/wikisource/fu04.json"
+          },
+          "author": "姚宏",
+          "source_unit_ids": [
+            "001",
+            "002"
+          ],
+          "inline_source_headings": []
+        },
+        {
+          "id": "005",
+          "title": "战国策后序",
+          "source_page_slug": "fu05",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C%E5%BA%8F",
+            "revision": "2458617",
+            "snapshot": "sources/zhanguoce/wikisource/fu05.json"
+          },
+          "author": "姚宽书，吴师道附识；黄丕烈考辨作者归属",
+          "source_unit_ids": [
+            "001",
+            "002"
+          ],
+          "inline_source_headings": []
+        },
+        {
+          "id": "006",
+          "title": "姚氏校注战国策后题",
+          "source_page_slug": "fu06",
+          "source": {
+            "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29/%E5%A7%9A%E6%B0%8F%E6%A0%A1%E6%B3%A8%E6%88%B0%E5%9C%8B%E7%AD%96%E5%BE%8C%E9%A1%8C",
+            "revision": "2458613",
+            "snapshot": "sources/zhanguoce/wikisource/fu06.json"
+          },
+          "author": "吴师道",
+          "source_unit_ids": [
+            "001",
+            "002",
+            "003"
+          ],
+          "inline_source_headings": []
+        }
+      ]
+    }
+  ]
+}

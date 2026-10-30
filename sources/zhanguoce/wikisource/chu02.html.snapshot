@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser" lang="zh" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>戰國策 (士禮居叢書本)/楚/二 - 维基文库，自由的图书馆</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )zhwikisourcemwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"70f98c89-51bb-46eb-9a3c-64fa3ef40828","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"戰國策_(士禮居叢書本)/楚/二","wgTitle":"戰國策 (士禮居叢書本)/楚/二","wgCurRevisionId":2458637,"wgRevisionId":2458637,"wgArticleId":9732,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["劉向","西漢","PD-old"],"wgPageViewLanguage":"zh","wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"戰國策_(士禮居叢書本)/楚/二","wgRelevantArticleId":9732,"wgTempUserName":null,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikisource","wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"prpProofreadPageBookNamespaces":[0],"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgULSContentLanguageSelectorEnabled":true,"wgULSLanguageSelectorV2Enabled":true,"wgWikibaseItemId":"Q85375950","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true,"wgSiteNoticeId":"2.0"};
+RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","ext.wikisource.icons":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.interface.helpers.linker.styles":"ready","mediawiki.action.styles":"ready","mediawiki.codex.messagebox.styles":"ready","ext.cite.styles":"ready","ext.proofreadpage.base":"ready","ext.proofreadpage.article":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.dismissableSiteNotice.styles":"ready"};RLPAGEMODULES=["ext.wikisource.download","ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.noteTA","ext.gadget.tabbedwindow","ext.gadget.PageNumbers","ext.gadget.scrollUpButton","ext.gadget.unihan-helper","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.dismissableSiteNotice.styles%7Cext.proofreadpage.article%2Cbase%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cext.wikisource.icons%7Cmediawiki.action.styles%7Cmediawiki.codex.messagebox.styles%7Cmediawiki.interface.helpers.linker.styles%7Cmediawiki.interface.helpers.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=ext.gadget.text-spacing&amp;only=styles&amp;skin=vector-2022">
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.48.0-wmf.1">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="noindex,nofollow,max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="戰國策 (士禮居叢書本)/楚/二 - 维基文库，自由的图书馆">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//thumb.wikimedia.org">
+<link rel="alternate" type="application/x-wiki" title="编辑" href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit">
+<link rel="icon" href="/static/favicon/wikisource.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikisource (zh)">
+<link rel="EditURI" type="application/rsd+xml" href="//zh.wikisource.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://zh.wikisource.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C">
+<link rel="alternate" hreflang="zh" href="https://zh.wikisource.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C">
+<link rel="alternate" hreflang="zh-Hans" href="https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C">
+<link rel="alternate" hreflang="zh-Hant" href="https://zh.wikisource.org/zh-hant/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C">
+<link rel="alternate" hreflang="x-default" href="https://zh.wikisource.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">
+<link rel="alternate" type="application/atom+xml" title="Wikisource的Atom订阅" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt action-view skin-vector-2022 ns-0 ns-subject mw-editable page-戰國策_士禮居叢書本_楚_二 rootpage-戰國策_士禮居叢書本 skin--responsive skin-vector skin-vector-search-vue">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">跳转到内容</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="站点">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="主菜单" >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="主菜单"   >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">主菜单</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">主菜单</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin" aria-label="将 主菜单 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin" aria-label="隐藏主菜单">隐藏</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		导航
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikisource:%E9%A6%96%E9%A1%B5" title="访问首页​[z]" accesskey="z"><span>首页</span></a></li><li id="n-randomwork" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Main"><span>随机作品</span></a></li><li id="n-randomauthor" class="mw-list-item"><a href="/wiki/Special:Random/Author"><span>随机作者</span></a></li><li id="n-randomindex" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Index"><span>随机原本</span></a></li><li id="n-allpages" class="mw-list-item"><a href="/wiki/Special:AllPages"><span>所有页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-editor" class="vector-menu mw-portlet mw-portlet-editor"  >
+	<div class="vector-menu-heading">
+		编者
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/wiki/Wikisource:%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5" title="关于本项目，您可以做什么，以及何处能找到相关资料"><span>社群首页</span></a></li><li id="n-scriptorium" class="mw-list-item"><a href="/wiki/Wikisource:%E5%86%99%E5%AD%97%E9%97%B4"><span>写字间</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="本wiki的最近更改列表​[r]" accesskey="r"><span>最近更改</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="所有特殊页面的列表​[q]" accesskey="q"><span>特殊页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-help" class="vector-menu mw-portlet mw-portlet-help"  >
+	<div class="vector-menu-heading">
+		帮助
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="查找帮助的地方"><span>帮助</span></a></li><li id="n-about" class="mw-list-item"><a href="/wiki/Wikisource:%E5%85%B3%E4%BA%8E"><span>关于维基文库</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikisource:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC"><span>联系我们</span></a></li><li id="n-policy" class="mw-list-item"><a href="/wiki/Wikisource:%E6%96%B9%E9%92%88%E4%B8%8E%E6%8C%87%E5%BC%95"><span>方针与指引</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-do" class="vector-menu mw-portlet mw-portlet-do emptyPortlet"  >
+	<div class="vector-menu-heading">
+		显示选项
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikisource:%E9%A6%96%E9%A1%B5" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikisource.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikisource" src="/static/images/mobile/copyright/wikisource-wordmark-zh.svg" style="width: 7.125em; height: 1.5em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="搜索Wikisource内容​[f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="搜索Wikisource内容" aria-label="搜索Wikisource内容" autocapitalize="none" spellcheck="false" title="搜索Wikisource内容​[f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">搜索</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="个人工具">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="外观">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="更改页面字体大小、宽度和颜色的外观" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="外观"   >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">外观</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikisource.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span>资助</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E6%88%B0%E5%9C%8B%E7%AD%96+%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C&amp;returntoquery=oldid%3D2458637" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span>创建账号</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E6%88%B0%E5%9C%8B%E7%AD%96+%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C&amp;returntoquery=oldid%3D2458637" title="我们推荐您登录，但这不是强制性的​[o]" accesskey="o" class=""><span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out vector-user-links-dropdown--collapsible"  title="更多选项" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="个人工具"   >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">个人工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal"  title="用户菜单" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikisource.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart cdx-button__icon"></span>
+
+<span>资助</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E6%88%B0%E5%9C%8B%E7%AD%96+%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C&amp;returntoquery=oldid%3D2458637" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span>创建账号</span></a>
+</li>
+<li id="pt-login" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E6%88%B0%E5%9C%8B%E7%AD%96+%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C&amp;returntoquery=oldid%3D2458637" title="我们推荐您登录，但这不是强制性的​[o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn cdx-button__icon"></span>
+
+<span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003E关闭\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003C!-- CentralNotice --\u003E\u003Cdiv id=\"localNotice\" data-nosnippet=\"\"\u003E\u003Cdiv class=\"anonnotice\" lang=\"zh\" dir=\"ltr\"\u003E\u003Cp\u003E恭喜！维基文库收录的文章数量达到\u003Ca href=\"/wiki/Special:Statistics\" title=\"Special:Statistics\"\u003E五百万篇\u003C/a\u003E！\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="站点">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" aria-label="目录" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	data-pinned-container-id="vector-toc-pinned-container"
+	data-unpinned-container-id="vector-toc-unpinned-container"
+>
+	<h2 class="vector-pinnable-header-label">目录</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin" aria-label="将 目录 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin" aria-label="隐藏目录">隐藏</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">（首段）</div>
+			</a>
+		</li>
+		<li id="toc-魏相翟強死"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#魏相翟強死">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">1</span>
+				<span>魏相翟強死</span>
+			</div>
+		</a>
+		
+		<ul id="toc-魏相翟強死-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-齊秦約攻楚"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#齊秦約攻楚">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">2</span>
+				<span>齊秦約攻楚</span>
+			</div>
+		</a>
+		
+		<ul id="toc-齊秦約攻楚-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-術視伐楚"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#術視伐楚">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">3</span>
+				<span>術視伐楚</span>
+			</div>
+		</a>
+		
+		<ul id="toc-術視伐楚-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-四國伐楚[1]"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#四國伐楚[1]">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">4</span>
+				<span>四國伐楚<sup><span>[</span>1<span>]</span></sup></span>
+			</div>
+		</a>
+		
+		<ul id="toc-四國伐楚[1]-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-楚懷王拘張儀"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#楚懷王拘張儀">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">5</span>
+				<span>楚懷王拘張儀</span>
+			</div>
+		</a>
+		
+		<ul id="toc-楚懷王拘張儀-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-楚王將出張子"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#楚王將出張子">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">6</span>
+				<span>楚王將出張子</span>
+			</div>
+		</a>
+		
+		<ul id="toc-楚王將出張子-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-秦敗楚漢中"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#秦敗楚漢中">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">7</span>
+				<span>秦敗楚漢中</span>
+			</div>
+		</a>
+		
+		<ul id="toc-秦敗楚漢中-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-楚襄王為太子之時"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#楚襄王為太子之時">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">8</span>
+				<span>楚襄王為太子之時</span>
+			</div>
+		</a>
+		
+		<ul id="toc-楚襄王為太子之時-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-女阿謂蘇子"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#女阿謂蘇子">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">9</span>
+				<span>女阿謂蘇子</span>
+			</div>
+		</a>
+		
+		<ul id="toc-女阿謂蘇子-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<nav aria-label="目录" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="目录" >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="开关目录"   >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">开关目录</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span lang="zh" dir="ltr"><span class="mw-page-title-main">戰國策 (士禮居叢書本)/楚/二</span></span></h1>
+			
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector"  aria-label="添加语言" aria-description="这篇条目只在此语言可用。请添加该条目的其他语言版本"  >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-0" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">添加语言</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="uls-after-portlet-link"></span><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q85375950#sitelinks-wikisource" title="添加跨语言链接" class="wbc-editpage">添加链接</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="命名空间">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-nstab-main" class="selected mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C" title="查看内容页面​[c]" accesskey="c" class=""><span>作品</span></a>
+</li>
+<li id="ca-talk" class="new mw-list-item vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=Talk:%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;redlink=1" rel="discussion" class="new" title="有关内容页面的讨论（页面不存在）​[t]" accesskey="t"><span>讨论</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown "  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="更改语言变体"    >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">不转换</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-varlang-0" class="selected ca-variants-zh mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;variant=zh&amp;oldid=2458637" lang="zh" hreflang="zh"><span>不转换</span></a></li><li id="ca-varlang-1" class="ca-variants-zh-Hans mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;variant=zh-hans&amp;oldid=2458637" lang="zh-Hans" hreflang="zh-Hans"><span>简体</span></a></li><li id="ca-varlang-2" class="ca-variants-zh-Hant mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;variant=zh-hant&amp;oldid=2458637" lang="zh-Hant" hreflang="zh-Hant"><span>繁體</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="查看">
+			    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view" class="selected mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C" class=""><span>阅读</span></a>
+</li>
+<li id="ca-edit" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit" title="编辑该页面​[e]" accesskey="e" class=""><span>编辑</span></a>
+</li>
+<li id="ca-history" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=history" title="此页面过去的修订​[h]" accesskey="h" class=""><span>查看历史</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</nav>
+
+							<nav class="vector-page-tools-landmark" aria-label="页面工具">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="工具"   >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-verticalEllipsis mw-ui-icon-wikimedia-verticalEllipsis cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">工具</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin" aria-label="将 工具 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin" aria-label="隐藏工具">隐藏</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  >
+	<div class="vector-menu-heading">
+		操作
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view-more" class="selected mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C" class=""><span class="vector-icon mw-ui-icon-eye mw-ui-icon-wikimedia-eye cdx-button__icon"></span>
+
+<span>阅读</span></a>
+</li>
+<li id="ca-edit-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit" title="编辑该页面​[e]" accesskey="e" class=""><span class="vector-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit cdx-button__icon"></span>
+
+<span>编辑</span></a>
+</li>
+<li id="ca-history-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=history" title="此页面过去的修订​[h]" accesskey="h" class=""><span class="vector-icon mw-ui-icon-history mw-ui-icon-wikimedia-history cdx-button__icon"></span>
+
+<span>查看历史</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		常规
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C" title="所有链接至本页面的wiki页面列表​[j]" accesskey="j"><span>链入页面</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C" rel="nofollow" title="链自本页的页面的最近更改​[k]" accesskey="k"><span>相关更改</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=zh" title="上传文件​[u]" accesskey="u"><span>上传文件</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;oldid=2458637" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C&amp;id=2458637&amp;wpFormIdentifier=titleform" title="有关如何引用此页面的信息"><span>引用此页</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fzh.wikisource.org%2Fw%2Findex.php%3Ftitle%3D%25E6%2588%25B0%25E5%259C%258B%25E7%25AD%2596_%28%25E5%25A3%25AB%25E7%25A6%25AE%25E5%25B1%2585%25E5%258F%25A2%25E6%259B%25B8%25E6%259C%25AC%29%2F%25E6%25A5%259A%2F%25E4%25BA%258C%26oldid%3D2458637"><span>获取短链接</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-electronpdfservice-sidebar-portlet-heading" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading"  >
+	<div class="vector-menu-heading">
+		打印/导出
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="本页面的可打印版本​[p]" accesskey="p"><span>可打印版</span></a></li><li id="wikisource-download-epub" class="mw-list-item"><a title="下载此作品的EPUB版本" href="https://ws-export.wmcloud.org/?format=epub&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C"><span>下载为EPUB</span></a></li><li id="wikisource-download-mobi" class="mw-list-item"><a title="下载此作品的MOBI版本" href="https://ws-export.wmcloud.org/?format=mobi&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C"><span>下载为MOBI</span></a></li><li id="wikisource-download-pdf" class="mw-list-item"><a title="下载此作品的PDF版本" href="https://ws-export.wmcloud.org/?format=pdf&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C"><span>下载为PDF</span></a></li><li id="wikisource-download-choose" class="mw-list-item"><a title="打开一个表单来选择其他格式和字体等。" href="https://ws-export.wmcloud.org/?lang=zh&amp;title=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C"><span>其他格式</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		在其他项目中
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q85375950" title="链接到连接的数据仓库项目​[g]" accesskey="g"><span>维基数据项目</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="页面工具">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="外观">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">外观</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin" aria-label="将 外观 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin" aria-label="隐藏外观">隐藏</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-~ext-wikisource-download" class="mw-indicator"><span id='ooui-php-1' class='ext-wikisource-download-button oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-buttonElement-size-medium oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonWidget' data-ooui='{"_":"OO.ui.ButtonWidget","href":"https:\/\/ws-export.wmcloud.org\/?format=epub&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C","rel":["nofollow"],"label":"\u4e0b\u8f7d","title":"\u4e0b\u8f7d\u6b64\u4f5c\u54c1\u7684EPUB\u7248\u672c","flags":["primary","progressive"],"data":{"wsExportUrl":"https:\/\/ws-export.wmcloud.org"},"classes":["ext-wikisource-download-button"]}'><a role='button' title='下载此作品的EPUB版本' tabindex='0' href='https://ws-export.wmcloud.org/?format=epub&amp;lang=zh&amp;page=%E6%88%B0%E5%9C%8B%E7%AD%96_%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29%2F%E6%A5%9A%2F%E4%BA%8C' rel='nofollow' class='oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>下载</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></a></span></div>
+		</div>
+
+						<div id="siteSub" class="noprint">維基文庫，自由的圖書館</div>
+						<div id="contentSub"><div id="mw-content-subtitle"><div class="subpages">&lt; <bdi dir="ltr"><a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)" title="戰國策 (士禮居叢書本)">戰國策 (士禮居叢書本)</a></bdi></div><div class="cdx-message--warning mw-revision cdx-message cdx-message--block" aria-live="polite"><span class="cdx-message__icon"></span><div class="cdx-message__content"><div id="mw-revision-info"><a href="/wiki/User:Ericliu1912" class="mw-userlink" title="User:Ericliu1912" data-mw-revid="2458637"><bdi>Ericliu1912</bdi></a>​<span class="mw-usertoollinks">（<a href="/wiki/User_talk:Ericliu1912" class="mw-usertoollinks-talk" title="User talk:Ericliu1912">留言</a> | <a href="/wiki/Special:Contributions/Ericliu1912" class="mw-usertoollinks-contribs" title="Special:Contributions/Ericliu1912">贡献</a>）</span>2024年10月7日 (一) 08:13的版本 <span class="comment">（Ericliu1912移动页面<a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96%E9%BB%83%E4%B8%95%E7%83%88%E6%9C%AD%E8%A8%98/%E6%A5%9A/%E4%BA%8C" class="mw-redirect" title="戰國策黃丕烈札記/楚/二">戰國策黃丕烈札記/楚/二</a>至<a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C" title="戰國策 (士禮居叢書本)/楚/二">戰國策 (士禮居叢書本)/楚/二</a>）</span></div><div id="mw-revision-nav">(<a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;diff=prev&amp;oldid=2458637" title="戰國策 (士禮居叢書本)/楚/二">差异</a>) <a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;direction=prev&amp;oldid=2458637" title="戰國策 (士禮居叢書本)/楚/二">←上一版本</a> | 最后版本 (差异) | 下一版本→ (差异)</div></div></div></div></div>
+						
+					</div>
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="zh" dir="ltr"><table style="width:100%; margin-bottom:0px; border:1px solid #AADDAA; background-color: #E4F2E4; text-align:center;" class="ws-header">
+
+<tbody><tr>
+<td class="noprint" style="width:25%; text-align:left; font-size:small;">←<a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96/%E5%8D%B714" class="mw-redirect" title="戰國策/卷14">楚策一</a>
+</td>
+<td style="width:50%;"><b>戰國策卷十五</b>　楚二<br /><span style="color:#999999">作者：</span><a href="/wiki/Author:%E5%8A%89%E5%90%91" title="Author:劉向">劉向</a>　<span style="color:#999999">西漢</span>
+</td>
+<td class="noprint" style="width:25%; text-align:right; font-size:small;"><a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96/%E5%8D%B716" class="mw-redirect" title="戰國策/卷16">楚策三</a>→
+</td></tr></tbody></table>
+<table style="width:100%; background:#F2F9F2; font-size:small; border-bottom:1px solid #D5ECD5" class="ws-header">
+
+<tbody><tr>
+<td><div style="color:#464646"><ul id="plainSister" style="display:inline-block; font-size:93%; line-height:normal; list-style-type:none; list-style-image:none; list-style-position:outside; border:1px solid var(--border-color-base,#AAA); float:right; clear:right; margin:0.5ex 0.5ex 0.5ex 0.5ex; padding:0.0ex 0.0ex 0.0ex 0.0ex; background-color:var(--background-color-base,#FFFFFF);color: inherit;"><li class="noprint sisitem"><span class="sisicon" style="padding-right:1ex;"><span typeof="mw:File/Frameless"><a href="/wiki/Special:SiteMatrix" title="Special:SiteMatrix"><img alt="姊妹计划" src="//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/20px-Wikimedia-logo.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/40px-Wikimedia-logo.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="1024" data-file-height="1024" /></a></span></span><a href="/wiki/Special:SiteMatrix" title="Special:SiteMatrix">姊妹计划</a>: <a href="https://www.wikidata.org/wiki/Q85375950" class="extiw" title="d:Q85375950">数据项</a></li></ul> </div>
+</td></tr></tbody></table>
+<meta property="mw:PageProp/toc" />
+<div class="mw-heading mw-heading2"><h2 id="魏相翟強死"><span id=".E9.AD.8F.E7.9B.B8.E7.BF.9F.E5.BC.B7.E6.AD.BB"></span>魏相翟強死</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=1" title="编辑章节：魏相翟強死"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>魏相翟強死。為甘茂謂楚王曰：「魏之幾相者，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本言危欲相之。<span style="color:transparent;font-size:0px">〉</span></small>公子勁也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本秦人。<span style="color:transparent;font-size:0px">〉</span></small>勁<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本劉，一無下「也」字。<span style="color:transparent;font-size:0px">〉</span></small>也相魏，魏、秦之交必善。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本勁，秦人而魏相之故。正曰：俱無考。<span style="color:transparent;font-size:0px">〉</span></small>秦、魏之交完，則楚輕矣。故王不如與齊約，相甘茂於魏。齊王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本閔。<span style="color:transparent;font-size:0px">〉</span></small>好高人以名，今為其行人<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本楚為齊請如其使者。禮，行人使適四方。<span style="color:transparent;font-size:0px">〉</span></small>請魏之相，齊必喜。魏氏不聽，交惡於齊；齊、魏之交惡，必爭事楚。魏氏聽，甘茂與樗里疾，貿首<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本貿，言欲易取其首。<span style="color:transparent;font-size:0px">〉</span></small>之讎也；而魏、秦之交必惡，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本疾相秦，茂相魏故。<span style="color:transparent;font-size:0px">〉</span></small>又交重楚也。」
+</p>
+<div class="mw-heading mw-heading2"><h2 id="齊秦約攻楚"><span id=".E9.BD.8A.E7.A7.A6.E7.B4.84.E6.94.BB.E6.A5.9A"></span>齊秦約攻楚</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=2" title="编辑章节：齊秦約攻楚"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>齊、秦約攻楚，楚令景翠以六城賂齊，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本下有「以」字。<span style="color:transparent;font-size:0px">〉</span></small>太子為質。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本此二十九年，太子橫。<span style="color:transparent;font-size:0px">〉</span></small>昭雎謂景翠曰：「秦恐且因景鯉、蘇厲而效地於楚。公出地以取<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「取」一作「收」，別本作「牧」。　鮑本取，猶收，猶悅。<span style="color:transparent;font-size:0px">〉</span></small>齊，鯉與厲且以收地取秦，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本收前所效者。蓋二人之辭。曰楚出地取齊，楚既弱矣，何足與地。秦收所效，必悅二人也。正曰：景鯉乃楚臣，秦可因之以責地。見楚弱，而勸秦收所效之地，恐非。<span style="color:transparent;font-size:0px">〉</span></small>公事必敗。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本楚不得秦地，景翠賂齊，楚必怨翠。<span style="color:transparent;font-size:0px">〉</span></small>公不如令王重賂景鯉、蘇厲，使入秦，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本二人得楚賂，不復為秦收地矣。<span style="color:transparent;font-size:0px">〉</span></small>秦<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本下有「齊」字。　札記吳氏正曰，「秦」字疑當作「齊」，是也。<span style="color:transparent;font-size:0px">〉</span></small>恐，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本以齊、楚合故。<span style="color:transparent;font-size:0px">〉</span></small>必不求地<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本不收所效。<span style="color:transparent;font-size:0px">〉</span></small>而合於楚。若齊不求，是公與約也。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本兩國各不取地而止攻，是約者復和也。與，如與國之與，和好也。言翠能和兩國之約。正曰：戰國之時，秦之割地希矣，惟赧王十七年割三城和齊、韓、魏一事爾。懷王末年，楚益以弱，雖合齊，秦未必遞懼而割也。效地於楚者，令楚效地。恐者，恐或如此之辭也。景翠必與景鯉、蘇厲不合者，故雎言翠既以地賂齊，則秦恐或且因蘇厲、景鯉而令楚效地，是翠出地取齊，而二人收所出之地以取秦，翠事豈不敗乎？今不如重賂二人，使入秦為解，則秦恐或必不求地而與楚合。齊見秦、楚之合，若不求地，則是公能和好結約也。「秦恐必不求地」，「秦」字疑當作「齊」字。謂重賂二人入秦，則齊和。秦、楚之和，恐不敢求所賂地。若果不求，是公能和好結約也。說亦通。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="術視伐楚"><span id=".E8.A1.93.E8.A6.96.E4.BC.90.E6.A5.9A"></span>術視伐楚</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=3" title="编辑章节：術視伐楚"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>術視<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本秦人。<span style="color:transparent;font-size:0px">〉</span></small>伐楚，楚令昭鼠以十萬軍漢中。昭雎勝秦於重丘，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本別本「丘」作「兵」。　鮑本屬平原。正曰：恐非。<span style="color:transparent;font-size:0px">〉</span></small>蘇厲謂宛公昭鼠<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本鼠為宛尹。<span style="color:transparent;font-size:0px">〉</span></small>曰：「王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本王，楚王。<span style="color:transparent;font-size:0px">〉</span></small>欲昭雎之乘<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本乘，猶凌。<span style="color:transparent;font-size:0px">〉</span></small>秦也，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本無「也」字。○<span style="color:transparent;font-size:0px">〉</span></small>必分公之兵以益之。秦知公兵之分也，必出漢中。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本出兵伐此。<span style="color:transparent;font-size:0px">〉</span></small>請為公令辛戎<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「辛」作「羋」。○　戎，楚人，貴於秦。補曰：當作「羋」。<span style="color:transparent;font-size:0px">〉</span></small>謂王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本如以私告楚王者。<span style="color:transparent;font-size:0px">〉</span></small>曰：『秦兵且出漢中。』則公之兵全矣。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本欲其備秦，故不分其兵。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="四國伐楚[1]"><span id=".E5.9B.9B.E5.9C.8B.E4.BC.90.E6.A5.9A.5B1.5D"></span>四國伐楚<sup id="cite&#95;ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">&#91;</span>1<span class="cite-bracket">&#93;</span></a></sup></h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=4" title="编辑章节：四國伐楚[1]"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>四國伐楚，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本楚記，二十八年，秦、齊、韓、魏共攻楚。<span style="color:transparent;font-size:0px">〉</span></small>楚令昭雎將以距<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本拒同。<span style="color:transparent;font-size:0px">〉</span></small>秦。楚王欲擊秦，昭侯<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「侯」作「雎」。○<span style="color:transparent;font-size:0px">〉</span></small>不欲。桓臧為昭雎謂楚王曰：「雎戰勝，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本下有「秦」字。<span style="color:transparent;font-size:0px">〉</span></small>三國惡楚之強也，恐秦之變而聽楚也，必深攻楚以勁秦。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本堅其伐楚之心。<span style="color:transparent;font-size:0px">〉</span></small>秦王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本昭。<span style="color:transparent;font-size:0px">〉</span></small>怒於戰不勝，必悉起而擊楚，是王與秦相罷，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本音疲。<span style="color:transparent;font-size:0px">〉</span></small>而以<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本一本無「以」字。<span style="color:transparent;font-size:0px">〉</span></small>利三國也。戰不勝秦，秦進兵而攻。不如益昭雎之兵，令之示秦必戰。秦王惡與楚相弊而令天下，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「下」下補「利」字。○　正曰：謂以相弊，令以天下使知。　札記今本「下」下有「利」字，乃誤涉鮑也。丕烈案：「令」乃「全」字之訛，吳說亦未是。<span style="color:transparent;font-size:0px">〉</span></small>秦可以少割而收害也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本秦見楚將必戰，必割地與楚和，戰伐之害可息也。收，猶息。正曰：秦惡與楚相敝而不戰，則楚可以少割地而收秦。一本無「害」字，是。　札記吳氏正曰，一本無「害」字，是。丕烈案：此因上文「割」字而誤衍。「害」、「割」同字。<span style="color:transparent;font-size:0px">〉</span></small>秦、楚之合，而燕、趙、魏不敢不聽，三國可定也。」
+</p>
+<div class="mw-heading mw-heading2"><h2 id="楚懷王拘張儀"><span id=".E6.A5.9A.E6.87.B7.E7.8E.8B.E6.8B.98.E5.BC.B5.E5.84.80"></span>楚懷王拘張儀</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=5" title="编辑章节：楚懷王拘張儀"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>楚懷王拘張儀，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本以其欺楚以商於故。<span style="color:transparent;font-size:0px">〉</span></small>將欲殺之。靳尚<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本楚人。<span style="color:transparent;font-size:0px">〉</span></small>為儀謂楚王曰：「拘張儀，秦王必怒。天下見楚之無秦也，楚必輕矣。」又謂王之幸夫人鄭袖曰：「子亦自知且賤於王乎？」鄭袖曰：「何也？」尚曰：「張儀者，秦王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本惠。<span style="color:transparent;font-size:0px">〉</span></small>之忠信有功臣也。今楚拘之，秦王欲出之。秦王有愛女而美，又簡擇宮中佳翫麗好翫習音者，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本原注衍上「翫」字。○　好翫，人之可好可翫者。書曰，「翫人喪德」。習音，所謂懽也，以從愛女。補曰：一本無上「翫」字。正曰：習於音聲者。<span style="color:transparent;font-size:0px">〉</span></small>以懽從之；資之金玉寶器，奉以上庸六縣為湯沐邑，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本以邑為女湯沐之具。<span style="color:transparent;font-size:0px">〉</span></small>欲因張儀內之楚王。楚王必愛，秦女依強秦以為重，挾寶地以為資，勢<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「勢」下補「必」字。○　補曰：此下疑有缺字。　札記丕烈案：鮑、吳皆非。此無缺，讀以「勢為王妻以臨于楚」八字為一句。<span style="color:transparent;font-size:0px">〉</span></small>為王妻以臨于楚。王惑於虞樂，必厚尊敬親愛之而忘子，子益賤而日疏矣。」鄭袖曰：「願委之於公，為之奈何？」曰：「子何不急言王，出張子。張子得出，德子無已時，秦女必不來，而秦必重子。子內擅楚之貴，外結秦之交，畜張子以為用，子之子孫必為楚太子矣，此非布衣之利也。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本利在為王。<span style="color:transparent;font-size:0px">〉</span></small>鄭袖遽說楚王出張子。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本此十八年。補曰：史，楚願得張儀而獻黔中，秦王欲遣之，口弗忍言。儀請行，曰，「臣善靳尚，尚得事鄭袖，袖所言皆從」。遂使楚。儀固已料是謀之必中矣。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="楚王將出張子"><span id=".E6.A5.9A.E7.8E.8B.E5.B0.87.E5.87.BA.E5.BC.B5.E5.AD.90"></span>楚王將出張子</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=6" title="编辑章节：楚王將出張子"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>楚王將出張子，恐其敗己也，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「敗」一作「欺」。<span style="color:transparent;font-size:0px">〉</span></small>靳尚謂楚王曰：「臣請隨之。儀事王不善，臣請殺之。」
+</p><p>楚小臣，靳尚之仇也，謂張旄<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本魏之用事者。<span style="color:transparent;font-size:0px">〉</span></small>曰：「以張儀之知，而有秦、楚之用，君必窮矣。君不如使人微要靳尚而刺之，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「刺」作「殺」。○　微，不顯也，使若儀殺之。<span style="color:transparent;font-size:0px">〉</span></small>楚王必大怒儀也。彼儀窮，則子重矣。楚、秦相難，則魏無患矣。」
+</p><p>張旄果令人要靳尚刺之。楚王大怒，秦構<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「構」上補「楚」字。○<span style="color:transparent;font-size:0px">〉</span></small>兵而戰。秦、楚爭事魏，張旄果大重。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本彪謂：張旄欲窮儀，則如殺儀斯已矣。今不殺儀，顧從說者殺尚，以儀之智，為足以免於死也。補曰：大事記，靳尚之出張儀，欲以求福也，反以殺身。事變之來，亦可迎隨哉？此可為小人之戒。屈原曰，「前大王見欺於張儀，儀至，臣以為大王烹之」。吁！豈惟屈原，雖庸人孰不謂然？懷王聽靳尚，隨袖之言而出之。既出之，又恐其欺己，而使尚隨之，不悟其誑。尚之見殺，則雖怒而終不能誅儀也。杜忠言，惑邪說，玩弄於儀掌股之上，召寇衄師，喪國亡身，死有餘責。特以為秦人詐誘天下，反從而憐之，計其愚闇強愎，六國之主，無與輩也。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="秦敗楚漢中"><span id=".E7.A7.A6.E6.95.97.E6.A5.9A.E6.BC.A2.E4.B8.AD"></span>秦敗楚漢中</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=7" title="编辑章节：秦敗楚漢中"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>秦敗楚漢中。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本此三十年，秦伐我，取入城，宜得漢中。<span style="color:transparent;font-size:0px">〉</span></small>楚王入秦，秦王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本昭。<span style="color:transparent;font-size:0px">〉</span></small>留之。游騰為楚謂秦王曰：「王挾楚王，而與天下攻楚，則傷行矣。不與天下共攻之，則失利矣。王不如與之盟而歸之。楚王畏，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本畏，畏秦。<span style="color:transparent;font-size:0px">〉</span></small>必不敢倍<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「倍」作「背」。○<span style="color:transparent;font-size:0px">〉</span></small>盟。王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「王」下補「背盟」二字。○　補曰：宜復有「背盟」二字。<span style="color:transparent;font-size:0px">〉</span></small>因與三國攻之，義也。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本彪謂：此言亦可聽也。而秦志在亂楚，不為之動，所以卒併天下。後人守此。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="楚襄王為太子之時"><span id=".E6.A5.9A.E8.A5.84.E7.8E.8B.E7.82.BA.E5.A4.AA.E5.AD.90.E4.B9.8B.E6.99.82"></span>楚襄王為太子之時</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=8" title="编辑章节：楚襄王為太子之時"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>楚襄王為太子之時，質於齊。懷王薨，太子辭於齊王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本閔。<span style="color:transparent;font-size:0px">〉</span></small>而歸。齊王隘<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本隘，猶阻。未即許，求地也。補曰：隘，從阨音，下同。<span style="color:transparent;font-size:0px">〉</span></small>之：「予我東地五百里，乃歸子。子不予我，不得歸。」太子曰：「臣有傅，請追<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「追」作「退」。○　補曰：「退」字訛。　札記今本「追」作「退」，乃誤涉鮑也。<span style="color:transparent;font-size:0px">〉</span></small>而問傅。」傅慎子曰：「獻之地，所以為身也。愛地不送死父，不義。臣故曰，獻之便。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「便」一作「使」。曾作「便」。<span style="color:transparent;font-size:0px">〉</span></small>太子入，致命齊王曰：<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本致命，歸誠之言。正曰：送致命令，如項羽使人致命懷王。<span style="color:transparent;font-size:0px">〉</span></small>「敬獻地五百里。」齊王歸楚太子。
+</p><p>太子歸，即位為王。齊使車五十乘，來取東地於楚。楚王告慎子曰：「齊使來求東地，為之奈何？」慎子曰：「王明日朝群臣，皆令獻其計。」
+</p><p>上柱國子良入見。王曰：「寡人之得求反，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本求反國而得。<span style="color:transparent;font-size:0px">〉</span></small>王<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本「王」作「主」。○　札記今本「王」作「主」。<span style="color:transparent;font-size:0px">〉</span></small>墳墓、復<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本復，見之。<span style="color:transparent;font-size:0px">〉</span></small>群臣、歸社稷也，以東地五百里許齊。齊令<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「令」一作「今」。<span style="color:transparent;font-size:0px">〉</span></small>使來求地，為之奈何？」子良曰：「王不可不與也。王身出玉聲，許強萬乘之齊而不與，則不信，後不可以約結諸侯。請與而復攻之。與之信，攻之武。臣故曰與之。」
+</p><p>子良出，昭常入見。王曰：「齊使來求東地五百里，為之奈何？」昭常曰：「不可與也。萬乘者，以地大為萬乘。今去東地五百里，是去戰國之半也，有萬乘之號而無千乘之用也，不可。臣故曰勿與。常請守之。」
+</p><p>昭常出，景鯉入見。王曰：「齊使來求東地五百里，為之奈何？」景鯉曰：「不可與也。雖然，楚不能獨守。王身出玉聲，許萬乘之強齊也而不與，負不義於天下。楚亦不能獨守。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本曾圈去「王身」至「獨守」二十七字。<span style="color:transparent;font-size:0px">〉</span></small>臣請西索救於秦。」
+</p><p>景鯉出，慎子入，王以三大夫計告慎子曰：「子良見寡人曰：『不可不與也，與而復攻之。』常見寡人曰：『不可與也，常請守之。』鯉見寡人曰：『不可與也，雖然楚不能獨守也，臣請索救於秦。』寡人誰用於三子之計？」慎子對曰：「王皆用之。」王怫然作色<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本怫，鬱也。正曰：怫，音拂，當與孟子「艴然」之「艴」同義，怒變色也。<span style="color:transparent;font-size:0px">〉</span></small>曰：「何謂也？」慎子曰：「臣請效其說，而王且見其誠然也。王發上柱國子良車五十乘，而北獻地五百里於齊。發子良之明日，遣昭常為大司馬，令往守東地。遣昭常之明日，遣景鯉車五十乘，西索救於秦。」王曰：「善。」乃遣子良北獻地於齊。遣子良之明日，立昭常為大司馬，使守東地。又遣景鯉西索救於秦。
+</p><p>子良至齊，齊使人以甲受東地。昭常應齊使曰：「我典主東地，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本典，猶職。主，猶守。<span style="color:transparent;font-size:0px">〉</span></small>且與死生。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本地有則生，無地死之。<span style="color:transparent;font-size:0px">〉</span></small>悉五尺至六十，三十餘萬弊甲鈍兵，願承下塵。」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本凡人相趨則有塵，戰亦有塵。不敢與齊抗，故言下。<span style="color:transparent;font-size:0px">〉</span></small>齊王謂子良曰：「大夫來獻地，今常守之，何如？」子良曰：「臣身受命弊邑之王，是常矯也。王攻之。」齊王大興兵，攻東地，伐昭常。未涉疆，秦以五十萬臨齊右壤，曰：「夫隘楚太子弗出，不仁；又欲奪之東地五百里，不義。其縮甲則可，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本縮，蹙也。蓋東之。<span style="color:transparent;font-size:0px">〉</span></small>不然，則願待戰。」齊王恐焉。乃請子良南道楚，西使秦，解齊患。士卒不用，東地復全。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本彪謂：此四臣皆國士也。襄王無若人，豈能反國？慎子能兼用之，其最優乎？方之晉五臣，其舅犯歟？此書三書懷王薨而太子歸。史記獨謂「太子歸而王乃薨」，又謂「王逃歸不達，薨」。夫秦能劫留之，豈不能衛之？孟嘗之逃，先以計免，猶危不脫。楚王何以能逃？可疑也。楚王亡死，太子在外，郢中必立王以絕秦望。太子以齊之重，歸義嗣也，其誰敢干之？於是王乃定。齊策乃云，「忠王而走太子」，則是太子卒不得位，亦非也。蓋郢中立王時，蘇子以此策干田文，而語人以九可，文不之用，世猶載其語也。正曰：頃襄之辭於齊，齊隘之以割地，雖不讎，非不信也。齊使之來，當直拒之，昭常之不與，是矣。然不知出地而較計於大小之間，抑末矣。子良之與而復攻，繆矣。景鯉為之索救於秦，夫不共戴天之讎，在所當絕，尚忍乞哀而求援哉！鯉罪特甚也。慎子不知擇其是非，決以大義，請皆用之，則兼其失矣。且秦之責齊曰，「隘楚太子不仁，奪東地不義」。斯言也，出於讎國之口，而四人皆無一語及之，尚何足稱乎？餘說並見齊策。春秋、戰國之時，在他國而逃歸者多矣，豈無衛之者邪？以此疑懷王之逃不可也。補曰：「使車」、「使人」之「使」，如字。「為身」之「為」，去聲。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="女阿謂蘇子"><span id=".E5.A5.B3.E9.98.BF.E8.AC.82.E8.98.87.E5.AD.90"></span>女阿謂蘇子</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;action=edit&amp;section=9" title="编辑章节：女阿謂蘇子"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>女阿謂蘇子曰：<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本未詳。補曰：疑此乃齊策「蘇子說薛公」章脫簡。首「女阿」二字，又他章錯脫。又「說薛公」策末，欠蘇子自解於薛公一節，此為蘇子自解於太子也。疑亦有差舛。　札記丕烈案：吳說誤。女阿者，太子之阿，內則所謂可者，與齊策不相涉。<span style="color:transparent;font-size:0px">〉</span></small>「秦栖楚王，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>姚本「栖」，別本作「西」。　鮑本懷王見劫，客秦如栖。<span style="color:transparent;font-size:0px">〉</span></small>危太子者，公也。今楚王歸，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本以此書及史考之，王皆不歸。今此蓋其喪歸。正曰：此謀度之言。<span style="color:transparent;font-size:0px">〉</span></small>太子南，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本自齊歸楚為南。<span style="color:transparent;font-size:0px">〉</span></small>公必危。公不如令人謂太子曰：『蘇子知太子之怨己也，必且務不利太子。太子不如善蘇子，蘇子必且為太子入矣。』」<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本入，言其歸之之深。正曰：使太子得入也。<span style="color:transparent;font-size:0px">〉</span></small>蘇子乃令人謂太子。太子復請善於蘇子。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>鮑本詳此，亦無走太子之事。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<ol class="references">
+<li id="cite&#95;note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">［校一］姚本此篇與《術視伐楚》連篇，鮑本另列一篇。據文義，從鮑本。</span>
+</li>
+</ol>
+<table class="ws-noexport noprint ws-footer" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid var(--border-color-content-added,#a3d3ff); background-color: var(--background-color-progressive-subtle,#eaf3ff); width:100%; margin-bottom:0px; text-align:center; color: inherit;">
+<tbody><tr>
+<td width="20%" align="left">　<a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96/%E5%8D%B714" class="mw-redirect" title="戰國策/卷14">楚策一</a>
+</td>
+<td><span style="color:#999"> ◄ </span>
+</td>
+<td width="50%" align="center"><a href="#top">↑返回頂部</a>
+</td>
+<td><span style="color:#999"> ► </span>
+</td>
+<td width="20%" align="right"><a href="/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96/%E5%8D%B716" class="mw-redirect" title="戰國策/卷16">楚策三</a>
+</td></tr></tbody></table>
+<style data-mw-deduplicate="TemplateStyles:r4375040">.mw-parser-output .licenseContainer{box-sizing:border-box;margin-top:1em;margin-bottom:0.25em;clear:both;width:auto;page-break-before:always;break-before:page}.mw-parser-output .licenseContainer>div:first-of-type{display:table;border:2px solid var(--border-subtle,#8888aa);border-collapse:collapse;border-spacing:0 0;empty-cells:hide;box-sizing:border-box;margin:0 auto 0 auto;width:100%;background-color:var(--background-color-neutral-subtle,#f7f8ff);color:var(--color-base,#202122)}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child{display:table-row-group}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child{display:table-row}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div{display:table-cell;padding:5px;vertical-align:middle;width:auto}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:first-child{text-align:left}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2){text-align:center}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div{width:100%}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:first-child{display:block;margin:0 auto 0 auto;text-align:left}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2){display:table;border-top:1px solid var(--border-subtle,#8888aa)}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div{display:table-cell;vertical-align:middle}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div:first-child{text-align:center;padding:5px 0;width:40px}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){text-align:left;padding:5px;font-size:92%}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(3){text-align:right}.mw-parser-output .licensetpl{display:none}.mw-parser-output .licenseContainer.wst-collapsible-box{clear:both;margin:0.25em 0 0.25em 0;font-size:95%;background-color:var(--background-color-neutral-subtle,#f7f8ff);color:var(--color-base,#202122);border:2px solid var(--border-subtle,#8888aa);text-align:left;line-height:1.6}.mw-parser-output .wst-license-container-title{display:inline-block;padding:0.5em}.mw-parser-output .wst-license-container-content{background:transparent;color:inherit;margin:0;padding:3px;text-align:left}.mw-parser-output .licenseContainer.warningLicenseContainer>div:first-child{border:2px solid var(--border-color-error,#b22222);background-color:var(--background-color-error-subtle,#ffeeee);color:var(--color-base,#202122)}.mw-parser-output .licenseContainer.warningLicenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2){border:2px solid var(--border-color-error,#b22222);color:var(--color-base,#202122)}</style><div class="licenseContainer licenseBanner dynlayout-exempt">
+<div><div><div><div>
+<p><span class="imageLeft"><span typeof="mw:File"><span><img alt="" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/60px-PD-icon.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="48" height="48" class="mw-file-element" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="196" data-file-height="196" /></span></span></span>
+</p>
+</div><div>
+<div>
+<p>此作品在全世界都属于<b><a href="https://zh.wikipedia.org/wiki/%E5%85%AC%E6%9C%89%E9%A2%86%E5%9F%9F" class="extiw" title="w:公有领域">公有领域</a></b>，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。
+</p>
+</div>
+</div><div>
+<p><span class="noimageRight"></span>
+</p>
+</div></div></div></div>
+<div class="licensetpl">
+<p><span class="licensetpl&#95;short">Public domain</span><span class="licensetpl&#95;long">Public domain</span><span class="licensetpl&#95;link&#95;req">false</span><span class="licensetpl&#95;attr&#95;req">false</span>
+</p>
+</div>
+</div>
+<!-- 
+NewPP limit report
+Parsed by mw‐api‐ext.eqiad.main‐59d746cd7f‐95z5v
+Cached time: 20261015190709
+Cache expiry: 2592000
+Cache expiry source: Template:PD‐old (currentyear)
+Reduced expiry: false
+Complications: [prevent‐selective‐update, show‐toc]
+CPU time usage: 0.241 seconds
+Real time usage: 0.468 seconds
+Preprocessor visited node count: 784/1000000
+Revision size: 15252/2097152 bytes
+Post‐expand include size: 27591/2097152 bytes
+Template argument size: 8219/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3841/5000000 bytes
+Lua time usage: 0.073/10.000 seconds
+Lua memory usage: 782999/52428800 bytes
+Number of Wikibase entities loaded: 1/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  391.838      1 -total
+ 73.26%  287.079      1 Template:Album_header
+ 66.50%  260.562      1 Template:Plain_sister
+ 16.94%   66.360      1 Template:PD-old
+ 15.77%   61.788      1 Template:License
+  4.33%   16.953     79 Template:*
+  2.39%    9.367      1 Template:Main_subject
+  0.71%    2.767      1 Template:Footer
+-->
+
+<!-- Render ID 9e99f3f1-c8cb-11f1-bfc7-33b4e667ef9c -->
+
+<!-- Saved in parser cache with key zhwikisource:pcache:9732:|#|:idhash:canonical!zh and timestamp 20261015190709 and revision id 2458637. Rendering was triggered because: api-parse
+ -->
+</div><noscript><img src="https://zh.wikisource.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikisource.org/w/index.php?title=戰國策_(士禮居叢書本)/楚/二&amp;oldid=2458637">https://zh.wikisource.org/w/index.php?title=戰國策_(士禮居叢書本)/楚/二&amp;oldid=2458637</a>”</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">分类</a>：<ul><li><a href="/wiki/Category:%E5%8A%89%E5%90%91" title="Category:劉向">劉向</a></li><li><a href="/wiki/Category:%E8%A5%BF%E6%BC%A2" title="Category:西漢">西漢</a></li><li><a href="/wiki/Category:PD-old" title="Category:PD-old">PD-old</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			<footer id="footer" class="mw-footer" >
+				<ul id="footer-info" class="mw-portlet mw-portlet-footer-info">
+	<li id="footer-info-lastmod"> 此页面最后编辑于2024年10月7日 (星期一) 08:13。</li>
+	<li id="footer-info-copyright">本站的全部文字在<a rel="nofollow" class="external text" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">知识共享 署名-相同方式共享 4.0协议</a>之条款下提供，附加条款亦可能应用。（请参阅<a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">使用条款</a>）<br />在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（<b><a href="/wiki/Wikisource:%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF" title="Wikisource:版权信息">详情</a></b>）。<br />
+Wikisource&#174;和维基文库标志是<a rel="nofollow" class="external text" data-mw-original-href="//wikimediafoundation.org/zh" href="https://wikimediafoundation.org/zh">维基媒体基金会</a>的注册商标；维基&#8482;是维基媒体基金会的商标。<br />维基媒体基金会是在美国佛罗里达州登记的501(c)(3)<a class="external text" data-mw-original-href="//donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility" href="https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility">免税</a>、非营利、慈善机构。<br /></li>
+</ul>
+
+				<ul id="footer-places" class="mw-portlet mw-portlet-footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">隐私政策</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikisource:%E5%85%B3%E4%BA%8E">关于维基文库</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikisource:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">法律与安全事项联系方式</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">行为准则</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikisource.org">统计</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie声明</a></li>
+	<li id="footer-places-mobileview"><a href="//zh.wikisource.org/w/index.php?title=%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)/%E6%A5%9A/%E4%BA%8C&amp;oldid=2458637&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">移动版视图</a></li>
+</ul>
+
+				<ul id="footer-icons" class="mw-portlet mw-portlet-footer-icons noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+			</footer>
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="搜索Wikisource内容">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">搜索</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<nav aria-label="目录" class="vector-toc-landmark">
+						
+					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
+						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="开关目录"   >
+						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">开关目录</span>
+						</label>
+						<div class="vector-dropdown-content">
+					
+						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
+						</div>
+					
+						</div>
+					</div>
+			</nav>
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true" ><span lang="zh" dir="ltr"><span class="mw-page-title-main">戰國策 (士禮居叢書本)/楚/二</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock cdx-button__icon"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language cdx-button__icon"></span>
+
+<span>添加语言</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive cdx-button__icon"></span>
+
+<span>添加话题</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-bc9749c55-k5kn6","wgBackendResponseTime":251,"wgPageParseReport":{"limitreport":{"cputime":"0.241","walltime":"0.468","ppvisitednodes":{"value":784,"limit":1000000},"revisionsize":{"value":15252,"limit":2097152},"postexpandincludesize":{"value":27591,"limit":2097152},"templateargumentsize":{"value":8219,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3841,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%  391.838      1 -total"," 73.26%  287.079      1 Template:Album_header"," 66.50%  260.562      1 Template:Plain_sister"," 16.94%   66.360      1 Template:PD-old"," 15.77%   61.788      1 Template:License","  4.33%   16.953     79 Template:*","  2.39%    9.367      1 Template:Main_subject","  0.71%    2.767      1 Template:Footer"]},"scribunto":{"limitreport-timeusage":{"value":"0.073","limit":"10.000"},"limitreport-memusage":{"value":782999,"limit":52428800}},"cachereport":{"origin":"mw-api-ext.eqiad.main-59d746cd7f-95z5v","timestamp":"20261015190709","ttl":2592000,"transientcontent":false,"expiry-source":"Template:PD-old (currentyear)"}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u6230\u570b\u7b56 (\u58eb\u79ae\u5c45\u53e2\u66f8\u672c)\/\u695a\/\u4e8c","url":"https:\/\/zh.wikisource.org\/wiki\/%E6%88%B0%E5%9C%8B%E7%AD%96_(%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC)\/%E6%A5%9A\/%E4%BA%8C","sameAs":"http:\/\/www.wikidata.org\/entity\/Q85375950","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q85375950","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u57fa\u91d1\u4f1a","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-01-25T22:13:21Z","dateModified":"2024-10-07T08:13:08Z"}</script>
+</body>
+</html>
