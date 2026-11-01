@@ -1,0 +1,203 @@
+{
+  "book": "关汉卿杂剧",
+  "pages": [
+    {
+      "slug": "douee",
+      "title": "感天动地窦娥冤",
+      "sections": 5,
+      "source": {
+        "title": "竇娥冤",
+        "url": "https://zh.wikisource.org/zh-hans/%E7%AB%87%E5%A8%A5%E5%86%A4",
+        "revision": "2571901",
+        "text_sha256": "9cd78a286f4355fb3994b5202f854dde20a84d80618680546ab0e97072398303"
+      }
+    },
+    {
+      "slug": "luzhailang",
+      "title": "包待制智斩鲁斋郎",
+      "sections": 5,
+      "source": {
+        "title": "包待制智斬魯齋郎",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%8C%85%E5%BE%85%E5%88%B6%E6%99%BA%E6%96%AC%E9%AD%AF%E9%BD%8B%E9%83%8E",
+        "revision": "1483945",
+        "text_sha256": "b52bc119a5186993de0978b1ac9afdaf3d1464a89c8bf80a2c7f6a17c053fe3f"
+      }
+    },
+    {
+      "slug": "jiufengchen",
+      "title": "赵盼儿风月救风尘",
+      "sections": 4,
+      "source": {
+        "title": "趙盼兒風月救風塵",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B6%99%E7%9B%BC%E5%85%92%E9%A2%A8%E6%9C%88%E6%95%91%E9%A2%A8%E5%A1%B5",
+        "revision": "1486984",
+        "text_sha256": "489c82ebebf3b5f97c322868e32aff5a1e6e3ac5c37614625cbd9e334790d7f9"
+      }
+    },
+    {
+      "slug": "wangjiangting",
+      "title": "望江亭中秋切鲙",
+      "sections": 4,
+      "source": {
+        "title": "望江亭中秋切鱠",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9C%9B%E6%B1%9F%E4%BA%AD%E4%B8%AD%E7%A7%8B%E5%88%87%E9%B1%A0",
+        "revision": "2600828",
+        "text_sha256": "dbf354d3f02cc1072499dc020e0d753913ef108bb95c201d9b277269131d6ea7"
+      }
+    },
+    {
+      "slug": "hudiemeng",
+      "title": "包待制三勘蝴蝶梦",
+      "sections": 4,
+      "source": {
+        "title": "包待制三勘蝴蝶夢",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%8C%85%E5%BE%85%E5%88%B6%E4%B8%89%E5%8B%98%E8%9D%B4%E8%9D%B6%E5%A4%A2",
+        "revision": "2565797",
+        "text_sha256": "24c828e2b2a8d5d44e0d5e73d91696af757fa2c1e6605ea6609a3cb62fdb4cd8"
+      }
+    },
+    {
+      "slug": "jinxianchi",
+      "title": "杜蕊娘智赏金线池",
+      "sections": 5,
+      "source": {
+        "title": "杜蕊娘智賞金線池",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9D%9C%E8%95%8A%E5%A8%98%E6%99%BA%E8%B3%9E%E9%87%91%E7%B7%9A%E6%B1%A0",
+        "revision": "1484295",
+        "text_sha256": "f913a1bdf2f4966044f4a4523341244b7a4108bd7278ee9b00a18e972f2e6fe6"
+      }
+    },
+    {
+      "slug": "xietianxiang",
+      "title": "钱大尹智宠谢天香",
+      "sections": 5,
+      "source": {
+        "title": "錢大尹智寵謝天香",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8C%A2%E5%A4%A7%E5%B0%B9%E6%99%BA%E5%AF%B5%E8%AC%9D%E5%A4%A9%E9%A6%99",
+        "revision": "1483953",
+        "text_sha256": "ab2e3783543d2a2ec0eafc86e9159b74baeb7ef90c945d5447797a44e6554141"
+      }
+    },
+    {
+      "slug": "yujingtai",
+      "title": "温太真玉镜台",
+      "sections": 4,
+      "source": {
+        "title": "溫太真玉鏡臺",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%BA%AB%E5%A4%AA%E7%9C%9F%E7%8E%89%E9%8F%A1%E8%87%BA",
+        "revision": "2600821",
+        "text_sha256": "c76e539cc118c79554a2f108201347efed37b8e902901cf1504255d774c2ebc3"
+      }
+    },
+    {
+      "slug": "danbianduosuo",
+      "title": "尉迟恭单鞭夺槊",
+      "sections": 5,
+      "source": {
+        "title": "尉遲恭單鞭奪槊",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%89%E9%81%B2%E6%81%AD%E5%96%AE%E9%9E%AD%E5%A5%AA%E6%A7%8A",
+        "revision": "1483958",
+        "text_sha256": "19c664265bf10be9e607c615c7371a9bacdedeb1b99df4df4e7f75b142c85df3"
+      }
+    },
+    {
+      "slug": "danfenghui",
+      "title": "关大王独赴单刀会",
+      "sections": 4,
+      "source": {
+        "title": "關大王獨赴單刀會",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%97%9C%E5%A4%A7%E7%8E%8B%E7%8D%A8%E8%B5%B4%E5%96%AE%E5%88%80%E6%9C%83",
+        "revision": "1486910",
+        "text_sha256": "81343ff3745dbd3d429630a68553c30e80fe2af93c5bacab69f62227507f453f"
+      }
+    },
+    {
+      "slug": "feiyimeng",
+      "title": "钱大尹智勘绯衣梦",
+      "sections": 4,
+      "source": {
+        "title": "錢大尹智勘緋衣夢",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8C%A2%E5%A4%A7%E5%B0%B9%E6%99%BA%E5%8B%98%E7%B7%8B%E8%A1%A3%E5%A4%A2",
+        "revision": "1484288",
+        "text_sha256": "4928560f4fd1b56b858951908bff8c3e49983180cdffba72e63a99480ae905a8"
+      }
+    },
+    {
+      "slug": "wuhouyan",
+      "title": "刘夫人庆赏五侯宴",
+      "sections": 5,
+      "source": {
+        "title": "劉夫人慶賞五侯宴",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%8A%89%E5%A4%AB%E4%BA%BA%E6%85%B6%E8%B3%9E%E4%BA%94%E4%BE%AF%E5%AE%B4",
+        "revision": "1483970",
+        "text_sha256": "a77e6abce6cc94a4ec58bd8ebc127bb8fc454bba11ae829942a1de7e95e645ae"
+      }
+    },
+    {
+      "slug": "kucunxiao",
+      "title": "邓夫人苦痛哭存孝",
+      "sections": 4,
+      "source": {
+        "title": "鄧夫人苦痛哭存孝",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%84%A7%E5%A4%AB%E4%BA%BA%E8%8B%A6%E7%97%9B%E5%93%AD%E5%AD%98%E5%AD%9D",
+        "revision": "2087194",
+        "text_sha256": "fc2df552d3985ea2d3117207ff8f5eb6e3541799ace2240bd98816fa852433c7"
+      }
+    },
+    {
+      "slug": "peidu",
+      "title": "山神庙裴度还带",
+      "sections": 5,
+      "source": {
+        "title": "山神廟裴度還帶",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B1%B1%E7%A5%9E%E5%BB%9F%E8%A3%B4%E5%BA%A6%E9%82%84%E5%B8%B6",
+        "revision": "2074932",
+        "text_sha256": "b5091e0e6d057c8eaed148756f8298be63cab03b8e08d2158a1c8c03bea2e449"
+      }
+    },
+    {
+      "slug": "chenmu",
+      "title": "状元堂陈母教子",
+      "sections": 5,
+      "source": {
+        "title": "狀元堂陳母教子",
+        "url": "https://zh.wikisource.org/zh-hans/%E7%8B%80%E5%85%83%E5%A0%82%E9%99%B3%E6%AF%8D%E6%95%99%E5%AD%90",
+        "revision": "1484289",
+        "text_sha256": "4954493edaffc3d650040eb87b1ba0a786bc02a57e8389a4e54cf2ea7d6a1b57"
+      }
+    },
+    {
+      "slug": "xishumeng",
+      "title": "关张双赴西蜀梦",
+      "sections": 4,
+      "source": {
+        "title": "關張雙赴西蜀夢",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%97%9C%E5%BC%B5%E9%9B%99%E8%B5%B4%E8%A5%BF%E8%9C%80%E5%A4%A2",
+        "revision": "1486890",
+        "text_sha256": "8ca24deef7892fda3ab2bb8c076f51905fea3713cc45c263932db50df6763e8e"
+      }
+    },
+    {
+      "slug": "baiyueting",
+      "title": "闺怨佳人拜月亭",
+      "sections": 5,
+      "source": {
+        "title": "閨怨佳人拜月亭",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%96%A8%E6%80%A8%E4%BD%B3%E4%BA%BA%E6%8B%9C%E6%9C%88%E4%BA%AD",
+        "revision": "1488437",
+        "text_sha256": "fbab61749e8b303a5abd240f87fdbc27ac500759d6e641536cd179259d803cf2"
+      }
+    },
+    {
+      "slug": "tiaofengyue",
+      "title": "诈妮子调风月",
+      "sections": 4,
+      "source": {
+        "title": "詐妮子調風月",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%A9%90%E5%A6%AE%E5%AD%90%E8%AA%BF%E9%A2%A8%E6%9C%88",
+        "revision": "2621920",
+        "text_sha256": "bd19804e7148d74b55ef7fdf2fc1d490aa22113c3b7e2f0ad87790af4ddc8ef7"
+      }
+    }
+  ]
+}

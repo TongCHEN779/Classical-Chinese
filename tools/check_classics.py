@@ -24,7 +24,7 @@ def main():
     expected = ['jinshi', 'bao', 'xiangji', 'yueyang', 'tengwang',
                 'bie', 'hen', 'diwang', 'baixing', 'zhishi',
                 'lanting', 'taohuayuan', 'chibi', 'chushi', 'guoqin',
-                'chenqing', 'liuguo', 'zuiweng', 'afang']
+                'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'

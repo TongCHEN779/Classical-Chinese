@@ -1,0 +1,16 @@
+{
+  "book": "拜月亭",
+  "pages": [
+    {
+      "slug": "zhengwen",
+      "title": "闺怨佳人拜月亭",
+      "sections": 5,
+      "source": {
+        "title": "閨怨佳人拜月亭",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%96%A8%E6%80%A8%E4%BD%B3%E4%BA%BA%E6%8B%9C%E6%9C%88%E4%BA%AD",
+        "revision": "1488437",
+        "text_sha256": "fbab61749e8b303a5abd240f87fdbc27ac500759d6e641536cd179259d803cf2"
+      }
+    }
+  ]
+}

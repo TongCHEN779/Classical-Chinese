@@ -1,0 +1,16 @@
+{
+  "book": "倩女离魂",
+  "pages": [
+    {
+      "slug": "zhengwen",
+      "title": "迷青琐倩女离魂",
+      "sections": 5,
+      "source": {
+        "title": "迷青瑣倩女離魂",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%BF%B7%E9%9D%92%E7%91%A3%E5%80%A9%E5%A5%B3%E9%9B%A2%E9%AD%82",
+        "revision": "2572377",
+        "text_sha256": "0c4ab21cb60a32a9ffbc52de73fead87304e597062b66ee781499ac84619b247"
+      }
+    }
+  ]
+}

@@ -16,6 +16,7 @@ STEPS = [
     ['tools/check_site.py'],
     ['tools/check_zizhitongjian.py'],
     ['tools/check_dongjing_chuanxi.py'],
+    ['tools/check_works.py'],
     ['tools/check_four_classics.py'],
     ['tools/check_roupotuan.py'],
     ['tools/check_zuozhuan.py'],

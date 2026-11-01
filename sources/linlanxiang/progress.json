@@ -1,0 +1,720 @@
+{
+  "book": "林兰香",
+  "pages": [
+    {
+      "slug": "congyu",
+      "title": "林兰香丛语",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/林蘭香叢語",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E6%9E%97%E8%98%AD%E9%A6%99%E5%8F%A2%E8%AA%9E",
+        "revision": "2042230",
+        "text_sha256": "c2edc0d24bf4294ffadcd85516d290c5290f197845978d50785b0a5ec6d14687"
+      }
+    },
+    {
+      "slug": "001",
+      "title": "第一回　录勋旧瞒照蒙恩　弹甲科祖圭获咎",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第01回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC01%E5%9B%9E",
+        "revision": "2295171",
+        "text_sha256": "6bf56b936bbcc1b27e6144eb6729851b6fb97fab64cf1deb1f5f4bbbb0152fe9"
+      }
+    },
+    {
+      "slug": "002",
+      "title": "第二回　叩彤廷信义全朋　览副奏抒诚爱妇",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第02回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC02%E5%9B%9E",
+        "revision": "2102658",
+        "text_sha256": "a31c85815571b8d0fef09988001c7353b416c9a435352e7eb4202ec0659f3009"
+      }
+    },
+    {
+      "slug": "003",
+      "title": "第三回　茅御史摘奸成案　林夫人相婿结婚",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第03回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC03%E5%9B%9E",
+        "revision": "2102659",
+        "text_sha256": "8bda9c3f2902507edc25d7fdd97d67cd75e1d01441eb832b6ff8241978548e3c"
+      }
+    },
+    {
+      "slug": "004",
+      "title": "第四回　三夫人前厅论婿　二小姐密室谈情",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第04回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC04%E5%9B%9E",
+        "revision": "2102660",
+        "text_sha256": "148a53723954f3cb3f400b419414acb57004ea1024a789ea2a21ec92fe9db1b4"
+      }
+    },
+    {
+      "slug": "005",
+      "title": "第五回　说火灾木氏知因　误药性燕媛抱恙",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第05回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC05%E5%9B%9E",
+        "revision": "2295170",
+        "text_sha256": "93d8e1a092dc1405eb496bfd77ce98dcbe38ea781d02737526581d164a1df61a"
+      }
+    },
+    {
+      "slug": "006",
+      "title": "第六回　耿存忠痛哭燕玉　任自立急呈香儿",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第06回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC06%E5%9B%9E",
+        "revision": "2295169",
+        "text_sha256": "78d648921dea6c77540e3e48b85cd861a5e7a6b19e15f2c3ca4f9786b3fda8b0"
+      }
+    },
+    {
+      "slug": "007",
+      "title": "第七回　思旧侣爱娘题壁　和新诗梦姐遗簪",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第07回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC07%E5%9B%9E",
+        "revision": "2102672",
+        "text_sha256": "d1bc16006bc4edf53657c94c8e102ed4f289c07b6f461ff4efc7a29c40eab508"
+      }
+    },
+    {
+      "slug": "008",
+      "title": "第八回　全司礼奏赦梦卿　茅指挥媒说宣爱",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第08回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC08%E5%9B%9E",
+        "revision": "2102673",
+        "text_sha256": "40ec7ea8b58a082ecb811e5093e479d6bce1cca1babc44e2b50ebef148106975"
+      }
+    },
+    {
+      "slug": "009",
+      "title": "第九回　话病源胡医荐友　弄幻术叶道摄魂",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第09回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC09%E5%9B%9E",
+        "revision": "2295164",
+        "text_sha256": "2a6cd4443318cc1016a463d4da864a7dec49eb922a94790ee34aeb0f1de25590"
+      }
+    },
+    {
+      "slug": "010",
+      "title": "第十回　平彩云因思致梦　茅大刚为色伤生",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第10回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC10%E5%9B%9E",
+        "revision": "2295163",
+        "text_sha256": "5884b8f4bc9f6542bb80c06a7cee1e0ecc713b80b10ed2bdf4ebc65ea67129c5"
+      }
+    },
+    {
+      "slug": "011",
+      "title": "第十一回　全节义甘为侧室　感情怀拟结同心",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第11回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC11%E5%9B%9E",
+        "revision": "2295172",
+        "text_sha256": "41f1a3c102386aa95c27973b1c2a723988253208ce2236506b6683c7751e13d1"
+      }
+    },
+    {
+      "slug": "012",
+      "title": "第十二回　老鳏夫妄思继娶　瞎婆子滥引联婚",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第12回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC12%E5%9B%9E",
+        "revision": "2102702",
+        "text_sha256": "44bb84920ae6f3cc65c4213c7a5f1758e81a54a431fabddd116edeb7168553d4"
+      }
+    },
+    {
+      "slug": "013",
+      "title": "第十三回　任香儿被底谗言　宣爱娘花间丽句",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第13回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC13%E5%9B%9E",
+        "revision": "2295175",
+        "text_sha256": "14fa4b34755c53323f810da3ceab0572f32dc07a1a6bce72d7c31065d457c8c6"
+      }
+    },
+    {
+      "slug": "014",
+      "title": "第十四回　激义侠一夫独往　适心意三女同归",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第14回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC14%E5%9B%9E",
+        "revision": "2295186",
+        "text_sha256": "4faa878ee71dba2ffd2a3ce5469214209675cc404047dcdcd0218590e0c9defc"
+      }
+    },
+    {
+      "slug": "015",
+      "title": "第十五回　燕梦卿让居别院　林云屏承理家私",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第15回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC15%E5%9B%9E",
+        "revision": "2295187",
+        "text_sha256": "37ca6c969b78627254fa9b6c2df936862f93e6d37bcf627f3db44957d8e02842"
+      }
+    },
+    {
+      "slug": "016",
+      "title": "第十六回　聆游歌良朋劝友　宴夜饮淑女规夫",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第16回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC16%E5%9B%9E",
+        "revision": "2102753",
+        "text_sha256": "27d22740172e75ea5790c71bae225479c73ef7deee9b21c92c1b7797a1f507ee"
+      }
+    },
+    {
+      "slug": "017",
+      "title": "第十七回　三公子大闹勾阑　二秀才浪游灯市",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第17回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC17%E5%9B%9E",
+        "revision": "2295188",
+        "text_sha256": "1519048d8b52570212570ba3e023137d1aa77762ffbc9f063bae7d080ebabe2e"
+      }
+    },
+    {
+      "slug": "018",
+      "title": "第十八回　中和日助款良朋　寒食节怜伤孝女",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第18回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC18%E5%9B%9E",
+        "revision": "2295189",
+        "text_sha256": "b9e056eb026fa3abb0f0c2e1295d95be843106a1671573095164f208af2cc982"
+      }
+    },
+    {
+      "slug": "019",
+      "title": "第十九回　刑部郎执法如山　任氏女出言似蜜",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第19回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC19%E5%9B%9E",
+        "revision": "2606105",
+        "text_sha256": "e82b9a5fa13cd3cc01361342d1cf34cc02689fc6f827dc4bd1b2e56a1dff73d2"
+      }
+    },
+    {
+      "slug": "020",
+      "title": "第二十回　聪慧姿一姝独擅　风流事五美同欢",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第20回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC20%E5%9B%9E",
+        "revision": "2295191",
+        "text_sha256": "53bf6ad7150000f7051af2afbebbccb8b2c2fe435e4201c2fb9b5db285b3f0f5"
+      }
+    },
+    {
+      "slug": "021",
+      "title": "第二十一回　水成疾海氏能医　药未投爱娘解病",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第21回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC21%E5%9B%9E",
+        "revision": "2295193",
+        "text_sha256": "f04fd4dbcc53fbe25e58dfafbc79214beedba99a5c5a0ead5e583d7543705198"
+      }
+    },
+    {
+      "slug": "022",
+      "title": "第二十二回　泗国公病中遗语　杨安人梦后劝言",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第22回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC22%E5%9B%9E",
+        "revision": "2102882",
+        "text_sha256": "46ade40d00a62d3fd88de41698cc95896faf4a7a52181cd77452cb2e6e5f97e5"
+      }
+    },
+    {
+      "slug": "023",
+      "title": "第二十三回　宣爱娘赌诗博趣　燕梦卿书扇留疑",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第23回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC23%E5%9B%9E",
+        "revision": "2295194",
+        "text_sha256": "ac5d5e6a7163a4fe641d8fccd94095e4b81db95f9feebfc26bef5c56e3875bb3"
+      }
+    },
+    {
+      "slug": "024",
+      "title": "第二十四回　全司礼进言秉正　茅都堂立议怀私",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第24回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC24%E5%9B%9E",
+        "revision": "2102884",
+        "text_sha256": "e8b178bcf76929079bdf4a5e9f8c147162ff5f10299a59cd098a2e8827eb1928"
+      }
+    },
+    {
+      "slug": "025",
+      "title": "第二十五回　金匮伤胎倾彩艾　玉池炼汞蛊童观",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第25回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC25%E5%9B%9E",
+        "revision": "2295196",
+        "text_sha256": "2c642497edf50a2308dee460a5216b4c935b4c80a6fbf4b470c3036dcded72e5"
+      }
+    },
+    {
+      "slug": "026",
+      "title": "第二十六回　彩云一日几般妆　耿服三秋无限恨",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第26回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC26%E5%9B%9E",
+        "revision": "2103077",
+        "text_sha256": "5d1d887dd45bf884f54ccd5a58724204c9b945ba5f223ad609a89d1414160afe"
+      }
+    },
+    {
+      "slug": "027",
+      "title": "第二十七回　贝锦箕芳双入室　青裳丹棘两同归",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第27回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC27%E5%9B%9E",
+        "revision": "2103079",
+        "text_sha256": "c27e54078b7b445c88e5a37864619ab95870f6bc30e94e90efec71cc0300b76d"
+      }
+    },
+    {
+      "slug": "028",
+      "title": "第二十八回　半老佳人学密约　双盲才子赴幽期",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第28回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC28%E5%9B%9E",
+        "revision": "2103082",
+        "text_sha256": "0a6bb2f5fdd34bdca5da8f3dc94e2a5b7046a4f2dc7c61bb392270209f3f6920"
+      }
+    },
+    {
+      "slug": "029",
+      "title": "第二十九回　彩萧报愤泄谗言　宣喜抒情传笑语",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第29回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC29%E5%9B%9E",
+        "revision": "2103086",
+        "text_sha256": "389f2b031bcb09c63a3e6ab25abc60269a07dcbdd0c53d4531561192890b2978"
+      }
+    },
+    {
+      "slug": "030",
+      "title": "第三十回　蛊婢淫鬟彰秽恶　良姊义妹话幽微",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第30回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC30%E5%9B%9E",
+        "revision": "2103090",
+        "text_sha256": "1adf3be0d72f1e42b27ee41d6847d87aaab5da70f7618ae54a45bec507176b92"
+      }
+    },
+    {
+      "slug": "031",
+      "title": "第三十一回　居别院香儿擅宠　理家私平氏希权",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第31回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC31%E5%9B%9E",
+        "revision": "2103120",
+        "text_sha256": "c53a92fbfc0e409d28e03fc30f9e0f1563137d7a5aac79ec28e7583e4108908b"
+      }
+    },
+    {
+      "slug": "032",
+      "title": "第三十二回　温柔乡里疏良朋　冷淡场中显淑女",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第32回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC32%E5%9B%9E",
+        "revision": "2103121",
+        "text_sha256": "5a0baf27995f41f275a7a939088a29a35e094cb4a7e8184a1dc513ea7ba4eaad"
+      }
+    },
+    {
+      "slug": "033",
+      "title": "第三十三回　奋功名胄子从戎　争节志文人讲武",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第33回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC33%E5%9B%9E",
+        "revision": "2103123",
+        "text_sha256": "7839ef791c9fd5a1591c0b1f637f1c1f88d23d8f5a373370d5f3c45e9360330a"
+      }
+    },
+    {
+      "slug": "034",
+      "title": "第三十四回　婚孤儿良友为媒　写遗肖情人作伴",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第34回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC34%E5%9B%9E",
+        "revision": "2103128",
+        "text_sha256": "624bfa7d1f62ff71d7a9ed9ee21bf06259c544825f04e8fe6db86ae3f78d544f"
+      }
+    },
+    {
+      "slug": "035",
+      "title": "第三十五回　季子章转战三关　燕梦卿重惊旧兆",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第35回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC35%E5%9B%9E",
+        "revision": "2103134",
+        "text_sha256": "ce2aac4ac01fc9de45105c8552aa6831f5ce767b86df0a48cd8b972b30469a41"
+      }
+    },
+    {
+      "slug": "036",
+      "title": "第三十六回　三尺剑借成功业　一封书寄断心情",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第36回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC36%E5%9B%9E",
+        "revision": "2103626",
+        "text_sha256": "3e52abb34b89d422ef532a190b7a83485e2f65d6362f15b51b87adeceeda0d42"
+      }
+    },
+    {
+      "slug": "037",
+      "title": "第三十七回　情侍密语畅兰闰　倩女幽魂惊虎帐",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第37回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC37%E5%9B%9E",
+        "revision": "2103627",
+        "text_sha256": "5e253b9c276ba661a709bd0017eda34be8e3895f91d7cc4a7e49a04014764fd5"
+      }
+    },
+    {
+      "slug": "038",
+      "title": "第三十八回　孟元帅力荐良臣　康诰命痛思淑女",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第38回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC38%E5%9B%9E",
+        "revision": "2103630",
+        "text_sha256": "77000a45c606ad3636e59c4f51aecc5b7b2bb65ff9d8817e329d64b74fa36aba"
+      }
+    },
+    {
+      "slug": "039",
+      "title": "第三十九回　宣爱娘爱钟幼子　燕梦卿梦慰慈亲",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第39回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC39%E5%9B%9E",
+        "revision": "2103638",
+        "text_sha256": "97ea2819f8a7b40612ffe4c2704af53c98ce443d81b28b7f821e1d8973a062b4"
+      }
+    },
+    {
+      "slug": "040",
+      "title": "第四十回　老司礼祭设一坛　众仆人哭分三奠",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第40回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC40%E5%9B%9E",
+        "revision": "2103646",
+        "text_sha256": "1abdfa718bd10f62570a9f75d4153c373dbbd6521d3afdba3aaea1ec8c2b8e48"
+      }
+    },
+    {
+      "slug": "041",
+      "title": "第四十一回　遇蛊毒萧推彩艾　觅邪术观唆童蒙",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第41回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC41%E5%9B%9E",
+        "revision": "2103647",
+        "text_sha256": "1569467f9d0e9cd185b4d32250d4495e50a68a9c1046894300fd3e7954344149"
+      }
+    },
+    {
+      "slug": "042",
+      "title": "第四十二回　彩云借物取新欢　瞒照观容添旧恨",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第42回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC42%E5%9B%9E",
+        "revision": "2603642",
+        "text_sha256": "e1a3a55e73cea52499d7775feaa4ebaaf37b263589b6ae9ca7dcdc69e8d9ae19"
+      }
+    },
+    {
+      "slug": "043",
+      "title": "第四十三回　抚幼子继居侧室　承先人再结同心",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第43回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC43%E5%9B%9E",
+        "revision": "2103667",
+        "text_sha256": "a85b2437e67e289c26eb6199b507cb01277ad5acafe62fa5a1e2642dc8c6d4cf"
+      }
+    },
+    {
+      "slug": "044",
+      "title": "第四十四回　偷鞋才子识原鞋　觅扇佳人得旧扇",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第44回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC44%E5%9B%9E",
+        "revision": "2103668",
+        "text_sha256": "4068b8dedde593cf957fc5a4643e02c793f32d84a7a9d5a765de043efce40b63"
+      }
+    },
+    {
+      "slug": "045",
+      "title": "第四十五回　俏丫鬟挥剑驱邪　贤侍女弹琴解愤",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第45回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC45%E5%9B%9E",
+        "revision": "2103669",
+        "text_sha256": "2d6291a24e729a70f9d9ebab74310fc8ca50226574928e3d626891f8edd67274"
+      }
+    },
+    {
+      "slug": "046",
+      "title": "第四十六回　访蓬户良友雄谈　侍翠帷淑姬丽语",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第46回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC46%E5%9B%9E",
+        "revision": "2103670",
+        "text_sha256": "fa4d17db3fdfebe17f9a53012064868ee31d8343da3b257b93966cde6aa883ff"
+      }
+    },
+    {
+      "slug": "047",
+      "title": "第四十七回　逞前技谋移东所　思旧患出继伯家",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第47回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC47%E5%9B%9E",
+        "revision": "2103673",
+        "text_sha256": "411f4cd89c5ddb08464d7a0e765dd58112c967fc4388c10e8701ff58e2200b72"
+      }
+    },
+    {
+      "slug": "048",
+      "title": "第四十八回　旧朋感义结新亲　小妾叨恩成大妇",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第48回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC48%E5%9B%9E",
+        "revision": "2103674",
+        "text_sha256": "8d7e82d1469890b8d203735c2e54a8831559c84af4c524a8f2306d01913ca216"
+      }
+    },
+    {
+      "slug": "049",
+      "title": "第四十九回　泗国府成遗爱府　九皋亭作冷心亭",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第49回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC49%E5%9B%9E",
+        "revision": "2103676",
+        "text_sha256": "8cca19da9f40feb7c782de00b5569b7a5357173ad9c608233ff4cd1e6c61786d"
+      }
+    },
+    {
+      "slug": "050",
+      "title": "第五十回　三女观容赋悼亡　众鬟斗物征留爱",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第50回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC50%E5%9B%9E",
+        "revision": "2103692",
+        "text_sha256": "acfb25eb98e209f2861c34e42807bd1ebffb4a13bf9334cbec36ae7430c10fc0"
+      }
+    },
+    {
+      "slug": "051",
+      "title": "第五十一回　才子情深真才子　佳人义重果佳人",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第51回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC51%E5%9B%9E",
+        "revision": "2103697",
+        "text_sha256": "ba4664216048d6b1a14d055d12b790d70200b3d10cbd27a5eebfe7a338b873a5"
+      }
+    },
+    {
+      "slug": "052",
+      "title": "第五十二回　凶医蛊婢败奸谋　贼道淫僧遭恶报",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第52回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC52%E5%9B%9E",
+        "revision": "2103699",
+        "text_sha256": "8f2a7f7935886105074cb9ab90b91ab5b9f7bd60f4e9ec0740da03c9dc500743"
+      }
+    },
+    {
+      "slug": "053",
+      "title": "第五十三回　宝剑瑶琴归旧主　花簪诗扇获新评",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第53回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC53%E5%9B%9E",
+        "revision": "2104920",
+        "text_sha256": "0073ce6ba9b1b7993c5ec141848eadafe21f9f4db949b8fc935ba109640fa3c9"
+      }
+    },
+    {
+      "slug": "054",
+      "title": "第五十四回　水深火热病萧郎　梦想魂思逢倩女",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第54回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC54%E5%9B%9E",
+        "revision": "2104921",
+        "text_sha256": "1ecb3bda79baca107ffa649b51422aa1c9eebc3c448c276ffd04c3f676f3db9a"
+      }
+    },
+    {
+      "slug": "055",
+      "title": "第五十五回　不用流连思往事　且将风雅继当年",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第55回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC55%E5%9B%9E",
+        "revision": "2104924",
+        "text_sha256": "3de103f0c0ecda4ca9661fb7e258e5e1aea54bb226d5dc86326fbb97cddc4cc3"
+      }
+    },
+    {
+      "slug": "056",
+      "title": "第五十六回　弟兄郎舅大登科　父子夫妻同贵显",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第56回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC56%E5%9B%9E",
+        "revision": "2295198",
+        "text_sha256": "6a3806ff3ddab50aec81d6f58fae2b024563bc27f91e6a12228586e1c64c1e59"
+      }
+    },
+    {
+      "slug": "057",
+      "title": "第五十七回　守贞义重三姊妹　分产情联四弟兄",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第57回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC57%E5%9B%9E",
+        "revision": "2295200",
+        "text_sha256": "dc93a6300c61b8b0cacc2b189574392c95d20b1691dc6d6cc44a9f92f31d88e7"
+      }
+    },
+    {
+      "slug": "058",
+      "title": "第五十八回　祭中元春畹伤生　悲重九云屏谢世",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第58回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC58%E5%9B%9E",
+        "revision": "2295201",
+        "text_sha256": "e28ea2c30287b3bdc7ffcf2ea9de958ed978f8856ffa075233b01ab0713b82e9"
+      }
+    },
+    {
+      "slug": "059",
+      "title": "第五十九回　识火攻永镇海疆　解梦事双归林下",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第59回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC59%E5%9B%9E",
+        "revision": "2104951",
+        "text_sha256": "d545a0dfee6f71be0600733dfa6487f1f93e1a85f03a6ffe1725e122dfba8afb"
+      }
+    },
+    {
+      "slug": "060",
+      "title": "第六十回　春畹贻簪深诫子　伯宣试剑勇勤王",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第60回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC60%E5%9B%9E",
+        "revision": "2295202",
+        "text_sha256": "41ba370d13e4babeec909aadae957eb5a8608edadaf8417123632e19f0a08abd"
+      }
+    },
+    {
+      "slug": "061",
+      "title": "第六十一回　丹棘青裳思旧主　性澜情圃上新坟",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第61回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC61%E5%9B%9E",
+        "revision": "2295203",
+        "text_sha256": "c49169434bc39e60337f8e82c6dfead7803c75066e8839a5240e9b4f653f27c1"
+      }
+    },
+    {
+      "slug": "062",
+      "title": "第六十二回　后苑喜邀群士子　前庭情话老佳人",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第62回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC62%E5%9B%9E",
+        "revision": "2295204",
+        "text_sha256": "11858bce326bedcc2273fa2dc8e51fc76db8669b2046f0355afb1b3202849251"
+      }
+    },
+    {
+      "slug": "063",
+      "title": "第六十三回　缇萦再见演梨园　金谷重悲弹瞽女",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第63回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC63%E5%9B%9E",
+        "revision": "2104963",
+        "text_sha256": "ce376b9dde147c3b10b977cf19935b259b4788da8f12fe2258163dd67ca6b7f9"
+      }
+    },
+    {
+      "slug": "064",
+      "title": "第六十四回　养正焚修隆一祠　伯宣梦警邯郸道",
+      "sections": 1,
+      "source": {
+        "title": "林蘭香/第64回",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%9E%97%E8%98%AD%E9%A6%99/%E7%AC%AC64%E5%9B%9E",
+        "revision": "2295205",
+        "text_sha256": "0d97df363f5c108a343bef6ef1ec898a23347e64a91c905145a93df9b5e7d9c4"
+      }
+    }
+  ]
+}

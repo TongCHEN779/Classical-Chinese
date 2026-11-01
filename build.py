@@ -695,6 +695,19 @@ def _xu_source(slug):
     return {"title": d["title"], "url": d["url"], "revision": d["revision"], "after": "原站标点保持不变；疑误字只在注中说明。"}
 
 
+def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None):
+    """关汉卿杂剧、赵氏孤儿等：页表读自 sources/<slug>/progress.json（页下按折/回分节）。"""
+    progress = json.loads((ROOT / f"sources/{slug}/progress.json").read_text(encoding="utf8"))
+    pages = ([("tijie", "全书题解")] if tijie else []) + [(p["slug"], p["title"]) for p in progress["pages"]]
+    spec = {"title": title, "author": author, "unit": unit, "summary_unit": unit, "wide_index": True,
+            "prose": not gloss, "no_tip": not gloss, "side_toc": True, "count_entries": False, "no_count": True,
+            "intro": "", "pages": pages,
+            "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
+    if not gloss:
+        spec["reading_hint"] = "原文直读；点击“题解”“注释”可展开。附基础导读注释，不设白话译文。"
+    return spec
+
+
 POETRY = {
     "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
@@ -704,6 +717,13 @@ POETRY = {
     **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
     "zuozhuan": _zuozhuan_spec(),
     "zizhitongjian": _zizhitongjian_spec(),
+    "guanhanqing": _works_spec("guanhanqing", "关汉卿杂剧", "［元］关汉卿", "折"),
+    "zhaoshigu": _works_spec("zhaoshigu", "赵氏孤儿", "［元］纪君祥", "折"),
+    "qiannulihun": _works_spec("qiannulihun", "倩女离魂", "［元］郑光祖", "折"),
+    "qiangtoumashang": _works_spec("qiangtoumashang", "墙头马上", "［元］白朴", "折"),
+    "baiyueting": _works_spec("baiyueting", "拜月亭", "［元］关汉卿", "折"),
+    "linlanxiang": _works_spec("linlanxiang", "林兰香", "［清］随缘下士", "回"),
+    "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
     "donglinghualu": _donglinghualu_spec(),
     "chuanxilu": _chuanxilu_spec(),
     "canying": _canying_spec(),
@@ -737,10 +757,17 @@ BOOK_INTRO = {
     "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
     "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
-    "classic_list": "历代散文、辞赋名篇选集，收《报任安书》《出师表》《兰亭集序》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》等十九篇。",
+    "classic_list": "历代散文、辞赋名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》等二十一篇。",
+    "guanhanqing": "元代关汉卿所作杂剧合集，收《窦娥冤》《救风尘》《望江亭》《单刀会》《拜月亭》《调风月》等十八种，题材涉及冤狱、婚恋、公案与历史英雄。",
+    "zhaoshigu": "元代纪君祥所作杂剧，全称《冤报冤赵氏孤儿》，写程婴、公孙杵臼舍命救护赵氏孤儿、孤儿长大后报仇雪冤的故事。",
+    "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",
+    "qiangtoumashang": "元代白朴所作杂剧，全称《裴少俊墙头马上》，写李千金与裴少俊墙头相见、私奔成婚，历经波折而团圆的故事。元代四大爱情剧之一。",
+    "baiyueting": "元代关汉卿所作杂剧，全称《闺怨佳人拜月亭》，写金末兵乱中蒋世隆与王瑞兰患难相识、几经离合而团圆的故事。元代四大爱情剧之一。",
+    "linlanxiang": "清代世情小说，全书六十四回，旧本题“随缘下士编辑”，以明代耿朗一家妻妾的悲欢为中心，细写家庭日常与人情世态。",
+    "shenglvqimeng": "清代车万育编的蒙学读物，按平水韵分三十个韵部，以对句训练对仗与声律，涉及天文、地理、人物与典故。",
     "mengxi": "北宋沈括所著笔记，含《笔谈》二十六卷及《补笔谈》《续笔谈》，涉及天文历法、数学、地理、医药、工艺、艺文、官政与朝野轶事。",
     "zhenglun-changyan": "东汉两部政论著作合编，分别为崔寔《政论》与仲长统《昌言》，议论时政得失、田制、刑法与吏治。原书多佚，今存为后人辑本。",
-    "xixiangji": "元杂剧，全称《崔莺莺待月西厢记》，通行五本二十一折并楔子，写张生与崔莺莺在红娘帮助下冲破礼教、自主成婚的故事。",
+    "xixiangji": "元杂剧，全称《崔莺莺待月西厢记》，通行五本二十一折并楔子，写张生与崔莺莺在红娘帮助下冲破礼教、自主成婚的故事。元代四大爱情剧之一。",
     "xiyouji": "神魔章回小说，全一百回，通行署吴承恩。写孙悟空出世、大闹天宫及唐僧师徒西行取经、历经八十一难的故事。",
     "shuihuzhuan": "写北宋末年梁山好汉聚义、招安与征战的章回小说，通行署施耐庵，全书一百二十回。",
     "sanguoyanyi": "历史演义小说，写东汉末年至西晋统一的兴亡，通行为罗贯中著、毛宗岗父子评改的一百二十回本。",
@@ -1000,8 +1027,8 @@ def build_poetry(bslug, spec):
 
 
 # 书名首字的拼音首字母，供首页字母索引使用；新增书目若首字不在表内，build 会报错提醒补充。
-INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传",
-                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDC"))
+INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声",
+                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLS"))
 
 
 def build_home():
