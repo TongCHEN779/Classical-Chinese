@@ -166,10 +166,12 @@ def ztjj_sections(d):
                 cur['paras'].append(ztjj_body(b['text']))
         elif t == 'li' and cur['title'] == '校刊记':
             cur['paras'].append(clean(re.sub(r'^↑\s*', '', b['text'])).replace('\n', '/'))
-    if secs and secs[0]['paras']:    # 卷首的“资治通鉴 第NNN卷”是原站页面标题，不收
-        secs[0]['paras'][0] = re.sub(r'^资治通鉴\s*第?\s*\d+卷/?', '', secs[0]['paras'][0])
-        if not secs[0]['paras'][0]:
-            secs[0]['paras'].pop(0)
+    if secs and secs[0]['paras']:    # 卷首的“资治通鉴 第NNN卷”和随后的“卷第某”是原站页面标题，卷号已在页标题里，不收
+        for pat in (r'^资治通鉴\s*第?\s*\d+卷/?', r'^卷第[一二三四五六七八九十百零〇]+/?'):
+            if secs[0]['paras']:
+                secs[0]['paras'][0] = re.sub(pat, '', secs[0]['paras'][0])
+                if not secs[0]['paras'][0]:
+                    secs[0]['paras'].pop(0)
     return [s_ for s_ in secs if s_['paras']]
 
 

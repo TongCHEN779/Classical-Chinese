@@ -23,14 +23,26 @@ VOL_LINE = re.compile(r'^资治通鉴\s*第?\s*\d+卷/?')
 VOL_T = re.compile(r'^《?资治通鉴》?第[一二三四五六七八九十百零〇]+卷[，。：；、]?')
 
 
+VOL_LINE2 = re.compile(r'^卷第[一二三四五六七八九十百零〇]+/?')
+VOL_T2 = re.compile(r'^卷第[一二三四五六七八九十百零〇]+[，。：；、]?')
+
+
 def strip_vol_line(sec):
+    """页面标题“资治通鉴 第NNN卷”和随后的“卷第某”都不收：卷号已在页标题里。"""
     c = sec['chunks'][0]
     m = VOL_LINE.match(c['o'])
-    if not m:
+    m2 = None if m else VOL_LINE2.match(c['o'])
+    if not (m or m2):
         return False
-    o = c['o'][m.end():]
+    o = c['o'][(m or m2).end():]
     ts = c['t'].split('¦')
-    ts[0] = VOL_T.sub('', ts[0].strip())
+    ts[0] = (VOL_T if m else VOL_T2).sub('', ts[0].strip())
+    if m:    # 同时去掉紧随其后的“卷第某”
+        m3 = VOL_LINE2.match(o)
+        if m3:
+            o = o[m3.end():]
+            ts[0] = VOL_T2.sub('', ts[0])
+    c['notes'] = [n for n in c['notes'] if not re.match(r'^卷第', n.split('：', 1)[0])]
     c['notes'] = [n for n in c['notes'] if not re.match(r'^(《?资治通鉴》?\s*)?第?\d+卷', n.split('：', 1)[0])]
     if not o.strip():
         assert len(ts) == 1 and not ts[0].strip('，。'), (c['t'],)
