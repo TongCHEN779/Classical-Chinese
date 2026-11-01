@@ -288,7 +288,7 @@ def check_out(work, name):
                 bad.append(f'{ctag}: {len(t.split("¦"))} translations for {len(groups)} sentences')
             if len(o) > 700:
                 bad.append(f'{ctag}: chunk too long ({len(o)}), split it')
-            if not c['notes'] and a['title'] != '校记':
+            if not c['notes'] and a['title'] not in ('校记', '校刊记'):
                 bad.append(f'{ctag}: no notes')
             for n in c['notes']:
                 term = n.split('：', 1)[0]
@@ -296,7 +296,7 @@ def check_out(work, name):
                     bad.append(f'{ctag}: note term not in text: {n[:24]}')
                 elif len(build.split_notes(n)) != 1:
                     bad.append(f'{ctag}: note splits into several: {n[:24]}')
-                elif term in seen and a['title'] != '校记':
+                elif term in seen and a['title'] not in ('校记', '校刊记'):
                     bad.append(f'{ctag}: repeated term {term}')
                 seen.add(term)
             npairs += len(groups); nnotes += len(c['notes'])

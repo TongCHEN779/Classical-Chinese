@@ -654,10 +654,14 @@ def _zizhitongjian_spec():
     fulu = json.loads((ROOT / "sources/zizhitongjian/progress.json").read_text(encoding="utf8"))["pages"]
     pages.append((None, f"附录（{len(fulu)}篇）"))
     pages.extend((p["slug"], p["title"]) for p in fulu)
+    jp = ROOT / "sources/zizhitongjian/progress_juan.json"
+    juan = json.loads(jp.read_text(encoding="utf8"))["pages"] if jp.exists() else []
     return {"title": "资治通鉴", "author": "［宋］司马光 撰，［元］胡三省 音注", "unit": "卷", "summary_unit": "卷", "wide_index": True, "no_count": True,
             "intro": "",
-            "index_footer": "附录含新注序、宋神宗序、进书表、奖谕诏书、校勘人姓名、释例，以及刘恕《资治通鉴外纪》序和卷四至卷十（外纪卷一至卷三在维基文库仅见四库全书本，未收）；"
-                            "每篇配逐句白话、题解与注释，外纪卷四、卷五原站标点不全，已补标点。正文各卷尚待整理；纪年起止据各卷卷首“起…尽…凡…年”换算，个别卷首缺载者据正文年份标目推得，详见 sources/zizhitongjian/README.md。",
+            "index_footer": "周纪、秦纪（卷一至卷八）已整理：按年分节，配逐句白话、题解与注释，点校者的校刊记另列于卷末；其余各卷尚待整理。"
+                            "附录含新注序、宋神宗序、进书表、奖谕诏书、校勘人姓名、释例，以及刘恕《资治通鉴外纪》序和卷四至卷十（外纪卷一至卷三在维基文库仅见四库全书本，未收）。"
+                            "纪年起止据各卷卷首“起…尽…凡…年”换算，个别卷首缺载者据正文年份标目推得，详见 sources/zizhitongjian/README.md。",
+            "page_sources": {p["slug"]: {**p["source"], "after": "原站点校者以〔　〕补入、以（　）删去的字，已按校改后的定本录入，段首校记序号去掉；"} for p in juan},
             "pages": pages}
 
 
@@ -723,6 +727,7 @@ POETRY = {
     "qiangtoumashang": _works_spec("qiangtoumashang", "墙头马上", "［元］白朴", "折"),
     "baiyueting": _works_spec("baiyueting", "拜月亭", "［元］关汉卿", "折"),
     "linlanxiang": _works_spec("linlanxiang", "林兰香", "［清］随缘下士", "回"),
+    "jinghuayuan": _works_spec("jinghuayuan", "镜花缘", "［清］李汝珍", "回"),
     "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
     "donglinghualu": _donglinghualu_spec(),
     "chuanxilu": _chuanxilu_spec(),
@@ -763,6 +768,7 @@ BOOK_INTRO = {
     "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",
     "qiangtoumashang": "元代白朴所作杂剧，全称《裴少俊墙头马上》，写李千金与裴少俊墙头相见、私奔成婚，历经波折而团圆的故事。元代四大爱情剧之一。",
     "baiyueting": "元代关汉卿所作杂剧，全称《闺怨佳人拜月亭》，写金末兵乱中蒋世隆与王瑞兰患难相识、几经离合而团圆的故事。元代四大爱情剧之一。",
+    "jinghuayuan": "清代李汝珍所作长篇小说，全一百回：前半写唐敖、多九公、林之洋出海游历，历君子国、大人国、女儿国等诸国；后半写武则天开女科、百位才女应试及宴游、论学、斗艺的故事。",
     "linlanxiang": "清代世情小说，全书六十四回，旧本题“随缘下士编辑”，以明代耿朗一家妻妾的悲欢为中心，细写家庭日常与人情世态。",
     "shenglvqimeng": "清代车万育编的蒙学读物，按平水韵分三十个韵部，以对句训练对仗与声律，涉及天文、地理、人物与典故。",
     "mengxi": "北宋沈括所著笔记，含《笔谈》二十六卷及《补笔谈》《续笔谈》，涉及天文历法、数学、地理、医药、工艺、艺文、官政与朝野轶事。",
@@ -1034,8 +1040,8 @@ def build_poetry(bslug, spec):
 
 
 # 书名首字的拼音首字母，供首页字母索引使用；新增书目若首字不在表内，build 会报错提醒补充。
-INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声",
-                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLS"))
+INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜",
+                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJ"))
 
 
 def build_home():

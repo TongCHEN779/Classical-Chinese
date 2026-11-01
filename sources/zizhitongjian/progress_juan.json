@@ -1,0 +1,93 @@
+{
+  "book": "资治通鉴（卷一至卷八）",
+  "pages": [
+    {
+      "slug": "juan001",
+      "title": "卷一",
+      "sections": 33,
+      "source": {
+        "title": "資治通鑑/卷001",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7001",
+        "revision": "2489405",
+        "text_sha256": "a4b699a609b143bf37d60c157d1b35e3b81266144f342e68c966714d47614889"
+      }
+    },
+    {
+      "slug": "juan002",
+      "title": "卷二",
+      "sections": 43,
+      "source": {
+        "title": "資治通鑑/卷002",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7002",
+        "revision": "2638853",
+        "text_sha256": "8247893749825a45608e3d2b71c0db646fb4722ecda83749651388ac822d8ad7"
+      }
+    },
+    {
+      "slug": "juan003",
+      "title": "卷三",
+      "sections": 25,
+      "source": {
+        "title": "資治通鑑/卷003",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7003",
+        "revision": "2594130",
+        "text_sha256": "af06ac3f51abaafb7e51157e347f562989684054652883fd4c42990b36b9f23b"
+      }
+    },
+    {
+      "slug": "juan004",
+      "title": "卷四",
+      "sections": 27,
+      "source": {
+        "title": "資治通鑑/卷004",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7004",
+        "revision": "818906",
+        "text_sha256": "c21b342366cb6cc0f83f6312d167232ee3d08f497257947139f2f149657bbea5"
+      }
+    },
+    {
+      "slug": "juan005",
+      "title": "卷五",
+      "sections": 17,
+      "source": {
+        "title": "資治通鑑/卷005",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7005",
+        "revision": "2594132",
+        "text_sha256": "832162a3f81aaef4217572a5992280d6f5fc38c465b22ed696ffa8c1411b7db2"
+      }
+    },
+    {
+      "slug": "juan006",
+      "title": "卷六",
+      "sections": 29,
+      "source": {
+        "title": "資治通鑑/卷006",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7006",
+        "revision": "2609689",
+        "text_sha256": "c0e9f846c2bef7c5d47cc1e59d0d4335357216f695295c654e91b5d88fa187bd"
+      }
+    },
+    {
+      "slug": "juan007",
+      "title": "卷七",
+      "sections": 20,
+      "source": {
+        "title": "資治通鑑/卷007",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7007",
+        "revision": "1249886",
+        "text_sha256": "d5ff20535b68f20cc3f5cbf7babe9bc8367ebd56eadbcfab07500bc38da32c2e"
+      }
+    },
+    {
+      "slug": "juan008",
+      "title": "卷八",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷008",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7008",
+        "revision": "1249914",
+        "text_sha256": "440e4b576b4e706d3d4519c93ccae250cd3f337af3649c6627e353185dace750"
+      }
+    }
+  ]
+}

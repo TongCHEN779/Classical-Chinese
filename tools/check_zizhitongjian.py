@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit 资治通鉴: the 294-volume catalogue (year chain 前403—959, volumes still 待整理) and the finished appendix pages."""
+"""Audit 资治通鉴: the 294-volume catalogue (year chain 前403—959), the finished volumes 卷一至卷八 and the appendix pages; the other volumes are 待整理."""
 import hashlib
 import json
 import re
@@ -44,16 +44,47 @@ def main():
     # rendered index: the 294 volumes are 待整理 cells, grouped by 纪; the appendix pages are real pages
     html = BeautifulSoup((ROOT / 'zizhitongjian/index.html').read_text(), 'html.parser')
     cells = [li.get_text(' ', strip=True) for li in html.select('li.todo')]
-    assert len(cells) == 294, len(cells)
+    assert len(cells) == 294 - 8, len(cells)
     assert all('待整理' in c for c in cells)
     groups = [h.get_text(strip=True) for h in html.select('h3.grp')]
     assert len(groups) == 17, groups
-    assert sorted(x.name for x in (ROOT / 'src/zizhitongjian').iterdir()) == [f'fulu{k:02}' for k in range(1, 15)], 'only appendix text exists'
+    assert sorted(x.name for x in (ROOT / 'src/zizhitongjian').iterdir()) == [f'fulu{k:02}' for k in range(1, 15)] + [f'juan{k:03}' for k in range(1, 9)], 'only the appendix and 卷一至卷八 exist'
+    audit_volumes()
     pages, sents, notes = audit_appendix()
     corrected = [v['n'] for v in vols if v['chain_corrected']]
     derived = [v['n'] for v in vols if v['derived_from_body']]
     print(f'OK: 294 volumes, 16 ji, 前403—959; appendix {pages} pages, {sents} sentence pairs, {notes} notes; '
           f'{len(derived)} years from body headings, {len(corrected)} chain-corrected {corrected}')
+
+
+def audit_volumes():
+    """卷一至卷八（周纪、秦纪）：来源哈希、原文逐字（去标点）覆盖、句对、注释锚点与渲染。"""
+    import build
+    import prepare_works as prep
+    from prepare_zizhitongjian_fulu import strip_p
+    progress = json.loads((ROOT / 'sources/zizhitongjian/progress_juan.json').read_text(encoding='utf8'))
+    want_pages = prep.pages('zizhitongjian')
+    assert [p['slug'] for p in progress['pages']] == [w[0] for w in want_pages]
+    for p, (slug, label, srcname, want) in zip(progress['pages'], want_pages):
+        src = prep.src('zizhitongjian', srcname)
+        assert src['revision'] == p['source']['revision'] and src['text_sha256'] == p['source']['text_sha256'], slug
+        got = build.parse_poems(sorted((ROOT / 'src/zizhitongjian' / slug).glob('*.txt')))
+        assert [w['title'] for w in want] == [g['title'] for g in got], (slug, 'sections')
+        pairs = []
+        for w, g in zip(want, got):
+            assert strip_p(''.join(w['paras'])) == strip_p(''.join(c['o'] for c in g['chunks'])), (slug, g['title'], 'coverage')
+            assert bool(g['intro']) == w['intro'], (slug, g['title'], '题解')
+            seen = set()
+            for c in g['chunks']:
+                assert c['t'] and len(c['t'].split('¦')) == len(build._frag_groups(build.split_sents(c['o']))), (slug, g['title'], c['o'][:20])
+                assert c['notes'] or g['title'] == '校刊记', (slug, g['title'], c['o'][:20])
+                for n in c['notes']:
+                    term = n.split('：', 1)[0]
+                    assert term in c['o'] and (term not in seen or g['title'] == '校刊记'), (slug, g['title'], n)
+                    seen.add(term)
+                pairs.extend(build.split_pairs(c['o'], c['t']))
+        html = BeautifulSoup((ROOT / 'zizhitongjian' / (slug + '.html')).read_text(), 'html.parser')
+        assert [(n.get_text(), n['data-t']) for n in html.select('.s[data-t]')] == [(o.replace('/', ''), t) for o, t in pairs], (slug, 'rendered pairs')
 
 
 def audit_appendix():
