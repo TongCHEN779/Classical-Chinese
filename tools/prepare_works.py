@@ -127,7 +127,8 @@ def pages(book):
     elif book == 'zizhitongjian':
         for k in ZTJJ_DONE:
             d = src(book, f'juan{k:03d}.json')
-            out.append((f'juan{k:03d}', f'卷{cn(k)}', f'juan{k:03d}.json', ztjj_sections(d)))
+            secs = ztjj_sections(d)
+            out.append((f'juan{k:03d}', f'卷{cn(k)}', f'juan{k:03d}.json', ztjj_year_split(k, secs) if k in ZTJJ_YEAR_SPLIT else secs))
     return out
 
 
@@ -166,6 +167,43 @@ def ztjj_sections(d):
         elif t == 'li' and cur['title'] == '校刊记':
             cur['paras'].append(clean(re.sub(r'^↑\s*', '', b['text'])).replace('\n', '/'))
     return [s_ for s_ in secs if s_['paras']]
+
+
+# 魏纪（卷七十三至七十八）、宋纪、齐纪、梁纪里原站不分年的整卷：按“春，”起首的段（每年首事）把卷首之后分成年节
+ZTJJ_YEAR_SPLIT = set(range(73, 79)) | set(range(119, 135)) | set(range(136, 156)) | set(range(157, 167))
+ZTJJ_YEAR_STARTS = {75: [2, 11, 20, 31, 56, 66, 89], 78: [2, 10, 37]}   # 这两卷有的年份首事不以“春”起，据正文人工定位
+STEMS, BRANCHES = '甲乙丙丁戊己庚辛壬癸', '子丑寅卯辰巳午未申酉戌亥'
+
+
+def cn_digits(y):
+    return ''.join('〇一二三四五六七八九'[int(c)] for c in str(y))
+
+
+def ztjj_year_info(k, segs):
+    """(各年首段在 segs 中的下标, 各年标题)。年份链取自 catalog.json 的卷首“起…尽…”换算。"""
+    import json as _j
+    v = _j.loads((ROOT / 'sources/zizhitongjian/catalog.json').read_text(encoding='utf8'))['volumes'][k - 1]
+    ys = list(range(v['start_year'], v['end_year'] + 1))
+    idx = list(ZTJJ_YEAR_STARTS.get(k) or [i for i, x in enumerate(segs) if x.startswith('春，')])
+    assert len(idx) == len(ys), (k, len(idx), len(ys))
+    for j, i in enumerate(idx):    # 紧挨在年首前、不带句末标点的短行是原站的帝号或年份标题，归入该年
+        floor = (idx[j - 1] + 1) if j else 2
+        while i - 1 >= floor and len(segs[i - 1]) <= 40 and segs[i - 1][-1] not in '。！？”’；：，、':
+            i -= 1
+        idx[j] = i
+    titles = [f'{STEMS[(y - 4) % 10]}{BRANCHES[(y - 4) % 12]}年（公元{cn_digits(y)}年）' for y in ys]
+    return idx, titles
+
+
+def ztjj_year_split(k, secs):
+    assert len(secs) == 1 and secs[0]['title'] == '卷首', k
+    segs = [x for p in secs[0]['paras'] for x in p.split('/')]
+    idx, titles = ztjj_year_info(k, segs)
+    cuts = [0] + idx + [len(segs)]
+    out = [{'title': '卷首', 'paras': ['/'.join(segs[:idx[0]])], 'intro': True}]
+    for j, t in enumerate(titles):
+        out.append({'title': t, 'paras': ['/'.join(segs[cuts[j + 1]:cuts[j + 2]])], 'intro': False})
+    return out
 
 
 def pieces(book):
