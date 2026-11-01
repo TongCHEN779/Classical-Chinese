@@ -161,17 +161,21 @@ def ztjj_sections(d):
                 wang_start = False
             else:
                 wang_start = True
-        elif t in ('p', 'dd'):
+        elif t in ('p', 'dd', 'pre'):
             if ztjj_body(b['text']) != '_':
                 cur['paras'].append(ztjj_body(b['text']))
         elif t == 'li' and cur['title'] == '校刊记':
             cur['paras'].append(clean(re.sub(r'^↑\s*', '', b['text'])).replace('\n', '/'))
+    if secs and secs[0]['paras']:    # 卷首的“资治通鉴 第NNN卷”是原站页面标题，不收
+        secs[0]['paras'][0] = re.sub(r'^资治通鉴\s*第?\s*\d+卷/?', '', secs[0]['paras'][0])
+        if not secs[0]['paras'][0]:
+            secs[0]['paras'].pop(0)
     return [s_ for s_ in secs if s_['paras']]
 
 
 # 魏纪（卷七十三至七十八）、宋纪、齐纪、梁纪里原站不分年的整卷：按“春，”起首的段（每年首事）把卷首之后分成年节
 ZTJJ_YEAR_SPLIT = set(range(73, 79)) | set(range(119, 135)) | set(range(136, 156)) | set(range(157, 167))
-ZTJJ_YEAR_STARTS = {75: [2, 11, 20, 31, 56, 66, 89], 78: [2, 10, 37]}   # 这两卷有的年份首事不以“春”起，据正文人工定位
+ZTJJ_YEAR_STARTS = {75: ('夏，五月，以征西将军郭淮为车骑将军',), 78: ('秋，八月，乙酉，吴主立皇后朱氏',)}   # 这两卷有的年份首事不以“春”起，据正文人工定位
 STEMS, BRANCHES = '甲乙丙丁戊己庚辛壬癸', '子丑寅卯辰巳午未申酉戌亥'
 
 
@@ -179,30 +183,40 @@ def cn_digits(y):
     return ''.join('〇一二三四五六七八九'[int(c)] for c in str(y))
 
 
+YEAR_LINE = re.compile(r'[（(][甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥][，,、\s]|公元.{1,6}年$')
+
+
 def ztjj_year_info(k, segs):
-    """(各年首段在 segs 中的下标, 各年标题)。年份链取自 catalog.json 的卷首“起…尽…”换算。"""
+    """(各年首段下标, 各年标题, 各年标题行下标或 None)。年份链取自 catalog.json 的卷首“起…尽…”换算；
+    原站在年首另起一行写着“帝号＋年号（干支，公元某年）”的，用它作节名并从正文拿掉，没有的才用“干支年（公元某年）”。"""
     import json as _j
     v = _j.loads((ROOT / 'sources/zizhitongjian/catalog.json').read_text(encoding='utf8'))['volumes'][k - 1]
     ys = list(range(v['start_year'], v['end_year'] + 1))
-    idx = list(ZTJJ_YEAR_STARTS.get(k) or [i for i, x in enumerate(segs) if x.startswith('春，')])
-    assert len(idx) == len(ys), (k, len(idx), len(ys))
-    for j, i in enumerate(idx):    # 紧挨在年首前、不带句末标点的短行是原站的帝号或年份标题，归入该年
-        floor = (idx[j - 1] + 1) if j else 2
-        while i - 1 >= floor and len(segs[i - 1]) <= 40 and segs[i - 1][-1] not in '。！？”’；：，、':
-            i -= 1
-        idx[j] = i
-    titles = [f'{STEMS[(y - 4) % 10]}{BRANCHES[(y - 4) % 12]}年（公元{cn_digits(y)}年）' for y in ys]
-    return idx, titles
+    orig = [i for i, x in enumerate(segs) if x.startswith('春，') or x.startswith(ZTJJ_YEAR_STARTS.get(k, ('\0',)))]
+    assert len(orig) == len(ys), (k, len(orig), len(ys))
+    idx, titles, heads = [], [], []
+    for j, (y, o) in enumerate(zip(ys, orig)):
+        i = o
+        floor = (orig[j - 1] + 1) if j else 1
+        while i - 1 >= floor and len(segs[i - 1]) <= 60 and segs[i - 1][-1] not in '。！？”’；：，、':
+            i -= 1    # 紧挨在年首前、不带句末标点的短行是原站的帝号或年份标题，归入该年
+        h = next((x for x in range(o - 1, i - 1, -1) if len(segs[x].strip()) <= 60 and YEAR_LINE.search(segs[x].strip())), None)
+        idx.append(i)
+        heads.append(h)
+        titles.append(re.sub(r'\s+', '', segs[h].replace('〈', '（').replace('〉', '）')).lstrip('◎') if h is not None
+                      else f'{STEMS[(y - 4) % 10]}{BRANCHES[(y - 4) % 12]}年（公元{cn_digits(y)}年）')
+    assert len(set(titles)) == len(titles), (k, titles)
+    return idx, titles, heads
 
 
 def ztjj_year_split(k, secs):
     assert len(secs) == 1 and secs[0]['title'] == '卷首', k
     segs = [x for p in secs[0]['paras'] for x in p.split('/')]
-    idx, titles = ztjj_year_info(k, segs)
-    cuts = [0] + idx + [len(segs)]
+    idx, titles, heads = ztjj_year_info(k, segs)
+    ends = idx[1:] + [len(segs)]
     out = [{'title': '卷首', 'paras': ['/'.join(segs[:idx[0]])], 'intro': True}]
-    for j, t in enumerate(titles):
-        out.append({'title': t, 'paras': ['/'.join(segs[cuts[j + 1]:cuts[j + 2]])], 'intro': False})
+    for t, a, b, h in zip(titles, idx, ends, heads):
+        out.append({'title': t, 'paras': ['/'.join(x for n, x in enumerate(segs[a:b], a) if n != h)], 'intro': False})
     return out
 
 

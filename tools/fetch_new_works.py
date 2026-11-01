@@ -29,6 +29,24 @@ SINGLE = {'zhaoshigu': '冤報冤趙氏孤兒', 'qiannulihun': '迷青瑣倩女�
 LAST = [0.0]
 
 
+def to_hans(lines):
+    """<pre> 里的文字不过简繁转换：把这些行交给维基文库的 zh-hans 转换器（逐行成段）。"""
+    if not lines:
+        return []
+    for attempt in range(5):
+        try:
+            j = json.loads(get(API, {'action': 'parse', 'text': '\n\n'.join(lines), 'contentmodel': 'wikitext', 'prop': 'text',
+                                     'variant': 'zh-hans', 'disablelimitreport': 1, 'format': 'json', 'formatversion': 2}))
+            break
+        except Exception:
+            if attempt == 4:
+                raise
+            time.sleep(4 * 2 ** attempt)
+    out = [p_.get_text('', strip=True) for p_ in BeautifulSoup(j['parse']['text'], 'html.parser').select('.mw-parser-output > p')]
+    assert len(out) == len(lines), (len(out), len(lines))
+    return out
+
+
 def fetch(title):
     wait = 1.2 - (time.monotonic() - LAST[0])
     if wait > 0:
@@ -51,8 +69,8 @@ def fetch(title):
                          '.header-container, .navbox, .wst-header, .catlinks, sup.reference, table.header, .mw-editsection'):
         n.decompose()
     blocks = []
-    for node in main.find_all(['h2', 'h3', 'h4', 'p', 'dd', 'li']):
-        if node.find_parent(['table', 'li']) or node.find(['p', 'dd', 'dl', 'li']):
+    for node in main.find_all(['h2', 'h3', 'h4', 'p', 'dd', 'li', 'pre']):
+        if node.find_parent(['table', 'li', 'pre']) or node.find(['p', 'dd', 'dl', 'li']):
             continue
         for br in node.find_all('br'):
             br.replace_with('\n')
@@ -61,6 +79,9 @@ def fetch(title):
         if not text or text.startswith(('此作品在', '此清朝作品', '此元朝作品', '此頁面', '此页面', '取自“', '检索自“', '姊妹计划')):
             continue
         blocks.append({'type': node.name, 'text': text})
+    pre = [b for b in blocks if b['type'] == 'pre']
+    for b, h in zip(pre, to_hans([b['text'] for b in pre])):
+        b['text'] = h
     return {'title': p['title'], 'query': title, 'url': 'https://zh.wikisource.org/zh-hans/' + quote(p['title'].replace(' ', '_'), safe='/'),
             'revision': str(p['revid']), 'fetched_at': datetime.now(timezone.utc).isoformat(), 'blocks': blocks,
             'text_sha256': hashlib.sha256('\n'.join(b['text'] for b in blocks).encode()).hexdigest()}
