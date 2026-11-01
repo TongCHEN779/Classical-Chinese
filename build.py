@@ -658,7 +658,7 @@ def _zizhitongjian_spec():
     juan = json.loads(jp.read_text(encoding="utf8"))["pages"] if jp.exists() else []
     return {"title": "资治通鉴", "author": "［宋］司马光 撰，［元］胡三省 音注", "unit": "卷", "summary_unit": "卷", "wide_index": True, "no_count": True,
             "intro": "",
-            "index_footer": "周纪、秦纪、汉纪、魏纪（卷一至卷七十八）已整理：按年分节，配逐句白话、题解与注释，点校者的校刊记另列于卷末；其余各卷尚待整理。"
+            "index_footer": "周纪、秦纪、汉纪、魏纪（卷一至卷七十八）与宋纪、齐纪、梁纪、陈纪、隋纪（卷一百一十九至卷一百八十四）已整理：按年分节，配逐句白话、题解与注释，点校者的校刊记另列于卷末；其余各卷尚待整理。"
                             "附录含新注序、宋神宗序、进书表、奖谕诏书、校勘人姓名、释例，以及刘恕《资治通鉴外纪》序和卷四至卷十（外纪卷一至卷三在维基文库仅见四库全书本，未收）。"
                             "纪年起止据各卷卷首“起…尽…凡…年”换算，个别卷首缺载者据正文年份标目推得，详见 sources/zizhitongjian/README.md。",
             "page_sources": {p["slug"]: {**p["source"], "after": "原站点校者以〔　〕补入、以（　）删去的字，已按校改后的定本录入，段首校记序号去掉；"} for p in juan},

@@ -25,7 +25,9 @@ PLAY_NAMES = dict(zip(GHQ_SLUGS, '感天动地窦娥冤 包待制智斩鲁斋郎
 SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐倩女离魂', 'qiangtoumashang': '裴少俊墙头马上', 'baiyueting': '闺怨佳人拜月亭'}
 TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
           'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙'}
-ZTJJ_LAST = 78
+# 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（晋纪79-118、唐纪185-265、五代266-294暂缓）
+ZTJJ_DONE = sorted(set(range(1, 79)) | set(range(119, 185)))
+ZTJJ_RUN_START = (9, 69, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
 GLOSS = {'shenglvqimeng', 'zizhitongjian'}
 PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000, 'baiyueting': 12000,
          'linlanxiang': 12000, 'shenglvqimeng': 4500, 'zizhitongjian': 6000, 'jinghuayuan': 12000}
@@ -33,8 +35,14 @@ MIN_NOTE_CHARS = {'linlanxiang': 220, 'jinghuayuan': 300}      # 平均每多少
 
 
 def cn(n):
-    if n == 100:
-        return '一百'
+    if n >= 100:
+        h, r = divmod(n, 100)
+        if r == 0:
+            return CN[h - 1] + '百'
+        if r < 10:
+            return CN[h - 1] + '百零' + CN[r - 1]
+        t, u = divmod(r, 10)
+        return CN[h - 1] + '百' + CN[t - 1] + '十' + (CN[u - 1] if u else '')
     return CN[n - 1] if n <= 10 else ('十' + CN[n - 11] if n < 20 else CN[n // 10 - 1] + '十' + (CN[n % 10 - 1] if n % 10 else ''))
 
 
@@ -117,7 +125,7 @@ def pages(book):
             paras = [clean(b['text']).replace('\n', '/') for b in d['blocks'] if b['type'] == 'p']
             out.append((f'{k:03d}', title, f'hui{k:03d}.json', [{'title': title, 'paras': paras}]))
     elif book == 'zizhitongjian':
-        for k in range(1, ZTJJ_LAST + 1):
+        for k in ZTJJ_DONE:
             d = src(book, f'juan{k:03d}.json')
             out.append((f'juan{k:03d}', f'卷{cn(k)}', f'juan{k:03d}.json', ztjj_sections(d)))
     return out
@@ -165,7 +173,7 @@ def pieces(book):
     for slug, label, srcname, secs in pages(book):
         for s in secs:
             n = sum(len(x) for x in s['paras'])
-            if cur is None or (cur['chars'] + n > PIECE[book] and cur['chars'] > 0) or (book == 'zizhitongjian' and slug in ('juan009', 'juan069') and cur['secs'][-1][0] != slug):
+            if cur is None or (cur['chars'] + n > PIECE[book] and cur['chars'] > 0) or (book == 'zizhitongjian' and int(slug[4:]) in ZTJJ_RUN_START and cur['secs'][-1][0] != slug):
                 cur = {'secs': [], 'chars': 0}
                 out.append(cur)
             cur['secs'].append((slug, s, label)); cur['chars'] += n
@@ -243,7 +251,11 @@ def merge(book, work):
     work = Path(work)
     plan = json.loads((work / 'plan.json').read_text(encoding='utf8'))
     by_page = {}
+    pj = ROOT / 'sources' / book / ('progress_juan.json' if book == 'zizhitongjian' else 'progress.json')
+    kept = {x['slug']: x for x in json.loads(pj.read_text(encoding='utf8')).get('pages', [])} if pj.exists() else {}
     for p in plan:
+        if not (work / 'out' / f"{p['name']}.json").exists():
+            continue  # 此前已合并的片段：保留 src 与 progress 中的现状
         res = check_out(book, work, p['name'])
         assert res[0].startswith('OK'), res
         inp = json.loads((work / 'in' / f"{p['name']}.json").read_text(encoding='utf8'))
@@ -253,6 +265,10 @@ def merge(book, work):
     root = ROOT / 'src' / book
     prog = []
     for slug, label, srcname, secs in pages(book):
+        if slug not in by_page:
+            assert slug in kept and (root / slug / '01.txt').exists(), slug
+            prog.append(kept[slug])
+            continue
         d = root / slug
         d.mkdir(parents=True, exist_ok=True)
         for old in d.glob('*.txt'):
@@ -270,7 +286,6 @@ def merge(book, work):
         sd = src(book, srcname)
         prog.append({'slug': slug, 'title': label, 'sections': len(by_page[slug]),
                      'source': {'title': sd['title'], 'url': sd['url'], 'revision': sd['revision'], 'text_sha256': sd['text_sha256']}})
-    pj = ROOT / 'sources' / book / ('progress_juan.json' if book == 'zizhitongjian' else 'progress.json')
     pj.parent.mkdir(parents=True, exist_ok=True)
     old = json.loads(pj.read_text(encoding='utf8')) if pj.exists() else {}
     old.update({'book': TITLES[book], 'pages': prog})
