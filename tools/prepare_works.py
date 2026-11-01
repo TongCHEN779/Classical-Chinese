@@ -23,8 +23,9 @@ GHQ_SLUGS = ['douee', 'luzhailang', 'jiufengchen', 'wangjiangting', 'hudiemeng',
              'danfenghui', 'feiyimeng', 'wuhouyan', 'kucunxiao', 'peidu', 'chenmu', 'xishumeng', 'baiyueting', 'tiaofengyue']
 PLAY_NAMES = dict(zip(GHQ_SLUGS, '感天动地窦娥冤 包待制智斩鲁斋郎 赵盼儿风月救风尘 望江亭中秋切鲙 包待制三勘蝴蝶梦 杜蕊娘智赏金线池 钱大尹智宠谢天香 温太真玉镜台 尉迟恭单鞭夺槊 关大王独赴单刀会 钱大尹智勘绯衣梦 刘夫人庆赏五侯宴 邓夫人苦痛哭存孝 山神庙裴度还带 状元堂陈母教子 关张双赴西蜀梦 闺怨佳人拜月亭 诈妮子调风月'.split()))
 SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐倩女离魂', 'qiangtoumashang': '裴少俊墙头马上', 'baiyueting': '闺怨佳人拜月亭'}
-TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
+TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
           'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙'}
+ZTJJ_LAST = 78
 GLOSS = {'shenglvqimeng', 'zizhitongjian'}
 PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000, 'baiyueting': 12000,
          'linlanxiang': 12000, 'shenglvqimeng': 4500, 'zizhitongjian': 6000, 'jinghuayuan': 12000}
@@ -116,7 +117,7 @@ def pages(book):
             paras = [clean(b['text']).replace('\n', '/') for b in d['blocks'] if b['type'] == 'p']
             out.append((f'{k:03d}', title, f'hui{k:03d}.json', [{'title': title, 'paras': paras}]))
     elif book == 'zizhitongjian':
-        for k in range(1, 9):
+        for k in range(1, ZTJJ_LAST + 1):
             d = src(book, f'juan{k:03d}.json')
             out.append((f'juan{k:03d}', f'卷{cn(k)}', f'juan{k:03d}.json', ztjj_sections(d)))
     return out
@@ -152,7 +153,8 @@ def ztjj_sections(d):
             else:
                 wang_start = True
         elif t in ('p', 'dd'):
-            cur['paras'].append(ztjj_body(b['text']))
+            if ztjj_body(b['text']) != '_':
+                cur['paras'].append(ztjj_body(b['text']))
         elif t == 'li' and cur['title'] == '校刊记':
             cur['paras'].append(clean(re.sub(r'^↑\s*', '', b['text'])).replace('\n', '/'))
     return [s_ for s_ in secs if s_['paras']]
@@ -163,7 +165,7 @@ def pieces(book):
     for slug, label, srcname, secs in pages(book):
         for s in secs:
             n = sum(len(x) for x in s['paras'])
-            if cur is None or (cur['chars'] + n > PIECE[book] and cur['chars'] > 0):
+            if cur is None or (cur['chars'] + n > PIECE[book] and cur['chars'] > 0) or (book == 'zizhitongjian' and slug in ('juan009', 'juan069') and cur['secs'][-1][0] != slug):
                 cur = {'secs': [], 'chars': 0}
                 out.append(cur)
             cur['secs'].append((slug, s, label)); cur['chars'] += n

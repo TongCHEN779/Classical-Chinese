@@ -86,7 +86,7 @@ def main():
     jobs.append((dest / 'jinghuayuan/wikisource/index.json', '鏡花緣'))
     for k in range(1, 101):
         jobs.append((dest / 'jinghuayuan/wikisource' / f'hui{k:03d}.json', f'鏡花緣/第{k:03d}回'))
-    for k in range(1, 9):
+    for k in range(1, 79):
         jobs.append((dest / 'zizhitongjian/wikisource/juan' / f'juan{k:03d}.json', f'資治通鑑/卷{k:03d}'))
     for path, t in jobs:
         if want and not any(w in str(path) for w in want):

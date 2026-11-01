@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit 资治通鉴: the 294-volume catalogue (year chain 前403—959), the finished volumes 卷一至卷八 and the appendix pages; the other volumes are 待整理."""
+"""Audit 资治通鉴: the 294-volume catalogue (year chain 前403—959), the finished volumes 卷一至卷七十八 and the appendix pages; the other volumes are 待整理."""
 import hashlib
 import json
 import re
@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+ZTJJ = 78
 
 
 def main():
@@ -44,11 +45,11 @@ def main():
     # rendered index: the 294 volumes are 待整理 cells, grouped by 纪; the appendix pages are real pages
     html = BeautifulSoup((ROOT / 'zizhitongjian/index.html').read_text(), 'html.parser')
     cells = [li.get_text(' ', strip=True) for li in html.select('li.todo')]
-    assert len(cells) == 294 - 8, len(cells)
+    assert len(cells) == 294 - ZTJJ, len(cells)
     assert all('待整理' in c for c in cells)
     groups = [h.get_text(strip=True) for h in html.select('h3.grp')]
     assert len(groups) == 17, groups
-    assert sorted(x.name for x in (ROOT / 'src/zizhitongjian').iterdir()) == [f'fulu{k:02}' for k in range(1, 15)] + [f'juan{k:03}' for k in range(1, 9)], 'only the appendix and 卷一至卷八 exist'
+    assert sorted(x.name for x in (ROOT / 'src/zizhitongjian').iterdir()) == [f'fulu{k:02}' for k in range(1, 15)] + [f'juan{k:03}' for k in range(1, ZTJJ + 1)], 'only the appendix and 卷一至卷七十八 exist'
     audit_volumes()
     pages, sents, notes = audit_appendix()
     corrected = [v['n'] for v in vols if v['chain_corrected']]
@@ -58,7 +59,7 @@ def main():
 
 
 def audit_volumes():
-    """卷一至卷八（周纪、秦纪）：来源哈希、原文逐字（去标点）覆盖、句对、注释锚点与渲染。"""
+    """卷一至卷七十八（周纪、秦纪）：来源哈希、原文逐字（去标点）覆盖、句对、注释锚点与渲染。"""
     import build
     import prepare_works as prep
     from prepare_zizhitongjian_fulu import strip_p
