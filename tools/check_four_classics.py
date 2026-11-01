@@ -56,6 +56,9 @@ def main():
                         seen.add(term)
             assert actual_notes == p['notes'],(slug,p['slug'],actual_notes,p['notes'])
             html_path = ROOT/slug/(p['slug']+'.html')
+            if p['slug'] == 'tijie':      # 全书题解并入目录页简介，不单独成页
+                assert not html_path.exists() and 'class="intro tijie"' in (ROOT/slug/'index.html').read_text(), slug
+                continue
             soup = BeautifulSoup(html_path.read_text(),'html.parser')
             assert not soup.select('[data-t]'),(slug,p['slug'],'translation tooltip')
             html_notes = 0

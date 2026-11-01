@@ -22,6 +22,7 @@ h1{font-size:34px;letter-spacing:.12em;margin:.2em 0}
 h1 small{display:block;font-size:15px;letter-spacing:.05em;color:var(--muted);font-weight:normal;margin-top:4px}
 h2{font-size:22px;margin:.3em 0}
 .hint,.intro{color:var(--muted);font-size:15px;line-height:1.7}
+.intro.tijie{margin:.5em 0}.intro.tijie strong{color:var(--fg)}
 footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:center}
 
 /* 首页 / 书目 */

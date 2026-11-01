@@ -520,7 +520,7 @@ def _four_classics_spec(slug):
             "index_footer": f"正文 {progress['chapter_count']} {meta['unit']}；另收全书题解及所选版本附文。",
             "reading_hint": "原文直读；点击“题解”“注释”可展开。附基础导读注释，不设白话译文。",
             "intro": "",
-            "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
+            "pages": [(p["slug"], p["title"]) for p in progress["pages"] if p["slug"] != "tijie"],
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
 
 
@@ -542,7 +542,7 @@ def _zuozhuan_spec():
             "count_entries": False,
             "count": lambda secs: (len({s["title"].split("·")[0] for s in secs}), "年"),
             "intro": "",
-            "pages": [("tijie", "全书题解")] + [(p["slug"], p["title"]) for p in progress["pages"]],
+            "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
 
 
@@ -698,7 +698,7 @@ def _xu_source(slug):
 def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None):
     """关汉卿杂剧、赵氏孤儿等：页表读自 sources/<slug>/progress.json（页下按折/回分节）。"""
     progress = json.loads((ROOT / f"sources/{slug}/progress.json").read_text(encoding="utf8"))
-    pages = ([("tijie", "全书题解")] if tijie else []) + [(p["slug"], p["title"]) for p in progress["pages"]]
+    pages = [(p["slug"], p["title"]) for p in progress["pages"]]
     spec = {"title": title, "author": author, "unit": unit, "summary_unit": unit, "wide_index": True,
             "prose": not gloss, "no_tip": not gloss, "side_toc": True, "count_entries": False, "no_count": True,
             "intro": "", "pages": pages,
@@ -804,7 +804,14 @@ for _k, _v in POETRY.items():
 def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
     text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
-    return "".join(f'<p class="intro">{esc(x)}</p>' for x in text.split("\n") if x.strip())
+    out = "".join(f'<p class="intro">{esc(x)}</p>' for x in text.split("\n") if x.strip())
+    # 全书题解（src/<slug>/tijie）不另立页面，接在简介之后，每段以“主题。”领起
+    path = ROOT / "src" / slug / "tijie" / "01.txt"
+    if path.exists():
+        for para in parse_poems([path])[0]["intro"]:
+            head, sep, rest = para.partition("。")
+            out += f'<p class="intro tijie"><strong>{esc(head)}{sep}</strong>{esc(rest)}</p>'
+    return out
 
 
 CIRC = re.compile(r"([\u2460-\u2473\u3251-\u325f]+)")

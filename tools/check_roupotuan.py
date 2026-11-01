@@ -48,6 +48,9 @@ def main():
         assert actual == p['notes'], (p['slug'], actual, p['notes'])
         if p['kind'] == 'chapter': assert actual > 0, p['slug']
         path = ROOT / 'roupotuan' / (p['slug'] + '.html')
+        if p['slug'] == 'tijie':      # 全书题解并入目录页简介，不单独成页
+            assert not path.exists() and 'class="intro tijie"' in (ROOT / 'roupotuan/index.html').read_text()
+            continue
         soup = BeautifulSoup(path.read_text(), 'html.parser')
         assert not soup.select('[data-t]'), p['slug']
         html_notes = 0

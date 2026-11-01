@@ -81,7 +81,7 @@ def main():
             if href and not re.match(r'[a-z]+:', href):
                 assert (path.parent / href).exists(), (path, href)
         total['pairs'] += len(pairs)
-    assert (ROOT / 'zuozhuan/tijie.html').exists()
+    assert not (ROOT / 'zuozhuan/tijie.html').exists() and 'p class="intro tijie"' in (ROOT / 'zuozhuan/index.html').read_text()
     print(f"OK: {len(progress['pages'])} pages, {total['sections']} sections, {total['chars']} chars, "
           f"{total['pairs']} sentence pairs, {total['notes']} notes")
 
