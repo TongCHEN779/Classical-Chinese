@@ -27,7 +27,7 @@ SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐�
 TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
           'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋', 'zhouyi': '周易'}
 # 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（唐纪185-265暂缓）
-ZTJJ_DONE = list(range(1, 229)) + list(range(266, 295))    # 唐纪卷二二九至二六五尚待整理
+ZTJJ_DONE = list(range(1, 295))
 ZTJJ_RUN_START = (9, 69, 79, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
 GLOSS = {'shenglvqimeng', 'zizhitongjian', 'yanzi', 'zhouyi'}
 PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000, 'baiyueting': 12000,
