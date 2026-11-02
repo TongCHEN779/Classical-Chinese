@@ -27,7 +27,7 @@ SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐�
 TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
           'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋', 'zhouyi': '周易'}
 # 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（唐纪185-265暂缓）
-ZTJJ_DONE = list(range(1, 185)) + list(range(266, 295))
+ZTJJ_DONE = list(range(1, 229)) + list(range(266, 295))    # 唐纪卷二二九至二六五尚待整理
 ZTJJ_RUN_START = (9, 69, 79, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
 GLOSS = {'shenglvqimeng', 'zizhitongjian', 'yanzi', 'zhouyi'}
 PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000, 'baiyueting': 12000,
@@ -184,7 +184,7 @@ def ztjj_sections(d):
 
     def new(title, intro):
         nonlocal cur
-        cur = {'title': title, 'paras': [], 'intro': intro}
+        cur = {'title': re.sub(r'\s+', '', title).replace('（（', '（').replace('））', '）'), 'paras': [], 'intro': intro}
         secs.append(cur)
     new('卷首', True)
     for b in d['blocks']:
@@ -208,13 +208,23 @@ def ztjj_sections(d):
                 secs[0]['paras'][0] = re.sub(pat, '', secs[0]['paras'][0])
                 if not secs[0]['paras'][0]:
                     secs[0]['paras'].pop(0)
+    for a, b in zip(secs, secs[1:]):    # 原站在下一帝名下首年标题前另起一行帝号，被归到了上一节末尾：拿掉
+        segs = a['paras'][-1].split('/') if a['paras'] else []
+        if segs and len(segs[-1]) <= 40 and re.fullmatch(r'[^。！？，；：”’]*(?:皇帝|皇后)(?:[上中下]|之[上中下])?(?:之[上中下])?', segs[-1].replace(' ', '')) and not YEAR_HEAD.search(segs[-1]):
+            if len(segs) > 1:
+                a['paras'][-1] = '/'.join(segs[:-1])
+            else:
+                a['paras'].pop()
+    for s_ in secs:
+        s_['paras'] = [x for x in ('/'.join(y for y in p_.split('/') if not y.startswith('[[category')) for p_ in s_['paras']) if x]
     return [s_ for s_ in secs if s_['paras']]
 
 
 # 魏纪（卷七十三至七十八）、宋纪、齐纪、梁纪里原站不分年的整卷：按“春，”起首的段（每年首事）把卷首之后分成年节
 ZTJJ_YEAR_SPLIT = (set(range(73, 79)) | set(range(119, 135)) | set(range(136, 156)) | set(range(157, 167))
                    | {80} | set(range(82, 86)) | set(range(87, 96)) | {100, 101, 102} | set(range(104, 119))
-                   | set(range(272, 288)) | {289, 291, 292})
+                   | set(range(272, 288)) | {289, 291, 292}
+                   | (set(range(185, 266)) - {188, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 216, 237, 244, 246, 252, 255} - set(range(185, 188)) - {189}))
 ZTJJ_YEAR_STARTS = {75: ('夏，五月，以征西将军郭淮为车骑将军',), 78: ('秋，八月，乙酉，吴主立皇后朱氏',)}   # 这两卷有的年份首事不以“春”起，据正文人工定位
 STEMS, BRANCHES = '甲乙丙丁戊己庚辛壬癸', '子丑寅卯辰巳午未申酉戌亥'
 
@@ -366,6 +376,8 @@ def merge(book, work):
     prog = []
     for slug, label, srcname, secs in pages(book):
         if slug not in by_page:
+            if book == 'zizhitongjian' and slug not in kept:
+                continue    # 分批整理中尚未合并的卷
             assert slug in kept and (root / slug / '01.txt').exists(), slug
             prog.append(kept[slug])
             continue
