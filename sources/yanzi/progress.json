@@ -1,0 +1,16 @@
+{
+  "book": "晏子春秋（卷一）",
+  "pages": [
+    {
+      "slug": "juan01",
+      "title": "卷一·内篇谏上",
+      "sections": 25,
+      "source": {
+        "title": "晏子春秋/卷一",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E4%B8%80",
+        "revision": "2184646",
+        "text_sha256": "7af14d253fa09b56269e954eeafae5f4c43c8f3959aa64c3191cdb3840e88919"
+      }
+    }
+  ]
+}

@@ -53,6 +53,34 @@ def strip_vol_line(sec):
     return True
 
 
+LABEL_O = re.compile(pw.ZTJJ_LABEL)
+LABEL_T = re.compile(r'^(?:【[^】]*】|[后前]?[梁唐晋汉周宋齐陈隋魏秦]纪[一二三四五六七八九十]+)[，：；。]?')
+
+
+def strip_label(sec):
+    """卷首第一块开头的纪名标签（如“【隋纪五】”）不收：页标题已有。"""
+    c = sec['chunks'][0]
+    m = LABEL_O.match(c['o'])
+    if not m or not m.end():
+        return False
+    o = c['o'][m.end():]
+    ts = c['t'].split('¦')
+    t0 = LABEL_T.sub('', ts[0].strip(), count=1)
+    if t0 == ts[0].strip():    # 译文里标签的写法五花八门：直接从“起于/本卷起于/从某年”处起
+        m_ = re.search(r'本卷起于|起于|从[^，。]{0,10}年', t0)
+        assert m_ and m_.start() < 40, (c['t'][:60],)
+        t0 = t0[m_.start():]
+    ts[0] = t0
+    c['notes'] = [n for n in c['notes'] if n.split('：', 1)[0] in o]
+    if not o.strip():
+        assert len(ts) == 1 and not ts[0].strip('，。：'), (c['t'],)
+        sec['chunks'].pop(0)
+    else:
+        assert ts[0], c['t']
+        c['o'], c['t'] = o, '¦'.join(ts)
+    return True
+
+
 def strip_heading(sec, title):
     c = sec['chunks'][0]
     segs = c['o'].split('/')
@@ -88,6 +116,7 @@ def run(k):
     path = ROOT / 'src/zizhitongjian' / f'juan{k:03d}' / '01.txt'
     secs = parse(path)
     changed = strip_vol_line(secs[0])
+    changed |= strip_label(secs[0])
     if k in pw.ZTJJ_YEAR_SPLIT:
         want = [s for s in pw.pages('zizhitongjian') if s[0] == f'juan{k:03d}'][0][3]
         assert len(secs) == len(want), (k, len(secs), len(want))

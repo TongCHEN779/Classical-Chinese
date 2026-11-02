@@ -25,13 +25,13 @@ GHQ_SLUGS = ['douee', 'luzhailang', 'jiufengchen', 'wangjiangting', 'hudiemeng',
 PLAY_NAMES = dict(zip(GHQ_SLUGS, '感天动地窦娥冤 包待制智斩鲁斋郎 赵盼儿风月救风尘 望江亭中秋切鲙 包待制三勘蝴蝶梦 杜蕊娘智赏金线池 钱大尹智宠谢天香 温太真玉镜台 尉迟恭单鞭夺槊 关大王独赴单刀会 钱大尹智勘绯衣梦 刘夫人庆赏五侯宴 邓夫人苦痛哭存孝 山神庙裴度还带 状元堂陈母教子 关张双赴西蜀梦 闺怨佳人拜月亭 诈妮子调风月'.split()))
 SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐倩女离魂', 'qiangtoumashang': '裴少俊墙头马上', 'baiyueting': '闺怨佳人拜月亭'}
 TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
-          'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙'}
-# 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（唐纪185-265、五代266-294暂缓）
-ZTJJ_DONE = list(range(1, 185))
+          'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋（卷一）', 'zhouyi': '周易'}
+# 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（唐纪185-265暂缓）
+ZTJJ_DONE = list(range(1, 185)) + list(range(266, 295))
 ZTJJ_RUN_START = (9, 69, 79, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
-GLOSS = {'shenglvqimeng', 'zizhitongjian'}
+GLOSS = {'shenglvqimeng', 'zizhitongjian', 'yanzi', 'zhouyi'}
 PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000, 'baiyueting': 12000,
-         'linlanxiang': 12000, 'shenglvqimeng': 4500, 'zizhitongjian': 6000, 'jinghuayuan': 12000}
+         'linlanxiang': 12000, 'shenglvqimeng': 4500, 'zizhitongjian': 6000, 'jinghuayuan': 12000, 'yanzi': 4500, 'zhouyi': 5000}
 MIN_NOTE_CHARS = {'linlanxiang': 220, 'jinghuayuan': 300}      # 平均每多少字至少一条注（其余 600）
 
 
@@ -125,6 +125,35 @@ def pages(book):
             d = src(book, f'hui{k:03d}.json')
             paras = [clean(b['text']).replace('\n', '/') for b in d['blocks'] if b['type'] == 'p']
             out.append((f'{k:03d}', title, f'hui{k:03d}.json', [{'title': title, 'paras': paras}]))
+    elif book == 'yanzi':
+        d = src(book, 'juan01.json')
+        secs = []
+        for b in d['blocks']:
+            if b['type'] == 'h2':
+                secs.append({'title': clean(b['text']), 'paras': []})
+            elif b['type'] == 'p':
+                secs[-1]['paras'].append(clean(b['text']).replace('\n', '/'))
+        out.append(('juan01', '卷一·内篇谏上', 'juan01.json', secs))
+    elif book == 'zhouyi':
+        for i in range(1, 65):
+            d = src(book, f'gua{i:02d}.json')
+            bl = d['blocks']
+            assert bl[0]['type'] == 'head' and bl[1]['type'] == 'p' and bl[1]['text'].endswith('上'), (i, bl[:2])
+            name, xs = bl[0]['text'], bl[1]['text']
+            secs, cur, mode = [], None, None
+            for b in bl[2:]:
+                if b['type'] == 'head':
+                    mode = b['text']
+                    assert mode in ('易经：', '彖曰：', '象曰：', '文言曰：'), (i, mode)
+                    cur = {'title': {'易经：': '卦辞、爻辞', '彖曰：': '彖传', '象曰：': '象传', '文言曰：': '文言传'}[mode], 'paras': []}
+                    secs.append(cur)
+                    continue
+                cur['paras'].append(clean(b['text']))
+            out.append((f'gua{i:02d}', f'第{cn(i)}卦·{name}｜{xs}', f'gua{i:02d}.json', secs))
+        for i, nm in enumerate(['系辞上', '系辞下', '说卦', '序卦', '杂卦'], 1):
+            d = src(book, f'zhuan{i:02d}.json')
+            secs = [{'title': f'第{cn(k)}节', 'paras': [clean(b['text'])]} for k, b in enumerate(d['blocks'], 1)]
+            out.append((f'zhuan{i:02d}', f'易传·{nm}', f'zhuan{i:02d}.json', secs))
     elif book == 'zizhitongjian':
         for k in ZTJJ_DONE:
             d = src(book, f'juan{k:03d}.json')
@@ -142,6 +171,10 @@ def ztjj_body(t):
     t = re.sub(r'\([^)]*\)', '', t)
     t = t.replace('〔', '').replace('〕', '')
     return clean(t).replace('\n', '/')
+
+
+# 卷首“【隋纪五】”之类的纪名标签：页标题已有，不收
+ZTJJ_LABEL = r'^【[^】]*】◎?(?:[后前]?[梁唐晋汉周宋齐陈隋魏秦]纪[一二三四五六七八九十]+)?/?'
 
 
 def ztjj_sections(d):
@@ -168,7 +201,7 @@ def ztjj_sections(d):
         elif t == 'li' and cur['title'] == '校刊记':
             cur['paras'].append(clean(re.sub(r'^↑\s*', '', b['text'])).replace('\n', '/'))
     if secs and secs[0]['paras']:    # 卷首的“资治通鉴 第NNN卷”和随后的“卷第某”是原站页面标题，卷号已在页标题里，不收
-        for pat in (r'^资治通鉴\s*第?\s*\d+卷/?', r'^卷第[一二三四五六七八九十百零〇]+/?'):
+        for pat in (r'^资治通鉴\s*第?\s*\d+卷/?', r'^卷第[一二三四五六七八九十百零〇]+/?', ZTJJ_LABEL):
             if secs[0]['paras']:
                 secs[0]['paras'][0] = re.sub(pat, '', secs[0]['paras'][0])
                 if not secs[0]['paras'][0]:
@@ -178,7 +211,8 @@ def ztjj_sections(d):
 
 # 魏纪（卷七十三至七十八）、宋纪、齐纪、梁纪里原站不分年的整卷：按“春，”起首的段（每年首事）把卷首之后分成年节
 ZTJJ_YEAR_SPLIT = (set(range(73, 79)) | set(range(119, 135)) | set(range(136, 156)) | set(range(157, 167))
-                   | {80} | set(range(82, 86)) | set(range(87, 96)) | {100, 101, 102} | set(range(104, 119)))
+                   | {80} | set(range(82, 86)) | set(range(87, 96)) | {100, 101, 102} | set(range(104, 119))
+                   | set(range(272, 288)) | {289, 291, 292})
 ZTJJ_YEAR_STARTS = {75: ('夏，五月，以征西将军郭淮为车骑将军',), 78: ('秋，八月，乙酉，吴主立皇后朱氏',)}   # 这两卷有的年份首事不以“春”起，据正文人工定位
 STEMS, BRANCHES = '甲乙丙丁戊己庚辛壬癸', '子丑寅卯辰巳午未申酉戌亥'
 

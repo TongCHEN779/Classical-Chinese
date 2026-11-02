@@ -658,7 +658,7 @@ def _zizhitongjian_spec():
     juan = json.loads(jp.read_text(encoding="utf8"))["pages"] if jp.exists() else []
     return {"title": "资治通鉴", "author": "［宋］司马光 撰，［元］胡三省 音注", "unit": "卷", "summary_unit": "卷", "wide_index": True, "no_count": True,
             "intro": "",
-            "index_footer": "周纪、秦纪、汉纪、魏纪、晋纪、宋纪、齐纪、梁纪、陈纪、隋纪（卷一至卷一百八十四）已整理：按年分节，配逐句白话、题解与注释，点校者的校刊记另列于卷末；其余各卷尚待整理。"
+            "index_footer": "周纪至隋纪（卷一至卷一百八十四）与五代各纪（卷二百六十六至卷二百九十四）已整理：按年分节，配逐句白话、题解与注释，点校者的校刊记另列于卷末；唐纪（卷一百八十五至卷二百六十五）尚待整理。"
                             "附录含新注序、宋神宗序、进书表、奖谕诏书、校勘人姓名、释例，以及刘恕《资治通鉴外纪》序和卷四至卷十（外纪卷一至卷三在维基文库仅见四库全书本，未收）。"
                             "纪年起止据各卷卷首“起…尽…凡…年”换算，个别卷首缺载者据正文年份标目推得，详见 sources/zizhitongjian/README.md。",
             "page_sources": {p["slug"]: {**p["source"], "after": "原站点校者以〔　〕补入、以（　）删去的字，已按校改后的定本录入，段首校记序号去掉；"} for p in juan},
@@ -699,16 +699,26 @@ def _xu_source(slug):
     return {"title": d["title"], "url": d["url"], "revision": d["revision"], "after": "原站标点保持不变；疑误字只在注中说明。"}
 
 
-def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None):
+def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None, footer=None, groups=None):
     """关汉卿杂剧、赵氏孤儿等：页表读自 sources/<slug>/progress.json（页下按折/回分节）。"""
     progress = json.loads((ROOT / f"sources/{slug}/progress.json").read_text(encoding="utf8"))
     pages = [(p["slug"], p["title"]) for p in progress["pages"]]
+    if groups:    # [(组名, 页数)]：在目录页按组加标题行
+        grouped, i = [], 0
+        for name, n in groups:
+            grouped.append((None, name))
+            grouped.extend(pages[i:i + n])
+            i += n
+        assert i == len(pages), (slug, i, len(pages))
+        pages = grouped
     spec = {"title": title, "author": author, "unit": unit, "summary_unit": unit, "wide_index": True,
             "prose": not gloss, "no_tip": not gloss, "side_toc": True, "count_entries": False, "no_count": True,
             "intro": "", "pages": pages,
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
     if not gloss:
         spec["reading_hint"] = "原文直读；点击“题解”“注释”可展开。附基础导读注释，不设白话译文。"
+    if footer:
+        spec["index_footer"] = footer
     return spec
 
 
@@ -729,6 +739,10 @@ POETRY = {
     "linlanxiang": _works_spec("linlanxiang", "林兰香", "［清］随缘下士", "回"),
     "jinghuayuan": _works_spec("jinghuayuan", "镜花缘", "［清］李汝珍", "回"),
     "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
+    "yanzi": _works_spec("yanzi", "晏子春秋", "［春秋］晏婴（后人辑录）", "章", gloss=True,
+                         footer="现仅整理卷一（内篇谏上，共二十五章）：每章配逐句白话、题解与注释；其余各卷尚待整理。"),
+    "zhouyi": _works_spec("zhouyi", "周易", "［先秦］佚名", "节", gloss=True, groups=[("上经（乾至离，三十卦）", 30), ("下经（咸至未济，三十四卦）", 34), ("易传（系辞、说卦、序卦、杂卦）", 5)],
+                          footer="六十四卦每卦一页：卦辞、爻辞与彖传、象传（乾坤另有文言传）合在一页，各节逐句白话、题解与注释；易传另列系辞上下、说卦、序卦、杂卦。彖传、象传、文言传已分别入各卦页，故不另设“彖”“大象”“小象”“文言”页。《周易》异说甚多，白话与注释据传统通行解释，分歧处注明“一说”。"),
     "donglinghualu": _donglinghualu_spec(),
     "chuanxilu": _chuanxilu_spec(),
     "canying": _canying_spec(),
@@ -770,6 +784,8 @@ BOOK_INTRO = {
     "baiyueting": "元代关汉卿所作杂剧，全称《闺怨佳人拜月亭》，写金末兵乱中蒋世隆与王瑞兰患难相识、几经离合而团圆的故事。元代四大爱情剧之一。",
     "jinghuayuan": "清代李汝珍所作长篇小说，全一百回：前半写唐敖、多九公、林之洋出海游历，历君子国、大人国、女儿国等诸国；后半写武则天开女科、百位才女应试及宴游、论学、斗艺的故事。",
     "linlanxiang": "清代世情小说，全书六十四回，旧本题“随缘下士编辑”，以明代耿朗一家妻妾的悲欢为中心，细写家庭日常与人情世态。",
+    "yanzi": "记春秋时齐国名相晏婴言行的书，旧题晏婴撰，一般认为是后人采集编成。全书八卷，以晏子劝谏景公、折冲外交、处世节俭而著称，保存了不少先秦轶事；现整理卷一《内篇谏上》二十五章。",
+    "zhouyi": "儒家群经之首，包括经（六十四卦的卦辞、爻辞）和传（彖、象、系辞、文言、说卦、序卦、杂卦等“十翼”）两部分，借阴阳爻象推演吉凶变化，是中国古代哲学与占筮之书。",
     "shenglvqimeng": "清代车万育编的蒙学读物，按平水韵分三十个韵部，以对句训练对仗与声律，涉及天文、地理、人物与典故。",
     "mengxi": "北宋沈括所著笔记，含《笔谈》二十六卷及《补笔谈》《续笔谈》，涉及天文历法、数学、地理、医药、工艺、艺文、官政与朝野轶事。",
     "zhenglun-changyan": "东汉两部政论著作合编，分别为崔寔《政论》与仲长统《昌言》，议论时政得失、田制、刑法与吏治。原书多佚，今存为后人辑本。",
@@ -1040,8 +1056,8 @@ def build_poetry(bslug, spec):
 
 
 # 书名首字的拼音首字母，供首页字母索引使用；新增书目若首字不在表内，build 会报错提醒补充。
-INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜",
-                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJ"))
+INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜晏周",
+                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJYZ"))
 
 
 def build_home():
