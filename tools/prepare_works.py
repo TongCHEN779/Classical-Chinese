@@ -159,7 +159,7 @@ def pages(book):
     elif book == 'zizhitongjian':
         for k in ZTJJ_DONE:
             d = src(book, f'juan{k:03d}.json')
-            secs = ztjj_sections(d)
+            secs = ztjj_sections(d, 185 <= k <= 265)
             out.append((f'juan{k:03d}', f'卷{cn(k)}', f'juan{k:03d}.json', ztjj_year_split(k, secs) if k in ZTJJ_YEAR_SPLIT else secs))
     return out
 
@@ -179,7 +179,7 @@ def ztjj_body(t):
 ZTJJ_LABEL = r'^【[^】]*】◎?(?:[后前]?[梁唐晋汉周宋齐陈隋魏秦]纪[一二三四五六七八九十]+)?/?'
 
 
-def ztjj_sections(d):
+def ztjj_sections(d, strip_heads=False):
     secs, cur, wang_start = [], None, False
 
     def new(title, intro):
@@ -208,7 +208,7 @@ def ztjj_sections(d):
                 secs[0]['paras'][0] = re.sub(pat, '', secs[0]['paras'][0])
                 if not secs[0]['paras'][0]:
                     secs[0]['paras'].pop(0)
-    for a, b in zip(secs, secs[1:]):    # 原站在下一帝名下首年标题前另起一行帝号，被归到了上一节末尾：拿掉
+    for a, b in (zip(secs, secs[1:]) if strip_heads else ()):    # 原站在下一帝名下首年标题前另起一行帝号，被归到了上一节末尾：拿掉
         segs = a['paras'][-1].split('/') if a['paras'] else []
         if segs and len(segs[-1]) <= 40 and re.fullmatch(r'[^。！？，；：”’]*(?:皇帝|皇后)(?:[上中下]|之[上中下])?(?:之[上中下])?', segs[-1].replace(' ', '')) and not YEAR_HEAD.search(segs[-1]):
             if len(segs) > 1:
@@ -255,7 +255,7 @@ def ztjj_year_info(k, segs):
         h = next((x for x in range(o, i - 1, -1) if len(segs[x].strip()) <= 60 and YEAR_LINE.search(segs[x].strip())), None)
         idx.append(i)
         heads.append(h)
-        titles.append(re.sub(r'\s+', '', segs[h].replace('〈', '（').replace('〉', '）')).lstrip('◎') if h is not None
+        titles.append(re.sub(r'\s+', '', segs[h].replace('〈', '（').replace('〉', '）')).replace('（（', '（').replace('））', '）').lstrip('◎') if h is not None
                       else f'{STEMS[(y - 4) % 10]}{BRANCHES[(y - 4) % 12]}年（公元{cn_digits(y)}年）')
     assert len(set(titles)) == len(titles), (k, titles)
     return idx, titles, heads
