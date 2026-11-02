@@ -10,6 +10,7 @@ BOOK = guanhanqing | zhaoshigu | qiannulihun | qiangtoumashang | baiyueting | li
 """
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -25,9 +26,9 @@ PLAY_NAMES = dict(zip(GHQ_SLUGS, '感天动地窦娥冤 包待制智斩鲁斋郎
 SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐倩女离魂', 'qiangtoumashang': '裴少俊墙头马上', 'baiyueting': '闺怨佳人拜月亭'}
 TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
           'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙'}
-# 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（晋纪79-118、唐纪185-265、五代266-294暂缓）
-ZTJJ_DONE = sorted(set(range(1, 79)) | set(range(119, 185)))
-ZTJJ_RUN_START = (9, 69, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
+# 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（唐纪185-265、五代266-294暂缓）
+ZTJJ_DONE = list(range(1, 185))
+ZTJJ_RUN_START = (9, 69, 79, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
 GLOSS = {'shenglvqimeng', 'zizhitongjian'}
 PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000, 'baiyueting': 12000,
          'linlanxiang': 12000, 'shenglvqimeng': 4500, 'zizhitongjian': 6000, 'jinghuayuan': 12000}
@@ -176,7 +177,8 @@ def ztjj_sections(d):
 
 
 # 魏纪（卷七十三至七十八）、宋纪、齐纪、梁纪里原站不分年的整卷：按“春，”起首的段（每年首事）把卷首之后分成年节
-ZTJJ_YEAR_SPLIT = set(range(73, 79)) | set(range(119, 135)) | set(range(136, 156)) | set(range(157, 167))
+ZTJJ_YEAR_SPLIT = (set(range(73, 79)) | set(range(119, 135)) | set(range(136, 156)) | set(range(157, 167))
+                   | {80} | set(range(82, 86)) | set(range(87, 96)) | {100, 101, 102} | set(range(104, 119)))
 ZTJJ_YEAR_STARTS = {75: ('夏，五月，以征西将军郭淮为车骑将军',), 78: ('秋，八月，乙酉，吴主立皇后朱氏',)}   # 这两卷有的年份首事不以“春”起，据正文人工定位
 STEMS, BRANCHES = '甲乙丙丁戊己庚辛壬癸', '子丑寅卯辰巳午未申酉戌亥'
 
@@ -195,6 +197,8 @@ def ztjj_year_info(k, segs):
     v = _j.loads((ROOT / 'sources/zizhitongjian/catalog.json').read_text(encoding='utf8'))['volumes'][k - 1]
     ys = list(range(v['start_year'], v['end_year'] + 1))
     orig = [i for i, x in enumerate(segs) if x.startswith('春，') or x.startswith(ZTJJ_YEAR_STARTS.get(k, ('\0',)))]
+    if len(orig) != len(ys):    # 年首不都以“春”起的卷：改按原站的年份标题行定年首
+        orig = [i for i, x in enumerate(segs) if len(x.strip()) <= 60 and YEAR_LINE.search(x.strip())]
     assert len(orig) == len(ys), (k, len(orig), len(ys))
     idx, titles, heads = [], [], []
     for j, (y, o) in enumerate(zip(ys, orig)):
@@ -202,7 +206,7 @@ def ztjj_year_info(k, segs):
         floor = (orig[j - 1] + 1) if j else 1
         while i - 1 >= floor and len(segs[i - 1]) <= 60 and segs[i - 1][-1] not in '。！？”’；：，、':
             i -= 1    # 紧挨在年首前、不带句末标点的短行是原站的帝号或年份标题，归入该年
-        h = next((x for x in range(o - 1, i - 1, -1) if len(segs[x].strip()) <= 60 and YEAR_LINE.search(segs[x].strip())), None)
+        h = next((x for x in range(o, i - 1, -1) if len(segs[x].strip()) <= 60 and YEAR_LINE.search(segs[x].strip())), None)
         idx.append(i)
         heads.append(h)
         titles.append(re.sub(r'\s+', '', segs[h].replace('〈', '（').replace('〉', '）')).lstrip('◎') if h is not None
@@ -224,7 +228,11 @@ def ztjj_year_split(k, secs):
 
 def pieces(book):
     out, cur = [], None
+    only = os.environ.get('ZTJJ_ONLY_VOLS')    # 如“79-118”：只给这些卷切分作业片段
+    lo, hi = map(int, only.split('-')) if only else (0, 10 ** 9)
     for slug, label, srcname, secs in pages(book):
+        if book == 'zizhitongjian' and not lo <= int(slug[4:]) <= hi:
+            continue
         for s in secs:
             n = sum(len(x) for x in s['paras'])
             if cur is None or (cur['chars'] + n > PIECE[book] and cur['chars'] > 0) or (book == 'zizhitongjian' and int(slug[4:]) in ZTJJ_RUN_START and cur['secs'][-1][0] != slug):
