@@ -823,6 +823,9 @@ for _k, _v in POETRY.items():
     _v["intro"] = BOOK_INTRO[_k]
 
 
+TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")]}
+
+
 def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
     text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
@@ -833,6 +836,8 @@ def intro_html(slug):
         for para in parse_poems([path])[0]["intro"]:
             head, sep, rest = para.partition("。")
             out += f'<p class="intro tijie"><strong>{esc(head)}{sep}</strong>{esc(rest)}</p>'
+    for label, url in TIJIE_LINKS.get(slug, []):
+        out += f'<p class="intro tijie"><strong>{esc(label)}：</strong><a href="{esc(url)}">{esc(url)}</a></p>'
     return out
 
 
