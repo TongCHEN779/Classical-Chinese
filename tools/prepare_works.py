@@ -25,7 +25,7 @@ GHQ_SLUGS = ['douee', 'luzhailang', 'jiufengchen', 'wangjiangting', 'hudiemeng',
 PLAY_NAMES = dict(zip(GHQ_SLUGS, '感天动地窦娥冤 包待制智斩鲁斋郎 赵盼儿风月救风尘 望江亭中秋切鲙 包待制三勘蝴蝶梦 杜蕊娘智赏金线池 钱大尹智宠谢天香 温太真玉镜台 尉迟恭单鞭夺槊 关大王独赴单刀会 钱大尹智勘绯衣梦 刘夫人庆赏五侯宴 邓夫人苦痛哭存孝 山神庙裴度还带 状元堂陈母教子 关张双赴西蜀梦 闺怨佳人拜月亭 诈妮子调风月'.split()))
 SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐倩女离魂', 'qiangtoumashang': '裴少俊墙头马上', 'baiyueting': '闺怨佳人拜月亭'}
 TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
-          'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋（卷一）', 'zhouyi': '周易'}
+          'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋', 'zhouyi': '周易'}
 # 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（唐纪185-265暂缓）
 ZTJJ_DONE = list(range(1, 185)) + list(range(266, 295))
 ZTJJ_RUN_START = (9, 69, 79, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
@@ -126,14 +126,16 @@ def pages(book):
             paras = [clean(b['text']).replace('\n', '/') for b in d['blocks'] if b['type'] == 'p']
             out.append((f'{k:03d}', title, f'hui{k:03d}.json', [{'title': title, 'paras': paras}]))
     elif book == 'yanzi':
-        d = src(book, 'juan01.json')
-        secs = []
-        for b in d['blocks']:
-            if b['type'] == 'h2':
-                secs.append({'title': clean(b['text']), 'paras': []})
-            elif b['type'] == 'p':
-                secs[-1]['paras'].append(clean(b['text']).replace('\n', '/'))
-        out.append(('juan01', '卷一·内篇谏上', 'juan01.json', secs))
+        names = ['内篇谏上', '内篇谏下', '内篇问上', '内篇问下', '内篇杂上', '内篇杂下', '外篇上', '外篇下']
+        for k, nm in enumerate(names, 1):
+            d = src(book, f'juan{k:02}.json')
+            secs = []
+            for b in d['blocks']:
+                if b['type'] == 'h3' or (b['type'] == 'h2' and k <= 6):
+                    secs.append({'title': clean(b['text']), 'paras': []})
+                elif b['type'] == 'p':
+                    secs[-1]['paras'].append(clean(b['text']).replace('\n', '/'))
+            out.append((f'juan{k:02}', f'卷{cn(k)}·{nm}', f'juan{k:02}.json', secs))
     elif book == 'zhouyi':
         for i in range(1, 65):
             d = src(book, f'gua{i:02d}.json')
@@ -266,6 +268,8 @@ def pieces(book):
     lo, hi = map(int, only.split('-')) if only else (0, 10 ** 9)
     for slug, label, srcname, secs in pages(book):
         if book == 'zizhitongjian' and not lo <= int(slug[4:]) <= hi:
+            continue
+        if book == 'yanzi' and slug == 'juan01':    # 卷一已整理合并
             continue
         for s in secs:
             n = sum(len(x) for x in s['paras'])

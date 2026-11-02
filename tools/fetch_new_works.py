@@ -109,7 +109,8 @@ def main():
         jobs.append((dest / 'jinghuayuan/wikisource' / f'hui{k:03d}.json', f'鏡花緣/第{k:03d}回'))
     for k in sorted(set(range(1, 185)) | set(range(266, 295))):
         jobs.append((dest / 'zizhitongjian/wikisource/juan' / f'juan{k:03d}.json', f'資治通鑑/卷{k:03d}'))
-    jobs.append((dest / 'yanzi/wikisource/juan01.json', '晏子春秋/卷一'))
+    for k in range(1, 9):
+        jobs.append((dest / 'yanzi/wikisource' / f'juan{k:02}.json', '晏子春秋/卷' + '零一二三四五六七八'[k]))
     for path, t in jobs:
         if want and not any(w in str(path) for w in want):
             continue
