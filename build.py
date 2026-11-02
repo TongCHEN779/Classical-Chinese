@@ -179,6 +179,7 @@ def page(title, body, r, extra_js=False):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 {CSS_LINK.format(r=r, v=_ver("style.css"))}
+<script src="{r}assets/theme.js?v={_ver("theme.js")}"></script>
 {js}
 </head>
 <body>
