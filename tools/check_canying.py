@@ -65,7 +65,7 @@ def main():
         if p.get("annotation_status") == "complete":
             assert len(expected_pairs) > 0
             assert all(c["t"] for s in sections for c in s["chunks"])
-            assert "本句白话" in soup.select_one(".hint").get_text()
+            assert "鼠标" not in soup.get_text() and "触屏" not in soup.get_text()
         else:
             assert not expected_pairs
             assert "白话译文与编者释义尚待整理" in soup.select_one(".hint").get_text()

@@ -229,7 +229,6 @@ def build_juan(book, part, vol, src_path, avail):
 {crumbs([("古典文库", r + "index.html"), (book["title"], "../index.html"), (ptitle, None)])}
 <h1>{esc(ptitle)}<small>{esc(pord)}</small></h1>
 <h2>{esc(heading)}</h2>
-<p class="hint">鼠标移到原文句子上，即显示白话；点击每则末尾的“注释”可展开补充说明。触屏设备请点按句子。</p>
 </header>
 <main class="reading-layout">
 <details class="toc" open><summary>本卷目录</summary><ol>{toc}</ol></details>
@@ -476,7 +475,7 @@ def _xiaochuang_spec():
             "index_footer": f"原文收录1547段；已配白话与编者注释{translated}段。原站校勘记另列，不计作编者注释。",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_options": {p["slug"]: {"no_tip": False,
-                  "reading_hint": "本卷已配逐句白话与独立注释。鼠标悬停或触屏点按原文可看译文；点击注释、题解可展开。卷末另附原站校勘记。",
+                  "reading_hint": "本卷已配逐句白话与独立注释。卷末另附原站校勘记。",
                   "footer": "白话、题解与独立注释为编者自撰；疑字保留并注出暂解。卷末校勘记为原站文字，未据影印本逐字校勘。"}
                              for p in progress["pages"] if p["status"] == "annotated"},
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
@@ -498,7 +497,7 @@ def _canying_spec():
             "index_footer": f"原文收录390段；已配白话、题解与编者注释{len(completed)}段。",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_options": {p["slug"]: {"no_tip": False,
-                  "reading_hint": "鼠标移到原文上显示本句白话，触屏设备请点按原文；点击题解、注释可展开。括号内仍保留底本夹注，疑字、缺字的辨读见注释。",
+                  "reading_hint": "括号内仍保留底本夹注，疑字、缺字的辨读见注释。",
                   "footer": "白话、题解与词条注释为编者自撰；原站夹注保留在正文括号中。疑字另注，原文尚未据影印本逐字校定。"}
                              for p in progress["pages"] if p.get("annotation_status") == "complete"},
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
@@ -518,7 +517,7 @@ def _four_classics_spec(slug):
             **({"count": lambda secs: (sum(1 for s in secs if s["title"].endswith("折")), "折")}
                if slug == "xixiangji" else {"no_count": True}),
             "index_footer": f"正文 {progress['chapter_count']} {meta['unit']}；另收全书题解及所选版本附文。",
-            "reading_hint": "原文直读；点击“题解”“注释”可展开。附基础导读注释，不设白话译文。",
+            "reading_hint": "原文直读。附基础导读注释，不设白话译文。",
             "intro": "",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"] if p["slug"] != "tijie"],
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
@@ -633,7 +632,7 @@ def _zengguofan_spec():
             "prose": True, "count_entries": True, "strict_pairs": True,
             "intro": "",
             "index_footer": f"三章{done}/{total}封家信及9项附文全部完成注译，共{progress['annotated_sentences']}句白话、{progress['notes']}条注。维基文库目录所列第四章无正文。",
-            "reading_hint": "鼠标悬停或触屏点按原文，可看本句白话；点击题解、注释可展开。",
+            "reading_hint": "",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"]],
             "page_sources": {p["slug"]: {**p["source"], "after": "整理夹注内句末标点，并删除段末孤立的残引号、间隔点；疑字照录，原站标题与日期不合处另注。"}
                              for p in progress["pages"]}}
@@ -675,7 +674,7 @@ def _prose_pages_spec(slug, title, author, footer, groups):
             pages.append((None, name))
             pages.extend((p["slug"], p["title"]) for p in members)
     return {"title": title, "author": author, "unit": "节", "summary_unit": "节", "wide_index": True,
-            "index_footer": footer, "reading_hint": "鼠标悬停或触屏点按原文，可看本句白话；点击题解、注释可展开。",
+            "index_footer": footer, "reading_hint": "",
             "pages": pages,
             "page_sources": {p["slug"]: {**p["source"], "after": "原站标点保持不变；"} for p in progress["pages"]}}
 
@@ -716,7 +715,7 @@ def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None, 
             "intro": "", "pages": pages,
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
     if not gloss:
-        spec["reading_hint"] = "原文直读；点击“题解”“注释”可展开。附基础导读注释，不设白话译文。"
+        spec["reading_hint"] = "原文直读。附基础导读注释，不设白话译文。"
     if footer:
         spec["index_footer"] = footer
     return spec
@@ -1018,20 +1017,20 @@ def build_poetry(bslug, spec):
         source_note = (f'{esc(source.get("prefix", "原文据"))}<a href="{esc(source["url"])}">{esc(source.get("label", "维基文库"))}</a>整理{revision_note}；{esc(source.get("after", ""))}'
                        if source else ("本页题解为编者自撰；" if slug == "tijie" and bslug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan", "zuozhuan") else "原文依所标明底本整理；"))
         if page_options.get("no_tip", spec.get("no_tip")):
-            hint = "原文直读，不设悬浮译文；点击“注释”可展开或收起。"
+            hint = "原文直读，不设悬浮译文。"
             foot_text = "注释为编者自撰，仅供辅助阅读，以原文为准。"
             if spec.get("original_only"):
                 hint = "原文阅读版；白话与注释待整理。条目编号为整理者所加。"
                 foot_text = spec.get("original_footer", "保留原站校勘记及缺文标记；尚未据影印本逐字校勘。")
         else:
-            hint = "鼠标移到原文上，即显示白话译文；点击“注释”“题解”可展开或收起。触屏设备请点按原文。"
+            hint = ""
             foot_text = "白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。"
         hint = page_options.get("reading_hint", spec.get("reading_hint", hint))
         foot_text = page_options.get("footer", foot_text)
         body = f"""<header class="top">
 {crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
 <h1>{esc(title)}<small>{esc(btitle)}</small></h1>
-<p class="hint">{hint}</p>
+{f'<p class="hint">{hint}</p>' if hint else ""}
 </header>
 <main class="reading-layout">
 {toc}
