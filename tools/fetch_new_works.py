@@ -66,7 +66,7 @@ def fetch(title):
     p = j['parse']
     main = BeautifulSoup(p['text'], 'html.parser').select_one('.mw-parser-output')
     for n in main.select('style, script, .noprint, .ws-noexport, .navigation-not-searchable, .licenseContainer, .licensetpl, #toc, .toc, '
-                         '.header-container, .navbox, .wst-header, .catlinks, sup.reference, table.header, .mw-editsection'):
+                         '.header-container, .navbox, .wst-header, .catlinks, sup.reference, table.header, .mw-editsection, .variant-tooltip'):
         n.decompose()
     blocks = []
     for node in main.find_all(['h2', 'h3', 'h4', 'p', 'dd', 'li', 'pre']):
@@ -109,6 +109,18 @@ def main():
         jobs.append((dest / 'jinghuayuan/wikisource' / f'hui{k:03d}.json', f'鏡花緣/第{k:03d}回'))
     for k in sorted(set(range(1, 295))):
         jobs.append((dest / 'zizhitongjian/wikisource/juan' / f'juan{k:03d}.json', f'資治通鑑/卷{k:03d}'))
+    LUNYU = ['學而第一', '爲政第二', '八佾第三', '里仁第四', '公冶長第五', '雍也第六', '述而第七', '泰伯第八', '子罕第九', '鄉黨第十',
+             '先進第十一', '顏淵第十二', '子路第十三', '憲問第十四', '衞靈公第十五', '季氏第十六', '陽貨第十七', '微子第十八', '子張第十九', '堯曰第二十']
+    MENGZI = [a + b for a in ('梁惠王', '公孫丑', '滕文公', '離婁', '萬章', '告子', '盡心') for b in ('上', '下')]
+    ZHUANGZI = ['逍遙遊', '齊物論', '養生主', '人間世', '德充符', '大宗師', '應帝王', '駢拇', '馬蹄', '胠篋', '在宥', '天地', '天道', '天運', '刻意', '繕性', '秋水', '至樂',
+                '達生', '山木', '田子方', '知北遊', '庚桑楚', '徐無鬼', '則陽', '外物', '寓言', '讓王', '盜跖', '說劍', '漁父', '列禦寇', '天下']
+    for k, t in enumerate(LUNYU, 1):
+        jobs.append((dest / 'lunyu/wikisource' / f'juan{k:02}.json', '論語/' + t))
+    for k, t in enumerate(MENGZI, 1):
+        jobs.append((dest / 'mengzi/wikisource' / f'juan{k:02}.json', '孟子/' + t))
+    for k, t in enumerate(ZHUANGZI, 1):
+        jobs.append((dest / 'zhuangzi/wikisource' / f'pian{k:02}.json', '莊子/' + t))
+    jobs.append((dest / 'daodejing/wikisource/main.json', '道德經 (王弼本)'))
     for k in range(1, 9):
         jobs.append((dest / 'yanzi/wikisource' / f'juan{k:02}.json', '晏子春秋/卷' + '零一二三四五六七八'[k]))
     for path, t in jobs:

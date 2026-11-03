@@ -597,5 +597,32 @@
    ],
    "original_sha256": "d938a71d07bac3e739033bc5f6f5e75a3667003d776c7e0c8a21723148aa3402"
   }
+ },
+ {
+  "title": "谏太宗十思疏",
+  "author": "［唐］魏徵",
+  "intro": "魏徵约在贞观十一年（637）上疏，劝唐太宗居安思危、戒奢以俭，提出“十思”“九德”。",
+  "slug": "jianshisi",
+  "source": {
+   "url": "https://zh.wikisource.org/zh-hans/%E8%AB%AB%E5%A4%AA%E5%AE%97%E5%8D%81%E6%80%9D%E7%96%8F",
+   "label": "维基文库",
+   "revision": "9884512",
+   "after": "取维基文库正文，共三段；"
+  },
+  "provenance": {
+   "kind": "cached_primary_text",
+   "cache": "wikisource/jianshisi.json",
+   "selected_blocks": [
+    0,
+    1,
+    2
+   ],
+   "normalization": "wiki_main_no_apparatus_v1",
+   "adjustments": [
+    "维基文库该页只有三段正文，全部选入；无异文夹注",
+    "段内布局空白移除，标点全角化"
+   ],
+   "original_sha256": "5057c2e819270266634156bf08818d5adc1105efbc8b1292db7bb26192fb9970"
+  }
  }
 ]

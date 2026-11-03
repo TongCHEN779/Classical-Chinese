@@ -1,0 +1,27 @@
+{
+  "pages": [
+    {
+      "slug": "dao",
+      "title": "道经（第一至三十七章）",
+      "sections": 37,
+      "source": {
+        "title": "道德經 (王弼本)",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29",
+        "revision": "2354026",
+        "text_sha256": "8bd11f5d08f614669ae22daa12aea00d2f21c6b7760373681952fdb2bf20667a"
+      }
+    },
+    {
+      "slug": "de",
+      "title": "德经（第三十八至八十一章）",
+      "sections": 44,
+      "source": {
+        "title": "道德經 (王弼本)",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29",
+        "revision": "2354026",
+        "text_sha256": "8bd11f5d08f614669ae22daa12aea00d2f21c6b7760373681952fdb2bf20667a"
+      }
+    }
+  ],
+  "book": "道德经"
+}

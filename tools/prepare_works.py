@@ -25,13 +25,16 @@ GHQ_SLUGS = ['douee', 'luzhailang', 'jiufengchen', 'wangjiangting', 'hudiemeng',
 PLAY_NAMES = dict(zip(GHQ_SLUGS, '感天动地窦娥冤 包待制智斩鲁斋郎 赵盼儿风月救风尘 望江亭中秋切鲙 包待制三勘蝴蝶梦 杜蕊娘智赏金线池 钱大尹智宠谢天香 温太真玉镜台 尉迟恭单鞭夺槊 关大王独赴单刀会 钱大尹智勘绯衣梦 刘夫人庆赏五侯宴 邓夫人苦痛哭存孝 山神庙裴度还带 状元堂陈母教子 关张双赴西蜀梦 闺怨佳人拜月亭 诈妮子调风月'.split()))
 SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐倩女离魂', 'qiangtoumashang': '裴少俊墙头马上', 'baiyueting': '闺怨佳人拜月亭'}
 TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
-          'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋', 'zhouyi': '周易'}
+          'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋', 'zhouyi': '周易',
+          'lunyu': '论语', 'mengzi': '孟子', 'zhuangzi': '庄子', 'daodejing': '道德经'}
 # 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（唐纪185-265暂缓）
 ZTJJ_DONE = list(range(1, 295))
 ZTJJ_RUN_START = (9, 69, 79, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
-GLOSS = {'shenglvqimeng', 'zizhitongjian', 'yanzi', 'zhouyi'}
+GLOSS = {'shenglvqimeng', 'zizhitongjian', 'yanzi', 'zhouyi', 'lunyu', 'mengzi', 'zhuangzi', 'daodejing'}
 PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000, 'baiyueting': 12000,
-         'linlanxiang': 12000, 'shenglvqimeng': 4500, 'zizhitongjian': 6000, 'jinghuayuan': 12000, 'yanzi': 4500, 'zhouyi': 5000}
+         'linlanxiang': 12000, 'shenglvqimeng': 4500, 'zizhitongjian': 6000, 'jinghuayuan': 12000, 'yanzi': 4500, 'zhouyi': 5000,
+         'lunyu': 3000, 'mengzi': 4000, 'zhuangzi': 4500, 'daodejing': 2200}
+MAXSEC = {'lunyu': 40, 'mengzi': 30, 'daodejing': 20}     # 每个作业片段最多的节数（章短而多）
 MIN_NOTE_CHARS = {'linlanxiang': 220, 'jinghuayuan': 300}      # 平均每多少字至少一条注（其余 600）
 
 
@@ -74,6 +77,58 @@ def play_sections(d):
                 secs.append({'title': '开场', 'paras': []})
             secs[-1]['paras'].append(clean(b['text']).replace('\n', '/'))
     return [s for s in secs if s['paras']]
+
+
+LUNYU_NAMES = ['学而第一', '为政第二', '八佾第三', '里仁第四', '公冶长第五', '雍也第六', '述而第七', '泰伯第八', '子罕第九', '乡党第十',
+               '先进第十一', '颜渊第十二', '子路第十三', '宪问第十四', '卫灵公第十五', '季氏第十六', '阳货第十七', '微子第十八', '子张第十九', '尧曰第二十']
+MENGZI_NAMES = [a + b for a in ('梁惠王', '公孙丑', '滕文公', '离娄', '万章', '告子', '尽心') for b in ('上', '下')]
+ZHUANGZI_NAMES = ['逍遥游', '齐物论', '养生主', '人间世', '德充符', '大宗师', '应帝王', '骈拇', '马蹄', '胠箧', '在宥', '天地', '天道', '天运', '刻意', '缮性', '秋水', '至乐',
+                  '达生', '山木', '田子方', '知北游', '庚桑楚', '徐无鬼', '则阳', '外物', '寓言', '让王', '盗跖', '说剑', '渔父', '列御寇', '天下']
+
+
+def _classics4_pages(book):
+    """论语（每章一节）、孟子（每章一节）、庄子（每段一节）、道德经王弼本（经文，每章一节）。"""
+    out = []
+    if book == 'lunyu':
+        for k, nm in enumerate(LUNYU_NAMES, 1):
+            d = src(book, f'juan{k:02}.json')
+            ps = [clean(b['text']) for b in d['blocks'] if b['type'] == 'p']
+            out.append((f'juan{k:02}', nm, f'juan{k:02}.json', [{'title': f'第{cn(i)}章', 'paras': [t]} for i, t in enumerate(ps, 1)]))
+    elif book == 'mengzi':
+        for k, nm in enumerate(MENGZI_NAMES, 1):
+            d = src(book, f'juan{k:02}.json')
+            secs = []
+            for b in d['blocks']:
+                if b['type'] == 'h3':
+                    secs.append({'title': f'第{cn(int(b["text"]))}章', 'paras': []})
+                elif b['type'] == 'p' and b['text'] != '上一篇回目录下一篇':    # 末尾的网页导航文字不是正文
+                    secs[-1]['paras'].append(clean(b['text']))
+            out.append((f'juan{k:02}', nm, f'juan{k:02}.json', secs))
+    elif book == 'zhuangzi':
+        for k, nm in enumerate(ZHUANGZI_NAMES, 1):
+            d = src(book, f'pian{k:02}.json')
+            ps = [clean(b['text']) for b in d['blocks'] if b['type'] == 'p']
+            part = '内篇' if k <= 7 else ('外篇' if k <= 22 else '杂篇')
+            out.append((f'pian{k:02}', f'{part}·{nm}', f'pian{k:02}.json', [{'title': f'第{cn(i)}段', 'paras': [t]} for i, t in enumerate(ps, 1)]))
+    else:
+        d = src(book, 'main.json')
+        chap, cur = [], None
+        for b in d['blocks']:
+            if b['type'] == 'h2':
+                if not b['text'].endswith('章'):
+                    break
+                cur = []
+                chap.append(cur)
+            elif b['type'] == 'p' and cur is not None:
+                if b['text'].startswith('王弼老子道德经二卷'):    # 第八十一章之后是晁说之、熊克的跋，不属经文
+                    cur = None
+                    continue
+                cur.append(clean(b['text']))
+        assert len(chap) == 81, len(chap)
+        secs = [{'title': f'第{cn(i)}章', 'paras': [''.join(x)]} for i, x in enumerate(chap, 1)]
+        out.append(('dao', '道经（第一至三十七章）', 'main.json', secs[:37]))
+        out.append(('de', '德经（第三十八至八十一章）', 'main.json', secs[37:]))
+    return out
 
 
 def pages(book):
@@ -136,6 +191,8 @@ def pages(book):
                 elif b['type'] == 'p':
                     secs[-1]['paras'].append(clean(b['text']).replace('\n', '/'))
             out.append((f'juan{k:02}', f'卷{cn(k)}·{nm}', f'juan{k:02}.json', secs))
+    elif book in ('lunyu', 'mengzi', 'zhuangzi', 'daodejing'):
+        out.extend(_classics4_pages(book))
     elif book == 'zhouyi':
         for i in range(1, 65):
             d = src(book, f'gua{i:02d}.json')
@@ -283,7 +340,7 @@ def pieces(book):
             continue
         for s in secs:
             n = sum(len(x) for x in s['paras'])
-            if cur is None or (cur['chars'] + n > PIECE[book] and cur['chars'] > 0) or (book == 'zizhitongjian' and int(slug[4:]) in ZTJJ_RUN_START and cur['secs'][-1][0] != slug):
+            if cur is None or (cur['chars'] + n > PIECE[book] and cur['chars'] > 0) or len(cur['secs']) >= MAXSEC.get(book, 10 ** 9) or (book == 'zizhitongjian' and int(slug[4:]) in ZTJJ_RUN_START and cur['secs'][-1][0] != slug):
                 cur = {'secs': [], 'chars': 0}
                 out.append(cur)
             cur['secs'].append((slug, s, label)); cur['chars'] += n

@@ -13,7 +13,7 @@ import prepare_works as prep
 from prepare_zizhitongjian_fulu import strip_p
 
 EXPECT = {'guanhanqing': (18, 81), 'zhaoshigu': (1, 6), 'qiannulihun': (1, 5), 'qiangtoumashang': (1, 4), 'baiyueting': (1, 5),
-          'linlanxiang': (65, 65), 'shenglvqimeng': (2, 30), 'jinghuayuan': (100, 100), 'yanzi': (8, 215), 'zhouyi': (69, 278)}
+          'linlanxiang': (65, 65), 'shenglvqimeng': (2, 30), 'jinghuayuan': (100, 100), 'yanzi': (8, 215), 'zhouyi': (69, 278), 'lunyu': (20, 506), 'mengzi': (14, 260), 'zhuangzi': (33, 289), 'daodejing': (2, 81)}
 
 
 def audit(book):
