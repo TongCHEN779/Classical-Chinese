@@ -94,6 +94,13 @@ body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:
 .notes[hidden]{display:none}
 .pager{display:flex;justify-content:space-between;margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:15px}
 .pager .off{color:var(--muted)}
+.pager{gap:10px 16px}
+.pager>:first-child{text-align:left}.pager>:last-child{text-align:right}
+@media (max-width:600px){
+  .pager{flex-wrap:wrap}
+  .pager>:first-child,.pager>:last-child{flex:1 1 0;min-width:0}
+  .pager>:nth-child(2){order:3;flex:0 0 100%;text-align:center;padding-top:4px}
+}
 
 /* 悬浮白话 */
 #tip{position:fixed;z-index:10;max-width:min(440px,calc(100vw - 16px));padding:10px 14px;border-radius:8px;
