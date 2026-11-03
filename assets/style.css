@@ -125,6 +125,7 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 .dr .cp{color:var(--accent);font-weight:600;letter-spacing:.05em}
 
 /* 白话小说：正文直读，首行缩进 */
+.v.nv.poem{text-align:center!important;text-indent:0!important;margin:.7em 0}
 .nv{margin:.9em 0;text-indent:2em!important;font-size:1.06em;line-height:2}
 
 /* 总目录（整书目录固定在左侧） */

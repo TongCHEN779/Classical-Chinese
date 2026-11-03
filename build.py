@@ -448,7 +448,7 @@ def _hongloumeng_spec():
         head = (d / "01.txt").read_text(encoding="utf8").splitlines()[0][2:].strip()
         no, _, name = head.partition(" ")
         pages.append((d.name, f"{no}·{name}"))
-    return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True, "no_tip": True, "side_toc": True,
+    return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True, "no_tip": True, "side_toc": True, "center_poems": True,
             "intro": "",
             "pages": pages}
 
@@ -891,6 +891,14 @@ def parse_poems(paths):
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 
 
+def is_poem(o, prev):
+    """红楼梦等：诗词曲联在原文里没有单独标记。以“/”分行的短行段落，或紧接在“念道：”“联道：”等引语之后的无引号短段，视为诗歌，页面居中。"""
+    segs = o.split("/")
+    if len(segs) > 1:
+        return max(len(x) for x in segs) <= 40
+    return bool(prev) and len(o) < 60 and "“" not in o and "”" not in o and bool(re.search(r"(诗|词|曰|云|歌|赞|联|道)[：:]$", prev))
+
+
 def drama_html(text):
     out = []
     for i, part in enumerate(DRAMA.split(esc(text))):
@@ -956,12 +964,15 @@ def build_poetry(bslug, spec):
                 parts.append(
                     f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                     f'<span class="caret">▸</span> 题解</button><div class="notes intro-box" id="n{uid}" hidden>{items}</div>')
+            prev_o = ""
             for ch in sec["chunks"]:
                 if "tbl" in ch:
                     parts.append(table_html(ch["tbl"]))
                     continue
+                poem = " poem" if spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o) else ""
+                prev_o = ch["o"]
                 if ch["t"] is None:
-                    parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}">{drama_html(ch["o"])}</p>')
+                    parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}{poem}">{drama_html(ch["o"])}</p>')
                 else:
                   spans = ""
                   pairs = split_pairs(ch["o"], ch["t"])
