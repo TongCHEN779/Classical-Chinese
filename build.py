@@ -514,6 +514,7 @@ def _four_classics_spec(slug):
     progress = json.loads((ROOT / "sources" / slug / "progress.json").read_text(encoding="utf8"))
     return {"title": meta["title"], "author": meta["author"], "unit": meta["unit"],
             "prose": meta["prose"], "no_tip": True, "side_toc": True,
+            "center_poems": slug in ("xiyouji", "shuihuzhuan", "sanguoyanyi"),
             "count_entries": False,
             **({"count": lambda secs: (sum(1 for s in secs if s["title"].endswith("折")), "折")}
                if slug == "xixiangji" else {"no_count": True}),
