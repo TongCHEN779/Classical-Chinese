@@ -127,9 +127,6 @@ def prepare():
             if slug == 'xixiangji': lines += ['题解：'+meta['part_intros'][n-1]]
             if not n:
                 lines += ['题解：本页为所选维基文库版本的原有附属文字，作者立场及判断属于原文；与本网站编者自撰的全书题解分开阅读。']
-            if n == 1 and slug == 'sanguoyanyi':
-                # This poem is printed on the main work page rather than chapter 1.
-                lines += ['题解：卷首《临江仙》另见“卷首词”页；原站将此词置于全书目录前，本回正文不重复插入。']
             seen = set()
             paragraph_count = note_count = 0
             raw_originals, emitted_originals = [], []
@@ -178,15 +175,6 @@ def prepare():
                           'number':n,'paragraphs':paragraph_count,'characters':len(normalize(''.join(raw_originals))),
                           'headings':heading_count,'notes':note_count,
                           'source':{k:source[k] for k in ['title','url','revision','text_sha256']}})
-        # Retain the novel's opening lyric, with actual line breaks and attribution.
-        if slug == 'sanguoyanyi':
-            poem = '滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。/白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中。'
-            target = ROOT/'src'/slug/'juanshou'/'01.txt';target.parent.mkdir(parents=True,exist_ok=True)
-            target.write_text('# 卷首词｜临江仙·杨慎\n题解：此词据原站主页所列《临江仙》收录，另立一页以保留其位于全书目录前的层次。原站正文块将词牌、作者与词句连写，此处拆分署名，并依词调补标句读、分片。\n原：'+poem+'\n注：临江仙：词牌名，此首为明代杨慎所作，后被置于通行本《三国演义》卷首。\n注：渚：水中的小块陆地。\n注：江渚：江中小洲或江边水际。\n',encoding='utf8')
-            pages.insert(1,{'slug':'juanshou','title':'卷首词｜临江仙·杨慎','kind':'opening_lyric','paragraphs':1,'notes':3,
-                            'source':{k:index[k] for k in ['title','url','revision','text_sha256']}})
-            raw = next(b['text'] for b in index['blocks'] if b['text'].startswith('临江仙'))
-            assert re.sub(r'[^\w]','',(raw[len('临江仙杨慎'):])) == re.sub(r'[^\w]','',poem)
         progress = {'book':meta['title'],'date':'2026-10-27','status':'full_text_with_basic_annotations',
                     'chapter_count':count,'translation_status':'not_requested','annotation_status':'basic_glossary',
                     'annotation_policy':'Editor-authored basic glossary, attached at the first matching occurrence per page; not an exhaustive contextual commentary. Some chapters may have no new rare-word explanations.',

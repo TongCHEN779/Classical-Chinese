@@ -519,7 +519,7 @@ def _four_classics_spec(slug):
             **({"count": lambda secs: (sum(1 for s in secs if s["title"].endswith("折")), "折")}
                if slug == "xixiangji" else {"no_count": True}),
             "index_footer": f"正文 {progress['chapter_count']} {meta['unit']}；另收全书题解及所选版本附文。",
-            "reading_hint": "原文直读。附基础导读注释，不设白话译文。",
+            "reading_hint": "" if slug in ("xiyouji", "shuihuzhuan", "sanguoyanyi") else "原文直读。附基础导读注释，不设白话译文。",
             "intro": "",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"] if p["slug"] != "tijie"],
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
@@ -928,7 +928,7 @@ def is_poem(o, prev, prev_poem=False, nxt=""):
         return False
     if prev and re.search(r"(诗|词|曰|云|歌|赞|联|道|是|如|念|唱)[：:—]+$", prev):
         return True
-    return prev_poem and bool(re.search(r"[，。！？；]$", o)) and all(len(x) <= 9 for x in re.split(r"[，。！？；]", o))
+    return prev_poem and bool(re.search(r"[，。！？；]$", o)) and all(len(x) in (5, 7) or "兮" in x for x in re.split(r"[，。！？；]", o) if x)
 
 
 def drama_html(text):
@@ -1030,7 +1030,7 @@ def build_poetry(bslug, spec):
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         toc = ""
-        if spec.get("side_toc") and len(secs) <= 1:
+        if spec.get("side_toc") and sum(1 for s_ in secs if not (s_["title"] == title and not s_["chunks"])) <= 1:
             items = []
             for sl, tt, _f in pages:
                 if sl is None:

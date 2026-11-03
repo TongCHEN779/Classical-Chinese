@@ -18,19 +18,6 @@
       "essays": 5
     },
     {
-      "slug": "juanshou",
-      "title": "卷首词｜临江仙·杨慎",
-      "kind": "opening_lyric",
-      "paragraphs": 1,
-      "notes": 3,
-      "source": {
-        "title": "三國演義",
-        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E6%BC%94%E7%BE%A9",
-        "revision": "5401635",
-        "text_sha256": "60af0f822b0dd433c1aca4848a33bc18d38615fdebf57829a22a59a4054941cb"
-      }
-    },
-    {
       "slug": "xu",
       "title": "序",
       "kind": "front_or_back_matter",
