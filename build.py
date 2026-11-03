@@ -919,7 +919,7 @@ def is_poem(o, prev, prev_poem=False, nxt=""):
     紧接在诗行之后的无引号短段，以及曲牌名（短标题，后面紧跟曲词），视为诗歌（含对联、曲），页面居中。“下回分解”之类的回末套语不算。"""
     segs = o.split("/")
     if len(segs) > 1:
-        return max(len(x) for x in segs) <= 40
+        return all(len(x) <= 40 or _lyric_like(x) for x in segs)
     if len(o) <= 10 and not re.search(r"[，。！？；：“”、]", o) and nxt and "/" not in nxt and _lyric_like(nxt):
         return True    # 曲牌名
     if prev_poem and _lyric_like(o) and len(prev) <= 10 and not re.search(r"[，。！？；：“”、]", prev):
@@ -929,6 +929,18 @@ def is_poem(o, prev, prev_poem=False, nxt=""):
     if prev and re.search(r"(诗|词|曰|云|歌|赞|联|道|是|如|念|唱)[：:—]+$", prev):
         return True
     return prev_poem and bool(re.search(r"[，。！？；]$", o)) and all(len(x) in (5, 7) or "兮" in x for x in re.split(r"[，。！？；]", o) if x)
+
+
+def lead_poem(o):
+    """段首是几行诗、其后接着正文的混合段（如林兰香回首诗）：返回（诗行, 其余）；否则 None。"""
+    segs = o.split("/")
+    k = 0
+    for x in segs:
+        if len(x) <= 40 and re.search(r"[，。！？；]$", x) and all(4 <= len(y) <= 9 for y in re.split(r"[，。！？；]", x) if y):
+            k += 1
+        else:
+            break
+    return ("/".join(segs[:k]), "/".join(segs[k:])) if 2 <= k < len(segs) else None
 
 
 def drama_html(text):
@@ -1006,7 +1018,12 @@ def build_poetry(bslug, spec):
                 poem = " poem" if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
-                    parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}{poem}">{drama_html(ch["o"])}</p>')
+                    lead = lead_poem(ch["o"]) if spec.get("center_poems") and not poem else None
+                    if lead:
+                        parts.append(f'<p class="v nv poem">{drama_html(lead[0])}</p>')
+                        parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}">{drama_html(lead[1])}</p>')
+                    else:
+                        parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}{poem}">{drama_html(ch["o"])}</p>')
                 else:
                   spans = ""
                   pairs = split_pairs(ch["o"], ch["t"])
