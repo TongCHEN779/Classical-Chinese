@@ -2,6 +2,7 @@
 """Check completed Wikisource entries against snapshots and rendered sentence pairs."""
 import argparse
 import json
+import os
 import re
 import sys
 from html.parser import HTMLParser
@@ -47,6 +48,9 @@ class Reader(HTMLParser):
             self.button = None
         if tag in ("ul", "ol"):
             self.note_list = None
+
+
+UPDATE = os.environ.get('UPDATE_COUNTS')
 
 
 def source_entries(snapshot):
@@ -95,6 +99,8 @@ def check_volume(volume):
         for line in path.read_text().splitlines():
             if line.startswith("注："):
                 assert len(build.split_notes(line[2:])) == 1, (path, line)
+        if UPDATE:
+            review["sentence_pairs"] = s
         assert (p, s, n) == (review["paragraphs"], review["sentence_pairs"], review["notes"]), path
         paragraphs, sentences, notes = paragraphs + p, sentences + s, notes + n
         checked.append(entry["title"])
@@ -122,6 +128,8 @@ def main():
     args = parser.parse_args()
     progress = json.loads((ROOT / "sources/liaozhai/progress.json").read_text())
     volumes = [check_volume(v) for v in progress["volumes"]]
+    if UPDATE:
+        (ROOT / "sources/liaozhai/progress.json").write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\n")
     preface = progress.get("preface_review")
     if progress["preface_status"] == "complete" and preface:
         section = build.parse_poems([ROOT / "src/liaozhai/zizhi/001.txt"])[0]

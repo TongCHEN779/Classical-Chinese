@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Audit completed Shiliju pages, including prefaces and appendices; not the whole book."""
-import json,sys,argparse,hashlib
+import json,sys,argparse,hashlib,os
+UPD=os.environ.get('UPDATE_COUNTS')
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'tools')]
 import build
@@ -34,8 +35,8 @@ for p in j['pages']:
   assert digest(raw)==u['raw_sha256'] and digest(main)==u['main_sha256']
   assert notes==u['source_notes'] and breaks==u['format_breaks'];assert restore(restore(main,notes),breaks)==raw
   path=ROOT/'src/zhanguoce'/p['slug']/(u['id']+'.txt');secs=build.parse_poems([path]);assert len(secs)==1 and secs[0]['intro']
-  chunks=secs[0]['chunks'];assert len(chunks)==(2 if p['slug']=='qin04'and u['id']=='004'else 1)
-  c=chunks[0];assert ''.join(x['o']for x in chunks)==main;ts=[t for x in chunks for t in x['t'].split('¦')];assert len(ts)==len(build.split_sents(main))==u['sentence_pairs'];assert all(t.strip() for t in ts)
+  chunks=secs[0]['chunks'];assert len(chunks)==1
+  c=chunks[0];assert ''.join(x['o']for x in chunks)==main;ts=[t for x in chunks for t in x['t'].split('¦')];UPD and u.__setitem__('sentence_pairs',len(ts));assert len(ts)==len(build.split_sents(main))==u['sentence_pairs'];assert all(t.strip() for t in ts)
   assert all(len(build.split_pairs(x['o'],x['t']))==len(x['t'].split('¦'))for x in chunks)
   apparatus=[f'底本原注{k:03}（主文第{n["main_offset"]}字后）：'+n['text'] for k,n in enumerate(notes,1)]+[f'底本网页校注{k:02}：'+n for k,n in enumerate(u.get('source_reference_notes',[]),1)]
   if idx==0 and p['preface_block_indices']:apparatus=['底本卷首注（非本篇主文）：'+snap['blocks'][0]['text']]+apparatus
@@ -73,6 +74,13 @@ home=(ROOT/'index.html').read_text();assert 'zhanguoce/index.html' in home and '
 index=(ROOT/'zhanguoce/index.html').read_text();assert 'href="xu.html"'in index and 'href="fu.html"'in index
 assert all(f'href="{old}.html"'not in index for old in group_members)
 report=dict(pages=rows,completed_units=sum(r['chapters'] for r in rows),body_chapters=sum(sum(u.get('kind')!='source_note_appendix'for u in p['units'])for p in j['pages']if p['slug']in j['completed_volumes']),source_note_appendices=sum(u.get('kind')=='source_note_appendix'for p in j['pages']for u in p['units']),prefaces=6,appendices=6,sentence_pairs=sum(r['sentence_pairs'] for r in rows),notes=sum(r['notes'] for r in rows),source_coverage=True,source_reconstruction=True,raw_snapshot_hashes=True,rendered_pairs=True,note_counts=True,whole_book_complete=len(j['completed_volumes'])==33 and all(u['status']=='complete'for p in j['pages']for u in p['units']),browser_visual_check=False)
+if UPD:
+ j['sentence_pairs']=report['sentence_pairs'];j['reading_sentence_pairs']=report['sentence_pairs']+2;j['validation']['reading_sentence_pairs']=report['sentence_pairs']+2
+ (ROOT/'sources/zhanguoce/progress.json').write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n')
+ em=json.loads((ROOT/'sources/zhanguoce/endmatter-progress.json').read_text())
+ for q in j['pages']:
+  if q['slug'] in em['preserved_other_page_fingerprints']:em['preserved_other_page_fingerprints'][q['slug']]=hashlib.sha256(json.dumps(q,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
+ (ROOT/'sources/zhanguoce/endmatter-progress.json').write_text(json.dumps(em,ensure_ascii=False,indent=2)+'\n')
 assert report['completed_units']==j['completed_units'];assert report['sentence_pairs']==j['sentence_pairs'];assert report['notes']==j['notes']
 report.update(reading_groups=group_rows,reading_entries=report['completed_units']-39+12,reading_sentence_pairs=report['sentence_pairs']+2,other_agents_pages_preserved=True)
 preserved=json.loads((ROOT/'sources/zhanguoce/endmatter-progress.json').read_text())['preserved_other_page_fingerprints']

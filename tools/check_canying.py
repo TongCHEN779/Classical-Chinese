@@ -2,6 +2,7 @@
 """Check the complete ctext transcription and its generated reading pages."""
 import hashlib
 import json
+import os
 import sys
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -11,6 +12,9 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 import build
+
+
+UPDATE = os.environ.get('UPDATE_COUNTS')
 
 
 def main():
@@ -54,6 +58,8 @@ def main():
                 note_count += len(chunk["notes"])
                 intro_count += len(section["intro"])
                 assert section["intro"] and chunk["notes"], block["number"]
+        if UPDATE and "annotation_counts" in p:
+            p["annotation_counts"]["sentence_pairs"] = len(expected_pairs)
         path = ROOT / "canying" / (p["slug"] + ".html")
         soup = BeautifulSoup(path.read_text(encoding="utf8"), "html.parser")
         assert [x.get_text() for x in soup.select("p.v")] == [b["reading_text"] for b in expected]
@@ -88,6 +94,9 @@ def main():
         seen.extend(expected)
     assert seen == blocks
     assert annotated == progress.get("annotated_paragraphs", [])
+    if UPDATE:
+        progress["annotation_counts"]["sentence_pairs"] = sentence_count
+        (dest / "progress.json").write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
     assert progress["annotation_counts"] == {"paragraphs": len(annotated), "sentence_pairs": sentence_count,
                                              "notes": note_count, "introductions": intro_count}
     assert len(list((ROOT / "src/canying").glob("*/*.txt"))) == 390

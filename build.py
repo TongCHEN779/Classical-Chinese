@@ -59,7 +59,7 @@ def esc(s):
 
 GLOSS = re.compile(r"(（[^（）]*）|\([^()]*\))")
 
-SENT = re.compile(r"[^。！？；]*[。！？；]+[”’」』）]*|[^。！？；]+$")
+SENT = re.compile(r"[^。！？；]*[。！？；]+(?:[”’」』）]*[。！？；]+)*[”’」』）]*|[^。！？；]+$")
 
 
 def split_sents(s):

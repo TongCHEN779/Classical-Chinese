@@ -263,7 +263,7 @@
             }
           ],
           "title": "明哲辅佐与政令失修",
-          "sentence_pairs": 7,
+          "sentence_pairs": 11,
           "source_note_count": 13,
           "editor_note_count": 7,
           "format_breaks": []
@@ -417,7 +417,7 @@
             }
           ],
           "title": "法制不同而建德一致",
-          "sentence_pairs": 6,
+          "sentence_pairs": 8,
           "source_note_count": 11,
           "editor_note_count": 5,
           "format_breaks": []
@@ -515,7 +515,7 @@
             }
           ],
           "title": "王道与霸道的目标",
-          "sentence_pairs": 1,
+          "sentence_pairs": 2,
           "source_note_count": 1,
           "editor_note_count": 2,
           "format_breaks": []
@@ -623,7 +623,7 @@
             }
           ],
           "title": "刑教各有其用",
-          "sentence_pairs": 19,
+          "sentence_pairs": 23,
           "source_note_count": 9,
           "editor_note_count": 9,
           "format_breaks": []
@@ -671,7 +671,7 @@
             }
           ],
           "title": "弃农逐末与民命所系",
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 3,
           "editor_note_count": 5,
           "format_breaks": []
@@ -721,7 +721,7 @@
             }
           ],
           "title": "厚葬攀比与生养失序",
-          "sentence_pairs": 21,
+          "sentence_pairs": 22,
           "source_note_count": 9,
           "editor_note_count": 7,
           "format_breaks": []
@@ -929,7 +929,7 @@
             }
           ],
           "title": "衣食足而后礼义可行",
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 1,
           "editor_note_count": 5,
           "format_breaks": []
@@ -965,7 +965,7 @@
             }
           ],
           "title": "薄俸逼贪与足禄严罚",
-          "sentence_pairs": 18,
+          "sentence_pairs": 20,
           "source_note_count": 1,
           "editor_note_count": 8,
           "format_breaks": []
@@ -1003,7 +1003,7 @@
             }
           ],
           "title": "频赦诱奸与赦令约束",
-          "sentence_pairs": 24,
+          "sentence_pairs": 25,
           "source_note_count": 6,
           "editor_note_count": 9,
           "format_breaks": []
@@ -1033,7 +1033,7 @@
             }
           ],
           "title": "兼并困民与迁往宽地",
-          "sentence_pairs": 21,
+          "sentence_pairs": 22,
           "source_note_count": 4,
           "editor_note_count": 8,
           "format_breaks": []
@@ -1188,7 +1188,7 @@
             }
           ],
           "title": "素养与临急用人",
-          "sentence_pairs": 1,
+          "sentence_pairs": 2,
           "source_note_count": 1,
           "editor_note_count": 2,
           "format_breaks": []
@@ -1298,7 +1298,7 @@
             }
           ],
           "title": "州郡违诏与诏令失宜",
-          "sentence_pairs": 7,
+          "sentence_pairs": 8,
           "source_note_count": 2,
           "editor_note_count": 5,
           "format_breaks": []
@@ -1352,7 +1352,7 @@
             }
           ],
           "title": "三公辟士的四科",
-          "sentence_pairs": 1,
+          "sentence_pairs": 4,
           "source_note_count": 1,
           "editor_note_count": 4,
           "format_breaks": []
@@ -1550,7 +1550,7 @@
             }
           ],
           "title": "赏罚权不可旁落",
-          "sentence_pairs": 5,
+          "sentence_pairs": 7,
           "source_note_count": 1,
           "editor_note_count": 3,
           "format_breaks": []
@@ -1626,7 +1626,7 @@
             }
           ],
           "title": "轻民之语与辑校疑字",
-          "sentence_pairs": 3,
+          "sentence_pairs": 4,
           "source_note_count": 2,
           "editor_note_count": 3,
           "format_breaks": []
@@ -1696,7 +1696,7 @@
             }
           ],
           "title": "理乱篇·开国与继体",
-          "sentence_pairs": 21,
+          "sentence_pairs": 25,
           "source_note_count": 4,
           "editor_note_count": 9
         },
@@ -1710,7 +1710,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "理乱篇·豪强荣乐与君子困境",
-          "sentence_pairs": 23,
+          "sentence_pairs": 29,
           "source_note_count": 0,
           "editor_note_count": 8
         },
@@ -1743,7 +1743,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "损益篇·封国之变有善",
-          "sentence_pairs": 17,
+          "sentence_pairs": 18,
           "source_note_count": 0,
           "editor_note_count": 5
         },
@@ -1757,7 +1757,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "损益篇·井田之复",
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 0,
           "editor_note_count": 4
         },
@@ -1771,7 +1771,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "损益篇·恢复中刑之议",
-          "sentence_pairs": 12,
+          "sentence_pairs": 13,
           "source_note_count": 0,
           "editor_note_count": 5
         },
@@ -1790,7 +1790,7 @@
           ],
           "format_breaks": [],
           "title": "损益篇·分职与十六政务",
-          "sentence_pairs": 13,
+          "sentence_pairs": 17,
           "source_note_count": 1,
           "editor_note_count": 7
         },
@@ -1804,7 +1804,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "损益篇·人才逐层选用",
-          "sentence_pairs": 9,
+          "sentence_pairs": 11,
           "source_note_count": 0,
           "editor_note_count": 4
         },
@@ -1818,7 +1818,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "损益篇·厚禄与蓄积的答难",
-          "sentence_pairs": 18,
+          "sentence_pairs": 20,
           "source_note_count": 0,
           "editor_note_count": 6
         },
@@ -1837,7 +1837,7 @@
           ],
           "format_breaks": [],
           "title": "损益篇·常税常禄与田额",
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 1,
           "editor_note_count": 5
         },
@@ -1875,7 +1875,7 @@
             }
           ],
           "title": "法诫篇·有责无权的三公",
-          "sentence_pairs": 27,
+          "sentence_pairs": 28,
           "source_note_count": 0,
           "editor_note_count": 9
         },
@@ -1894,7 +1894,7 @@
           ],
           "format_breaks": [],
           "title": "法诫篇·何独疑丞相权重",
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 1,
           "editor_note_count": 3
         },
@@ -1917,7 +1917,7 @@
           ],
           "format_breaks": [],
           "title": "阙题一篇·清旷自娱之愿",
-          "sentence_pairs": 13,
+          "sentence_pairs": 15,
           "source_note_count": 2,
           "editor_note_count": 6
         }
@@ -1950,7 +1950,7 @@
           ],
           "format_breaks": [],
           "title": "德教为本与制度有常",
-          "sentence_pairs": 9,
+          "sentence_pairs": 18,
           "source_note_count": 1,
           "editor_note_count": 4
         },
@@ -1969,7 +1969,7 @@
           ],
           "format_breaks": [],
           "title": "施政简明与治乱异宜",
-          "sentence_pairs": 7,
+          "sentence_pairs": 14,
           "source_note_count": 1,
           "editor_note_count": 5
         },
@@ -1988,7 +1988,7 @@
           ],
           "format_breaks": [],
           "title": "躬行立范与诰刑并用",
-          "sentence_pairs": 6,
+          "sentence_pairs": 11,
           "source_note_count": 1,
           "editor_note_count": 4
         },
@@ -2007,7 +2007,7 @@
           ],
           "format_breaks": [],
           "title": "婚礼戏谑与风俗源头",
-          "sentence_pairs": 5,
+          "sentence_pairs": 7,
           "source_note_count": 1,
           "editor_note_count": 4
         },
@@ -2040,7 +2040,7 @@
           ],
           "format_breaks": [],
           "title": "母妻私亲与君主自持",
-          "sentence_pairs": 7,
+          "sentence_pairs": 10,
           "source_note_count": 1,
           "editor_note_count": 4
         },
@@ -2100,7 +2100,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "禁忌迷信与上行下效",
-          "sentence_pairs": 12,
+          "sentence_pairs": 13,
           "source_note_count": 0,
           "editor_note_count": 5
         },
@@ -2119,7 +2119,7 @@
           ],
           "format_breaks": [],
           "title": "皇族教育与幼殇礼制",
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 1,
           "editor_note_count": 5
         },
@@ -2142,7 +2142,7 @@
           ],
           "format_breaks": [],
           "title": "宫室苑囿与后宫中制",
-          "sentence_pairs": 17,
+          "sentence_pairs": 18,
           "source_note_count": 2,
           "editor_note_count": 6
         },
@@ -2165,7 +2165,7 @@
           ],
           "format_breaks": [],
           "title": "清节不可偏离中道",
-          "sentence_pairs": 9,
+          "sentence_pairs": 13,
           "source_note_count": 2,
           "editor_note_count": 6
         },
@@ -2179,7 +2179,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "尊礼大臣与议政自益",
-          "sentence_pairs": 19,
+          "sentence_pairs": 20,
           "source_note_count": 0,
           "editor_note_count": 5
         },
@@ -2206,7 +2206,7 @@
           ],
           "format_breaks": [],
           "title": "五种拒谏与恩权分离",
-          "sentence_pairs": 6,
+          "sentence_pairs": 14,
           "source_note_count": 3,
           "editor_note_count": 4
         },
@@ -2241,7 +2241,7 @@
           ],
           "format_breaks": [],
           "title": "事亲事君与交友的持守",
-          "sentence_pairs": 9,
+          "sentence_pairs": 13,
           "source_note_count": 5,
           "editor_note_count": 5
         },
@@ -2272,7 +2272,7 @@
           ],
           "format_breaks": [],
           "title": "孝道不等于一味顺从",
-          "sentence_pairs": 4,
+          "sentence_pairs": 14,
           "source_note_count": 4,
           "editor_note_count": 4
         },
@@ -2286,7 +2286,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "成败在人事而非占验",
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 0,
           "editor_note_count": 4
         },
@@ -2305,7 +2305,7 @@
           ],
           "format_breaks": [],
           "title": "天文官与治国根本",
-          "sentence_pairs": 12,
+          "sentence_pairs": 14,
           "source_note_count": 1,
           "editor_note_count": 7
         },
@@ -2324,7 +2324,7 @@
           ],
           "format_breaks": [],
           "title": "反求诸己胜于庆贺祥瑞",
-          "sentence_pairs": 3,
+          "sentence_pairs": 5,
           "source_note_count": 1,
           "editor_note_count": 4
         }
@@ -2357,7 +2357,7 @@
           ],
           "format_breaks": [],
           "title": "典籍与常道重见辑文",
-          "sentence_pairs": 3,
+          "sentence_pairs": 5,
           "source_note_count": 1,
           "editor_note_count": 2
         },
@@ -2471,7 +2471,7 @@
           ],
           "format_breaks": [],
           "title": "爱憎相应",
-          "sentence_pairs": 1,
+          "sentence_pairs": 2,
           "source_note_count": 1,
           "editor_note_count": 1
         },
@@ -2490,7 +2490,7 @@
           ],
           "format_breaks": [],
           "title": "士人的三俗三贱",
-          "sentence_pairs": 2,
+          "sentence_pairs": 6,
           "source_note_count": 1,
           "editor_note_count": 2
         },
@@ -2517,7 +2517,7 @@
           ],
           "format_breaks": [],
           "title": "学者三奸与知行之病",
-          "sentence_pairs": 3,
+          "sentence_pairs": 5,
           "source_note_count": 3,
           "editor_note_count": 3
         },
@@ -2612,7 +2612,7 @@
           ],
           "format_breaks": [],
           "title": "九种性情各有所偏",
-          "sentence_pairs": 1,
+          "sentence_pairs": 9,
           "source_note_count": 1,
           "editor_note_count": 3
         },
@@ -2696,7 +2696,7 @@
           ],
           "format_breaks": [],
           "title": "忠义未至重见辑文",
-          "sentence_pairs": 1,
+          "sentence_pairs": 2,
           "source_note_count": 1,
           "editor_note_count": 1
         },
@@ -2723,7 +2723,7 @@
           ],
           "format_breaks": [],
           "title": "违亲求学与辞章残句",
-          "sentence_pairs": 2,
+          "sentence_pairs": 3,
           "source_note_count": 3,
           "editor_note_count": 2
         },
@@ -2799,7 +2799,7 @@
           ],
           "format_breaks": [],
           "title": "人寿与蚕期的类比",
-          "sentence_pairs": 4,
+          "sentence_pairs": 5,
           "source_note_count": 1,
           "editor_note_count": 2
         },
@@ -2818,7 +2818,7 @@
           ],
           "format_breaks": [],
           "title": "寒温养生及引者附说",
-          "sentence_pairs": 6,
+          "sentence_pairs": 9,
           "source_note_count": 1,
           "editor_note_count": 3
         },
@@ -3206,7 +3206,7 @@
           ],
           "format_breaks": [],
           "title": "垦殖与辨地",
-          "sentence_pairs": 3,
+          "sentence_pairs": 4,
           "source_note_count": 1,
           "editor_note_count": 4
         },
@@ -3225,7 +3225,7 @@
           ],
           "format_breaks": [],
           "title": "督课农作与居处",
-          "sentence_pairs": 1,
+          "sentence_pairs": 2,
           "source_note_count": 1,
           "editor_note_count": 2
         },
@@ -3244,7 +3244,7 @@
           ],
           "format_breaks": [],
           "title": "习俗使人不自知非",
-          "sentence_pairs": 3,
+          "sentence_pairs": 4,
           "source_note_count": 1,
           "editor_note_count": 3
         },
@@ -3301,7 +3301,7 @@
           ],
           "format_breaks": [],
           "title": "才勇也能助恶",
-          "sentence_pairs": 1,
+          "sentence_pairs": 2,
           "source_note_count": 1,
           "editor_note_count": 1
         },
@@ -4352,7 +4352,7 @@
           "source_notes": [],
           "format_breaks": [],
           "title": "铁桥漫稿所记流传与辑佚",
-          "sentence_pairs": 15,
+          "sentence_pairs": 18,
           "source_note_count": 0,
           "editor_note_count": 6
         }

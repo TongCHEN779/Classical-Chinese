@@ -22,7 +22,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan01.json"
           },
           "paragraphs": 10,
-          "sentence_pairs": 37,
+          "sentence_pairs": 48,
           "notes": 21
         },
         {
@@ -35,7 +35,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan01.json"
           },
           "paragraphs": 20,
-          "sentence_pairs": 73,
+          "sentence_pairs": 83,
           "notes": 45
         },
         {
@@ -48,7 +48,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan01.json"
           },
           "paragraphs": 8,
-          "sentence_pairs": 88,
+          "sentence_pairs": 107,
           "notes": 20
         },
         {
@@ -61,7 +61,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan01.json"
           },
           "paragraphs": 7,
-          "sentence_pairs": 59,
+          "sentence_pairs": 84,
           "notes": 21
         }
       ]
@@ -85,7 +85,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan02.json"
           },
           "paragraphs": 7,
-          "sentence_pairs": 66,
+          "sentence_pairs": 94,
           "notes": 19
         },
         {
@@ -98,7 +98,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan02.json"
           },
           "paragraphs": 7,
-          "sentence_pairs": 86,
+          "sentence_pairs": 119,
           "notes": 24
         },
         {
@@ -111,7 +111,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan02.json"
           },
           "paragraphs": 5,
-          "sentence_pairs": 62,
+          "sentence_pairs": 88,
           "notes": 15
         }
       ]
@@ -135,7 +135,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan03.json"
           },
           "paragraphs": 3,
-          "sentence_pairs": 31,
+          "sentence_pairs": 41,
           "notes": 9
         },
         {
@@ -148,7 +148,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan03.json"
           },
           "paragraphs": 4,
-          "sentence_pairs": 39,
+          "sentence_pairs": 49,
           "notes": 13
         },
         {
@@ -161,7 +161,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan03.json"
           },
           "paragraphs": 2,
-          "sentence_pairs": 15,
+          "sentence_pairs": 21,
           "notes": 7
         },
         {
@@ -174,7 +174,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan03.json"
           },
           "paragraphs": 1,
-          "sentence_pairs": 13,
+          "sentence_pairs": 16,
           "notes": 3
         },
         {
@@ -187,7 +187,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan03.json"
           },
           "paragraphs": 2,
-          "sentence_pairs": 22,
+          "sentence_pairs": 28,
           "notes": 9
         },
         {
@@ -200,7 +200,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan03.json"
           },
           "paragraphs": 5,
-          "sentence_pairs": 48,
+          "sentence_pairs": 57,
           "notes": 13
         },
         {
@@ -213,7 +213,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan03.json"
           },
           "paragraphs": 4,
-          "sentence_pairs": 36,
+          "sentence_pairs": 46,
           "notes": 12
         }
       ]
@@ -237,7 +237,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan04.json"
           },
           "paragraphs": 6,
-          "sentence_pairs": 50,
+          "sentence_pairs": 59,
           "notes": 21
         },
         {
@@ -264,7 +264,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan04.json"
           },
           "paragraphs": 5,
-          "sentence_pairs": 71,
+          "sentence_pairs": 77,
           "notes": 22
         },
         {
@@ -277,7 +277,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan04.json"
           },
           "paragraphs": 7,
-          "sentence_pairs": 86,
+          "sentence_pairs": 107,
           "notes": 21
         }
       ]
@@ -301,7 +301,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan05.json"
           },
           "paragraphs": 5,
-          "sentence_pairs": 51,
+          "sentence_pairs": 64,
           "notes": 26
         },
         {
@@ -314,7 +314,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan05.json"
           },
           "paragraphs": 3,
-          "sentence_pairs": 57,
+          "sentence_pairs": 84,
           "notes": 14
         },
         {
@@ -340,7 +340,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan05.json"
           },
           "paragraphs": 3,
-          "sentence_pairs": 26,
+          "sentence_pairs": 31,
           "notes": 7
         },
         {
@@ -353,7 +353,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan05.json"
           },
           "paragraphs": 3,
-          "sentence_pairs": 30,
+          "sentence_pairs": 37,
           "notes": 8
         },
         {
@@ -366,7 +366,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan05.json"
           },
           "paragraphs": 2,
-          "sentence_pairs": 36,
+          "sentence_pairs": 41,
           "notes": 10
         },
         {
@@ -379,7 +379,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan05.json"
           },
           "paragraphs": 3,
-          "sentence_pairs": 41,
+          "sentence_pairs": 51,
           "notes": 10
         },
         {
@@ -392,7 +392,7 @@
             "snapshot": "sources/shangjunshu/wikisource/juan05.json"
           },
           "paragraphs": 5,
-          "sentence_pairs": 49,
+          "sentence_pairs": 56,
           "notes": 21
         }
       ]

@@ -115,7 +115,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 193,
+        "sentence_pairs": 202,
         "notes": 266,
         "introductions": 30
       }
@@ -133,7 +133,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 265,
+        "sentence_pairs": 275,
         "notes": 345,
         "introductions": 30
       }
@@ -151,7 +151,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 81,
+        "sentence_pairs": 82,
         "notes": 172,
         "introductions": 30
       }
@@ -169,7 +169,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 319,
+        "sentence_pairs": 322,
         "notes": 321,
         "introductions": 30
       }
@@ -187,7 +187,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 179,
+        "sentence_pairs": 189,
         "notes": 278,
         "introductions": 30
       }
@@ -205,7 +205,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 193,
+        "sentence_pairs": 194,
         "notes": 225,
         "introductions": 30
       }
@@ -241,7 +241,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 221,
+        "sentence_pairs": 229,
         "notes": 274,
         "introductions": 30
       }
@@ -277,7 +277,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 242,
+        "sentence_pairs": 258,
         "notes": 271,
         "introductions": 30
       }
@@ -295,7 +295,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 165,
+        "sentence_pairs": 166,
         "notes": 259,
         "introductions": 30
       }
@@ -313,7 +313,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 188,
+        "sentence_pairs": 189,
         "notes": 299,
         "introductions": 30
       }
@@ -331,7 +331,7 @@
       "annotation_status": "complete",
       "annotation_counts": {
         "paragraphs": 30,
-        "sentence_pairs": 204,
+        "sentence_pairs": 213,
         "notes": 279,
         "introductions": 30
       }
@@ -731,7 +731,7 @@
   ],
   "annotation_counts": {
     "paragraphs": 390,
-    "sentence_pairs": 2410,
+    "sentence_pairs": 2479,
     "notes": 3285,
     "introductions": 390
   }

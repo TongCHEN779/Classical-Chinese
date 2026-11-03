@@ -15,6 +15,8 @@ OLD = re.compile(r"[^。！？]*[。！？]+[”’」』）]*|[^。！？]+$")
 NEW = re.compile(r"[^。！？；]*[。！？；]+[”’」』）]*|[^。！？；]+$")
 CLOSERS = '”’」』）'
 TOKEN = re.compile(r'⟦(\w+)⟧')
+SEP = re.compile(r'\s*\|\|\s*')
+TAG = 't'    # 待办编号前缀，见 auto 的第二个参数
 
 
 def ss(rx, s):
@@ -42,16 +44,18 @@ def src_files():
     return sorted((ROOT / 'src').rglob('*.txt'))
 
 
-def auto():
+def auto(tag='t'):
     todo, stats = {}, {'lines': 0, 'auto': 0, 'todo': 0, 'skipped_len': 0, 'no_pilcrow': 0}
     n = 0
     for f in src_files():
         lines = f.read_text(encoding='utf8').split('\n')
         changed = False
         for li, l in enumerate(lines):
-            if not l.startswith('原：') or ' || ' not in l:
+            m = SEP.search(l, 2) if l.startswith('原：') else None
+            if not m:
                 continue
-            o, t = l[2:].split(' || ', 1)
+            o, t = l[2:m.start()], l[m.end():]
+            sep = m.group(0)
             old_s = ss(OLD, o)
             if not any('；' in x for x in old_s):
                 continue
@@ -76,22 +80,22 @@ def auto():
                         stats['auto'] += 1
                         continue
                 n += 1
-                tid = f't{n:05d}'
+                tid = f'{tag}{n:05d}'
                 todo[tid] = {'file': str(f.relative_to(ROOT)), 'line': li + 1, 'o_parts': parts, 't': b, 'n': len(parts)}
                 new_segs.append(f'⟦{tid}⟧{b}')
                 stats['todo'] += 1
-            lines[li] = '原：' + o + ' || ' + '¦'.join(new_segs)
+            lines[li] = '原：' + o + sep + '¦'.join(new_segs)
             changed = True
         if changed:
             f.write_text('\n'.join(lines), encoding='utf8')
     out = ROOT / 'todo'
     out.mkdir(exist_ok=True)
-    (out / 'tasks.json').write_text(json.dumps(todo, ensure_ascii=False, indent=1) + '\n', encoding='utf8')
+    (out / f'tasks_{tag}.json').write_text(json.dumps(todo, ensure_ascii=False, indent=1) + '\n', encoding='utf8')
     print(stats)
 
 
-def apply(d):
-    tasks = json.loads((ROOT / 'todo/tasks.json').read_text(encoding='utf8'))
+def apply(d, tasks_file='todo/tasks.json'):
+    tasks = json.loads((ROOT / tasks_file).read_text(encoding='utf8'))
     done = {}
     for p in sorted(Path(d).glob('*.json')):
         for tid, parts in json.loads(p.read_text(encoding='utf8')).items():
@@ -154,4 +158,5 @@ def left():
 
 if __name__ == '__main__':
     m = sys.argv[1] if len(sys.argv) > 1 else ''
-    {'auto': auto, 'left': left, 'apply2': lambda: apply2(sys.argv[2])}.get(m, lambda: apply(sys.argv[2]))()
+    {'auto': lambda: auto(sys.argv[2] if len(sys.argv) > 2 else 't'), 'left': left, 'apply2': lambda: apply2(sys.argv[2]),
+     'apply3': lambda: apply(sys.argv[2], sys.argv[3])}.get(m, lambda: apply(sys.argv[2]))()

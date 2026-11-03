@@ -2,6 +2,7 @@
 """Audit source reconstruction, attribution metadata and rendered sentence pairs."""
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -10,6 +11,9 @@ sys.path[:0] = [str(ROOT), str(ROOT / 'tools')]
 import build
 from zhenglun_changyan_common import load, source_parts, restore, digest
 from check_liaozhai import Reader
+
+
+UPDATE = os.environ.get('UPDATE_COUNTS')
 
 
 def main():
@@ -48,6 +52,8 @@ def main():
             assert chunk['o'] == original, path
             assert restore(restore(chunk['o'], notes), format_breaks) == raw, path
             translations = chunk['t'].split('¦')
+            if UPDATE:
+                unit['sentence_pairs'] = len(translations)
             assert len(translations) == len(build.split_sents(original)) == unit['sentence_pairs'], path
             assert len(build.split_pairs(chunk['o'], chunk['t'])) == len(translations), path
             assert all(t.strip() for t in translations), path
@@ -73,6 +79,8 @@ def main():
             assert completed == len(page['units'])
         rows.append({'page': page['slug'], 'completed_units': completed, 'total_units': len(page['units']),
                      'sentence_pairs': len(expected), 'source_notes': source_count, 'editor_notes': editor_count})
+    if UPDATE:
+        (ROOT / 'sources/zhenglun-changyan/progress.json').write_text(json.dumps(progress, ensure_ascii=False, indent=2) + '\n')
     home = (ROOT / 'index.html').read_text()
     assert 'zhenglun-changyan/index.html' in home and '政论·昌言' in home
     assert 'book-search' in home

@@ -2,6 +2,7 @@
 """Check source fidelity, translation alignment, rendered notes, and progress."""
 import hashlib
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -13,12 +14,15 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from build import parse_poems, split_pairs, split_sents
 
+UPDATE = os.environ.get('UPDATE_COUNTS')
+
 
 def main():
     progress = json.loads((ROOT / 'sources/xiaochuang/progress.json').read_text())
     cached = {d['url']: d for p in (ROOT / 'sources/xiaochuang/wikisource/pages').glob('*.json')
               for d in [json.loads(p.read_text())]}
     translated_total = pair_total = note_total = 0
+    changed = []
     for page in progress['pages']:
         slug = page['slug']
         source = cached[page['source']['url']]
@@ -41,6 +45,9 @@ def main():
             pairs.extend(split_pairs(chunk['o'], chunk['t']))
         notes = [n for c in text_chunks for n in c['notes']]
         assert len(translated) == page.get('translated_paragraphs', 0), slug
+        if UPDATE and page.get('translation_pairs', 0) != len(pairs):
+            page['translation_pairs'] = len(pairs)
+            changed.append(slug)
         assert len(pairs) == page.get('translation_pairs', 0), slug
         assert len(notes) == page.get('editor_notes', 0), slug
         assert all(c['t'] is None for s in sections if s['title'] == '维基文库校勘记' for c in s['chunks']), slug
@@ -73,6 +80,9 @@ def main():
         translated_total += len(translated)
         pair_total += len(pairs)
         note_total += len(notes)
+    if UPDATE and changed:
+        (ROOT / 'sources/xiaochuang/progress.json').write_text(json.dumps(progress, ensure_ascii=False, indent=2) + '\n')
+        print('updated translation_pairs:', changed)
     index = BeautifulSoup((ROOT / 'xiaochuang/index.html').read_text(), 'html.parser')
     assert len(index.select('ul.vols a')) == len(progress['pages'])
     assert f'已配白话与编者注释{translated_total}段' in index.get_text()

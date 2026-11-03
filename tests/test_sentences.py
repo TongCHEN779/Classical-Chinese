@@ -20,10 +20,16 @@ class SentencePairTests(unittest.TestCase):
         self.assertEqual(''.join(o for o, _ in pairs), original)
         self.assertEqual([t for _, t in pairs], translated.split('¦'))
 
-    def test_punctuation_only_fragment_stays_with_previous_sentence(self):
+    def test_terminator_after_closing_bracket_stays_with_previous_sentence(self):
         self.assertEqual(
-            split_pairs('甲。）。乙。', '一。¦）。¦二。'),
+            split_pairs('甲。）。乙。', '一。）。¦二。'),
             [('甲。）。', '一。）。'), ('乙。', '二。')],
+        )
+
+    def test_semicolon_ends_a_hover_sentence(self):
+        self.assertEqual(
+            split_pairs('甲；乙。', '一；¦二。'),
+            [('甲；', '一；'), ('乙。', '二。')],
         )
 
     def test_automatic_continuation_keeps_existing_pairing(self):

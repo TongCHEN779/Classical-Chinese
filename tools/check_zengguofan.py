@@ -2,6 +2,7 @@
 """Check full source coverage, editorial completion, sentence hovers and source provenance."""
 import hashlib
 import json
+import os
 import sys
 from pathlib import Path
 from bs4 import BeautifulSoup
@@ -10,6 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 import build
 from tools.prepare_zengguofan import normalize, sections
+
+
+UPDATE = os.environ.get('UPDATE_COUNTS')
 
 
 def main():
@@ -56,6 +60,8 @@ def main():
                 assert len(pairs) == len(build.split_sents(chunk['o'])) == len(chunk['t'].split('¦')), f
                 assert all(o.strip() and t.strip() for o, t in pairs), f
                 local_pairs.extend(pairs)
+            if UPDATE:
+                state['sentences'] = len(local_pairs)
             assert len(local_pairs) == state['sentences'], f
             sentences += len(local_pairs)
             all_pairs.extend(local_pairs)
@@ -69,6 +75,9 @@ def main():
     assert letters == progress['letters']
     assert letters == annotated == 70
     assert annotated == progress['annotated_letters']
+    if UPDATE:
+        progress['annotated_sentences'] = sentences
+        (base / 'progress.json').write_text(json.dumps(progress, ensure_ascii=False, indent=2) + '\n')
     assert sentences == progress['annotated_sentences']
     assert notes == progress['notes']
     home = BeautifulSoup((ROOT / 'index.html').read_text(), 'html.parser')

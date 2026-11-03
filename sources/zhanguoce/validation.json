@@ -3,13 +3,13 @@
     {
       "page": "xu01",
       "chapters": 5,
-      "sentence_pairs": 55,
+      "sentence_pairs": 68,
       "notes": 44
     },
     {
       "page": "xu02",
       "chapters": 6,
-      "sentence_pairs": 34,
+      "sentence_pairs": 36,
       "notes": 20
     },
     {
@@ -21,13 +21,13 @@
     {
       "page": "xu04",
       "chapters": 4,
-      "sentence_pairs": 29,
+      "sentence_pairs": 32,
       "notes": 13
     },
     {
       "page": "xu05",
       "chapters": 7,
-      "sentence_pairs": 76,
+      "sentence_pairs": 83,
       "notes": 27
     },
     {
@@ -39,235 +39,235 @@
     {
       "page": "dongzhou",
       "chapters": 28,
-      "sentence_pairs": 179,
+      "sentence_pairs": 194,
       "notes": 389
     },
     {
       "page": "xizhou",
       "chapters": 17,
-      "sentence_pairs": 136,
+      "sentence_pairs": 142,
       "notes": 298
     },
     {
       "page": "qin01",
       "chapters": 13,
-      "sentence_pairs": 251,
+      "sentence_pairs": 279,
       "notes": 545
     },
     {
       "page": "qin02",
       "chapters": 16,
-      "sentence_pairs": 214,
+      "sentence_pairs": 222,
       "notes": 337
     },
     {
       "page": "qin03",
       "chapters": 17,
-      "sentence_pairs": 350,
+      "sentence_pairs": 390,
       "notes": 475
     },
     {
       "page": "qin04",
       "chapters": 10,
-      "sentence_pairs": 186,
+      "sentence_pairs": 198,
       "notes": 356
     },
     {
       "page": "qin05",
       "chapters": 8,
-      "sentence_pairs": 220,
+      "sentence_pairs": 237,
       "notes": 295
     },
     {
       "page": "qi01",
       "chapters": 17,
-      "sentence_pairs": 245,
+      "sentence_pairs": 260,
       "notes": 417
     },
     {
       "page": "qi02",
       "chapters": 8,
-      "sentence_pairs": 96,
+      "sentence_pairs": 99,
       "notes": 140
     },
     {
       "page": "qi03",
       "chapters": 12,
-      "sentence_pairs": 192,
+      "sentence_pairs": 213,
       "notes": 277
     },
     {
       "page": "qi04",
       "chapters": 11,
-      "sentence_pairs": 252,
+      "sentence_pairs": 271,
       "notes": 295
     },
     {
       "page": "qi05",
       "chapters": 1,
-      "sentence_pairs": 123,
+      "sentence_pairs": 136,
       "notes": 184
     },
     {
       "page": "qi06",
       "chapters": 10,
-      "sentence_pairs": 202,
+      "sentence_pairs": 218,
       "notes": 265
     },
     {
       "page": "chu01",
       "chapters": 20,
-      "sentence_pairs": 296,
+      "sentence_pairs": 324,
       "notes": 387
     },
     {
       "page": "chu02",
       "chapters": 9,
-      "sentence_pairs": 125,
+      "sentence_pairs": 129,
       "notes": 103
     },
     {
       "page": "chu03",
       "chapters": 10,
-      "sentence_pairs": 130,
+      "sentence_pairs": 132,
       "notes": 121
     },
     {
       "page": "chu04",
       "chapters": 14,
-      "sentence_pairs": 288,
+      "sentence_pairs": 298,
       "notes": 263
     },
     {
       "page": "zhao01",
       "chapters": 17,
-      "sentence_pairs": 328,
+      "sentence_pairs": 340,
       "notes": 524
     },
     {
       "page": "zhao02",
       "chapters": 7,
-      "sentence_pairs": 299,
+      "sentence_pairs": 333,
       "notes": 368
     },
     {
       "page": "zhao03",
       "chapters": 23,
-      "sentence_pairs": 413,
+      "sentence_pairs": 428,
       "notes": 524
     },
     {
       "page": "zhao04",
       "chapters": 19,
-      "sentence_pairs": 322,
+      "sentence_pairs": 339,
       "notes": 507
     },
     {
       "page": "wei01",
       "chapters": 28,
-      "sentence_pairs": 277,
+      "sentence_pairs": 303,
       "notes": 451
     },
     {
       "page": "wei02",
       "chapters": 18,
-      "sentence_pairs": 245,
+      "sentence_pairs": 266,
       "notes": 377
     },
     {
       "page": "wei03",
       "chapters": 11,
-      "sentence_pairs": 229,
+      "sentence_pairs": 241,
       "notes": 271
     },
     {
       "page": "wei04",
       "chapters": 27,
-      "sentence_pairs": 254,
+      "sentence_pairs": 274,
       "notes": 451
     },
     {
       "page": "han01",
       "chapters": 25,
-      "sentence_pairs": 240,
+      "sentence_pairs": 256,
       "notes": 476
     },
     {
       "page": "han02",
       "chapters": 22,
-      "sentence_pairs": 218,
+      "sentence_pairs": 225,
       "notes": 351
     },
     {
       "page": "han03",
       "chapters": 23,
-      "sentence_pairs": 220,
+      "sentence_pairs": 240,
       "notes": 425
     },
     {
       "page": "yan01",
       "chapters": 14,
-      "sentence_pairs": 354,
+      "sentence_pairs": 367,
       "notes": 373
     },
     {
       "page": "yan02",
       "chapters": 13,
-      "sentence_pairs": 266,
+      "sentence_pairs": 293,
       "notes": 422
     },
     {
       "page": "yan03",
       "chapters": 5,
-      "sentence_pairs": 227,
+      "sentence_pairs": 234,
       "notes": 251
     },
     {
       "page": "songwei",
       "chapters": 15,
-      "sentence_pairs": 151,
+      "sentence_pairs": 158,
       "notes": 195
     },
     {
       "page": "zhongshan",
       "chapters": 10,
-      "sentence_pairs": 206,
+      "sentence_pairs": 216,
       "notes": 182
     },
     {
       "page": "fu01",
       "chapters": 1,
-      "sentence_pairs": 14,
+      "sentence_pairs": 16,
       "notes": 7
     },
     {
       "page": "fu02",
       "chapters": 1,
-      "sentence_pairs": 9,
+      "sentence_pairs": 10,
       "notes": 4
     },
     {
       "page": "fu03",
       "chapters": 4,
-      "sentence_pairs": 17,
+      "sentence_pairs": 19,
       "notes": 18
     },
     {
       "page": "fu04",
       "chapters": 2,
-      "sentence_pairs": 31,
+      "sentence_pairs": 34,
       "notes": 17
     },
     {
       "page": "fu05",
       "chapters": 2,
-      "sentence_pairs": 28,
+      "sentence_pairs": 31,
       "notes": 27
     },
     {
       "page": "fu06",
       "chapters": 3,
-      "sentence_pairs": 18,
+      "sentence_pairs": 19,
       "notes": 13
     }
   ],
@@ -276,7 +276,7 @@
   "source_note_appendices": 1,
   "prefaces": 6,
   "appendices": 6,
-  "sentence_pairs": 8078,
+  "sentence_pairs": 8636,
   "notes": 11501,
   "source_coverage": true,
   "source_reconstruction": true,
@@ -289,17 +289,17 @@
     {
       "page": "xu",
       "articles": 6,
-      "sentence_pairs": 228,
+      "sentence_pairs": 253,
       "notes": 120
     },
     {
       "page": "fu",
       "articles": 6,
-      "sentence_pairs": 118,
+      "sentence_pairs": 130,
       "notes": 86
     }
   ],
   "reading_entries": 510,
-  "reading_sentence_pairs": 8080,
+  "reading_sentence_pairs": 8638,
   "other_agents_pages_preserved": true
 }

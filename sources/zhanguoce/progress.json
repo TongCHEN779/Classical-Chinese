@@ -25,7 +25,7 @@
     "source_reconstruction": true,
     "raw_snapshots_verified": true,
     "reading_entries": 510,
-    "reading_sentence_pairs": 8080,
+    "reading_sentence_pairs": 8638,
     "notes": 11501,
     "merged_article_counts": {
       "xu": 6,
@@ -140,7 +140,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 19,
           "source_note_count": 7,
           "editor_note_count": 6
         },
@@ -184,7 +184,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 16,
+          "sentence_pairs": 20,
           "source_note_count": 7,
           "editor_note_count": 5
         },
@@ -283,7 +283,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 1,
           "editor_note_count": 3
         },
@@ -323,7 +323,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 1,
           "editor_note_count": 3
         },
@@ -405,7 +405,7 @@
           "main_sha256": "558add75d9f5deb7633e3a7bc14b6d8ff5960aedfe3ecb5864cf26fe45a2fb40",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 12,
+          "sentence_pairs": 14,
           "source_note_count": 0,
           "editor_note_count": 4
         },
@@ -420,7 +420,7 @@
           "main_sha256": "e08bbaffd6dbe78ece444863dad67c4f748e096fbcc7fd2fe18692da712afa22",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 0,
           "editor_note_count": 4
         },
@@ -488,7 +488,7 @@
           "main_sha256": "815882c55e2887b378c8fdb72132c794d725ebac2c039f1e513b4cd20b4bcdb4",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 12,
+          "sentence_pairs": 13,
           "source_note_count": 0,
           "editor_note_count": 4
         },
@@ -503,7 +503,7 @@
           "main_sha256": "88cb387cb3a3e9d7e36ea6156d6b4b78a4082d0c354b2dbe04ed8e4b14c5582e",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 0,
           "editor_note_count": 5
         },
@@ -533,7 +533,7 @@
           "main_sha256": "86a45e73cc5032d7eb9bfee2ab9a2fe73ef299ea7450f1766b1bc58963354b87",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 13,
+          "sentence_pairs": 14,
           "source_note_count": 0,
           "editor_note_count": 3
         },
@@ -563,7 +563,7 @@
           "main_sha256": "acf0c7ca38317d7312b838a6de535abf777d23f180a6e7f627349a7f63e5cd98",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 19,
+          "sentence_pairs": 23,
           "source_note_count": 0,
           "editor_note_count": 7
         },
@@ -808,7 +808,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 26,
+          "sentence_pairs": 28,
           "source_note_count": 33,
           "editor_note_count": 5
         },
@@ -906,7 +906,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 13,
+          "sentence_pairs": 16,
           "source_note_count": 19,
           "editor_note_count": 4
         },
@@ -1018,7 +1018,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 7,
           "editor_note_count": 4
         },
@@ -1058,7 +1058,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 6,
+          "sentence_pairs": 7,
           "source_note_count": 6,
           "editor_note_count": 3
         },
@@ -1340,7 +1340,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 6,
           "editor_note_count": 2
         },
@@ -1488,7 +1488,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 4,
+          "sentence_pairs": 5,
           "source_note_count": 16,
           "editor_note_count": 3
         },
@@ -1732,7 +1732,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 2,
+          "sentence_pairs": 3,
           "source_note_count": 10,
           "editor_note_count": 2
         },
@@ -1968,7 +1968,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 6,
+          "sentence_pairs": 7,
           "source_note_count": 24,
           "editor_note_count": 3
         },
@@ -2044,7 +2044,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 4,
+          "sentence_pairs": 7,
           "source_note_count": 7,
           "editor_note_count": 2
         },
@@ -2256,7 +2256,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 10,
           "editor_note_count": 3
         },
@@ -2604,7 +2604,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 13,
           "editor_note_count": 3
         },
@@ -2708,7 +2708,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 22,
           "editor_note_count": 3
         },
@@ -2836,7 +2836,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 4,
+          "sentence_pairs": 5,
           "source_note_count": 7,
           "editor_note_count": 2
         },
@@ -2924,7 +2924,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 12,
+          "sentence_pairs": 13,
           "source_note_count": 18,
           "editor_note_count": 3
         },
@@ -3368,7 +3368,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 7,
+          "sentence_pairs": 8,
           "source_note_count": 13,
           "editor_note_count": 3
         },
@@ -3648,7 +3648,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 7,
+          "sentence_pairs": 8,
           "source_note_count": 16,
           "editor_note_count": 3
         }
@@ -4339,7 +4339,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 43,
+          "sentence_pairs": 57,
           "source_note_count": 124,
           "editor_note_count": 8
         },
@@ -5198,7 +5198,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 71,
+          "sentence_pairs": 72,
           "source_note_count": 169,
           "editor_note_count": 9
         },
@@ -5454,7 +5454,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 28,
+          "sentence_pairs": 34,
           "source_note_count": 45,
           "editor_note_count": 4
         },
@@ -5590,7 +5590,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 6,
+          "sentence_pairs": 7,
           "source_note_count": 13,
           "editor_note_count": 2
         },
@@ -5660,7 +5660,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 4,
+          "sentence_pairs": 5,
           "source_note_count": 12,
           "editor_note_count": 2
         },
@@ -5830,7 +5830,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 12,
+          "sentence_pairs": 14,
           "source_note_count": 13,
           "editor_note_count": 2
         },
@@ -5981,7 +5981,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 32,
+          "sentence_pairs": 35,
           "source_note_count": 31,
           "editor_note_count": 3
         }
@@ -6265,7 +6265,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 42,
+          "sentence_pairs": 44,
           "source_note_count": 58,
           "editor_note_count": 4
         },
@@ -6435,7 +6435,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 22,
           "source_note_count": 37,
           "editor_note_count": 4
         },
@@ -6582,7 +6582,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 18,
           "editor_note_count": 3
         },
@@ -7022,7 +7022,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 6,
           "editor_note_count": 2
         },
@@ -7066,7 +7066,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 7,
           "editor_note_count": 2
         },
@@ -7444,7 +7444,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 30,
+          "sentence_pairs": 31,
           "source_note_count": 35,
           "editor_note_count": 5
         },
@@ -7574,7 +7574,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 12,
           "editor_note_count": 2
         },
@@ -7700,7 +7700,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 16,
+          "sentence_pairs": 19,
           "source_note_count": 26,
           "editor_note_count": 4
         },
@@ -7856,7 +7856,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 4,
+          "sentence_pairs": 5,
           "source_note_count": 5,
           "editor_note_count": 1
         },
@@ -7892,7 +7892,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 2,
+          "sentence_pairs": 3,
           "source_note_count": 5,
           "editor_note_count": 1
         },
@@ -8016,7 +8016,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 4,
+          "sentence_pairs": 5,
           "source_note_count": 6,
           "editor_note_count": 2
         },
@@ -8148,7 +8148,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 24,
           "source_note_count": 25,
           "editor_note_count": 4
         },
@@ -8646,7 +8646,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 91,
+          "sentence_pairs": 100,
           "source_note_count": 104,
           "editor_note_count": 10
         },
@@ -8760,7 +8760,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 22,
+          "sentence_pairs": 28,
           "source_note_count": 23,
           "editor_note_count": 4
         },
@@ -8812,7 +8812,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 9,
           "editor_note_count": 2
         },
@@ -8938,7 +8938,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 13,
           "editor_note_count": 3
         },
@@ -9098,7 +9098,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 19,
+          "sentence_pairs": 21,
           "source_note_count": 17,
           "editor_note_count": 4
         },
@@ -9208,7 +9208,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 23,
+          "sentence_pairs": 25,
           "source_note_count": 22,
           "editor_note_count": 4
         },
@@ -9586,7 +9586,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 82,
+          "sentence_pairs": 90,
           "source_note_count": 84,
           "editor_note_count": 8
         }
@@ -9686,7 +9686,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 16,
           "editor_note_count": 2
         },
@@ -9844,7 +9844,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 16,
+          "sentence_pairs": 17,
           "source_note_count": 15,
           "editor_note_count": 2
         },
@@ -10098,7 +10098,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 12,
+          "sentence_pairs": 13,
           "source_note_count": 21,
           "editor_note_count": 2
         },
@@ -10216,7 +10216,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 13,
           "editor_note_count": 2
         },
@@ -10342,7 +10342,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 26,
+          "sentence_pairs": 30,
           "source_note_count": 26,
           "editor_note_count": 4
         },
@@ -10927,7 +10927,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 64,
+          "sentence_pairs": 68,
           "source_note_count": 137,
           "editor_note_count": 10
         },
@@ -11345,7 +11345,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 23,
+          "sentence_pairs": 31,
           "source_note_count": 50,
           "editor_note_count": 4
         },
@@ -11521,7 +11521,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 12,
+          "sentence_pairs": 13,
           "source_note_count": 16,
           "editor_note_count": 3
         },
@@ -11779,7 +11779,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 45,
+          "sentence_pairs": 46,
           "source_note_count": 54,
           "editor_note_count": 6
         },
@@ -11910,7 +11910,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 37,
+          "sentence_pairs": 38,
           "source_note_count": 26,
           "editor_note_count": 4
         },
@@ -12175,7 +12175,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 58,
+          "sentence_pairs": 61,
           "source_note_count": 57,
           "editor_note_count": 6
         },
@@ -12388,7 +12388,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 33,
+          "sentence_pairs": 36,
           "source_note_count": 44,
           "editor_note_count": 6
         }
@@ -13155,7 +13155,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 7,
+          "sentence_pairs": 8,
           "source_note_count": 14,
           "editor_note_count": 2
         },
@@ -13513,7 +13513,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 21,
+          "sentence_pairs": 28,
           "source_note_count": 29,
           "editor_note_count": 5
         },
@@ -13735,7 +13735,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 16,
+          "sentence_pairs": 17,
           "source_note_count": 17,
           "editor_note_count": 3
         },
@@ -13867,7 +13867,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 19,
+          "sentence_pairs": 20,
           "source_note_count": 25,
           "editor_note_count": 4
         },
@@ -14099,7 +14099,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 17,
+          "sentence_pairs": 20,
           "source_note_count": 50,
           "editor_note_count": 4
         },
@@ -14230,7 +14230,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 22,
           "source_note_count": 26,
           "editor_note_count": 5
         }
@@ -14730,7 +14730,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 14,
           "editor_note_count": 3
         },
@@ -14812,7 +14812,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 9,
+          "sentence_pairs": 11,
           "source_note_count": 15,
           "editor_note_count": 2
         },
@@ -15189,7 +15189,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 68,
+          "sentence_pairs": 77,
           "source_note_count": 58,
           "editor_note_count": 5
         },
@@ -15331,7 +15331,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 18,
           "editor_note_count": 2
         },
@@ -15594,7 +15594,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 19,
           "editor_note_count": 4
         },
@@ -15710,7 +15710,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 14,
+          "sentence_pairs": 15,
           "source_note_count": 21,
           "editor_note_count": 3
         },
@@ -15782,7 +15782,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 11,
           "source_note_count": 14,
           "editor_note_count": 3
         },
@@ -15885,7 +15885,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 27,
+          "sentence_pairs": 29,
           "source_note_count": 19,
           "editor_note_count": 4
         },
@@ -15965,7 +15965,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 16,
           "editor_note_count": 3
         },
@@ -16129,7 +16129,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 16,
+          "sentence_pairs": 19,
           "source_note_count": 23,
           "editor_note_count": 4
         }
@@ -16386,7 +16386,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 65,
+          "sentence_pairs": 66,
           "source_note_count": 49,
           "editor_note_count": 6
         },
@@ -16501,7 +16501,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 21,
+          "sentence_pairs": 24,
           "source_note_count": 22,
           "editor_note_count": 3
         },
@@ -16629,7 +16629,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 13,
+          "sentence_pairs": 14,
           "source_note_count": 7,
           "editor_note_count": 3
         },
@@ -16923,7 +16923,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 57,
+          "sentence_pairs": 61,
           "source_note_count": 63,
           "editor_note_count": 7
         },
@@ -17126,7 +17126,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 22,
+          "sentence_pairs": 23,
           "source_note_count": 17,
           "editor_note_count": 4
         },
@@ -17242,7 +17242,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 6,
+          "sentence_pairs": 7,
           "source_note_count": 11,
           "editor_note_count": 3
         },
@@ -17318,7 +17318,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 15,
           "editor_note_count": 3
         },
@@ -17402,7 +17402,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 13,
+          "sentence_pairs": 20,
           "source_note_count": 17,
           "editor_note_count": 4
         }
@@ -18152,7 +18152,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 123,
+          "sentence_pairs": 136,
           "source_note_count": 171,
           "editor_note_count": 13
         }
@@ -18293,7 +18293,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 22,
           "source_note_count": 25,
           "editor_note_count": 5
         },
@@ -18335,7 +18335,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 6,
+          "sentence_pairs": 7,
           "source_note_count": 5,
           "editor_note_count": 2
         },
@@ -18609,7 +18609,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 45,
+          "sentence_pairs": 53,
           "source_note_count": 58,
           "editor_note_count": 7
         },
@@ -18700,7 +18700,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 21,
+          "sentence_pairs": 23,
           "source_note_count": 16,
           "editor_note_count": 4
         },
@@ -18879,7 +18879,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 43,
+          "sentence_pairs": 44,
           "source_note_count": 38,
           "editor_note_count": 6
         },
@@ -19041,7 +19041,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 3,
+          "sentence_pairs": 4,
           "source_note_count": 10,
           "editor_note_count": 2
         },
@@ -19228,7 +19228,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 16,
+          "sentence_pairs": 17,
           "source_note_count": 14,
           "editor_note_count": 5
         },
@@ -19364,7 +19364,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 7,
+          "sentence_pairs": 8,
           "source_note_count": 6,
           "editor_note_count": 2
         },
@@ -19451,7 +19451,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 13,
+          "sentence_pairs": 14,
           "source_note_count": 15,
           "editor_note_count": 4
         },
@@ -19479,7 +19479,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 3,
           "editor_note_count": 3
         },
@@ -19728,7 +19728,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 3,
           "editor_note_count": 2
         },
@@ -19877,7 +19877,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 21,
           "source_note_count": 28,
           "editor_note_count": 4
         },
@@ -20074,7 +20074,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 8,
+          "sentence_pairs": 11,
           "source_note_count": 22,
           "editor_note_count": 3
         },
@@ -20405,7 +20405,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 32,
+          "sentence_pairs": 35,
           "source_note_count": 27,
           "editor_note_count": 4
         },
@@ -20662,7 +20662,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 46,
+          "sentence_pairs": 51,
           "source_note_count": 50,
           "editor_note_count": 7
         },
@@ -20768,7 +20768,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 22,
           "source_note_count": 21,
           "editor_note_count": 4
         },
@@ -21092,7 +21092,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 45,
+          "sentence_pairs": 55,
           "source_note_count": 68,
           "editor_note_count": 8
         }
@@ -21158,7 +21158,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 10,
           "source_note_count": 8,
           "editor_note_count": 2
         },
@@ -21377,7 +21377,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 15,
+          "sentence_pairs": 16,
           "source_note_count": 8,
           "editor_note_count": 3
         },
@@ -21575,7 +21575,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 62,
+          "sentence_pairs": 63,
           "source_note_count": 16,
           "editor_note_count": 5
         },
@@ -21678,7 +21678,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 13,
+          "sentence_pairs": 14,
           "source_note_count": 8,
           "editor_note_count": 3
         },
@@ -21726,7 +21726,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 2,
           "editor_note_count": 1
         },
@@ -22348,7 +22348,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 16,
+          "sentence_pairs": 18,
           "source_note_count": 5,
           "editor_note_count": 3
         },
@@ -22627,7 +22627,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 33,
+          "sentence_pairs": 34,
           "source_note_count": 48,
           "editor_note_count": 6
         },
@@ -22715,7 +22715,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 6,
+          "sentence_pairs": 7,
           "source_note_count": 11,
           "editor_note_count": 2
         },
@@ -22906,7 +22906,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 33,
+          "sentence_pairs": 36,
           "source_note_count": 24,
           "editor_note_count": 6
         },
@@ -22970,7 +22970,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 17,
+          "sentence_pairs": 18,
           "source_note_count": 12,
           "editor_note_count": 3
         },
@@ -23382,7 +23382,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 21,
+          "sentence_pairs": 23,
           "source_note_count": 18,
           "editor_note_count": 5
         }
@@ -23697,7 +23697,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 68,
+          "sentence_pairs": 70,
           "source_note_count": 42,
           "editor_note_count": 24
         },
@@ -23952,7 +23952,7 @@
           "source_reference_notes": [
             "〔校一〕此篇姚本與上篇《張孟談既固趙宗》連篇，鮑本分為兩篇。現據文義，從鮑本。"
           ],
-          "sentence_pairs": 40,
+          "sentence_pairs": 42,
           "source_note_count": 22,
           "editor_note_count": 11
         },
@@ -23980,7 +23980,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 3,
           "editor_note_count": 7
         },
@@ -24415,7 +24415,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 29,
+          "sentence_pairs": 31,
           "source_note_count": 53,
           "editor_note_count": 24
         },
@@ -24625,7 +24625,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 39,
+          "sentence_pairs": 41,
           "source_note_count": 35,
           "editor_note_count": 21
         },
@@ -25129,7 +25129,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 29,
+          "sentence_pairs": 32,
           "source_note_count": 36,
           "editor_note_count": 14
         }
@@ -25387,7 +25387,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 61,
+          "sentence_pairs": 66,
           "source_note_count": 49,
           "editor_note_count": 14
         },
@@ -25659,7 +25659,7 @@
           "source_reference_notes": [
             "〔校一〕此篇鮑本在《秦策》。"
           ],
-          "sentence_pairs": 39,
+          "sentence_pairs": 45,
           "source_note_count": 59,
           "editor_note_count": 11
         },
@@ -25782,7 +25782,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 26,
+          "sentence_pairs": 28,
           "source_note_count": 24,
           "editor_note_count": 11
         },
@@ -26216,7 +26216,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 112,
+          "sentence_pairs": 128,
           "source_note_count": 93,
           "editor_note_count": 20
         },
@@ -26360,7 +26360,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 32,
+          "sentence_pairs": 33,
           "source_note_count": 28,
           "editor_note_count": 8
         },
@@ -26416,7 +26416,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 10,
           "editor_note_count": 5
         },
@@ -26547,7 +26547,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 23,
           "source_note_count": 26,
           "editor_note_count": 10
         }
@@ -26692,7 +26692,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 23,
           "source_note_count": 27,
           "editor_note_count": 10
         },
@@ -27159,7 +27159,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 12,
           "source_note_count": 5,
           "editor_note_count": 6
         },
@@ -27358,7 +27358,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 83,
+          "sentence_pairs": 87,
           "source_note_count": 38,
           "editor_note_count": 20
         },
@@ -27750,7 +27750,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 93,
+          "sentence_pairs": 94,
           "source_note_count": 57,
           "editor_note_count": 31
         },
@@ -27802,7 +27802,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 9,
           "editor_note_count": 8
         },
@@ -28060,7 +28060,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 12,
           "source_note_count": 9,
           "editor_note_count": 6
         },
@@ -28188,7 +28188,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 9,
           "editor_note_count": 7
         },
@@ -28403,7 +28403,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 16,
+          "sentence_pairs": 21,
           "source_note_count": 21,
           "editor_note_count": 7
         },
@@ -28652,7 +28652,7 @@
           "source_reference_notes": [
             "〔校一〕吳氏「正曰」主要說明：陰是宋地，陰即陶。但注文脫漏甚多，難以校清，只能根據現存文字，點其大意，僅供參考。"
           ],
-          "sentence_pairs": 32,
+          "sentence_pairs": 35,
           "source_note_count": 57,
           "editor_note_count": 13
         },
@@ -29057,7 +29057,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 43,
+          "sentence_pairs": 44,
           "source_note_count": 64,
           "editor_note_count": 14
         },
@@ -29209,7 +29209,7 @@
           "source_reference_notes": [
             "〔校一〕此篇鮑本在《魏策》。"
           ],
-          "sentence_pairs": 23,
+          "sentence_pairs": 24,
           "source_note_count": 17,
           "editor_note_count": 8
         },
@@ -29333,7 +29333,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 25,
+          "sentence_pairs": 26,
           "source_note_count": 27,
           "editor_note_count": 11
         },
@@ -29573,7 +29573,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 13,
+          "sentence_pairs": 17,
           "source_note_count": 14,
           "editor_note_count": 7
         },
@@ -29744,7 +29744,7 @@
           "source_reference_notes": [
             "〔校一〕姚本《客見趙王》與《秦攻魏取寧邑》連篇，鮑本另為篇，據文義，從鮑本。"
           ],
-          "sentence_pairs": 25,
+          "sentence_pairs": 27,
           "source_note_count": 18,
           "editor_note_count": 10
         },
@@ -30164,7 +30164,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 15,
+          "sentence_pairs": 17,
           "source_note_count": 8,
           "editor_note_count": 7
         },
@@ -30458,7 +30458,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 17,
+          "sentence_pairs": 19,
           "source_note_count": 21,
           "editor_note_count": 10
         },
@@ -30524,7 +30524,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 16,
+          "sentence_pairs": 17,
           "source_note_count": 11,
           "editor_note_count": 8
         },
@@ -30753,7 +30753,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 23,
+          "sentence_pairs": 29,
           "source_note_count": 40,
           "editor_note_count": 12
         },
@@ -30891,7 +30891,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 28,
+          "sentence_pairs": 38,
           "source_note_count": 24,
           "editor_note_count": 10
         },
@@ -31315,7 +31315,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 14,
+          "sentence_pairs": 15,
           "source_note_count": 9,
           "editor_note_count": 6
         },
@@ -31570,7 +31570,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 3,
+          "sentence_pairs": 4,
           "source_note_count": 5,
           "editor_note_count": 5
         },
@@ -31618,7 +31618,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 11,
           "source_note_count": 8,
           "editor_note_count": 9
         },
@@ -31700,7 +31700,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 2,
+          "sentence_pairs": 3,
           "source_note_count": 3,
           "editor_note_count": 4
         },
@@ -31732,7 +31732,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 6,
+          "sentence_pairs": 7,
           "source_note_count": 4,
           "editor_note_count": 4
         }
@@ -31780,7 +31780,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 13,
+          "sentence_pairs": 14,
           "source_note_count": 4,
           "editor_note_count": 7
         },
@@ -31835,7 +31835,7 @@
           "source_reference_notes": [
             "［校一］曾鞏本，另篇。劉敞本，此篇與下篇《蘇代為田需說魏王》連篇，鮑本亦同。"
           ],
-          "sentence_pairs": 8,
+          "sentence_pairs": 10,
           "source_note_count": 10,
           "editor_note_count": 7
         },
@@ -31963,7 +31963,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 6,
           "editor_note_count": 5
         },
@@ -32349,7 +32349,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 41,
+          "sentence_pairs": 47,
           "source_note_count": 50,
           "editor_note_count": 18
         },
@@ -32469,7 +32469,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 7,
+          "sentence_pairs": 10,
           "source_note_count": 6,
           "editor_note_count": 7
         },
@@ -32552,7 +32552,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 22,
+          "sentence_pairs": 23,
           "source_note_count": 14,
           "editor_note_count": 9
         },
@@ -32822,7 +32822,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 26,
+          "sentence_pairs": 30,
           "source_note_count": 32,
           "editor_note_count": 11
         },
@@ -33032,7 +33032,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 13,
           "source_note_count": 22,
           "editor_note_count": 16
         }
@@ -33358,7 +33358,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 35,
+          "sentence_pairs": 36,
           "source_note_count": 32,
           "editor_note_count": 14
         },
@@ -33450,7 +33450,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 49,
+          "sentence_pairs": 52,
           "source_note_count": 15,
           "editor_note_count": 11
         },
@@ -33537,7 +33537,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 17,
+          "sentence_pairs": 19,
           "source_note_count": 15,
           "editor_note_count": 8
         },
@@ -33594,7 +33594,7 @@
           "source_reference_notes": [
             "〔校一〕此篇鮑本在《齊策》。"
           ],
-          "sentence_pairs": 14,
+          "sentence_pairs": 15,
           "source_note_count": 9,
           "editor_note_count": 7
         },
@@ -33702,7 +33702,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 35,
+          "sentence_pairs": 37,
           "source_note_count": 19,
           "editor_note_count": 10
         },
@@ -33817,7 +33817,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 7,
           "editor_note_count": 7
         },
@@ -34006,7 +34006,7 @@
           "source_reference_notes": [
             "〔校一〕此篇姚本與《秦使趙攻魏》連篇，鮑本另列一篇。據文義，從鮑本。"
           ],
-          "sentence_pairs": 28,
+          "sentence_pairs": 30,
           "source_note_count": 42,
           "editor_note_count": 14
         }
@@ -34104,7 +34104,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 12,
+          "sentence_pairs": 14,
           "source_note_count": 16,
           "editor_note_count": 8
         },
@@ -34196,7 +34196,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 14,
+          "sentence_pairs": 17,
           "source_note_count": 19,
           "editor_note_count": 10
         },
@@ -34478,7 +34478,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 22,
           "source_note_count": 17,
           "editor_note_count": 9
         },
@@ -34530,7 +34530,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 4,
+          "sentence_pairs": 6,
           "source_note_count": 9,
           "editor_note_count": 6
         },
@@ -34562,7 +34562,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 13,
+          "sentence_pairs": 14,
           "source_note_count": 4,
           "editor_note_count": 5
         },
@@ -34630,7 +34630,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 13,
           "editor_note_count": 5
         },
@@ -34757,7 +34757,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 8,
           "editor_note_count": 6
         },
@@ -34837,7 +34837,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 4,
+          "sentence_pairs": 5,
           "source_note_count": 7,
           "editor_note_count": 5
         },
@@ -35152,7 +35152,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 11,
           "source_note_count": 6,
           "editor_note_count": 6
         },
@@ -35382,7 +35382,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 19,
+          "sentence_pairs": 20,
           "source_note_count": 15,
           "editor_note_count": 9
         },
@@ -35504,7 +35504,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 15,
+          "sentence_pairs": 16,
           "source_note_count": 25,
           "editor_note_count": 9
         },
@@ -35592,7 +35592,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 22,
+          "sentence_pairs": 24,
           "source_note_count": 18,
           "editor_note_count": 11
         }
@@ -35850,7 +35850,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 21,
+          "sentence_pairs": 22,
           "source_note_count": 21,
           "editor_note_count": 17
         },
@@ -35964,7 +35964,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 20,
+          "sentence_pairs": 25,
           "source_note_count": 23,
           "editor_note_count": 14
         },
@@ -36188,7 +36188,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 12,
+          "sentence_pairs": 13,
           "source_note_count": 8,
           "editor_note_count": 8
         },
@@ -36252,7 +36252,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 12,
           "editor_note_count": 7
         },
@@ -36575,7 +36575,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 29,
+          "sentence_pairs": 31,
           "source_note_count": 19,
           "editor_note_count": 10
         },
@@ -36611,7 +36611,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 5,
+          "sentence_pairs": 7,
           "source_note_count": 5,
           "editor_note_count": 6
         },
@@ -36753,7 +36753,7 @@
           "source_reference_notes": [
             "〔校一〕鮑本此篇與《秦圍宜陽》連篇。"
           ],
-          "sentence_pairs": 30,
+          "sentence_pairs": 31,
           "source_note_count": 29,
           "editor_note_count": 11
         },
@@ -36875,7 +36875,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 18,
+          "sentence_pairs": 20,
           "source_note_count": 25,
           "editor_note_count": 12
         },
@@ -37121,7 +37121,7 @@
           "source_reference_notes": [
             "〔校一〕此篇鮑本在《魏策》。"
           ],
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 14,
           "editor_note_count": 8
         },
@@ -37280,7 +37280,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 27,
+          "sentence_pairs": 28,
           "source_note_count": 14,
           "editor_note_count": 9
         },
@@ -37424,7 +37424,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 7,
+          "sentence_pairs": 8,
           "source_note_count": 6,
           "editor_note_count": 6
         },
@@ -37710,7 +37710,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 17,
+          "sentence_pairs": 19,
           "source_note_count": 11,
           "editor_note_count": 7
         },
@@ -37766,7 +37766,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 10,
           "editor_note_count": 6
         },
@@ -37830,7 +37830,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 3,
+          "sentence_pairs": 4,
           "source_note_count": 3,
           "editor_note_count": 3
         },
@@ -38153,7 +38153,7 @@
           "source_reference_notes": [
             "［校一］姚本《冷向謂韓咎》《楚令景鯉入韓》和《韓咎立為君而未定》三篇連篇，鮑本分為三篇。據文義，從鮑本。"
           ],
-          "sentence_pairs": 2,
+          "sentence_pairs": 3,
           "source_note_count": 9,
           "editor_note_count": 4
         },
@@ -38578,7 +38578,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 15,
+          "sentence_pairs": 19,
           "source_note_count": 21,
           "editor_note_count": 7
         },
@@ -38626,7 +38626,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 11,
+          "sentence_pairs": 14,
           "source_note_count": 8,
           "editor_note_count": 8
         },
@@ -38702,7 +38702,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 16,
+          "sentence_pairs": 19,
           "source_note_count": 15,
           "editor_note_count": 8
         },
@@ -38944,7 +38944,7 @@
           "source_reference_notes": [
             "［校一］姚本「謂鄭王曰」至「我將為爾求火也」為一篇，從「東孟之會」至「聖人之計也」為另一篇。鮑本將以上兩篇合為一篇。據文義，從鮑本合為一篇。"
           ],
-          "sentence_pairs": 36,
+          "sentence_pairs": 42,
           "source_note_count": 42,
           "editor_note_count": 20
         },
@@ -39120,7 +39120,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 3,
+          "sentence_pairs": 5,
           "source_note_count": 6,
           "editor_note_count": 5
         },
@@ -39375,7 +39375,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 15,
+          "sentence_pairs": 16,
           "source_note_count": 35,
           "editor_note_count": 15
         },
@@ -39891,7 +39891,7 @@
           "source_reference_notes": [
             "［校一］此篇鮑本在《秦策》。"
           ],
-          "sentence_pairs": 6,
+          "sentence_pairs": 7,
           "source_note_count": 13,
           "editor_note_count": 8
         }
@@ -39998,7 +39998,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 19,
+          "sentence_pairs": 20,
           "source_note_count": 17,
           "editor_note_count": 9
         },
@@ -40683,7 +40683,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 40,
+          "sentence_pairs": 45,
           "source_note_count": 32,
           "editor_note_count": 12
         },
@@ -40810,7 +40810,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 34,
+          "sentence_pairs": 35,
           "source_note_count": 20,
           "editor_note_count": 15
         },
@@ -40992,7 +40992,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 32,
+          "sentence_pairs": 33,
           "source_note_count": 18,
           "editor_note_count": 12
         },
@@ -41143,7 +41143,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 45,
+          "sentence_pairs": 48,
           "source_note_count": 31,
           "editor_note_count": 13
         },
@@ -41272,7 +41272,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 51,
+          "sentence_pairs": 52,
           "source_note_count": 23,
           "editor_note_count": 13
         },
@@ -41308,7 +41308,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 5,
           "editor_note_count": 5
         }
@@ -41621,7 +41621,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 45,
+          "sentence_pairs": 47,
           "source_note_count": 60,
           "editor_note_count": 16
         },
@@ -41917,7 +41917,7 @@
           "source_reference_notes": [
             "［校一］姚本《蘇秦為奉陽君說燕於趙以伐齊》與《奉陽君告朱讙與趙足》分列二篇，鮑本合為一篇。據文義，從鮑本。"
           ],
-          "sentence_pairs": 35,
+          "sentence_pairs": 46,
           "source_note_count": 65,
           "editor_note_count": 18
         },
@@ -42157,7 +42157,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 14,
+          "sentence_pairs": 19,
           "source_note_count": 24,
           "editor_note_count": 11
         },
@@ -42233,7 +42233,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 18,
+          "sentence_pairs": 19,
           "source_note_count": 11,
           "editor_note_count": 8
         },
@@ -42583,7 +42583,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 52,
+          "sentence_pairs": 57,
           "source_note_count": 49,
           "editor_note_count": 20
         },
@@ -42699,7 +42699,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 21,
+          "sentence_pairs": 22,
           "source_note_count": 21,
           "editor_note_count": 8
         },
@@ -42781,7 +42781,7 @@
           "source_reference_notes": [
             "［校一］鮑本《客謂燕王》與《燕昭收破燕后即位》合為一篇，姚本分為兩篇。據文義，從姚本。"
           ],
-          "sentence_pairs": 15,
+          "sentence_pairs": 16,
           "source_note_count": 14,
           "editor_note_count": 9
         },
@@ -42865,7 +42865,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 7,
+          "sentence_pairs": 8,
           "source_note_count": 5,
           "editor_note_count": 6
         }
@@ -43126,7 +43126,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 50,
+          "sentence_pairs": 56,
           "source_note_count": 31,
           "editor_note_count": 19
         },
@@ -43716,7 +43716,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 140,
+          "sentence_pairs": 141,
           "source_note_count": 110,
           "editor_note_count": 41
         }
@@ -43770,7 +43770,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 5,
           "editor_note_count": 2
         },
@@ -43873,7 +43873,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 18,
+          "sentence_pairs": 20,
           "source_note_count": 19,
           "editor_note_count": 4
         },
@@ -43945,7 +43945,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 14,
           "editor_note_count": 3
         },
@@ -44040,7 +44040,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 14,
+          "sentence_pairs": 15,
           "source_note_count": 17,
           "editor_note_count": 2
         },
@@ -44548,7 +44548,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 12,
           "editor_note_count": 3
         },
@@ -44588,7 +44588,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 5,
+          "sentence_pairs": 6,
           "source_note_count": 6,
           "editor_note_count": 3
         },
@@ -44886,7 +44886,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 35,
+          "sentence_pairs": 37,
           "source_note_count": 17,
           "editor_note_count": 3
         },
@@ -44976,7 +44976,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 7,
           "editor_note_count": 3
         },
@@ -45067,7 +45067,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 28,
+          "sentence_pairs": 31,
           "source_note_count": 16,
           "editor_note_count": 3
         },
@@ -45111,7 +45111,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 7,
           "editor_note_count": 3
         },
@@ -45178,7 +45178,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 8,
+          "sentence_pairs": 9,
           "source_note_count": 13,
           "editor_note_count": 2
         },
@@ -45462,7 +45462,7 @@
               "text": "\n"
             }
           ],
-          "sentence_pairs": 64,
+          "sentence_pairs": 66,
           "source_note_count": 55,
           "editor_note_count": 8
         }
@@ -45494,7 +45494,7 @@
           "main_sha256": "8d9c06497cb6dc2da37db024047ba7b058cea4880da005fa34b838450caae8fa",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 14,
+          "sentence_pairs": 16,
           "source_note_count": 0,
           "editor_note_count": 7
         }
@@ -45525,7 +45525,7 @@
           "main_sha256": "56c4bbee76ce3c349345323b2f6db268f4fc36700edcd60c432b78e766789ef9",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 9,
+          "sentence_pairs": 10,
           "source_note_count": 0,
           "editor_note_count": 4
         }
@@ -45622,7 +45622,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 6,
+          "sentence_pairs": 8,
           "source_note_count": 1,
           "editor_note_count": 4
         }
@@ -45653,7 +45653,7 @@
           "main_sha256": "bcad84d20012b3f4e8204a93b7fd216e28807ed79a911a4aeae8b240214341ef",
           "source_notes": [],
           "format_breaks": [],
-          "sentence_pairs": 10,
+          "sentence_pairs": 12,
           "source_note_count": 0,
           "editor_note_count": 4
         },
@@ -45693,7 +45693,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 21,
+          "sentence_pairs": 22,
           "source_note_count": 6,
           "editor_note_count": 7
         }
@@ -45793,7 +45793,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 22,
+          "sentence_pairs": 25,
           "source_note_count": 17,
           "editor_note_count": 6
         },
@@ -45853,7 +45853,7 @@
             }
           ],
           "format_breaks": [],
-          "sentence_pairs": 11,
+          "sentence_pairs": 12,
           "source_note_count": 2,
           "editor_note_count": 4
         },
@@ -45897,7 +45897,7 @@
     }
   ],
   "scope_note": "本次宋卫中山25篇与序附合并；其他代理所编赵魏韩燕252篇原稿、逐页进度不改写。全书主文497篇，原始段落核验单元与合并阅读条目分别计数。",
-  "sentence_pairs": 8078,
+  "sentence_pairs": 8636,
   "notes": 11501,
   "completed_volumes": [
     "dongzhou",
@@ -45945,6 +45945,6 @@
   "source_note_appendices": 1,
   "reading_groups": "sources/zhanguoce/reading-groups.json",
   "reading_entries": 510,
-  "reading_sentence_pairs": 8080,
+  "reading_sentence_pairs": 8638,
   "inline_source_heading_pairs": 2
 }

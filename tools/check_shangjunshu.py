@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -19,6 +20,9 @@ EXPECTED = [
     ['境内第十九', '弱民第二十', '御盗第二十一', '外内第二十二', '君臣第二十三', '禁使第二十四', '慎法第二十五', '定分第二十六'],
 ]
 LOST = {'刑约第十六', '御盗第二十一'}
+
+
+UPDATE = os.environ.get('UPDATE_COUNTS')
 
 
 def check():
@@ -67,6 +71,8 @@ def check():
                 p += 1
                 s += count
                 n += len(c['notes'])
+            if UPDATE:
+                e['sentence_pairs'] = s
             assert (p, s, n) == (e['paragraphs'], e['sentence_pairs'], e['notes']), path
             for line in path.read_text().splitlines():
                 if line.startswith('注：'):
@@ -85,6 +91,8 @@ def check():
                                   'paragraphs_including_loss_marker': total_p,
                                   'sentence_pairs_including_loss_marker': total_s,
                                   'notes': total_n})
+    if UPDATE:
+        (ROOT / 'sources/shangjunshu/progress.json').write_text(json.dumps(progress, ensure_ascii=False, indent=2) + '\n')
     assert sum(v['extant_chapters'] for v in report['volumes']) == 24
     report.update(source_coverage_match=True, sentence_pairs_match=True, note_counts_match=True,
                   lost_chapters=sorted(LOST), browser_visual_check=False)
