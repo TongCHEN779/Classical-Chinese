@@ -59,7 +59,7 @@ def esc(s):
 
 GLOSS = re.compile(r"(（[^（）]*）|\([^()]*\))")
 
-SENT = re.compile(r"[^。！？]*[。！？]+[”’」』）]*|[^。！？]+$")
+SENT = re.compile(r"[^。！？；]*[。！？；]+[”’」』）]*|[^。！？；]+$")
 
 
 def split_sents(s):
@@ -114,7 +114,7 @@ def _frag_groups(raw):
 
 
 def split_pairs(o, t):
-    """按句号/叹号/问号把一段原文拆成句，并与译文逐句对应。
+    """按句号/叹号/问号/分号把一段原文拆成句，并与译文逐句对应。
     译文里可用「¦」显式分句；句数对不上时整段不拆；碎句并回上一句。"""
     raw = split_sents(o)
     if len(raw) > 1:
