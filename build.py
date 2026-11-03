@@ -919,10 +919,10 @@ def is_poem(o, prev, prev_poem=False, nxt=""):
     紧接在诗行之后的无引号短段，以及曲牌名（短标题，后面紧跟曲词），视为诗歌（含对联、曲），页面居中。“下回分解”之类的回末套语不算。"""
     segs = o.split("/")
     if len(segs) > 1:
-        return all(len(x) <= 40 or _lyric_like(x) for x in segs)
+        return max(len(x) for x in segs) <= 40
     if len(o) <= 10 and not re.search(r"[，。！？；：“”、]", o) and nxt and "/" not in nxt and _lyric_like(nxt):
         return True    # 曲牌名
-    if prev_poem and _lyric_like(o) and len(prev) <= 10 and not re.search(r"[，。！？；：“”、]", prev):
+    if prev_poem and len(o) <= 200 and not re.search(r"却说|且说|话说|看官|只见|当下", o) and _lyric_like(o) and len(prev) <= 10 and not re.search(r"[，。！？；：“”、]", prev):
         return True    # 曲牌名之后的曲词
     if len(o) >= 60 or "“" in o or "”" in o or "下回" in o or "且听" in o:
         return False
