@@ -514,12 +514,12 @@ def _four_classics_spec(slug):
     progress = json.loads((ROOT / "sources" / slug / "progress.json").read_text(encoding="utf8"))
     return {"title": meta["title"], "author": meta["author"], "unit": meta["unit"],
             "prose": meta["prose"], "no_tip": True, "side_toc": True,
-            "center_poems": slug in ("xiyouji", "shuihuzhuan", "sanguoyanyi"),
+            "center_poems": slug in ("xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan"),
             "count_entries": False,
             **({"count": lambda secs: (sum(1 for s in secs if s["title"].endswith("折")), "折")}
                if slug == "xixiangji" else {"no_count": True}),
             "index_footer": f"正文 {progress['chapter_count']} {meta['unit']}；另收全书题解及所选版本附文。",
-            "reading_hint": "" if slug in ("xiyouji", "shuihuzhuan", "sanguoyanyi") else "原文直读。附基础导读注释，不设白话译文。",
+            "reading_hint": "" if slug in ("xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan") else "原文直读。附基础导读注释，不设白话译文。",
             "intro": "",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"] if p["slug"] != "tijie"],
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
@@ -919,7 +919,7 @@ def is_poem(o, prev, prev_poem=False, nxt=""):
     紧接在诗行之后的无引号短段，以及曲牌名（短标题，后面紧跟曲词），视为诗歌（含对联、曲），页面居中。“下回分解”之类的回末套语不算。"""
     segs = o.split("/")
     if len(segs) > 1:
-        return max(len(x) for x in segs) <= 40
+        return max(len(re.sub(r"\s*[—―]+.*$", "", x)) for x in segs) <= 40
     if len(o) <= 10 and not re.search(r"[，。！？；：“”、]", o) and nxt and "/" not in nxt and _lyric_like(nxt):
         return True    # 曲牌名
     if prev_poem and len(o) <= 200 and not re.search(r"却说|且说|话说|看官|只见|当下", o) and _lyric_like(o) and len(prev) <= 10 and not re.search(r"[，。！？；：“”、]", prev):
