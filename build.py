@@ -448,7 +448,7 @@ def _hongloumeng_spec():
         head = (d / "01.txt").read_text(encoding="utf8").splitlines()[0][2:].strip()
         no, _, name = head.partition(" ")
         pages.append((d.name, f"{no}·{name}"))
-    return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True, "no_tip": True, "side_toc": True, "center_poems": True,
+    return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True, "no_tip": True, "side_toc": True, "center_poems": True, "reading_hint": "",
             "intro": "",
             "pages": pages}
 
@@ -891,12 +891,31 @@ def parse_poems(paths):
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 
 
-def is_poem(o, prev):
-    """红楼梦等：诗词曲联在原文里没有单独标记。以“/”分行的短行段落，或紧接在“念道：”“联道：”等引语之后的无引号短段，视为诗歌，页面居中。"""
+def _verse_like(o):
+    return len(o) >= 8 and "“" not in o and "”" not in o and all(len(x) <= 9 for x in re.split(r"[，。！？；、]", o))
+
+
+def _lyric_like(o):
+    """曲词：分句平均不超过 9 字。"""
+    parts = [x for x in re.split(r"[，。！？；、]", o) if x]
+    return len(o) >= 8 and len(parts) >= 3 and sum(map(len, parts)) / len(parts) <= 9
+
+
+def is_poem(o, prev, prev_poem=False, nxt=""):
+    """红楼梦等：诗词曲联在原文里没有单独标记。以“/”分行的短行段落，紧接在“念道：”“联云：”“正是：”等引语之后的无引号短段，
+    紧接在诗行之后的无引号短段，以及曲牌名（短标题，后面紧跟曲词），视为诗歌（含对联、曲），页面居中。“下回分解”之类的回末套语不算。"""
     segs = o.split("/")
     if len(segs) > 1:
         return max(len(x) for x in segs) <= 40
-    return bool(prev) and len(o) < 60 and "“" not in o and "”" not in o and bool(re.search(r"(诗|词|曰|云|歌|赞|联|道)[：:]$", prev))
+    if len(o) <= 10 and not re.search(r"[，。！？；：“”、]", o) and nxt and "/" not in nxt and _lyric_like(nxt):
+        return True    # 曲牌名
+    if prev_poem and _lyric_like(o) and len(prev) <= 10 and not re.search(r"[，。！？；：“”、]", prev):
+        return True    # 曲牌名之后的曲词
+    if len(o) >= 60 or "“" in o or "”" in o or "下回" in o or "且听" in o:
+        return False
+    if prev and re.search(r"(诗|词|曰|云|歌|赞|联|道|是|如|念|唱)[：:—]+$", prev):
+        return True
+    return prev_poem and bool(re.search(r"[，。！？；]$", o)) and all(len(x) <= 9 for x in re.split(r"[，。！？；]", o))
 
 
 def drama_html(text):
@@ -964,13 +983,15 @@ def build_poetry(bslug, spec):
                 parts.append(
                     f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                     f'<span class="caret">▸</span> 题解</button><div class="notes intro-box" id="n{uid}" hidden>{items}</div>')
-            prev_o = ""
-            for ch in sec["chunks"]:
+            prev_o, prev_poem = "", False
+            chunks_ = sec["chunks"]
+            for ci, ch in enumerate(chunks_):
                 if "tbl" in ch:
                     parts.append(table_html(ch["tbl"]))
                     continue
-                poem = " poem" if spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o) else ""
-                prev_o = ch["o"]
+                is_p = bool(spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
+                poem = " poem" if is_p else ""
+                prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
                     parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}{poem}">{drama_html(ch["o"])}</p>')
                 else:
