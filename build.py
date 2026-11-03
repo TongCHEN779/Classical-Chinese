@@ -737,7 +737,7 @@ POETRY = {
     "qiannulihun": _works_spec("qiannulihun", "倩女离魂", "［元］郑光祖", "折"),
     "qiangtoumashang": _works_spec("qiangtoumashang", "墙头马上", "［元］白朴", "折"),
     "baiyueting": _works_spec("baiyueting", "拜月亭", "［元］关汉卿", "折"),
-    "linlanxiang": _works_spec("linlanxiang", "林兰香", "［清］随缘下士", "回"),
+    "linlanxiang": {**_works_spec("linlanxiang", "林兰香", "［清］随缘下士", "回"), "center_poems": True, "reading_hint": ""},
     "jinghuayuan": _works_spec("jinghuayuan", "镜花缘", "［清］李汝珍", "回"),
     "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
     "yanzi": _works_spec("yanzi", "晏子春秋", "［春秋］晏婴（后人辑录）", "章", gloss=True, groups=[("内篇（卷一至卷六）", 6), ("外篇（卷七、卷八）", 2)],
