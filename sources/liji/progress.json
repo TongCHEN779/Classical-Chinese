@@ -40,6 +40,106 @@
       }
     },
     {
+      "slug": "p04",
+      "title": "檀弓下",
+      "status": "complete",
+      "sections": 23,
+      "pairs": 419,
+      "notes": 114,
+      "selected_blocks": [
+        0,
+        1,
+        2
+      ],
+      "original_sha256": "167f0827dfdb069c02f567ec194e3efaf9bc0b5def172253e06b4621b29a3770",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E6%AA%80%E5%BC%93%E4%B8%8B",
+        "revision": "11117079"
+      }
+    },
+    {
+      "slug": "p05",
+      "title": "王制",
+      "status": "complete",
+      "sections": 17,
+      "pairs": 301,
+      "notes": 83,
+      "original_sha256": "052cf46edd8ed88de5dac1f19dc27e5934233ab25f3cb3140b4d4cf55d12abec",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E7%8E%8B%E5%88%B6",
+        "revision": "11117083"
+      }
+    },
+    {
+      "slug": "p06",
+      "title": "月令",
+      "status": "complete",
+      "sections": 12,
+      "pairs": 382,
+      "notes": 76,
+      "selected_blocks": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        19,
+        21,
+        23,
+        25
+      ],
+      "heading_blocks": [
+        0,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        20,
+        22,
+        24
+      ],
+      "original_sha256": "ea09db8ca601bc1ee7c4d26b946ff0baf7e446e541d52f88891a36b2c7484fef",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E6%9C%88%E4%BB%A4",
+        "revision": "11117084"
+      }
+    },
+    {
+      "slug": "p07",
+      "title": "曾子问",
+      "status": "complete",
+      "sections": 13,
+      "pairs": 272,
+      "notes": 63,
+      "original_sha256": "ff90c12274b58ae413469b00acc2683d7e0d4f3de26d6fc0604444956e7dbaeb",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E6%9B%BE%E5%AD%90%E5%95%8F",
+        "revision": "11117085"
+      }
+    },
+    {
+      "slug": "p08",
+      "title": "文王世子",
+      "status": "complete",
+      "sections": 9,
+      "pairs": 177,
+      "notes": 43,
+      "original_sha256": "931e25a6bd8e80fb0d6d40d5be08c8c3f9e8200f0bb1dfefbdb2b775a2b4ad10",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E6%96%87%E7%8E%8B%E4%B8%96%E5%AD%90",
+        "revision": "11117086"
+      }
+    },
+    {
       "slug": "p26",
       "title": "经解",
       "status": "complete",
@@ -105,19 +205,7 @@
       }
     }
   ],
-  "next": "檀弓下",
+  "next": "礼运",
   "status": "in_progress",
-  "catalog": "catalog.json",
-  "draft": {
-    "slug": "p04",
-    "path": "drafts/p04.txt",
-    "completed_source_blocks": [
-      0
-    ],
-    "pairs": 101,
-    "next_source_block": 1,
-    "next_sentence_offset": 0,
-    "next_text": "君临臣丧，以巫祝桃茢，执戈，恶之也，所以异于生也。",
-    "revision": "11117079"
-  }
+  "catalog": "catalog.json"
 }

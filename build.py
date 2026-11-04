@@ -623,12 +623,24 @@ def _annotated_selection(slug, title, footer):
     catalog = progress.get("catalog")
     order = (json.loads((ROOT / "sources" / slug / catalog).read_text(encoding="utf8"))["pages"]
              if catalog else pages)
+    display = [(p["slug"], p["title"]) for p in order]
+    if slug == "shangshu":
+        witness = json.loads((ROOT / "sources/shangshu/catalog.json").read_text(encoding="utf8"))
+        titles = {p["slug"]: p["title"] for p in pages}
+        display = [(None, "卷首"), ("shuxu", "书序")]
+        group = None
+        for p in witness:
+            if p["group"] != group:
+                group = p["group"]
+                display.append((None, group))
+            display.append((p["slug"], titles.get(p["slug"], p["title"].split("，原文见", 1)[0])))
+        footer = f"传世正文{len(witness)}篇，已完成{len(pages)}篇逐句注译；书序另列。清华简不计入传世篇数。"
     if catalog:
         footer = f"全书{len(order)}篇，已完成{len(pages)}篇逐句注译。"
     return {"title": title, "author": "［西汉］戴圣辑" if slug == "liji" else "［先秦］佚名", "unit": "节", "intro": "",
             "count_entries": True, "strict_pairs": True, "side_toc": True,
             "index_footer": footer,
-            "pages": [(p["slug"], p["title"]) for p in order],
+            "pages": display,
             "page_sources": {p["slug"]: dict(p["source"], label="维基文库",
                             after="原文据所列修订；分节标题、题解、白话与释词为本库整理。") for p in pages}}
 
@@ -804,7 +816,7 @@ BOOK_INTRO = {
     "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
     "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
-    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《谏太宗十思疏》等三十一项。",
+    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《小石潭记》《湖心亭看雪》等三十五项。",
     "guanhanqing": "元代关汉卿所作杂剧合集，收《窦娥冤》《救风尘》《望江亭》《单刀会》《拜月亭》《调风月》等十八种，题材涉及冤狱、婚恋、公案与历史英雄。",
     "zhaoshigu": "元代纪君祥所作杂剧，全称《冤报冤赵氏孤儿》，写程婴、公孙杵臼舍命救护赵氏孤儿、孤儿长大后报仇雪冤的故事。",
     "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",
@@ -854,7 +866,7 @@ assert set(BOOK_INTRO) == set(POETRY) | {b["slug"] for b in BOOKS}, set(BOOK_INT
 for _b in BOOKS:
     _b["intro"] = BOOK_INTRO[_b["slug"]]
 for _k, _v in POETRY.items():
-    _v["intro"] = WIKI_INTRO[_k]["text"] if WIKI_INTRO.get(_k, {}).get("adapted") else BOOK_INTRO[_k]
+    _v["intro"] = WIKI_INTRO[_k]["text"] if WIKI_INTRO.get(_k, {}).get("verbatim") else BOOK_INTRO[_k]
 
 
 TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")]}
@@ -864,9 +876,9 @@ def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
     text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
     out = "".join(f'<p class="intro">{esc(x)}</p>' for x in text.split("\n") if x.strip())
-    if WIKI_INTRO.get(slug, {}).get("adapted"):
+    if WIKI_INTRO.get(slug, {}).get("verbatim"):
         url = esc(WIKI_INTRO[slug]["url"])
-        out += f'<p class="intro">简介据<a href="{url}">维基文库</a>改写。</p>'
+        out += f'<p class="intro">简介原文：<a href="{url}">维基文库及修订历史</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>）。</p>'
     # 全书题解（src/<slug>/tijie）不另立页面，接在简介之后，每段以“主题。”领起
     path = ROOT / "src" / slug / "tijie" / "01.txt"
     if path.exists():

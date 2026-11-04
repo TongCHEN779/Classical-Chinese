@@ -26,7 +26,8 @@ def main():
                 'lanting', 'taohuayuan', 'chibi', 'chushi', 'guoqin',
                 'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu', 'jianshisi',
                 'guotuotuo', 'kongque', 'pipa', 'yanci', 'baochan', 'dongyang',
-                'shizhong', 'liuguo-suzhe', 'liuguo-sushi']
+                'shizhong', 'liuguo-suzhe', 'liuguo-sushi',
+                'loushi', 'ailian', 'xiaoshitan', 'huxinting']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'

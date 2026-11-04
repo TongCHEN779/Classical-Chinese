@@ -21,6 +21,18 @@ def main():
         sources = ROOT / "sources" / book
         progress = read(sources / "progress.json")
         done = [p for p in progress["pages"] if p["status"] == "complete"]
+        index = BeautifulSoup((ROOT / book / "index.html").read_text(), "html.parser")
+        intro = build.WIKI_INTRO[book]
+        snapshot = BeautifulSoup((sources / "wikisource/index.html.snapshot").read_text(), "html.parser")
+        cell = snapshot.find(string=lambda part: part and part.startswith(intro["text"][:10])).parent
+        text_parts = []
+        for part in cell.contents:
+            if part.name == "ul":
+                break
+            text_parts.append(part.get_text() if part.name else str(part))
+        assert "".join(text_parts).strip() == intro["text"]
+        assert index.select_one("p.intro").get_text() == intro["text"]
+        assert index.find("a", href=intro["url"]) and index.find("a", href="https://creativecommons.org/licenses/by-sa/4.0/")
         if book == "liji":
             catalog = read(sources / progress["catalog"])["pages"]
             assert len(catalog) == 49 and catalog[0]["title"] == "曲礼上" and catalog[-1]["title"] == "丧服四制"
@@ -31,7 +43,6 @@ def main():
                 assert hashlib.sha256(witness.encode()).hexdigest() == cached["text_sha256"]
             slugs = [p["slug"] for p in catalog]
             assert [p["slug"] for p in done] == [s for s in slugs if s in {p["slug"] for p in done}]
-            index = BeautifulSoup((ROOT / book / "index.html").read_text(), "html.parser")
             assert len(index.select(".vols > li")) == len(catalog)
             assert [a["href"] for a in index.select(".vols > li.ok a")] == [p["slug"] + ".html" for p in done]
             if "draft" in progress:
@@ -42,10 +53,17 @@ def main():
                 block = source["blocks"][draft["next_source_block"]]["text"]
                 sentences = build.split_sents(block)
                 assert sentences[offset] == draft["next_text"]
-                assert draft["completed_source_blocks"] == list(range(draft["next_source_block"]))
+                headings = draft.get("skipped_heading_blocks", [])
+                assert sorted(draft["completed_source_blocks"] + headings) == list(range(draft["next_source_block"]))
+                assert all(source["blocks"][i]["type"] == "h2" for i in headings)
                 if offset:
                     assert "".join(sentences) == block
                 sections = build.parse_poems([sources / draft["path"]])
+                if headings:
+                    expected_titles = [source["blocks"][i]["text"] for i in headings
+                                       if i + 1 in draft["completed_source_blocks"] or
+                                       (i + 1 == draft["next_source_block"] and offset)]
+                    assert [e["title"] for e in sections] == expected_titles
                 chunks = [c for e in sections for c in e["chunks"]]
                 assert "".join(c["o"] for c in chunks) == "".join(
                     source["blocks"][i]["text"] for i in draft["completed_source_blocks"]) + "".join(sentences[:offset])
@@ -60,6 +78,14 @@ def main():
                 witness = "\n".join(block["text"] for block in cached["blocks"])
                 assert hashlib.sha256(witness.encode()).hexdigest() == cached["text_sha256"]
             assert [p["slug"] for p in done] == [p["slug"] for p in catalog[:len(done)]]
+            assert [h.get_text() for h in index.select("h3.grp")] == ["卷首", "虞书", "夏书", "商书", "周书"]
+            assert len(index.select(".vols > li")) == len(catalog) + 1
+            assert [a["href"] for a in index.select(".vols > li.ok a")] == [p["slug"] + ".html" for p in done]
+            finished_titles = {p["slug"]: p["title"] for p in done}
+            visible_titles = ["书序"] + [finished_titles.get(p["slug"], p["title"].split("，原文见", 1)[0]) for p in catalog]
+            assert [item.find(["a", "span"], recursive=False).contents[0].strip()
+                    for item in index.select(".vols > li")] == visible_titles
+
         for page in done:
             slug = page["slug"]
             source = read(sources / "wikisource" / f"{slug}.json")
@@ -72,6 +98,9 @@ def main():
             assert hashlib.sha256(witness.encode()).hexdigest() == page["original_sha256"]
             entries = build.parse_poems(sorted((ROOT / "src" / book / slug).glob("*.txt")))
             assert len(entries) == page["sections"] and all(e["intro"] for e in entries)
+            if page.get("heading_blocks"):
+                assert [e["title"] for e in entries] == [raw[i] for i in page["heading_blocks"]]
+                assert sorted(page["heading_blocks"] + page["selected_blocks"]) == list(range(len(raw)))
             chunks = [c for e in entries for c in e["chunks"]]
             assert "".join(c["o"] for c in chunks) == witness, slug
             expected = []

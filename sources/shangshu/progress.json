@@ -2,7 +2,7 @@
   "status": "in_progress",
   "scope": "虞书、夏书、商书、周书所列传世58篇；另核书序，不合并清华简",
   "catalog_revision": "11123919",
-  "next": "皋陶谟",
+  "next": "禹贡",
   "pages": [
     {
       "slug": "p01",
@@ -121,6 +121,33 @@
         "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A4%A7%E7%A6%B9%E8%AC%A8",
         "revision": "10612083"
       }
+    },
+    {
+      "slug": "p04",
+      "title": "皋陶谟",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 101,
+      "notes": 26,
+      "original_sha256": "8c8bf9c0259e99918f1f97bd91cf27d8aad7213bbef0e812b1615767439ef1c7",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%9A%90%E9%99%B6%E8%AC%A8",
+        "revision": "10614221"
+      }
+    },
+    {
+      "slug": "p05",
+      "title": "益稷",
+      "status": "complete",
+      "sections": 4,
+      "pairs": 66,
+      "notes": 18,
+      "original_sha256": "3bc1c3f69ac8fb3f6e6eb4a93756bcb1ea7d52840795855be7270a7c0b844f25",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%9B%8A%E7%A8%B7",
+        "revision": "453136"
+      },
+      "normalization": "layout_line_breaks"
     }
   ]
 }
