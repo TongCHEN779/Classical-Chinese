@@ -4,6 +4,7 @@ import html
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).parent
 SRC = ROOT / "src"
@@ -173,6 +174,12 @@ def parse_juan(path):
     for e in entries:
         e["paras"] = [p for p in e["paras"] if p]
     return heading, entries
+
+
+def is_wiki_source(url):
+    host = (urlparse(url).hostname or "").lower().rstrip(".")
+    return any(host == domain or host.endswith("." + domain)
+               for domain in ("wikisource.org", "wikipedia.org"))
 
 
 def page(title, body, r, extra_js=False):
@@ -1068,7 +1075,13 @@ def build_poetry(bslug, spec):
             parts.append(f'<h3>{esc(sec["title"])}</h3>' if multi and sec["title"] != title else "")
             entry_source = spec.get("section_sources", {}).get(slug, {}).get(sec["title"])
             if entry_source:
-                parts.append(f'<p class="hint source-note">原署／材料归属：{esc(entry_source["author"])}；原文据<a href="{esc(entry_source["url"])}">维基文库</a>（修订版本 {esc(entry_source["revision"])}）。</p>')
+                label = esc(entry_source.get("label", "维基文库"))
+                revision = entry_source.get("revision")
+                version = f"（修订版本 {esc(revision)}）" if revision else ""
+                credit = f'；原文据<a href="{esc(entry_source["url"])}">{label}</a>{version}'
+                if is_wiki_source(entry_source["url"]):
+                    credit = f'<span hidden>{credit}</span>'
+                parts.append(f'<p class="hint source-note">原署／材料归属：{esc(entry_source["author"])}{credit}。</p>')
             if sec["intro"]:
                 uid += 1
                 items = "".join(f"<p>{esc(x)}</p>" for x in sec["intro"])
@@ -1148,6 +1161,8 @@ def build_poetry(bslug, spec):
         revision_note = f'（修订版本 {esc(source["revision"])}）' if source and source.get("revision") else ""
         source_note = (f'{esc(source.get("prefix", "原文据"))}<a href="{esc(source["url"])}">{esc(source.get("label", "维基文库"))}</a>整理{revision_note}；{esc(source.get("after", ""))}'
                        if source else ("本页题解为编者自撰；" if slug == "tijie" and bslug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan", "zuozhuan") else "原文依所标明底本整理；"))
+        if source and is_wiki_source(source["url"]):
+            source_note = f'<span hidden>{source_note}</span>'
         if page_options.get("no_tip", spec.get("no_tip")):
             hint = "原文直读，不设悬浮译文。"
             foot_text = "注释为编者自撰，仅供辅助阅读，以原文为准。"
@@ -1179,8 +1194,8 @@ def build_poetry(bslug, spec):
     intro_credit = ""
     if WIKI_INTRO.get(bslug, {}).get("verbatim"):
         url = esc(WIKI_INTRO[bslug]["url"])
-        intro_credit = (f' · <a href="{url}">维基文库</a> · '
-                        '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>')
+        intro_credit = (f'<span hidden> · <a href="{url}">维基文库</a> · '
+                        '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>')
     body = f"""<header class="top">
 {crumbs([("古典文库", "../index.html"), (btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>

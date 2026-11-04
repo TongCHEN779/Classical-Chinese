@@ -6,8 +6,8 @@
     "revision": "7904820"
   },
   "next": {
-    "slug": "juan02",
-    "title": "强弱"
+    "slug": "juan07",
+    "title": "洪范论中〈并图〉"
   },
   "pages": [
     {
@@ -30,27 +30,160 @@
         "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
         "revision": "7904820"
       }
+    },
+    {
+      "slug": "juan02",
+      "title": "卷二·权书上",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 200,
+      "notes": 36,
+      "selected_blocks": [
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        29
+      ],
+      "original_sha256": "64042af8e4c2c8a1c9d03f946842874ceec17e14372d6d407331e34aee666a5f",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan03",
+      "title": "卷三·权书下",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 174,
+      "notes": 32,
+      "selected_blocks": [
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "original_sha256": "6150124801d423fa3802ae117d7d4e66f16b295a75f618f8291a205fdfd8ab47",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan04",
+      "title": "卷四·衡论上",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 225,
+      "notes": 27,
+      "selected_blocks": [
+        43,
+        45,
+        46,
+        47,
+        48,
+        49,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        59,
+        60,
+        62,
+        63,
+        64,
+        65
+      ],
+      "original_sha256": "409cd993a3831c5d81fc0de085680b58faa45caef5552f144c757029666b470f",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan05",
+      "title": "卷五·衡论下",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 237,
+      "notes": 21,
+      "selected_blocks": [
+        68,
+        69,
+        70,
+        71,
+        73,
+        74,
+        75,
+        77,
+        78,
+        79,
+        81,
+        82,
+        83,
+        85,
+        86,
+        87,
+        88
+      ],
+      "original_sha256": "562ffbda6bb02903b277cf127b965f6cc74abe2ea9c11ea494228c6067682015",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan06",
+      "title": "卷六·六经论",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 249,
+      "notes": 30,
+      "selected_blocks": [
+        91,
+        93,
+        95,
+        97,
+        98,
+        100,
+        102,
+        103,
+        104
+      ],
+      "original_sha256": "196276f8578e9a66d2997f4dd84d5b18cd987b70184b9caa54910c4a046b758d",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
     }
   ],
   "draft": {
-    "path": "drafts/juan02.txt",
-    "slug": "juan02",
+    "path": "drafts/juan07.txt",
+    "slug": "juan07",
     "selected_blocks": [
-      10,
-      12,
-      13,
-      14,
-      15,
-      17,
-      18,
-      19
+      107,
+      109
     ],
     "heading_blocks": [
-      9,
-      11,
-      16
+      106,
+      108
     ],
-    "pairs": 85,
-    "next_heading_block": 20
+    "pairs": 50,
+    "next_heading_block": 110
   }
 }
