@@ -24,7 +24,9 @@ def main():
     expected = ['jinshi', 'bao', 'xiangji', 'yueyang', 'tengwang',
                 'bie', 'hen', 'diwang', 'baixing', 'zhishi',
                 'lanting', 'taohuayuan', 'chibi', 'chushi', 'guoqin',
-                'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu', 'jianshisi']
+                'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu', 'jianshisi',
+                'guotuotuo', 'kongque', 'pipa', 'yanci', 'baochan', 'dongyang',
+                'shizhong', 'liuguo-suzhe', 'liuguo-sushi']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'
@@ -51,11 +53,14 @@ def main():
                 if addition not in witness:
                     without_additions = without_additions.replace(addition, '')
             assert without_additions == witness, (slug, 'reused text differs')
-            reference = json.loads((ROOT / 'sources/classic_list' / provenance['wikisource_reference']).read_text())
-            reference_text = ''.join(b['text'] for b in reference['blocks'])
-            for addition in ('时六年九月十五日。', '请洒潘江，各倾陆海云尔。'):
-                if addition in original and addition not in witness:
-                    assert addition in reference_text, (slug, 'addition absent from Wikisource')
+            if 'wikisource_reference' not in provenance:
+                assert original == witness, (slug, 'reused text changed')
+            else:
+                reference = json.loads((ROOT / 'sources/classic_list' / provenance['wikisource_reference']).read_text())
+                reference_text = ''.join(b['text'] for b in reference['blocks'])
+                for addition in ('时六年九月十五日。', '请洒潘江，各倾陆海云尔。'):
+                    if addition in original and addition not in witness:
+                        assert addition in reference_text, (slug, 'addition absent from Wikisource')
         else:
             cached = json.loads((ROOT / 'sources/classic_list' / provenance['cache']).read_text())
             raw = '\n'.join(b['text'] for b in cached['blocks'])
@@ -66,6 +71,9 @@ def main():
                 raw = re.sub('一作“[^”]*”', '', raw)
                 raw = re.sub('〈[^〉]*〉', '', raw)
                 raw = raw.replace('（', '').replace('）', '')
+            if provenance.get('normalization') == 'unpunctuated_couplets':
+                a, b = [cached['blocks'][i]['text'] for i in provenance['selected_blocks']]
+                raw = a + ''.join((s[:5] + '，' + s[5:] if len(s) > 5 else s) + '。' for s in b.splitlines())
             witness = normalize(raw)
             if slug == 'xiangji':
                 witness = witness.replace('一作“逐”', '')

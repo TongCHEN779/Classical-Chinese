@@ -624,5 +624,224 @@
    ],
    "original_sha256": "5057c2e819270266634156bf08818d5adc1105efbc8b1292db7bb26192fb9970"
   }
+ },
+ {
+  "slug": "guotuotuo",
+  "title": "种树郭橐驼传",
+  "author": "［唐］柳宗元",
+  "intro": "这是一篇寓言性质的传记。文章借驼背种树人郭橐驼顺应树木天性的种树经验，类比为官治民之道，批评当时官吏政令烦苛、扰民害民的现象。",
+  "source": {
+   "url": "../guwenguanzhi/juan09.html",
+   "label": "本站《古文观止》",
+   "after": "沿用站内完整注译稿。"
+  },
+  "provenance": {
+   "kind": "existing_edited_source",
+   "path": "src/guwenguanzhi/juan09",
+   "title": "种树郭橐驼传｜柳宗元",
+   "original_sha256": "e611743149576f31b5cd7a97e48786f6873b29ac9bffcd15fd75f73d53e092d8"
+  }
+ },
+ {
+  "slug": "kongque",
+  "title": "孔雀东南飞",
+  "author": "［汉末］佚名",
+  "intro": "原题《古诗为焦仲卿妻作》。诗前小序交代悲剧始末；正文借焦仲卿、刘兰芝与两家亲属的对话，写夫妻誓约怎样被逼迫一步步逼到绝境。原站诗文未点断，这里按联加标点；原文异文见所存底本校记。",
+  "source": {
+   "url": "https://zh.wikisource.org/zh-hans/%E5%8F%A4%E8%A9%A9%E7%82%BA%E7%84%A6%E4%BB%B2%E5%8D%BF%E5%A6%BB%E4%BD%9C",
+   "label": "维基文库",
+   "revision": "2522605",
+   "after": "原文据所列修订，白话、题解和注释自撰。"
+  },
+  "provenance": {
+   "kind": "cached_primary_text",
+   "cache": "wikisource/kongque.json",
+   "selected_blocks": [
+    0,
+    1
+   ],
+   "original_sha256": "7e8db6d68d5c9893a332f465f422cc830e2b05f0a2156354b3be9f46e011a1c6",
+   "normalization": "unpunctuated_couplets"
+  }
+ },
+ {
+  "slug": "pipa",
+  "title": "琵琶行",
+  "author": "［唐］白居易",
+  "intro": "小序交代江口相逢的缘由，诗正文则从送别、闻声、听曲写到琵琶女自叙与诗人自伤。保留维基文库所列小序和全诗四十四联。",
+  "source": {
+   "url": "https://zh.wikisource.org/zh-hans/%E7%90%B5%E7%90%B6%E8%A1%8C",
+   "label": "维基文库",
+   "revision": "9685214",
+   "after": "原文据所列修订，白话、题解和注释自撰。"
+  },
+  "provenance": {
+   "kind": "cached_primary_text",
+   "cache": "wikisource/pipa.json",
+   "selected_blocks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "original_sha256": "fc822b360ffba50a7f0ce055b719f2dc4d92e35ed2a53abb52e66c0d164dd3e4"
+  }
+ },
+ {
+  "slug": "yanci",
+  "title": "严先生祠堂记",
+  "author": "［宋］范仲淹",
+  "intro": "严光（字子陵）是东汉光武帝刘秀的旧友，刘秀称帝后他隐居不仕，耕钓于富春江。范仲淹任睦州知州时为他修建祠堂并作此记，称颂严光的高风亮节与光武帝的礼贤雅量，认为其风范能使贪者廉、懦者立，大有功于名教。",
+  "source": {
+   "url": "../guwenguanzhi/juan09.html",
+   "label": "本站《古文观止》",
+   "after": "沿用站内完整注译稿。"
+  },
+  "provenance": {
+   "kind": "existing_edited_source",
+   "path": "src/guwenguanzhi/juan09",
+   "title": "严先生祠堂记｜范仲淹",
+   "original_sha256": "c8b3e7e36f4fbf26e350bcc8c3aa4d8dc28f4f325445ac8c0634adaf460ac02d"
+  }
+ },
+ {
+  "slug": "baochan",
+  "title": "游褒禅山记",
+  "author": "［宋］王安石",
+  "intro": "至和元年（1054），王安石辞去舒州通判任上的职务后游褒禅山，事后写下此文。文章前半记游，后半借游山未能尽兴生发议论，说明成就非常之事须有志、有力、有物相助，并由仆碑引出治学须深思慎取的道理。",
+  "source": {
+   "url": "../guwenguanzhi/juan11.html",
+   "label": "本站《古文观止》",
+   "after": "沿用站内完整注译稿。"
+  },
+  "provenance": {
+   "kind": "existing_edited_source",
+   "path": "src/guwenguanzhi/juan11",
+   "title": "游褒禅山记｜王安石",
+   "original_sha256": "774744c3ffd73fbe984d874c56e73bb4f08bd048b2af830dd34431dc77256d35"
+  }
+ },
+ {
+  "slug": "dongyang",
+  "title": "送东阳马生序",
+  "author": "［明］宋濂",
+  "intro": "宋濂以自己借书、远行求师的经历勉励同乡后辈马君则；后半转写太学生现有的条件，点明成学还在用心专一。篇末自述赠序的用意，一并收入。",
+  "source": {
+   "url": "https://zh.wikisource.org/zh-hans/%E9%80%81%E6%9D%B1%E9%99%BD%E9%A6%AC%E7%94%9F%E5%BA%8F",
+   "label": "维基文库",
+   "revision": "2391410",
+   "after": "原文据所列修订，白话、题解和注释自撰。"
+  },
+  "provenance": {
+   "kind": "cached_primary_text",
+   "cache": "wikisource/dongyang.json",
+   "selected_blocks": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "original_sha256": "ed9b576f8cfc7350da614e0fdd35b39fe1a96b47f72d38941b50a6de0c8a779b"
+  }
+ },
+ {
+  "slug": "shizhong",
+  "title": "石钟山记",
+  "author": "［宋］苏轼",
+  "intro": "元丰七年（1084）苏轼由黄州移汝州，途中送长子苏迈赴任，夜游石钟山，实地考察山名由来，写下此文。文章由疑而探、由探而悟，阐明凡事不可凭主观臆断、须亲身察验的道理。",
+  "source": {
+   "url": "../guwenguanzhi/juan11.html",
+   "label": "本站《古文观止》",
+   "after": "沿用站内完整注译稿。"
+  },
+  "provenance": {
+   "kind": "existing_edited_source",
+   "path": "src/guwenguanzhi/juan11",
+   "title": "石钟山记｜苏轼",
+   "original_sha256": "dbf088308f67e4383b7eb8d841543a3ec349c8d4803e82c2bf5740cc11ee0462"
+  }
+ },
+ {
+  "slug": "liuguo-suzhe",
+  "title": "六国论",
+  "author": "［宋］苏辙",
+  "intro": "本文探讨战国时齐、楚、燕、韩、赵、魏六国相继被秦所灭的原因，认为六国不懂得韩、魏是天下屏障，不能团结相援，贪图小利、自相残杀，以致灭亡。北宋长期受辽、西夏威胁，文章借古论今，具有现实针对性。",
+  "source": {
+   "url": "../guwenguanzhi/juan11.html",
+   "label": "本站《古文观止》",
+   "after": "沿用站内完整注译稿。"
+  },
+  "provenance": {
+   "kind": "existing_edited_source",
+   "path": "src/guwenguanzhi/juan11",
+   "title": "六国论｜苏辙",
+   "original_sha256": "f85361ea23fc4e8ea601320a28fedce1110c8b93c082c7ba06a47eca03a6a560"
+  }
+ },
+ {
+  "slug": "liuguo-sushi",
+  "title": "六国论",
+  "author": "［宋］苏轼",
+  "intro": "苏轼从战国养士说到秦统一后废客，以士人有无出路来解释六国何以久存、秦何以速亡；篇末追问汉代何以仍容许贵族蓄客。与苏洵论割地、苏辙论韩魏屏障的同题文章可对读。",
+  "source": {
+   "url": "https://zh.wikisource.org/zh-hans/%E5%85%AD%E5%9C%8B%E8%AB%96_%28%E8%98%87%E8%BB%BE%29",
+   "label": "维基文库",
+   "revision": "471239",
+   "after": "原文据所列修订，白话、题解和注释自撰。"
+  },
+  "provenance": {
+   "kind": "cached_primary_text",
+   "cache": "wikisource/liuguo-sushi.json",
+   "selected_blocks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "original_sha256": "f456dfb3c50a721516403e7fd7db3aa51b0b6112e8a93fa03c276e53822ab584"
+  }
  }
 ]

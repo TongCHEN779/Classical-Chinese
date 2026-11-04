@@ -617,6 +617,17 @@ def _zhanguoce_grouped_spec():
     return spec
 
 
+def _annotated_selection(slug, title, footer):
+    progress = json.loads((ROOT / "sources" / slug / "progress.json").read_text(encoding="utf8"))
+    pages = [p for p in progress["pages"] if p["status"] == "complete"]
+    return {"title": title, "author": "［先秦］佚名", "unit": "节", "intro": "",
+            "count_entries": True, "strict_pairs": True, "side_toc": True,
+            "index_footer": footer,
+            "pages": [(p["slug"], p["title"]) for p in pages],
+            "page_sources": {p["slug"]: dict(p["source"], label="维基文库",
+                            after="原文据所列修订；分节标题、题解、白话与释词为本库整理。") for p in pages}}
+
+
 def _classics_spec():
     entries = json.loads((ROOT / "sources" / "classic_list" / "entries.json").read_text(encoding="utf8"))
     return {"title": "经典名篇", "author": "个人选藏", "unit": "篇",
@@ -742,6 +753,10 @@ POETRY = {
     "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
     "yanzi": _works_spec("yanzi", "晏子春秋", "［春秋］晏婴（后人辑录）", "章", gloss=True, groups=[("内篇（卷一至卷六）", 6), ("外篇（卷七、卷八）", 2)],
                          footer="全书八卷（内篇六卷、外篇两卷）已整理：每章配逐句白话、题解与注释。"),
+    "liji": _annotated_selection("liji", "礼记·大学与中庸",
+                                 "仅收《礼记》原篇《大学》《中庸》，两篇均已注译；保留原篇次序。"),
+    "shangshu": _annotated_selection("shangshu", "尚书",
+                                     "整理中。目录底本为维基文库《尚书》；目前仅列已完成注译的篇目。"),
     "zhouyi": _works_spec("zhouyi", "周易", "［先秦］佚名", "节", gloss=True, groups=[("上经（乾至离，三十卦）", 30), ("下经（咸至未济，三十四卦）", 34), ("易传（系辞、说卦、序卦、杂卦）", 5)],
                           footer="六十四卦每卦一页：卦辞、爻辞与彖传、象传（乾坤另有文言传）合在一页，各节逐句白话、题解与注释；易传另列系辞上下、说卦、序卦、杂卦。彖传、象传、文言传已分别入各卦页，故不另设“彖”“大象”“小象”“文言”页。《周易》异说甚多，白话与注释据传统通行解释，分歧处注明“一说”。"),
     "lunyu": _works_spec("lunyu", "论语", "［春秋］孔子弟子及再传弟子", "章", gloss=True,
@@ -785,7 +800,7 @@ BOOK_INTRO = {
     "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
     "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
-    "classic_list": "历代散文、辞赋名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《谏太宗十思疏》等二十二篇。",
+    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《谏太宗十思疏》等三十一项。",
     "guanhanqing": "元代关汉卿所作杂剧合集，收《窦娥冤》《救风尘》《望江亭》《单刀会》《拜月亭》《调风月》等十八种，题材涉及冤狱、婚恋、公案与历史英雄。",
     "zhaoshigu": "元代纪君祥所作杂剧，全称《冤报冤赵氏孤儿》，写程婴、公孙杵臼舍命救护赵氏孤儿、孤儿长大后报仇雪冤的故事。",
     "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",
@@ -794,6 +809,8 @@ BOOK_INTRO = {
     "jinghuayuan": "清代李汝珍所作长篇小说，全一百回：前半写唐敖、多九公、林之洋出海游历，历君子国、大人国、女儿国等诸国；后半写武则天开女科、百位才女应试及宴游、论学、斗艺的故事。",
     "linlanxiang": "清代世情小说，全书六十四回，旧本题“随缘下士编辑”，以明代耿朗一家妻妾的悲欢为中心，细写家庭日常与人情世态。",
     "yanzi": "记春秋时齐国名相晏婴言行的书，旧题晏婴撰，一般认为是后人采集编成。全书八卷，以晏子劝谏景公、折冲外交、处世节俭而著称，保存了不少先秦轶事；八卷现已全部整理。",
+    "liji": "《礼记》选篇：《大学》与《中庸》原篇全文，逐句白话及分行注释。",
+    "shangshu": "依维基文库《尚书》目录整理虞、夏、商、周四书，保留篇目的今古文区别；目前整理中。",
     "zhouyi": "儒家群经之首，包括经（六十四卦的卦辞、爻辞）和传（彖、象、系辞、文言、说卦、序卦、杂卦等“十翼”）两部分，借阴阳爻象推演吉凶变化，是中国古代哲学与占筮之书。",
     "lunyu": "记孔子及其弟子言行的语录体著作，儒家最基本的经典之一，今本二十篇、五百馀章，后与《孟子》《大学》《中庸》合称“四书”。",
     "mengzi": "记战国中期孟子言行的著作，以问答与辩论为主，主张性善、仁政与王道，七篇十四卷，列入“四书”。",
@@ -1123,8 +1140,8 @@ def build_poetry(bslug, spec):
 
 
 # 书名首字的拼音首字母，供首页字母索引使用；新增书目若首字不在表内，build 会报错提醒补充。
-INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜晏周论孟庄道",
-                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJYZLMZD"))
+INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜晏周论孟庄道礼尚",
+                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJYZLMZDLS"))
 
 
 def build_home():

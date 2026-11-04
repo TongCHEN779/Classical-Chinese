@@ -1,0 +1,32 @@
+{
+  "pages": [
+    {
+      "slug": "daxue",
+      "title": "大学",
+      "status": "complete",
+      "sections": 9,
+      "pairs": 142,
+      "notes": 25,
+      "original_sha256": "8611dbbf5d76ae94f74ff758d73f093ec8987e59e9d8fbe8de9f3110844a9b48",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E5%A4%A7%E5%AD%B8",
+        "revision": "12293666"
+      }
+    },
+    {
+      "slug": "zhongyong",
+      "title": "中庸",
+      "status": "complete",
+      "sections": 17,
+      "pairs": 282,
+      "notes": 69,
+      "original_sha256": "6348fbf6fe3c5bd5980eca7ad50141869bca2ed51e160304e850b02bf82140ca",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E4%B8%AD%E5%BA%B8",
+        "revision": "11117440"
+      }
+    }
+  ],
+  "next": null,
+  "status": "complete"
+}
