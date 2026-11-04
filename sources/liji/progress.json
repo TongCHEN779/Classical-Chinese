@@ -616,6 +616,84 @@
       }
     },
     {
+      "slug": "p43",
+      "title": "冠义",
+      "status": "complete",
+      "sections": 3,
+      "pairs": 27,
+      "notes": 10,
+      "original_sha256": "e3e61c41f3cdfafbf50095fdb14c7d6483c398cf9863441028207823e7a98d0f",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E5%86%A0%E7%BE%A9",
+        "revision": "11117455"
+      }
+    },
+    {
+      "slug": "p44",
+      "title": "昏义",
+      "status": "complete",
+      "sections": 3,
+      "pairs": 46,
+      "notes": 17,
+      "original_sha256": "dc49215fe173e722865b26cdafd3b931c8e3bc0a13f390e46865c7f6c14fce3e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E6%98%8F%E7%BE%A9",
+        "revision": "11117457"
+      }
+    },
+    {
+      "slug": "p45",
+      "title": "乡饮酒义",
+      "status": "complete",
+      "sections": 4,
+      "pairs": 79,
+      "notes": 16,
+      "original_sha256": "59f93616e87041e0148bfa030ea3a99e70620a236f646be653f39d1b1fbe5630",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E9%84%89%E9%A3%B2%E9%85%92%E7%BE%A9",
+        "revision": "11117458"
+      }
+    },
+    {
+      "slug": "p46",
+      "title": "射义",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 80,
+      "notes": 13,
+      "original_sha256": "1533518d19b24dbecb475cd48b137490bd5f9dea9e42d594423c587c470767a7",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E5%B0%84%E7%BE%A9",
+        "revision": "11117460"
+      }
+    },
+    {
+      "slug": "p47",
+      "title": "燕义",
+      "status": "complete",
+      "sections": 3,
+      "pairs": 29,
+      "notes": 10,
+      "original_sha256": "3effe7df9928495a3d3cef11beee662fb677973352aa803c27479326ca4950a4",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E7%87%95%E7%BE%A9",
+        "revision": "11117461"
+      }
+    },
+    {
+      "slug": "p48",
+      "title": "聘义",
+      "status": "complete",
+      "sections": 4,
+      "pairs": 62,
+      "notes": 18,
+      "original_sha256": "bb7ac3a8d8a32e2d006e7b5ef28eb9ec9765aa9da5cddea6a427760080bd3a24",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E7%A6%AE%E8%A8%98/%E8%81%98%E7%BE%A9",
+        "revision": "11117462"
+      }
+    },
+    {
       "slug": "p49",
       "title": "丧服四制",
       "status": "complete",
@@ -629,7 +707,7 @@
       }
     }
   ],
-  "next": "冠义",
-  "status": "in_progress",
+  "next": null,
+  "status": "complete",
   "catalog": "catalog.json"
 }
