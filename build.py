@@ -665,11 +665,11 @@ def _classics_spec():
             "count_entries": True, "strict_pairs": True, "side_toc": True, "wide_index": True,
             "intro": "",
             "pages": [(e["slug"], e["title"] + "｜" + e["author"]) for e in entries],
-            "section_sources": {e["slug"]: {sec["title"]: dict(sec["source"], author=e["author"])
+            "section_sources": {e["slug"]: {sec["title"]: dict(sec["source"], author=sec.get("author", e["author"]))
                                            for sec in e["sections"]} for e in entries if "sections" in e},
             "page_redirects": {old: target for e in entries for old, target in e.get("redirects", {}).items()},
-            "page_sources": {e["slug"]: e["source"] for e in entries},
-            "index_footer": f"已整理{len(entries)}项（《过秦论》上中下合列一项，《永州八记》八篇合列一项）。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
+            "page_sources": {e["slug"]: e["source"] for e in entries if "source" in e},
+            "index_footer": f"已整理{len(entries)}项（《过秦论》上中下合列一项，《永州八记》八篇合列一项，三苏《六国论》合列一项）。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
 
 
 def _zengguofan_spec():
@@ -835,7 +835,7 @@ BOOK_INTRO = {
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
     "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
     "jiayou": "《嘉祐集》是北宋苏洵的文集。苏洵字明允，眉州眉山人，与苏轼、苏辙并称三苏。书中既有《权书》《衡论》一类讨论用兵与治国的文章，也有经解、史论、书札、族谱、杂文和诗。所选底本分十六卷，另有补遗，可从中看见苏洵怎样以古事论当世，又怎样把家族与交游写入文章。",
-    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《永州八记》《湖心亭看雪》等三十五项。",
+    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《永州八记》《湖心亭看雪》等三十三项。",
     "guanhanqing": "元代关汉卿所作杂剧合集，收《窦娥冤》《救风尘》《望江亭》《单刀会》《拜月亭》《调风月》等十八种，题材涉及冤狱、婚恋、公案与历史英雄。",
     "zhaoshigu": "元代纪君祥所作杂剧，全称《冤报冤赵氏孤儿》，写程婴、公孙杵臼舍命救护赵氏孤儿、孤儿长大后报仇雪冤的故事。",
     "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",

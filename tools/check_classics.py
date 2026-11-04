@@ -19,6 +19,43 @@ def normalize(text):
         '﹗': '！', '﹖': '？', '﹔': '；', '﹕': '：', '?': '？', '!': '！', ';': '；'}))
 
 
+def check_witness(slug, provenance, original):
+    if provenance['kind'] == 'existing_edited_source':
+        source_sections = build.parse_poems(sorted((ROOT / provenance['path']).glob('*.txt')))
+        source = next(s for s in source_sections if s['title'] == provenance['title'])
+        witness = ''.join(c['o'].replace('/', '') for c in source['chunks'])
+        without_additions = original
+        for addition in ('时六年九月十五日。', '请洒潘江，各倾陆海云尔。'):
+            if addition not in witness:
+                without_additions = without_additions.replace(addition, '')
+        assert without_additions == witness, (slug, 'reused text differs')
+        if 'wikisource_reference' not in provenance:
+            assert original == witness, (slug, 'reused text changed')
+        else:
+            reference = json.loads((ROOT / 'sources/classic_list' / provenance['wikisource_reference']).read_text())
+            reference_text = ''.join(b['text'] for b in reference['blocks'])
+            for addition in ('时六年九月十五日。', '请洒潘江，各倾陆海云尔。'):
+                if addition in original and addition not in witness:
+                    assert addition in reference_text, (slug, 'addition absent from Wikisource')
+    else:
+        cached = json.loads((ROOT / 'sources/classic_list' / provenance['cache']).read_text())
+        raw = '\n'.join(b['text'] for b in cached['blocks'])
+        assert hashlib.sha256(raw.encode()).hexdigest() == cached['text_sha256'], (slug, 'source cache digest')
+        if 'selected_blocks' in provenance:
+            raw = ''.join(cached['blocks'][i]['text'] for i in provenance['selected_blocks'])
+        if provenance.get('normalization') == 'wiki_main_no_apparatus_v1':
+            raw = re.sub('一作“[^”]*”', '', raw)
+            raw = re.sub('〈[^〉]*〉', '', raw)
+            raw = raw.replace('（', '').replace('）', '')
+        if provenance.get('normalization') == 'unpunctuated_couplets':
+            a, b = [cached['blocks'][i]['text'] for i in provenance['selected_blocks']]
+            raw = a + ''.join((s[:5] + '，' + s[5:] if len(s) > 5 else s) + '。' for s in b.splitlines())
+        witness = normalize(raw)
+        if slug == 'xiangji':
+            witness = witness.replace('一作“逐”', '')
+        assert normalize(original) == witness, (slug, 'original differs from complete witness')
+
+
 def main():
     entries = json.loads((ROOT / 'sources/classic_list/entries.json').read_text())
     expected = ['jinshi', 'bao', 'xiangji', 'yueyang', 'tengwang',
@@ -26,7 +63,7 @@ def main():
                 'lanting', 'taohuayuan', 'chibi', 'chushi', 'guoqin',
                 'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu', 'jianshisi',
                 'guotuotuo', 'kongque', 'pipa', 'yanci', 'baochan', 'dongyang',
-                'shizhong', 'liuguo-suzhe', 'liuguo-sushi',
+                'shizhong',
                 'loushi', 'ailian', 'yongzhou', 'huxinting']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
@@ -63,40 +100,15 @@ def main():
                 assert expected_text == ''.join(c['o'] for c in section['chunks'])
                 assert hashlib.sha256(expected_text.encode()).hexdigest() == p['original_sha256']
                 assert any(c['notes'] for c in section['chunks'])
-        elif provenance['kind'] == 'existing_edited_source':
-            source_sections = build.parse_poems(sorted((ROOT / provenance['path']).glob('*.txt')))
-            source = next(s for s in source_sections if s['title'] == provenance['title'])
-            witness = ''.join(c['o'].replace('/', '') for c in source['chunks'])
-            without_additions = original
-            for addition in ('时六年九月十五日。', '请洒潘江，各倾陆海云尔。'):
-                if addition not in witness:
-                    without_additions = without_additions.replace(addition, '')
-            assert without_additions == witness, (slug, 'reused text differs')
-            if 'wikisource_reference' not in provenance:
-                assert original == witness, (slug, 'reused text changed')
-            else:
-                reference = json.loads((ROOT / 'sources/classic_list' / provenance['wikisource_reference']).read_text())
-                reference_text = ''.join(b['text'] for b in reference['blocks'])
-                for addition in ('时六年九月十五日。', '请洒潘江，各倾陆海云尔。'):
-                    if addition in original and addition not in witness:
-                        assert addition in reference_text, (slug, 'addition absent from Wikisource')
+        elif provenance['kind'] == 'collected_works':
+            assert [r['author'] for r in entry['sections']] == ['［宋］苏洵', '［宋］苏辙', '［宋］苏轼']
+            for section, record in zip(sections, entry['sections'], strict=True):
+                assert section['title'] == record['title']
+                text = ''.join(c['o'].replace('/', '') for c in section['chunks'])
+                assert hashlib.sha256(text.encode()).hexdigest() == record['provenance']['original_sha256']
+                check_witness(slug, record['provenance'], text)
         else:
-            cached = json.loads((ROOT / 'sources/classic_list' / provenance['cache']).read_text())
-            raw = '\n'.join(b['text'] for b in cached['blocks'])
-            assert hashlib.sha256(raw.encode()).hexdigest() == cached['text_sha256'], (slug, 'source cache digest')
-            if 'selected_blocks' in provenance:
-                raw = ''.join(cached['blocks'][i]['text'] for i in provenance['selected_blocks'])
-            if provenance.get('normalization') == 'wiki_main_no_apparatus_v1':
-                raw = re.sub('一作“[^”]*”', '', raw)
-                raw = re.sub('〈[^〉]*〉', '', raw)
-                raw = raw.replace('（', '').replace('）', '')
-            if provenance.get('normalization') == 'unpunctuated_couplets':
-                a, b = [cached['blocks'][i]['text'] for i in provenance['selected_blocks']]
-                raw = a + ''.join((s[:5] + '，' + s[5:] if len(s) > 5 else s) + '。' for s in b.splitlines())
-            witness = normalize(raw)
-            if slug == 'xiangji':
-                witness = witness.replace('一作“逐”', '')
-            assert normalize(original) == witness, (slug, 'original differs from complete witness')
+            check_witness(slug, provenance, original)
         pairs = []
         for chunk in chunks:
             assert chunk['t'], (slug, 'missing translation')
@@ -109,7 +121,7 @@ def main():
             pairs.extend((o.replace('/', ''), t) for o, t in rendered_pairs)
         html = BeautifulSoup((ROOT / 'classic_list' / f'{slug}.html').read_text(), 'html.parser')
         if 'sections' in entry:
-            assert [a['href'] for a in html.select('.toc a')] == [f'#e{i}' for i in range(1, 9)]
+            assert [a['href'] for a in html.select('.toc a')] == [f'#e{i}' for i in range(1, len(sections) + 1)]
             assert [a['href'] for a in html.select('section.entry .source-note a')] == [e['source']['url'] for e in entry['sections']]
             for old, target in entry['redirects'].items():
                 redirect = BeautifulSoup((ROOT / 'classic_list' / f'{old}.html').read_text(), 'html.parser')
