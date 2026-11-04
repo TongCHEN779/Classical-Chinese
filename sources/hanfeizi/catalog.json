@@ -1,0 +1,277 @@
+[
+  {
+    "slug": "p01",
+    "title": "初见秦第一",
+    "volume": 1
+  },
+  {
+    "slug": "p02",
+    "title": "存韩第二",
+    "volume": 1
+  },
+  {
+    "slug": "p03",
+    "title": "难言第三",
+    "volume": 1
+  },
+  {
+    "slug": "p04",
+    "title": "爱臣第四",
+    "volume": 1
+  },
+  {
+    "slug": "p05",
+    "title": "主道第五",
+    "volume": 1
+  },
+  {
+    "slug": "p06",
+    "title": "有度第六",
+    "volume": 2
+  },
+  {
+    "slug": "p07",
+    "title": "二柄第七",
+    "volume": 2
+  },
+  {
+    "slug": "p08",
+    "title": "扬权第八",
+    "volume": 2
+  },
+  {
+    "slug": "p09",
+    "title": "八奸第九",
+    "volume": 2
+  },
+  {
+    "slug": "p10",
+    "title": "十过第十",
+    "volume": 3
+  },
+  {
+    "slug": "p11",
+    "title": "孤愤第十一",
+    "volume": 4
+  },
+  {
+    "slug": "p12",
+    "title": "说难第十二",
+    "volume": 4
+  },
+  {
+    "slug": "p13",
+    "title": "和氏第十三",
+    "volume": 4
+  },
+  {
+    "slug": "p14",
+    "title": "奸劫弑臣第十四",
+    "volume": 4
+  },
+  {
+    "slug": "p15",
+    "title": "亡征第十五",
+    "volume": 5
+  },
+  {
+    "slug": "p16",
+    "title": "三守第十六",
+    "volume": 5
+  },
+  {
+    "slug": "p17",
+    "title": "备内第十七",
+    "volume": 5
+  },
+  {
+    "slug": "p18",
+    "title": "南面第十八",
+    "volume": 5
+  },
+  {
+    "slug": "p19",
+    "title": "饰邪第十九",
+    "volume": 5
+  },
+  {
+    "slug": "p20",
+    "title": "解老第二十",
+    "volume": 6
+  },
+  {
+    "slug": "p21",
+    "title": "喻老第二十一",
+    "volume": 7
+  },
+  {
+    "slug": "p22",
+    "title": "说林上第二十二",
+    "volume": 7
+  },
+  {
+    "slug": "p23",
+    "title": "说林下第二十三",
+    "volume": 8
+  },
+  {
+    "slug": "p24",
+    "title": "观行第二十四",
+    "volume": 8
+  },
+  {
+    "slug": "p25",
+    "title": "安危第二十五",
+    "volume": 8
+  },
+  {
+    "slug": "p26",
+    "title": "守道第二十六",
+    "volume": 8
+  },
+  {
+    "slug": "p27",
+    "title": "用人第二十七",
+    "volume": 8
+  },
+  {
+    "slug": "p28",
+    "title": "功名第二十八",
+    "volume": 8
+  },
+  {
+    "slug": "p29",
+    "title": "大体第二十九",
+    "volume": 8
+  },
+  {
+    "slug": "p30",
+    "title": "内储说上七术第三十",
+    "volume": 9
+  },
+  {
+    "slug": "p31",
+    "title": "内储说下六微第三十一",
+    "volume": 10
+  },
+  {
+    "slug": "p32",
+    "title": "外储说左上第三十二",
+    "volume": 11
+  },
+  {
+    "slug": "p33",
+    "title": "外储说左下第三十三",
+    "volume": 12
+  },
+  {
+    "slug": "p34",
+    "title": "外储说右上第三十四",
+    "volume": 13
+  },
+  {
+    "slug": "p35",
+    "title": "外储说右下第三十五",
+    "volume": 14
+  },
+  {
+    "slug": "p36",
+    "title": "难一第三十六",
+    "volume": 15
+  },
+  {
+    "slug": "p37",
+    "title": "难二第三十七",
+    "volume": 15
+  },
+  {
+    "slug": "p38",
+    "title": "难三第三十八",
+    "volume": 16
+  },
+  {
+    "slug": "p39",
+    "title": "难四第三十九",
+    "volume": 16
+  },
+  {
+    "slug": "p40",
+    "title": "难势第四十",
+    "volume": 17
+  },
+  {
+    "slug": "p41",
+    "title": "问辩第四十一",
+    "volume": 17
+  },
+  {
+    "slug": "p42",
+    "title": "问田第四十二",
+    "volume": 17
+  },
+  {
+    "slug": "p43",
+    "title": "定法第四十三",
+    "volume": 17
+  },
+  {
+    "slug": "p44",
+    "title": "说疑第四十四",
+    "volume": 17
+  },
+  {
+    "slug": "p45",
+    "title": "诡使第四十五",
+    "volume": 17
+  },
+  {
+    "slug": "p46",
+    "title": "六反第四十六",
+    "volume": 18
+  },
+  {
+    "slug": "p47",
+    "title": "八说第四十七",
+    "volume": 18
+  },
+  {
+    "slug": "p48",
+    "title": "八经第四十八",
+    "volume": 18
+  },
+  {
+    "slug": "p49",
+    "title": "五蠹第四十九",
+    "volume": 19
+  },
+  {
+    "slug": "p50",
+    "title": "显学第五十",
+    "volume": 19
+  },
+  {
+    "slug": "p51",
+    "title": "忠孝第五十一",
+    "volume": 20
+  },
+  {
+    "slug": "p52",
+    "title": "人主第五十二",
+    "volume": 20
+  },
+  {
+    "slug": "p53",
+    "title": "饬令第五十三",
+    "volume": 20
+  },
+  {
+    "slug": "p54",
+    "title": "心度第五十四",
+    "volume": 20
+  },
+  {
+    "slug": "p55",
+    "title": "制分第五十五",
+    "volume": 20
+  }
+]

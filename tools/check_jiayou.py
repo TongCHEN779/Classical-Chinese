@@ -27,6 +27,16 @@ def main():
     assert catalog["revision"] == witness["revision"] == progress["source"]["revision"]
     pages = catalog["pages"]
     assert [p["slug"] for p in pages] == [f"juan{i:02}" for i in range(1, 17)] + ["buyi"]
+    heading_spans = {}
+    for item in pages:
+        for e in item["entries"]:
+            heading_spans.setdefault(e["block"], []).append((e["offset"], len(e["title"]) + 2))
+    def body_text(i):
+        text = blocks[i]["text"]
+        for start, size in reversed(heading_spans.get(i, [])):
+            text = text[:start] + text[start + size:]
+        return text
+
     covered = []
     for p in pages:
         i = p["heading_block"]
@@ -48,9 +58,12 @@ def main():
     def audit_sections(sections, indices, count):
         chunks = [c for e in sections for c in e["chunks"]]
         assert all(e["intro"] and any(c["notes"] for c in e["chunks"]) for e in sections)
-        assert [c["o"] for c in chunks] == [blocks[i]["text"] for i in indices]
+        assert [line for c in chunks for line in (c["o"].splitlines() if c.get("diagram") else [c["o"]])] == [body_text(i) for i in indices]
         pairs = []
         for c in chunks:
+            if c.get("diagram"):
+                assert c["t"] is None
+                continue
             originals = build.split_sents(c["o"])
             translations = c["t"].split("¦")
             assert len(originals) == len(translations) and all(t.strip() for t in translations)
@@ -62,11 +75,12 @@ def main():
         sections = build.parse_poems(sorted((ROOT / "src/jiayou" / p["slug"]).glob("*.txt")))
         assert [e["title"] for e in sections] == [e["title"] for e in item["entries"]]
         a, z = item["body_range"]
-        assert sorted(p["selected_blocks"] + [e["block"] for e in item["entries"]]) == list(range(a, z))
+        assert p["selected_blocks"] == [i for i in range(a, z) if body_text(i)]
         pairs, chunks = audit_sections(sections, p["selected_blocks"], p["pairs"])
-        assert hashlib.sha256("".join(c["o"] for c in chunks).encode()).hexdigest() == p["original_sha256"]
+        assert hashlib.sha256("".join(c["o"].replace("\n", "") if c.get("diagram") else c["o"] for c in chunks).encode()).hexdigest() == p["original_sha256"]
         html = BeautifulSoup((ROOT / "jiayou" / f"{p['slug']}.html").read_text(), "html.parser")
         assert [(s.get_text(), s["data-t"]) for s in html.select(".s[data-t]")] == pairs
+        assert [x.get_text() for x in html.select(".source-diagram")] == [c["o"] for c in chunks if c.get("diagram")]
         assert sum(len(c["notes"]) for c in chunks) == p["notes"]
         for button in html.select(".note-btn"):
             match = re.search(r"注释（(\d+)）", button.get_text())

@@ -1,0 +1,111 @@
+{
+  "status": "in_progress",
+  "catalog": "catalog.json",
+  "pages": [
+    {
+      "slug": "xu",
+      "title": "荀子序",
+      "status": "complete",
+      "sections": 1,
+      "pairs": 22,
+      "notes": 4,
+      "original_sha256": "bcf32ee3d7adb6ff300ee80604838c9fd0bbb3b4436b98aa9e8acd241417ab41",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/荀子/荀子序",
+        "revision": "363962"
+      }
+    },
+    {
+      "slug": "p01",
+      "title": "劝学",
+      "status": "complete",
+      "sections": 4,
+      "pairs": 115,
+      "notes": 24,
+      "original_sha256": "78c9aa719d7bb343fb0de12535a22a0e1840a5a803540d50d25d5d5e364b67bf",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%8B%B8%E5%AD%B8%E7%AF%87",
+        "revision": "9869421"
+      }
+    },
+    {
+      "slug": "p02",
+      "title": "修身",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 113,
+      "notes": 21,
+      "original_sha256": "f8376792b5441e99e35ecd3d259a55dcfc14b27233b02c20322cb7154edd998c",
+      "source": {
+        "url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90/%E4%BF%AE%E8%BA%AB%E7%AF%87",
+        "revision": "1761058"
+      }
+    },
+    {
+      "slug": "p03",
+      "title": "不苟",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 103,
+      "notes": 13,
+      "original_sha256": "bc503c153ab48d89cfd84e1a84a279fddf09c47dd9d8457dfd9ff1406b957435",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E4%B8%8D%E8%8B%9F%E7%AF%87",
+        "revision": "380303"
+      }
+    },
+    {
+      "slug": "p04",
+      "title": "荣辱",
+      "status": "complete",
+      "sections": 7,
+      "pairs": 133,
+      "notes": 24,
+      "original_sha256": "a2b3354351fa2a8276b20d66a0eed803a79c80012b7a9a68635e7ae976da97a1",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E6%A6%AE%E8%BE%B1%E7%AF%87",
+        "revision": "380304"
+      }
+    },
+    {
+      "slug": "p05",
+      "title": "非相",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 115,
+      "notes": 26,
+      "original_sha256": "24052b2f507d8a83b2f6505179912860b3a6134b62835209bced053f5cad030e",
+      "source": {
+        "url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90/%E9%9D%9E%E7%9B%B8%E7%AF%87",
+        "revision": "382201"
+      }
+    },
+    {
+      "slug": "p06",
+      "title": "非十二子",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 67,
+      "notes": 12,
+      "original_sha256": "0fe1412638bd6ccd0262855b76f922cc9a697df30536cfb3f50c21a2173a8bdb",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E9%9D%9E%E5%8D%81%E4%BA%8C%E5%AD%90%E7%AF%87",
+        "revision": "380277"
+      }
+    },
+    {
+      "slug": "p07",
+      "title": "仲尼",
+      "status": "complete",
+      "sections": 4,
+      "pairs": 70,
+      "notes": 9,
+      "original_sha256": "81d1fcf52287821c7a78cd7bfa9c704546e16442ff137ed534105823737382aa",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/荀子/仲尼篇",
+        "revision": "380278"
+      }
+    }
+  ],
+  "next": "儒效"
+}

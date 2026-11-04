@@ -657,6 +657,23 @@ def _annotated_selection(slug, title, footer):
                             after="原文据所列修订；分节标题、题解、白话与释词为本库整理。") for p in pages}}
 
 
+def _xunzi_spec():
+    spec = _annotated_selection("xunzi", "荀子", "")
+    root = ROOT / "sources/xunzi"
+    catalog = json.loads((root / "catalog.json").read_text(encoding="utf8"))
+    pages, volume = [], None
+    for entry in catalog["pages"]:
+        if entry["volume"] != volume:
+            volume = entry["volume"]
+            pages.append((None, f"第{cn(volume)}卷" if volume else "卷首"))
+        pages.append((entry["slug"], entry["title"]))
+    done = spec["page_sources"]
+    count = sum(slug != "xu" for slug in done)
+    spec.update(author="［战国］荀况", unit="节", pages=pages,
+                index_footer=f"全书二十卷三十二篇，已完成{count}篇逐句注译；《荀子序》另列。")
+    return spec
+
+
 def _jiayou_spec():
     spec = _annotated_selection("jiayou", "嘉祐集", "")
     progress = json.loads((ROOT / "sources/jiayou/progress.json").read_text(encoding="utf8"))
@@ -775,7 +792,62 @@ def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None, 
     return spec
 
 
+def _mozi_spec():
+    witness = json.loads((ROOT / "sources/mozi/wikisource.json").read_text(encoding="utf8"))
+    pages, page_options, page_sources = [], {}, {}
+    missing = set()
+    volume = 0
+    annotated = 0
+    for p in witness["pages"]:
+        slug = p["slug"]
+        if p["volume"] != volume:
+            volume = p["volume"]
+            pages.append((None, "卷" + cn(volume)))
+        pages.append((slug, p["title"]))
+        if p["missing"]:
+            missing.add(slug)
+            continue
+        files = sorted((SRC / "mozi" / slug).glob("*.txt"))
+        originals = [line for f in files for line in f.read_text(encoding="utf8").splitlines()
+                     if line.startswith("原：")]
+        translated = bool(originals) and all("||" in line for line in originals)
+        annotated += translated
+        page_options[slug] = {"no_tip": not translated}
+        if not translated:
+            page_options[slug].update(
+                reading_hint="本篇可读原文，逐句白话与注释待整理。",
+                footer="保留电子底本字形及缺字标记；尚未据影印本逐字校勘。")
+        page_sources[slug] = {"url": witness["url"] + "#" + p["anchor"],
+                              "revision": witness["revision"]}
+    return {"title": "墨子", "author": "［先秦］墨翟及墨家后学",
+            "unit": "篇", "prose": True, "strict_pairs": True, "side_toc": True,
+            "home_intro_own": True, "visible_intro_credit": True, "missing_slugs": missing,
+            "pages": pages, "page_options": page_options, "page_sources": page_sources,
+            "index_footer": f"现存53篇均收原文，已完成逐句注译 {annotated}/53 篇；维基文库目录所标阙篇单列。"}
+
+
+def _hanfeizi_spec():
+    catalog = json.loads((ROOT / "sources/hanfeizi/catalog.json").read_text(encoding="utf8"))
+    pages, sources = [], {}
+    volume = 0
+    for chapter in catalog:
+        if chapter["volume"] != volume:
+            volume = chapter["volume"]
+            pages.append((None, "卷" + cn(volume)))
+        slug = chapter["slug"]
+        pages.append((slug, chapter["title"]))
+        sources[slug] = {"url": "https://www.gutenberg.org/ebooks/24049", "label": "古登堡计划"}
+    return {"title": "韩非子", "author": "［战国］韩非（旧题）",
+            "prose": True, "no_tip": True, "original_only": True, "home_intro_own": True,
+            "no_count": True, "pages": pages, "page_sources": sources,
+            "reading_hint": "原文直读，正文保留底本繁体。",
+            "original_footer": "未据影印本逐字校勘。",
+            "index_footer": "全书二十卷、五十五篇，均可阅读原文。"}
+
+
 POETRY = {
+    "hanfeizi": _hanfeizi_spec(),
+    "mozi": _mozi_spec(),
     "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
     "classic_list": _classics_spec(),
@@ -795,6 +867,7 @@ POETRY = {
     "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
     "yanzi": _works_spec("yanzi", "晏子春秋", "［春秋］晏婴（后人辑录）", "章", gloss=True, groups=[("内篇（卷一至卷六）", 6), ("外篇（卷七、卷八）", 2)],
                          footer="全书八卷（内篇六卷、外篇两卷）已整理：每章配逐句白话、题解与注释。"),
+    "xunzi": _xunzi_spec(),
     "liji": _annotated_selection("liji", "礼记", ""),
     "shangshu": _annotated_selection("shangshu", "尚书",
                                      "整理中。目录底本为维基文库《尚书》；目前仅列已完成注译的篇目。"),
@@ -838,6 +911,8 @@ POETRY = {
 }
 # 首页卡片上的书籍简介：只写书本身。各书目录页的简介若维基文库书名页标题下有介绍，则用 sources/wiki_intros.json 里的原文（已转简体）。
 BOOK_INTRO = {
+    "hanfeizi": "战国法家著作，共五十五篇，以政论、辩难和寓言讨论法令、用人、赏罚与君主权力。",
+    "mozi": "先秦墨家著作，主张兼爱、非攻、尚贤、节用，也讨论名辩、认识与守城技术。",
     "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
     "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
@@ -851,8 +926,9 @@ BOOK_INTRO = {
     "jinghuayuan": "清代李汝珍所作长篇小说，全一百回：前半写唐敖、多九公、林之洋出海游历，历君子国、大人国、女儿国等诸国；后半写武则天开女科、百位才女应试及宴游、论学、斗艺的故事。",
     "linlanxiang": "清代世情小说，全书六十四回，旧本题“随缘下士编辑”，以明代耿朗一家妻妾的悲欢为中心，细写家庭日常与人情世态。",
     "yanzi": "记春秋时齐国名相晏婴言行的书，旧题晏婴撰，一般认为是后人采集编成。全书八卷，以晏子劝谏景公、折冲外交、处世节俭而著称，保存了不少先秦轶事；八卷现已全部整理。",
-    "liji": "《礼记》小戴本四十九篇，提供原文、题解、逐句白话和分行注释。",
-    "shangshu": "依维基文库《尚书》目录整理虞、夏、商、周四书，保留篇目的今古文区别；目前整理中。",
+    "liji": "《礼记》是儒家礼学文献的汇编，记述礼仪制度，也讨论修身、教育与治国。",
+    "xunzi": "《荀子》是战国儒家文集，从劝学、修身讲到礼法、治国与人性，强调人的学习和实践。",
+    "shangshu": "《尚书》汇集虞、夏、商、周的典谟、训诰和誓命，记录早期中国的政治观念与历史传说。",
     "zhouyi": "儒家群经之首，包括经（六十四卦的卦辞、爻辞）和传（彖、象、系辞、文言、说卦、序卦、杂卦等“十翼”）两部分，借阴阳爻象推演吉凶变化，是中国古代哲学与占筮之书。",
     "lunyu": "记孔子及其弟子言行的语录体著作，儒家最基本的经典之一，今本二十篇、五百馀章，后与《孟子》《大学》《中庸》合称“四书”。",
     "mengzi": "记战国中期孟子言行的著作，以问答与辩论为主，主张性善、仁政与王道，七篇十四卷，列入“四书”。",
@@ -887,12 +963,15 @@ BOOK_INTRO = {
     "chuci": "战国楚人屈原及其后学的辞赋总集，由西汉刘向辑成，东汉王逸作注。",
     "shijing": "中国最早的诗歌总集，分风、雅、颂三部分。国风收十五国风土歌谣一百六十首；小雅、大雅为朝廷宴飨、朝会之乐；颂为宗庙祭祀之乐。",
 }
+for _slug in ("liji", "shangshu", "xunzi"):
+    POETRY[_slug]["home_intro_own"] = True
+
 WIKI_INTRO = json.loads((ROOT / "sources/wiki_intros.json").read_text(encoding="utf8"))
 assert set(BOOK_INTRO) == set(POETRY) | {b["slug"] for b in BOOKS}, set(BOOK_INTRO) ^ (set(POETRY) | {b["slug"] for b in BOOKS})
 for _b in BOOKS:
     _b["intro"] = BOOK_INTRO[_b["slug"]]
 for _k, _v in POETRY.items():
-    _v["intro"] = WIKI_INTRO[_k]["text"] if WIKI_INTRO.get(_k, {}).get("verbatim") else BOOK_INTRO[_k]
+    _v["intro"] = WIKI_INTRO[_k]["text"] if WIKI_INTRO.get(_k, {}).get("verbatim") and not _v.get("home_intro_own") else BOOK_INTRO[_k]
 
 
 TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")]}
@@ -942,6 +1021,12 @@ def parse_poems(paths):
                 else:
                     o, t = ln[2:].strip(), None
                 cur["chunks"].append({"o": o, "t": t, "notes": []})
+            elif ln.startswith("图题："):
+                cur["chunks"].append({"o": ln[3:], "t": None, "diagram": True, "notes": []})
+            elif ln.startswith("图行："):
+                last = cur["chunks"][-1]
+                assert last.get("diagram"), (path, "图行没有图题")
+                last["o"] += "\n" + ln[3:]
             elif ln.startswith("表题："):
                 cur["chunks"].append({"tbl": {"cap": ln[3:].strip(), "head": None, "rows": []}, "notes": []})
             elif ln.startswith("表头："):
@@ -1058,7 +1143,8 @@ def build_poetry(bslug, spec):
             cells.append(f'</ul><h3 class="grp">{esc(title)}</h3><ul class="vols"{wide}>')
             continue
         if not files:
-            cells.append(f'<li class="todo"><span>{esc(title)}<small>待整理</small></span></li>')
+            status = "阙" if slug in spec.get("missing_slugs", ()) else "待整理"
+            cells.append(f'<li class="todo"><span>{esc(title)}<small>{status}</small></span></li>')
             continue
         secs = parse_poems(files)
         nchunk = sum(1 for s in secs for c in s["chunks"] if "tbl" not in c)
@@ -1093,6 +1179,9 @@ def build_poetry(bslug, spec):
             for ci, ch in enumerate(chunks_):
                 if "tbl" in ch:
                     parts.append(table_html(ch["tbl"]))
+                    continue
+                if ch.get("diagram"):
+                    parts.append(f'<pre class="source-diagram" style="max-width:100%;overflow-x:auto">{esc(ch["o"])}</pre>')
                     continue
                 is_p = bool(spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
                 poem = " poem" if is_p else ""
@@ -1137,7 +1226,8 @@ def build_poetry(bslug, spec):
                 elif page_files:
                     items.append(f'<li><a href="{sl}.html">{esc(tt)}</a></li>')
                 else:
-                    items.append(f'<li><span>{esc(tt)}（待整理）</span></li>')
+                    status = "阙" if sl in spec.get("missing_slugs", ()) else "待整理"
+                    items.append(f'<li><span>{esc(tt)}（{status}）</span></li>')
             toc = (f'<details class="toc side" open><summary>总目录</summary><ul>{"".join(items)}</ul></details>')
         elif secs:
             tocs = [(k, s) for k, s in enumerate(secs, 1) if not (s["title"] == title and not s["chunks"])]
@@ -1194,7 +1284,9 @@ def build_poetry(bslug, spec):
     intro_credit = ""
     if WIKI_INTRO.get(bslug, {}).get("verbatim"):
         url = esc(WIKI_INTRO[bslug]["url"])
-        intro_credit = (f'<span hidden> · <a href="{url}">维基文库</a> · '
+        visibility = "" if spec.get("visible_intro_credit") else " hidden"
+        label = "简介据维基文库" if spec.get("visible_intro_credit") else "维基文库"
+        intro_credit = (f'<span{visibility}> · <a href="{url}">{label}</a> · '
                         '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>')
     body = f"""<header class="top">
 {crumbs([("古典文库", "../index.html"), (btitle, None)])}
@@ -1212,8 +1304,12 @@ def build_poetry(bslug, spec):
 
 
 # 书名首字的拼音首字母，供首页字母索引使用；新增书目若首字不在表内，build 会报错提醒补充。
-INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜晏周论孟庄道礼尚嘉",
-                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJYZLMZDLSJ"))
+INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜晏周论孟庄道礼尚嘉墨",
+                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJYZLMZDLSJM"))
+
+
+INITIAL["荀"] = "X"
+INITIAL["韩"] = "H"
 
 
 def build_home():

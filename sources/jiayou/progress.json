@@ -1,14 +1,11 @@
 {
-  "status": "in_progress",
+  "status": "complete",
   "catalog": "catalog.json",
   "source": {
     "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
     "revision": "7904820"
   },
-  "next": {
-    "slug": "juan07",
-    "title": "洪范论中〈并图〉"
-  },
+  "next": null,
   "pages": [
     {
       "slug": "juan01",
@@ -170,20 +167,405 @@
         "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
         "revision": "7904820"
       }
+    },
+    {
+      "slug": "juan07",
+      "title": "卷七·洪范论",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 185,
+      "notes": 18,
+      "selected_blocks": [
+        107,
+        109,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        156,
+        158
+      ],
+      "original_sha256": "b8f1c49e5e68790a48ff5c80d931d354cd03679a404c57f1276b5b603482e5d3",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan08",
+      "title": "卷八·太玄论",
+      "status": "complete",
+      "sections": 4,
+      "pairs": 259,
+      "notes": 23,
+      "selected_blocks": [
+        161,
+        162,
+        163,
+        165,
+        167,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "original_sha256": "85e3f6d98e8697b46834ac3eef0b421590dcc2f6562f30e11c5809bd6f7083dc",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan09",
+      "title": "卷九·史论",
+      "status": "complete",
+      "sections": 13,
+      "pairs": 431,
+      "notes": 37,
+      "selected_blocks": [
+        188,
+        190,
+        191,
+        193,
+        195,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214
+      ],
+      "original_sha256": "adef6a2210821aa27bf4f6e772209a2f3221a7601b3606f1b630799714ac43b5",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan10",
+      "title": "卷十·书一首",
+      "status": "complete",
+      "sections": 1,
+      "pairs": 272,
+      "notes": 32,
+      "selected_blocks": [
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228
+      ],
+      "original_sha256": "4fe761b04def86fbc8fc9c2296867faf942025c20be5df67e06cb765534220f6",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan11",
+      "title": "卷十一·书五首",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 233,
+      "notes": 15,
+      "selected_blocks": [
+        231,
+        232,
+        233,
+        235,
+        236,
+        237,
+        239,
+        240,
+        241,
+        243,
+        245,
+        246,
+        247
+      ],
+      "original_sha256": "5bee4ccc64f06f6bc35a2a056279301bcc2a98e54288e7ccf6e7a2dd6d5c43f6",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan12",
+      "title": "卷十二·书九首",
+      "status": "complete",
+      "sections": 9,
+      "pairs": 253,
+      "notes": 37,
+      "selected_blocks": [
+        250,
+        252,
+        254,
+        256,
+        258,
+        260,
+        262,
+        264,
+        266
+      ],
+      "original_sha256": "abb08a7454bd9215a4a8858b70f547e3d59ed5233282123d9b14d582b6b0f53e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan13",
+      "title": "卷十三·书八首",
+      "status": "complete",
+      "sections": 8,
+      "pairs": 165,
+      "notes": 33,
+      "selected_blocks": [
+        269,
+        271,
+        273,
+        275,
+        277,
+        279,
+        281,
+        283
+      ],
+      "original_sha256": "c1a749b5f7d7f15a1e1f87fd84561ea4ea12ddea6627608ec4bb1de4e10f1166",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan14",
+      "title": "卷十四·谱",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 246,
+      "notes": 39,
+      "selected_blocks": [
+        286,
+        288,
+        289,
+        291,
+        293,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "original_sha256": "9daaaae870051fb46287b4665659cecd9a795dcf19928f317f0e5619947c8ea7",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan15",
+      "title": "卷十五·杂文二十一首",
+      "status": "complete",
+      "sections": 21,
+      "pairs": 474,
+      "notes": 42,
+      "selected_blocks": [
+        303,
+        304,
+        306,
+        308,
+        310,
+        312,
+        313,
+        315,
+        317,
+        319,
+        321,
+        323,
+        325,
+        327,
+        329,
+        330,
+        332,
+        334,
+        336,
+        338,
+        340,
+        342,
+        344,
+        346
+      ],
+      "original_sha256": "a6853ed59b464a1e9637b7159776cb9bf20ccfc2e94a8420820acce1f912b756",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "juan16",
+      "title": "卷十六·杂诗二十七首",
+      "status": "complete",
+      "sections": 22,
+      "pairs": 347,
+      "notes": 39,
+      "selected_blocks": [
+        349,
+        351,
+        353,
+        355,
+        357,
+        359,
+        361,
+        363,
+        365,
+        367,
+        369,
+        371,
+        373,
+        374,
+        375,
+        376,
+        378,
+        380,
+        382,
+        384,
+        386,
+        388,
+        389,
+        391,
+        393,
+        394,
+        396
+      ],
+      "original_sha256": "2cca42982908b206b5db2fa8ff68f89789975fe6d81af1a6eb0fbf6d839fae60",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    },
+    {
+      "slug": "buyi",
+      "title": "补遗",
+      "status": "complete",
+      "sections": 33,
+      "pairs": 566,
+      "notes": 50,
+      "selected_blocks": [
+        398,
+        399,
+        400,
+        401,
+        402,
+        404,
+        405,
+        406,
+        407,
+        409,
+        411,
+        413,
+        415,
+        417,
+        419,
+        421,
+        422,
+        423,
+        425,
+        427,
+        429,
+        431,
+        433,
+        435,
+        437,
+        439,
+        441,
+        443,
+        444,
+        446,
+        448,
+        450,
+        452,
+        454,
+        456,
+        458,
+        460,
+        461,
+        463,
+        464,
+        466,
+        468,
+        470,
+        471,
+        472
+      ],
+      "original_sha256": "086c205ab3c2b61a878b88d4b8e81b6fa232bea486e5aa9d222d414b718d78b9",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
     }
-  ],
-  "draft": {
-    "path": "drafts/juan07.txt",
-    "slug": "juan07",
-    "selected_blocks": [
-      107,
-      109
-    ],
-    "heading_blocks": [
-      106,
-      108
-    ],
-    "pairs": 50,
-    "next_heading_block": 110
-  }
+  ]
 }
