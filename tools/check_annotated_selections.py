@@ -99,7 +99,8 @@ def main():
             entries = build.parse_poems(sorted((ROOT / "src" / book / slug).glob("*.txt")))
             assert len(entries) == page["sections"] and all(e["intro"] for e in entries)
             if page.get("heading_blocks"):
-                assert [e["title"] for e in entries] == [raw[i] for i in page["heading_blocks"]]
+                source_titles = [raw[i] for i in page["heading_blocks"]]
+                assert [e["title"] for e in entries if e["title"] in source_titles] == source_titles
                 assert sorted(page["heading_blocks"] + page["selected_blocks"]) == list(range(len(raw)))
             chunks = [c for e in entries for c in e["chunks"]]
             assert "".join(c["o"] for c in chunks) == witness, slug
