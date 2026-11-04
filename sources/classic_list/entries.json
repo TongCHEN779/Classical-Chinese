@@ -886,27 +886,163 @@
   }
  },
  {
-  "title": "小石潭记",
+  "title": "永州八记",
   "author": "［唐］柳宗元",
-  "slug": "xiaoshitan",
-  "intro": "原题《至小丘西小石潭记》，为《永州八记》之一。柳宗元先循水声寻潭，再由水中游鱼写到溪流的曲折，最后从观景的欣喜转入久坐生寒的感受。篇末同游者名单一并收入。",
+  "slug": "yongzhou",
+  "intro": "柳宗元贬居永州期间所作八篇游记，依维基文库篇序合列。",
   "source": {
-   "url": "https://zh.wikisource.org/zh-hans/%E8%87%B3%E5%B0%8F%E4%B8%98%E8%A5%BF%E5%B0%8F%E7%9F%B3%E6%BD%AD%E8%A8%98",
-   "revision": "2510274",
+   "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B8%E5%B7%9E%E5%85%AB%E8%A8%98",
+   "revision": "2375798",
    "label": "维基文库",
-   "after": "正文照录所列修订；题解、白话和释词为本库整理。"
+   "after": "篇序据所列修订；各篇的原文来源见篇首。"
   },
+  "redirects": {
+   "xiaoshitan": "yongzhou.html#e4"
+  },
+  "sections": [
+   {
+    "title": "始得西山宴游记",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E5%A7%8B%E5%BE%97%E8%A5%BF%E5%B1%B1%E5%AE%B4%E9%81%8A%E8%A8%98",
+     "revision": "2509167",
+     "label": "维基文库"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/yongzhou-01.json",
+     "selected_blocks": [
+      0,
+      1
+     ],
+     "original_sha256": "8d63e4431e030c959932579228422e6b60e8c4d4cdfc93426b68ebcfb1d36421"
+    }
+   },
+   {
+    "title": "钴𬭁潭记",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E9%88%B7%E9%89%A7%E6%BD%AD%E8%A8%98",
+     "revision": "2619225",
+     "label": "维基文库"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/yongzhou-02.json",
+     "selected_blocks": [
+      0,
+      1,
+      2
+     ],
+     "original_sha256": "e8e73f47b8cb005c86c7581f7a54c0246a591abc832cf2de515c7504bf67942c"
+    }
+   },
+   {
+    "title": "钴𬭁潭西小丘记",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E9%88%B7%E9%89%A7%E6%BD%AD%E8%A5%BF%E5%B0%8F%E4%B8%98%E8%A8%98",
+     "revision": "2520737",
+     "label": "维基文库"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/yongzhou-03.json",
+     "selected_blocks": [
+      0,
+      1,
+      2
+     ],
+     "original_sha256": "20dcc3a01385d13b52557bbd9c7a5b056b414f32f1eaf89f3695502fa3113224"
+    }
+   },
+   {
+    "title": "至小丘西小石潭记",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E8%87%B3%E5%B0%8F%E4%B8%98%E8%A5%BF%E5%B0%8F%E7%9F%B3%E6%BD%AD%E8%A8%98",
+     "revision": "2510274",
+     "label": "维基文库",
+     "after": "正文照录所列修订；题解、白话和释词为本库整理。"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/xiaoshitan.json",
+     "selected_blocks": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "original_sha256": "89e24ff893a8194cd8559799db5d9eb218f423a2a2904a7458516301183f08b0"
+    }
+   },
+   {
+    "title": "袁家渴记",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E8%A2%81%E5%AE%B6%E6%B8%B4%E8%A8%98",
+     "revision": "2080748",
+     "label": "维基文库"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/yongzhou-05.json",
+     "selected_blocks": [
+      0
+     ],
+     "original_sha256": "e4c00395a0eccfec0db87cf4132856499283d362082b4510df68e941b526229a"
+    }
+   },
+   {
+    "title": "石渠记",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E7%9F%B3%E6%B8%A0%E8%A8%98",
+     "revision": "2375799",
+     "label": "维基文库"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/yongzhou-06.json",
+     "selected_blocks": [
+      0
+     ],
+     "original_sha256": "54ffa393d3805f473e04ee0a92b36bd5f7555e8ebc7b7cf6d751980a2c4ad3e8"
+    }
+   },
+   {
+    "title": "石涧记",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E7%9F%B3%E6%BE%97%E8%A8%98",
+     "revision": "2375794",
+     "label": "维基文库"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/yongzhou-07.json",
+     "selected_blocks": [
+      0
+     ],
+     "original_sha256": "b3907835ea1de04fd70edbdfde89c44c47afe137af65899d8a79d7702b7cca3a"
+    }
+   },
+   {
+    "title": "小石城山记",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E5%B0%8F%E7%9F%B3%E5%9F%8E%E5%B1%B1%E8%A8%98",
+     "revision": "2375797",
+     "label": "维基文库"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/yongzhou-08.json",
+     "selected_blocks": [
+      0
+     ],
+     "original_sha256": "0220900474cd6f261409d34e5b708f23c50577196c45f0e4cb583fb97e61e674"
+    }
+   }
+  ],
   "provenance": {
-   "kind": "cached_primary_text",
-   "cache": "wikisource/xiaoshitan.json",
-   "selected_blocks": [
-    0,
-    1,
-    2,
-    3,
-    4
-   ],
-   "original_sha256": "89e24ff893a8194cd8559799db5d9eb218f423a2a2904a7458516301183f08b0"
+   "kind": "grouped_witness",
+   "cache": "wikisource/yongzhou-index.json",
+   "original_sha256": "17a868307a6585ae2c0565dd72e30af1dc38ade41a8e8d7eab959eca163e0b9c"
   }
  },
  {

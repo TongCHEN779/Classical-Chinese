@@ -645,14 +645,26 @@ def _annotated_selection(slug, title, footer):
                             after="原文据所列修订；分节标题、题解、白话与释词为本库整理。") for p in pages}}
 
 
+def _jiayou_spec():
+    spec = _annotated_selection("jiayou", "嘉祐集", "")
+    progress = json.loads((ROOT / "sources/jiayou/progress.json").read_text(encoding="utf8"))
+    finished = sum(p["status"] == "complete" for p in progress["pages"])
+    spec.update(author="［北宋］苏洵", unit="篇",
+                index_footer=f"卷一至卷十六及补遗，共17项；已完成{finished}项逐句注译。")
+    return spec
+
+
 def _classics_spec():
     entries = json.loads((ROOT / "sources" / "classic_list" / "entries.json").read_text(encoding="utf8"))
     return {"title": "经典名篇", "author": "个人选藏", "unit": "篇",
             "count_entries": True, "strict_pairs": True, "side_toc": True, "wide_index": True,
             "intro": "",
             "pages": [(e["slug"], e["title"] + "｜" + e["author"]) for e in entries],
+            "section_sources": {e["slug"]: {sec["title"]: dict(sec["source"], author=e["author"])
+                                           for sec in e["sections"]} for e in entries if "sections" in e},
+            "page_redirects": {old: target for e in entries for old, target in e.get("redirects", {}).items()},
             "page_sources": {e["slug"]: e["source"] for e in entries},
-            "index_footer": f"已整理{len(entries)}项（《过秦论》上中下三篇合列一项）。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
+            "index_footer": f"已整理{len(entries)}项（《过秦论》上中下合列一项，《永州八记》八篇合列一项）。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
 
 
 def _zengguofan_spec():
@@ -755,6 +767,7 @@ POETRY = {
     "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
     "classic_list": _classics_spec(),
+    "jiayou": _jiayou_spec(),
     "mengxi": _mengxi_spec(),
     "zhenglun-changyan": _zhenglun_changyan_spec(),
     **{slug: _four_classics_spec(slug) for slug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan")},
@@ -766,7 +779,7 @@ POETRY = {
     "qiangtoumashang": _works_spec("qiangtoumashang", "墙头马上", "［元］白朴", "折"),
     "baiyueting": _works_spec("baiyueting", "拜月亭", "［元］关汉卿", "折"),
     "linlanxiang": {**_works_spec("linlanxiang", "林兰香", "［清］随缘下士", "回"), "center_poems": True, "reading_hint": ""},
-    "jinghuayuan": _works_spec("jinghuayuan", "镜花缘", "［清］李汝珍", "回"),
+    "jinghuayuan": {**_works_spec("jinghuayuan", "镜花缘", "［清］李汝珍", "回"), "center_poems": True, "reading_hint": ""},
     "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
     "yanzi": _works_spec("yanzi", "晏子春秋", "［春秋］晏婴（后人辑录）", "章", gloss=True, groups=[("内篇（卷一至卷六）", 6), ("外篇（卷七、卷八）", 2)],
                          footer="全书八卷（内篇六卷、外篇两卷）已整理：每章配逐句白话、题解与注释。"),
@@ -816,7 +829,8 @@ BOOK_INTRO = {
     "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
     "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
-    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《小石潭记》《湖心亭看雪》等三十五项。",
+    "jiayou": "《嘉祐集》是北宋苏洵的文集。苏洵字明允，眉州眉山人，与苏轼、苏辙并称三苏。书中既有《权书》《衡论》一类讨论用兵与治国的文章，也有经解、史论、书札、族谱、杂文和诗。所选底本分十六卷，另有补遗，可从中看见苏洵怎样以古事论当世，又怎样把家族与交游写入文章。",
+    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《永州八记》《湖心亭看雪》等三十五项。",
     "guanhanqing": "元代关汉卿所作杂剧合集，收《窦娥冤》《救风尘》《望江亭》《单刀会》《拜月亭》《调风月》等十八种，题材涉及冤狱、婚恋、公案与历史英雄。",
     "zhaoshigu": "元代纪君祥所作杂剧，全称《冤报冤赵氏孤儿》，写程婴、公孙杵臼舍命救护赵氏孤儿、孤儿长大后报仇雪冤的故事。",
     "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",
@@ -876,9 +890,6 @@ def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
     text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
     out = "".join(f'<p class="intro">{esc(x)}</p>' for x in text.split("\n") if x.strip())
-    if WIKI_INTRO.get(slug, {}).get("verbatim"):
-        url = esc(WIKI_INTRO[slug]["url"])
-        out += f'<p class="intro">简介原文：<a href="{url}">维基文库及修订历史</a>（<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>）。</p>'
     # 全书题解（src/<slug>/tijie）不另立页面，接在简介之后，每段以“主题。”领起
     path = ROOT / "src" / slug / "tijie" / "01.txt"
     if path.exists():
@@ -955,6 +966,8 @@ def is_poem(o, prev, prev_poem=False, nxt=""):
     紧接在诗行之后的无引号短段，以及曲牌名（短标题，后面紧跟曲词），视为诗歌（含对联、曲），页面居中。“下回分解”之类的回末套语不算。"""
     segs = o.split("/")
     if len(segs) > 1:
+        if "下回" in o or re.search(r"[道曰笑说][：:]“", o):
+            return False
         return max(len(re.sub(r"\s*[—―]+.*$", "", x)) for x in segs) <= 40
     if len(o) <= 10 and not re.search(r"[，。！？；：“”、]", o) and nxt and "/" not in nxt and _lyric_like(nxt):
         return True    # 曲牌名
@@ -967,16 +980,29 @@ def is_poem(o, prev, prev_poem=False, nxt=""):
     return prev_poem and bool(re.search(r"[，。！？；]$", o)) and all(len(x) in (5, 7) or "兮" in x for x in re.split(r"[，。！？；]", o) if x)
 
 
-def lead_poem(o):
-    """段首是几行诗、其后接着正文的混合段（如林兰香回首诗）：返回（诗行, 其余）；否则 None。"""
+def _verse_seg(x):
+    return (len(x) <= 40 and re.search(r"[，。！？；]$", x) and not re.search(r"[“”‘’「」『』：]", x)
+            and "下回" not in x and all(4 <= len(y) <= 9 for y in re.split(r"[，。！？；]", x) if y))
+
+
+def split_poem_runs(o):
+    """正文里夹着的整行诗（连续两行以上，如回首诗、回末对联）：返回 [(是否诗, 文本), ...]；没有则 None。"""
     segs = o.split("/")
-    k = 0
-    for x in segs:
-        if len(x) <= 40 and re.search(r"[，。！？；]$", x) and all(4 <= len(y) <= 9 for y in re.split(r"[，。！？；]", x) if y):
-            k += 1
+    flags = [bool(_verse_seg(x)) for x in segs]
+    out, i = [], 0
+    while i < len(segs):
+        j = i
+        while j < len(segs) and flags[j] == flags[i]:
+            j += 1
+        out.append([flags[i] and j - i >= 2, "/".join(segs[i:j])])
+        i = j
+    merged = []
+    for isp, t in out:
+        if merged and merged[-1][0] == isp:
+            merged[-1][1] += "/" + t
         else:
-            break
-    return ("/".join(segs[:k]), "/".join(segs[k:])) if 2 <= k < len(segs) else None
+            merged.append([isp, t])
+    return merged if any(m[0] for m in merged) and len(merged) > 1 else None
 
 
 def drama_html(text):
@@ -1054,10 +1080,10 @@ def build_poetry(bslug, spec):
                 poem = " poem" if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
-                    lead = lead_poem(ch["o"]) if spec.get("center_poems") and not poem else None
-                    if lead:
-                        parts.append(f'<p class="v nv poem">{drama_html(lead[0])}</p>')
-                        parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}">{drama_html(lead[1])}</p>')
+                    runs = split_poem_runs(ch["o"]) if spec.get("center_poems") and not poem else None
+                    if runs:
+                        for isp, txt in runs:
+                            parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}{" poem" if isp else ""}">{drama_html(txt)}</p>')
                     else:
                         parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}{poem}">{drama_html(ch["o"])}</p>')
                 else:
@@ -1143,13 +1169,18 @@ def build_poetry(bslug, spec):
         out = ROOT / bslug / f"{slug}.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(page(f"{title}·{btitle}", body, r, True), encoding="utf8")
+    intro_credit = ""
+    if WIKI_INTRO.get(bslug, {}).get("verbatim"):
+        url = esc(WIKI_INTRO[bslug]["url"])
+        intro_credit = (f' · <a href="{url}">维基文库</a> · '
+                        '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>')
     body = f"""<header class="top">
 {crumbs([("古典文库", "../index.html"), (btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
 {intro_html(bslug)}
 </header>
 <main><section class="part"><ul class="vols"{' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get('wide_index') else ''}>{"".join(cells)}</ul></section></main>
-<footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}</footer>"""
+<footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}{intro_credit}</footer>"""
     (ROOT / bslug).mkdir(parents=True, exist_ok=True)
     (ROOT / bslug / "index.html").write_text(page(btitle, body, "../"), encoding="utf8")
     for old_slug, target in spec.get("page_redirects", {}).items():
@@ -1159,8 +1190,8 @@ def build_poetry(bslug, spec):
 
 
 # 书名首字的拼音首字母，供首页字母索引使用；新增书目若首字不在表内，build 会报错提醒补充。
-INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜晏周论孟庄道礼尚",
-                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJYZLMZDLS"))
+INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商聊牡红史世古楚诗东传关赵倩墙拜林声镜晏周论孟庄道礼尚嘉",
+                   "RZCJMZXSSRCZCXXYYSHSLMHSSGCSDCGZQQBLSJYZLMZDLSJ"))
 
 
 def build_home():

@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 STEPS = [
     ['tools/check_zhanguoce.py'],
     ['tools/check_zengguofan.py'],
+    ['tools/check_jiayou.py'],
     ['tools/check_classics.py'],
     ['tools/check_annotated_selections.py'],
     ['tools/check_site.py'],

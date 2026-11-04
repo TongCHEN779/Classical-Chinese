@@ -1,0 +1,56 @@
+{
+  "status": "in_progress",
+  "catalog": "catalog.json",
+  "source": {
+    "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+    "revision": "7904820"
+  },
+  "next": {
+    "slug": "juan02",
+    "title": "强弱"
+  },
+  "pages": [
+    {
+      "slug": "juan01",
+      "title": "卷一·几策一首",
+      "status": "complete",
+      "sections": 1,
+      "pairs": 96,
+      "notes": 21,
+      "selected_blocks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "original_sha256": "ccdc42a8ea2d8e04110d89bc7999c31037256eeb958dade88876ecc7a766f07b",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%98%89%E7%A5%90%E9%9B%86",
+        "revision": "7904820"
+      }
+    }
+  ],
+  "draft": {
+    "path": "drafts/juan02.txt",
+    "slug": "juan02",
+    "selected_blocks": [
+      10,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19
+    ],
+    "heading_blocks": [
+      9,
+      11,
+      16
+    ],
+    "pairs": 85,
+    "next_heading_block": 20
+  }
+}

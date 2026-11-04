@@ -27,7 +27,7 @@ def main():
                 'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu', 'jianshisi',
                 'guotuotuo', 'kongque', 'pipa', 'yanci', 'baochan', 'dongyang',
                 'shizhong', 'liuguo-suzhe', 'liuguo-sushi',
-                'loushi', 'ailian', 'xiaoshitan', 'huxinting']
+                'loushi', 'ailian', 'yongzhou', 'huxinting']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'
@@ -36,7 +36,7 @@ def main():
     for entry in entries:
         slug = entry['slug']
         sections = build.parse_poems(sorted((ROOT / 'src/classic_list' / slug).glob('*.txt')))
-        assert len(sections) == (3 if slug == 'guoqin' else 1), (slug, 'missing section')
+        assert len(sections) == (len(entry['sections']) if 'sections' in entry else 3 if slug == 'guoqin' else 1), (slug, 'missing section')
         assert all(s['intro'] for s in sections), (slug, 'missing introduction')
         if slug == 'guoqin':
             assert [s['title'] for s in sections] == ['上篇', '中篇', '下篇']
@@ -45,7 +45,25 @@ def main():
         original = ''.join(c['o'].replace('/', '') for c in chunks)
         provenance = entry['provenance']
         assert hashlib.sha256(original.encode()).hexdigest() == provenance['original_sha256'], (slug, 'original digest')
-        if provenance['kind'] == 'existing_edited_source':
+        if provenance['kind'] == 'grouped_witness':
+            root = ROOT / 'sources/classic_list'
+            catalog = json.loads((root / provenance['cache']).read_text())
+            titles = [b['text'] for b in catalog['blocks']]
+            assert hashlib.sha256('\n'.join(titles).encode()).hexdigest() == catalog['text_sha256']
+            assert len(titles) == 8 and titles == [s['title'] for s in sections] == [s['title'] for s in entry['sections']]
+            assert entry['source']['revision'] == catalog['revision']
+            for section, record in zip(sections, entry['sections'], strict=True):
+                p = record['provenance']
+                cached = json.loads((root / p['cache']).read_text())
+                raw = '\n'.join(b['text'] for b in cached['blocks'])
+                assert hashlib.sha256(raw.encode()).hexdigest() == cached['text_sha256']
+                assert record['source']['revision'] == cached['revision']
+                assert record['source']['url'] == cached['url']
+                expected_text = ''.join(cached['blocks'][i]['text'] for i in p['selected_blocks'])
+                assert expected_text == ''.join(c['o'] for c in section['chunks'])
+                assert hashlib.sha256(expected_text.encode()).hexdigest() == p['original_sha256']
+                assert any(c['notes'] for c in section['chunks'])
+        elif provenance['kind'] == 'existing_edited_source':
             source_sections = build.parse_poems(sorted((ROOT / provenance['path']).glob('*.txt')))
             source = next(s for s in source_sections if s['title'] == provenance['title'])
             witness = ''.join(c['o'].replace('/', '') for c in source['chunks'])
@@ -90,6 +108,14 @@ def main():
             assert [o for o, _t in rendered_pairs] == originals, (slug, 'paragraph fallback')
             pairs.extend((o.replace('/', ''), t) for o, t in rendered_pairs)
         html = BeautifulSoup((ROOT / 'classic_list' / f'{slug}.html').read_text(), 'html.parser')
+        if 'sections' in entry:
+            assert [a['href'] for a in html.select('.toc a')] == [f'#e{i}' for i in range(1, 9)]
+            assert [a['href'] for a in html.select('section.entry .source-note a')] == [e['source']['url'] for e in entry['sections']]
+            for old, target in entry['redirects'].items():
+                redirect = BeautifulSoup((ROOT / 'classic_list' / f'{old}.html').read_text(), 'html.parser')
+                assert redirect.select_one('meta[http-equiv="refresh"]')['content'] == '0; url=' + target
+                assert redirect.find('a', href=target)
+                assert html.find(id=target.split('#', 1)[1])
         actual = [(span.get_text(), span['data-t']) for span in html.select('.s[data-t]')]
         assert actual == pairs, (slug, 'HTML differs from sentence pairs')
         assert not html.select('p.v.nv, p.v.dr'), (slug, 'untranslated passage')

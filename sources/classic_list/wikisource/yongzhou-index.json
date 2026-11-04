@@ -1,0 +1,42 @@
+{
+ "title": "永州八記",
+ "query": "永州八記",
+ "url": "https://zh.wikisource.org/zh-hans/%E6%B0%B8%E5%B7%9E%E5%85%AB%E8%A8%98",
+ "revision": "2375798",
+ "fetched_at": "2026-11-04T11:07:09.855742+00:00",
+ "blocks": [
+  {
+   "type": "li",
+   "text": "始得西山宴游记"
+  },
+  {
+   "type": "li",
+   "text": "钴𬭁潭记"
+  },
+  {
+   "type": "li",
+   "text": "钴𬭁潭西小丘记"
+  },
+  {
+   "type": "li",
+   "text": "至小丘西小石潭记"
+  },
+  {
+   "type": "li",
+   "text": "袁家渴记"
+  },
+  {
+   "type": "li",
+   "text": "石渠记"
+  },
+  {
+   "type": "li",
+   "text": "石涧记"
+  },
+  {
+   "type": "li",
+   "text": "小石城山记"
+  }
+ ],
+ "text_sha256": "a9714a86e3316cc74c95c990ba425f89555e3a05ecfe450c9267ff1dde60d9a6"
+}
