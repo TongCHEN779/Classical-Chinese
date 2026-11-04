@@ -620,10 +620,15 @@ def _zhanguoce_grouped_spec():
 def _annotated_selection(slug, title, footer):
     progress = json.loads((ROOT / "sources" / slug / "progress.json").read_text(encoding="utf8"))
     pages = [p for p in progress["pages"] if p["status"] == "complete"]
-    return {"title": title, "author": "［先秦］佚名", "unit": "节", "intro": "",
+    catalog = progress.get("catalog")
+    order = (json.loads((ROOT / "sources" / slug / catalog).read_text(encoding="utf8"))["pages"]
+             if catalog else pages)
+    if catalog:
+        footer = f"全书{len(order)}篇，已完成{len(pages)}篇逐句注译。"
+    return {"title": title, "author": "［西汉］戴圣辑" if slug == "liji" else "［先秦］佚名", "unit": "节", "intro": "",
             "count_entries": True, "strict_pairs": True, "side_toc": True,
             "index_footer": footer,
-            "pages": [(p["slug"], p["title"]) for p in pages],
+            "pages": [(p["slug"], p["title"]) for p in order],
             "page_sources": {p["slug"]: dict(p["source"], label="维基文库",
                             after="原文据所列修订；分节标题、题解、白话与释词为本库整理。") for p in pages}}
 
@@ -753,8 +758,7 @@ POETRY = {
     "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
     "yanzi": _works_spec("yanzi", "晏子春秋", "［春秋］晏婴（后人辑录）", "章", gloss=True, groups=[("内篇（卷一至卷六）", 6), ("外篇（卷七、卷八）", 2)],
                          footer="全书八卷（内篇六卷、外篇两卷）已整理：每章配逐句白话、题解与注释。"),
-    "liji": _annotated_selection("liji", "礼记·大学与中庸",
-                                 "仅收《礼记》原篇《大学》《中庸》，两篇均已注译；保留原篇次序。"),
+    "liji": _annotated_selection("liji", "礼记", ""),
     "shangshu": _annotated_selection("shangshu", "尚书",
                                      "整理中。目录底本为维基文库《尚书》；目前仅列已完成注译的篇目。"),
     "zhouyi": _works_spec("zhouyi", "周易", "［先秦］佚名", "节", gloss=True, groups=[("上经（乾至离，三十卦）", 30), ("下经（咸至未济，三十四卦）", 34), ("易传（系辞、说卦、序卦、杂卦）", 5)],
@@ -850,7 +854,7 @@ assert set(BOOK_INTRO) == set(POETRY) | {b["slug"] for b in BOOKS}, set(BOOK_INT
 for _b in BOOKS:
     _b["intro"] = BOOK_INTRO[_b["slug"]]
 for _k, _v in POETRY.items():
-    _v["intro"] = BOOK_INTRO[_k]
+    _v["intro"] = WIKI_INTRO[_k]["text"] if WIKI_INTRO.get(_k, {}).get("adapted") else BOOK_INTRO[_k]
 
 
 TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")]}
@@ -860,6 +864,9 @@ def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
     text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
     out = "".join(f'<p class="intro">{esc(x)}</p>' for x in text.split("\n") if x.strip())
+    if WIKI_INTRO.get(slug, {}).get("adapted"):
+        url = esc(WIKI_INTRO[slug]["url"])
+        out += f'<p class="intro">简介据<a href="{url}">维基文库</a>改写。</p>'
     # 全书题解（src/<slug>/tijie）不另立页面，接在简介之后，每段以“主题。”领起
     path = ROOT / "src" / slug / "tijie" / "01.txt"
     if path.exists():

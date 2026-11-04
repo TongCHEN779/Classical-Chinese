@@ -22,7 +22,35 @@ def main():
         progress = read(sources / "progress.json")
         done = [p for p in progress["pages"] if p["status"] == "complete"]
         if book == "liji":
-            assert [p["slug"] for p in done] == ["daxue", "zhongyong"]
+            catalog = read(sources / progress["catalog"])["pages"]
+            assert len(catalog) == 49 and catalog[0]["title"] == "曲礼上" and catalog[-1]["title"] == "丧服四制"
+            for item in catalog:
+                cached = read(sources / "wikisource" / f"{item['slug']}.json")
+                assert cached["query"] == item["wiki"] and cached["revision"]
+                witness = "\n".join(block["text"] for block in cached["blocks"])
+                assert hashlib.sha256(witness.encode()).hexdigest() == cached["text_sha256"]
+            slugs = [p["slug"] for p in catalog]
+            assert [p["slug"] for p in done] == [s for s in slugs if s in {p["slug"] for p in done}]
+            index = BeautifulSoup((ROOT / book / "index.html").read_text(), "html.parser")
+            assert len(index.select(".vols > li")) == len(catalog)
+            assert [a["href"] for a in index.select(".vols > li.ok a")] == [p["slug"] + ".html" for p in done]
+            if "draft" in progress:
+                draft = progress["draft"]
+                source = read(sources / "wikisource" / (draft["slug"] + ".json"))
+                assert source["revision"] == draft["revision"]
+                offset = draft.get("next_sentence_offset", 0)
+                block = source["blocks"][draft["next_source_block"]]["text"]
+                sentences = build.split_sents(block)
+                assert sentences[offset] == draft["next_text"]
+                assert draft["completed_source_blocks"] == list(range(draft["next_source_block"]))
+                if offset:
+                    assert "".join(sentences) == block
+                sections = build.parse_poems([sources / draft["path"]])
+                chunks = [c for e in sections for c in e["chunks"]]
+                assert "".join(c["o"] for c in chunks) == "".join(
+                    source["blocks"][i]["text"] for i in draft["completed_source_blocks"]) + "".join(sentences[:offset])
+                assert all(len(build.split_sents(c["o"])) == len(c["t"].split("¦")) for c in chunks)
+                assert sum(len(c["t"].split("¦")) for c in chunks) == draft["pairs"]
         else:
             catalog = read(sources / "catalog.json")
             assert len(catalog) == 58

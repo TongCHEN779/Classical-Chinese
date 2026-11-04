@@ -136,5 +136,19 @@
   "revision": "2354026",
   "url": "https://zh.wikisource.org/zh-hans/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29",
   "text": "王弼《老子道德经注》是《老子》一书最重要的注释之一，也是研究王弼思想最主要的著作"
+ },
+ "liji": {
+  "wikisource_title": "禮記",
+  "revision": "11117484",
+  "url": "https://zh.wikisource.org/w/index.php?title=禮記&oldid=11117484",
+  "text": "《礼记》是儒家经典，汇集孔门后学和战国儒者阐释礼制、礼学的文章。汉代经师选编这些材料，以辅助讲授《仪礼》。传统上，戴德所辑称《大戴礼记》，戴圣所辑称《小戴礼记》；今通行的《礼记》为小戴本，共四十九篇。大戴本至隋唐已多散佚，今存三十九篇。",
+  "adapted": true
+ },
+ "shangshu": {
+  "wikisource_title": "尚書",
+  "revision": "11123919",
+  "url": "https://zh.wikisource.org/w/index.php?title=尚書&oldid=11123919",
+  "text": "《尚书》是中国最早的历史文献汇编，编者已不可考，司马迁、班固将编订归于孔子，儒家后来把它列入六经。传世文本有今文、古文之别，后出的古文篇长期受到辨伪。清华简保存了一些与传世《尚书》相关的文本，也有传世本未见的篇章。",
+  "adapted": true
  }
 }
