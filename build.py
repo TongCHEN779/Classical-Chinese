@@ -63,7 +63,12 @@ SENT = re.compile(r"[^。！？；]*[。！？；]+(?:[”’」』）]*[。！�
 
 
 def split_sents(s):
-    return [x for x in SENT.findall(s) if x.strip()]
+    parts = [x for x in SENT.findall(s) if x.strip()]
+    # A trailing editorial bracket closes the preceding sentence.
+    if len(parts) > 1 and parts[-1].strip() == "〉":
+        closing = parts.pop()
+        parts[-1] += closing
+    return parts
 
 
 NOTE_HEAD = re.compile(r'[^。！？；：:\n]{1,64}：')
@@ -1111,13 +1116,15 @@ def build_poetry(bslug, spec):
         toc = ""
         if spec.get("side_toc") and sum(1 for s_ in secs if not (s_["title"] == title and not s_["chunks"])) <= 1:
             items = []
-            for sl, tt, _f in pages:
+            for sl, tt, page_files in pages:
                 if sl is None:
                     items.append(f'<li class="grp">{esc(tt)}</li>')
                 elif sl == slug:
                     items.append(f'<li class="cur"><a href="{sl}.html" aria-current="page">{esc(tt)}</a></li>')
-                else:
+                elif page_files:
                     items.append(f'<li><a href="{sl}.html">{esc(tt)}</a></li>')
+                else:
+                    items.append(f'<li><span>{esc(tt)}（待整理）</span></li>')
             toc = (f'<details class="toc side" open><summary>总目录</summary><ul>{"".join(items)}</ul></details>')
         elif secs:
             tocs = [(k, s) for k, s in enumerate(secs, 1) if not (s["title"] == title and not s["chunks"])]
