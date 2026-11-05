@@ -1,5 +1,5 @@
 {
-  "status": "in_progress",
+  "status": "complete",
   "catalog": "catalog.json",
   "pages": [
     {
@@ -172,6 +172,19 @@
       }
     },
     {
+      "slug": "p13",
+      "title": "臣道",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 93,
+      "notes": 9,
+      "original_sha256": "21b122bee61493e8659d1cdb1d1c8c1ed5224d08ecfbe1292292319e57973506",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E8%87%A3%E9%81%93%E7%AF%87",
+        "revision": "367480"
+      }
+    },
+    {
       "slug": "p14",
       "title": "致士",
       "status": "complete",
@@ -183,7 +196,241 @@
         "url": "https://zh.wikisource.org/zh-hans/荀子/致士篇",
         "revision": "367124"
       }
+    },
+    {
+      "slug": "p15",
+      "title": "议兵",
+      "status": "complete",
+      "sections": 14,
+      "pairs": 211,
+      "notes": 16,
+      "original_sha256": "bce1362cdad92153565df00ca6e852327e558a99329afedb8d7997ef9380cf56",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E8%AD%B0%E5%85%B5%E7%AF%87",
+        "revision": "1392636"
+      }
+    },
+    {
+      "slug": "p16",
+      "title": "强国",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 141,
+      "notes": 6,
+      "original_sha256": "9367010a894544147140df30501e34673bd0efeba3f7d3067f47001e37e7e73e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%BD%8A%E5%9C%8B%E7%AF%87",
+        "revision": "1392637"
+      }
+    },
+    {
+      "slug": "p17",
+      "title": "天论",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 128,
+      "notes": 6,
+      "original_sha256": "ca03cb59b3337db0c4a9c3b6ed324b0d85e265f5807ce83e00a2577f87e3ffbc",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%A4%A9%E8%AB%96%E7%AF%87",
+        "revision": "1392638"
+      }
+    },
+    {
+      "slug": "p18",
+      "title": "正论",
+      "status": "complete",
+      "sections": 10,
+      "pairs": 257,
+      "notes": 10,
+      "original_sha256": "55010cdcc50d7851c68320f80f628f7fe71ffcd4e5cd4c9a97d858c0a7ec9db5",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E6%AD%A3%E8%AB%96%E7%AF%87",
+        "revision": "2450260"
+      }
+    },
+    {
+      "slug": "p19",
+      "title": "礼论",
+      "status": "complete",
+      "sections": 9,
+      "pairs": 270,
+      "notes": 9,
+      "original_sha256": "3837cdc25aa862f4c4b0912518eacd06ebb30edb793e90d10be4baea37c7f803",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E7%A6%AE%E8%AB%96%E7%AF%87",
+        "revision": "1392640"
+      }
+    },
+    {
+      "slug": "p20",
+      "title": "乐论",
+      "status": "complete",
+      "sections": 3,
+      "pairs": 104,
+      "notes": 7,
+      "original_sha256": "4ecdb2182630a31c76f14e292b73fe1dc080dd428bad4462ad1b588373c944d5",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E6%A8%82%E8%AB%96%E7%AF%87",
+        "revision": "367117"
+      }
+    },
+    {
+      "slug": "p21",
+      "title": "解蔽",
+      "status": "complete",
+      "sections": 7,
+      "pairs": 236,
+      "notes": 7,
+      "original_sha256": "66942eade3ba39d4384166b0bd002f8ca29ad9cbce044c09a1bfea65c17c55bf",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E8%A7%A3%E8%94%BD%E7%AF%87",
+        "revision": "1392641"
+      }
+    },
+    {
+      "slug": "p22",
+      "title": "正名",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 196,
+      "notes": 8,
+      "original_sha256": "c860c0186fee6868c1e3b00d80cdf478e2c83fd509e2878509381be238ae582c",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E6%AD%A3%E5%90%8D%E7%AF%87",
+        "revision": "1392642"
+      }
+    },
+    {
+      "slug": "p23",
+      "title": "性恶",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 160,
+      "notes": 5,
+      "original_sha256": "100fe51c3f157a4d549886cc85b98db8ff46b2551cd8c4294e3f07c7ee464b6e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E6%80%A7%E6%83%A1%E7%AF%87",
+        "revision": "382195"
+      }
+    },
+    {
+      "slug": "p24",
+      "title": "君子",
+      "status": "complete",
+      "sections": 1,
+      "pairs": 55,
+      "notes": 2,
+      "original_sha256": "1494a71c94e870a9c83e6570754090690775a72409264a1edff3a02c81b462cf",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%90%9B%E5%AD%90%E7%AF%87",
+        "revision": "391226"
+      }
+    },
+    {
+      "slug": "p25",
+      "title": "成相",
+      "status": "complete",
+      "sections": 4,
+      "pairs": 116,
+      "notes": 5,
+      "original_sha256": "c98a37159b41f4bf73790e19d6066402620a997e24d86a51521e583e19b92209",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E6%88%90%E7%9B%B8%E7%AF%87",
+        "revision": "382197"
+      }
+    },
+    {
+      "slug": "p26",
+      "title": "赋",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 109,
+      "notes": 6,
+      "original_sha256": "4b8b8494d1285a475346a29e4ea4edae2a7105f4bba56478cb4fd81ee45991b7",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E8%B3%A6%E7%AF%87",
+        "revision": "364068"
+      }
+    },
+    {
+      "slug": "p27",
+      "title": "大略",
+      "status": "complete",
+      "sections": 9,
+      "pairs": 338,
+      "notes": 9,
+      "original_sha256": "55977503e554545f2126e4749bd5d9759858f8945cf8c7c3c59a45ec37d79cbf",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%A4%A7%E7%95%A5%E7%AF%87",
+        "revision": "1392643"
+      }
+    },
+    {
+      "slug": "p28",
+      "title": "宥坐",
+      "status": "complete",
+      "sections": 8,
+      "pairs": 110,
+      "notes": 8,
+      "original_sha256": "7b8db950fc573f3b6d251b4ac21aa23e235b223eb3a79767b392202efbf0b75b",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%AE%A5%E5%9D%90%E7%AF%87",
+        "revision": "366437"
+      }
+    },
+    {
+      "slug": "p29",
+      "title": "子道",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 84,
+      "notes": 6,
+      "original_sha256": "1c982149784ad3d370942042adf9616b3e774e53d66c18fc249f741deca1f8b6",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%AD%90%E9%81%93%E7%AF%87",
+        "revision": "1392644"
+      }
+    },
+    {
+      "slug": "p30",
+      "title": "法行",
+      "status": "complete",
+      "sections": 5,
+      "pairs": 50,
+      "notes": 4,
+      "original_sha256": "2b41e4241a6d69f0a580d5c75fffcee8b9112b957a8f0afbaab94b9728584f43",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E6%B3%95%E8%A1%8C%E7%AF%87",
+        "revision": "366292"
+      }
+    },
+    {
+      "slug": "p31",
+      "title": "哀公",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 90,
+      "notes": 7,
+      "original_sha256": "f2d64562ef357414b0f10ed8d1e3d8ba53d47cd5f96c087351bd6dc3cc469594",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%93%80%E5%85%AC%E7%AF%87",
+        "revision": "1392645"
+      }
+    },
+    {
+      "slug": "p32",
+      "title": "尧问",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 79,
+      "notes": 7,
+      "original_sha256": "5aeab444682742309351666aa46c7f4aca472d57d7225a4ee76f82456f68d682",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%A0%AF%E5%95%8F%E7%AF%87",
+        "revision": "1392646"
+      }
     }
   ],
-  "next": "臣道"
+  "next": null
 }

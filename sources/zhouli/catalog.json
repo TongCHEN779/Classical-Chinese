@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "p01",
+    "title": "天官冢宰",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E7%A6%AE/%E5%A4%A9%E5%AE%98%E5%86%A2%E5%AE%B0",
+    "revision": "2605877",
+    "paragraphs": 147,
+    "translated": 147,
+    "sentences": 607,
+    "notes": 43,
+    "sha256": "f9cdb68021b1fc191b0a333228581efb7b95494e1413dc231016cef11c8244d6"
+  },
+  {
+    "slug": "p02",
+    "title": "地官司徒",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E7%A6%AE/%E5%9C%B0%E5%AE%98%E5%8F%B8%E5%BE%92",
+    "revision": "2609749",
+    "paragraphs": 169,
+    "translated": 169,
+    "sentences": 689,
+    "notes": 106,
+    "sha256": "592186f02b8187af4f54daab46ed2b5b4a7c557794101f6885d6cc8bc9030f01"
+  },
+  {
+    "slug": "p03",
+    "title": "春官宗伯",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E7%A6%AE/%E6%98%A5%E5%AE%98%E5%AE%97%E4%BC%AF",
+    "revision": "2619945",
+    "paragraphs": 155,
+    "translated": 155,
+    "sentences": 763,
+    "notes": 31,
+    "sha256": "87206d5f621a929fe72c0453ca624111b42a4bd6399718875d96c0682f69f2ba"
+  },
+  {
+    "slug": "p04",
+    "title": "夏官司马",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E7%A6%AE/%E5%A4%8F%E5%AE%98%E5%8F%B8%E9%A6%AC",
+    "revision": "2159476",
+    "paragraphs": 151,
+    "translated": 151,
+    "sentences": 580,
+    "notes": 99,
+    "sha256": "da24f856a72b0fb7b1268e454b8c69fa35622021841086aea51c4f8dd6823642"
+  },
+  {
+    "slug": "p05",
+    "title": "秋官司寇",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E7%A6%AE/%E7%A7%8B%E5%AE%98%E5%8F%B8%E5%AF%87",
+    "revision": "380150",
+    "paragraphs": 157,
+    "translated": 157,
+    "sentences": 627,
+    "notes": 121,
+    "sha256": "bd3550ef0e764a618c119278994937d7d9292c04b5c38aab086a46158e3977a3"
+  },
+  {
+    "slug": "p06",
+    "title": "冬官考工记",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E7%A6%AE/%E5%86%AC%E5%AE%98%E8%80%83%E5%B7%A5%E8%A8%98",
+    "revision": "2159477",
+    "paragraphs": 93,
+    "translated": 93,
+    "sentences": 596,
+    "notes": 90,
+    "sha256": "27edee9a32223a37debe8380e23cf012c82b17d60b1628da751b4dd5634def7e"
+  }
+]

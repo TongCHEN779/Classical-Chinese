@@ -39,10 +39,15 @@ def main():
         assert card.get_text() == build.BOOK_INTRO[slug]
         assert page.select_one("p.intro").get_text() == build.WIKI_INTRO[slug]["text"]
         assert card.get_text() != page.select_one("p.intro").get_text()
-    for slug, meta in done.items():
+    for entry in cat["pages"]:
+        slug = entry["slug"]
         w = read(root / "wikisource" / f"{slug}.json")
         raw = [b["text"] for b in w["blocks"]]
         assert hashlib.sha256("\n".join(raw).encode()).hexdigest() == w["text_sha256"]
+        assert raw and all("〈" not in t and "〉" not in t for t in raw), slug
+        if slug not in done:
+            continue
+        meta = done[slug]
         assert hashlib.sha256("".join(raw).encode()).hexdigest() == meta["original_sha256"]
         assert meta["source"] == {k: w[k] for k in ("url", "revision")}
         sections = build.parse_poems(sorted((ROOT / "src/xunzi" / slug).glob("*.txt")))

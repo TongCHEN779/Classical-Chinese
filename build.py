@@ -143,6 +143,14 @@ def split_pairs(o, t):
     return [(o, t.replace("¦", ""))]
 
 
+def has_sentence_pairs(chunk):
+    """Recognize explicit, nonempty glosses aligned with each original sentence."""
+    original = split_sents(chunk["o"])
+    modern = chunk["t"].split("¦")
+    return (len(original) == len(modern) and all(t.strip() for t in modern)
+            and [o for o, _ in split_pairs(chunk["o"], chunk["t"])] == original)
+
+
 def orig_html(text):
     """原文中编者加的括注（年份、人名、注音）用淡色显示。"""
     parts = GLOSS.split(esc(text))
@@ -671,7 +679,7 @@ def _xunzi_spec():
         pages.append((entry["slug"], entry["title"]))
     done = spec["page_sources"]
     count = sum(slug != "xu" for slug in done)
-    spec.update(author="［战国］荀况", unit="节", pages=pages,
+    spec.update(author="［战国］荀况", unit="节", pages=pages, visible_intro_credit=True,
                 index_footer=f"全书二十卷三十二篇，已完成{count}篇逐句注译；《荀子序》另列。")
     return spec
 
@@ -794,6 +802,32 @@ def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None, 
     return spec
 
 
+def _zhouli_spec():
+    catalog = json.loads((ROOT / "sources/zhouli/catalog.json").read_text(encoding="utf8"))
+    options = {}
+    for p in catalog:
+        done, total = p["translated"], p["paragraphs"]
+        options[p["slug"]] = {
+            "no_tip": not done,
+            "index_label": "逐句注译" if done == total else f"已注译 {done}/{total} 段",
+            "reading_hint": ("悬浮或点按原文句子可读白话。"
+                             if done == total else
+                             f"已注译 {done}/{total} 段；已整理的句子可悬浮或点按查看白话。"),
+            "footer": "题解、白话及注释为本站自撰；底本字形与阙文标记照录。",
+        }
+    done = sum(p["translated"] for p in catalog)
+    total = sum(p["paragraphs"] for p in catalog)
+    return {
+        "title": "周礼", "author": "［古籍］撰人未详", "prose": True,
+        "strict_pairs": True, "home_intro_own": True, "visible_intro_credit": True,
+        "no_count": True, "wide_index": True, "unit": "篇",
+        "pages": [(p["slug"], p["title"]) for p in catalog],
+        "page_sources": {p["slug"]: {"url": p["url"], "revision": p["revision"]} for p in catalog},
+        "page_options": options,
+        "index_footer": ("今本六篇均已逐句注译。" if done == total else f"今本六篇；已注译 {done}/{total} 段。"),
+    }
+
+
 def _mozi_spec():
     witness = json.loads((ROOT / "sources/mozi/wikisource.json").read_text(encoding="utf8"))
     pages, page_options, page_sources = [], {}, {}
@@ -849,16 +883,14 @@ def _hanfeizi_spec():
         if count:
             options[slug] = {
                 "no_tip": False,
-                "index_label": "有白话" if count == len(chunks) else "部分白话",
-                "reading_hint": ("点击或聚焦原文段落，查看白话译文。" if count == len(chunks)
-                                 else "本篇部分段落已有白话，点击或聚焦相应原文查看。"),
+                "reading_hint": "",
                 "footer": "白话译文为编者自撰，仅供辅助阅读。",
             }
         sources[slug] = {"url": "https://www.gutenberg.org/ebooks/24049", "label": "古登堡计划"}
     return {"title": "韩非子", "author": "［战国］韩非（旧题）",
             "prose": True, "no_tip": True, "original_only": True, "home_intro_own": True,
-            "no_count": True, "paragraph_pairs": True, "page_options": options, "pages": pages, "page_sources": sources,
-            "reading_hint": "原文直读，正文保留底本繁体。",
+            "no_count": True, "side_toc": True, "unaligned_translation_details": True, "page_options": options, "pages": pages, "page_sources": sources,
+            "reading_hint": "原文直读。",
             "original_footer": "未据影印本逐字校勘。",
             "index_footer": f"全书二十卷、五十五篇，均可阅读原文；已完成白话 {translated}/55 篇。"}
 
@@ -866,6 +898,7 @@ def _hanfeizi_spec():
 POETRY = {
     "hanfeizi": _hanfeizi_spec(),
     "mozi": _mozi_spec(),
+    "zhouli": _zhouli_spec(),
     "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
     "classic_list": _classics_spec(),
@@ -930,6 +963,7 @@ POETRY = {
 # 首页卡片上的书籍简介：只写书本身。各书目录页的简介若维基文库书名页标题下有介绍，则用 sources/wiki_intros.json 里的原文（已转简体）。
 BOOK_INTRO = {
     "hanfeizi": "战国法家著作，共五十五篇，以政论、辩难和寓言讨论法令、用人、赏罚与君主权力。",
+    "zhouli": "旧称《周官》，按六官编排职官与礼制，涉及赋役、祭祀、军政和刑狱；今本以《考工记》补冬官。",
     "mozi": "先秦墨家著作，主张兼爱、非攻、尚贤、节用，也讨论名辩、认识与守城技术。",
     "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
@@ -945,7 +979,7 @@ BOOK_INTRO = {
     "linlanxiang": "清代世情小说，全书六十四回，旧本题“随缘下士编辑”，以明代耿朗一家妻妾的悲欢为中心，细写家庭日常与人情世态。",
     "yanzi": "记春秋时齐国名相晏婴言行的书，旧题晏婴撰，一般认为是后人采集编成。全书八卷，以晏子劝谏景公、折冲外交、处世节俭而著称，保存了不少先秦轶事；八卷现已全部整理。",
     "liji": "《礼记》是儒家礼学文献的汇编，记述礼仪制度，也讨论修身、教育与治国。",
-    "xunzi": "《荀子》是战国儒家文集，从劝学、修身讲到礼法、治国与人性，强调人的学习和实践。",
+    "xunzi": "战国儒家文集，讨论学习、人性和治国，强调通过师法与礼义培养德行、建立秩序。",
     "shangshu": "《尚书》汇集虞、夏、商、周的典谟、训诰和誓命，记录早期中国的政治观念与历史传说。",
     "zhouyi": "儒家群经之首，包括经（六十四卦的卦辞、爻辞）和传（彖、象、系辞、文言、说卦、序卦、杂卦等“十翼”）两部分，借阴阳爻象推演吉凶变化，是中国古代哲学与占筮之书。",
     "lunyu": "记孔子及其弟子言行的语录体著作，儒家最基本的经典之一，今本二十篇、五百馀章，后与《孟子》《大学》《中庸》合称“四书”。",
@@ -1216,8 +1250,12 @@ def build_poetry(bslug, spec):
                         parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}{poem}">{drama_html(ch["o"])}</p>')
                 else:
                   spans = ""
-                  pairs = ([(ch["o"], ch["t"])] if spec.get("paragraph_pairs")
-                           else split_pairs(ch["o"], ch["t"]))
+                  pairs = split_pairs(ch["o"], ch["t"])
+                  if spec.get("unaligned_translation_details") and not has_sentence_pairs(ch):
+                      parts.append(f'<p class="v nv">{drama_html(ch["o"])}</p>'
+                                   f'<details class="translation-draft"><summary>段落白话</summary>'
+                                   f'<p>{esc(ch["t"])}</p></details>')
+                      pairs = []
                   if spec.get("strict_pairs"):
                       original_sents = split_sents(ch["o"])
                       if (len(original_sents) != len(ch["t"].split("¦"))
@@ -1228,7 +1266,8 @@ def build_poetry(bslug, spec):
                           spans += "<br>"
                           o2 = o2[1:]
                       spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{poem_orig(o2)}</span>'
-                  parts.append(f'<p class="v">{spans}</p>')
+                  if pairs:
+                      parts.append(f'<p class="v">{spans}</p>')
                 if ch["notes"]:
                     uid += 1
                     li = "".join(f"<li>{esc(n)}</li>" for n in ch["notes"])

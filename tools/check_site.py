@@ -75,6 +75,7 @@ def check_poetry_books(problems):
                 continue
             secs = build.parse_poems(files)
             pairs = [(o.replace('/', ''), t) for s in secs for c in s['chunks'] if 'tbl' not in c and c['t'] is not None
+                     and (not spec.get('unaligned_translation_details') or build.has_sentence_pairs(c))
                      for o, t in build.split_pairs(c['o'], c['t'])]
             notes = sum(len(c['notes']) for s in secs for c in s['chunks'] if 'tbl' not in c)
             s = soup_of(html)
