@@ -68,6 +68,21 @@ def main():
         assert n == meta["notes"] == sum(len(c["notes"]) for c in chunks)
         assert all(x.find_parent(attrs={"hidden": True})
                    for x in page.find_all("a", href=True) if build.is_wiki_source(x["href"]))
+    if draft := progress.get("draft"):
+        w = read(root / "wikisource" / f"{draft['slug']}.json")
+        raw = [b["text"] for b in w["blocks"]]
+        assert w["revision"] == draft["revision"]
+        assert hashlib.sha256("\n".join(raw).encode()).hexdigest() == w["text_sha256"]
+        chunks = [c for s in build.parse_poems([root / draft["path"]]) for c in s["chunks"]]
+        offset = draft["completed_blocks"]
+        assert [c["o"] for c in chunks] == raw[:offset]
+        assert sum(len(c["t"].split("¦")) for c in chunks) == draft["pairs"]
+        for c in chunks:
+            original = build.split_sents(c["o"])
+            assert len(original) == len(c["t"].split("¦"))
+            assert [o for o, _ in build.split_pairs(c["o"], c["t"])] == original
+        assert build.split_sents(raw[offset])[0] == draft["next_text"]
+        assert not (ROOT / "xunzi" / f"{draft['slug']}.html").exists()
     print(f"OK: 荀子32篇及序，{len(done)}项已注译；三书首页与书内简介已核对")
 
 

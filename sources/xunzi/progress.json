@@ -105,7 +105,85 @@
         "url": "https://zh.wikisource.org/zh-hans/荀子/仲尼篇",
         "revision": "380278"
       }
+    },
+    {
+      "slug": "p08",
+      "title": "儒效",
+      "status": "complete",
+      "sections": 10,
+      "pairs": 210,
+      "notes": 31,
+      "original_sha256": "183c8e531dd3b7809741840478de0654737f66dce59cef1ec6bc8a7ad41846dc",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%84%92%E6%95%88%E7%AF%87",
+        "revision": "367073"
+      }
+    },
+    {
+      "slug": "p09",
+      "title": "王制",
+      "status": "complete",
+      "sections": 7,
+      "pairs": 230,
+      "notes": 32,
+      "original_sha256": "d25c6dbb41d46ab9f66023bf4c397d23547d1efb5c2d0ecf5b34003dacd2f9f4",
+      "source": {
+        "url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90/%E7%8E%8B%E5%88%B6%E7%AF%87",
+        "revision": "1751630"
+      }
+    },
+    {
+      "slug": "p10",
+      "title": "富国",
+      "status": "complete",
+      "sections": 7,
+      "pairs": 234,
+      "notes": 10,
+      "original_sha256": "891928e88a446223bde0a3dcb57828156f83c73b989df7474dc2919f13c25367",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8D%80%E5%AD%90/%E5%AF%8C%E5%9B%BD%E7%AF%87",
+        "revision": "1392633"
+      }
+    },
+    {
+      "slug": "p11",
+      "title": "王霸",
+      "status": "complete",
+      "sections": 11,
+      "pairs": 252,
+      "notes": 28,
+      "original_sha256": "f1571b1ce32712e8805556160e1812419204c5ea8a100ff372670d40fe30ba00",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/荀子/王霸篇",
+        "revision": "1392634"
+      }
+    },
+    {
+      "slug": "p12",
+      "title": "君道",
+      "status": "complete",
+      "sections": 6,
+      "pairs": 236,
+      "notes": 28,
+      "original_sha256": "74f337eea402fca024e2d9d3cb4e3a629420aeb8718267b69e824e23edf9d178",
+      "source": {
+        "url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90/%E5%90%9B%E9%81%93%E7%AF%87",
+        "revision": "2510441"
+      }
+    },
+    {
+      "slug": "p14",
+      "title": "致士",
+      "status": "complete",
+      "sections": 4,
+      "pairs": 57,
+      "notes": 7,
+      "original_sha256": "c81f55b8686798ab669f5046581dd56baee684963b85876c4e43045b9d71bfaf",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/荀子/致士篇",
+        "revision": "367124"
+      }
     }
   ],
-  "next": "儒效"
+  "next": "臣道"
 }

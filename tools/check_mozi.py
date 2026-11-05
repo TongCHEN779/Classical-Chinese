@@ -47,6 +47,10 @@ def main():
         assert "".join(c["o"] for c in chunks) == "".join(source), (slug, "source text changed")
         html = soup(ROOT / "mozi" / (slug + ".html"))
         assert "".join(x.get_text() for x in html.select(".entry p.v")) == "".join(source)
+        assert [x.get_text() for x in html.select(".entry .notes.plain li")] == [
+            note for c in chunks for note in c["notes"]], (slug, "rendered notes changed")
+        for a in html.select('a[href$=".html"]'):
+            assert (ROOT / "mozi" / a["href"]).is_file(), (slug, a["href"])
         expected = []
         for c in chunks:
             if c["t"] is None:

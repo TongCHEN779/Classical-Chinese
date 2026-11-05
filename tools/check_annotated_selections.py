@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 import build
+from prepare_shangshu import clean, selected_blocks
 
 
 def read(path):
@@ -33,6 +34,10 @@ def main():
         assert "".join(text_parts).strip() == intro["text"]
         assert index.select_one("p.intro").get_text() == intro["text"]
         assert index.find("a", href=intro["url"]) and index.find("a", href="https://creativecommons.org/licenses/by-sa/4.0/")
+        if book == "shangshu":
+            home = BeautifulSoup((ROOT / "index.html").read_text(), "html.parser")
+            card = home.select_one('#book-list a[href="shangshu/index.html"] p')
+            assert card.get_text() == build.BOOK_INTRO[book] != intro["text"]
         if book == "liji":
             catalog = read(sources / progress["catalog"])["pages"]
             assert len(catalog) == 49 and catalog[0]["title"] == "曲礼上" and catalog[-1]["title"] == "丧服四制"
@@ -77,7 +82,11 @@ def main():
                 assert cached["query"] == item["wiki"] and cached["revision"]
                 witness = "\n".join(block["text"] for block in cached["blocks"])
                 assert hashlib.sha256(witness.encode()).hexdigest() == cached["text_sha256"]
-            assert [p["slug"] for p in done] == [p["slug"] for p in catalog[:len(done)]]
+            done_slugs = {p["slug"] for p in done}
+            assert [p["slug"] for p in done] == [
+                s for s in ["shuxu"] + [p["slug"] for p in catalog] if s in done_slugs]
+            if progress["status"] == "complete":
+                assert len(done) == len(catalog) + 1
             assert [h.get_text() for h in index.select("h3.grp")] == ["卷首", "虞书", "夏书", "商书", "周书"]
             assert len(index.select(".vols > li")) == len(catalog) + 1
             assert [a["href"] for a in index.select(".vols > li.ok a")] == [p["slug"] + ".html" for p in done]
@@ -95,6 +104,9 @@ def main():
             witness = "".join(raw[i] for i in page.get("selected_blocks", range(len(raw))))
             if page.get("normalization") == "layout_line_breaks":
                 witness = witness.replace("\n", "")
+            elif page.get("normalization") == "editorial_apparatus":
+                assert page["selected_blocks"] == selected_blocks(slug, source["blocks"])
+                witness = clean(witness)
             assert hashlib.sha256(witness.encode()).hexdigest() == page["original_sha256"]
             entries = build.parse_poems(sorted((ROOT / "src" / book / slug).glob("*.txt")))
             assert len(entries) == page["sections"] and all(e["intro"] for e in entries)

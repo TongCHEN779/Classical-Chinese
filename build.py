@@ -646,12 +646,14 @@ def _annotated_selection(slug, title, footer):
                 group = p["group"]
                 display.append((None, group))
             display.append((p["slug"], titles.get(p["slug"], p["title"].split("，原文见", 1)[0])))
-        footer = f"传世正文{len(witness)}篇，已完成{len(pages)}篇逐句注译；书序另列。清华简不计入传世篇数。"
+        completed = sum(p["slug"] != "shuxu" for p in pages)
+        preface = "书序另列，已注译" if "shuxu" in titles else "书序另列"
+        footer = f"传世正文{len(witness)}篇，已完成{completed}篇逐句注译；{preface}。清华简不计入传世篇数。"
     if catalog:
         footer = f"全书{len(order)}篇，已完成{len(pages)}篇逐句注译。"
     return {"title": title, "author": "［西汉］戴圣辑" if slug == "liji" else "［先秦］佚名", "unit": "节", "intro": "",
             "count_entries": True, "strict_pairs": True, "side_toc": True,
-            "index_footer": footer,
+            "index_footer": footer, "visible_intro_credit": slug == "shangshu",
             "pages": display,
             "page_sources": {p["slug"]: dict(p["source"], label="维基文库",
                             after="原文据所列修订；分节标题、题解、白话与释词为本库整理。") for p in pages}}
@@ -797,7 +799,7 @@ def _mozi_spec():
     pages, page_options, page_sources = [], {}, {}
     missing = set()
     volume = 0
-    annotated = 0
+    annotated = available = 0
     for p in witness["pages"]:
         slug = p["slug"]
         if p["volume"] != volume:
@@ -810,6 +812,7 @@ def _mozi_spec():
         files = sorted((SRC / "mozi" / slug).glob("*.txt"))
         originals = [line for f in files for line in f.read_text(encoding="utf8").splitlines()
                      if line.startswith("原：")]
+        available += bool(originals)
         translated = bool(originals) and all("||" in line for line in originals)
         annotated += translated
         page_options[slug] = {"no_tip": not translated}
@@ -823,12 +826,13 @@ def _mozi_spec():
             "unit": "篇", "prose": True, "strict_pairs": True, "side_toc": True,
             "home_intro_own": True, "visible_intro_credit": True, "missing_slugs": missing,
             "pages": pages, "page_options": page_options, "page_sources": page_sources,
-            "index_footer": f"现存53篇均收原文，已完成逐句注译 {annotated}/53 篇；维基文库目录所标阙篇单列。"}
+            "index_footer": f"现存53篇，已收原文 {available}/53 篇，已完成逐句注译 {annotated}/53 篇；维基文库目录所标阙篇单列。"}
 
 
 def _hanfeizi_spec():
     catalog = json.loads((ROOT / "sources/hanfeizi/catalog.json").read_text(encoding="utf8"))
-    pages, sources = [], {}
+    pages, sources, options = [], {}, {}
+    translated = 0
     volume = 0
     for chapter in catalog:
         if chapter["volume"] != volume:
@@ -836,13 +840,27 @@ def _hanfeizi_spec():
             pages.append((None, "卷" + cn(volume)))
         slug = chapter["slug"]
         pages.append((slug, chapter["title"]))
+        files = sorted((SRC / "hanfeizi" / slug).glob("*.txt"))
+        chunks = [line for f in files for line in f.read_text(encoding="utf8").splitlines()
+                  if line.startswith("原：")]
+        count = sum(bool(line.partition("||")[2].strip()) for line in chunks)
+        if chunks and count == len(chunks):
+            translated += 1
+        if count:
+            options[slug] = {
+                "no_tip": False,
+                "index_label": "有白话" if count == len(chunks) else "部分白话",
+                "reading_hint": ("点击或聚焦原文段落，查看白话译文。" if count == len(chunks)
+                                 else "本篇部分段落已有白话，点击或聚焦相应原文查看。"),
+                "footer": "白话译文为编者自撰，仅供辅助阅读。",
+            }
         sources[slug] = {"url": "https://www.gutenberg.org/ebooks/24049", "label": "古登堡计划"}
     return {"title": "韩非子", "author": "［战国］韩非（旧题）",
             "prose": True, "no_tip": True, "original_only": True, "home_intro_own": True,
-            "no_count": True, "pages": pages, "page_sources": sources,
+            "no_count": True, "paragraph_pairs": True, "page_options": options, "pages": pages, "page_sources": sources,
             "reading_hint": "原文直读，正文保留底本繁体。",
             "original_footer": "未据影印本逐字校勘。",
-            "index_footer": "全书二十卷、五十五篇，均可阅读原文。"}
+            "index_footer": f"全书二十卷、五十五篇，均可阅读原文；已完成白话 {translated}/55 篇。"}
 
 
 POETRY = {
@@ -1152,6 +1170,9 @@ def build_poetry(bslug, spec):
         cnt = (spec["count"](secs) if "count" in spec else
                (None if spec.get("no_count") else (len(secs), spec.get("unit2", spec.get("unit", "节")))))
         small = f"<small>{cnt[0]}{cnt[1]}</small>" if cnt and cnt[0] > 1 else ""
+        index_label = spec.get("page_options", {}).get(slug, {}).get("index_label")
+        if index_label:
+            small = f"<small>{esc(index_label)}</small>"
         cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}{small}</a></li>')
         uid = 0
         body_secs = []
@@ -1195,7 +1216,8 @@ def build_poetry(bslug, spec):
                         parts.append(f'<p class="v {"nv" if spec.get("prose") else "dr"}{poem}">{drama_html(ch["o"])}</p>')
                 else:
                   spans = ""
-                  pairs = split_pairs(ch["o"], ch["t"])
+                  pairs = ([(ch["o"], ch["t"])] if spec.get("paragraph_pairs")
+                           else split_pairs(ch["o"], ch["t"]))
                   if spec.get("strict_pairs"):
                       original_sents = split_sents(ch["o"])
                       if (len(original_sents) != len(ch["t"].split("¦"))
