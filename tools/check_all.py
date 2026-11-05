@@ -14,6 +14,8 @@ STEPS = [
     ['tools/check_zhouli.py'],
     ['tools/check_xunzi.py'],
     ['tools/check_dadailiji.py'],
+    ['tools/check_xuanzhenzi.py'],
+    ['tools/check_dengxizi.py'],
     ['tools/check_zhanguoce.py'],
     ['tools/check_zengguofan.py'],
     ['tools/check_jiayou.py'],

@@ -42,12 +42,12 @@
   {
     "slug": "p05",
     "title": "乡射礼",
-    "annotated": 0,
+    "annotated": 51,
     "paragraphs": 51,
-    "translated_sentences": 0,
-    "notes": 0,
-    "next_paragraph": 1,
-    "next_text": "乡射之礼。主人戒賔，賔出迎，再拜。主人荅再拜，乃请。賔礼辞，许。主人再拜，賔荅再拜。主人退"
+    "translated_sentences": 694,
+    "notes": 50,
+    "next_paragraph": null,
+    "next_text": null
   },
   {
     "slug": "p06",
@@ -62,22 +62,22 @@
   {
     "slug": "p07",
     "title": "大射",
-    "annotated": 0,
+    "annotated": 46,
     "paragraphs": 46,
-    "translated_sentences": 0,
-    "notes": 0,
-    "next_paragraph": 1,
-    "next_text": "大射之仪。君有命戒射，宰戒百官有事于射者。射人戒诸公、卿、大夫射，司士戒士射与賛者。"
+    "translated_sentences": 638,
+    "notes": 27,
+    "next_paragraph": null,
+    "next_text": null
   },
   {
     "slug": "p08",
     "title": "聘礼",
-    "annotated": 0,
+    "annotated": 34,
     "paragraphs": 34,
-    "translated_sentences": 0,
-    "notes": 0,
-    "next_paragraph": 1,
-    "next_text": "宰书币，命宰夫官具。及期，夕币。使者朝服，帅众介夕。管人布幕于寝门外。官陈币，皮北首，西上"
+    "translated_sentences": 617,
+    "notes": 31,
+    "next_paragraph": null,
+    "next_text": null
   },
   {
     "slug": "p09",
@@ -122,12 +122,12 @@
   {
     "slug": "p13",
     "title": "既夕礼",
-    "annotated": 0,
+    "annotated": 18,
     "paragraphs": 18,
-    "translated_sentences": 0,
-    "notes": 0,
-    "next_paragraph": 1,
-    "next_text": "既夕哭，请启期，告于宾。"
+    "translated_sentences": 337,
+    "notes": 38,
+    "next_paragraph": null,
+    "next_text": null
   },
   {
     "slug": "p14",
@@ -162,11 +162,11 @@
   {
     "slug": "p17",
     "title": "有司",
-    "annotated": 8,
+    "annotated": 40,
     "paragraphs": 40,
-    "translated_sentences": 153,
-    "notes": 15,
-    "next_paragraph": 9,
-    "next_text": "受爵，酌，献侑。侑拜受爵，主妇主人之北西面答拜。主妇羞糗、修，坐奠糗于麷南，修在蕡南。侑坐"
+    "translated_sentences": 460,
+    "notes": 37,
+    "next_paragraph": null,
+    "next_text": null
   }
 ]
