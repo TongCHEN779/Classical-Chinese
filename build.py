@@ -478,6 +478,47 @@ def _jinpingmei_spec():
     }
 
 
+def _rulinwaishi_spec():
+    catalog = json.loads((ROOT / "sources/rulinwaishi/chapters.json").read_text(encoding="utf8"))
+    pages = []
+    for entry in catalog:
+        slug = entry["slug"]
+        if (int(slug) - 1) % 10 == 0:
+            n = int(slug)
+            pages.append((None, f"第{cn(n)}回至第{cn(min(n + 9, len(catalog)))}回"))
+        pages.append((slug, entry["title"]))
+    return {
+        "title": "儒林外史", "author": "［清］吴敬梓", "unit": "回",
+        "prose": True, "no_tip": True, "side_toc": True, "home_intro_own": True,
+        "reading_hint": "", "no_count": True, "pages": pages,
+        "index_footer": "全书五十六回。", "omit_source_credit": True,
+        "page_options": {e["slug"]: {"footer": ""} for e in catalog},
+        "page_sources": {e["slug"]: {"url": e["url"], "revision": e["revision"]} for e in catalog},
+    }
+
+
+def _laocanyoujixuji_spec():
+    base = ROOT / "sources/laocanyoujixuji"
+    catalog = json.loads((base / "catalog.json").read_text(encoding="utf8"))
+    pages = [(p["slug"], p["title"]) for p in catalog]
+    return {"title": "老残游记续集", "author": "［清］刘鹗", "unit": "回",
+            "prose": True, "no_tip": True, "side_toc": True, "no_count": True,
+            "wide_index": True, "home_intro_own": True, "pages": pages,
+            "reading_hint": "", "index_footer": "",
+            "page_options": {slug: {"footer": ""} for slug, _ in pages}}
+
+
+def _laocanyouji_spec():
+    base = ROOT / "sources/laocanyouji"
+    catalog = json.loads((base / "catalog.json").read_text(encoding="utf8"))
+    pages = [(p["slug"], p["title"]) for p in catalog]
+    return {"title": "老残游记", "author": "［清］刘鹗", "unit": "回",
+            "prose": True, "no_tip": True, "side_toc": True, "no_count": True,
+            "wide_index": True, "home_intro_own": True,
+            "pages": pages, "reading_hint": "", "index_footer": "",
+            "page_options": {slug: {"footer": ""} for slug, _ in pages}}
+
+
 def _hongloumeng_spec():
     pages = []
     for d in sorted((ROOT / "src/hongloumeng").glob("[0-9][0-9][0-9]")):
@@ -1009,7 +1050,10 @@ POETRY = {
     "liaozhai": _liaozhai_spec(),
     "mudanting": _mudanting_spec(),
     "hongloumeng": _hongloumeng_spec(),
+    "laocanyouji": _laocanyouji_spec(),
+    "laocanyoujixuji": _laocanyoujixuji_spec(),
     "jinpingmei": _jinpingmei_spec(),
+    "rulinwaishi": _rulinwaishi_spec(),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
               "intro": "",
               "pages": _shiji_pages()},
@@ -1077,7 +1121,10 @@ BOOK_INTRO = {
     "shangjunshu": "法家著作，又名《商子》，讨论变法、耕战、赏刑与法令，今存二十四篇。",
     "liaozhai": "清代蒲松龄所著文言短篇小说集，多写狐鬼花妖，反映世态人情。",
     "mudanting": "明代汤显祖所作传奇，又名《还魂记》，全五十五出，写杜丽娘因梦生情、因情而死、又因情复生的故事。",
+    "rulinwaishi": "清代吴敬梓的长篇讽刺小说，写范进、匡超人等读书人的遭际，揭示科举功名怎样左右士人的生活与交往。",
     "jinpingmei": "明代长篇世情小说，以西门庆一家的兴衰为主线，描绘市井生意、家庭日常和官场往来。此处收录崇祯本。",
+    "laocanyoujixuji": "刘鹗续写老残的游历，由泰山访道写到梦游阴司，借见闻与异境谈修行、因果和人情。",
+    "laocanyouji": "刘鹗的晚清小说，以游医老残在山东的见闻串起济南风物、黄河水患与官府冤狱。",
     "hongloumeng": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。",
     "shiji": "西汉司马迁所著的第一部纪传体通史，分本纪、表、书、世家、列传，共一百三十卷。",
     "shishuo": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
@@ -1391,7 +1438,9 @@ def build_poetry(bslug, spec):
         revision_note = f'（修订版本 {esc(source["revision"])}）' if source and source.get("revision") else ""
         source_note = (f'{esc(source.get("prefix", "原文据"))}<a href="{esc(source["url"])}">{esc(source.get("label", "维基文库"))}</a>整理{revision_note}；{esc(source.get("after", ""))}'
                        if source else ("本页题解为编者自撰；" if slug == "tijie" and bslug in ("xixiangji", "xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan", "zuozhuan") else "原文依所标明底本整理；"))
-        if source and is_wiki_source(source["url"]):
+        if spec.get("omit_source_credit"):
+            source_note = ""
+        elif source and is_wiki_source(source["url"]):
             source_note = f'<span hidden>{source_note}</span>'
         if page_options.get("no_tip", spec.get("no_tip")):
             hint = "原文直读，不设悬浮译文。"
@@ -1422,7 +1471,7 @@ def build_poetry(bslug, spec):
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(page(f"{title}·{btitle}", body, r, True), encoding="utf8")
     intro_credit = ""
-    if WIKI_INTRO.get(bslug, {}).get("verbatim"):
+    if WIKI_INTRO.get(bslug, {}).get("verbatim") and not spec.get("omit_source_credit"):
         url = esc(WIKI_INTRO[bslug]["url"])
         visibility = "" if spec.get("visible_intro_credit") else " hidden"
         label = "简介据维基文库" if spec.get("visible_intro_credit") else "维基文库"
@@ -1449,12 +1498,14 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 
 INITIAL["荀"] = "X"
+INITIAL["老"] = "L"
 INITIAL["玄"] = "X"
 INITIAL["邓"] = "D"
 INITIAL["大"] = "D"
 INITIAL["韩"] = "H"
 INITIAL["仪"] = "Y"
 INITIAL["金"] = "J"
+INITIAL["儒"] = "R"
 
 
 def build_home():
