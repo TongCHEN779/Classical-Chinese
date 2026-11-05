@@ -9,11 +9,15 @@ from build import has_sentence_pairs, parse_poems, split_sents
 
 BASE = ROOT / "sources/yili"
 chapters = json.loads((BASE / "chapters.json").read_text())
+reading = json.loads((BASE / "chapters-simplified.json").read_text())
 assert len(chapters) == 17
 progress = []
 for chapter in chapters:
     slug, title, originals = (chapter[key] for key in ("slug", "title", "paragraphs"))
     assert chapter["revision"] and originals, slug
+    simplified = reading[slug]
+    assert len(simplified) == len(originals), slug
+    originals = simplified
     folder = ROOT / "src/yili" / slug
     draft = folder / "01.txt"
     sections = parse_poems([draft]) if draft.exists() else []
