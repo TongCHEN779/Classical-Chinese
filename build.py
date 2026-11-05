@@ -804,27 +804,14 @@ def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None, 
 
 def _zhouli_spec():
     catalog = json.loads((ROOT / "sources/zhouli/catalog.json").read_text(encoding="utf8"))
-    options = {}
-    for p in catalog:
-        done, total = p["translated"], p["paragraphs"]
-        options[p["slug"]] = {
-            "no_tip": not done,
-            "index_label": "逐句注译" if done == total else f"已注译 {done}/{total} 段",
-            "reading_hint": ("悬浮或点按原文句子可读白话。"
-                             if done == total else
-                             f"已注译 {done}/{total} 段；已整理的句子可悬浮或点按查看白话。"),
-            "footer": "题解、白话及注释为本站自撰；底本字形与阙文标记照录。",
-        }
-    done = sum(p["translated"] for p in catalog)
-    total = sum(p["paragraphs"] for p in catalog)
     return {
         "title": "周礼", "author": "［古籍］撰人未详", "prose": True,
         "strict_pairs": True, "home_intro_own": True, "visible_intro_credit": True,
         "no_count": True, "wide_index": True, "unit": "篇",
         "pages": [(p["slug"], p["title"]) for p in catalog],
         "page_sources": {p["slug"]: {"url": p["url"], "revision": p["revision"]} for p in catalog},
-        "page_options": options,
-        "index_footer": ("今本六篇均已逐句注译。" if done == total else f"今本六篇；已注译 {done}/{total} 段。"),
+        "reading_hint": "", "index_footer": "",
+        "page_options": {p["slug"]: {"footer": "底本字形与阙文标记照录。"} for p in catalog},
     }
 
 
@@ -889,7 +876,7 @@ def _hanfeizi_spec():
         sources[slug] = {"url": "https://www.gutenberg.org/ebooks/24049", "label": "古登堡计划"}
     return {"title": "韩非子", "author": "［战国］韩非（旧题）",
             "prose": True, "no_tip": True, "original_only": True, "home_intro_own": True,
-            "no_count": True, "side_toc": True, "unaligned_translation_details": True, "page_options": options, "pages": pages, "page_sources": sources,
+            "no_count": True, "side_toc": True, "strict_pairs": True, "page_options": options, "pages": pages, "page_sources": sources,
             "reading_hint": "原文直读。",
             "original_footer": "未据影印本逐字校勘。",
             "index_footer": f"全书二十卷、五十五篇，均可阅读原文；已完成白话 {translated}/55 篇。"}
@@ -1267,7 +1254,13 @@ def build_poetry(bslug, spec):
                           o2 = o2[1:]
                       spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{poem_orig(o2)}</span>'
                   if pairs:
-                      parts.append(f'<p class="v">{spans}</p>')
+                      label = ch["o"].strip() if bslug == "hanfeizi" else ""
+                      if label == "右经":
+                          parts.append(f'<p class="hf-end-marker">{spans}</p>')
+                      elif re.fullmatch(r"说[一二三四五六七八九十]+", label):
+                          parts.append(f'<h3 class="hf-example-heading">{spans}</h3>')
+                      else:
+                          parts.append(f'<p class="v">{spans}</p>')
                 if ch["notes"]:
                     uid += 1
                     li = "".join(f"<li>{esc(n)}</li>" for n in ch["notes"])

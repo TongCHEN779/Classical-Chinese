@@ -108,6 +108,8 @@ body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:
   box-shadow:0 6px 24px rgba(0,0,0,.25);pointer-events:none}
 #tip[hidden]{display:none}
 .v{margin:.9em 0 .2em;text-indent:0!important;font-size:1.08em;line-height:2;text-align:left!important}
+.hf-end-marker{margin:1.2em 0 .7em;font-size:.78em;opacity:.75;text-indent:0!important;text-align:left!important}
+.hf-example-heading{margin:1.25em 0 .35em;padding-block-start:.55em;border-block-start:1px solid currentColor;font-size:.9em;font-weight:700;text-align:left}
 .v sup{font-size:.6em;color:var(--muted);margin:0 1px}
 .notes.plain{list-style:none;padding-left:16px}
 .notes.plain li{margin:.15em 0;font-size:14px;line-height:1.75}
