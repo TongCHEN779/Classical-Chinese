@@ -802,6 +802,41 @@ def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None, 
     return spec
 
 
+def _dadailiji_spec():
+    base = ROOT / "sources/dadailiji"
+    catalog = json.loads((base / "index.json").read_text(encoding="utf8"))
+    pages = [(p["slug"], p["title"]) for p in catalog["pages"]]
+    sources = {}
+    for slug, _ in pages:
+        witness = json.loads((base / f"{slug}.json").read_text(encoding="utf8"))
+        sources[slug] = {k: witness[k] for k in ("url", "revision")}
+    return {"title": "大戴礼记", "author": "［西汉］戴德辑", "prose": True,
+            "strict_pairs": True, "side_toc": True, "home_intro_own": True,
+            "visible_intro_credit": True, "no_count": True, "pages": pages,
+            "page_sources": sources, "reading_hint": "", "index_footer": "",
+            "page_options": {slug: {"footer": ""} for slug, _ in pages}}
+
+
+def _yili_spec():
+    catalog = json.loads((ROOT / "sources/yili/chapters.json").read_text(encoding="utf8"))
+    progress_path = ROOT / "sources/yili/progress.json"
+    progress = json.loads(progress_path.read_text(encoding="utf8")) if progress_path.exists() else []
+    options = {}
+    for p in progress:
+        done, total = p["annotated"], p["paragraphs"]
+        label = "已注译" if done == total else (f"已注译 {done}/{total} 段" if done else "原文·待注译")
+        options[p["slug"]] = {"index_label": label, "reading_hint": esc(label)}
+
+    return {
+        "title": "仪礼", "author": "［先秦］佚名", "prose": True,
+        "strict_pairs": True, "home_intro_own": True, "side_toc": True,
+        "side_toc_always": True, "no_count": True, "wide_index": True, "unit": "篇",
+        "pages": [(p["slug"], p["title"]) for p in catalog],
+        "page_sources": {p["slug"]: {"url": p["url"], "revision": p["revision"]} for p in catalog},
+        "index_footer": "底本十七篇；白话与注释陆续整理。", "page_options": options,
+    }
+
+
 def _zhouli_spec():
     catalog = json.loads((ROOT / "sources/zhouli/catalog.json").read_text(encoding="utf8"))
     return {
@@ -886,6 +921,8 @@ POETRY = {
     "hanfeizi": _hanfeizi_spec(),
     "mozi": _mozi_spec(),
     "zhouli": _zhouli_spec(),
+    "yili": _yili_spec(),
+    "dadailiji": _dadailiji_spec(),
     "zhanguoce": _zhanguoce_grouped_spec(),
     "zengguofan": _zengguofan_spec(),
     "classic_list": _classics_spec(),
@@ -950,6 +987,8 @@ POETRY = {
 # 首页卡片上的书籍简介：只写书本身。各书目录页的简介若维基文库书名页标题下有介绍，则用 sources/wiki_intros.json 里的原文（已转简体）。
 BOOK_INTRO = {
     "hanfeizi": "战国法家著作，共五十五篇，以政论、辩难和寓言讨论法令、用人、赏罚与君主权力。",
+    "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
+    "yili": "先秦礼仪典籍，共十七篇，详述士大夫的冠婚、相见、乡饮、射礼、朝聘、丧服与祭祀。",
     "zhouli": "旧称《周官》，按六官编排职官与礼制，涉及赋役、祭祀、军政和刑狱；今本以《考工记》补冬官。",
     "mozi": "先秦墨家著作，主张兼爱、非攻、尚贤、节用，也讨论名辩、认识与守城技术。",
     "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
@@ -1270,7 +1309,8 @@ def build_poetry(bslug, spec):
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         toc = ""
-        if spec.get("side_toc") and sum(1 for s_ in secs if not (s_["title"] == title and not s_["chunks"])) <= 1:
+        if spec.get("side_toc") and (spec.get("side_toc_always") or
+                                    sum(1 for s_ in secs if not (s_["title"] == title and not s_["chunks"])) <= 1):
             items = []
             for sl, tt, page_files in pages:
                 if sl is None:
@@ -1363,7 +1403,9 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 
 INITIAL["荀"] = "X"
+INITIAL["大"] = "D"
 INITIAL["韩"] = "H"
+INITIAL["仪"] = "Y"
 
 
 def build_home():
