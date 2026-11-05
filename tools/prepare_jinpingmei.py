@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "sources/jinpingmei"
 BREAK = re.compile(r"(?<=[。！？；])")
 CLAUSE = re.compile(r"[，。！？；、：]")
-CUE = re.compile(r"(?:诗|词|曲|联|赞|歌|赋|有诗|有词)(?:曰|道|云|为证)?[：:]$")
+CUE = re.compile(r"(?:诗|词|曲|联|赞|歌|赋|唱|吟)(?:曰|道|云|为证)?[：:]$")
 
 def verse(block, previous):
     text = "".join(block["lines"])
@@ -21,7 +21,7 @@ def verse(block, previous):
     if CUE.search(previous) and len(text) <= 450:
         return True
     if block["indent"]:
-        return len(text) <= 450
+        return len(text) <= 450 and sum(map(len, clauses)) / len(clauses) <= 13
     if re.search(r"[“”「」『』]", text):
         return False
     if len(clauses) in (2, 4, 8) and len(set(map(len, clauses))) == 1:
@@ -35,7 +35,8 @@ def rows(blocks):
         text = "".join(lines)
         is_verse = verse(block, previous)
         if is_verse and len(lines) == 1:
-            lines = [line for line in BREAK.split(text) if line]
+            split = re.compile(r"(?<=[，；])") if re.search(r"对联|门对|联云|联曰", previous[-70:]) else BREAK
+            lines = [line for line in split.split(text) if line]
         yield is_verse, "/".join(lines)
         previous = text
 

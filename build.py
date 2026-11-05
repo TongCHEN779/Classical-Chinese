@@ -459,6 +459,25 @@ def _mudanting_spec():
             "pages": pages}
 
 
+def _jinpingmei_spec():
+    catalog = json.loads((ROOT / "sources/jinpingmei/chapters.json").read_text(encoding="utf8"))
+    pages = []
+    for entry in catalog:
+        slug = entry["slug"]
+        if slug != "xu" and (int(slug) - 1) % 10 == 0:
+            n = int(slug)
+            pages.append((None, f"第{cn(n)}回至第{cn(n + 9)}回"))
+        pages.append((slug, entry["title"]))
+    return {
+        "title": "金瓶梅（崇祯本）", "author": "［明］兰陵笑笑生", "unit": "回",
+        "prose": True, "no_tip": True, "side_toc": True, "home_intro_own": True,
+        "reading_hint": "", "no_count": True, "pages": pages,
+        "index_footer": "崇祯本，收序及一百回。",
+        "page_options": {e["slug"]: {"footer": "崇祯本正文。"} for e in catalog},
+        "page_sources": {e["slug"]: {"url": e["url"], "revision": e["revision"]} for e in catalog},
+    }
+
+
 def _hongloumeng_spec():
     pages = []
     for d in sorted((ROOT / "src/hongloumeng").glob("[0-9][0-9][0-9]")):
@@ -845,12 +864,6 @@ def _yili_spec():
     catalog = json.loads((ROOT / "sources/yili/chapters.json").read_text(encoding="utf8"))
     progress_path = ROOT / "sources/yili/progress.json"
     progress = json.loads(progress_path.read_text(encoding="utf8")) if progress_path.exists() else []
-    options = {}
-    for p in progress:
-        done, total = p["annotated"], p["paragraphs"]
-        label = "已注译" if done == total else (f"已注译 {done}/{total} 段" if done else "原文·待注译")
-        options[p["slug"]] = {"index_label": label, "reading_hint": esc(label)}
-
     complete = len(progress) == len(catalog) and all(p["annotated"] == p["paragraphs"] for p in progress)
     return {
         "title": "仪礼", "author": "［先秦］佚名", "prose": True,
@@ -859,7 +872,6 @@ def _yili_spec():
         "pages": [(p["slug"], p["title"]) for p in catalog],
         "page_sources": {p["slug"]: {"url": p["url"], "revision": p["revision"]} for p in catalog},
         "index_footer": "十七篇全部注译完成。" if complete else "底本十七篇；白话与注释陆续整理。",
-        "page_options": options,
     }
 
 
@@ -997,6 +1009,7 @@ POETRY = {
     "liaozhai": _liaozhai_spec(),
     "mudanting": _mudanting_spec(),
     "hongloumeng": _hongloumeng_spec(),
+    "jinpingmei": _jinpingmei_spec(),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
               "intro": "",
               "pages": _shiji_pages()},
@@ -1064,6 +1077,7 @@ BOOK_INTRO = {
     "shangjunshu": "法家著作，又名《商子》，讨论变法、耕战、赏刑与法令，今存二十四篇。",
     "liaozhai": "清代蒲松龄所著文言短篇小说集，多写狐鬼花妖，反映世态人情。",
     "mudanting": "明代汤显祖所作传奇，又名《还魂记》，全五十五出，写杜丽娘因梦生情、因情而死、又因情复生的故事。",
+    "jinpingmei": "明代长篇世情小说，以西门庆一家的兴衰为主线，描绘市井生意、家庭日常和官场往来。此处收录崇祯本。",
     "hongloumeng": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。",
     "shiji": "西汉司马迁所著的第一部纪传体通史，分本纪、表、书、世家、列传，共一百三十卷。",
     "shishuo": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
@@ -1129,6 +1143,8 @@ def parse_poems(paths):
                 else:
                     o, t = ln[2:].strip(), None
                 cur["chunks"].append({"o": o, "t": t, "notes": []})
+            elif ln.startswith("诗："):
+                cur["chunks"].append({"o": ln[2:].strip(), "t": None, "verse": True, "notes": []})
             elif ln.startswith("图题："):
                 cur["chunks"].append({"o": ln[3:], "t": None, "diagram": True, "notes": []})
             elif ln.startswith("图行："):
@@ -1294,7 +1310,7 @@ def build_poetry(bslug, spec):
                 if ch.get("diagram"):
                     parts.append(f'<pre class="source-diagram" style="max-width:100%;overflow-x:auto">{esc(ch["o"])}</pre>')
                     continue
-                is_p = bool(spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
+                is_p = ch.get("verse") or bool(spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
                 poem = " poem" if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
@@ -1438,6 +1454,7 @@ INITIAL["邓"] = "D"
 INITIAL["大"] = "D"
 INITIAL["韩"] = "H"
 INITIAL["仪"] = "Y"
+INITIAL["金"] = "J"
 
 
 def build_home():
