@@ -15,7 +15,21 @@ def read(name):
     return json.loads((BASE / name).read_text(encoding="utf8"))
 
 
+def supplement_lines(slug):
+    title = {"xu": "朱谦之自序", "appendix": "附录"}[slug]
+    lines = [f"# {title}"]
+    for b in read(f"{slug}-wikisource.json")["blocks"]:
+        text = "".join(b["text"].splitlines()).strip()
+        lines.append(f"# {text}" if b["type"].startswith("h") else f"原：{text}")
+    return lines
+
+
 def prepare():
+    for slug in ("xu", "appendix"):
+        target = ROOT / "src/xinlun" / slug / "01.txt"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text("\n".join(supplement_lines(slug)) + "\n", encoding="utf8")
+
     report = []
     for p in read("catalog.json"):
         slug = p["slug"]

@@ -932,20 +932,13 @@ def _dadailiji_spec():
 def _luoyangjialanji_spec():
     base = ROOT / "sources/luoyangjialanji"
     catalog = json.loads((base / "chapters.json").read_text(encoding="utf8"))
-    path = base / "progress.json"
-    progress = json.loads(path.read_text(encoding="utf8")) if path.exists() else []
-    options = {}
-    for page in progress:
-        done, total = page["annotated"], page["paragraphs"]
-        label = "已注译" if done == total else f"已注译 {done}/{total} 段"
-        options[page["slug"]] = {"index_label": label, "reading_hint": label}
     return {
         "title": "洛阳伽蓝记", "author": "［北魏］杨衒之", "prose": True,
         "strict_pairs": True, "home_intro_own": True, "side_toc": True,
         "side_toc_always": True, "no_count": True, "wide_index": True,
-        "omit_source_credit": True, "page_options": options,
+        "omit_source_credit": True, "reading_hint": "",
         "pages": [(page["slug"], page["title"]) for page in catalog],
-        "index_footer": "序及五卷全部注译。",
+        "index_footer": "",
     }
 
 
@@ -987,7 +980,7 @@ def _yili_spec():
 
 def _xinlun_spec():
     catalog = json.loads((ROOT / "sources/xinlun/catalog.json").read_text(encoding="utf8"))
-    pages = [(p["slug"], p["title"]) for p in catalog]
+    pages = [("xu", "自序"), *((p["slug"], p["title"]) for p in catalog), ("appendix", "附录")]
     return {"title": "新论", "author": "［东汉］桓谭", "prose": True,
             "strict_pairs": True, "side_toc": True, "home_intro_own": True,
             "no_count": True, "wide_index": True, "pages": pages,

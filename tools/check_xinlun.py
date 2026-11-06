@@ -20,7 +20,7 @@ def main():
     home = html("index.html")
     assert home.select_one('a[href="xinlun/index.html"] p').get_text() == BOOK_INTRO["xinlun"]
     assert "\n".join(p.get_text() for p in index.select("p.intro")) == WIKI_INTRO["xinlun"]["text"]
-    assert [a["href"] for a in index.select("main li.ok a")] == [f"{s}.html" for s in slugs]
+    assert [a["href"] for a in index.select("main li.ok a")] == ["xu.html", *(f"{s}.html" for s in slugs), "appendix.html"]
     assert "维基文库" not in index.get_text()
     total = done = notes = 0
     for slug in slugs:
@@ -49,6 +49,13 @@ def main():
         assert [li.get_text() for li in doc.select(".notes.plain li")] == expected, slug
         assert [p.get_text() for p in doc.select(".intro-box p")] == [t for s in sections for t in s["intro"]], slug
         notes += len(expected)
+    for slug in ("xu", "appendix"):
+        source = read(f"{slug}-wikisource.json")["blocks"]
+        doc = html(f"xinlun/{slug}.html")
+        assert [p.get_text() for p in doc.select("section.entry p.v")] == [
+            "".join(b["text"].splitlines()).strip() for b in source if not b["type"].startswith("h")
+        ], slug
+        assert not doc.select("[data-t]"), slug
     assert done == total, (done, total)
     print(f"《新论》十六篇核验通过：{done}/{total}句白话，{notes}条注释。")
 
