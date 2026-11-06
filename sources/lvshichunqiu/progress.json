@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "p01",
+    "title": "孟春纪",
+    "annotated": 30,
+    "paragraphs": 30,
+    "translated_sentences": 198,
+    "notes": 27,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p02",
+    "title": "仲春纪",
+    "annotated": 30,
+    "paragraphs": 30,
+    "translated_sentences": 176,
+    "notes": 20,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p03",
+    "title": "季春纪",
+    "annotated": 26,
+    "paragraphs": 26,
+    "translated_sentences": 181,
+    "notes": 22,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p04",
+    "title": "孟夏纪",
+    "annotated": 16,
+    "paragraphs": 26,
+    "translated_sentences": 132,
+    "notes": 9,
+    "next_paragraph": 17,
+    "next_text": "四曰：达师之教也，使弟子安焉、乐焉、休焉、游焉、肃焉、严焉。此六者得于学，则邪辟之道塞矣，"
+  },
+  {
+    "slug": "p05",
+    "title": "仲夏纪",
+    "annotated": 10,
+    "paragraphs": 32,
+    "translated_sentences": 79,
+    "notes": 9,
+    "next_paragraph": 11,
+    "next_text": "三曰：人莫不以其生生，而不知其所以生。人莫不以其知知，而不知其所以知。知其所以知之谓知道，"
+  },
+  {
+    "slug": "p06",
+    "title": "季夏纪",
+    "annotated": 0,
+    "paragraphs": 22,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "一曰：季夏之月：日在柳，昏心中，旦奎中。其日丙丁。其帝炎帝。其神祝融。其虫羽。其音征。律中"
+  },
+  {
+    "slug": "p07",
+    "title": "孟秋纪",
+    "annotated": 0,
+    "paragraphs": 19,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "一曰：孟秋之月：（长日至四旬六日）。日在翼，昏斗中，旦毕中。（则立秋）。其日庚辛。其帝少皞"
+  },
+  {
+    "slug": "p08",
+    "title": "仲秋纪",
+    "annotated": 0,
+    "paragraphs": 26,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "一曰：仲秋之月：日在角，昏牵牛中，旦觜嶲中。其日庚辛。其帝少皞。其神蓐收。其虫毛。其音商。"
+  },
+  {
+    "slug": "p09",
+    "title": "季秋纪",
+    "annotated": 0,
+    "paragraphs": 24,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "季秋之月：日在房，昏虚中，旦柳中。其日庚辛。其帝少皞。其神蓐收。其虫毛。其音商。律中无射。"
+  },
+  {
+    "slug": "p10",
+    "title": "孟冬纪",
+    "annotated": 0,
+    "paragraphs": 26,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "孟冬之月：日在尾，昏危中，旦七星中。其日壬癸。其帝颛顼。其神玄冥。其虫介。其音羽。律中应钟"
+  },
+  {
+    "slug": "p11",
+    "title": "仲冬纪",
+    "annotated": 0,
+    "paragraphs": 23,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "仲冬之月：日在斗，昏东壁中，旦轸中。其日壬癸。其帝颛顼。其神玄冥。其虫介。其音羽。律中黄钟"
+  },
+  {
+    "slug": "p12",
+    "title": "季冬纪",
+    "annotated": 0,
+    "paragraphs": 16,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "季冬之月：日在婺女，昏娄中，旦氐中。其日壬癸。其帝颛顼。其神玄冥。其虫介。其音羽。律中大吕"
+  },
+  {
+    "slug": "p13",
+    "title": "有始览",
+    "annotated": 0,
+    "paragraphs": 33,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "天地有始。天微以成，地塞以形。天地合和，生之大经也。以寒暑日月昼夜知之，以殊形殊能异宜说之"
+  },
+  {
+    "slug": "p14",
+    "title": "孝行览",
+    "annotated": 0,
+    "paragraphs": 39,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "凡为天下，治国家，必务本而后末。所谓本者，非耕耘种殖之谓，务其人也。务其人，非贫而富之，寡"
+  },
+  {
+    "slug": "p15",
+    "title": "慎大览",
+    "annotated": 0,
+    "paragraphs": 37,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "贤主愈大愈惧，愈彊愈恐。凡大者，小邻国也；彊者，胜其敌也。胜其敌则多怨，小邻国则多患。多患"
+  },
+  {
+    "slug": "p16",
+    "title": "先识览",
+    "annotated": 0,
+    "paragraphs": 28,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "凡国之亡也，有道者必先去，古今一也。地从于城，城从于民，民从于贤。故贤主得贤者而民得，民得"
+  },
+  {
+    "slug": "p17",
+    "title": "审分览",
+    "annotated": 0,
+    "paragraphs": 34,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "一曰──凡人主必审分，然后治可以至，奸伪邪辟之涂可以息，恶气苛疾无自至。夫治身与治国，一理"
+  },
+  {
+    "slug": "p18",
+    "title": "审应览",
+    "annotated": 0,
+    "paragraphs": 43,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "一曰──人主出声应容，不可不审。凡主有识，言不欲先。人唱我和，人先我随。以其出为之入，以其"
+  },
+  {
+    "slug": "p19",
+    "title": "离俗览",
+    "annotated": 0,
+    "paragraphs": 35,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "一曰──世之所不足者，理义也；所有馀者，妄苟也。民之情，贵所不足，贱所有馀。故布衣人臣之行"
+  },
+  {
+    "slug": "p20",
+    "title": "恃君览",
+    "annotated": 0,
+    "paragraphs": 39,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "凡人之性，爪牙不足以自守卫，肌肤不足以捍寒暑，筋骨不足以从利辟害，勇敢不足以却猛禁悍，然且"
+  },
+  {
+    "slug": "p21",
+    "title": "开春论",
+    "annotated": 0,
+    "paragraphs": 22,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "开春始雷则蛰虫动矣，时雨降则草木育矣，饮食居处适则九窍百节千脉皆通利矣。王者厚其德，积众善"
+  },
+  {
+    "slug": "p22",
+    "title": "慎行论",
+    "annotated": 0,
+    "paragraphs": 25,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "行不可不孰。不孰，如赴深谿，虽悔无及。君子计行虑义，小人计行其利、乃不利。有知不利之利者，"
+  },
+  {
+    "slug": "p23",
+    "title": "贵直论",
+    "annotated": 0,
+    "paragraphs": 20,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "贤主所贵莫如士。所以贵士，为其直言也。言直则枉者见矣。人主之患，欲闻枉而恶直言，是障其源而"
+  },
+  {
+    "slug": "p24",
+    "title": "不苟论",
+    "annotated": 0,
+    "paragraphs": 24,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "贤者之事也，虽贵不苟为，虽听不自阿，必中理然后动，必当义然后举，此忠臣之行也。贤主之所说，"
+  },
+  {
+    "slug": "p25",
+    "title": "似顺论",
+    "annotated": 0,
+    "paragraphs": 31,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "一曰：事多似倒而顺，多似顺而倒。有知顺之为倒、倒之为顺者，则可与言化矣。至长反短，至短反长"
+  },
+  {
+    "slug": "p26",
+    "title": "士容论",
+    "annotated": 0,
+    "paragraphs": 39,
+    "translated_sentences": 0,
+    "notes": 0,
+    "next_paragraph": 1,
+    "next_text": "一曰——"
+  }
+]
