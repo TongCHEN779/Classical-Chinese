@@ -36,6 +36,9 @@ def main():
             assert [("诗" if "poem" in t["class"] else "原", t.get_text(separator="")) for t in paragraphs] == [
                 (kind, text.replace("/", "")) for kind, text in chapter_rows(p)
             ], (slug, p["slug"])
+            assert len(paragraphs) == len(p["blocks"]), p["slug"]
+            for paragraph, block in zip(paragraphs, p["blocks"], strict=True):
+                assert len(paragraph.find_all("br")) == len(block["lines"]) - 1, p["slug"]
             count += len(doc.select("p.poem"))
         print(f"《{name}》：四十四出及七篇附录核验通过，居中诗联 {count} 处。")
 
