@@ -929,6 +929,26 @@ def _dadailiji_spec():
             "page_options": {slug: {"footer": ""} for slug, _ in pages}}
 
 
+def _luoyangjialanji_spec():
+    base = ROOT / "sources/luoyangjialanji"
+    catalog = json.loads((base / "chapters.json").read_text(encoding="utf8"))
+    path = base / "progress.json"
+    progress = json.loads(path.read_text(encoding="utf8")) if path.exists() else []
+    options = {}
+    for page in progress:
+        done, total = page["annotated"], page["paragraphs"]
+        label = "已注译" if done == total else f"已注译 {done}/{total} 段"
+        options[page["slug"]] = {"index_label": label, "reading_hint": label}
+    return {
+        "title": "洛阳伽蓝记", "author": "［北魏］杨衒之", "prose": True,
+        "strict_pairs": True, "home_intro_own": True, "side_toc": True,
+        "side_toc_always": True, "no_count": True, "wide_index": True,
+        "omit_source_credit": True, "page_options": options,
+        "pages": [(page["slug"], page["title"]) for page in catalog],
+        "index_footer": "收序及五卷。各卷注译进度见目录。",
+    }
+
+
 def _yili_spec():
     catalog = json.loads((ROOT / "sources/yili/chapters.json").read_text(encoding="utf8"))
     progress_path = ROOT / "sources/yili/progress.json"
@@ -942,6 +962,17 @@ def _yili_spec():
         "page_sources": {p["slug"]: {"url": p["url"], "revision": p["revision"]} for p in catalog},
         "index_footer": "十七篇全部注译完成。" if complete else "底本十七篇；白话与注释陆续整理。",
     }
+
+
+def _xinlun_spec():
+    catalog = json.loads((ROOT / "sources/xinlun/catalog.json").read_text(encoding="utf8"))
+    pages = [(p["slug"], p["title"]) for p in catalog]
+    return {"title": "新论", "author": "［东汉］桓谭", "prose": True,
+            "strict_pairs": True, "side_toc": True, "home_intro_own": True,
+            "no_count": True, "wide_index": True, "pages": pages,
+            "page_sources": {p["slug"]: {k: p[k] for k in ("url", "revision")} for p in catalog},
+            "reading_hint": "", "index_footer": "",
+            "page_options": {slug: {"footer": ""} for slug, _ in pages}}
 
 
 def _guoyu_spec():
@@ -1040,7 +1071,9 @@ POETRY = {
     "mozi": _mozi_spec(),
     "zhouli": _zhouli_spec(),
     "guoyu": _guoyu_spec(),
+    "xinlun": _xinlun_spec(),
     "yili": _yili_spec(),
+    "luoyangjialanji": _luoyangjialanji_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
     "dengxizi": _dengxizi_spec(),
@@ -1137,7 +1170,9 @@ BOOK_INTRO = {
     "dengxizi": "旧题春秋郑人邓析所撰，今本有《无厚》《转辞》两篇，讨论名实、法令、用人和辩说。",
     "xuanzhenzi": "唐代张志和的道家著作。今存《外篇》三卷，以寓言和问答探讨天地造化、有无与万物变化。",
     "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
+    "luoyangjialanji": "杨衒之追记北魏洛阳佛寺的兴废，按城内及城外四方分卷，也记录都城风物、人物掌故和西域见闻。",
     "yili": "先秦礼仪典籍，共十七篇，详述士大夫的冠婚、相见、乡饮、射礼、朝聘、丧服与祭祀。",
+    "xinlun": "桓谭论时政、经学与养生的著作，兼谈文章和琴道；原书已佚，今见各书征引辑成的残篇。",
     "guoyu": "先秦国别史，分记周、鲁、齐、晋、郑、楚、吴、越八国言论和史事，以君臣问答与劝谏见长。",
     "zhouli": "旧称《周官》，按六官编排职官与礼制，涉及赋役、祭祀、军政和刑狱；今本以《考工记》补冬官。",
     "mozi": "先秦墨家著作，主张兼爱、非攻、尚贤、节用，也讨论名辩、认识与守城技术。",
@@ -1598,6 +1633,7 @@ INITIAL["荀"] = "X"
 INITIAL["老"] = "L"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"
+INITIAL["新"] = "X"
 INITIAL.update({"冷": "L", "劫": "J", "后": "H", "最": "Z", "近": "J"})
 INITIAL.update({"喻": "Y", "警": "J", "醒": "X"})
 INITIAL["玄"] = "X"
@@ -1605,6 +1641,7 @@ INITIAL["邓"] = "D"
 INITIAL["大"] = "D"
 INITIAL["韩"] = "H"
 INITIAL["仪"] = "Y"
+INITIAL["洛"] = "L"
 INITIAL["金"] = "J"
 INITIAL["儒"] = "R"
 INITIAL.update({"孽": "N", "商": "S", "廿": "N", "发": "F", "负": "F"})
