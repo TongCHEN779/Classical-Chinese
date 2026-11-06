@@ -40,7 +40,18 @@ def rows(blocks):
                 yield False, joined[start:]
         previous = text
 
-def source_lines(book, blocks):
+def source_lines(book, blocks, slug=None):
+    if book == "chuke" and blocks and re.match(r"^第[一二三四五六七八九十百]+卷\s",
+                                                blocks[0]["lines"][0]):
+        blocks = blocks[1:]
+    if (book, slug) == ("erke", "040"):
+        for block in blocks:
+            yield "原：" + "/".join(block["lines"])
+        return
+    if (book, slug) == ("erke", "006"):
+        blocks = [{**b, "lines": ["".join(b["lines"])], "poem": False, "deep_indent": False, "layout": "p"}
+                  if b["lines"][0].startswith("这四句乃是白乐天") else b for b in blocks]
+
     for marked, text in rows(blocks):
         if book == "guanchang":
             note = re.fullmatch(r"〈（(.+?)）〉(.*)", text)
@@ -63,7 +74,7 @@ def main():
             assert p["revision"] and p["blocks"]
             dest = ROOT / "src" / book / p["slug"] / "01.txt"
             dest.parent.mkdir(parents=True, exist_ok=True)
-            body = "\n".join(source_lines(book, p["blocks"])) + "\n"
+            body = "\n".join(source_lines(book, p["blocks"], p["slug"])) + "\n"
             dest.write_text(f'# {p["title"]}\n{body}', encoding="utf8")
 
 if __name__ == "__main__":

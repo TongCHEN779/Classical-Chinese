@@ -945,7 +945,7 @@ def _luoyangjialanji_spec():
         "side_toc_always": True, "no_count": True, "wide_index": True,
         "omit_source_credit": True, "page_options": options,
         "pages": [(page["slug"], page["title"]) for page in catalog],
-        "index_footer": "收序及五卷。各卷注译进度见目录。",
+        "index_footer": "序及五卷全部注译。",
     }
 
 
@@ -971,7 +971,7 @@ def _xinlun_spec():
             "strict_pairs": True, "side_toc": True, "home_intro_own": True,
             "no_count": True, "wide_index": True, "pages": pages,
             "page_sources": {p["slug"]: {k: p[k] for k in ("url", "revision")} for p in catalog},
-            "reading_hint": "", "index_footer": "",
+            "reading_hint": "", "index_footer": "", "omit_source_credit": True,
             "page_options": {slug: {"footer": ""} for slug, _ in pages}}
 
 
@@ -1336,6 +1336,7 @@ def parse_poems(paths):
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 STAGE_BOOKS = {"xixiangji", "taohuashan", "qiangtoumashang", "baiyueting", "qiannulihun", "guanhanqing"}
 PEACH_DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】|\([^()]*\)|（[^（）]*）)")
+ERKE_STAGE = re.compile(r"(〈（[^〉]*）〉|〔[^〕]*〕|【[^】]*】)")
 PEACH_TUNES = {"鹧鸪天", "皂罗袍"}
 WESTERN_STAGE = re.compile(r"扮|科|(?:云|唱|下|上|上开|上去|念|念曰|白|了|坐|叫|起发)$")
 WESTERN_STAGE_EXTRA = {"洁叫了，住", "红见仆人", "见夫人", "歌曰"}
@@ -1397,11 +1398,11 @@ def split_poem_runs(o):
 
 def drama_html(text, stage_book=None):
     out = []
-    pattern = PEACH_DRAMA if stage_book == "taohuashan" else DRAMA
+    pattern = {"taohuashan": PEACH_DRAMA, "erke": ERKE_STAGE}.get(stage_book, DRAMA)
     for i, part in enumerate(pattern.split(text)):
         if i % 2:
             label = part[1:-1].strip()
-            tune = part.startswith("【")
+            tune = part.startswith("【") or (stage_book == "erke" and part.startswith("〔"))
             if stage_book == "xixiangji" and tune:
                 tune = not (WESTERN_STAGE.search(label) or label in WESTERN_STAGE_EXTRA)
             elif stage_book == "taohuashan":
@@ -1449,6 +1450,8 @@ def build_poetry(bslug, spec):
             continue
         secs = parse_poems(files)
         stage_book = bslug if bslug in STAGE_BOOKS and (bslug != "taohuashan" or slug.startswith("p")) else None
+        if (bslug, slug) == ("erke", "040"):
+            stage_book = bslug
         paragraph_style = "dr" if stage_book or not spec.get("prose") else "nv"
         nchunk = sum(1 for s in secs for c in s["chunks"] if "tbl" not in c)
         total += len(secs) if spec.get("count_entries") else nchunk

@@ -8,6 +8,7 @@ sys.path.insert(0, str(ROOT))
 from build import split_sents
 
 BASE = ROOT / "sources/xinlun"
+OMIT = {"p11": {15, 17}, "p15": {12}}  # Separate editorial parallels from the Hanshu.
 
 
 def read(name):
@@ -31,6 +32,8 @@ def prepare():
             paragraphs = item.get("段落", [])
             assert len(paragraphs) <= len(sec["paragraphs"]), (slug, i)
             for j, original in enumerate(sec["paragraphs"]):
+                if j in OMIT.get(slug, ()):
+                    continue
                 n = len(split_sents(original))
                 total += n
                 data = (paragraphs[j] or {}) if j < len(paragraphs) else {}

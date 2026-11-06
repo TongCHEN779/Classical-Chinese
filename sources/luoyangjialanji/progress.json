@@ -12,22 +12,22 @@
   {
     "slug": "p01",
     "title": "卷一·城内",
-    "annotated": 8,
+    "annotated": 49,
     "paragraphs": 49,
-    "translated_sentences": 239,
-    "notes": 27,
-    "next_paragraph": 9,
-    "next_text": "建中寺，普泰元年尚书令乐平王尔朱世隆所立也。"
+    "translated_sentences": 439,
+    "notes": 60,
+    "next_paragraph": null,
+    "next_text": null
   },
   {
     "slug": "p02",
     "title": "卷二·城东",
-    "annotated": 31,
+    "annotated": 43,
     "paragraphs": 43,
-    "translated_sentences": 245,
-    "notes": 11,
-    "next_paragraph": 32,
-    "next_text": "平等寺，广平武穆王怀舍宅所立也。在青阳门外二里御道北，所谓孝敬里也。堂宇宏美，林木萧森，平"
+    "translated_sentences": 460,
+    "notes": 26,
+    "next_paragraph": null,
+    "next_text": null
   },
   {
     "slug": "p03",
@@ -42,21 +42,21 @@
   {
     "slug": "p04",
     "title": "卷四·城西",
-    "annotated": 15,
+    "annotated": 51,
     "paragraphs": 51,
-    "translated_sentences": 112,
-    "notes": 4,
-    "next_paragraph": 16,
-    "next_text": "普泰末，雍州刺史陇西王尔朱天光总士马于此寺。寺门无何都崩，天光见而恶之。其年天光战败，斩于"
+    "translated_sentences": 365,
+    "notes": 25,
+    "next_paragraph": null,
+    "next_text": null
   },
   {
     "slug": "p05",
     "title": "卷五·城北",
-    "annotated": 6,
+    "annotated": 9,
     "paragraphs": 9,
-    "translated_sentences": 27,
-    "notes": 2,
-    "next_paragraph": 7,
-    "next_text": "神龟元年十一月冬，太后遣崇虚寺比丘惠生向西域取经，凡得一百七十部，皆是大乘妙典。初发京师，"
+    "translated_sentences": 339,
+    "notes": 9,
+    "next_paragraph": null,
+    "next_text": null
   }
 ]

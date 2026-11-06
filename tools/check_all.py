@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 STEPS = [
     ['tools/check_mozi.py'],
+    ['tools/check_xinlun.py'],
     ['tools/check_guoyu.py'],
     ['tools/check_zhouli.py'],
     ['tools/check_xunzi.py'],

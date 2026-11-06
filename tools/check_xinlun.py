@@ -2,7 +2,7 @@
 import sys
 from bs4 import BeautifulSoup
 
-from prepare_xinlun import ROOT, read
+from prepare_xinlun import OMIT, ROOT, read
 
 sys.path.insert(0, str(ROOT))
 from build import BOOK_INTRO, WIKI_INTRO, parse_poems, split_sents
@@ -21,16 +21,18 @@ def main():
     assert home.select_one('a[href="xinlun/index.html"] p').get_text() == BOOK_INTRO["xinlun"]
     assert "\n".join(p.get_text() for p in index.select("p.intro")) == WIKI_INTRO["xinlun"]["text"]
     assert [a["href"] for a in index.select("main li.ok a")] == [f"{s}.html" for s in slugs]
+    assert "维基文库" not in index.get_text()
     total = done = notes = 0
     for slug in slugs:
         source = read(slug + ".json")["sections"]
         sections = parse_poems([ROOT / "src/xinlun" / slug / "01.txt"])
         assert [s["title"] for s in sections] == [s["title"] for s in source], slug
         assert all(s["intro"] for s in sections), slug
-        paragraphs = [t for s in source for t in s["paragraphs"]]
+        paragraphs = [t for s in source for i, t in enumerate(s["paragraphs"]) if i not in OMIT.get(slug, ())]
         chunks = [c for s in sections for c in s["chunks"]]
         assert [c["o"] for c in chunks] == paragraphs, slug
         doc = html(f"xinlun/{slug}.html")
+        assert "维基文库" not in doc.get_text(), slug
         rendered = doc.select("section.entry p.v")
         assert [p.get_text() for p in rendered] == paragraphs, slug
         for c, block in zip(chunks, rendered):
