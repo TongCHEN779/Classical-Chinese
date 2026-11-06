@@ -40,6 +40,21 @@ def rows(blocks):
                 yield False, joined[start:]
         previous = text
 
+def source_lines(book, blocks):
+    for marked, text in rows(blocks):
+        if book == "guanchang":
+            note = re.fullmatch(r"〈（(.+?)）〉(.*)", text)
+            if note:
+                yield "注：" + note[1] + note[2]
+                continue
+            # Some notes use ordinary outer parentheses and bracket inner glosses.
+            note = re.fullmatch(r"（([^：]+：.+)）", text)
+            if note and "〈（" in note[1]:
+                yield "注：" + note[1].replace("〈（", "（").replace("）〉", "）")
+                continue
+        yield f'{"诗" if marked else "原"}：{text}'
+
+
 def main():
     for book, count in COUNTS.items():
         chapters = json.loads((ROOT / "sources" / book / "chapters.json").read_text())
@@ -48,7 +63,7 @@ def main():
             assert p["revision"] and p["blocks"]
             dest = ROOT / "src" / book / p["slug"] / "01.txt"
             dest.parent.mkdir(parents=True, exist_ok=True)
-            body = "".join(f'{"诗" if marked else "原"}：{text}\n' for marked, text in rows(p["blocks"]))
+            body = "\n".join(source_lines(book, p["blocks"])) + "\n"
             dest.write_text(f'# {p["title"]}\n{body}', encoding="utf8")
 
 if __name__ == "__main__":

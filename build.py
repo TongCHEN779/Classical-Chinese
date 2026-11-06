@@ -944,6 +944,17 @@ def _yili_spec():
     }
 
 
+def _guoyu_spec():
+    catalog = json.loads((ROOT / "sources/guoyu/catalog.json").read_text(encoding="utf8"))
+    pages = [(p["slug"], p["title"]) for p in catalog]
+    return {"title": "国语", "author": "［先秦］旧题左丘明", "prose": True,
+            "strict_pairs": True, "side_toc": True, "home_intro_own": True,
+            "no_count": True, "wide_index": True, "pages": pages,
+            "page_sources": {p["slug"]: {k: p[k] for k in ("url", "revision")} for p in catalog},
+            "reading_hint": "", "index_footer": "",
+            "page_options": {slug: {"footer": ""} for slug, _ in pages}}
+
+
 def _zhouli_spec():
     catalog = json.loads((ROOT / "sources/zhouli/catalog.json").read_text(encoding="utf8"))
     return {
@@ -1028,6 +1039,7 @@ POETRY = {
     "hanfeizi": _hanfeizi_spec(),
     "mozi": _mozi_spec(),
     "zhouli": _zhouli_spec(),
+    "guoyu": _guoyu_spec(),
     "yili": _yili_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
@@ -1081,7 +1093,7 @@ POETRY = {
     "mudanting": _mudanting_spec(),
     "hongloumeng": _hongloumeng_spec(),
     "lengyanguan": _plain_novel_spec("lengyanguan", "冷眼观", "［清］王浚卿", "回", 30),
-    "jieyuhui": _plain_novel_spec("jieyuhui", "劫餘灰", "［清］吴趼人", "回", 16),
+    "jieyuhui": _plain_novel_spec("jieyuhui", "劫余灰", "［清］吴趼人", "回", 16),
     "houguanchang": _plain_novel_spec("houguanchang", "后官场现形记", "［清］许优民", "回", 8),
     "zuijinguanchang": _plain_novel_spec("zuijinguanchang", "最近官场秘密史", "［清］陆士谔", "卷", 32),
     "jinshehui": _plain_novel_spec("jinshehui", "近世社会龌龊史", "［清］吴趼人", "回", 20),
@@ -1126,6 +1138,7 @@ BOOK_INTRO = {
     "xuanzhenzi": "唐代张志和的道家著作。今存《外篇》三卷，以寓言和问答探讨天地造化、有无与万物变化。",
     "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
     "yili": "先秦礼仪典籍，共十七篇，详述士大夫的冠婚、相见、乡饮、射礼、朝聘、丧服与祭祀。",
+    "guoyu": "先秦国别史，分记周、鲁、齐、晋、郑、楚、吴、越八国言论和史事，以君臣问答与劝谏见长。",
     "zhouli": "旧称《周官》，按六官编排职官与礼制，涉及赋役、祭祀、军政和刑狱；今本以《考工记》补冬官。",
     "mozi": "先秦墨家著作，主张兼爱、非攻、尚贤、节用，也讨论名辩、认识与守城技术。",
     "rongzhai": "南宋洪迈所著的读书笔记，历时近四十年写成，分“五笔”，共七十四卷。内容涉及经史、诗文、典制、考据、掌故，是宋代笔记中的名著。",
@@ -1569,6 +1582,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 INITIAL["荀"] = "X"
 INITIAL["老"] = "L"
 INITIAL["桃"] = "T"
+INITIAL["国"] = "G"
 INITIAL.update({"冷": "L", "劫": "J", "后": "H", "最": "Z", "近": "J"})
 INITIAL.update({"喻": "Y", "警": "J", "醒": "X"})
 INITIAL["玄"] = "X"
