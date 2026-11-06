@@ -26,6 +26,7 @@ def main():
         source = read(slug + ".json")["sections"]
         sections = parse_poems([ROOT / "src/guoyu" / slug / "01.txt"])
         assert [s["title"] for s in sections] == [s["title"] for s in source], slug
+        assert all(s["intro"] for s in sections), slug
         paragraphs = [t for s in source for t in s["paragraphs"]]
         chunks = [c for s in sections for c in s["chunks"]]
         assert [c["o"] for c in chunks] == paragraphs, slug
@@ -46,6 +47,7 @@ def main():
         assert [li.get_text() for li in doc.select(".notes.plain li")] == expected, slug
         assert [p.get_text() for p in doc.select(".intro-box p")] == [t for s in sections for t in s["intro"]], slug
         notes += len(expected)
+    assert done == total, (done, total)
     print(f"《国语》二十一卷及解叙核验通过：{done}/{total}句白话，{notes}条注释。")
 
 
