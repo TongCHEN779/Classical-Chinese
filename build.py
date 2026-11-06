@@ -478,6 +478,24 @@ def _jinpingmei_spec():
     }
 
 
+def _plain_novel_spec(slug, title, author, unit, count):
+    catalog = json.loads((ROOT / "sources" / slug / "chapters.json").read_text(encoding="utf8"))
+    pages = []
+    for entry in catalog:
+        key = entry["slug"]
+        if key.isdigit() and (int(key) - 1) % 10 == 0:
+            n = int(key)
+            pages.append((None, f"第{cn(n)}{unit}至第{cn(min(n + 9, count))}{unit}"))
+        pages.append((key, entry["title"]))
+    return {
+        "title": title, "author": author, "unit": unit, "pages": pages,
+        "prose": True, "no_tip": True, "side_toc": True, "home_intro_own": True,
+        "reading_hint": "", "no_count": True, "omit_source_credit": True,
+        "index_footer": f"全书{cn(count)}{unit}。" if slug != "erke" else "收序及四十卷。",
+        "page_options": {e["slug"]: {"footer": ""} for e in catalog},
+    }
+
+
 def _rulinwaishi_spec():
     catalog = json.loads((ROOT / "sources/rulinwaishi/chapters.json").read_text(encoding="utf8"))
     pages = []
@@ -495,6 +513,16 @@ def _rulinwaishi_spec():
         "page_options": {e["slug"]: {"footer": ""} for e in catalog},
         "page_sources": {e["slug"]: {"url": e["url"], "revision": e["revision"]} for e in catalog},
     }
+
+
+def _sanyan_spec(slug, title):
+    entries = json.loads((ROOT / "sources" / slug / "chapters.json").read_text(encoding="utf8"))
+    pages = [(p["slug"], p["title"]) for p in entries]
+    return {"title": title, "author": "［明］冯梦龙辑", "unit": "卷",
+            "prose": True, "no_tip": True, "side_toc": True, "no_count": True,
+            "wide_index": True, "home_intro_own": True, "pages": pages,
+            "reading_hint": "", "index_footer": "",
+            "page_options": {key: {"footer": ""} for key, _ in pages}}
 
 
 def _laocanyoujixuji_spec():
@@ -1048,12 +1076,34 @@ POETRY = {
     "huainanzi": _huainanzi_spec(),
     "shangjunshu": _shangjunshu_spec(),
     "liaozhai": _liaozhai_spec(),
+    "taohuashan": _plain_novel_spec("taohuashan", "桃花扇", "［清］孔尚任", "出", 44)
+        | {"prose": False, "index_footer": ""},
     "mudanting": _mudanting_spec(),
     "hongloumeng": _hongloumeng_spec(),
+    "lengyanguan": _plain_novel_spec("lengyanguan", "冷眼观", "［清］王浚卿", "回", 30),
+    "jieyuhui": _plain_novel_spec("jieyuhui", "劫餘灰", "［清］吴趼人", "回", 16),
+    "houguanchang": _plain_novel_spec("houguanchang", "后官场现形记", "［清］许优民", "回", 8),
+    "zuijinguanchang": _plain_novel_spec("zuijinguanchang", "最近官场秘密史", "［清］陆士谔", "卷", 32),
+    "jinshehui": _plain_novel_spec("jinshehui", "近世社会龌龊史", "［清］吴趼人", "回", 20),
+    "ershinian": _sanyan_spec("ershinian", "二十年目睹之怪现状") | {"author": "［清］吴趼人", "unit": "回"},
+    "yushimingyan": _sanyan_spec("yushimingyan", "喻世明言"),
+    "jingshitongyan": _sanyan_spec("jingshitongyan", "警世通言"),
+    "xingshihengyan": _sanyan_spec("xingshihengyan", "醒世恒言"),
     "laocanyouji": _laocanyouji_spec(),
     "laocanyoujixuji": _laocanyoujixuji_spec(),
     "jinpingmei": _jinpingmei_spec(),
     "rulinwaishi": _rulinwaishi_spec(),
+    "niehaihua": _plain_novel_spec("niehaihua", "孽海花", "金松岑、曾朴", "回", 35),
+    "shangjie": _plain_novel_spec("shangjie", "商界现形记", "［清］云间天赘生", "回", 16),
+    "nianzaifanhuameng": {**_plain_novel_spec("nianzaifanhuameng", "廿载繁华梦", "［清］黄世仲", "回", 40),
+                          "index_footer": "收序及四十回。"},
+    "facaimijue": _plain_novel_spec("facaimijue", "发财秘诀", "［清］吴趼人", "回", 10),
+    "fupuxiantan": {**_plain_novel_spec("fupuxiantan", "负曝闲谈", "［清］欧阳巨源", "回", 30),
+                   "index_footer": "传世三十回，原书未完。"},
+    "jiuweigui": _plain_novel_spec("jiuweigui", "九尾龟", "［清］张春帆", "回", 192),
+    "guanchang": _plain_novel_spec("guanchang", "官场现形记", "［清］李宝嘉、欧阳巨源", "回", 60),
+    "chuke": _plain_novel_spec("chuke", "初刻拍案惊奇", "［明］凌濛初", "卷", 40),
+    "erke": _plain_novel_spec("erke", "二刻拍案惊奇", "［明］凌濛初", "卷", 40),
     "shiji": {"title": "史记", "author": "［西汉］司马迁", "unit": "节",
               "intro": "",
               "pages": _shiji_pages()},
@@ -1120,10 +1170,29 @@ BOOK_INTRO = {
     "huainanzi": "西汉淮南王刘安及其门客所著的杂家著作，兼取道、儒、法、阴阳诸家，共二十一卷。",
     "shangjunshu": "法家著作，又名《商子》，讨论变法、耕战、赏刑与法令，今存二十四篇。",
     "liaozhai": "清代蒲松龄所著文言短篇小说集，多写狐鬼花妖，反映世态人情。",
+    "taohuashan": "孔尚任的清代传奇，借李香君与侯方域的离合，写南明兴亡与秦淮旧事。",
     "mudanting": "明代汤显祖所作传奇，又名《还魂记》，全五十五出，写杜丽娘因梦生情、因情而死、又因情复生的故事。",
+    "niehaihua": "金松岑开篇、曾朴续写的晚清小说，借金雯青与傅彩云的经历，写士林交游、出使见闻与政局变迁。",
+    "shangjie": "清末章回小说，围绕商号经营、同业往来和市场风波，描写商场中的利害与人情。",
+    "nianzaifanhuameng": "黄世仲的章回小说，以周氏一家的发迹和败落为主线，写晚清广东官商往来与富贵人家的冷暖。",
+    "facaimijue": "吴趼人的晚清小说，又名《黄奴外史》，从香港开埠后的营生写起，讽刺逐利和投机发财的种种手段。",
+    "fupuxiantan": "欧阳巨源的晚清小说，以科场、衙门和市井里的故事揭露钻营与欺诈，现存三十回。",
+    "jiuweigui": "晚清张春帆的长篇小说，以章秋谷的交游为线索，写上海及江南的风月场、市井往来和官商百态。",
+    "guanchang": "晚清谴责小说，以一桩桩官场见闻串起六十回，写钻营求官、买缺卖官和上下官员之间的倾轧。",
+    "chuke": "明代凌濛初的白话短篇小说集，写商旅、婚姻、诉讼与奇遇，从市井故事中见人情世态。",
+    "erke": "凌濛初继《初刻拍案惊奇》之后编撰的白话小说集，多写民间婚恋、商贾往来和公案，末卷另收杂剧。",
     "rulinwaishi": "清代吴敬梓的长篇讽刺小说，写范进、匡超人等读书人的遭际，揭示科举功名怎样左右士人的生活与交往。",
     "jinpingmei": "明代长篇世情小说，以西门庆一家的兴衰为主线，描绘市井生意、家庭日常和官场往来。此处收录崇祯本。",
     "laocanyoujixuji": "刘鹗续写老残的游历，由泰山访道写到梦游阴司，借见闻与异境谈修行、因果和人情。",
+    "lengyanguan": "王浚卿的晚清小说，从游宦见闻写到地方衙门和上海洋场，讥刺官场积弊与世态人情。",
+    "jieyuhui": "吴趼人的晚清小说，写朱婉贞和陈耕伯的离合，也写海外华工的困苦。",
+    "houguanchang": "许优民续写《官场现形记》，借捐输、谋缺等官场故事揭露弊端，也议论农工商的兴衰。",
+    "zuijinguanchang": "陆士谔的晚清小说，从赴汉口的轮船上说起，写谋差、钻营和衙门里的人情交易。",
+    "jinshehui": "吴趼人接续《二十年目睹之怪现状》，写余有声重到上海后遇见的借贷、招股和买卖官缺等骗局。",
+    "ershinian": "吴趼人的晚清小说，借九死一生的二十年见闻，写官场、商界与家庭里的荒唐事。",
+    "yushimingyan": "冯梦龙编选的四十篇白话短篇小说，写商旅、婚姻、交友与公案，收有《蒋兴哥重会珍珠衫》《金玉奴棒打薄情郎》等篇。",
+    "jingshitongyan": "冯梦龙编选的四十篇白话短篇小说，从伯牙知音写到白娘子、杜十娘，兼收市井故事与传奇。",
+    "xingshihengyan": "冯梦龙编选的四十篇白话短篇小说，写寻常人家的情义和命运，也收《卖油郎独占花魁》《十五贯戏言成巧祸》等名篇。",
     "laocanyouji": "刘鹗的晚清小说，以游医老残在山东的见闻串起济南风物、黄河水患与官府冤狱。",
     "hongloumeng": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。",
     "shiji": "西汉司马迁所著的第一部纪传体通史，分本纪、表、书、世家、列传，共一百三十卷。",
@@ -1499,6 +1568,9 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 INITIAL["荀"] = "X"
 INITIAL["老"] = "L"
+INITIAL["桃"] = "T"
+INITIAL.update({"冷": "L", "劫": "J", "后": "H", "最": "Z", "近": "J"})
+INITIAL.update({"喻": "Y", "警": "J", "醒": "X"})
 INITIAL["玄"] = "X"
 INITIAL["邓"] = "D"
 INITIAL["大"] = "D"
@@ -1506,6 +1578,8 @@ INITIAL["韩"] = "H"
 INITIAL["仪"] = "Y"
 INITIAL["金"] = "J"
 INITIAL["儒"] = "R"
+INITIAL.update({"孽": "N", "商": "S", "廿": "N", "发": "F", "负": "F"})
+INITIAL.update({"官": "G", "初": "C", "二": "E", "九": "J"})
 
 
 def build_home():
