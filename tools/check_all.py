@@ -16,6 +16,7 @@ STEPS = [
     ['tools/check_wenxuan.py'],
     ['tools/check_lunheng.py'],
     ['tools/check_yutai.py'],
+    ['tools/check_yuefu.py'],
     ['tools/check_guoyu.py'],
     ['tools/check_zhouli.py'],
     ['tools/check_xunzi.py'],
