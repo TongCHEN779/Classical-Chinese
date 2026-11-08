@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "p01",
+    "title": "孟春纪",
+    "annotated": 30,
+    "paragraphs": 30,
+    "translated_sentences": 198,
+    "notes": 27,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p02",
+    "title": "仲春纪",
+    "annotated": 30,
+    "paragraphs": 30,
+    "translated_sentences": 176,
+    "notes": 20,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p03",
+    "title": "季春纪",
+    "annotated": 26,
+    "paragraphs": 26,
+    "translated_sentences": 181,
+    "notes": 22,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p04",
+    "title": "孟夏纪",
+    "annotated": 26,
+    "paragraphs": 26,
+    "translated_sentences": 192,
+    "notes": 15,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p05",
+    "title": "仲夏纪",
+    "annotated": 32,
+    "paragraphs": 32,
+    "translated_sentences": 183,
+    "notes": 16,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p06",
+    "title": "季夏纪",
+    "annotated": 22,
+    "paragraphs": 22,
+    "translated_sentences": 175,
+    "notes": 18,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p07",
+    "title": "孟秋纪",
+    "annotated": 19,
+    "paragraphs": 19,
+    "translated_sentences": 170,
+    "notes": 11,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p08",
+    "title": "仲秋纪",
+    "annotated": 26,
+    "paragraphs": 26,
+    "translated_sentences": 174,
+    "notes": 20,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p09",
+    "title": "季秋纪",
+    "annotated": 24,
+    "paragraphs": 24,
+    "translated_sentences": 190,
+    "notes": 13,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p10",
+    "title": "孟冬纪",
+    "annotated": 26,
+    "paragraphs": 26,
+    "translated_sentences": 186,
+    "notes": 16,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p11",
+    "title": "仲冬纪",
+    "annotated": 23,
+    "paragraphs": 23,
+    "translated_sentences": 210,
+    "notes": 13,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p12",
+    "title": "季冬纪",
+    "annotated": 16,
+    "paragraphs": 16,
+    "translated_sentences": 187,
+    "notes": 24,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p13",
+    "title": "有始览",
+    "annotated": 33,
+    "paragraphs": 33,
+    "translated_sentences": 248,
+    "notes": 18,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p14",
+    "title": "孝行览",
+    "annotated": 39,
+    "paragraphs": 39,
+    "translated_sentences": 411,
+    "notes": 35,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p15",
+    "title": "慎大览",
+    "annotated": 37,
+    "paragraphs": 37,
+    "translated_sentences": 451,
+    "notes": 32,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p16",
+    "title": "先识览",
+    "annotated": 28,
+    "paragraphs": 28,
+    "translated_sentences": 416,
+    "notes": 56,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p17",
+    "title": "审分览",
+    "annotated": 34,
+    "paragraphs": 34,
+    "translated_sentences": 376,
+    "notes": 102,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p18",
+    "title": "审应览",
+    "annotated": 43,
+    "paragraphs": 43,
+    "translated_sentences": 453,
+    "notes": 60,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p19",
+    "title": "离俗览",
+    "annotated": 35,
+    "paragraphs": 35,
+    "translated_sentences": 454,
+    "notes": 88,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p20",
+    "title": "恃君览",
+    "annotated": 39,
+    "paragraphs": 39,
+    "translated_sentences": 434,
+    "notes": 90,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p21",
+    "title": "开春论",
+    "annotated": 22,
+    "paragraphs": 22,
+    "translated_sentences": 214,
+    "notes": 38,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p22",
+    "title": "慎行论",
+    "annotated": 25,
+    "paragraphs": 25,
+    "translated_sentences": 215,
+    "notes": 80,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p23",
+    "title": "贵直论",
+    "annotated": 20,
+    "paragraphs": 20,
+    "translated_sentences": 230,
+    "notes": 48,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p24",
+    "title": "不苟论",
+    "annotated": 24,
+    "paragraphs": 24,
+    "translated_sentences": 211,
+    "notes": 66,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p25",
+    "title": "似顺论",
+    "annotated": 31,
+    "paragraphs": 31,
+    "translated_sentences": 241,
+    "notes": 63,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p26",
+    "title": "士容论",
+    "annotated": 39,
+    "paragraphs": 39,
+    "translated_sentences": 238,
+    "notes": 61,
+    "next_paragraph": null,
+    "next_text": null
+  }
+]

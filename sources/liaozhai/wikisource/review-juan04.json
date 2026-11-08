@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-27",
+  "scope": "卷四第13—40篇及聊斋自志",
+  "volume4_catalog_entries": 40,
+  "new_novels": 28,
+  "new_paragraphs": 94,
+  "new_sentence_pairs": 1500,
+  "new_notes": 682,
+  "preface_sentence_pairs": 24,
+  "preface_notes": 30,
+  "exact_cached_original_coverage": true,
+  "rendered_translations_match": true,
+  "all_site_html_pages": 562,
+  "all_site_note_buttons": 18872,
+  "all_note_counts_match": true,
+  "browser_visual_check": false,
+  "next": {
+    "volume": 5,
+    "id": "001",
+    "title": "阳武侯",
+    "source": "wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC05%E5%8D%B7"
+  }
+}

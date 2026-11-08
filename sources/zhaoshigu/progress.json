@@ -1,0 +1,16 @@
+{
+  "book": "赵氏孤儿",
+  "pages": [
+    {
+      "slug": "zhengwen",
+      "title": "冤报冤赵氏孤儿",
+      "sections": 6,
+      "source": {
+        "title": "冤報冤趙氏孤兒",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%86%A4%E5%A0%B1%E5%86%A4%E8%B6%99%E6%B0%8F%E5%AD%A4%E5%85%92",
+        "revision": "1488439",
+        "text_sha256": "ff58554fb3771870f3291a166adb03446a96b2aac4c30d6b6e1ef2ce794c5ec0"
+      }
+    }
+  ]
+}

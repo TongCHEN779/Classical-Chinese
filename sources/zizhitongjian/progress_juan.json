@@ -1,0 +1,3239 @@
+{
+  "book": "资治通鉴（卷一至卷七十八）",
+  "pages": [
+    {
+      "slug": "juan001",
+      "title": "卷一",
+      "sections": 33,
+      "source": {
+        "title": "資治通鑑/卷001",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7001",
+        "revision": "2489405",
+        "text_sha256": "a4b699a609b143bf37d60c157d1b35e3b81266144f342e68c966714d47614889"
+      }
+    },
+    {
+      "slug": "juan002",
+      "title": "卷二",
+      "sections": 43,
+      "source": {
+        "title": "資治通鑑/卷002",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7002",
+        "revision": "2638853",
+        "text_sha256": "8247893749825a45608e3d2b71c0db646fb4722ecda83749651388ac822d8ad7"
+      }
+    },
+    {
+      "slug": "juan003",
+      "title": "卷三",
+      "sections": 25,
+      "source": {
+        "title": "資治通鑑/卷003",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7003",
+        "revision": "2594130",
+        "text_sha256": "af06ac3f51abaafb7e51157e347f562989684054652883fd4c42990b36b9f23b"
+      }
+    },
+    {
+      "slug": "juan004",
+      "title": "卷四",
+      "sections": 27,
+      "source": {
+        "title": "資治通鑑/卷004",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7004",
+        "revision": "818906",
+        "text_sha256": "c21b342366cb6cc0f83f6312d167232ee3d08f497257947139f2f149657bbea5"
+      }
+    },
+    {
+      "slug": "juan005",
+      "title": "卷五",
+      "sections": 17,
+      "source": {
+        "title": "資治通鑑/卷005",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7005",
+        "revision": "2594132",
+        "text_sha256": "832162a3f81aaef4217572a5992280d6f5fc38c465b22ed696ffa8c1411b7db2"
+      }
+    },
+    {
+      "slug": "juan006",
+      "title": "卷六",
+      "sections": 29,
+      "source": {
+        "title": "資治通鑑/卷006",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7006",
+        "revision": "2609689",
+        "text_sha256": "c0e9f846c2bef7c5d47cc1e59d0d4335357216f695295c654e91b5d88fa187bd"
+      }
+    },
+    {
+      "slug": "juan007",
+      "title": "卷七",
+      "sections": 20,
+      "source": {
+        "title": "資治通鑑/卷007",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7007",
+        "revision": "1249886",
+        "text_sha256": "d5ff20535b68f20cc3f5cbf7babe9bc8367ebd56eadbcfab07500bc38da32c2e"
+      }
+    },
+    {
+      "slug": "juan008",
+      "title": "卷八",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷008",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7008",
+        "revision": "1249914",
+        "text_sha256": "440e4b576b4e706d3d4519c93ccae250cd3f337af3649c6627e353185dace750"
+      }
+    },
+    {
+      "slug": "juan009",
+      "title": "卷九",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷009",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7009",
+        "revision": "2174852",
+        "text_sha256": "61d1b1839abe95e57c4035d4a3b0db0b4fed59eee496565962727301f39f32b7"
+      }
+    },
+    {
+      "slug": "juan010",
+      "title": "卷十",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷010",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7010",
+        "revision": "2520716",
+        "text_sha256": "d6c8b2be3dd95e87d3d3715c623f20f972ba5a02eed36086345802a04226572a"
+      }
+    },
+    {
+      "slug": "juan011",
+      "title": "卷十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷011",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7011",
+        "revision": "7910161",
+        "text_sha256": "3ff2d0d77ea9a61e7e589dd224f485282e06bc4aba012c30e2f8ea63a46b6682"
+      }
+    },
+    {
+      "slug": "juan012",
+      "title": "卷十二",
+      "sections": 13,
+      "source": {
+        "title": "資治通鑑/卷012",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7012",
+        "revision": "2496498",
+        "text_sha256": "933b86d5cbd2b28f76965f02b380898a9f8bbd3a76ff83e8808d3b22a07061b1"
+      }
+    },
+    {
+      "slug": "juan013",
+      "title": "卷十三",
+      "sections": 11,
+      "source": {
+        "title": "資治通鑑/卷013",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7013",
+        "revision": "2175050",
+        "text_sha256": "91e12684c3e4051ac2a097672ed70c721cb6104272bd03637170e2d152f294a0"
+      }
+    },
+    {
+      "slug": "juan014",
+      "title": "卷十四",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷014",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7014",
+        "revision": "1554008",
+        "text_sha256": "d1f7028e01fccc7a35a58dba3c6674df42abcbe4be356183394c09d87af5021e"
+      }
+    },
+    {
+      "slug": "juan015",
+      "title": "卷十五",
+      "sections": 16,
+      "source": {
+        "title": "資治通鑑/卷015",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7015",
+        "revision": "1151616",
+        "text_sha256": "7390b3908b467cc403783607d71f65b921989db8b4008bd6773d6e5c7edb2fe1"
+      }
+    },
+    {
+      "slug": "juan016",
+      "title": "卷十六",
+      "sections": 15,
+      "source": {
+        "title": "資治通鑑/卷016",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7016",
+        "revision": "2082154",
+        "text_sha256": "09f59760f87feb75151f76085a6117f8684d6c8a37c29309124986dc60e076fd"
+      }
+    },
+    {
+      "slug": "juan017",
+      "title": "卷十七",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷017",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7017",
+        "revision": "1511464",
+        "text_sha256": "e7ac4b335c142cd8efd9c61e7c40c7e25272710eca0ddd32bfa57866ea465711"
+      }
+    },
+    {
+      "slug": "juan018",
+      "title": "卷十八",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷018",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7018",
+        "revision": "1511465",
+        "text_sha256": "3f81ff8c82b9a6f0e23f2f1c5392f11f337a3d465805e76178d328e71a767f13"
+      }
+    },
+    {
+      "slug": "juan019",
+      "title": "卷十九",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷019",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7019",
+        "revision": "1511466",
+        "text_sha256": "b4d7f2e4f5e1616e03b0dd094a7b81691a4fe7986272be01ebd095f9bd2922a2"
+      }
+    },
+    {
+      "slug": "juan020",
+      "title": "卷二十",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷020",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7020",
+        "revision": "1511467",
+        "text_sha256": "55639cabacb0ed6ea516f267f0ff97652086815663bedff03123d74ea37aba36"
+      }
+    },
+    {
+      "slug": "juan021",
+      "title": "卷二十一",
+      "sections": 12,
+      "source": {
+        "title": "資治通鑑/卷021",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7021",
+        "revision": "1511468",
+        "text_sha256": "7c108bf1d1daecff4750883d5e6c44ebe3b18225dc3da87c1f1bd32a16f91841"
+      }
+    },
+    {
+      "slug": "juan022",
+      "title": "卷二十二",
+      "sections": 13,
+      "source": {
+        "title": "資治通鑑/卷022",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7022",
+        "revision": "2459538",
+        "text_sha256": "1e74df26c9be18115af5591debde5fe9893a550a97143b6a599947f734e9b38a"
+      }
+    },
+    {
+      "slug": "juan023",
+      "title": "卷二十三",
+      "sections": 13,
+      "source": {
+        "title": "資治通鑑/卷023",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7023",
+        "revision": "1554064",
+        "text_sha256": "8ec918e0740bacb909474c6b5a5025ebe4bb27f86a9f12ec4ef05caf67299168"
+      }
+    },
+    {
+      "slug": "juan024",
+      "title": "卷二十四",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷024",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7024",
+        "revision": "1554123",
+        "text_sha256": "ab269d055936fed62320ba1e7d33cdbeaad898159100067a5ac44c39e6d09447"
+      }
+    },
+    {
+      "slug": "juan025",
+      "title": "卷二十五",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷025",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7025",
+        "revision": "1554186",
+        "text_sha256": "86362e74ccbbcbb81e6fccc997ab8049374608852dee359f6c21d1a54415ce9e"
+      }
+    },
+    {
+      "slug": "juan026",
+      "title": "卷二十六",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷026",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7026",
+        "revision": "617492",
+        "text_sha256": "4f282262eaabddf6327484c0f5c2f1e8366b9e61233c1d207d3ccfbbf2115c0f"
+      }
+    },
+    {
+      "slug": "juan027",
+      "title": "卷二十七",
+      "sections": 11,
+      "source": {
+        "title": "資治通鑑/卷027",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7027",
+        "revision": "1554072",
+        "text_sha256": "838c751ba2ae10967cb1538b75c7d3d36451e844239117c2c4f1bb911382fce9"
+      }
+    },
+    {
+      "slug": "juan028",
+      "title": "卷二十八",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷028",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7028",
+        "revision": "1553905",
+        "text_sha256": "10793140d31cb6694faaa201b8326dd1d5c6cd17c5a0dd2eb12dfc6cfa900279"
+      }
+    },
+    {
+      "slug": "juan029",
+      "title": "卷二十九",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷029",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7029",
+        "revision": "617495",
+        "text_sha256": "977736431d0316900d3f0dcf5316f93e80ae2b390900059384bc94ef98207592"
+      }
+    },
+    {
+      "slug": "juan030",
+      "title": "卷三十",
+      "sections": 11,
+      "source": {
+        "title": "資治通鑑/卷030",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7030",
+        "revision": "2457552",
+        "text_sha256": "d56447f44b195d4e55ade19b57bb17d020b0603f99f63b3f1297c70eaa920c36"
+      }
+    },
+    {
+      "slug": "juan031",
+      "title": "卷三十一",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷031",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7031",
+        "revision": "8733064",
+        "text_sha256": "de11b32443454cff50b86cb72ec479dfbaaef05f2c9ca16724b15ad773489bf9"
+      }
+    },
+    {
+      "slug": "juan032",
+      "title": "卷三十二",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷032",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7032",
+        "revision": "9057400",
+        "text_sha256": "63d16ab05d7a9980bf230596f6283e7c0346e22bc5a81556ca3f2da9b62bd5a0"
+      }
+    },
+    {
+      "slug": "juan033",
+      "title": "卷三十三",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷033",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7033",
+        "revision": "9808275",
+        "text_sha256": "a4cb8657cf75b99392e93549513d54da1d192bf0d1444c6ea910b5519588abe9"
+      }
+    },
+    {
+      "slug": "juan034",
+      "title": "卷三十四",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷034",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7034",
+        "revision": "11123447",
+        "text_sha256": "0d5182cbaa686dbc5a7d53fa0ee1703ec72597ca1996189b81cc181589b70d24"
+      }
+    },
+    {
+      "slug": "juan035",
+      "title": "卷三十五",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷035",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7035",
+        "revision": "2592036",
+        "text_sha256": "01ed1f3118364b5eae6f3c6e3c2c9d3e3f1037fc6b1a6a1155cce750dc6e0327"
+      }
+    },
+    {
+      "slug": "juan036",
+      "title": "卷三十六",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷036",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7036",
+        "revision": "2592050",
+        "text_sha256": "6d821209e6598e28bdb849be95fe58ae176655a52129c5d6b9419952248f6d9e"
+      }
+    },
+    {
+      "slug": "juan037",
+      "title": "卷三十七",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷037",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7037",
+        "revision": "2381007",
+        "text_sha256": "181a5fd8541c54ea538ae21d5562b4b3bc8fae715a2f1f23e43146e3f129fbf3"
+      }
+    },
+    {
+      "slug": "juan038",
+      "title": "卷三十八",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷038",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7038",
+        "revision": "2381099",
+        "text_sha256": "8859c2728f11bee2f92647eed13558e26039a53038556d0c5fd6d1158c01367d"
+      }
+    },
+    {
+      "slug": "juan039",
+      "title": "卷三十九",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷039",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7039",
+        "revision": "2390023",
+        "text_sha256": "30fe6daa66b197969f0522caf642f98528c4af42a631c6c9236d2a2cbe492c74"
+      }
+    },
+    {
+      "slug": "juan040",
+      "title": "卷四十",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷040",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7040",
+        "revision": "1554172",
+        "text_sha256": "776d9e60e56d0d67f1daa879461914205f86f9ccaead1b900e52b773b96633c3"
+      }
+    },
+    {
+      "slug": "juan041",
+      "title": "卷四十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷041",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7041",
+        "revision": "1554190",
+        "text_sha256": "0ed75d03289788d09c915f6ee786ee187a374d4959e2f3fa211679097f7826ab"
+      }
+    },
+    {
+      "slug": "juan042",
+      "title": "卷四十二",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷042",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7042",
+        "revision": "1502565",
+        "text_sha256": "fc4c9ad359225ddc1bfa70d5271d62bae3e60eabcacf087078d69ea20df492b0"
+      }
+    },
+    {
+      "slug": "juan043",
+      "title": "卷四十三",
+      "sections": 12,
+      "source": {
+        "title": "資治通鑑/卷043",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7043",
+        "revision": "1502566",
+        "text_sha256": "9a2580498ff78f8d0881fccc1d8c1ca9c76dcf58028d44f3a757530ecf8f360e"
+      }
+    },
+    {
+      "slug": "juan044",
+      "title": "卷四十四",
+      "sections": 15,
+      "source": {
+        "title": "資治通鑑/卷044",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7044",
+        "revision": "2356198",
+        "text_sha256": "59754257061630644487b6e090c349c8a7071683c2ed4e8ff4584241bee2423b"
+      }
+    },
+    {
+      "slug": "juan045",
+      "title": "卷四十五",
+      "sections": 16,
+      "source": {
+        "title": "資治通鑑/卷045",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7045",
+        "revision": "2396387",
+        "text_sha256": "a7dda3c2d40ad45d922010fba0b999d81c779a13f49fbb1f05c631208da02679"
+      }
+    },
+    {
+      "slug": "juan046",
+      "title": "卷四十六",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷046",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7046",
+        "revision": "2402720",
+        "text_sha256": "9f4b7c1827f9c083f22df1b39305bb787b13654f56a4b52a41169527c4697986"
+      }
+    },
+    {
+      "slug": "juan047",
+      "title": "卷四十七",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷047",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7047",
+        "revision": "2400515",
+        "text_sha256": "ed5714300440bc758134461f3a2aa23755941a218cae8f7139ecccbf9423b2ad"
+      }
+    },
+    {
+      "slug": "juan048",
+      "title": "卷四十八",
+      "sections": 15,
+      "source": {
+        "title": "資治通鑑/卷048",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7048",
+        "revision": "1502609",
+        "text_sha256": "5073c0473a3a551a857c664cf8f97fae93be74dc48574ebe143ca9625c5f9c4d"
+      }
+    },
+    {
+      "slug": "juan049",
+      "title": "卷四十九",
+      "sections": 11,
+      "source": {
+        "title": "資治通鑑/卷049",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7049",
+        "revision": "2413700",
+        "text_sha256": "d2e037797cf69b31d77a5f341ba7a3cee9771f3344c538ebcbf92c145ff0f475"
+      }
+    },
+    {
+      "slug": "juan050",
+      "title": "卷五十",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷050",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7050",
+        "revision": "2415983",
+        "text_sha256": "cb1dcaf7187a7f24dffec2366f1e06b2baf7fad2ac772a9b5b9e589b12f7afff"
+      }
+    },
+    {
+      "slug": "juan051",
+      "title": "卷五十一",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷051",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7051",
+        "revision": "2415987",
+        "text_sha256": "453f8f3dbcf9786fd00acc93d60515a0ca283fad522c52b451e6c895b697739f"
+      }
+    },
+    {
+      "slug": "juan052",
+      "title": "卷五十二",
+      "sections": 13,
+      "source": {
+        "title": "資治通鑑/卷052",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7052",
+        "revision": "2416135",
+        "text_sha256": "b29838697ecf92458a0b0ba91b8d9ffdb0e16e5056deca4221814b314e73d3ae"
+      }
+    },
+    {
+      "slug": "juan053",
+      "title": "卷五十三",
+      "sections": 12,
+      "source": {
+        "title": "資治通鑑/卷053",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7053",
+        "revision": "2422532",
+        "text_sha256": "44f43ee70679f20424c5e1bd2927384e46ab08403ff5d123b2302d8c1befacb2"
+      }
+    },
+    {
+      "slug": "juan054",
+      "title": "卷五十四",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷054",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7054",
+        "revision": "1502592",
+        "text_sha256": "15a2f5be2b9a008cc6a64b9624b1ad8e659d5d76aee09d22bc4707421e4b4d3e"
+      }
+    },
+    {
+      "slug": "juan055",
+      "title": "卷五十五",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷055",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7055",
+        "revision": "2081429",
+        "text_sha256": "7e0c368988a1594e168cbece00540724123cb7920d45faeba66a1536a4c67e0e"
+      }
+    },
+    {
+      "slug": "juan056",
+      "title": "卷五十六",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷056",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7056",
+        "revision": "2538699",
+        "text_sha256": "f80f284b01ea5e21f0f738b3d6c8c389d6750ed5d554fe80951cd66657b909a8"
+      }
+    },
+    {
+      "slug": "juan057",
+      "title": "卷五十七",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷057",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7057",
+        "revision": "1960834",
+        "text_sha256": "17793df08cc323f211e63fce68ba2e314cc6e65172e6fccc1b027abde161be21"
+      }
+    },
+    {
+      "slug": "juan058",
+      "title": "卷五十八",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷058",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7058",
+        "revision": "2594133",
+        "text_sha256": "60c437b6df12965825152e52091da1c2fc8aa42e674e5c2233ec5fae57aca3a7"
+      }
+    },
+    {
+      "slug": "juan059",
+      "title": "卷五十九",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷059",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7059",
+        "revision": "2594134",
+        "text_sha256": "1cab7b6d7c01bf8e77ee8bd553e37179b68c6570c7cf02a8b70f21410e62ddab"
+      }
+    },
+    {
+      "slug": "juan060",
+      "title": "卷六十",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷060",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7060",
+        "revision": "2555924",
+        "text_sha256": "e895a0261fa18259128bc3c77576fdd09eac2397d59f6d4e1d605b161fa28e4b"
+      }
+    },
+    {
+      "slug": "juan061",
+      "title": "卷六十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷061",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7061",
+        "revision": "2594136",
+        "text_sha256": "6ec5b9f5bb078198e273ddca03254468d4c76cd1108b478477add207877c16ec"
+      }
+    },
+    {
+      "slug": "juan062",
+      "title": "卷六十二",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷062",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7062",
+        "revision": "7904753",
+        "text_sha256": "ccb2c949adec6ad5aff25e9e07b4f59179361f1a2ca88801c746f7e22a62d11f"
+      }
+    },
+    {
+      "slug": "juan063",
+      "title": "卷六十三",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷063",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7063",
+        "revision": "2594138",
+        "text_sha256": "82cce4cfe87f92dde512a06deb268a4dd6e127160a496b14120720113a3087e6"
+      }
+    },
+    {
+      "slug": "juan064",
+      "title": "卷六十四",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷064",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7064",
+        "revision": "2594139",
+        "text_sha256": "b3ad11f1b25ac4f1811f969ee31e6a8c160dd771393d4b11fcaee51ff48ccf8f"
+      }
+    },
+    {
+      "slug": "juan065",
+      "title": "卷六十五",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷065",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7065",
+        "revision": "2306420",
+        "text_sha256": "b3c7f87d2f074348e3f2b528a330cedc7adcd048b056cb8090343ce17a9e9e0d"
+      }
+    },
+    {
+      "slug": "juan066",
+      "title": "卷六十六",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷066",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7066",
+        "revision": "2563650",
+        "text_sha256": "e0d8794781e5e2ee22fe13412df4c9da8f7367f196157d7b7e82c604e60f8708"
+      }
+    },
+    {
+      "slug": "juan067",
+      "title": "卷六十七",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷067",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7067",
+        "revision": "2567256",
+        "text_sha256": "797875f9adfb3d5c023e5d758d18c548f59bcc2028100f4323c03c46593d480d"
+      }
+    },
+    {
+      "slug": "juan068",
+      "title": "卷六十八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷068",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7068",
+        "revision": "1759791",
+        "text_sha256": "4454746812bfb6ca403952da3c058f855d8da68fbd873495c6965137f65f985f"
+      }
+    },
+    {
+      "slug": "juan069",
+      "title": "卷六十九",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷069",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7069",
+        "revision": "2457431",
+        "text_sha256": "cc2128ef2138e37fd1bd3de00e679d4bd6b1bb9c47d17f27fa406e0c338af2d6"
+      }
+    },
+    {
+      "slug": "juan070",
+      "title": "卷七十",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷070",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7070",
+        "revision": "2375247",
+        "text_sha256": "964b77a279ec872c56cda2f8633f00ae574e9ca1f956e922a875148249528b79"
+      }
+    },
+    {
+      "slug": "juan071",
+      "title": "卷七十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷071",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7071",
+        "revision": "803126",
+        "text_sha256": "b4da4264cb2726df2b541d38be37de2307655ac97587f210524e2dafc27fb8d9"
+      }
+    },
+    {
+      "slug": "juan072",
+      "title": "卷七十二",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷072",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7072",
+        "revision": "2431689",
+        "text_sha256": "d6bdc612575aa474d213cc6575b1bde8dd65160311350b3a0bd61e9942a9d900"
+      }
+    },
+    {
+      "slug": "juan073",
+      "title": "卷七十三",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷073",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7073",
+        "revision": "2073386",
+        "text_sha256": "9a9d26891d47e0f866751f44131e4f5dc0387e7ac7482eebf4a677caa7603f38"
+      }
+    },
+    {
+      "slug": "juan074",
+      "title": "卷七十四",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷074",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7074",
+        "revision": "1553972",
+        "text_sha256": "ec46b84fc9ea83e290191bc246098094c159516516fdd74474a237141b4a513e"
+      }
+    },
+    {
+      "slug": "juan075",
+      "title": "卷七十五",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷075",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7075",
+        "revision": "617541",
+        "text_sha256": "b2692a640834e73714b9a40f2a0c5ff1cbb7dcec5303ef24e14f20f71d901364"
+      }
+    },
+    {
+      "slug": "juan076",
+      "title": "卷七十六",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷076",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7076",
+        "revision": "1554069",
+        "text_sha256": "2b2c62c8295b8ea38e56309bb8b910c9020c47e2c52202bb8b54fcccb5a45886"
+      }
+    },
+    {
+      "slug": "juan077",
+      "title": "卷七十七",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷077",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7077",
+        "revision": "12072617",
+        "text_sha256": "03f03b143bbea41ba2525ceaf50953341204ef45d59775899a328e7aabd540f5"
+      }
+    },
+    {
+      "slug": "juan078",
+      "title": "卷七十八",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷078",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7078",
+        "revision": "2074603",
+        "text_sha256": "78c82ac3b87e3f2c3e762b0bf071bd012d00ca8fe9d63d1305209080842c506b"
+      }
+    },
+    {
+      "slug": "juan079",
+      "title": "卷七十九",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷079",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7079",
+        "revision": "12073001",
+        "text_sha256": "0682853f5dfc5684f8c2f529733e415799bf1975fdde1101cf43c0be600fabd9"
+      }
+    },
+    {
+      "slug": "juan080",
+      "title": "卷八十",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷080",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7080",
+        "revision": "2074599",
+        "text_sha256": "3e113c48061bb0903962dc275292a89588e714d8375d1bcc7129194a26e08ae9"
+      }
+    },
+    {
+      "slug": "juan081",
+      "title": "卷八十一",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷081",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7081",
+        "revision": "2080689",
+        "text_sha256": "f3e6b8b4b2acd36dae8ceb12731f5a0b4ef63656b6e145b0223e09e398bdc784"
+      }
+    },
+    {
+      "slug": "juan082",
+      "title": "卷八十二",
+      "sections": 11,
+      "source": {
+        "title": "資治通鑑/卷082",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7082",
+        "revision": "1551756",
+        "text_sha256": "95271b0bc4db722382f2493afe5cc5ad351e4352408fc9b9bcf7034035eaba8c"
+      }
+    },
+    {
+      "slug": "juan083",
+      "title": "卷八十三",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷083",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7083",
+        "revision": "1551757",
+        "text_sha256": "3bbd2aa7a1fdd5e512a35f8969264d17bb6c4e37f5641a682f6bf8e0319c0d14"
+      }
+    },
+    {
+      "slug": "juan084",
+      "title": "卷八十四",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷084",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7084",
+        "revision": "2042374",
+        "text_sha256": "f563986b2be64ef33f6c53a8f57ec2b0baa054b76414776c28ef764346c77e84"
+      }
+    },
+    {
+      "slug": "juan085",
+      "title": "卷八十五",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷085",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7085",
+        "revision": "2454083",
+        "text_sha256": "441a26c9ea2998e1cfe439daf67f932651726ba8d21ff9914770b0757f71ea9d"
+      }
+    },
+    {
+      "slug": "juan086",
+      "title": "卷八十六",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷086",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7086",
+        "revision": "2025616",
+        "text_sha256": "93b494dcadd1544a1682b18b038572392ae5d841cfa343fe95d475538cc4788b"
+      }
+    },
+    {
+      "slug": "juan087",
+      "title": "卷八十七",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷087",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7087",
+        "revision": "2057994",
+        "text_sha256": "ee0405709fd8e2fce7dc0507a78408d96cce6ba21664e1b8547f158af6ac34c5"
+      }
+    },
+    {
+      "slug": "juan088",
+      "title": "卷八十八",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷088",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7088",
+        "revision": "2692392",
+        "text_sha256": "e79e8ea3fc5dbde8b551b2fbba494bfb06dcc09b7e45b7f98d7ad738cb42f8e1"
+      }
+    },
+    {
+      "slug": "juan089",
+      "title": "卷八十九",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷089",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7089",
+        "revision": "7904751",
+        "text_sha256": "2a2323c865f4447463612f3660f07ad1bf1d516e7c5e6ff08bb286c061562633"
+      }
+    },
+    {
+      "slug": "juan090",
+      "title": "卷九十",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷090",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7090",
+        "revision": "803144",
+        "text_sha256": "c4ba84bae4aae015cbe5326eb576753cf6c2accf7424c9bcff93cb346688349a"
+      }
+    },
+    {
+      "slug": "juan091",
+      "title": "卷九十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷091",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7091",
+        "revision": "2042381",
+        "text_sha256": "3f33ddc238c37dfc85fbfcd956aa1fa59a51eedd3a8c095540747df899f1bb9a"
+      }
+    },
+    {
+      "slug": "juan092",
+      "title": "卷九十二",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷092",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7092",
+        "revision": "1552069",
+        "text_sha256": "bf9584c328a9a00b6e8ef90f9571b1c92061f052891fb55fe86ab8cade844ff4"
+      }
+    },
+    {
+      "slug": "juan093",
+      "title": "卷九十三",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷093",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7093",
+        "revision": "2311925",
+        "text_sha256": "ceda0b70dcf9b802ea307dc42f0d5f1ae2c1299c193437be18503541ea9d9a88"
+      }
+    },
+    {
+      "slug": "juan094",
+      "title": "卷九十四",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷094",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7094",
+        "revision": "2312212",
+        "text_sha256": "3c5939425453e2f29db611571b8c1111b9fb993b3bb8e9e600a3436678f8c2cc"
+      }
+    },
+    {
+      "slug": "juan095",
+      "title": "卷九十五",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷095",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7095",
+        "revision": "1328951",
+        "text_sha256": "7d4841d97d988f244a4a18791242cddcdadffc0f69caa89273ea192b55892b37"
+      }
+    },
+    {
+      "slug": "juan096",
+      "title": "卷九十六",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷096",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7096",
+        "revision": "2042452",
+        "text_sha256": "37a3805a5abe59324b5f23c495fad3f1b9cbca37d1c5f98ca0036d639b9787fb"
+      }
+    },
+    {
+      "slug": "juan097",
+      "title": "卷九十七",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷097",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7097",
+        "revision": "2617598",
+        "text_sha256": "681a437662ca52a11bc19e59bab9ac02e2a924ed579dcc5041d839fe5f94f353"
+      }
+    },
+    {
+      "slug": "juan098",
+      "title": "卷九十八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷098",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7098",
+        "revision": "1502617",
+        "text_sha256": "42640b8ac4297a36c9a03edc36dd6e42bcd112c4920e2b3f69b5bdf34328b9c4"
+      }
+    },
+    {
+      "slug": "juan099",
+      "title": "卷九十九",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷099",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7099",
+        "revision": "1502618",
+        "text_sha256": "926fa7681797f01df86addefb9bf2766c9b42c3b366448bf1c19d3bec6d4e694"
+      }
+    },
+    {
+      "slug": "juan100",
+      "title": "卷一百",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷100",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7100",
+        "revision": "1151319",
+        "text_sha256": "90f44bc4b47c553b55bd8c58f0c427c1843b98f728d7c855173ab18083930b92"
+      }
+    },
+    {
+      "slug": "juan101",
+      "title": "卷一百零一",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷101",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7101",
+        "revision": "2024978",
+        "text_sha256": "010d38186ec442c3dec09c1cddc26f90796822abf7882045848041e7432b720c"
+      }
+    },
+    {
+      "slug": "juan102",
+      "title": "卷一百零二",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷102",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7102",
+        "revision": "1554184",
+        "text_sha256": "1e007d0d13caf5dfd77d549526798071da5385a38ed512ae7eaf936475cf993c"
+      }
+    },
+    {
+      "slug": "juan103",
+      "title": "卷一百零三",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷103",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7103",
+        "revision": "2402076",
+        "text_sha256": "35078cc1dea63f1c603daac0de5498d438b498db9460de38f32a170612a0b39c"
+      }
+    },
+    {
+      "slug": "juan104",
+      "title": "卷一百零四",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷104",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7104",
+        "revision": "1332670",
+        "text_sha256": "57c34a9b83240297cb6c2bea2473f1e88c9bb31ca728f973b567380631b76f8f"
+      }
+    },
+    {
+      "slug": "juan105",
+      "title": "卷一百零五",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷105",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7105",
+        "revision": "2031243",
+        "text_sha256": "524898e323b56cafc3ff64d9d71b67888c41820e84603609d81ef3b0c93117fb"
+      }
+    },
+    {
+      "slug": "juan106",
+      "title": "卷一百零六",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷106",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7106",
+        "revision": "2510497",
+        "text_sha256": "687f85ef369c8e6ea1f81a376c764aaaeec3f62051f804d713322b7c7ce7cc24"
+      }
+    },
+    {
+      "slug": "juan107",
+      "title": "卷一百零七",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷107",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7107",
+        "revision": "1472329",
+        "text_sha256": "1f2a50a00fb98ed5b91fa44df2cd47e5913da543b04a54ac59f0d8feae7d930f"
+      }
+    },
+    {
+      "slug": "juan108",
+      "title": "卷一百零八",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷108",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7108",
+        "revision": "1497680",
+        "text_sha256": "07109b34624d5f5647764c00fccb5a51af1c751e167a404499c4a75f93f9616a"
+      }
+    },
+    {
+      "slug": "juan109",
+      "title": "卷一百零九",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷109",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7109",
+        "revision": "1497681",
+        "text_sha256": "a28ef36175d8c0ff3afa6a8d35d690e1316e726b3734c59ba26b5311e6048b11"
+      }
+    },
+    {
+      "slug": "juan110",
+      "title": "卷一百一十",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷110",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7110",
+        "revision": "1472366",
+        "text_sha256": "b48aba595341f95b1f1b4bbebe9322bc9d8163c460814ac901b35a68421dc458"
+      }
+    },
+    {
+      "slug": "juan111",
+      "title": "卷一百一十一",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷111",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7111",
+        "revision": "1753376",
+        "text_sha256": "8ccf429fca972638c09eec775e91542ed84efae56cd9ac6dc0a79068c7e2df93"
+      }
+    },
+    {
+      "slug": "juan112",
+      "title": "卷一百一十二",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷112",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7112",
+        "revision": "617576",
+        "text_sha256": "d60c2f64bfb85333df434cbf67517f79642c9d63193751029c5c538c6e92d024"
+      }
+    },
+    {
+      "slug": "juan113",
+      "title": "卷一百一十三",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷113",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7113",
+        "revision": "1472394",
+        "text_sha256": "f84bab0fd1e8f171e3599597d7b9ada4ed810082f6dedfdf779cc72b4b558d34"
+      }
+    },
+    {
+      "slug": "juan114",
+      "title": "卷一百一十四",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷114",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7114",
+        "revision": "617578",
+        "text_sha256": "624f78cd77d6daed6c1e6fcf4bfbeeb7b421eaa688e1cbac4098c9cb2aa76d74"
+      }
+    },
+    {
+      "slug": "juan115",
+      "title": "卷一百一十五",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷115",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7115",
+        "revision": "803164",
+        "text_sha256": "ff8c8c9e29d1681f99739b98cffdc1bffbf536e8a2724ef03ca79f5618a303a3"
+      }
+    },
+    {
+      "slug": "juan116",
+      "title": "卷一百一十六",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷116",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7116",
+        "revision": "2381874",
+        "text_sha256": "bd302531756d28877eaab0373d2ae2cb8fa0fc0372757a4f085145757fcc8e39"
+      }
+    },
+    {
+      "slug": "juan117",
+      "title": "卷一百一十七",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷117",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7117",
+        "revision": "803166",
+        "text_sha256": "e3cf1da65bfb0c974d752a71996ead1fdef9c9c950ece94f0d3d0f4c8b805136"
+      }
+    },
+    {
+      "slug": "juan118",
+      "title": "卷一百一十八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷118",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7118",
+        "revision": "803167",
+        "text_sha256": "546dcc32c573e5394cba90e71e2b3843de3f8ac44c3f23ca947928e796c36471"
+      }
+    },
+    {
+      "slug": "juan119",
+      "title": "卷一百一十九",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷119",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7119",
+        "revision": "2634820",
+        "text_sha256": "c31c4a01651c465a5f5d695df22a0c0bd5079c3db9963f6db7b79bd238d0a102"
+      }
+    },
+    {
+      "slug": "juan120",
+      "title": "卷一百二十",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷120",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7120",
+        "revision": "2635064",
+        "text_sha256": "8f6ac8260f1b8130482c3fd4da668976c0e6e6b9069162b8631140023d6e8f3b"
+      }
+    },
+    {
+      "slug": "juan121",
+      "title": "卷一百二十一",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷121",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7121",
+        "revision": "1342930",
+        "text_sha256": "ffd2d39218988edf5a8905d197d3c0549e582a45451e54a36e6e2fc80c4edd5d"
+      }
+    },
+    {
+      "slug": "juan122",
+      "title": "卷一百二十二",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷122",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7122",
+        "revision": "1546181",
+        "text_sha256": "e219012b9e629f654a3f304a29b03f86d432a3657768eddb12201eebaefdd142"
+      }
+    },
+    {
+      "slug": "juan123",
+      "title": "卷一百二十三",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷123",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7123",
+        "revision": "617587",
+        "text_sha256": "3f92c717ab142b6b78f882e5d8f0dfdd24c7406a1bb7415e37607bd793542784"
+      }
+    },
+    {
+      "slug": "juan124",
+      "title": "卷一百二十四",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷124",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7124",
+        "revision": "803171",
+        "text_sha256": "4030af1f9bbfaa6841aa2b6c1056599ae3e28ea553301d4b4476d801aa648c99"
+      }
+    },
+    {
+      "slug": "juan125",
+      "title": "卷一百二十五",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷125",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7125",
+        "revision": "1472392",
+        "text_sha256": "246dbbc4035702b3bd58b25a9bf142b4ab56ee99b210b8785feec32bf5a15b69"
+      }
+    },
+    {
+      "slug": "juan126",
+      "title": "卷一百二十六",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷126",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7126",
+        "revision": "617593",
+        "text_sha256": "b082029dde6bc11928fd1fa8738b0c47ce297a5577c79109967c976135b21538"
+      }
+    },
+    {
+      "slug": "juan127",
+      "title": "卷一百二十七",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷127",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7127",
+        "revision": "803172",
+        "text_sha256": "810267bec61c4ccb66154ed52e3c88feecf3cff709b4b42f67e272479a940b00"
+      }
+    },
+    {
+      "slug": "juan128",
+      "title": "卷一百二十八",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷128",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7128",
+        "revision": "803173",
+        "text_sha256": "68e7066485ef2974d480b5055ee560a94d4549eec5f93bbc56d1e78855e531ed"
+      }
+    },
+    {
+      "slug": "juan129",
+      "title": "卷一百二十九",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷129",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7129",
+        "revision": "803174",
+        "text_sha256": "d088eb842ebd4aec9c59ac616374d83f268d5078900cc33c6c3cd8a42f12231d"
+      }
+    },
+    {
+      "slug": "juan130",
+      "title": "卷一百三十",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷130",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7130",
+        "revision": "803175",
+        "text_sha256": "a357f4f52ccc511c6dbce851df670c1eb79a9313f58a65f6375957c7c8a86a77"
+      }
+    },
+    {
+      "slug": "juan131",
+      "title": "卷一百三十一",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷131",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7131",
+        "revision": "1502844",
+        "text_sha256": "13bc3a1995b832b7e122e61e3531fcdf684288c7daec5c6345a019b638a23b8f"
+      }
+    },
+    {
+      "slug": "juan132",
+      "title": "卷一百三十二",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷132",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7132",
+        "revision": "617749",
+        "text_sha256": "4f364843c7d3d5e74280efef2b69d207ec3175270f7ae9573a0380ae802c3930"
+      }
+    },
+    {
+      "slug": "juan133",
+      "title": "卷一百三十三",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷133",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7133",
+        "revision": "1552077",
+        "text_sha256": "2c7641802ddc3ffbff41546459d06ff528bcf6c7f65fe0a74837565921e2751a"
+      }
+    },
+    {
+      "slug": "juan134",
+      "title": "卷一百三十四",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷134",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7134",
+        "revision": "617751",
+        "text_sha256": "180477d81ff9bbd1247e667b3480e1f9e0a7a79bf015c5087221e82215e2852b"
+      }
+    },
+    {
+      "slug": "juan135",
+      "title": "卷一百三十五",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷135",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7135",
+        "revision": "2298526",
+        "text_sha256": "559ed73ee68369617be117a511818f0234267861df1e7f8735a65eb3cbd42b3b"
+      }
+    },
+    {
+      "slug": "juan136",
+      "title": "卷一百三十六",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷136",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7136",
+        "revision": "1554191",
+        "text_sha256": "9819f732faf790867d6ba73b43ee741537ea26ba18e945b16701109d6722d15b"
+      }
+    },
+    {
+      "slug": "juan137",
+      "title": "卷一百三十七",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷137",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7137",
+        "revision": "803179",
+        "text_sha256": "6dc7e218a63f507677604239b34f9b20c03c14ddb80bae0853f8de898a03280a"
+      }
+    },
+    {
+      "slug": "juan138",
+      "title": "卷一百三十八",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷138",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7138",
+        "revision": "1553998",
+        "text_sha256": "82572b4716f5fbae2212143e185fe73f7b4dbc29432717ea12aea296ca014a75"
+      }
+    },
+    {
+      "slug": "juan139",
+      "title": "卷一百三十九",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷139",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7139",
+        "revision": "803181",
+        "text_sha256": "dd8af79eac76c51d95370477f7652fb74951f9c6917c83a9376c6037a12826c7"
+      }
+    },
+    {
+      "slug": "juan140",
+      "title": "卷一百四十",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷140",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7140",
+        "revision": "1554152",
+        "text_sha256": "491a33a7b48fdfd87d3e106316a8dd9c47b40f80d572e3468e969750f4819671"
+      }
+    },
+    {
+      "slug": "juan141",
+      "title": "卷一百四十一",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷141",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7141",
+        "revision": "1151294",
+        "text_sha256": "76698bf755099e3a723dc3af96f4778c5f088c93ce372fe741047d418268edbd"
+      }
+    },
+    {
+      "slug": "juan142",
+      "title": "卷一百四十二",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷142",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7142",
+        "revision": "2316525",
+        "text_sha256": "2e5d4c5a50b89045c95aca74c0449928c937531307300a5e8af05df91b38ba8b"
+      }
+    },
+    {
+      "slug": "juan143",
+      "title": "卷一百四十三",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷143",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7143",
+        "revision": "1502716",
+        "text_sha256": "a43a719bcc64227e5727d680ff2bdd8c8509f5804cc813509db0604a2c49239b"
+      }
+    },
+    {
+      "slug": "juan144",
+      "title": "卷一百四十四",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷144",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7144",
+        "revision": "803184",
+        "text_sha256": "58cf364dd2982974eb6c1ce6dd07341b9913c2ff7e0e523b21803d08d517fea7"
+      }
+    },
+    {
+      "slug": "juan145",
+      "title": "卷一百四十五",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷145",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7145",
+        "revision": "803185",
+        "text_sha256": "2cf088142a4c9bfbf542c3d56330e843e7e9e089091bff513fed76cb251b1bf4"
+      }
+    },
+    {
+      "slug": "juan146",
+      "title": "卷一百四十六",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷146",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7146",
+        "revision": "803186",
+        "text_sha256": "9cc2b405e4c2d834894cce651fe2c19b20d79b0b965ce942e7ba6c335d0d6bfe"
+      }
+    },
+    {
+      "slug": "juan147",
+      "title": "卷一百四十七",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷147",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7147",
+        "revision": "803187",
+        "text_sha256": "cac629bd43be94454f12d336372daf8db33e9bd8b2640c2b912ffdbe38a4ebcc"
+      }
+    },
+    {
+      "slug": "juan148",
+      "title": "卷一百四十八",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷148",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7148",
+        "revision": "803188",
+        "text_sha256": "dd7d53b17e65049ce7a056822cdfb0410302d81ecee4b706301fc68fd6f33420"
+      }
+    },
+    {
+      "slug": "juan149",
+      "title": "卷一百四十九",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷149",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7149",
+        "revision": "803189",
+        "text_sha256": "4ffc03cf8c5cdb4b1e9d8cbcd280d897a963e84911ec73b59ff16eb99aaac724"
+      }
+    },
+    {
+      "slug": "juan150",
+      "title": "卷一百五十",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷150",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7150",
+        "revision": "1120646",
+        "text_sha256": "61aef7139f5eb3029ccd48eddd52be121bccf92cf4cce5cbae1fca46aab2a446"
+      }
+    },
+    {
+      "slug": "juan151",
+      "title": "卷一百五十一",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷151",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7151",
+        "revision": "2024988",
+        "text_sha256": "04a749f8e59cc2bd69ffd5a0a52cf0fde064f09bb21bac635e921c196ec142c0"
+      }
+    },
+    {
+      "slug": "juan152",
+      "title": "卷一百五十二",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷152",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7152",
+        "revision": "1151209",
+        "text_sha256": "b91abdb0a3fe9dc52da451a37096ba3ec68de608a6bf684a4e7b66cc7df18669"
+      }
+    },
+    {
+      "slug": "juan153",
+      "title": "卷一百五十三",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷153",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7153",
+        "revision": "1120491",
+        "text_sha256": "c680c71d70699d1bd2224e1a5bd16836c4535e6e2a6bdd0d4a316334f47f53ef"
+      }
+    },
+    {
+      "slug": "juan154",
+      "title": "卷一百五十四",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷154",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7154",
+        "revision": "1120403",
+        "text_sha256": "afdc48e390abb337a6f136ca076129f11898af6a0297463c6968bfc8bab4a930"
+      }
+    },
+    {
+      "slug": "juan155",
+      "title": "卷一百五十五",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷155",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7155",
+        "revision": "1120641",
+        "text_sha256": "9159226f865b2bb7afd16522cb382320fbcd0fa3ce8535674014b5b952a85c23"
+      }
+    },
+    {
+      "slug": "juan156",
+      "title": "卷一百五十六",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷156",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7156",
+        "revision": "2019270",
+        "text_sha256": "138db043a9e6dea27ab4de246ff34f70602bdad88d20932fab973f485ef28c6f"
+      }
+    },
+    {
+      "slug": "juan157",
+      "title": "卷一百五十七",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷157",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7157",
+        "revision": "1151206",
+        "text_sha256": "8574f4e146a0396c7246098bad5ad2fc07eb59c4b101fcd00511dbde22d75689"
+      }
+    },
+    {
+      "slug": "juan158",
+      "title": "卷一百五十八",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷158",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7158",
+        "revision": "2313544",
+        "text_sha256": "b488fbaee77c6797e0649d420bfdb8a47512b133cadb0fb1865c5598651b5a77"
+      }
+    },
+    {
+      "slug": "juan159",
+      "title": "卷一百五十九",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷159",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7159",
+        "revision": "803199",
+        "text_sha256": "dd46cdb884e9716bc450c2ec30fbc33f3a26ea30d0b664638ac180a5f9ab5494"
+      }
+    },
+    {
+      "slug": "juan160",
+      "title": "卷一百六十",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷160",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7160",
+        "revision": "803200",
+        "text_sha256": "9a2df6bf7b259aac1074fd885b65fb804062eaa44c5d31e6a9255ed0a1463142"
+      }
+    },
+    {
+      "slug": "juan161",
+      "title": "卷一百六十一",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷161",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7161",
+        "revision": "803201",
+        "text_sha256": "1505c20f67e07cb302be9641330e4f91a743ae694059d3af1bf6974920b6b340"
+      }
+    },
+    {
+      "slug": "juan162",
+      "title": "卷一百六十二",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷162",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7162",
+        "revision": "803202",
+        "text_sha256": "96fd83333d22603278e581bc834dd28e4e28d292fc1e1ab30ad82d280c64985f"
+      }
+    },
+    {
+      "slug": "juan163",
+      "title": "卷一百六十三",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷163",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7163",
+        "revision": "803203",
+        "text_sha256": "738a9ebfb551ef675c2b8adc6b45a1ebac95c115800fab12370c6d4433df2b82"
+      }
+    },
+    {
+      "slug": "juan164",
+      "title": "卷一百六十四",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷164",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7164",
+        "revision": "2310031",
+        "text_sha256": "718f151b7807c06f32038092df79ac91c114be492ef664f8cc393dcc7294a794"
+      }
+    },
+    {
+      "slug": "juan165",
+      "title": "卷一百六十五",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷165",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7165",
+        "revision": "1554065",
+        "text_sha256": "5e9d75bfbd910a679c831e244f2ebe96542613ad5e58d22c62c170c1661d9baa"
+      }
+    },
+    {
+      "slug": "juan166",
+      "title": "卷一百六十六",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/卷166",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7166",
+        "revision": "11122976",
+        "text_sha256": "a7e3661ef57e8d587d97f96343c2c9807222cd0ef9556d0bc46e66f08719cb84"
+      }
+    },
+    {
+      "slug": "juan167",
+      "title": "卷一百六十七",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷167",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7167",
+        "revision": "11122978",
+        "text_sha256": "22df53571115dcdf5a8f20522ca5e09091036725b5812944c3e7d42840bfd5ba"
+      }
+    },
+    {
+      "slug": "juan168",
+      "title": "卷一百六十八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷168",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7168",
+        "revision": "11123003",
+        "text_sha256": "17c1fa2c4b63dbbb5b5dd5402720ab991185837e5e60029be74951480f6d0d11"
+      }
+    },
+    {
+      "slug": "juan169",
+      "title": "卷一百六十九",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷169",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7169",
+        "revision": "11122977",
+        "text_sha256": "1a36257ccbdc13ea1e39f98133e3ce302f0a69fef9132ba9d377bf81565c11b7"
+      }
+    },
+    {
+      "slug": "juan170",
+      "title": "卷一百七十",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷170",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7170",
+        "revision": "1502691",
+        "text_sha256": "618213ba8ef0b500b86638ad0965955778c22c8194dad3a7ca03419bb2d17d6f"
+      }
+    },
+    {
+      "slug": "juan171",
+      "title": "卷一百七十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷171",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7171",
+        "revision": "11122974",
+        "text_sha256": "0a75d01a283246eb8a8475a16d2068cac74f91c146e53cbb59956ed47544e8c0"
+      }
+    },
+    {
+      "slug": "juan172",
+      "title": "卷一百七十二",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷172",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7172",
+        "revision": "1502703",
+        "text_sha256": "4996ef0b98449307c2b21038d13bac6498287e7d1203bcbf2e673627ac7c6c91"
+      }
+    },
+    {
+      "slug": "juan173",
+      "title": "卷一百七十三",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷173",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7173",
+        "revision": "11122966",
+        "text_sha256": "e0d67e7d3b9600f2e56ff378837ee2e5aac68ecd4342ed37d56de8d54ae26493"
+      }
+    },
+    {
+      "slug": "juan174",
+      "title": "卷一百七十四",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷174",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7174",
+        "revision": "11122963",
+        "text_sha256": "b8a06a5c71d63485be5006c19e358f6eb9259f320592bb89f3ad4e115d62b22c"
+      }
+    },
+    {
+      "slug": "juan175",
+      "title": "卷一百七十五",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷175",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7175",
+        "revision": "1153431",
+        "text_sha256": "4e39c35d3df563abc7e5da9c6895ceabf0a8532eccc9f53c58a7af4e6825297b"
+      }
+    },
+    {
+      "slug": "juan176",
+      "title": "卷一百七十六",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷176",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7176",
+        "revision": "982720",
+        "text_sha256": "a7a732406d91baf1dbf6e24804d53300a3be5db3d7ed4267f79d430b9fcfdbc0"
+      }
+    },
+    {
+      "slug": "juan177",
+      "title": "卷一百七十七",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷177",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7177",
+        "revision": "1960991",
+        "text_sha256": "1b472e3552ff2f41e4da963fd81d28090f51d67765b44eb61ed0fbc7e2451f30"
+      }
+    },
+    {
+      "slug": "juan178",
+      "title": "卷一百七十八",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷178",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7178",
+        "revision": "2031186",
+        "text_sha256": "f5072fe2a0c0dbf2a415be9617381282f4c9a957f3cd92bdcc1a1971b4220f92"
+      }
+    },
+    {
+      "slug": "juan179",
+      "title": "卷一百七十九",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷179",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7179",
+        "revision": "2086017",
+        "text_sha256": "6eba336141b3e780dce483cab24dc73925c98bcaa25be371aec58afb79c49b02"
+      }
+    },
+    {
+      "slug": "juan180",
+      "title": "卷一百八十",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷180",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7180",
+        "revision": "1502733",
+        "text_sha256": "8e8da39362ba06ae3f381a380bc1c4116cead50bf51527974e5396700745b1a4"
+      }
+    },
+    {
+      "slug": "juan181",
+      "title": "卷一百八十一",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷181",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7181",
+        "revision": "1502738",
+        "text_sha256": "d2d3d83374bcd6c08d60178983f7a93e493b2908cd809a804021ffbaac664664"
+      }
+    },
+    {
+      "slug": "juan182",
+      "title": "卷一百八十二",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷182",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7182",
+        "revision": "1502778",
+        "text_sha256": "d4ee937154c10d0f4c811326c0d3541e95ebba0b8b7c445334360b7c590aea96"
+      }
+    },
+    {
+      "slug": "juan183",
+      "title": "卷一百八十三",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷183",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7183",
+        "revision": "1554162",
+        "text_sha256": "64f995b6603a46f8eb6a9f058bbd4eef0dbf7b433bd69b3ff7fe8c5ec93a64c6"
+      }
+    },
+    {
+      "slug": "juan184",
+      "title": "卷一百八十四",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷184",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7184",
+        "revision": "11123005",
+        "text_sha256": "a5639518a8dc3f569f1192d44f47c74cd54f491fd2ab02dc06c149193e9a5019"
+      }
+    },
+    {
+      "slug": "juan185",
+      "title": "卷一百八十五",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷185",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7185",
+        "revision": "2551225",
+        "text_sha256": "b91e0c3cb4b05a7e02d026c2edf0b88cd151c5fc8690077373fbb31d6293d2d0"
+      }
+    },
+    {
+      "slug": "juan186",
+      "title": "卷一百八十六",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷186",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7186",
+        "revision": "1502766",
+        "text_sha256": "7b4b244ce18c967a3987df70519b910bdecfed8b7cbb9e3e0bc4380e0374c46b"
+      }
+    },
+    {
+      "slug": "juan187",
+      "title": "卷一百八十七",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷187",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7187",
+        "revision": "1502771",
+        "text_sha256": "090296db29b1a9caf907871faccde3e7dcea51699067340f3157e50fcd93143f"
+      }
+    },
+    {
+      "slug": "juan188",
+      "title": "卷一百八十八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷188",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7188",
+        "revision": "1567784",
+        "text_sha256": "3e71d3974b8e505cf682349ca653181e9bbedc8a6301a90b73afedc51354adef"
+      }
+    },
+    {
+      "slug": "juan189",
+      "title": "卷一百八十九",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷189",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7189",
+        "revision": "1503114",
+        "text_sha256": "b5e3980f13cea1bb308f9c8a70fbd7e962eb7fb9d7f79ef87083f174cf7adc2c"
+      }
+    },
+    {
+      "slug": "juan190",
+      "title": "卷一百九十",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷190",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7190",
+        "revision": "1502800",
+        "text_sha256": "1a0c077b759c82b70f21180f12c4ab404f8ee700fd551e1523aefefc253fc453"
+      }
+    },
+    {
+      "slug": "juan191",
+      "title": "卷一百九十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷191",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7191",
+        "revision": "1517706",
+        "text_sha256": "e8d1337cebb0972ce1b1c50fc86e6ac661d7835540296513ea7bc36dec0d4fd9"
+      }
+    },
+    {
+      "slug": "juan192",
+      "title": "卷一百九十二",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷192",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7192",
+        "revision": "2510432",
+        "text_sha256": "51d0e11fce2a359dfa885ed15511ebdd8bb4d826886e1225cbe5e7c041d5b5e4"
+      }
+    },
+    {
+      "slug": "juan193",
+      "title": "卷一百九十三",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷193",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7193",
+        "revision": "2293559",
+        "text_sha256": "d71ecf980c9086879dd062dc49e73a82e61c705e627ca4f1a55d80298c08fcb2"
+      }
+    },
+    {
+      "slug": "juan194",
+      "title": "卷一百九十四",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷194",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7194",
+        "revision": "2031610",
+        "text_sha256": "fe9889d9fcac2ec3f331f9e12aaf1e949c3112fba6627e39d48da507aea0dd0c"
+      }
+    },
+    {
+      "slug": "juan195",
+      "title": "卷一百九十五",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷195",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7195",
+        "revision": "1554157",
+        "text_sha256": "2c9c7ff6158682d7a0f5fe4f071a5857ca3567aa618c3b4c6f4b40ddd50f049e"
+      }
+    },
+    {
+      "slug": "juan196",
+      "title": "卷一百九十六",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷196",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7196",
+        "revision": "617858",
+        "text_sha256": "5e2e8444bc10fa41822c7cfdbe5ee048bd7fa48b71d348e48e99916da3c71f72"
+      }
+    },
+    {
+      "slug": "juan197",
+      "title": "卷一百九十七",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷197",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7197",
+        "revision": "1502835",
+        "text_sha256": "810209dd6872f93aeaf9bf765247f02df060307eb586c4b610ac623247836bf2"
+      }
+    },
+    {
+      "slug": "juan198",
+      "title": "卷一百九十八",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷198",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7198",
+        "revision": "1502841",
+        "text_sha256": "dc864313444ab8faff8a974cfd6298625b0923036ef5208b8bfe8a09951742b4"
+      }
+    },
+    {
+      "slug": "juan199",
+      "title": "卷一百九十九",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷199",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7199",
+        "revision": "1996786",
+        "text_sha256": "0ae74425ee804aa8581cf44da03f0fa0e1e11e7631285c9939b6f9817729f370"
+      }
+    },
+    {
+      "slug": "juan200",
+      "title": "卷二百",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷200",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7200",
+        "revision": "1996801",
+        "text_sha256": "697bc6b7a61359f178cd82a42b30b574a6cf32ab4048b81a15430f9a4a721c79"
+      }
+    },
+    {
+      "slug": "juan201",
+      "title": "卷二百零一",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷201",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7201",
+        "revision": "1502953",
+        "text_sha256": "76653aba6b7a075a7e50afda497354ce6ee2aa9765f7dd247783e4046bf9b58f"
+      }
+    },
+    {
+      "slug": "juan202",
+      "title": "卷二百零二",
+      "sections": 12,
+      "source": {
+        "title": "資治通鑑/卷202",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7202",
+        "revision": "1439552",
+        "text_sha256": "dd82eb317bc5c02943cb5c15bda6b253c685c50a020b12a09db01ecd9ae8817c"
+      }
+    },
+    {
+      "slug": "juan203",
+      "title": "卷二百零三",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷203",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7203",
+        "revision": "2511795",
+        "text_sha256": "b3a8e2914a30251c5840160946a0f0aa2943f1f81ff715b9e2147b01b92ab3b3"
+      }
+    },
+    {
+      "slug": "juan204",
+      "title": "卷二百零四",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷204",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7204",
+        "revision": "1553956",
+        "text_sha256": "3cdc4200bc560ed09f961eaa5fed665f04561e23e5b4d33867075f43d5a49c3a"
+      }
+    },
+    {
+      "slug": "juan205",
+      "title": "卷二百零五",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷205",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7205",
+        "revision": "1502886",
+        "text_sha256": "0ac9788d792b3547bf81898b89014209d5681e60bbb41638e1d35ca2b06e6815"
+      }
+    },
+    {
+      "slug": "juan206",
+      "title": "卷二百零六",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷206",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7206",
+        "revision": "1554189",
+        "text_sha256": "fc4eee87f5de8c3d915fbd2ecfb1ef2324bf2681ceb2e1b6ddb96ae04c5bc7fe"
+      }
+    },
+    {
+      "slug": "juan207",
+      "title": "卷二百零七",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷207",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7207",
+        "revision": "1756151",
+        "text_sha256": "5cccdbd5568624689d0d25e318101d952b678693967d5cb4b3bc81bbf159cb68"
+      }
+    },
+    {
+      "slug": "juan208",
+      "title": "卷二百零八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷208",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7208",
+        "revision": "1502908",
+        "text_sha256": "0f4d4c31b5a9d1a170cd6a5169603dfc1e4e8003fa47f853fa8be5019945ff2a"
+      }
+    },
+    {
+      "slug": "juan209",
+      "title": "卷二百零九",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷209",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7209",
+        "revision": "1954945",
+        "text_sha256": "c4108c38d687e069a94ac7bffbc9202b2bbab0ec17a9d5cf1de07bd7d807f76d"
+      }
+    },
+    {
+      "slug": "juan210",
+      "title": "卷二百一十",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷210",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7210",
+        "revision": "1502920",
+        "text_sha256": "20b25607461e6c6e2d7759805f8912f1da3b9173113adc5e21d833aebe9bb587"
+      }
+    },
+    {
+      "slug": "juan211",
+      "title": "卷二百一十一",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷211",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7211",
+        "revision": "2082155",
+        "text_sha256": "406bacee37873e708ef358b10d3eb932037805a7488a84a0887fcc249498ef15"
+      }
+    },
+    {
+      "slug": "juan212",
+      "title": "卷二百一十二",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷212",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7212",
+        "revision": "1554166",
+        "text_sha256": "c504bbb316665915e6aac4af3e35df87f0370a4554b7ce16123e4b23af3070a8"
+      }
+    },
+    {
+      "slug": "juan213",
+      "title": "卷二百一十三",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷213",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7213",
+        "revision": "2082156",
+        "text_sha256": "ed052e941c242563739946e10a9452537eb71479d8d34e3f75c5890690bc3208"
+      }
+    },
+    {
+      "slug": "juan214",
+      "title": "卷二百一十四",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷214",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7214",
+        "revision": "2209406",
+        "text_sha256": "6dcdfc942faa9b40eeb769845a543602aa2343822515f055d598b7926db33a4d"
+      }
+    },
+    {
+      "slug": "juan215",
+      "title": "卷二百一十五",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷215",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7215",
+        "revision": "1554155",
+        "text_sha256": "7ff58c16f6fd279ee93ed9f668ca298f6652f3f59cce6407f565e7fa8bbea5d6"
+      }
+    },
+    {
+      "slug": "juan216",
+      "title": "卷二百一十六",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷216",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7216",
+        "revision": "1958791",
+        "text_sha256": "6077b820caf913ccebb9de59656092df64d0393437c727816e72daca03eb6f28"
+      }
+    },
+    {
+      "slug": "juan217",
+      "title": "卷二百一十七",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷217",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7217",
+        "revision": "617834",
+        "text_sha256": "639f7768542385ed67ed44f5af125bf6bd7ffefe2386c680c5115d5c012da639"
+      }
+    },
+    {
+      "slug": "juan218",
+      "title": "卷二百一十八",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷218",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7218",
+        "revision": "1996147",
+        "text_sha256": "4d8fce299650fba4e62a6da39af65ad54e3b631d7a93a61bd0132e5d78d48718"
+      }
+    },
+    {
+      "slug": "juan219",
+      "title": "卷二百一十九",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷219",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7219",
+        "revision": "2062230",
+        "text_sha256": "b0d391c17473730bc64e265a135c5e073d56d9635cb54a588bf9a2735c48c273"
+      }
+    },
+    {
+      "slug": "juan220",
+      "title": "卷二百二十",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷220",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7220",
+        "revision": "2564831",
+        "text_sha256": "299040403355496318f460f548398e2af7466e2fb5aa5ecbbd45d356ce20b99f"
+      }
+    },
+    {
+      "slug": "juan221",
+      "title": "卷二百二十一",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷221",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7221",
+        "revision": "982302",
+        "text_sha256": "dec73a170cdfc332bacdbb559228c5ca5a710f9d12d8f0a169a5fe42933d83e1"
+      }
+    },
+    {
+      "slug": "juan222",
+      "title": "卷二百二十二",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷222",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7222",
+        "revision": "982271",
+        "text_sha256": "60e690760fb86b3c47f697ac4da445c6a5733ddd5a07b2618e920b90ba129957"
+      }
+    },
+    {
+      "slug": "juan223",
+      "title": "卷二百二十三",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷223",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7223",
+        "revision": "982102",
+        "text_sha256": "0daa6836192ec42e220aa153acfd9f588e841d2ad5e3569b041d01c2f9a695ff"
+      }
+    },
+    {
+      "slug": "juan224",
+      "title": "卷二百二十四",
+      "sections": 10,
+      "source": {
+        "title": "資治通鑑/卷224",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7224",
+        "revision": "803242",
+        "text_sha256": "42d73b522bfb2c9318ed3598cab38766a070db30ad665211df960688057f8382"
+      }
+    },
+    {
+      "slug": "juan225",
+      "title": "卷二百二十五",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷225",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7225",
+        "revision": "1554164",
+        "text_sha256": "f392e0b20171e3a3f665e1d8e266ed087937beaad3ec22d92713593c781440fe"
+      }
+    },
+    {
+      "slug": "juan226",
+      "title": "卷二百二十六",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷226",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7226",
+        "revision": "1546182",
+        "text_sha256": "1e4cff76ffab1cefc193ab89f169515abbc71520f40f746cd2808cfa3b1ad97f"
+      }
+    },
+    {
+      "slug": "juan227",
+      "title": "卷二百二十七",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷227",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7227",
+        "revision": "2377157",
+        "text_sha256": "247d28a683c12675dfdf10d796768ed37a437d377ee07687b48a6b0f12336524"
+      }
+    },
+    {
+      "slug": "juan228",
+      "title": "卷二百二十八",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷228",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7228",
+        "revision": "803246",
+        "text_sha256": "d26ccfb59559db2838dfe683edfd71299fe977064369c52daf93767622347cd7"
+      }
+    },
+    {
+      "slug": "juan229",
+      "title": "卷二百二十九",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷229",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7229",
+        "revision": "1120589",
+        "text_sha256": "c016b75a3b99c6219654560be4beb05ae9708a7b5afa494de67a5bef35b55b4e"
+      }
+    },
+    {
+      "slug": "juan230",
+      "title": "卷二百三十",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷230",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7230",
+        "revision": "803248",
+        "text_sha256": "30762a4b064c3351f27b122b5e5125365873e328e6134017a9800a247c373c20"
+      }
+    },
+    {
+      "slug": "juan231",
+      "title": "卷二百三十一",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷231",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7231",
+        "revision": "803249",
+        "text_sha256": "37cf4246dfc5e7e6c2a19a2ea8bf9d4c975cc952c249238a51a7de1cebddc60b"
+      }
+    },
+    {
+      "slug": "juan232",
+      "title": "卷二百三十二",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷232",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7232",
+        "revision": "1502697",
+        "text_sha256": "1e24aaac66f85ff37374e633f0facda8d2ba00ef90877d7a214667c4299ba7c0"
+      }
+    },
+    {
+      "slug": "juan233",
+      "title": "卷二百三十三",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷233",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7233",
+        "revision": "1551296",
+        "text_sha256": "46ce5c3c7373f500a67d960f3439a27917da9278acde6fadcddb437d6e1f4c5c"
+      }
+    },
+    {
+      "slug": "juan234",
+      "title": "卷二百三十四",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷234",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7234",
+        "revision": "1502865",
+        "text_sha256": "e07d7d2eba460679754775efb2c2eaa0916201c46e1747fa3725f507f11a642f"
+      }
+    },
+    {
+      "slug": "juan235",
+      "title": "卷二百三十五",
+      "sections": 8,
+      "source": {
+        "title": "資治通鑑/卷235",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7235",
+        "revision": "982552",
+        "text_sha256": "cfa401428113df78b2c2a1b95d63825d1f6bc1ce6b44d927f5782d9e3b51972e"
+      }
+    },
+    {
+      "slug": "juan236",
+      "title": "卷二百三十六",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷236",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7236",
+        "revision": "7904718",
+        "text_sha256": "b6289bea0a4c0b3ac528589966c1f622ed49d3ba01f1b8de65552b8ae6fec3d3"
+      }
+    },
+    {
+      "slug": "juan237",
+      "title": "卷二百三十七",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷237",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7237",
+        "revision": "1964113",
+        "text_sha256": "8a918609eb72d8c4d9f1efd75f9bafbfe5d7c14eaea8dd91d8818d03afab922e"
+      }
+    },
+    {
+      "slug": "juan238",
+      "title": "卷二百三十八",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷238",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7238",
+        "revision": "1151323",
+        "text_sha256": "6aa8e96e13669ab0feb45d3cff02198b4ec51603c0875d4cded371594013a612"
+      }
+    },
+    {
+      "slug": "juan239",
+      "title": "卷二百三十九",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷239",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7239",
+        "revision": "2536891",
+        "text_sha256": "38591e62d9122acde35387eb4b0ce1b484cc8139b44e7c70366b151c1f16df39"
+      }
+    },
+    {
+      "slug": "juan240",
+      "title": "卷二百四十",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷240",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7240",
+        "revision": "1502855",
+        "text_sha256": "64940aee640e903760e5a9538dccd418c6863155ee4cce8d535783d5a38c7cfc"
+      }
+    },
+    {
+      "slug": "juan241",
+      "title": "卷二百四十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷241",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7241",
+        "revision": "982437",
+        "text_sha256": "45d8f4c27da2f77097f3cc7d2584502e08298704daccf06fc9eaf69119e5fe5d"
+      }
+    },
+    {
+      "slug": "juan242",
+      "title": "卷二百四十二",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷242",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7242",
+        "revision": "1502779",
+        "text_sha256": "e62dcbefc1868ea8ca025f9de130128b794a43d84e15a0acd15beb40a80ff3c1"
+      }
+    },
+    {
+      "slug": "juan243",
+      "title": "卷二百四十三",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷243",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7243",
+        "revision": "1502847",
+        "text_sha256": "94d5fa334f9edaa1438f1964c58625c2b594ab8fe418b22302bfe948892ec338"
+      }
+    },
+    {
+      "slug": "juan244",
+      "title": "卷二百四十四",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷244",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7244",
+        "revision": "1749885",
+        "text_sha256": "608e449ca82eef1fd235a5755d859b571799175ad738424b69163840fccf69ae"
+      }
+    },
+    {
+      "slug": "juan245",
+      "title": "卷二百四十五",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷245",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7245",
+        "revision": "1553973",
+        "text_sha256": "dccba88f3d72746d3aad16f1e6a2e11b15883908e0333560771b3cfd7ace95b9"
+      }
+    },
+    {
+      "slug": "juan246",
+      "title": "卷二百四十六",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷246",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7246",
+        "revision": "1762895",
+        "text_sha256": "0c31bdcc0ebd01818b111071b2ca396d3f489b2505ac3b28dddee03c50bc1d31"
+      }
+    },
+    {
+      "slug": "juan247",
+      "title": "卷二百四十七",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷247",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7247",
+        "revision": "982071",
+        "text_sha256": "e794b549dad1317734c5807bc715a90a9132eefab051656e3df5895161ed7f5f"
+      }
+    },
+    {
+      "slug": "juan248",
+      "title": "卷二百四十八",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷248",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7248",
+        "revision": "2693030",
+        "text_sha256": "d55443ea82c93f1b29f6bf8c485a9d93044ec4ef18865bc66753e4e97a133cdd"
+      }
+    },
+    {
+      "slug": "juan249",
+      "title": "卷二百四十九",
+      "sections": 11,
+      "source": {
+        "title": "資治通鑑/卷249",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7249",
+        "revision": "2693114",
+        "text_sha256": "c1f43371be17d6025e57fe48ade17898dd9fae54130daa989690afa093253ab7"
+      }
+    },
+    {
+      "slug": "juan250",
+      "title": "卷二百五十",
+      "sections": 9,
+      "source": {
+        "title": "資治通鑑/卷250",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7250",
+        "revision": "982841",
+        "text_sha256": "8fbd95261f3406cd1f7d01495e1ab628e75e1b99958b38a1a4742c7896ff9bdf"
+      }
+    },
+    {
+      "slug": "juan251",
+      "title": "卷二百五十一",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷251",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7251",
+        "revision": "1761435",
+        "text_sha256": "f283c4c29291efe41e1836a5eb1c640e1c9cf93973551647ff905de6c817149f"
+      }
+    },
+    {
+      "slug": "juan252",
+      "title": "卷二百五十二",
+      "sections": 7,
+      "source": {
+        "title": "資治通鑑/卷252",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7252",
+        "revision": "1968421",
+        "text_sha256": "b324378125a151d33053e8b85aca34be7cf5e34128de10d11031254619c59ea3"
+      }
+    },
+    {
+      "slug": "juan253",
+      "title": "卷二百五十三",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷253",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7253",
+        "revision": "2110542",
+        "text_sha256": "bea87ab9482e403a8592dbdd70cdae8cac3a85fc2bee4d98f7e02ee9e2a3a380"
+      }
+    },
+    {
+      "slug": "juan254",
+      "title": "卷二百五十四",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷254",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7254",
+        "revision": "12129581",
+        "text_sha256": "4dfdf5e4227d8101c270a9e7eb5232087185f1e743596b0d4621a23dd073f7cf"
+      }
+    },
+    {
+      "slug": "juan255",
+      "title": "卷二百五十五",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷255",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7255",
+        "revision": "1760490",
+        "text_sha256": "b43c338e462244775b8297429abd70be42643971ec1d1a6874721da52c2d5b91"
+      }
+    },
+    {
+      "slug": "juan256",
+      "title": "卷二百五十六",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷256",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7256",
+        "revision": "803267",
+        "text_sha256": "797c6e9126dbb142735bf14220ff5f5b8bb84ed0bfc440d29aed4de691935407"
+      }
+    },
+    {
+      "slug": "juan257",
+      "title": "卷二百五十七",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷257",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7257",
+        "revision": "803268",
+        "text_sha256": "491bb0e4fa571a747fe6969bc77a3c1a6476186ec023b79725f52345205aa3ec"
+      }
+    },
+    {
+      "slug": "juan258",
+      "title": "卷二百五十八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷258",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7258",
+        "revision": "1554177",
+        "text_sha256": "c91e97b925bfbccd8f94fcd79544d5197dbb5298dd41dc1045ea0c237ac32148"
+      }
+    },
+    {
+      "slug": "juan259",
+      "title": "卷二百五十九",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷259",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7259",
+        "revision": "803270",
+        "text_sha256": "8de11b58cc63bd894bae7011209087a7596cbfca529b2c91c27e85289d189cb8"
+      }
+    },
+    {
+      "slug": "juan260",
+      "title": "卷二百六十",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷260",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7260",
+        "revision": "1764806",
+        "text_sha256": "f53dc43c4b44ce28c4450bb9cd67e18b7cafa0c215c0701bda8259ebf2bd9963"
+      }
+    },
+    {
+      "slug": "juan261",
+      "title": "卷二百六十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷261",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7261",
+        "revision": "1764808",
+        "text_sha256": "561fb4de85ce3f54ae4759b43d0a0d97ded5dd10ee23074f20935745cd58af07"
+      }
+    },
+    {
+      "slug": "juan262",
+      "title": "卷二百六十二",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷262",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7262",
+        "revision": "1764816",
+        "text_sha256": "8b43d03baa89a754e27d282f1f941ed8a6ea5137f56ac638a1cd66ad1f310aed"
+      }
+    },
+    {
+      "slug": "juan263",
+      "title": "卷二百六十三",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷263",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7263",
+        "revision": "1502862",
+        "text_sha256": "a44d27238d59e364e15a6803586890fff9bdbc1986ff9476eb84579409dd7df7"
+      }
+    },
+    {
+      "slug": "juan264",
+      "title": "卷二百六十四",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷264",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7264",
+        "revision": "1775896",
+        "text_sha256": "5066114acdc588188bff5348422d716322fd003034969b90942c09d01c944f70"
+      }
+    },
+    {
+      "slug": "juan265",
+      "title": "卷二百六十五",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷265",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7265",
+        "revision": "803276",
+        "text_sha256": "1e85199efad7a43b912b4e4a6798409d203faf24c4cd2325ad7031050a315243"
+      }
+    },
+    {
+      "slug": "juan266",
+      "title": "卷二百六十六",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷266",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7266",
+        "revision": "803277",
+        "text_sha256": "d2249990ca3f2ac19dcf0d8dd39f3379a77f62ed727b4a1ba27d87cc4796674a"
+      }
+    },
+    {
+      "slug": "juan267",
+      "title": "卷二百六十七",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷267",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7267",
+        "revision": "1765571",
+        "text_sha256": "c257c4f1a1b56750c40226af6d16c55f15ba9ccfc85142e62d03a4a421d3c9cb"
+      }
+    },
+    {
+      "slug": "juan268",
+      "title": "卷二百六十八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷268",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7268",
+        "revision": "2307909",
+        "text_sha256": "9930d60a65809845c7254ac6ae05ec78b95fec7db7467a8f201d6906d564fdc3"
+      }
+    },
+    {
+      "slug": "juan269",
+      "title": "卷二百六十九",
+      "sections": 6,
+      "source": {
+        "title": "資治通鑑/卷269",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7269",
+        "revision": "1765765",
+        "text_sha256": "fb7f8510e73561b35f80e8a4052aa2c2a8c856e4356d99ef446ea3900a499f2f"
+      }
+    },
+    {
+      "slug": "juan270",
+      "title": "卷二百七十",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷270",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7270",
+        "revision": "803281",
+        "text_sha256": "c4a180451759ed5d73d9340bde4c378a911f75224a60326b4ffe33000e02916d"
+      }
+    },
+    {
+      "slug": "juan271",
+      "title": "卷二百七十一",
+      "sections": 5,
+      "source": {
+        "title": "資治通鑑/卷271",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7271",
+        "revision": "1751976",
+        "text_sha256": "7791373d38bf14c312021e8963ab797ef584fa6b3b6fce8cb270c09d0dd69991"
+      }
+    },
+    {
+      "slug": "juan272",
+      "title": "卷二百七十二",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷272",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7272",
+        "revision": "1554183",
+        "text_sha256": "363e8a9b77f3ed46d42a99a05b35848ade4fa3ea6f4bda507316efdfbfc17dc0"
+      }
+    },
+    {
+      "slug": "juan273",
+      "title": "卷二百七十三",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷273",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7273",
+        "revision": "1502848",
+        "text_sha256": "1eca45cc4bec5b037e44d938bc6b725257e82ea7e479b6aef2ae19b0977a1178"
+      }
+    },
+    {
+      "slug": "juan274",
+      "title": "卷二百七十四",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷274",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7274",
+        "revision": "803285",
+        "text_sha256": "d5db7259424afec9df14347ab0850342894096e14d4054f7fc39f6d54648c35d"
+      }
+    },
+    {
+      "slug": "juan275",
+      "title": "卷二百七十五",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷275",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7275",
+        "revision": "803286",
+        "text_sha256": "2ee1d733ca59850d329999a9136a4c5bfffd983338954d8b3fd1274fa7a9a6f3"
+      }
+    },
+    {
+      "slug": "juan276",
+      "title": "卷二百七十六",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷276",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7276",
+        "revision": "1767667",
+        "text_sha256": "c58d865fbe67617d48b91b7d750150cd1fe61817d11b214bab1fb5afc33c8cd7"
+      }
+    },
+    {
+      "slug": "juan277",
+      "title": "卷二百七十七",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷277",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7277",
+        "revision": "1768811",
+        "text_sha256": "34d071e664c4285d35c4af60945e87ef0556592fb8f9a618e230122ad46aa0b4"
+      }
+    },
+    {
+      "slug": "juan278",
+      "title": "卷二百七十八",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷278",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7278",
+        "revision": "1768855",
+        "text_sha256": "f46380db8a866d57bd1a9dab0cfebab363be7198e486ab78ce2671238c7c9f69"
+      }
+    },
+    {
+      "slug": "juan279",
+      "title": "卷二百七十九",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷279",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7279",
+        "revision": "1769087",
+        "text_sha256": "5267266282716aaa731fb94d52a5929e8614066006bd50bafe6ba56e389257ea"
+      }
+    },
+    {
+      "slug": "juan280",
+      "title": "卷二百八十",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷280",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7280",
+        "revision": "1769088",
+        "text_sha256": "1efbffdf95af0c89d9e6e1fad151f7d76846ebc23689069a297d12ce7953b50c"
+      }
+    },
+    {
+      "slug": "juan281",
+      "title": "卷二百八十一",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷281",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7281",
+        "revision": "1769092",
+        "text_sha256": "83f941201da45a9f66ffa79bc959660fe30f07794a1430e6962f920fb8462811"
+      }
+    },
+    {
+      "slug": "juan282",
+      "title": "卷二百八十二",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷282",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7282",
+        "revision": "2303983",
+        "text_sha256": "55eeb6154584f7b8a9d3932e3a9b8a769872d0f8aeab7f9e7e7a35e684c7a853"
+      }
+    },
+    {
+      "slug": "juan283",
+      "title": "卷二百八十三",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷283",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7283",
+        "revision": "810796",
+        "text_sha256": "209262bba6ff946b09a178bac9a18fdb6bc165a0d293861e5c8de344fb1a3d1e"
+      }
+    },
+    {
+      "slug": "juan284",
+      "title": "卷二百八十四",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷284",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7284",
+        "revision": "803293",
+        "text_sha256": "e8fb75b724e9794a415bf4889eb450e597d254d020bfc670847d70224f0c0444"
+      }
+    },
+    {
+      "slug": "juan285",
+      "title": "卷二百八十五",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷285",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7285",
+        "revision": "2554328",
+        "text_sha256": "55023dd0f5e5968fcd064f2d747f1f74daade2b9b5eab0875abb3e6e8541ce10"
+      }
+    },
+    {
+      "slug": "juan286",
+      "title": "卷二百八十六",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷286",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7286",
+        "revision": "2458278",
+        "text_sha256": "d0ad6bbcd73158bb24e3dd95afbb4b61eb652b9611b1058de6407e82db4ff459"
+      }
+    },
+    {
+      "slug": "juan287",
+      "title": "卷二百八十七",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷287",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7287",
+        "revision": "1329024",
+        "text_sha256": "8c4e4aa6b78c8ee2b860bcfac0c40340c03c666b5fa5d54e34853f125c02238d"
+      }
+    },
+    {
+      "slug": "juan288",
+      "title": "卷二百八十八",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷288",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7288",
+        "revision": "1769130",
+        "text_sha256": "f500bb6c68240b903d23ea74ea2be8c23f84ad217c05c103a73ef5b34468d179"
+      }
+    },
+    {
+      "slug": "juan289",
+      "title": "卷二百八十九",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑/卷289",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7289",
+        "revision": "1769444",
+        "text_sha256": "0a88a256171c225a2f884b2084e86b9d572206ec6eb39e3e59392e056d0fb32b"
+      }
+    },
+    {
+      "slug": "juan290",
+      "title": "卷二百九十",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷290",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7290",
+        "revision": "1554171",
+        "text_sha256": "78c9454e94b026bf3f52a664a6de0ff2e9a37217bff703801de6bb0fdd25ce81"
+      }
+    },
+    {
+      "slug": "juan291",
+      "title": "卷二百九十一",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷291",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7291",
+        "revision": "1554151",
+        "text_sha256": "f229f66512926d307439ef01ae3246d7c17d22e206372d8c3d220d8c7eb41be1"
+      }
+    },
+    {
+      "slug": "juan292",
+      "title": "卷二百九十二",
+      "sections": 4,
+      "source": {
+        "title": "資治通鑑/卷292",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7292",
+        "revision": "1769707",
+        "text_sha256": "9a9a00838eb5a81cd9d9647a775f1a4d4de6961996b79c7bafbaa8cee11f4c08"
+      }
+    },
+    {
+      "slug": "juan293",
+      "title": "卷二百九十三",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷293",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7293",
+        "revision": "1502955",
+        "text_sha256": "1636cb6e347e70ec5dbcf49d836fb935bdba3926e577ecd510b7ec3cbffbb240"
+      }
+    },
+    {
+      "slug": "juan294",
+      "title": "卷二百九十四",
+      "sections": 3,
+      "source": {
+        "title": "資治通鑑/卷294",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7294",
+        "revision": "2594143",
+        "text_sha256": "6900ce64a40ee6b84a6b1d7d8e5a932849f1c86b2afdbb420993bb585e1b09c5"
+      }
+    }
+  ]
+}

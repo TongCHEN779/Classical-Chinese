@@ -1,0 +1,104 @@
+{
+  "book": "传习录",
+  "pages": [
+    {
+      "slug": "shang1",
+      "title": "卷上·徐爱录（含引言、跋）",
+      "sections": 16,
+      "source": {
+        "title": "傳習錄/卷上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%8A",
+        "revision": "2603592",
+        "text_sha256": "7785517ef3247eceb2bb45c4558519b0b11e75bac3d96e2b9285493d988cbec6"
+      }
+    },
+    {
+      "slug": "shang2",
+      "title": "卷上·陆澄录",
+      "sections": 80,
+      "source": {
+        "title": "傳習錄/卷上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%8A",
+        "revision": "2603592",
+        "text_sha256": "7785517ef3247eceb2bb45c4558519b0b11e75bac3d96e2b9285493d988cbec6"
+      }
+    },
+    {
+      "slug": "shang3",
+      "title": "卷上·薛侃录",
+      "sections": 35,
+      "source": {
+        "title": "傳習錄/卷上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%8A",
+        "revision": "2603592",
+        "text_sha256": "7785517ef3247eceb2bb45c4558519b0b11e75bac3d96e2b9285493d988cbec6"
+      }
+    },
+    {
+      "slug": "zhong1",
+      "title": "卷中·钱德洪序、答顾东桥书",
+      "sections": 15,
+      "source": {
+        "title": "傳習錄/卷中",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%AD",
+        "revision": "2509125",
+        "text_sha256": "40c208283002699986369f3b68807cb021e2664d4bdc5f4e7f52a6778cb47543"
+      }
+    },
+    {
+      "slug": "zhong2",
+      "title": "卷中·答周道通、陆原静、欧阳崇一书",
+      "sections": 28,
+      "source": {
+        "title": "傳習錄/卷中",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%AD",
+        "revision": "2509125",
+        "text_sha256": "40c208283002699986369f3b68807cb021e2664d4bdc5f4e7f52a6778cb47543"
+      }
+    },
+    {
+      "slug": "zhong3",
+      "title": "卷中·答罗整庵、聂文蔚书及训蒙教约",
+      "sections": 29,
+      "source": {
+        "title": "傳習錄/卷中",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%AD",
+        "revision": "2509125",
+        "text_sha256": "40c208283002699986369f3b68807cb021e2664d4bdc5f4e7f52a6778cb47543"
+      }
+    },
+    {
+      "slug": "xia1",
+      "title": "卷下·陈九川录、黄修易录",
+      "sections": 48,
+      "source": {
+        "title": "傳習錄/卷下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%8B",
+        "revision": "2063633",
+        "text_sha256": "f3fc0204231cfb833cccf4ad4fe14afcc25d4325a4c8328b7f6c8f40261be13c"
+      }
+    },
+    {
+      "slug": "xia2",
+      "title": "卷下·黄省曾录",
+      "sections": 68,
+      "source": {
+        "title": "傳習錄/卷下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%8B",
+        "revision": "2063633",
+        "text_sha256": "f3fc0204231cfb833cccf4ad4fe14afcc25d4325a4c8328b7f6c8f40261be13c"
+      }
+    },
+    {
+      "slug": "xia3",
+      "title": "卷下·黄以方录（含钱德洪跋）",
+      "sections": 27,
+      "source": {
+        "title": "傳習錄/卷下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%8B",
+        "revision": "2063633",
+        "text_sha256": "f3fc0204231cfb833cccf4ad4fe14afcc25d4325a4c8328b7f6c8f40261be13c"
+      }
+    }
+  ]
+}

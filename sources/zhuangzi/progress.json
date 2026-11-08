@@ -1,0 +1,368 @@
+{
+  "pages": [
+    {
+      "slug": "pian01",
+      "title": "内篇·逍遥游",
+      "sections": 7,
+      "source": {
+        "title": "莊子/逍遙遊",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E9%80%8D%E9%81%99%E9%81%8A",
+        "revision": "11122546",
+        "text_sha256": "cf764afd0a8fac6a0d491ea55c3b88d49f550a61e747130d2dbb4ee683cf1fff"
+      }
+    },
+    {
+      "slug": "pian02",
+      "title": "内篇·齐物论",
+      "sections": 13,
+      "source": {
+        "title": "莊子/齊物論",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E9%BD%8A%E7%89%A9%E8%AB%96",
+        "revision": "11117685",
+        "text_sha256": "d1dea722b2a17637ba99595f89372a3c2860ca88fd683ab518df55d673b2ab32"
+      }
+    },
+    {
+      "slug": "pian03",
+      "title": "内篇·养生主",
+      "sections": 4,
+      "source": {
+        "title": "莊子/養生主",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E9%A4%8A%E7%94%9F%E4%B8%BB",
+        "revision": "11117686",
+        "text_sha256": "640f53cce019e3ff8771710badbe31e693cf4cb04e87df508cde0c98dff9d0ff"
+      }
+    },
+    {
+      "slug": "pian04",
+      "title": "内篇·人间世",
+      "sections": 7,
+      "source": {
+        "title": "莊子/人間世",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E4%BA%BA%E9%96%93%E4%B8%96",
+        "revision": "11117687",
+        "text_sha256": "dc141ddd565d97544b54ae4ceb2578bdd793d09e6e0bdeea7939f8493615a9f5"
+      }
+    },
+    {
+      "slug": "pian05",
+      "title": "内篇·德充符",
+      "sections": 6,
+      "source": {
+        "title": "莊子/德充符",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%BE%B7%E5%85%85%E7%AC%A6",
+        "revision": "11117688",
+        "text_sha256": "d7593d7b63fc10a37368e493624b0b6e37f5466a8159fd47e54d0cc043455937"
+      }
+    },
+    {
+      "slug": "pian06",
+      "title": "内篇·大宗师",
+      "sections": 11,
+      "source": {
+        "title": "莊子/大宗師",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%A4%A7%E5%AE%97%E5%B8%AB",
+        "revision": "11117689",
+        "text_sha256": "2831ce816cf3b1a36ffec6d04b7f84f577fedf6844c1f744a8005626883d4d9c"
+      }
+    },
+    {
+      "slug": "pian07",
+      "title": "内篇·应帝王",
+      "sections": 6,
+      "source": {
+        "title": "莊子/應帝王",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E6%87%89%E5%B8%9D%E7%8E%8B",
+        "revision": "11117690",
+        "text_sha256": "d2d3385b5c6cd7fff841a550cbe06a27a6dd82aab28e1d9eb9eb9007759454eb"
+      }
+    },
+    {
+      "slug": "pian08",
+      "title": "外篇·骈拇",
+      "sections": 4,
+      "source": {
+        "title": "莊子/駢拇",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E9%A7%A2%E6%8B%87",
+        "revision": "11117691",
+        "text_sha256": "dbd142da6d1bbd18c6a5859c39adae152ed9ed873810afa9f275a2bc43561694"
+      }
+    },
+    {
+      "slug": "pian09",
+      "title": "外篇·马蹄",
+      "sections": 3,
+      "source": {
+        "title": "莊子/馬蹄",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E9%A6%AC%E8%B9%84",
+        "revision": "11117692",
+        "text_sha256": "797410b773c43ef0f9186650dd76ac20e17a8acf7a343f55c67a7b5247b73fdd"
+      }
+    },
+    {
+      "slug": "pian10",
+      "title": "外篇·胠箧",
+      "sections": 7,
+      "source": {
+        "title": "莊子/胠篋",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E8%83%A0%E7%AF%8B",
+        "revision": "11117696",
+        "text_sha256": "fb31981a5e447b34353bb93e9f6476ea03d25804b28881ff16bcc91627167585"
+      }
+    },
+    {
+      "slug": "pian11",
+      "title": "外篇·在宥",
+      "sections": 8,
+      "source": {
+        "title": "莊子/在宥",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%9C%A8%E5%AE%A5",
+        "revision": "11117697",
+        "text_sha256": "4a4fc8f5adcb650c50245b31eba5c842ee7d4083b1e7cb70635c1e0e846b8d7c"
+      }
+    },
+    {
+      "slug": "pian12",
+      "title": "外篇·天地",
+      "sections": 16,
+      "source": {
+        "title": "莊子/天地",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%A4%A9%E5%9C%B0",
+        "revision": "11117698",
+        "text_sha256": "db92f4c2a485f8efaee1ac9762d96391faaf01eeb3ae0fd9243e682edd9945eb"
+      }
+    },
+    {
+      "slug": "pian13",
+      "title": "外篇·天道",
+      "sections": 10,
+      "source": {
+        "title": "莊子/天道",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%A4%A9%E9%81%93",
+        "revision": "11117699",
+        "text_sha256": "b7c27fbd2686c4c372588003c6a124eca3a3432390762c342ebba7ee91c9f96b"
+      }
+    },
+    {
+      "slug": "pian14",
+      "title": "外篇·天运",
+      "sections": 8,
+      "source": {
+        "title": "莊子/天運",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%A4%A9%E9%81%8B",
+        "revision": "11117700",
+        "text_sha256": "9e5690b60d89747c71ce9c859d2e3522e23d433cf321b2046075405a3af22b7f"
+      }
+    },
+    {
+      "slug": "pian15",
+      "title": "外篇·刻意",
+      "sections": 4,
+      "source": {
+        "title": "莊子/刻意",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%88%BB%E6%84%8F",
+        "revision": "11117701",
+        "text_sha256": "23ed8d3cbe3efd8649e36aa4309a86babf836957a693d438a6af79b895950a45"
+      }
+    },
+    {
+      "slug": "pian16",
+      "title": "外篇·缮性",
+      "sections": 4,
+      "source": {
+        "title": "莊子/繕性",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E7%B9%95%E6%80%A7",
+        "revision": "11117702",
+        "text_sha256": "99e00016ed06b1341caec51d2ef68414ba698c46d4a3dc4459f89259bccb8973"
+      }
+    },
+    {
+      "slug": "pian17",
+      "title": "外篇·秋水",
+      "sections": 12,
+      "source": {
+        "title": "莊子/秋水",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E7%A7%8B%E6%B0%B4",
+        "revision": "11117703",
+        "text_sha256": "c5a1b288dfbfd2e33beb44c00cb8b6062534bbbca4e4781ab179dace2ae54fc4"
+      }
+    },
+    {
+      "slug": "pian18",
+      "title": "外篇·至乐",
+      "sections": 6,
+      "source": {
+        "title": "莊子/至樂",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E8%87%B3%E6%A8%82",
+        "revision": "11117704",
+        "text_sha256": "6a5c221297afba411ee6205191b90d1ed6e8892d17e8eaffc2c1aa508d86fcd3"
+      }
+    },
+    {
+      "slug": "pian19",
+      "title": "外篇·达生",
+      "sections": 12,
+      "source": {
+        "title": "莊子/達生",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E9%81%94%E7%94%9F",
+        "revision": "11117705",
+        "text_sha256": "55a2dd0e07bd65caeef0077a5cb7a740f6781cb4b257ccd604844a5319890f8e"
+      }
+    },
+    {
+      "slug": "pian20",
+      "title": "外篇·山木",
+      "sections": 9,
+      "source": {
+        "title": "莊子/山木",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%B1%B1%E6%9C%A8",
+        "revision": "11117707",
+        "text_sha256": "d5b333832b144bc4c0ef19f128ba80dbe59c74439aa4c33d8f7a41c51a345c5b"
+      }
+    },
+    {
+      "slug": "pian21",
+      "title": "外篇·田子方",
+      "sections": 11,
+      "source": {
+        "title": "莊子/田子方",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E7%94%B0%E5%AD%90%E6%96%B9",
+        "revision": "11117709",
+        "text_sha256": "1c25539fbda6ec8e9092891275ec186351ee439ddcbc31fe5c92872dbf806aef"
+      }
+    },
+    {
+      "slug": "pian22",
+      "title": "外篇·知北游",
+      "sections": 12,
+      "source": {
+        "title": "莊子/知北遊",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E7%9F%A5%E5%8C%97%E9%81%8A",
+        "revision": "11117710",
+        "text_sha256": "45be10783357036f32831c44fd764e6f0994ace0ccf59eb5e833f73e4e56e504"
+      }
+    },
+    {
+      "slug": "pian23",
+      "title": "杂篇·庚桑楚",
+      "sections": 8,
+      "source": {
+        "title": "莊子/庚桑楚",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%BA%9A%E6%A1%91%E6%A5%9A",
+        "revision": "11117711",
+        "text_sha256": "e7c7326d547f22e66bd383a7591efe5601da1e9dbcc59fb7bf46a9e8f988da68"
+      }
+    },
+    {
+      "slug": "pian24",
+      "title": "杂篇·徐无鬼",
+      "sections": 14,
+      "source": {
+        "title": "莊子/徐無鬼",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%BE%90%E7%84%A1%E9%AC%BC",
+        "revision": "11117712",
+        "text_sha256": "6150baaf71960eecfe4b6b0e5a62b76867ec2c515ef5d9565081e7af454a10d3"
+      }
+    },
+    {
+      "slug": "pian25",
+      "title": "杂篇·则阳",
+      "sections": 12,
+      "source": {
+        "title": "莊子/則陽",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%89%87%E9%99%BD",
+        "revision": "11117713",
+        "text_sha256": "e3f813d68a5c6e00e4b0f75652c58be18dc69f5b710128e9a7940b26bf4a0b63"
+      }
+    },
+    {
+      "slug": "pian26",
+      "title": "杂篇·外物",
+      "sections": 8,
+      "source": {
+        "title": "莊子/外物",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%A4%96%E7%89%A9",
+        "revision": "11117714",
+        "text_sha256": "076d927cda4b59e55dee1555e8e1bacb347937ac340397d9f809765161104e2b"
+      }
+    },
+    {
+      "slug": "pian27",
+      "title": "杂篇·寓言",
+      "sections": 7,
+      "source": {
+        "title": "莊子/寓言",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%AF%93%E8%A8%80",
+        "revision": "11117715",
+        "text_sha256": "4a1537ae2b23523a09a5d704457707f139887f5e69a18ddd96e3454fc4ad598e"
+      }
+    },
+    {
+      "slug": "pian28",
+      "title": "杂篇·让王",
+      "sections": 18,
+      "source": {
+        "title": "莊子/讓王",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E8%AE%93%E7%8E%8B",
+        "revision": "11117716",
+        "text_sha256": "7967905fe4f1e768d25808116e62ba1a3ea9b48e90c6999ae98b2cac4fd6b373"
+      }
+    },
+    {
+      "slug": "pian29",
+      "title": "杂篇·盗跖",
+      "sections": 11,
+      "source": {
+        "title": "莊子/盜跖",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E7%9B%9C%E8%B7%96",
+        "revision": "11117717",
+        "text_sha256": "9b53301ec8a1490253ba09d335c25579a7fbc3db1946d49cd78f6d32e86c24ca"
+      }
+    },
+    {
+      "slug": "pian30",
+      "title": "杂篇·说剑",
+      "sections": 1,
+      "source": {
+        "title": "莊子/說劍",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E8%AA%AA%E5%8A%8D",
+        "revision": "11117718",
+        "text_sha256": "346c9b6ff671794e64fcc9793bb3d96df9a1cb45e0efbcaa22e13e6ffe867792"
+      }
+    },
+    {
+      "slug": "pian31",
+      "title": "杂篇·渔父",
+      "sections": 5,
+      "source": {
+        "title": "莊子/漁父",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E6%BC%81%E7%88%B6",
+        "revision": "11117719",
+        "text_sha256": "abbcb6dd71ed4c947598d8b4c61ba55f2061fc19ab205496104482dadd5a4c79"
+      }
+    },
+    {
+      "slug": "pian32",
+      "title": "杂篇·列御寇",
+      "sections": 12,
+      "source": {
+        "title": "莊子/列禦寇",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%88%97%E7%A6%A6%E5%AF%87",
+        "revision": "11117720",
+        "text_sha256": "1d587a6200d33b8366f6f0fdf31622694df586601d02c3f676f9e009fae1b117"
+      }
+    },
+    {
+      "slug": "pian33",
+      "title": "杂篇·天下",
+      "sections": 13,
+      "source": {
+        "title": "莊子/天下",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%8E%8A%E5%AD%90/%E5%A4%A9%E4%B8%8B",
+        "revision": "11117721",
+        "text_sha256": "21a9b1fa8538ad86cb70a8bfd96ae312edda5cbb2c7d73b9476f00c942a098fd"
+      }
+    }
+  ],
+  "book": "庄子"
+}

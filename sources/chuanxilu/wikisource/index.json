@@ -1,0 +1,24 @@
+{
+  "title": "傳習錄",
+  "url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E5%82%B3%E7%BF%92%E9%8C%84",
+  "revision": "1557064",
+  "fetched_at": "2026-10-30T11:19:48.488683+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "傳習錄/卷上",
+      "label": "卷上"
+    },
+    {
+      "title": "傳習錄/卷中",
+      "label": "卷中"
+    },
+    {
+      "title": "傳習錄/卷下",
+      "label": "卷下"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

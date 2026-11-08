@@ -1,0 +1,93 @@
+{
+  "book": "晏子春秋",
+  "pages": [
+    {
+      "slug": "juan01",
+      "title": "卷一·内篇谏上",
+      "sections": 25,
+      "source": {
+        "title": "晏子春秋/卷一",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E4%B8%80",
+        "revision": "2184646",
+        "text_sha256": "7af14d253fa09b56269e954eeafae5f4c43c8f3959aa64c3191cdb3840e88919"
+      }
+    },
+    {
+      "slug": "juan02",
+      "title": "卷二·内篇谏下",
+      "sections": 25,
+      "source": {
+        "title": "晏子春秋/卷二",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E4%BA%8C",
+        "revision": "2004563",
+        "text_sha256": "9077c926518a67f944023052a37af8d481200728edbdc7901d88db5f78eb8b1b"
+      }
+    },
+    {
+      "slug": "juan03",
+      "title": "卷三·内篇问上",
+      "sections": 30,
+      "source": {
+        "title": "晏子春秋/卷三",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E4%B8%89",
+        "revision": "1745684",
+        "text_sha256": "debaae7bc8226d25f462905fac3d1c9b1676d9ad97653060519b81194b642f95"
+      }
+    },
+    {
+      "slug": "juan04",
+      "title": "卷四·内篇问下",
+      "sections": 30,
+      "source": {
+        "title": "晏子春秋/卷四",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E5%9B%9B",
+        "revision": "800262",
+        "text_sha256": "f5f2c6918a4a28a79e18a25dd052741cdbd27036217103ae9b9dacc4cb924756"
+      }
+    },
+    {
+      "slug": "juan05",
+      "title": "卷五·内篇杂上",
+      "sections": 30,
+      "source": {
+        "title": "晏子春秋/卷五",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E4%BA%94",
+        "revision": "800263",
+        "text_sha256": "8a9593483b78e31660d2574b3742ef5f2cd4541469e2a546872c21be536533e4"
+      }
+    },
+    {
+      "slug": "juan06",
+      "title": "卷六·内篇杂下",
+      "sections": 30,
+      "source": {
+        "title": "晏子春秋/卷六",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E5%85%AD",
+        "revision": "2283008",
+        "text_sha256": "a5301c263f3f511586569dab0e6826a926d1d8ed5b027f1d4967b455a609e2f3"
+      }
+    },
+    {
+      "slug": "juan07",
+      "title": "卷七·外篇上",
+      "sections": 27,
+      "source": {
+        "title": "晏子春秋/卷七",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E4%B8%83",
+        "revision": "2605909",
+        "text_sha256": "b2dbbd0360b4cf23f8a152906397b670ab62c60f6678695e870c38c2fdf1f40f"
+      }
+    },
+    {
+      "slug": "juan08",
+      "title": "卷八·外篇下",
+      "sections": 18,
+      "source": {
+        "title": "晏子春秋/卷八",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%99%8F%E5%AD%90%E6%98%A5%E7%A7%8B/%E5%8D%B7%E5%85%AB",
+        "revision": "2605910",
+        "text_sha256": "370ca1f1f3c15feb8262340feb2c074b7c5f3fec0693a99e42f50c286aac39b1"
+      }
+    }
+  ]
+}

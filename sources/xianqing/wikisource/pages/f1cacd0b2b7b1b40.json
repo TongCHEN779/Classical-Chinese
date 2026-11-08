@@ -1,0 +1,44 @@
+{
+  "title": "閑情偶寄/詞曲部",
+  "url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E8%A9%9E%E6%9B%B2%E9%83%A8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E8%A9%9E%E6%9B%B2%E9%83%A8",
+  "revision": "229342",
+  "fetched_at": "2026-10-27T17:27:45.727897+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "閑情偶寄/序",
+      "label": "序"
+    },
+    {
+      "title": "閑情偶寄/演習部",
+      "label": "演习部"
+    },
+    {
+      "title": "閑情偶寄/詞曲部/結構第一",
+      "label": "结构第一"
+    },
+    {
+      "title": "閑情偶寄/詞曲部/詞采第二",
+      "label": "词采第二"
+    },
+    {
+      "title": "閑情偶寄/詞曲部/音律第三",
+      "label": "音律第三"
+    },
+    {
+      "title": "閑情偶寄/詞曲部/賓白第四",
+      "label": "宾白第四"
+    },
+    {
+      "title": "閑情偶寄/詞曲部/科諢第五",
+      "label": "科诨第五"
+    },
+    {
+      "title": "閑情偶寄/詞曲部/格局第六",
+      "label": "格局第六"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

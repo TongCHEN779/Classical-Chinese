@@ -1,0 +1,32 @@
+{
+  "title": "西廂記",
+  "url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E5%BB%82%E8%A8%98",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E8%A5%BF%E5%BB%82%E8%A8%98",
+  "revision": "1645642",
+  "fetched_at": "2026-10-27T13:06:46.405227+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "西廂記/第1本",
+      "label": "第一本"
+    },
+    {
+      "title": "西廂記/第2本",
+      "label": "第二本"
+    },
+    {
+      "title": "西廂記/第3本",
+      "label": "第三本"
+    },
+    {
+      "title": "西廂記/第4本",
+      "label": "第四本"
+    },
+    {
+      "title": "西廂記/第5本",
+      "label": "第五本"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

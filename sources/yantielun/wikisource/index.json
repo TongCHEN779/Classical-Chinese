@@ -1,0 +1,61 @@
+{
+  "title": "鹽鐵論",
+  "url": "https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96",
+  "revision": "2262106",
+  "fetched_at": "2026-10-27T09:45:49.246997+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "四库全书"
+    },
+    {
+      "type": "h2",
+      "text": "目录"
+    }
+  ],
+  "links": [
+    {
+      "title": "鹽鐵論/卷01",
+      "label": "卷一"
+    },
+    {
+      "title": "鹽鐵論/卷02",
+      "label": "卷二"
+    },
+    {
+      "title": "鹽鐵論/卷03",
+      "label": "卷三"
+    },
+    {
+      "title": "鹽鐵論/卷04",
+      "label": "卷四"
+    },
+    {
+      "title": "鹽鐵論/卷05",
+      "label": "卷五"
+    },
+    {
+      "title": "鹽鐵論/卷06",
+      "label": "卷六"
+    },
+    {
+      "title": "鹽鐵論/卷07",
+      "label": "卷七"
+    },
+    {
+      "title": "鹽鐵論/卷08",
+      "label": "卷八"
+    },
+    {
+      "title": "鹽鐵論/卷09",
+      "label": "卷九"
+    },
+    {
+      "title": "鹽鐵論/卷10",
+      "label": "卷十"
+    }
+  ],
+  "text_sha256": "0f5debddd17e562a9fae61481a3bf622e3a6a052dc432da9f8203f232f8d3ada"
+}

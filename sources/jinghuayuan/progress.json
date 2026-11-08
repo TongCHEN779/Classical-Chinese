@@ -1,0 +1,1105 @@
+{
+  "book": "镜花缘",
+  "pages": [
+    {
+      "slug": "001",
+      "title": "第一回　女魁星北斗垂景象　老王母西池赐芳筵",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第001回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC001%E5%9B%9E",
+        "revision": "831027",
+        "text_sha256": "138a1746f9d087726b834497f24d082238d00281a79c8f31fe4c99ac20b7dd62"
+      }
+    },
+    {
+      "slug": "002",
+      "title": "第二回　发正言花仙顺时令　定罚约月姊助风狂",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第002回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC002%E5%9B%9E",
+        "revision": "831025",
+        "text_sha256": "e664e41415676aafb95c1566fc95c5324930dc3d4566cc4261bb52c8adc40627"
+      }
+    },
+    {
+      "slug": "003",
+      "title": "第三回　徐英公传檄起义兵　骆主簿修书寄良友",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第003回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC003%E5%9B%9E",
+        "revision": "831039",
+        "text_sha256": "b27e0c31112029cf7890f6c6cee8f9c1da078356b4c3753b17c2f3459f26b69b"
+      }
+    },
+    {
+      "slug": "004",
+      "title": "第四回　吟雪诗暖阁赌酒　挥醉笔上苑催花",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第004回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC004%E5%9B%9E",
+        "revision": "831028",
+        "text_sha256": "1a19029cfd01e0052878ff46da7421315ac6fdc3ea18b9e182cc27d4fffb8e82"
+      }
+    },
+    {
+      "slug": "005",
+      "title": "第五回　俏宫娥戏夸金盏草　武太后怒贬牡丹花",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第005回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC005%E5%9B%9E",
+        "revision": "831029",
+        "text_sha256": "6f1828063e599886e00409cc80af26ff27c3cd26251294067a0127e3fac37af5"
+      }
+    },
+    {
+      "slug": "006",
+      "title": "第六回　众宰承宣游上苑　百花获谴降红尘",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第006回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC006%E5%9B%9E",
+        "revision": "831030",
+        "text_sha256": "c2820e366a96d210265b5655ccbb8d42f76ee601ffa76b4e17ad20f17952dc3f"
+      }
+    },
+    {
+      "slug": "007",
+      "title": "第七回　小才女月下论文科　老书生梦中闻善果",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第007回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC007%E5%9B%9E",
+        "revision": "831031",
+        "text_sha256": "f26675841ec32ccbe9d633d2ad98c6f7180654f8e9446a6be03c69e86ba5d685"
+      }
+    },
+    {
+      "slug": "008",
+      "title": "第八回　弃嚣尘结伴游寰海　觅胜迹穷踪越远山",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第008回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC008%E5%9B%9E",
+        "revision": "831032",
+        "text_sha256": "3206f31e1ad7828784c53364e1608071fe034f24d0a72c50d058dde72bed3905"
+      }
+    },
+    {
+      "slug": "009",
+      "title": "第九回　服肉芝延年益寿　食朱草入圣超凡",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第009回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC009%E5%9B%9E",
+        "revision": "831033",
+        "text_sha256": "c6ee05350566056429ad78a7d1d3a9e2b97c853d01fcfb0d677d053464b8cdc5"
+      }
+    },
+    {
+      "slug": "010",
+      "title": "第十回　诛大虫佳人施药箭　搏奇鸟壮士奋空拳",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第010回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC010%E5%9B%9E",
+        "revision": "831034",
+        "text_sha256": "2032e249316e6593fbeb645643421ec1ee27ac11a0e8375c0906b227cac98276"
+      }
+    },
+    {
+      "slug": "011",
+      "title": "第十一回　观雅化闲游君子邦　慕仁风误入良臣府",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第011回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC011%E5%9B%9E",
+        "revision": "831035",
+        "text_sha256": "a445e94e17f24c372bea8d4084bac91d194e6f073e1715c550305b4128a7cb5a"
+      }
+    },
+    {
+      "slug": "012",
+      "title": "第十二回　双宰辅畅谈俗弊　两书生敬服良箴",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第012回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC012%E5%9B%9E",
+        "revision": "831036",
+        "text_sha256": "1f40c052c41b2e13382db60c955b0de7adf7af64d13ca33249462c77215cadab"
+      }
+    },
+    {
+      "slug": "013",
+      "title": "第十三回　美人入海遭罗网　儒士登山失路途",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第013回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC013%E5%9B%9E",
+        "revision": "831038",
+        "text_sha256": "07e213bd609a73df3506bb5489e02d0412c4c7f11b407a163b8ffc0f2a446af9"
+      }
+    },
+    {
+      "slug": "014",
+      "title": "第十四回　谈寿夭道经聂耳　论穷通路出无肠",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第014回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC014%E5%9B%9E",
+        "revision": "831040",
+        "text_sha256": "2c0c56c5917d8a0b7672dbc01c9fa28f73d1c9f930869bc1ba8e269ce200907e"
+      }
+    },
+    {
+      "slug": "015",
+      "title": "第十五回　喜相逢师生谈故旧　巧遇合宾主结新亲",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第015回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC015%E5%9B%9E",
+        "revision": "831041",
+        "text_sha256": "398839e6c1b10127c7fc753958dc364ec6b58639508b50cb389157e584ed8500"
+      }
+    },
+    {
+      "slug": "016",
+      "title": "第十六回　紫衣女殷勤问字　白发翁傲慢谈文",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第016回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC016%E5%9B%9E",
+        "revision": "831042",
+        "text_sha256": "c39a99f8a971205e60c6d216a766ac22bae97b4ea30cba6b6ac9ca3da5b65ab8"
+      }
+    },
+    {
+      "slug": "017",
+      "title": "第十七回　因字声粗谈切韵　闻雁唳细问来宾",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第017回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC017%E5%9B%9E",
+        "revision": "831043",
+        "text_sha256": "5a12c0e2b18b0e5a15eec9c5c8f85029ea7b98a4b4e52ead85a8f6c083aa2f0e"
+      }
+    },
+    {
+      "slug": "018",
+      "title": "第十八回　辟清谈幼女讲羲经　发至论书生尊孟子",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第018回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC018%E5%9B%9E",
+        "revision": "831044",
+        "text_sha256": "9829bd6917f385465769fb5d85f8eb64b185b2438c5964cff0cb1d5f53450d64"
+      }
+    },
+    {
+      "slug": "019",
+      "title": "第十九回　受女辱潜逃黑齿邦　观民风联步小人国",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第019回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC019%E5%9B%9E",
+        "revision": "831045",
+        "text_sha256": "3a58fcc92e20ab34f09a505fc67b907cc131fcd45f43e339504714d4e03df5e6"
+      }
+    },
+    {
+      "slug": "020",
+      "title": "第二十回　丹桂岩山鸡舞镜　碧梧岭孔雀开屏",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第020回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC020%E5%9B%9E",
+        "revision": "831046",
+        "text_sha256": "65443adbdf3b225e4290785d2e575f47761f13d2d48bd1cdce7ce06756ad1ae6"
+      }
+    },
+    {
+      "slug": "021",
+      "title": "第二十一回　逢恶兽唐生被难　施神枪魏女解围",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第021回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC021%E5%9B%9E",
+        "revision": "831047",
+        "text_sha256": "b7c6f8cf46f7688ef6171a90e0f8c2846c797d287d44eff89af4f3903dc31f30"
+      }
+    },
+    {
+      "slug": "022",
+      "title": "第二十二回　遇白民儒士听奇文　观药兽武夫发妙论",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第022回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC022%E5%9B%9E",
+        "revision": "2637956",
+        "text_sha256": "090441f668aaa3f05fedc7daf3433eb7021d7b7e8a247b308d673fd299299636"
+      }
+    },
+    {
+      "slug": "023",
+      "title": "第二十三回　说酸话酒保咬文　讲迂谈腐儒嚼字",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第023回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC023%E5%9B%9E",
+        "revision": "831049",
+        "text_sha256": "105335c5eb1f54ce26cef99ad32b46a68dce89b766138f12e0aaf3a1dbd204cc"
+      }
+    },
+    {
+      "slug": "024",
+      "title": "第二十四回　唐探花酒楼闻善政　徐公子茶肆叙衷情",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第024回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC024%E5%9B%9E",
+        "revision": "831050",
+        "text_sha256": "b18dd6b4d0e842cdb0bd5bb195a49f8a6a72c2c6fd3bd0d199f61ba9e528fed3"
+      }
+    },
+    {
+      "slug": "025",
+      "title": "第二十五回　越危垣潜出淑士关　登曲岸闲游两面国",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第025回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC025%E5%9B%9E",
+        "revision": "831051",
+        "text_sha256": "553aadf9394c06986220b220da6be2865d98d8c27021bb1e8cb5f142acb8d038"
+      }
+    },
+    {
+      "slug": "026",
+      "title": "第二十六回　遇强梁义女怀德　遭大厄灵鱼报恩",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第026回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC026%E5%9B%9E",
+        "revision": "831052",
+        "text_sha256": "d1251b82870abbcb71faef874fe71fe20014e5d8bad6c5794ac9d17558168380"
+      }
+    },
+    {
+      "slug": "027",
+      "title": "第二十七回　观奇形路过翼民郡　谈异相道出豕喙乡",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第027回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC027%E5%9B%9E",
+        "revision": "831053",
+        "text_sha256": "05f594b3f2a62ee7f4d51b11230e7b1c755c2623751bd0beb8e1a3d5000810bc"
+      }
+    },
+    {
+      "slug": "028",
+      "title": "第二十八回　老书生仗义舞龙泉　小美女衔恩脱虎穴",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第028回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC028%E5%9B%9E",
+        "revision": "831055",
+        "text_sha256": "e2b6485a8505cc5456d24636eb9dd3c7f69542b018f2c5e0e3df058fe8a7e725"
+      }
+    },
+    {
+      "slug": "029",
+      "title": "第二十九回　服妙药幼子回春　传奇方老翁济世",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第029回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC029%E5%9B%9E",
+        "revision": "831056",
+        "text_sha256": "98d36cac4c04d3e4eac067f8a0efd96c14b67e1d105a8c8bd1d852464fc9dfe0"
+      }
+    },
+    {
+      "slug": "030",
+      "title": "第三十回　觅蝇头林郎货禽鸟　因恙体枝女作螟蛉",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第030回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC030%E5%9B%9E",
+        "revision": "831057",
+        "text_sha256": "4ab43f7a5d4f68c1f47c063ee626c2f72fb5a8467ccc11534b0fcb8aaaabf501"
+      }
+    },
+    {
+      "slug": "031",
+      "title": "第三十一回　谈字母妙语指迷团　看花灯戏言猜哑谜",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第031回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC031%E5%9B%9E",
+        "revision": "831058",
+        "text_sha256": "7077bbe3746ebdd04ba64d8ee2067976e46cd0b3799ca7eeda4911d4cb049a00"
+      }
+    },
+    {
+      "slug": "032",
+      "title": "第三十二回　访筹算畅游智佳国　观艳妆闲步女儿乡",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第032回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC032%E5%9B%9E",
+        "revision": "831059",
+        "text_sha256": "63cb661d0d8398c9072a3392edec08897fc2e70469edbe85c0b9aed55bab1795"
+      }
+    },
+    {
+      "slug": "033",
+      "title": "第三十三回　粉面郎缠足受困　长须女玩股垂情",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第033回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC033%E5%9B%9E",
+        "revision": "831060",
+        "text_sha256": "f479ceb496865a72a9889a9b2e8be4c0efff1d89cfbfb913e642a6010debe1ab"
+      }
+    },
+    {
+      "slug": "034",
+      "title": "第三十四回　观丽人女主定吉期　访良友老翁得凶信",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第034回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC034%E5%9B%9E",
+        "revision": "831061",
+        "text_sha256": "c0fd79a03afc0a0e1e467f6dca7628ce6f217ac92e70095577644c0bf72f0fe7"
+      }
+    },
+    {
+      "slug": "035",
+      "title": "第三十五回　现红鸾林贵妃应课　揭黄榜唐义士治河",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第035回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC035%E5%9B%9E",
+        "revision": "831062",
+        "text_sha256": "55263e8a26033a51e02964a1e194cb029f618feb629e3f87b2ccbcbfb15ab9c3"
+      }
+    },
+    {
+      "slug": "036",
+      "title": "第三十六回　佳人喜做东床婿　壮士愁为学桉妻",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第036回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC036%E5%9B%9E",
+        "revision": "831063",
+        "text_sha256": "73f222b0286492265ee3fb1121909d47e7bb558bf7a5e10bdf3d481e400b1f6e"
+      }
+    },
+    {
+      "slug": "037",
+      "title": "第三十七回　新贵妃反本为男　旧储子还原作女",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第037回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC037%E5%9B%9E",
+        "revision": "831064",
+        "text_sha256": "61c67512fd6267071f6090038fc586b7b268b3c31ea356ca0d5e1c2dc45a1b9e"
+      }
+    },
+    {
+      "slug": "038",
+      "title": "第三十八回　步玉桥茂林观凤舞　穿金户宝殿听鸾歌",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第038回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC038%E5%9B%9E",
+        "revision": "831065",
+        "text_sha256": "0cd03f47f048e94cb010640e4de2d56b3e0ab16173bf200971cd4f999615c420"
+      }
+    },
+    {
+      "slug": "039",
+      "title": "第三十九回　轩辕国诸王祝寿　蓬莱岛二老游山",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第039回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC039%E5%9B%9E",
+        "revision": "831066",
+        "text_sha256": "50615264a13e4964f88fbe920641bbd9970543f74a5d0c718d431b1728373000"
+      }
+    },
+    {
+      "slug": "040",
+      "title": "第四十回　入仙山撒手弃凡尘　走瀚海牵肠归故土",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第040回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC040%E5%9B%9E",
+        "revision": "2639013",
+        "text_sha256": "cf12f2a74f3ab4474f5da5e5772732fb471c80116f6c5cb6348a4a4e166e44e2"
+      }
+    },
+    {
+      "slug": "041",
+      "title": "第四十一回　观奇图喜遇佳文　述御旨欣逢盛曲",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第041回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC041%E5%9B%9E",
+        "revision": "831144",
+        "text_sha256": "3162197162959245852fb301433e7f263bd46a527d512fef3b93641084b88886"
+      }
+    },
+    {
+      "slug": "042",
+      "title": "第四十二回　开女试太后颁恩诏　笃亲情佳人盼好音",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第042回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC042%E5%9B%9E",
+        "revision": "831146",
+        "text_sha256": "ae1a7afb7e97a65aa94d6ad556eec6abda6dc9e5106dc490f9c7ca0d121966d0"
+      }
+    },
+    {
+      "slug": "043",
+      "title": "第四十三回　因游戏仙猿露意　念劬劳孝女伤怀",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第043回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC043%E5%9B%9E",
+        "revision": "831071",
+        "text_sha256": "a422da55d80df7321673ca7231c630174672eae9571b239ce57883030a03cead"
+      }
+    },
+    {
+      "slug": "044",
+      "title": "第四十四回　小孝女岭上访红蕖　老道姑舟中献瑞草",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第044回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC044%E5%9B%9E",
+        "revision": "831072",
+        "text_sha256": "124e9f9f6641eda67e04013a6bd1335a64d0ab5300a96bf7ff6bf3b006e5fe8b"
+      }
+    },
+    {
+      "slug": "045",
+      "title": "第四十五回　君子国海中逢水怪　丈夫邦岭下遇山精",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第045回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC045%E5%9B%9E",
+        "revision": "831073",
+        "text_sha256": "3786856e71c7e7e7f3c681f2a02da58de26509d39fbd8477d5b8ddfb288f0601"
+      }
+    },
+    {
+      "slug": "046",
+      "title": "第四十六回　施慈悲仙子降妖　发慷慨储君结伴",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第046回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC046%E5%9B%9E",
+        "revision": "831074",
+        "text_sha256": "6f67f2f414fc80f821265e3d88aa15491dd196b9efff9cebbfebd9fe65d59123"
+      }
+    },
+    {
+      "slug": "047",
+      "title": "第四十七回　水月村樵夫寄信　镜花岭孝女寻亲",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第047回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC047%E5%9B%9E",
+        "revision": "831075",
+        "text_sha256": "ee7d9637a936f03690a192fe3fa1e76a4fd60370c66db14cf78842be75e8a61b"
+      }
+    },
+    {
+      "slug": "048",
+      "title": "第四十八回　睹碑记默喻仙机　观图章微明妙旨",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第048回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC048%E5%9B%9E",
+        "revision": "831076",
+        "text_sha256": "7ac1eb58187a466347a4df164d70b2b0450f5c27fd39a058a355c56919af9f71"
+      }
+    },
+    {
+      "slug": "049",
+      "title": "第四十九回　泣红亭书叶传佳话　流翠浦搴裳觉旧踪",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第049回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC049%E5%9B%9E",
+        "revision": "831077",
+        "text_sha256": "372cf5d2c42250547503531947fbdeeb468d41b4e0248341537ee60b261468e4"
+      }
+    },
+    {
+      "slug": "050",
+      "title": "第五十回　遇难成祥马能伏虎　逢凶化吉妇可降夫",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第050回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC050%E5%9B%9E",
+        "revision": "831078",
+        "text_sha256": "c0eee21af679bbc20cb909375e91b01d8b4a99c31f7419ffe9093597cfb81386"
+      }
+    },
+    {
+      "slug": "051",
+      "title": "第五十一回　走穷途孝女绝粮　得生路仙姑献稻",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第051回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC051%E5%9B%9E",
+        "revision": "831079",
+        "text_sha256": "0db6fa0b540fdfd76ddcc057757edac7acd45b81e66bb3347b9f4c16451ffce9"
+      }
+    },
+    {
+      "slug": "052",
+      "title": "第五十二回　谈春秋胸罗锦绣　讲礼制口吐珠玑",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第052回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC052%E5%9B%9E",
+        "revision": "831080",
+        "text_sha256": "14dc87cda824dcf46e7bce4f84ac92c20bf9aea28d373231f6b600df427f6bd9"
+      }
+    },
+    {
+      "slug": "053",
+      "title": "第五十三回　论前朝数语分南北　书旧史挥毫贯古今",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第053回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC053%E5%9B%9E",
+        "revision": "831082",
+        "text_sha256": "72d524cbdd35871ad582750ba38eeab9fab12725a359f150ec051817e627acab"
+      }
+    },
+    {
+      "slug": "054",
+      "title": "第五十四回　通智慧白猿窃书　显奇能红女传信",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第054回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC054%E5%9B%9E",
+        "revision": "831083",
+        "text_sha256": "7f3b3aeae509364c05652541e9e853cfe2436e52d8ec48a1b292998706783456"
+      }
+    },
+    {
+      "slug": "055",
+      "title": "第五十五回　田氏女细谈妙剂　洛家娃默祷灵签",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第055回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC055%E5%9B%9E",
+        "revision": "831084",
+        "text_sha256": "6b445c025da7dc145766bcc606f71a4ff6e60bfe2641aec483903ea380b5be7f"
+      }
+    },
+    {
+      "slug": "056",
+      "title": "第五十六回　诣芳邻姑嫂巧遇　游瀚海主仆重逢",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第056回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC056%E5%9B%9E",
+        "revision": "831085",
+        "text_sha256": "7a3d5d608c985b9caa5a9dda7514362fbd249703db13b5cf4b602650b3ef21c0"
+      }
+    },
+    {
+      "slug": "057",
+      "title": "第五十七回　读血书伤情思旧友　闻凶信仗义访良朋",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第057回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC057%E5%9B%9E",
+        "revision": "831086",
+        "text_sha256": "55a28c9ca150c66e10b60530968cdec9aeacc21ce28e522539a58213aa1d13e7"
+      }
+    },
+    {
+      "slug": "058",
+      "title": "第五十八回　史将军陇右失机　宰少女途中得胜",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第058回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC058%E5%9B%9E",
+        "revision": "831087",
+        "text_sha256": "0550ad29ae63414338005d126ce1dd9a13787221d6591f3d2bcce33284abb924"
+      }
+    },
+    {
+      "slug": "059",
+      "title": "第五十九回　洛公子山中避难　史英豪岭下招兵",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第059回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC059%E5%9B%9E",
+        "revision": "831088",
+        "text_sha256": "e0c4b76f49ae9a50ff6a53f0171f83b31ba68b1bac85edf3dd8b921f735f0362"
+      }
+    },
+    {
+      "slug": "060",
+      "title": "第六十回　熊大郎途中失要犯　燕小姐堂上宴嘉宾",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第060回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC060%E5%9B%9E",
+        "revision": "831089",
+        "text_sha256": "3ba313ed7ca8ee378c64cb5c9d1fe305e05a8a5e609d5c5d9385b6d7e326a155"
+      }
+    },
+    {
+      "slug": "061",
+      "title": "第六十一回　小才女亭内品茶　老总兵园中留客",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第061回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC061%E5%9B%9E",
+        "revision": "831090",
+        "text_sha256": "aa282b88918ea191e48c030567a8371cd378acfe2fd0225992e566348aa259dd"
+      }
+    },
+    {
+      "slug": "062",
+      "title": "第六十二回　绿香园四美巧相逢　红文馆群芳小聚会",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第062回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC062%E5%9B%9E",
+        "revision": "831091",
+        "text_sha256": "2141434546945c641ced366a14f06b55bf0c090bf9531b03ae1c09246c77d8f6"
+      }
+    },
+    {
+      "slug": "063",
+      "title": "第六十三回　论科场众女谈果报　误考试十美具公呈",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第063回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC063%E5%9B%9E",
+        "revision": "831093",
+        "text_sha256": "783eb285c0f59ced243d673c9350acecc3b98f719af244d4663d825065ee7944"
+      }
+    },
+    {
+      "slug": "064",
+      "title": "第六十四回　赌石砚舅甥斗趣　猜灯谜姊妹陶情",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第064回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC064%E5%9B%9E",
+        "revision": "831094",
+        "text_sha256": "3fec3acebda9e9bbc0e9a993b8067309817b0adef41efdd8e76fa214ccc57eff"
+      }
+    },
+    {
+      "slug": "065",
+      "title": "第六十五回　盼佳音虔心问卜　预盛典奉命抡才",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第065回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC065%E5%9B%9E",
+        "revision": "831095",
+        "text_sha256": "08dacbc1ba02bf787335df64a953d77043fac4ebf921f45df572d92428ff1357"
+      }
+    },
+    {
+      "slug": "066",
+      "title": "第六十六回　借飞车国王访储子　放黄榜太后考闺才",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第066回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC066%E5%9B%9E",
+        "revision": "831096",
+        "text_sha256": "f1e3fcb2eadc2d14ef7f2ddbd807e53458832d8b2c114c366d2654a219dc9803"
+      }
+    },
+    {
+      "slug": "067",
+      "title": "第六十七回　小才女卞府谒师　老国舅黄门进表",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第067回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC067%E5%9B%9E",
+        "revision": "831098",
+        "text_sha256": "b3715ac7adf43d353f59e38184c422f7d392d925bd2b63d062575ecda3e43e37"
+      }
+    },
+    {
+      "slug": "068",
+      "title": "第六十八回　受荣封三孤膺敕命　奉宠召众美赴华筵",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第068回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC068%E5%9B%9E",
+        "revision": "831099",
+        "text_sha256": "d660c2abd83cff4f495695bab8d61c8de943e999bafdfed8baa506fb8876bd11"
+      }
+    },
+    {
+      "slug": "069",
+      "title": "第六十九回　百花大聚宗伯府　众美初临晚芳园",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第069回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC069%E5%9B%9E",
+        "revision": "831100",
+        "text_sha256": "87fe1cb485565aee55c1d276cf295e7b29186a843540e376a6ddddd688595f10"
+      }
+    },
+    {
+      "slug": "070",
+      "title": "第七十回　述奇形蚕茧当小帽　谈异域酒坛作烟壶",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第070回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC070%E5%9B%9E",
+        "revision": "831101",
+        "text_sha256": "4d65206a3d125d2a8d2461c60a1e92a54ade7f04b77faa5d37755f6e7a0af018"
+      }
+    },
+    {
+      "slug": "071",
+      "title": "第七十一回　触旧事神往泣红亭　联新交情深凝翠馆",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第071回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC071%E5%9B%9E",
+        "revision": "831102",
+        "text_sha256": "914761e7b7b6215b3f1c668ef2f66902e0d96d8050a5dc01cce54405315429eb"
+      }
+    },
+    {
+      "slug": "072",
+      "title": "第七十二回　古桐台五美抚瑶琴　白蒁亭八女写春扇",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第072回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC072%E5%9B%9E",
+        "revision": "1440853",
+        "text_sha256": "e8fc71bd2597d7fea31d2754f365e9a02c15272c9055e68e77a744a089333c68"
+      }
+    },
+    {
+      "slug": "073",
+      "title": "第七十三回　看围棋姚姝谈弈谱　观马吊孟女讲牌经",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第073回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC073%E5%9B%9E",
+        "revision": "831104",
+        "text_sha256": "8b94941b18b658deac164b31216bbf3791212c4b8b194d3a137419e097d62c87"
+      }
+    },
+    {
+      "slug": "074",
+      "title": "第七十四回　打双陆嘉言述前贤　下象棋谐语谈故事",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第074回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC074%E5%9B%9E",
+        "revision": "831105",
+        "text_sha256": "3ff82df90eb979a1cd701d52db6939bbb6f8c8105c568ee3177485b5c1bd3fe6"
+      }
+    },
+    {
+      "slug": "075",
+      "title": "第七十五回　弄新声水榭吹萧　隐俏体纱窗听课",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第075回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC075%E5%9B%9E",
+        "revision": "831106",
+        "text_sha256": "15294bf486cb184c64943c7bf1b5a3db78a6bfa3131482e355fa4f161bb2aab3"
+      }
+    },
+    {
+      "slug": "076",
+      "title": "第七十六回　讲六壬花前阐妙旨　观四课牖下窃真传",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第076回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC076%E5%9B%9E",
+        "revision": "831107",
+        "text_sha256": "70cce5ab5a8a071c6230579f51b96c17f56c97c43010dc9b682319db28724c1b"
+      }
+    },
+    {
+      "slug": "077",
+      "title": "第七十七回　斗百草全除旧套　对群花别出新裁",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第077回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC077%E5%9B%9E",
+        "revision": "831108",
+        "text_sha256": "c5f68b5679edbc37f7ba37fbbb272fc26cd36265bc446c08548082736f912693"
+      }
+    },
+    {
+      "slug": "078",
+      "title": "第七十八回　运巧思对酒纵谐谈　飞旧句当筵行妙令",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第078回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC078%E5%9B%9E",
+        "revision": "831109",
+        "text_sha256": "acf138e7adc6b23c5c2153a17ab9d08067de99e65f61a3a0ada964b62b59faf0"
+      }
+    },
+    {
+      "slug": "079",
+      "title": "第七十九回　指迷团灵心讲射　擅巧技妙算谈天",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第079回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC079%E5%9B%9E",
+        "revision": "831110",
+        "text_sha256": "a0b08040a1e10fdbfe8ae9bc689403cbcef46aad7945d4a3c4549f00daee9a60"
+      }
+    },
+    {
+      "slug": "080",
+      "title": "第八十回　打灯虎亭中赌画扇　抛气球园内舞花鞋",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第080回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC080%E5%9B%9E",
+        "revision": "831111",
+        "text_sha256": "476651486923bebab99722de17a44fbdc9e8bcaafc5e9fdc260439d678559dcd"
+      }
+    },
+    {
+      "slug": "081",
+      "title": "第八十一回　白蒁亭董女谈诗　凝翠馆兰姑设宴",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第081回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC081%E5%9B%9E",
+        "revision": "831112",
+        "text_sha256": "97fa6b00423384610afc6b6ca4a59b3cb3c2cfaddd4bec4618e4fb378e24256f"
+      }
+    },
+    {
+      "slug": "082",
+      "title": "第八十二回　行酒令书句飞双声　辩古文字音讹叠韵",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第082回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC082%E5%9B%9E",
+        "revision": "831113",
+        "text_sha256": "1f4320dbc167222d6130e5589aff8a3790437197ccd1e1df206db9085e227b69"
+      }
+    },
+    {
+      "slug": "083",
+      "title": "第八十三回　说大书佐酒为欢　唱小曲飞觞作乐",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第083回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC083%E5%9B%9E",
+        "revision": "831114",
+        "text_sha256": "9fd6cdecfa7f4fb2631aecac3d8e098daa6e03c9a11183a1784d4045c8cba902"
+      }
+    },
+    {
+      "slug": "084",
+      "title": "第八十四回　逞豪兴朗吟妙句　发婆心敬诵真经",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第084回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC084%E5%9B%9E",
+        "revision": "831115",
+        "text_sha256": "5518d3abfc937569cf5475a2879e4353023502bbe9f5096cf807beedd9f5acb7"
+      }
+    },
+    {
+      "slug": "085",
+      "title": "第八十五回　论韵谱冷言讥沈约　引毛诗佳句美庄姜",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第085回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC085%E5%9B%9E",
+        "revision": "831116",
+        "text_sha256": "308fbaf801083346a2bd3a14982a19e5b95d9da506aa0c3a767e95a4139b09b0"
+      }
+    },
+    {
+      "slug": "086",
+      "title": "第八十六回　念亲情孝女挥泪眼　谈本姓侍儿解人颐",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第086回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC086%E5%9B%9E",
+        "revision": "831117",
+        "text_sha256": "2c42248dacea996c2f176fc9c3658fa56efa31e1fb1f7bea3bc2cabffb597f84"
+      }
+    },
+    {
+      "slug": "087",
+      "title": "第八十七回　因旧事游戏仿楚词　即美景诙谐编月令",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第087回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC087%E5%9B%9E",
+        "revision": "831118",
+        "text_sha256": "e8be978fb5483cf753218b0372803b53de710ab499be563b3791b1d0abea7076"
+      }
+    },
+    {
+      "slug": "088",
+      "title": "第八十八回　借月旦月姊释前嫌　逞风狂风姨泄旧忿",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第088回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC088%E5%9B%9E",
+        "revision": "831119",
+        "text_sha256": "4c372c18a3628736d1130496836a4529d316e420ed8a925fe9c306eb28f1ca29"
+      }
+    },
+    {
+      "slug": "089",
+      "title": "第八十九回　阐元机历述新诗　溯旧迹质明往事",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第089回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC089%E5%9B%9E",
+        "revision": "831120",
+        "text_sha256": "6ce1847b2fcfbf74747cd005a303a4339a2edf944397ee7afd56c3e02326b520"
+      }
+    },
+    {
+      "slug": "090",
+      "title": "第九十回　乘酒意醉诵凄凉句　警芳心惊闻惨淡词",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第090回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC090%E5%9B%9E",
+        "revision": "831121",
+        "text_sha256": "a41f5c343cb147a9d562b874f09818201c90d49b5fb06e84d226a87092931fe6"
+      }
+    },
+    {
+      "slug": "091",
+      "title": "第九十一回　折妙字换柱抽梁　掣牙签指鹿为马",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第091回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC091%E5%9B%9E",
+        "revision": "2306364",
+        "text_sha256": "421801334d9e9093c0f8e9710fa738ade9c55ffb7d3baccb5e4951a56aef6203"
+      }
+    },
+    {
+      "slug": "092",
+      "title": "第九十二回　论果蠃佳人施慧性　辩壶卢婢子具灵心",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第092回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC092%E5%9B%9E",
+        "revision": "2306369",
+        "text_sha256": "162a32755e89231186a4b0274353f2f36038716d7098f990de88a0c999759c1d"
+      }
+    },
+    {
+      "slug": "093",
+      "title": "第九十三回　百花仙即景露禅机　众才女尽欢结酒令",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第093回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC093%E5%9B%9E",
+        "revision": "831124",
+        "text_sha256": "94332ee5852bf86973785b91fba01a3ed6d40a248c846e21beee942f4be568e3"
+      }
+    },
+    {
+      "slug": "094",
+      "title": "第九十四回　文艳王奉命回故里　女学士思亲入仙山",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第094回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC094%E5%9B%9E",
+        "revision": "2306382",
+        "text_sha256": "52562419d388b28dd77783b008bd989f53556b5d0f9c012d5eec71e579fb6cce"
+      }
+    },
+    {
+      "slug": "095",
+      "title": "第九十五回　因旧恙筵上谈医　结新交庭中舞剑",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第095回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC095%E5%9B%9E",
+        "revision": "2245714",
+        "text_sha256": "7bac83d0180b28ce137aa7207fdfc00b73f9c8cd7be0d22a9ef89d67057f8f81"
+      }
+    },
+    {
+      "slug": "096",
+      "title": "第九十六回　秉忠诚部下起雄兵　施邪术关前摆毒阵",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第096回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC096%E5%9B%9E",
+        "revision": "831127",
+        "text_sha256": "ae197cb5884dc1a2c6beea889e2b07b193ab52213fae179a54c69eb13ac06254"
+      }
+    },
+    {
+      "slug": "097",
+      "title": "第九十七回　仙姑山上指迷团　节度营中解妙旨",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第097回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC097%E5%9B%9E",
+        "revision": "831128",
+        "text_sha256": "c084923dc07a90d8a634b750faf018ce0d8b0ef401f4dbda7bf622126d624e01"
+      }
+    },
+    {
+      "slug": "098",
+      "title": "第九十八回　逞雄心挑战无火关　启欲念被围巴刀阵",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第098回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC098%E5%9B%9E",
+        "revision": "831129",
+        "text_sha256": "7a749d89c57e01727fd0ed011ce3d67bf70a1d08e703a2319666ca8cbd2d7dd5"
+      }
+    },
+    {
+      "slug": "099",
+      "title": "第九十九回　迷本性将军游幻境　发慈心仙子下凡尘",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第099回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC099%E5%9B%9E",
+        "revision": "831131",
+        "text_sha256": "2fa950c9642ed72fb3cd4cd5f215e3cef43f47186a6456aa64e69e6484d61cbc"
+      }
+    },
+    {
+      "slug": "100",
+      "title": "第一百回　建奇勋节度还朝　传大宝中宗复位",
+      "sections": 1,
+      "source": {
+        "title": "鏡花緣/第100回",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%8F%A1%E8%8A%B1%E7%B7%A3/%E7%AC%AC100%E5%9B%9E",
+        "revision": "831133",
+        "text_sha256": "ccf43a52e6eabc46e25c6bf27d8d61d1fb1b9229bbcb0636824ffb968703dea6"
+      }
+    }
+  ]
+}

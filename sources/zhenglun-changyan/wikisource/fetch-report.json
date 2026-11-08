@@ -1,0 +1,41 @@
+{
+  "pages": [
+    {
+      "title": "昌言/弁言",
+      "revision": "343373",
+      "snapshot": "sources/zhenglun-changyan/wikisource/pages/e73b9318809ff810.json",
+      "blocks": 2,
+      "characters": 561
+    },
+    {
+      "title": "昌言/卷上",
+      "revision": "343379",
+      "snapshot": "sources/zhenglun-changyan/wikisource/pages/bbc80a08d312744e.json",
+      "blocks": 18,
+      "characters": 5274
+    },
+    {
+      "title": "昌言/卷中",
+      "revision": "343380",
+      "snapshot": "sources/zhenglun-changyan/wikisource/pages/d9d2cc591e406ac4.json",
+      "blocks": 19,
+      "characters": 5773
+    },
+    {
+      "title": "昌言/卷下",
+      "revision": "343382",
+      "snapshot": "sources/zhenglun-changyan/wikisource/pages/d8b6b4e3ca1fa64a.json",
+      "blocks": 92,
+      "characters": 5629
+    },
+    {
+      "title": "昌言/附錄",
+      "revision": "1557039",
+      "snapshot": "sources/zhenglun-changyan/wikisource/pages/c232d753e09e7bb1.json",
+      "blocks": 14,
+      "characters": 2542
+    }
+  ],
+  "translation_status": "not_started",
+  "policy": "原文缓存不等于完成译注；现代编者弁言不得误署仲长统。"
+}

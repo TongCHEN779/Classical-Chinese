@@ -1,0 +1,27 @@
+{
+  "book": "声律启蒙",
+  "pages": [
+    {
+      "slug": "shang",
+      "title": "卷上",
+      "sections": 15,
+      "source": {
+        "title": "聲律啓蒙",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%B2%E5%BE%8B%E5%95%93%E8%92%99",
+        "revision": "7364097",
+        "text_sha256": "94f32cacc8aa0dc0e13b26af84a7caada23845ec124e5f6505d8a2ac2ba6fdfb"
+      }
+    },
+    {
+      "slug": "xia",
+      "title": "卷下",
+      "sections": 15,
+      "source": {
+        "title": "聲律啓蒙",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%81%B2%E5%BE%8B%E5%95%93%E8%92%99",
+        "revision": "7364097",
+        "text_sha256": "94f32cacc8aa0dc0e13b26af84a7caada23845ec124e5f6505d8a2ac2ba6fdfb"
+      }
+    }
+  ]
+}

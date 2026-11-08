@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-not-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser" lang="zh-Hans" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>政论 - 维基文库，自由的图书馆</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-not-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )zhwikisourcemwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"29e9c8d9-276b-40ce-8db6-bd04db836f66","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"政論","wgTitle":"政論","wgCurRevisionId":2745472,"wgRevisionId":2745472,"wgArticleId":166112,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["東漢","崔寔","PD-old"],"wgPageViewLanguage":"zh-hans","wgPageContentLanguage":"zh-hans","wgPageContentModel":"wikitext","wgRelevantPageName":"政論","wgRelevantArticleId":166112,"wgTempUserName":null,"wgUserVariant":"zh-hans","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikisource","wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-cn","zh-sg","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":40000,"prpProofreadPageBookNamespaces":[0],"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgULSContentLanguageSelectorEnabled":true,"wgULSLanguageSelectorV2Enabled":true,"wgWikibaseItemId":"Q18840877","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true,"wgSiteNoticeId":"2.0"};
+RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","ext.wikisource.icons":"ready","ext.proofreadpage.base":"ready","ext.proofreadpage.article":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.dismissableSiteNotice.styles":"ready"};RLPAGEMODULES=["ext.wikisource.download","site","mediawiki.page.ready","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.noteTA","ext.gadget.tabbedwindow","ext.gadget.PageNumbers","ext.gadget.scrollUpButton","ext.gadget.unihan-helper","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});mw.user.options.set({"language":"zh-hans","variant":"zh-hans"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=zh-hans&amp;modules=ext.dismissableSiteNotice.styles%7Cext.proofreadpage.article%2Cbase%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cext.wikisource.icons%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=zh-hans&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=zh-hans&amp;modules=ext.gadget.text-spacing&amp;only=styles&amp;skin=vector-2022">
+<link rel="stylesheet" href="/w/load.php?lang=zh-hans&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.48.0-wmf.1">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="政论 - 维基文库，自由的图书馆">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//thumb.wikimedia.org">
+<link rel="alternate" type="application/x-wiki" title="编辑" href="/w/index.php?title=%E6%94%BF%E8%AB%96&amp;action=edit">
+<link rel="icon" href="/static/favicon/wikisource.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikisource (zh)">
+<link rel="EditURI" type="application/rsd+xml" href="//zh.wikisource.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://zh.wikisource.org/zh-hans/%E6%94%BF%E8%AB%96">
+<link rel="alternate" hreflang="zh" href="https://zh.wikisource.org/wiki/%E6%94%BF%E8%AB%96">
+<link rel="alternate" hreflang="zh-Hans" href="https://zh.wikisource.org/zh-hans/%E6%94%BF%E8%AB%96">
+<link rel="alternate" hreflang="zh-Hant" href="https://zh.wikisource.org/zh-hant/%E6%94%BF%E8%AB%96">
+<link rel="alternate" hreflang="x-default" href="https://zh.wikisource.org/wiki/%E6%94%BF%E8%AB%96">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">
+<link rel="alternate" type="application/atom+xml" title="Wikisource的Atom订阅" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt action-view skin-vector-2022 ns-0 ns-subject mw-editable page-政論 rootpage-政論 skin--responsive skin-vector skin-vector-search-vue">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">跳转到内容</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="站点">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="主菜单"  lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="主菜单"   >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">主菜单</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">主菜单</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin" aria-label="将 主菜单 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin" aria-label="隐藏主菜单">隐藏</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		导航
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikisource:%E9%A6%96%E9%A1%B5" title="访问首页​[z]" accesskey="z"><span>首页</span></a></li><li id="n-randomwork" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Main"><span>随机作品</span></a></li><li id="n-randomauthor" class="mw-list-item"><a href="/wiki/Special:Random/Author"><span>随机作者</span></a></li><li id="n-randomindex" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Index"><span>随机原本</span></a></li><li id="n-allpages" class="mw-list-item"><a href="/wiki/Special:AllPages"><span>所有页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-editor" class="vector-menu mw-portlet mw-portlet-editor"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		编者
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/wiki/Wikisource:%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5" title="关于本项目，您可以做什么，以及何处能找到相关资料"><span>社群首页</span></a></li><li id="n-scriptorium" class="mw-list-item"><a href="/wiki/Wikisource:%E5%86%99%E5%AD%97%E9%97%B4"><span>写字间</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="本wiki的最近更改列表​[r]" accesskey="r"><span>最近更改</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="所有特殊页面的列表​[q]" accesskey="q"><span>特殊页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-help" class="vector-menu mw-portlet mw-portlet-help"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		帮助
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="查找帮助的地方"><span>帮助</span></a></li><li id="n-about" class="mw-list-item"><a href="/wiki/Wikisource:%E5%85%B3%E4%BA%8E"><span>关于维基文库</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikisource:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC"><span>联络我们</span></a></li><li id="n-policy" class="mw-list-item"><a href="/wiki/Wikisource:%E6%96%B9%E9%92%88%E4%B8%8E%E6%8C%87%E5%BC%95"><span>方针与指引</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-do" class="vector-menu mw-portlet mw-portlet-do emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		显示选项
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikisource:%E9%A6%96%E9%A1%B5" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikisource.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikisource" src="/static/images/mobile/copyright/wikisource-wordmark-zh.svg" style="width: 7.125em; height: 1.5em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="搜索Wikisource内容​[f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="搜索Wikisource内容" aria-label="搜索Wikisource内容" autocapitalize="none" spellcheck="false" title="搜索Wikisource内容​[f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">搜索</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="个人工具">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="外观">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="更改页面字体大小、宽度和颜色的外观"  lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="外观"   >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">外观</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikisource.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span>资助</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E6%94%BF%E8%AB%96&amp;returntoquery=variant%3Dzh-hans" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span>创建账号</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E6%94%BF%E8%AB%96&amp;returntoquery=variant%3Dzh-hans" title="我们推荐您登录，但这不是强制性的​[o]" accesskey="o" class=""><span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out vector-user-links-dropdown--collapsible"  title="更多选项"  lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="个人工具"   >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">个人工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal"  title="用户菜单"  lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikisource.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart cdx-button__icon"></span>
+
+<span>资助</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E6%94%BF%E8%AB%96&amp;returntoquery=variant%3Dzh-hans" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span>创建账号</span></a>
+</li>
+<li id="pt-login" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E6%94%BF%E8%AB%96&amp;returntoquery=variant%3Dzh-hans" title="我们推荐您登录，但这不是强制性的​[o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn cdx-button__icon"></span>
+
+<span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003E关闭\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003C!-- CentralNotice --\u003E\u003Cdiv id=\"localNotice\" data-nosnippet=\"\"\u003E\u003Cdiv class=\"anonnotice\" lang=\"zh\" dir=\"ltr\"\u003E\u003Cp\u003E恭喜！维基文库收录的文章数量达到\u003Ca href=\"/wiki/Special:Statistics\" title=\"Special:Statistics\"\u003E五百万篇\u003C/a\u003E！\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="站点">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<h1 id="firstHeading" class="firstHeading mw-first-heading" lang="zh-Hans" dir="ltr"><span lang="zh-Hans" dir="ltr"><span class="mw-page-title-main">政论</span></span></h1>
+			
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"   lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector"  aria-label="添加语言" aria-description="这篇条目只在此语言可用。请添加该条目的其他语言版本"  >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-0" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">添加语言</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="uls-after-portlet-link"></span><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q18840877#sitelinks-wikisource" title="添加跨语言链接" class="wbc-editpage">添加链接</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="命名空间">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-nstab-main" class="selected mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/%E6%94%BF%E8%AB%96" title="查看内容页面​[c]" accesskey="c" class=""><span>作品</span></a>
+</li>
+<li id="ca-talk" class="new mw-list-item vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=Talk:%E6%94%BF%E8%AB%96&amp;action=edit&amp;redlink=1" rel="discussion" class="new" title="有关内容页面的讨论（页面不存在）​[t]" accesskey="t"><span>讨论</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown "   lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="更改语言变体"    >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">简体</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-varlang-0" class="ca-variants-zh mw-list-item"><a href="/zh/%E6%94%BF%E8%AB%96" lang="zh" hreflang="zh"><span>不转换</span></a></li><li id="ca-varlang-1" class="selected ca-variants-zh-Hans mw-list-item"><a href="/zh-hans/%E6%94%BF%E8%AB%96" lang="zh-Hans" hreflang="zh-Hans"><span>简体</span></a></li><li id="ca-varlang-2" class="ca-variants-zh-Hant mw-list-item"><a href="/zh-hant/%E6%94%BF%E8%AB%96" lang="zh-Hant" hreflang="zh-Hant"><span>繁體</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="查看">
+			    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view" class="selected mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/wiki/%E6%94%BF%E8%AB%96" class=""><span>阅读</span></a>
+</li>
+<li id="ca-edit" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E6%94%BF%E8%AB%96&amp;action=edit&amp;variant=zh-hans" title="编辑该页面​[e]" accesskey="e" class=""><span>编辑</span></a>
+</li>
+<li id="ca-history" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E6%94%BF%E8%AB%96&amp;action=history" title="此页面过去的修订​[h]" accesskey="h" class=""><span>查看历史</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</nav>
+
+							<nav class="vector-page-tools-landmark" aria-label="页面工具">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"   lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="工具"   >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-verticalEllipsis mw-ui-icon-wikimedia-verticalEllipsis cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">工具</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin" aria-label="将 工具 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin" aria-label="隐藏工具">隐藏</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		操作
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view-more" class="selected mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/wiki/%E6%94%BF%E8%AB%96" class=""><span class="vector-icon mw-ui-icon-eye mw-ui-icon-wikimedia-eye cdx-button__icon"></span>
+
+<span>阅读</span></a>
+</li>
+<li id="ca-edit-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E6%94%BF%E8%AB%96&amp;action=edit&amp;variant=zh-hans" title="编辑该页面​[e]" accesskey="e" class=""><span class="vector-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit cdx-button__icon"></span>
+
+<span>编辑</span></a>
+</li>
+<li id="ca-history-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E6%94%BF%E8%AB%96&amp;action=history" title="此页面过去的修订​[h]" accesskey="h" class=""><span class="vector-icon mw-ui-icon-history mw-ui-icon-wikimedia-history cdx-button__icon"></span>
+
+<span>查看历史</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		常规
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/%E6%94%BF%E8%AB%96" title="所有链接至本页面的wiki页面列表​[j]" accesskey="j"><span>链入页面</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/%E6%94%BF%E8%AB%96" rel="nofollow" title="链自本页的页面的最近更改​[k]" accesskey="k"><span>相关更改</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=zh" title="上传文件​[u]" accesskey="u"><span>上传文件</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=%E6%94%BF%E8%AB%96&amp;oldid=2745472" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=%E6%94%BF%E8%AB%96&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=%E6%94%BF%E8%AB%96&amp;id=2745472&amp;wpFormIdentifier=titleform" title="有关如何引用此页面的信息"><span>引用此页</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fzh.wikisource.org%2Fzh-hans%2F%25E6%2594%25BF%25E8%25AB%2596"><span>获取短链接</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-electronpdfservice-sidebar-portlet-heading" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		打印/导出
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="本页面的可打印版本​[p]" accesskey="p"><span>可打印版</span></a></li><li id="wikisource-download-epub" class="mw-list-item"><a title="下载此作品的EPUB版本" href="https://ws-export.wmcloud.org/?format=epub&amp;lang=zh&amp;page=%E6%94%BF%E8%AB%96"><span>下载为EPUB</span></a></li><li id="wikisource-download-mobi" class="mw-list-item"><a title="下载此作品的MOBI版本" href="https://ws-export.wmcloud.org/?format=mobi&amp;lang=zh&amp;page=%E6%94%BF%E8%AB%96"><span>下载为MOBI</span></a></li><li id="wikisource-download-pdf" class="mw-list-item"><a title="下载此作品的PDF版本" href="https://ws-export.wmcloud.org/?format=pdf&amp;lang=zh&amp;page=%E6%94%BF%E8%AB%96"><span>下载为PDF</span></a></li><li id="wikisource-download-choose" class="mw-list-item"><a title="打开一个表单来选择其他格式和字体等。" href="https://ws-export.wmcloud.org/?lang=zh&amp;title=%E6%94%BF%E8%AB%96"><span>其他格式</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		在其他项目中
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q18840877" title="链接到连接的数据仓库项目​[g]" accesskey="g"><span>维基数据项目</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="页面工具">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="外观">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">外观</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin" aria-label="将 外观 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin" aria-label="隐藏外观">隐藏</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-~ext-wikisource-download" class="mw-indicator"><span id='ooui-php-1' class='ext-wikisource-download-button oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-buttonElement-size-medium oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonWidget' data-ooui='{"_":"OO.ui.ButtonWidget","href":"https:\/\/ws-export.wmcloud.org\/?format=epub&amp;lang=zh&amp;page=%E6%94%BF%E8%AB%96","rel":["nofollow"],"label":"\u4e0b\u8f7d","title":"\u4e0b\u8f7d\u6b64\u4f5c\u54c1\u7684EPUB\u7248\u672c","flags":["primary","progressive"],"data":{"wsExportUrl":"https:\/\/ws-export.wmcloud.org"},"classes":["ext-wikisource-download-button"]}'><a role='button' title='下载此作品的EPUB版本' tabindex='0' href='https://ws-export.wmcloud.org/?format=epub&amp;lang=zh&amp;page=%E6%94%BF%E8%AB%96' rel='nofollow' class='oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>下载</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></a></span></div>
+		</div>
+
+						<div id="siteSub" class="noprint">维基文库，自由的图书馆</div>
+						<div id="contentSub" lang="zh-Hans" dir="ltr"><div id="mw-content-subtitle" lang="zh-Hans" dir="ltr"></div></div>
+						
+					</div>
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="zh-Hans" dir="ltr"><div id="headerContainer">
+<table style="width:100%; margin-top:0px;margin-bottom:3px;border:1px solid var(--border-color-content-added,#93A6C0); background-color: var(--background-color-neutral-subtle,#F9F9F9); color: inherit; text-align: center; text-wrap: balance;">
+
+<tbody><tr>
+<td style="width:0; text-align:left; font-size:small;">
+</td>
+<td style="width:25%; text-align:left; font-size:small;">
+</td>
+<td style="width:50%;"><b>政论</b><br /><span style="color:var(--color-placeholder,#999999)">作者：</span><a href="/wiki/Author:%E5%B4%94%E5%AF%94" title="Author:崔寔">崔寔</a>　<span style="color:var(--color-placeholder,#999999)">东汉</span>
+</td>
+<td style="width:25%; text-align:right; font-size:small;">
+</td>
+<td class="noprint" style="width:0; text-align:right; font-size:small;">
+</td></tr></tbody></table>
+<table style="width:100%; background:var(--background-color-progressive-subtle,#F8FCFF); color: inherit;font-size:small; border-bottom:1px solid var(--border-color-content-added,#93A6C0)">
+
+<tbody><tr>
+<td><ul id="plainSister" style="display:inline-block; font-size:93%; line-height:normal; list-style-type:none; list-style-image:none; list-style-position:outside; border:1px solid var(--border-color-base,#AAA); float:right; clear:right; margin:0.5ex 0.5ex 0.5ex 0.5ex; padding:0.0ex 0.0ex 0.0ex 0.0ex; background-color:var(--background-color-base,#FFFFFF);color: inherit;"><li class="noprint sisitem"><span class="sisicon" style="padding-right:1ex;"><span typeof="mw:File/Frameless"><a href="/wiki/Special:SiteMatrix" title="Special:SiteMatrix"><img alt="姊妹计划" src="//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/20px-Wikimedia-logo.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="18" height="18" class="mw-file-element" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/40px-Wikimedia-logo.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="1024" data-file-height="1024" /></a></span></span><a href="/wiki/Special:SiteMatrix" title="Special:SiteMatrix">姊妹计划</a>: <a href="https://www.wikidata.org/wiki/Q18840877" class="extiw" title="d:Q18840877">数据项</a></li></ul>
+</td></tr></tbody></table></div>
+<p>　　严可均曰：《隋志》法家《正论》五卷，汉大尚书崔寔撰。《旧唐志》：《政论》五卷。《意林》亦五卷。《新唐志》作六卷。各书引见或作《政论》，或作《正论》，又作《本论》，止是一书。寔字子真，一名台，字元始。涿郡安平人。高祖篆，祖骃，父瑗，范史皆有传。寔好典籍，桓帝初为郎。后拜议郎，与边韶、延笃著作东观。出为五原太守，征拜议郎，复与诸儒博士杂定《五经》。拜辽东太守。母卒归葬。服竟，召拜尚书。以世方阻乱，称疾不视事，免归。建宁中卒。寔明于政体，吏才有馀，论当世便事数十条，指切时要，言辩而确。范史论曰“实之《政论》，言当世理乱，虽鼂错之徒不能过也。”其书成于守辽东后，故有仆前为五原太守及今辽东耕云云。本传系于桓帝初除为郎时，未得其实。其本北宋时已佚失，故《崇文总目》不著录，《郡斋读书志》，《直斋书录解题》亦无之。《通志略》载有六卷，虚列书名，不足据。今从《群书治要》写出七篇，本传及《通典》各写出一篇，凡九篇。略以《意林》次第之，刺取各书引见，校补讹脱，定著一卷。其畸零短段三十事不能成篇者，载于卷末。《治要》专取精实，而腴语美词，芟除净尽。然于当时积弊，已胪列无遗。治乱兴亡，古今一轨。本传引仲长统曰“凡为人主，宜写一通置之坐侧。”诚哉是言也。
+</p><p>　　按严氏《全后汉文》辑录崔寔《政论》甚备，然亦间有缺误。如“秦兼天下，罢侯置县”一条，已见《治要》，而据《北堂书钞》另立之。至于校勘未谨处，亦偶有之。尤因未睹宋本《御览》，故其考或有未精。今据善本而董理之，其与严氏异者，为免繁琐，不复出校。——胡不归识
+</p><p>　　自尧、舜之帝，汤、武之王，皆赖明哲之佐，博物之臣。故皋陶陈谟而唐、虞以兴，伊、箕作训而殷、周用<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》卷五十二作“以”。<span style="color:transparent;font-size:0px">〉</span></small>隆。及继体之君，欲立中兴之功者，曷尝不赖贤哲之谋乎！凡天下<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》有“之”。<span style="color:transparent;font-size:0px">〉</span></small>所以不理<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》卷二十一、《类聚》作“治”。<span style="color:transparent;font-size:0px">〉</span></small>者，常由人主<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》作“常疾世主”。<span style="color:transparent;font-size:0px">〉</span></small>承平<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》有“之”字。<span style="color:transparent;font-size:0px">〉</span></small>日久，俗渐敝而不悟，政寖衰而不改，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“常由”下，《后汉纪》作“其患在世承平，政渐衰而不改，俗渐弊而不悟”。<span style="color:transparent;font-size:0px">〉</span></small>习乱安危，怢<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“忽”，《群书治要》卷四十五作“逸”。<span style="color:transparent;font-size:0px">〉</span></small>不自睹。或荒耽<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“耽荒”。<span style="color:transparent;font-size:0px">〉</span></small>嗜欲，不恤万机；或耳蔽箴诲，厌伪忽真；或犹豫歧路，莫适所从；或见信之佐，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》、《意林》作“臣”。<span style="color:transparent;font-size:0px">〉</span></small>括囊守禄；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“怀宠苟免”。<span style="color:transparent;font-size:0px">〉</span></small>或疏远之臣，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“士”。<span style="color:transparent;font-size:0px">〉</span></small>言以贱废。是以王纲纵弛于上，智士郁伊于下。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此二句《后汉纪》作“是以纪网弛而不振，智士损而不用”。<span style="color:transparent;font-size:0px">〉</span></small>悲夫！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉书‧崔寔传》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　且守文之君，继陵迟之绪，譬诸乘弊车矣。当求巧工，使辑治之，折则接之，缓则契之，补琢换易，可复为新。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》作“夫君政陵迟，如乘敝车。若能求巧工，使葺理之，折则按之，缓则揳之，可复新矣”。<span style="color:transparent;font-size:0px">〉</span></small>新新不已，用之无穷。若遂不治，因而乘之，摧拉捌裂，亦无可奈何矣。若武丁之获傅说，宣王之得申甫，是则其巧工也。今朝廷以圣哲之姿，龙飞天衢，大臣辅政，将成断金。诚宜有以满天下望，称兆民之心。年谷丰稔，风俗未乂。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“此二语上下疑有删节。”。<span style="color:transparent;font-size:0px">〉</span></small>夫风俗者，国之脉诊<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷三百七十五作“胗”。<span style="color:transparent;font-size:0px">〉</span></small>也。年谷如其肌肤，肌肤虽和而脉诊<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“年谷”下十三字，据《御览》补。<span style="color:transparent;font-size:0px">〉</span></small>不和，诚未足为休。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》作“亦未为休也”。<span style="color:transparent;font-size:0px">〉</span></small>《书》曰“虽休勿休”，况不休而可休乎？<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　自汉兴以来，三百五十馀岁矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》无作“五十”二字，“岁”作“年”。<span style="color:transparent;font-size:0px">〉</span></small>政令垢玩，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“刓渎”。<span style="color:transparent;font-size:0px">〉</span></small>上下怠懈，风俗雕敝，人庶巧伪，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“人民伪巧”。<span style="color:transparent;font-size:0px">〉</span></small>百姓嚣然，咸复思中兴之救<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“功”。<span style="color:transparent;font-size:0px">〉</span></small>矣。且济时拯<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《治要》作“救”。<span style="color:transparent;font-size:0px">〉</span></small>世之术，岂必体尧蹈舜然后乃理哉？期于补绽决坏，枝柱邪倾，随形裁割，要措<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《治要》作“厝”。<span style="color:transparent;font-size:0px">〉</span></small>斯世于安宁之域而已。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“且济”以下，《后汉纪》作“救世之术，岂必尧舜而治哉！期于纽绝拯挠，去其烦惑而已”。<span style="color:transparent;font-size:0px">〉</span></small>故圣人执权，遭时定制，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“是以受命之君，创制改物”。<span style="color:transparent;font-size:0px">〉</span></small>步骤之差，各有云设。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《治要》作“施”。<span style="color:transparent;font-size:0px">〉</span></small>不彊人以不能，背急切<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《治要》作“背所急”。<span style="color:transparent;font-size:0px">〉</span></small>而慕所闻也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《崔寔传》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　昔孝武皇帝策书曰：“三代不同法，所由殊路，而建德一也。”<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此二十二字据《治要》补。<span style="color:transparent;font-size:0px">〉</span></small>盖孔子对叶公以来远，哀公以临人，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《治要》作“民”。<span style="color:transparent;font-size:0px">〉</span></small>景公以节礼，非其不同，所急异务也。是以受命之君，每辄创制；中兴之主，亦匡时失。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“匡时补失”。<span style="color:transparent;font-size:0px">〉</span></small>昔盘庚愍殷，迁都易民；周穆有阙，甫侯正刑。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此二句《后汉纪》作“昔盘庚迁都以易殷民之弊，周穆改刑而正天下之失”。<span style="color:transparent;font-size:0px">〉</span></small>俗人拘文牵古，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“俗人”前《治要》有“然疾”二字。严可均曰：“疑有误。本传及《艺文类聚》五十二无此二字。”。<span style="color:transparent;font-size:0px">〉</span></small>不达权<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》作“推”。<span style="color:transparent;font-size:0px">〉</span></small>制，奇伟<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《治要》作“玮”。<span style="color:transparent;font-size:0px">〉</span></small>所闻，简忽所见，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“俗人”下《后汉纪》作“俗人守古，不逹权变，苟执所闻，忽略所见”。<span style="color:transparent;font-size:0px">〉</span></small>策不见珍，计不见信。夫人既不知善之为善，又将不知不善之为不善，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“策不”下二十七字据《治要》补。<span style="color:transparent;font-size:0px">〉</span></small>乌可<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此二字《后汉纪》、《类聚》作“焉可”、《治要》作“恶足”。<span style="color:transparent;font-size:0px">〉</span></small>与论国家之大事哉！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《崔寔传》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　故每有言事颇合圣听者，或下群臣令集议之，虽有可采，辄见掎夺。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本传作“故言事者，虽合圣德，辄见掎夺”，《后汉纪》作“故言事者，颇合圣听，于今须有可采，辄见掎夺”。<span style="color:transparent;font-size:0px">〉</span></small>何者？其顽士暗于时权，安习所见，殆不知乐成，况可与虑始乎？<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本传作“不知乐成，况可虑始”。<span style="color:transparent;font-size:0px">〉</span></small>心闪意舛，不知所云，则苟云率由旧章而已。其达者或矜名嫉<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本传作“妒”。<span style="color:transparent;font-size:0px">〉</span></small>能，耻善策不从己出，则舞笔奋辞，以破其义。寡不胜众，遂见屏<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本传作“摈”。<span style="color:transparent;font-size:0px">〉</span></small>弃。虽稷、契复存，由<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本传作“犹”。<span style="color:transparent;font-size:0px">〉</span></small>将困焉。斯实贾生之所以排于绛、灌，吊屈子以舒愤者也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此二句本传作“斯贾生之所以排于绛、灌，屈子之所以摅其幽愤者也”；“其顽士”以下《后汉纪》作“其顽士则暗于时权，其逹者则寡于胜负，斯贾谊所以见悲于上世也。虽使稷、契，犹不能行其志，而况下斯者乎”。<span style="color:transparent;font-size:0px">〉</span></small>夫以文帝之明，贾生之贤，绛、灌之忠，而有此患，况其馀哉！况其馀哉！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　且世主莫不愿得尼、轲之伦以为辅佐，卒然获之，未必珍也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》作“世主莫不愿得尼、轲以辅佐，及得之，未必珍也”。<span style="color:transparent;font-size:0px">〉</span></small>自非题榜其面曰“鲁孔丘”、“邹孟轲”，殆必不见敬信。何以明其然也？此二者善已存于上矣。当时皆见薄贱，而莫能任用，困厄削逐，待放不追，劳辱勤瘁，为竖子所议笑，其故获也。夫淳淑<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》作“一”。<span style="color:transparent;font-size:0px">〉</span></small>之士，固不曲道以媚时，不诡行以徼名。耻乡原之誉，绝<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“绝”字从《意林》补。<span style="color:transparent;font-size:0px">〉</span></small>比周之党。必待题其面曰“鲁仲尼”、“邹子舆”不可得也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“必待”下十六字从《意林》补。按《全后汉文》作“邹孟轲”，《史记‧孟子列传》：“孟轲，驺人也。”正义：“轲字子舆，为齐卿。邹，兖州县。”此当以“子舆”是，盖与“仲尼”皆字也。<span style="color:transparent;font-size:0px">〉</span></small>而世主凡君，明不能别异量之士，而适足受谮润之愬。前君既失之于古，后君又蹈之于今。是以命世之士，常抑于当时，而见思于后人。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》作“无不见思于后日”。<span style="color:transparent;font-size:0px">〉</span></small>以往揆来，亦何容易！向使贤不肖相去如泰山之与蚁垤，策谋得失相觉如日月之与萤火，虽顽嚣之人，犹能察焉。常患贤佞难别，是非倒纷，始相去如毫牦，而祸福差以千里，故圣君明主，其犹慎之。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　图王不成，弊，犹足霸；图霸不成，弊，将如何？<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　量力度德，春秋之义。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此二句《后汉纪》作“《春秋》之义，量力而举，度德而行”。<span style="color:transparent;font-size:0px">〉</span></small>今既不能纯法八代，故宜参以霸政，则宜重赏深罚以御之，明著法术以检之。自非上德，严之则理，宽之则乱。何以明其然也？<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“今既”以下，《后汉纪》作“今已不能用三代之法，故宜以霸道而理之。重赏罚，明法术，自非上德，严之则治，宽之则乱，其理然也”。<span style="color:transparent;font-size:0px">〉</span></small>近孝宣皇帝明于君人之道，审于为政之理，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》作“原”。<span style="color:transparent;font-size:0px">〉</span></small>故严刑峻法，破奸轨<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》作“宄”。<span style="color:transparent;font-size:0px">〉</span></small>之胆，海内清肃，天下密<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》作“谧”。<span style="color:transparent;font-size:0px">〉</span></small>如。嘉瑞并集。屡获丰年，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此八字从《类聚》补。<span style="color:transparent;font-size:0px">〉</span></small>荐勋祖庙，享号中宗。算计见效，优于孝文。及元帝即位，多<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》作“果”。<span style="color:transparent;font-size:0px">〉</span></small>行宽政，卒以堕损，威权始夺，遂为汉室基祸之主。治国之道，得失之理，于斯可以鉴矣！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本传作“政道得失，于斯可监”，此从《类聚》改补。<span style="color:transparent;font-size:0px">〉</span></small>昔孔子作《春秋》，褒齐桓，懿晋文，叹管仲之功。夫岂不美文、武之道哉？诚达权救敝<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》脱“敝”。<span style="color:transparent;font-size:0px">〉</span></small>之理也。故圣人能与世推移，而俗士苦不知变，以为结绳之约，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》作“初”。<span style="color:transparent;font-size:0px">〉</span></small>可复理乱秦之绪，《干戚》之舞，足以解平城之围。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《崔寔传》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　夫熊经鸟伸，虽延历之术，非伤寒之理；呼吸吐纳，虽度纪之道，非续骨之膏。盖为国之法，有似理身，平则致养，疾则攻焉。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“致攻”。<span style="color:transparent;font-size:0px">〉</span></small>夫刑罚者，治乱之药石也；德教者，兴平之梁肉也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此二句《后汉纪》作“故德教者，治世之粱肉；刑法者，救乱之药石也”。<span style="color:transparent;font-size:0px">〉</span></small>夫以德教<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》无“教”。<span style="color:transparent;font-size:0px">〉</span></small>除残，是以<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“犹”。<span style="color:transparent;font-size:0px">〉</span></small>梁肉理<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《后汉纪》作“治”。<span style="color:transparent;font-size:0px">〉</span></small>疾也；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此下《后汉纪》有“欲望疗除，其可得乎”八字。<span style="color:transparent;font-size:0px">〉</span></small>以刑罚理平，是以药石供养也。方今承百王之敝，值厄运之会。自数世以来，政多恩贷，驭委其辔，马骀其衔，四牡横奔，皇路险倾。方将柑勒鞬辀以救之，岂暇鸣和銮，清节奏哉？<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“驭委”以下《后汉纪》作“御安辔马而忌其衔，四牡横驰，皇路险倾，必将钳勒鞭挞以救奔败，岂暇鸣銮，从容平路哉”，《全后汉文》据此于“清节奏”下补“从容平路”四字。<span style="color:transparent;font-size:0px">〉</span></small>昔高祖令萧何作九章之律，有夷三族之令，黥、劓、斩趾、断舌、枭首，故谓之具五刑。文帝虽除肉刑，当劓者笞三百，当斩左趾者笞五百，当斩右趾者弃巿。右趾者既殒其命，笞挞者往往至死，虽有轻刑之名，其实杀也。当此之时，民皆思复肉刑。至景帝元年，乃下诏曰：“加笞与重罪无异，幸而不死，不可为人。”乃定律，减笞轻捶。自是之后，笞者得全。以此言之，文帝乃重刑，非轻之也；以严致平，非以宽致<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》有“太”字。<span style="color:transparent;font-size:0px">〉</span></small>平也。必欲行若言，当大定其本，使人主师五帝而式三王。荡亡秦之俗，遵先圣之风，弃苟全之政，蹈稽古之踪，复五等之爵，立井田之制。然后选稷、契为佐，伊、吕为辅，乐作而凤皇仪，击石而百兽舞。若不然，则多为累而已。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《崔寔传》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　夫人之情，莫不乐富贵荣华、美服丽饰、铿锵眩燿、芬芳嘉味者也，昼则思之，夜则梦焉。唯斯之务，无须臾不存于心。犹急水之归下，下川之赴壑。不厚为之制度，则皆侯服王食，僭至尊，逾天制矣。是故先王之御世也，必明法度以闭民欲，崇堤防以御水害。法度替而民散乱，堤防堕而水泛溢。顷者法度颇不稽古，而旧号网漏吞舟。故庸夫设藻棁之饰，匹竖享方丈之馔。今者下僭其上，尊卑无别。如使鸡鹜蛇颈龟身，五色纷丽，亦可贵于凤乎？<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“如使”下十八字从《御览》卷九百一十九补。<span style="color:transparent;font-size:0px">〉</span></small>礼坏而莫救，法堕而不恒。斯盖有识之士，所为于邑而增叹者也。律令虽有舆服制度，然断之不自其源，禁之又不密。今使列肆卖侈功，商贾鬻僭服，百工作淫器，民见可欲，不能不买。贾人之列，户蹈逾侈矣。故王政一倾，普天率土莫不奢僭者，非家至人告，乃时势驱之使然。此则天下之患一也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　且世奢服僭，则无用之器贵，本务之业贱矣。农桑勤而利薄，工商逸而入<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》作“利”。<span style="color:transparent;font-size:0px">〉</span></small>厚，故农夫辍耒而雕镂，工女投杼而刺文。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》作“绣”。<span style="color:transparent;font-size:0px">〉</span></small>躬耕者少，末作者众。生土虽皆垦乂，故地功不致，苟无力穑，焉得有年？财郁蓄而不尽出，百姓穷匮而为奸寇，是以仓廪空而囹圄实。一榖不登，则饥馁流死；上下俱匮，无以相济。国以民为根，民以谷为命。命尽则根拔，根拔则本颠。此最国家之毒忧，可为热心者也。斯则天下之患二也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　法度既堕，舆服无限，婢妾皆戴瑱楴之饰，而被织文之衣。乃送终之家，亦无法度。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷五百五十六作“亦大无度”。<span style="color:transparent;font-size:0px">〉</span></small>至用软梓黄肠，多藏宝货，享牛作倡，高坟大寝。是可忍也，孰不可忍！而俗人多之，咸曰健子。天下跂慕，耻不相逮。念亲将终，无以奉遣，乃约其供养，豫修亡殁之备。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>此二句《御览》卷五百五十六作“乃约其供养衣服，豫修已没之制”。<span style="color:transparent;font-size:0px">〉</span></small><small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“有脱文。”。<span style="color:transparent;font-size:0px">〉</span></small>老亲之饥寒，以事淫法<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“疑作汰。”。<span style="color:transparent;font-size:0px">〉</span></small>之华称。竭家尽业，甘心而不恨。穷厄既迫，起<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本作“迫”，据《御览》卷五百五十六改。<span style="color:transparent;font-size:0px">〉</span></small>为盗贼，拘执陷罪，为世大戮。痛乎此<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本作“化”，据《御览》卷五百五十六改。<span style="color:transparent;font-size:0px">〉</span></small>俗之刑陷愚民也！且橘柚之贡，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》卷八十六作“实”。<span style="color:transparent;font-size:0px">〉</span></small>尧舜所不尝<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《类聚》、《御览》卷九百七十三作“常”。<span style="color:transparent;font-size:0px">〉</span></small>御；山龙华虫，帝王不以为亵服。今之臣妾，皆馀黄甘而厌文绣者，盖以万数矣。其馀称此，不可胜记。古者墓而不坟，文、武之兆，与平地齐。今豪民之坟，已千坊矣。欲民不匮，诚亦难矣。是以天戚戚，人汲汲，外溺奢风，内忧穷竭。故在位者则犯王法以聚，敛愚民则冒罪戮以为健。俗之坏败，乃至于斯。此天下之患三也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　承三患之弊，继荒顿之绪，而徒欲修旧修故而无匡改，虽唐、虞复存，无益于治乱也。昔圣王远虑深思，患民情之难防，忧奢淫之害政，乃塞其源以绝其末，深其刑而重其罚。夫善堙川者必杜其源，善防奸者必绝其萌。昔子产相郑，殊尊卑，异章服，而国用治。岂大汉之明主，曾不如小藩之陪臣！在修之与不耳。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　《易》曰：“言行，君子所以动天地也。”仲尼曰：“人而无信，不知其可。”今官之接民，甚多违理，苟解面前，不顾先哲。作使百工及从民市，辄设计加以诱来之，器成之后更不与直。老弱冻饿，痛号道路，守阙告哀，终不见省，历年累岁乃才给之。又云逋直，请十与三。此逋直岂物主之罪耶？不自咎责，反复灭之。冤抑酷痛，足感和气，既尔复平弊败之物与之，至有车舆、故谒者冠，卖之则莫取，服之则不可。其馀杂物，略皆此辈。是以百姓创艾，咸以官为忌讳，遁逃鼠窜，莫肯应募。因乃捕之，劫以威势，心苟不乐，则器械行沽，虚费财用，不周于事。故曰：“上为下效，然后谓之教。”<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》作“上行下效，期谓之教”。<span style="color:transparent;font-size:0px">〉</span></small>上下相效殆如此，将何以防之？罚则不恕，不罚则不治，是以风移于诈，俗易于欺，狱讼繁多，民好残伪。为政如此，未睹其利。斯皆起于典藏之吏，不明为国之体，苟割胫以肥头，不知胫弱，亦将颠仆也。《礼》讥聚敛之臣，《诗》曰“贪人败类”，盖伤之也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　陈兵策于安平之世，犹合未病者服药。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　《传》曰：“工欲善其事，必先利其器。”旧时永平建初之际，去战攻未久，朝廷留意于武备，财用优饶，主者躬亲，故官兵常牢劲精利，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷三百三十九作“兵器精利”，卷三百四十八作“官兵劲利”。<span style="color:transparent;font-size:0px">〉</span></small>有<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>本作“谢”，从《御览》卷三百三十九、卷三百四十八改。<span style="color:transparent;font-size:0px">〉</span></small>蔡大仆之弩、及龙亭九年之剑，至今擅名天下。顷主者既不敕慎，而诏书又误，进入之宾，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“宾字疑。”。<span style="color:transparent;font-size:0px">〉</span></small>贪饕之吏竞约其财用，狡猾之工复盗窃之，至以麻枲被弓弩，米粥杂漆，烧铠铁焠酰中，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷三百五十六作“铁焠醘中”。<span style="color:transparent;font-size:0px">〉</span></small>令脆易治。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“治”原作“冶”，据《御览》改。<span style="color:transparent;font-size:0px">〉</span></small>铠<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“铠”字原脱，据《御览》补。<span style="color:transparent;font-size:0px">〉</span></small>孔又褊小，不足容入。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>四字原脱，据《御览》补。<span style="color:transparent;font-size:0px">〉</span></small>刀牟<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“疑当作矛。”。<span style="color:transparent;font-size:0px">〉</span></small>悉钝，故边民敢斗健士，皆自作私兵，不肯用官器。凡汉所以能制胡者，徒擅<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》作“襦”。<span style="color:transparent;font-size:0px">〉</span></small>铠弩之利也。今<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“今”字据《御览》补。<span style="color:transparent;font-size:0px">〉</span></small>铠则不坚，弩则不劲，永失所恃矣。且夫士之身，苟兵钝甲耎，不可依怙，虽孟贲、卞庄，由有犹豫。推此论之，以小况大，使三军器械皆可依阻，则胆强势盛，各有赴敌不旋之虑。若皆弊败，不足任用，亦竞奋皆不避水火矣。三军皆奋，则何敌不克！诚宜复申明巧工旧令，除进入之课，复故财用，虽颇为吏工所中，尚胜于自中也。苟以牢利任用为故，无问其他。《月令》曰：“物刻工名，以覆其诚。功有不当，必行其罪，以穷其情。”今虽刻名之而赏罚不能，又数有赦赎，主者轻玩，无所惩畏。夫兵革国之大事，宜特留意，重其法罚，敢有巧诈辄行之辈，罪勿以赦赎除，则吏敬其职，工慎其业矣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　昔圣王之治天下，咸建诸侯以临其民。国有常君，君有定臣，上下相安，政如一家。秦兼天下，罢侯置县，于是君臣始有不亲之舋矣。我文、景患其如此，故令长视事，至十馀年，居位或长子孙。永久则相习，上下无所窜情。加以心坚意专，安官乐职，图虑久长，而无苟且之政。吏民供奉，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“《北堂书钞》未改本七十八作养。”。<span style="color:transparent;font-size:0px">〉</span></small>亦竭忠<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“《北堂书钞》作诚。”。<span style="color:transparent;font-size:0px">〉</span></small>尽节，而无壹切之计。故能君臣和睦，百姓康乐。苟有康乐之心充于中，则和气应于外，是以灾害不生，祸乱不作。自顷以来，政教稍改，重刑阙于大臣，而密罔刻于下职。鼎辅不思在宽之德，牧牧守守逐之，各竞擿微短，吹毛求疵，重案深诋，以中伤贞良。长吏或实清廉，心平行洁，内省不疚，不肯媚灶，曲礼不行于所属，私敬无废于府，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“有脱误。”。<span style="color:transparent;font-size:0px">〉</span></small>州郡侧目，以为负折，乃选巧文猾吏，向壁作条，诬覆阖门，摄捕妻子，人情耻令妻子就逮，则不迫自去。且人主莫不欲豹、产之臣，然西门豹治邺一年，民欲杀之。子产相郑，初亦见诅，三载之后，德化乃洽。今长吏下车百日，无他异观，则州郡䁹睨，待以恶意。满岁寂漠，便见驱逐。正使豹、产复在，方见怨诅，应时奔驰，何缘得成易歌之勋，垂不朽之名者哉！犹冯唐评文帝之不能用李牧矣。近汉世所谓良吏，黄侯召父之治郡，视事皆且十年，然后功业乃著。且以仲尼之圣，由曰三年有成，况凡庸之士，而责以造次之效哉！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　故夫卒成之政，必有横暴酷烈之失。而世俗归称，谓之辨治。故绌已复进，弃已复用，横迁超取，不由次第。是以残猛之人遂奋其毒，仁贤之士劫俗为虐，本操虽异，驱出一揆。故朝廷不获温良之用，兆民不获宽惠之德。则百姓之命委于酷吏之手，嗷嗷之怨咎归于上。夫民善之则畜，恶之则仇，仇满天下，可不惧哉！是以有国有家者，甚畏其民，既畏其怨，又畏其罚。故养之如伤病，爱之如赤子，兢兢业业，惧以终始，恐失群臣之和，以堕先王之轨也。今朝廷虽屡下恩泽之诏，垂恤民之言，而法度制令，甚失养民之道。劳思而无功，华繁而实寡。必欲求利民之术，则宜沛然改法，有以安固长吏，原其小罪，阔略微过，取其大较，惠下而已。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　昔唐、虞之制，三载考绩，三考绌陟，所以表善而简恶，尽臣力也。汉法亦三年壹察治状，举孝廉尤异。宣帝时王成为胶东相，黄霸为颍川太守，皆且十年。但就增秩赐金，封关内侯，以次入为公卿，然后政化大行，勋垂竹帛。皆先帝旧法，所宜因循。及中兴后，上官象为并州刺史，祭肜为辽东太守，视事各十八年，皆增秩中二千石。建初中，南阳阴意以诏除郎，为绕阳令，视事二十三年，迁寿阳令又十八年。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“建初”以下廿九字从《北堂书钞》卷七十八县令门补。<span style="color:transparent;font-size:0px">〉</span></small>近日所见，或一期之中，郡主易数二千石，云扰波转，溃溃纷纷，吏民疑惑，不知所谓。及公卿尚书，亦复如此。且台阁之职，尤宜简习。帝时<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“帝上有脱字。”。<span style="color:transparent;font-size:0px">〉</span></small>尚书，但厚加赏赐，希得外补，是以机事周密，莫有漏泄。昔舜命九官，自受终于文祖，以至陟方，五十年，不闻复有改易也。圣人行之于古以致时雍，文、宣拟式亦至隆平，若不克从，是羞效唐虞而耻遵先帝也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　昔明王之统黎元，盖济其欲而为之节度者也。凡人情之所通好，则恕己而足之。因民有乐生之性，故分禄以頥其士，制庐井以养其萌。然后上下交足，厥心乃静。人非食不活，衣食足然后可教以礼义，威以刑罚；苟其不足，慈亲不能畜其子，况君能捡其臣乎！故古记曰：“仓廪实而知礼节，衣食足而知荣辱。”今所使分威权、御民人、理狱讼、干府库者，皆群臣之所为，而其奉禄甚薄，仰不足以养父母，俯不足以活妻子。父母者性所爱也，妻子者性所亲也，所爱所亲方将冻餧，虽冒刃求利，尚犹不避，况可令临财御众乎！是所谓渴马守水，饿犬护肉，欲其不侵，亦不几矣！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　夫事有不疑，势有不然。盖此之类，虽时有素富骨清者，未能百一，不可为天下通率。圣王知其如此，故重其禄以防其贪欲，使之取足于奉，不与百姓争利。故其为士者，习推让之风，耻言十五之计，而拔葵去织之义形矣。故三代之赋也足以代其耕。故晏平仲，诸侯之大夫耳，禄足赡五百，斯非优衍之故耶！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　昔在暴秦，反道违圣，厚自封宠，而虏遇臣下。汉兴因循，未改其制。夫百里长吏，荷诸侯之任，而食监门之禄。请举一隅，以率其馀：一月之禄，得粟二十斛，钱二千。长吏虽欲崇约，犹当有从者一人，假令无奴，当复取客。客庸一月千蒭，膏肉五百，薪炭盐菜又五百，二人食粟六斛，其馀财足给马，岂能供冬夏衣被、四时祠祀、宾客升酒之费乎？况复迎父母致妻子哉！不迎父母则违定省，不致妻子则继嗣绝。迎之不足相赡，自非夷、齐，孰能饿死。于是则有卖官鬻狱、盗贼主守之姧生矣！孝宣皇帝悼其如此，乃诏曰：“吏不平，则治道衰。今小吏皆勤事，奉之薄，欲其不侵渔百姓，难矣！其益吏奉百石以下什五。”然尚俭隘，又不上逮古赋禄，虽不可悉遵，宜少增益，以赒其匮。使足代耕自供，以绝其内顾忿姧之心，然后重其受取之罚。则吏内足于财，外惮严刑，人怀羔羊之洁，民无侵枉之性矣。昔周之衰也，大夫无禄，诗人刺之；暴秦之政，始建薄奉；亡新之乱，不与吏除：三亡之失，异世同术。我无所鉴，夏后及商，覆车之轨，宜以为戒。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　大赦之造，乃圣王受命而兴，讨乱除残，诛其鲸鲵，赦其臣民渐染化者耳。及战国之时，犯罪者辄亡奔邻国，遂赦之，以诱还其逋逃之民。汉承秦制，遵而不越。孝文皇帝即位二十三年乃赦，示不废旧章而已。近永平、建初之际，亦六七年乃壹赦。亡命之子，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“亡”、“之”二字本脱，据《御览》卷六百五十二补。<span style="color:transparent;font-size:0px">〉</span></small>皆老于草野，穷困惩艾，比之<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》作“皆至”。<span style="color:transparent;font-size:0px">〉</span></small>于死。顷间以来，岁且<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》作“旦”。<span style="color:transparent;font-size:0px">〉</span></small>壹赦。百姓忸忕，轻为姧非。每迫春节，徼幸之会，犯恶尤多。近前年一期之中，大小四赦。谚曰：“一岁再赦，奴儿喑𫫇。”<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷六百五十二作“哑”，卷四百九十六作“噫唶”。<span style="color:transparent;font-size:0px">〉</span></small>况不轨之民，孰不肆意！遂以赦为常，俗初期望之，过期不至，亡命蓄积，群辈屯聚，为朝廷忧。如是则劫，不得不赦，赦以趣奸，奸以趣赦，转相驱踧，两不得息。虽日赦之，乱甫繁<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》作“捕击”，疑误。<span style="color:transparent;font-size:0px">〉</span></small>耳！由坐饮多发消渴，而水更不得去口，其归亦无终矣。又践祚改元际，未尝不赦。每其令曰：“荡涤旧恶，将与士大夫更始。”是裒己薄先，且违无改之义，非所以明孝抑邪之道也。昔莞子有云：赦者，奔马之委辔；不赦者，痤疽之砭石。及匡衡、吴汉，将相之隽，而皆建言不当数赦。今如欲尊先王之制，宜旷然更下大赦令。因明谕使知永不复赦，则群下震栗，莫轻犯罪。纵不能然，宜十岁以上，乃时壹赦。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《群书治要》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　昔者，圣王立井田之制，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《通典》但有“昔圣人”三字，从《御览》卷八百二十一补。<span style="color:transparent;font-size:0px">〉</span></small>分口耕<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》无“耕”。<span style="color:transparent;font-size:0px">〉</span></small>耦地，各相副适，使人饥饱不偏，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《通典》作“变”，从《御览》改。<span style="color:transparent;font-size:0px">〉</span></small>劳逸齐均。富者不足僭差，贫者无所企慕。始暴秦隳坏法度，制人之财，既无纲纪，而乃尊奖并兼之人。乌氏以牧竖致财，宠比诸侯；寡妇清以攻丹殖业，礼以国宾。于是巧猾之萌，遂肆其意。上家累巨亿之赀，斥地侔封君之土，行苞苴以乱执政，养剑客以威黔首。专杀不辜，号无市死之子。生死之奉，多拟人主。故下户踦𨄅，无所跱足，乃父子低首，奴事富人，躬帅妻孥，为之服役。故富者席馀而日炽，贫者蹑短而岁踧，历代为虏犹不赡于衣食，生有终身之勤，死有暴骨之忧，岁小不登，流离沟壑，嫁妻卖子。其所以伤心腐藏、失生人之乐者，盖不可胜陈。故古有移人通财，以赡蒸黎。今青、徐、兖、冀，人稠土狭，不足相供。而三辅左右及凉、幽州，内附近郡，皆土旷人稀，厥田宜稼，悉不垦发。小人之情，安土重迁，宁就饥馁，无适乐土之虑。故人之为言瞑也，谓瞑瞑无所知。犹群羊聚畜，须主者牧养处置，置之茂草，则肥泽繁息，置之硗卤，则零丁耗减。是以景帝六年，下诏郡国，令人得去硗狭，就宽肥。至武帝，遂徙关东贫人于陇西、北地、西河、上郡、会稽，凡七十二万五千口。后加徙猾吏于关内。今宜复遵故事，徙贫人不能自业者于宽地，此亦开草辟土，振人之术也。”<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《通典》卷一。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　战国海内十二分，魏州有史起引漳水灌邺，民以兴歌。蜀郡李冰凿离堆通二江，益部至今赖之。秦开郑国，汉作白渠，而关中号为陆海。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷七十五。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　武帝以赵过<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷八百二十三作“随遇”，卷八百二十二作“宣帝使蔡登校民耕”。<span style="color:transparent;font-size:0px">〉</span></small>为搜粟都尉，教民耕殖。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷八百二十二作“宣帝使蔡登校民耕”。严可均曰：“疑非两人，今合并为一事。”。<span style="color:transparent;font-size:0px">〉</span></small>其法，三犁共一牛，一人将之，下种挽耧，皆取备焉。日种一顷，至今三辅犹赖其利。今辽东耕犁，辕长四尺，回转相妨，既用两牛，两人牵之，一人将耕，一人下种，二人挽耧，凡用两牛六人，一日才种二十五畒，其悬绝如此。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《齐民要术》卷一、《御览》卷八百二十三。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　宣帝使蔡登校民耕，相三犂共一牛，一人持之，下种挽搂，皆取备焉。一日种顷也。
+</p><p>　　夏扈趣耕锄。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《事类‧夏赋》注引。原注：即窃脂，亦呼获谷。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　仆前为五原太守，土地不知缉绩，冬积草，伏卧其中。若见吏，以草缠身，令人酸鼻。吾乃卖储峙，得二十馀万，诣雁门、广武迎织师，使巧手作机，乃<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷八百二十六作“及”。<span style="color:transparent;font-size:0px">〉</span></small>纺以教民织。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷二十七、又卷八百二十六。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　昔人有慕让财之名，推田业与弟。俄而贫乏，反以威力就弟强贷。此不当也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　举弥天之网，以罗海内之士<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《文选》卷四十二曹植《与杨德祖书》、卷四十七陆士衡《汉高祖功臣颂》注引崔寔《本论》。“士”字，《文选》注作“雄”。<span style="color:transparent;font-size:0px">〉</span></small>同类翕集而蚁附，计士嚬踧而胁从，党成于下，君孤于上。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　马不素养，难以追远；士不素简，难以趋急。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　叶公之好攘羊，虽可发奸，君子不贵也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　国不信道，工不信度，亡可待也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》、《御览》卷四百三。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　无赏罚之君，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《北堂书钞》卷一百三十六、《御览》卷七百一十四无“之君”二字。<span style="color:transparent;font-size:0px">〉</span></small>而欲世<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“世”下《北堂书钞》、《御览》有“之”。<span style="color:transparent;font-size:0px">〉</span></small>治，犹不畜梳栉<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《北堂书钞》、《御览》作“枇”。<span style="color:transparent;font-size:0px">〉</span></small>而求发<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>“发”下，《北堂书钞》、《御览》有“之”。<span style="color:transparent;font-size:0px">〉</span></small>治，不可得也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　术家曰：冬荣者，春必杀。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　今典州郡者，自违诏书，纵意出入。毎诏书所欲禁绝，虽重恳恻，骂詈极笔，由复废舍，终无悛意。故里语曰：州郡记，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷十三作“州县符”。<span style="color:transparent;font-size:0px">〉</span></small>如霹雳；得诏书，但挂壁。永平中，诏禁吏卒不得系马宫外树，为伤害其枝叶。又诏令：雒阳帻工作帻，皆二尺五寸围。人头各有大小，不可同度。此诏不可从也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》、《初学记》卷二十四壁部、《御览》卷十三、又卷四百九十六、又卷五百九十三。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　洗濯民心，湔浣浮俗。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《意林》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　永宁诏曰：锺鸣漏尽，洛阳城中不得有行者。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《文选》卷二十八鲍照《放歌行》注引崔元始《正论》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　诏书：故事三公辟召以四科取士：一曰德行高妙，志节清白；二曰学通行修，经中博士；三曰明晓法令，足以决疑，能按章覆问；四曰刚毅多略，遭事不惑，才任三辅剧县令。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>文选卷三十六王融《永明九年策秀才文》注引崔寔《政论》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　且三公天子之股肱，掾属则三公之喉舌。天子当恭己南面于三公，三公亦委策掾属，以答天子。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《北堂书钞》卷六十八掾部，《御览》卷二百九。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　三府掾属，或期月而长州郡，或数年而长公卿。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《北堂书钞》卷六十八掾部。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　旧制：万户以上置大县令。以表其能。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《北堂书钞》卷六十八县令部。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　孝宣帝方外安静，单于稽颡来朝，百世不羁之虏也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《文选》卷四十三孙楚《为石仲容与孙皓书》注引崔寔《本论》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　秦割六国之君，劓杀其民。于是赭衣塞路，有鼻者丑。故百姓鸟惊兽骇，不知所归命。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《文选》卷五十五刘孝标《广绝交论》注引崔寔《正论》、《御览》卷三百六十七。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　且观世人之相论也，徒以一面之交，定臧否之决。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《文选》卷四十七陆士衡《汉高祖功臣颂》注引崔寔《本论》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　及其出也，足以济世宁民也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《文选》卷五十八王俭《褚渊碑文》、卷六十陆士衡《吊魏武帝文》注。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　秋风厉而赏武臣。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷二十五。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　太昊之世，设九庖之官。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷七十八。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　搔癣之为悦，先笑而后愁。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷三百九十一。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　君以审令为明，臣以奉令为忠。故背制而行赏，谓之作福；背令而行罪，谓之作威。作威则人畏之，作福则人归之。夫威福者，人主之神器也！譬之操莫耶矣，执其柄，则人莫敢抗；失其柄，则还见害也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷六百三十八。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　高祖非九章之律，高后深三族之罪，文帝去肉刑，景帝减加笞，由此言之，世有所更，何独拘前。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷六百四十八。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　珠玑玩饰匿若怀袖，丈绣蔽于帷帘。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷七百。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　师旷曰：人骨法犹木有曲直。曲者为轮，直者为舆。檀宜作辐，榆宜作毂。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷九百五十二。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　小民发如韭，剪复生；头如鸡，割复鸣。吏不必可畏，从来<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>严可均曰：“疑当作民不。”<span style="color:transparent;font-size:0px">〉</span></small>必可轻。奈何欲望致州厝乎！<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷九百七十六。<span style="color:transparent;font-size:0px">〉</span></small>
+</p><p>　　理世不真贤，犹治病无真药，当用人参，反得萝菔根。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>《御览》卷九百八十。按此条又见《潜夫论‧思贤》。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<table class="ws-noexport noprint ws-footer" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid var(--border-color-content-added,#a3d3ff); background-color: var(--background-color-progressive-subtle,#eaf3ff); width:100%; margin-bottom:0px; text-align:center; color: inherit;">
+<tbody><tr>
+<td width="20%" align="left">　
+</td>
+<td>
+</td>
+<td width="50%" align="center"><a href="#top">↑返回顶部</a>
+</td>
+<td>
+</td>
+<td width="20%" align="right">
+</td></tr></tbody></table><style data-mw-deduplicate="TemplateStyles:r4375040">.mw-parser-output .licenseContainer{box-sizing:border-box;margin-top:1em;margin-bottom:0.25em;clear:both;width:auto;page-break-before:always;break-before:page}.mw-parser-output .licenseContainer>div:first-of-type{display:table;border:2px solid var(--border-subtle,#8888aa);border-collapse:collapse;border-spacing:0 0;empty-cells:hide;box-sizing:border-box;margin:0 auto 0 auto;width:100%;background-color:var(--background-color-neutral-subtle,#f7f8ff);color:var(--color-base,#202122)}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child{display:table-row-group}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child{display:table-row}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div{display:table-cell;padding:5px;vertical-align:middle;width:auto}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:first-child{text-align:left}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2){text-align:center}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div{width:100%}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:first-child{display:block;margin:0 auto 0 auto;text-align:left}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2){display:table;border-top:1px solid var(--border-subtle,#8888aa)}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div{display:table-cell;vertical-align:middle}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div:first-child{text-align:center;padding:5px 0;width:40px}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){text-align:left;padding:5px;font-size:92%}.mw-parser-output .licenseContainer>div:first-of-type>div:first-child>div:first-child>div:nth-child(3){text-align:right}.mw-parser-output .licensetpl{display:none}.mw-parser-output .licenseContainer.wst-collapsible-box{clear:both;margin:0.25em 0 0.25em 0;font-size:95%;background-color:var(--background-color-neutral-subtle,#f7f8ff);color:var(--color-base,#202122);border:2px solid var(--border-subtle,#8888aa);text-align:left;line-height:1.6}.mw-parser-output .wst-license-container-title{display:inline-block;padding:0.5em}.mw-parser-output .wst-license-container-content{background:transparent;color:inherit;margin:0;padding:3px;text-align:left}.mw-parser-output .licenseContainer.warningLicenseContainer>div:first-child{border:2px solid var(--border-color-error,#b22222);background-color:var(--background-color-error-subtle,#ffeeee);color:var(--color-base,#202122)}.mw-parser-output .licenseContainer.warningLicenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2){border:2px solid var(--border-color-error,#b22222);color:var(--color-base,#202122)}</style><div class="licenseContainer licenseBanner dynlayout-exempt">
+<div><div><div><div>
+<p><span class="imageLeft"><span typeof="mw:File"><span><img alt="" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/60px-PD-icon.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="48" height="48" class="mw-file-element" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=zh.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" data-file-width="196" data-file-height="196" /></span></span></span>
+</p>
+</div><div>
+<div>
+<p>此作品在全世界都属于<b><a href="https://zh.wikipedia.org/wiki/%E5%85%AC%E6%9C%89%E9%A2%86%E5%9F%9F" class="extiw" title="w:公有领域">公有领域</a></b>，因为作者逝世已经超过100年，且作品于1931年1月1日之前出版。
+</p>
+</div>
+</div><div>
+<p><span class="noimageRight"></span>
+</p>
+</div></div></div></div>
+<div class="licensetpl">
+<p><span class="licensetpl&#95;short">Public domain</span><span class="licensetpl&#95;long">Public domain</span><span class="licensetpl&#95;link&#95;req">false</span><span class="licensetpl&#95;attr&#95;req">false</span>
+</p>
+</div>
+</div>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐7df87d9897‐hwjln
+Cached time: 20261017102448
+Cache expiry: 2592000
+Cache expiry source: Template:PD‐old (currentyear)
+Reduced expiry: false
+Complications: [prevent‐selective‐update]
+CPU time usage: 0.101 seconds
+Real time usage: 0.122 seconds
+Preprocessor visited node count: 756/1000000
+Revision size: 35706/2097152 bytes
+Post‐expand include size: 44870/2097152 bytes
+Template argument size: 8625/2097152 bytes
+Highest expansion depth: 7/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3267/5000000 bytes
+Lua time usage: 0.038/10.000 seconds
+Lua memory usage: 947786/52428800 bytes
+Number of Wikibase entities loaded: 1/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   78.146      1 -total
+ 44.29%   34.611      1 Template:Header
+ 37.48%   29.290      1 Template:PD-old
+ 36.04%   28.161      1 Template:License
+  5.24%    4.092    166 Template:*
+  0.97%    0.759      1 Template:Footer
+-->
+
+<!-- Render ID fabc6125-ca14-11f1-923b-a70a4186f82b -->
+
+<!-- Saved in parser cache with key zhwikisource:pcache:166112:|#|:idhash:canonical!zh-hans and timestamp 20261017102448 and revision id 2745472. Rendering was triggered because: page_view
+ -->
+</div><noscript><img src="https://zh.wikisource.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="" lang="zh-Hans" dir="ltr">取自“<a dir="ltr" href="https://zh.wikisource.org/w/index.php?title=政論&amp;oldid=2745472">https://zh.wikisource.org/w/index.php?title=政論&amp;oldid=2745472</a>”</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">分类</a>：<ul><li><a href="/wiki/Category:%E6%9D%B1%E6%BC%A2" title="Category:東漢">东汉</a></li><li><a href="/w/index.php?title=Category:%E5%B4%94%E5%AF%94&amp;action=edit&amp;redlink=1" class="new" title="Category:崔寔（页面不存在）">崔寔</a></li><li><a href="/wiki/Category:PD-old" title="Category:PD-old">PD-old</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			<footer id="footer" class="mw-footer"  lang="zh-Hans" dir="ltr">
+				<ul id="footer-info" class="mw-portlet mw-portlet-footer-info">
+	<li id="footer-info-lastmod"> 此页面最后编辑于2026年4月26日 (星期日) 05:56。</li>
+	<li id="footer-info-copyright">本站的全部文字在<a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_4.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" class="extiw" title="w:Wikipedia:CC BY-SA 4.0协议文本">知识共享 署名-相同方式共享 4.0协议</a>之条款下提供，附加条款亦可能应用。（请参阅<a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">使用条款</a>）<br />在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（<b><a href="/wiki/Wikisource:%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF" title="Wikisource:版权信息">详情</a></b>）。<br />
+Wikisource&#174;和维基文库标志是<a rel="nofollow" class="external text" data-mw-original-href="//wikimediafoundation.org/zh" href="https://wikimediafoundation.org/zh">维基媒体基金会</a>的注册商标；维基&#8482;是维基媒体基金会的商标。<br />维基媒体基金会是在美国佛罗里达州登记的501(c)(3)<a class="external text" data-mw-original-href="//donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility" href="https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility">免税</a>、非营利、慈善机构。<br /></li>
+</ul>
+
+				<ul id="footer-places" class="mw-portlet mw-portlet-footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">隐私政策</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikisource:%E5%85%B3%E4%BA%8E">关于维基文库</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikisource:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">法律与安全事项联系方式</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">行为准则</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikisource.org">统计</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie声明</a></li>
+	<li id="footer-places-mobileview"><a href="//zh.wikisource.org/w/index.php?title=%E6%94%BF%E8%AB%96&amp;variant=zh-hans&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">移动版视图</a></li>
+</ul>
+
+				<ul id="footer-icons" class="mw-portlet mw-portlet-footer-icons noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+			</footer>
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="搜索Wikisource内容">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">搜索</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true"  lang="zh-Hans" dir="ltr"><span lang="zh-Hans" dir="ltr"><span class="mw-page-title-main">政论</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock cdx-button__icon"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language cdx-button__icon"></span>
+
+<span>添加语言</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive cdx-button__icon"></span>
+
+<span>添加话题</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-7db4fb585c-92wbr","wgBackendResponseTime":176,"wgPageParseReport":{"limitreport":{"cputime":"0.101","walltime":"0.122","ppvisitednodes":{"value":756,"limit":1000000},"revisionsize":{"value":35706,"limit":2097152},"postexpandincludesize":{"value":44870,"limit":2097152},"templateargumentsize":{"value":8625,"limit":2097152},"expansiondepth":{"value":7,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3267,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%   78.146      1 -total"," 44.29%   34.611      1 Template:Header"," 37.48%   29.290      1 Template:PD-old"," 36.04%   28.161      1 Template:License","  5.24%    4.092    166 Template:*","  0.97%    0.759      1 Template:Footer"]},"scribunto":{"limitreport-timeusage":{"value":"0.038","limit":"10.000"},"limitreport-memusage":{"value":947786,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-7df87d9897-hwjln","timestamp":"20261017102448","ttl":2592000,"transientcontent":false,"expiry-source":"Template:PD-old (currentyear)"}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u653f\u8ad6","url":"https:\/\/zh.wikisource.org\/wiki\/%E6%94%BF%E8%AB%96","sameAs":"http:\/\/www.wikidata.org\/entity\/Q18840877","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q18840877","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u57fa\u91d1\u4f1a","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2012-05-26T03:11:04Z","dateModified":"2026-04-26T05:56:04Z"}</script>
+</body>
+</html>

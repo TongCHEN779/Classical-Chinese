@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "title": "夢溪筆談",
+      "revision": "7168168",
+      "snapshot": "sources/mengxi/wikisource/pages/ce12e98997822f34.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/ce12e98997822f34.html.snapshot",
+      "raw_sha256": "4686c8e2d7ed9fefaa11b1adde391cc363a1427da4c689ab322c970f78818592",
+      "blocks": 0
+    },
+    {
+      "title": "夢溪筆談/序",
+      "revision": "407068",
+      "snapshot": "sources/mengxi/wikisource/pages/a1b156bb073c50b6.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/a1b156bb073c50b6.html.snapshot",
+      "raw_sha256": "9de4494ee880ca593d10c3e94b00b4db7dae41586eb79612ca2e4f21810ea5fc",
+      "blocks": 1
+    },
+    {
+      "title": "夢溪筆談/卷01",
+      "revision": "7904958",
+      "snapshot": "sources/mengxi/wikisource/pages/d1a2609419e3f6f6.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/d1a2609419e3f6f6.html.snapshot",
+      "raw_sha256": "15e0bb883c00a8d9ec69f4e3dd91560c9643005700fef3a7a125d45f22088b55",
+      "blocks": 29
+    },
+    {
+      "title": "夢溪筆談/卷02",
+      "revision": "796556",
+      "snapshot": "sources/mengxi/wikisource/pages/f92107460087ece6.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/f92107460087ece6.html.snapshot",
+      "raw_sha256": "aa198b143a0e65a3e488a714412cd67d7529fc8c90779d9a0aa3751ffe44a2d8",
+      "blocks": 10
+    },
+    {
+      "title": "夢溪筆談/卷03",
+      "revision": "7904600",
+      "snapshot": "sources/mengxi/wikisource/pages/be1550d5aa143589.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/be1550d5aa143589.html.snapshot",
+      "raw_sha256": "95a0f444be99847f1f628ac1a34532b55c3eea459977c9eaf31859125d19637a",
+      "blocks": 29
+    },
+    {
+      "title": "夢溪筆談/卷04",
+      "revision": "7903393",
+      "snapshot": "sources/mengxi/wikisource/pages/611088e87f0ac4bc.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/611088e87f0ac4bc.html.snapshot",
+      "raw_sha256": "b1619fbfcae078cb7b73bb972b7427dc6fb448bc9c4e6eeb16e70ce6049b4b65",
+      "blocks": 10
+    },
+    {
+      "title": "夢溪筆談/卷05",
+      "revision": "2458778",
+      "snapshot": "sources/mengxi/wikisource/pages/f118b31566f9cf4f.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/f118b31566f9cf4f.html.snapshot",
+      "raw_sha256": "1f8833ab44738d273035d6661c043fa035b35b0704e29bcc39b75db541630a7b",
+      "blocks": 25
+    },
+    {
+      "title": "夢溪筆談/卷06",
+      "revision": "796565",
+      "snapshot": "sources/mengxi/wikisource/pages/72edbb1425612494.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/72edbb1425612494.html.snapshot",
+      "raw_sha256": "e62773ec892fd251779528260a0751c78a66102141f490ba784c55433aec57d5",
+      "blocks": 5
+    },
+    {
+      "title": "夢溪筆談/卷07",
+      "revision": "7902127",
+      "snapshot": "sources/mengxi/wikisource/pages/91c40ce2493927b0.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/91c40ce2493927b0.html.snapshot",
+      "raw_sha256": "c0cc74fd95a301ec1c0b816e20e03c57450aa6337eb3088dc6baa85c23064a3b",
+      "blocks": 26
+    },
+    {
+      "title": "夢溪筆談/卷08",
+      "revision": "796566",
+      "snapshot": "sources/mengxi/wikisource/pages/63cd32221f6e00f2.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/63cd32221f6e00f2.html.snapshot",
+      "raw_sha256": "111644dae584655e93bc0c264338e7af423d06296002cbe43a6d290712603e76",
+      "blocks": 8
+    },
+    {
+      "title": "夢溪筆談/卷09",
+      "revision": "7903392",
+      "snapshot": "sources/mengxi/wikisource/pages/13aa1fb8b97d2c43.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/13aa1fb8b97d2c43.html.snapshot",
+      "raw_sha256": "4298e8ff5d748b340d08689a8ca03771c0da5b26ee80fe3e95da877c81b3e35f",
+      "blocks": 32
+    },
+    {
+      "title": "夢溪筆談/卷10",
+      "revision": "796569",
+      "snapshot": "sources/mengxi/wikisource/pages/2bb9c2da8c8d52ef.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/2bb9c2da8c8d52ef.html.snapshot",
+      "raw_sha256": "4c7eb9844f48373a6cbb5317b04d74064f47037facdfccaa592550c573308a10",
+      "blocks": 6
+    },
+    {
+      "title": "夢溪筆談/卷11",
+      "revision": "7529831",
+      "snapshot": "sources/mengxi/wikisource/pages/9a298098de086238.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/9a298098de086238.html.snapshot",
+      "raw_sha256": "c5e585102230dd4883cc151e4f0314990fb8f4d50e461895c7cb75a12a3bffe8",
+      "blocks": 24
+    },
+    {
+      "title": "夢溪筆談/卷12",
+      "revision": "7602120",
+      "snapshot": "sources/mengxi/wikisource/pages/422573bb4d5b6031.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/422573bb4d5b6031.html.snapshot",
+      "raw_sha256": "72b0d7c44f094ca49c8feda8a17f98b4807fd079769a8a88a64f85107dea791e",
+      "blocks": 11
+    },
+    {
+      "title": "夢溪筆談/卷13",
+      "revision": "7603600",
+      "snapshot": "sources/mengxi/wikisource/pages/40b89b224739ad24.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/40b89b224739ad24.html.snapshot",
+      "raw_sha256": "8b6a1bb04e02ff086009ed9382dba1aad8f1bceb8d540810dcf958cdc34e707b",
+      "blocks": 21
+    },
+    {
+      "title": "夢溪筆談/卷14",
+      "revision": "7604295",
+      "snapshot": "sources/mengxi/wikisource/pages/562f2ab9d35d8215.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/562f2ab9d35d8215.html.snapshot",
+      "raw_sha256": "ce7686d2771d7de151cbcfbb11cf8cea5a059f77df8a1d13391de857094c66cd",
+      "blocks": 17
+    },
+    {
+      "title": "夢溪筆談/卷15",
+      "revision": "7609828",
+      "snapshot": "sources/mengxi/wikisource/pages/f4a03f73564bf20c.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/f4a03f73564bf20c.html.snapshot",
+      "raw_sha256": "a3fddb9a730ffa6999fc1646386df11d6410699fe4de2fe7352d7019c1f0a762",
+      "blocks": 12
+    },
+    {
+      "title": "夢溪筆談/卷16",
+      "revision": "7610121",
+      "snapshot": "sources/mengxi/wikisource/pages/0e7c5a123104edde.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/0e7c5a123104edde.html.snapshot",
+      "raw_sha256": "54b85c205e851d278f681d79df78d854cecc4630727e35efd33dca5474133cdd",
+      "blocks": 3
+    },
+    {
+      "title": "夢溪筆談/卷17",
+      "revision": "7902163",
+      "snapshot": "sources/mengxi/wikisource/pages/afe3bcb0f324dcdf.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/afe3bcb0f324dcdf.html.snapshot",
+      "raw_sha256": "af0667d97557482866d80b0b0342f37061120751d34838b29d13b1b54d2a759e",
+      "blocks": 21
+    },
+    {
+      "title": "夢溪筆談/卷18",
+      "revision": "7260838",
+      "snapshot": "sources/mengxi/wikisource/pages/c69fdcce294afad9.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/c69fdcce294afad9.html.snapshot",
+      "raw_sha256": "91038d4923fb1b68862ca1d18f9ae9f10184ec37ebebb7aca9384ec60eae08ba",
+      "blocks": 22
+    },
+    {
+      "title": "夢溪筆談/卷19",
+      "revision": "7612651",
+      "snapshot": "sources/mengxi/wikisource/pages/4939533648bc7013.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/4939533648bc7013.html.snapshot",
+      "raw_sha256": "01d410cb8651d12edc486d7bdcd700a77bbdd5f5ee3cc01a1ae8ea5507fd9847",
+      "blocks": 19
+    },
+    {
+      "title": "夢溪筆談/卷20",
+      "revision": "7258845",
+      "snapshot": "sources/mengxi/wikisource/pages/8df5b0da910dc185.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/8df5b0da910dc185.html.snapshot",
+      "raw_sha256": "12688c6cbf806357e29cfc6ea2f4b3bc9b1a24d3c5d03f1fd97eacc1040d0635",
+      "blocks": 20
+    },
+    {
+      "title": "夢溪筆談/卷21",
+      "revision": "7259938",
+      "snapshot": "sources/mengxi/wikisource/pages/73bff621459faa8f.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/73bff621459faa8f.html.snapshot",
+      "raw_sha256": "81379bc68b0dc4a87662b1a6759eb41f244176be02ac026d8499039db6443eda",
+      "blocks": 32
+    },
+    {
+      "title": "夢溪筆談/卷22",
+      "revision": "7612749",
+      "snapshot": "sources/mengxi/wikisource/pages/a7a7c814a070f505.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/a7a7c814a070f505.html.snapshot",
+      "raw_sha256": "0c681fa21ea8b92f6e79323d44453be072b56a92c73e8a28cf1b1fe4c6bcc4ef",
+      "blocks": 14
+    },
+    {
+      "title": "夢溪筆談/卷23",
+      "revision": "7373744",
+      "snapshot": "sources/mengxi/wikisource/pages/a275b48a5ebd0d17.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/a275b48a5ebd0d17.html.snapshot",
+      "raw_sha256": "8c12ca6af26e1ab396ac273cf959dad9b2b37c7bd3b5d97f2876ac69b8605b5c",
+      "blocks": 19
+    },
+    {
+      "title": "夢溪筆談/卷24",
+      "revision": "7404681",
+      "snapshot": "sources/mengxi/wikisource/pages/c505073e12904dbf.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/c505073e12904dbf.html.snapshot",
+      "raw_sha256": "f38c467ea89d7b6e4671435caaa947d7f91035a8744ced87534f9a670fc624f7",
+      "blocks": 31
+    },
+    {
+      "title": "夢溪筆談/卷25",
+      "revision": "7407447",
+      "snapshot": "sources/mengxi/wikisource/pages/43da1eee2f47bcdf.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/43da1eee2f47bcdf.html.snapshot",
+      "raw_sha256": "f34345308767fdb39d34cd1b6ca57dca2e76052d8678db8b40dd1450246f32f3",
+      "blocks": 30
+    },
+    {
+      "title": "夢溪筆談/卷26",
+      "revision": "1373778",
+      "snapshot": "sources/mengxi/wikisource/pages/9697d4814f114f0e.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/9697d4814f114f0e.html.snapshot",
+      "raw_sha256": "8bc01ba70c6874a40fc6ddc20104418f3a60dcbe722d825bd165966fd9bb47ad",
+      "blocks": 29
+    },
+    {
+      "title": "夢溪筆談/補筆談",
+      "revision": "7763880",
+      "snapshot": "sources/mengxi/wikisource/pages/de67860ce9991ab0.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/de67860ce9991ab0.html.snapshot",
+      "raw_sha256": "917b268afffab3a0a09ee676cd15eb49d6dcbb60de641f56b99c094245006482",
+      "blocks": 102
+    },
+    {
+      "title": "夢溪筆談/續筆談",
+      "revision": "2336636",
+      "snapshot": "sources/mengxi/wikisource/pages/a678061648e643b5.json",
+      "raw_snapshot": "sources/mengxi/wikisource/raw/a678061648e643b5.html.snapshot",
+      "raw_sha256": "d6282fa36524d9a0d91b0d381b2a6b113fd1a2f5fb11f5d845d67bd5e2f3b9bc",
+      "blocks": 12
+    }
+  ],
+  "annotation_status": "not_completed_by_fetch"
+}

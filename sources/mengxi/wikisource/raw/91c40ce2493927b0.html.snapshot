@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-not-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser" lang="zh-Hans" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>梦溪笔谈/卷07 - 维基文库，自由的图书馆</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-not-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )zhwikisourcemwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"c165d776-a5a7-4653-be0f-4ce713217ef7","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"夢溪筆談/卷07","wgTitle":"夢溪筆談/卷07","wgCurRevisionId":7902127,"wgRevisionId":7902127,"wgArticleId":41,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["1077年 (提及)","1068年 (提及)","1072年 (提及)"],"wgPageViewLanguage":"zh-hans","wgPageContentLanguage":"zh-hans","wgPageContentModel":"wikitext","wgRelevantPageName":"夢溪筆談/卷07","wgRelevantArticleId":41,"wgTempUserName":null,"wgUserVariant":"zh-hans","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikisource","wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-cn","zh-sg","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":30000,"prpProofreadPageBookNamespaces":[0],"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgULSContentLanguageSelectorEnabled":true,"wgULSLanguageSelectorV2Enabled":true,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true,"wgSiteNoticeId":"2.0"};
+RLSTATE={"ext.gadget.text-spacing":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","ext.wikisource.icons":"ready","mediawiki.interface.helpers.styles":"ready","mediawiki.interface.helpers.linker.styles":"ready","mediawiki.action.styles":"ready","mediawiki.codex.messagebox.styles":"ready","ext.proofreadpage.base":"ready","ext.proofreadpage.article":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.dismissableSiteNotice.styles":"ready"};RLPAGEMODULES=["ext.wikisource.download","site","mediawiki.page.ready","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.noteTA","ext.gadget.tabbedwindow","ext.gadget.PageNumbers","ext.gadget.scrollUpButton","ext.gadget.unihan-helper","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});mw.user.options.set({"language":"zh-hans","variant":"zh-hans"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=zh-hans&amp;modules=ext.dismissableSiteNotice.styles%7Cext.proofreadpage.article%2Cbase%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cext.wikisource.icons%7Cmediawiki.action.styles%7Cmediawiki.codex.messagebox.styles%7Cmediawiki.interface.helpers.linker.styles%7Cmediawiki.interface.helpers.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=zh-hans&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=zh-hans&amp;modules=ext.gadget.text-spacing&amp;only=styles&amp;skin=vector-2022">
+<link rel="stylesheet" href="/w/load.php?lang=zh-hans&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.48.0-wmf.1">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="noindex,nofollow,max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="梦溪笔谈/卷07 - 维基文库，自由的图书馆">
+<meta property="og:type" content="website">
+<link rel="alternate" type="application/x-wiki" title="编辑" href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;action=edit">
+<link rel="icon" href="/static/favicon/wikisource.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikisource (zh)">
+<link rel="EditURI" type="application/rsd+xml" href="//zh.wikisource.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://zh.wikisource.org/zh-hans/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707">
+<link rel="alternate" hreflang="zh" href="https://zh.wikisource.org/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707">
+<link rel="alternate" hreflang="zh-Hans" href="https://zh.wikisource.org/zh-hans/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707">
+<link rel="alternate" hreflang="zh-Hant" href="https://zh.wikisource.org/zh-hant/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707">
+<link rel="alternate" hreflang="x-default" href="https://zh.wikisource.org/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">
+<link rel="alternate" type="application/atom+xml" title="Wikisource的Atom订阅" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt action-view skin-vector-2022 ns-0 ns-subject mw-editable page-夢溪筆談_卷07 rootpage-夢溪筆談 skin--responsive skin-vector skin-vector-search-vue">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">跳转到内容</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="站点">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="主菜单"  lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="主菜单"   >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">主菜单</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">主菜单</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin" aria-label="将 主菜单 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin" aria-label="隐藏主菜单">隐藏</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		导航
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikisource:%E9%A6%96%E9%A1%B5" title="访问首页​[z]" accesskey="z"><span>首页</span></a></li><li id="n-randomwork" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Main"><span>随机作品</span></a></li><li id="n-randomauthor" class="mw-list-item"><a href="/wiki/Special:Random/Author"><span>随机作者</span></a></li><li id="n-randomindex" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Index"><span>随机原本</span></a></li><li id="n-allpages" class="mw-list-item"><a href="/wiki/Special:AllPages"><span>所有页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-editor" class="vector-menu mw-portlet mw-portlet-editor"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		编者
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-portal" class="mw-list-item"><a href="/wiki/Wikisource:%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5" title="关于本项目，您可以做什么，以及何处能找到相关资料"><span>社群首页</span></a></li><li id="n-scriptorium" class="mw-list-item"><a href="/wiki/Wikisource:%E5%86%99%E5%AD%97%E9%97%B4"><span>写字间</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="本wiki的最近更改列表​[r]" accesskey="r"><span>最近更改</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="所有特殊页面的列表​[q]" accesskey="q"><span>特殊页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-help" class="vector-menu mw-portlet mw-portlet-help"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		帮助
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="查找帮助的地方"><span>帮助</span></a></li><li id="n-about" class="mw-list-item"><a href="/wiki/Wikisource:%E5%85%B3%E4%BA%8E"><span>关于维基文库</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikisource:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC"><span>联络我们</span></a></li><li id="n-policy" class="mw-list-item"><a href="/wiki/Wikisource:%E6%96%B9%E9%92%88%E4%B8%8E%E6%8C%87%E5%BC%95"><span>方针与指引</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-do" class="vector-menu mw-portlet mw-portlet-do emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		显示选项
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikisource:%E9%A6%96%E9%A1%B5" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikisource.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikisource" src="/static/images/mobile/copyright/wikisource-wordmark-zh.svg" style="width: 7.125em; height: 1.5em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="搜索Wikisource内容​[f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="搜索Wikisource内容" aria-label="搜索Wikisource内容" autocapitalize="none" spellcheck="false" title="搜索Wikisource内容​[f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">搜索</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="个人工具">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="外观">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="更改页面字体大小、宽度和颜色的外观"  lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="外观"   >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">外观</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikisource.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span>资助</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707&amp;returntoquery=oldid%3D7902127%26uselang%3Dzh-hans" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span>创建账号</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707&amp;returntoquery=oldid%3D7902127%26uselang%3Dzh-hans" title="我们推荐您登录，但这不是强制性的​[o]" accesskey="o" class=""><span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out vector-user-links-dropdown--collapsible"  title="更多选项"  lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="个人工具"   >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">个人工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal"  title="用户菜单"  lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikisource.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart cdx-button__icon"></span>
+
+<span>资助</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707&amp;returntoquery=oldid%3D7902127%26uselang%3Dzh-hans" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span>创建账号</span></a>
+</li>
+<li id="pt-login" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707&amp;returntoquery=oldid%3D7902127%26uselang%3Dzh-hans" title="我们推荐您登录，但这不是强制性的​[o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn cdx-button__icon"></span>
+
+<span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E[\u003Ca tabindex=\"0\" role=\"button\"\u003E关闭\u003C/a\u003E]\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003C!-- CentralNotice --\u003E\u003Cdiv id=\"localNotice\" data-nosnippet=\"\"\u003E\u003Cdiv class=\"anonnotice\" lang=\"zh\" dir=\"ltr\"\u003E\u003Cp\u003E恭喜！维基文库收录的文章数量达到\u003Ca href=\"/wiki/Special:Statistics\" title=\"Special:Statistics\"\u003E五百万篇\u003C/a\u003E！\n\u003C/p\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="站点">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<h1 id="firstHeading" class="firstHeading mw-first-heading" lang="zh-Hans" dir="ltr"><span lang="zh-Hans" dir="ltr"><span class="mw-page-title-main">梦溪笔谈/卷07</span></span></h1>
+			
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"   lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector"  aria-label="添加语言" aria-description="这篇条目只在此语言可用。请添加该条目的其他语言版本"  >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-0" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">添加语言</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="uls-after-portlet-link"></span><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:NewItem?site=zhwikisource&amp;page=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707" title="添加跨语言链接" class="wbc-editpage">添加链接</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="命名空间">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-nstab-main" class="selected mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707" title="查看内容页面​[c]" accesskey="c" class=""><span>作品</span></a>
+</li>
+<li id="ca-talk" class="new mw-list-item vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=Talk:%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;action=edit&amp;redlink=1" rel="discussion" class="new" title="有关内容页面的讨论（页面不存在）​[t]" accesskey="t"><span>讨论</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown "   lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="更改语言变体"    >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">简体</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-varlang-0" class="ca-variants-zh mw-list-item"><a href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;variant=zh&amp;oldid=7902127&amp;uselang=zh-hans" lang="zh" hreflang="zh"><span>不转换</span></a></li><li id="ca-varlang-1" class="selected ca-variants-zh-Hans mw-list-item"><a href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;variant=zh-hans&amp;oldid=7902127&amp;uselang=zh-hans" lang="zh-Hans" hreflang="zh-Hans"><span>简体</span></a></li><li id="ca-varlang-2" class="ca-variants-zh-Hant mw-list-item"><a href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;variant=zh-hant&amp;oldid=7902127&amp;uselang=zh-hans" lang="zh-Hant" hreflang="zh-Hant"><span>繁體</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="查看">
+			    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view" class="selected mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707" class=""><span>阅读</span></a>
+</li>
+<li id="ca-edit" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;action=edit&amp;uselang=zh-hans" title="编辑该页面​[e]" accesskey="e" class=""><span>编辑</span></a>
+</li>
+<li id="ca-history" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;action=history" title="此页面过去的修订​[h]" accesskey="h" class=""><span>查看历史</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</nav>
+
+							<nav class="vector-page-tools-landmark" aria-label="页面工具">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"   lang="zh-Hans" dir="ltr">
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="工具"   >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-verticalEllipsis mw-ui-icon-wikimedia-verticalEllipsis cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">工具</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin" aria-label="将 工具 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin" aria-label="隐藏工具">隐藏</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		操作
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view-more" class="selected mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707" class=""><span class="vector-icon mw-ui-icon-eye mw-ui-icon-wikimedia-eye cdx-button__icon"></span>
+
+<span>阅读</span></a>
+</li>
+<li id="ca-edit-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;action=edit&amp;uselang=zh-hans" title="编辑该页面​[e]" accesskey="e" class=""><span class="vector-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit cdx-button__icon"></span>
+
+<span>编辑</span></a>
+</li>
+<li id="ca-history-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;action=history" title="此页面过去的修订​[h]" accesskey="h" class=""><span class="vector-icon mw-ui-icon-history mw-ui-icon-wikimedia-history cdx-button__icon"></span>
+
+<span>查看历史</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		常规
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707" title="所有链接至本页面的wiki页面列表​[j]" accesskey="j"><span>链入页面</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707" rel="nofollow" title="链自本页的页面的最近更改​[k]" accesskey="k"><span>相关更改</span></a></li><li id="t-upload" class="mw-list-item"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=zh" title="上传文件​[u]" accesskey="u"><span>上传文件</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;oldid=7902127" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707&amp;id=7902127&amp;wpFormIdentifier=titleform" title="有关如何引用此页面的信息"><span>引用此页</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fzh.wikisource.org%2Fw%2Findex.php%3Ftitle%3D%25E5%25A4%25A2%25E6%25BA%25AA%25E7%25AD%2586%25E8%25AB%2587%2F%25E5%258D%25B707%26oldid%3D7902127%26uselang%3Dzh-hans"><span>获取短链接</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-electronpdfservice-sidebar-portlet-heading" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		打印/导出
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="本页面的可打印版本​[p]" accesskey="p"><span>可打印版</span></a></li><li id="wikisource-download-epub" class="mw-list-item"><a title="下载此作品的EPUB版本" href="https://ws-export.wmcloud.org/?format=epub&amp;lang=zh&amp;page=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707"><span>下载为EPUB</span></a></li><li id="wikisource-download-mobi" class="mw-list-item"><a title="下载此作品的MOBI版本" href="https://ws-export.wmcloud.org/?format=mobi&amp;lang=zh&amp;page=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707"><span>下载为MOBI</span></a></li><li id="wikisource-download-pdf" class="mw-list-item"><a title="下载此作品的PDF版本" href="https://ws-export.wmcloud.org/?format=pdf&amp;lang=zh&amp;page=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707"><span>下载为PDF</span></a></li><li id="wikisource-download-choose" class="mw-list-item"><a title="打开一个表单来选择其他格式和字体等。" href="https://ws-export.wmcloud.org/?lang=zh&amp;title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707"><span>其他格式</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects emptyPortlet"   lang="zh-Hans" dir="ltr">
+	<div class="vector-menu-heading">
+		在其他项目中
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="页面工具">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="外观">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">外观</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin" aria-label="将 外观 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin" aria-label="隐藏外观">隐藏</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-~ext-wikisource-download" class="mw-indicator"><span id='ooui-php-1' class='ext-wikisource-download-button oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-buttonElement-size-medium oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonWidget' data-ooui='{"_":"OO.ui.ButtonWidget","href":"https:\/\/ws-export.wmcloud.org\/?format=epub&amp;lang=zh&amp;page=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707","rel":["nofollow"],"label":"\u4e0b\u8f7d","title":"\u4e0b\u8f7d\u6b64\u4f5c\u54c1\u7684EPUB\u7248\u672c","flags":["primary","progressive"],"data":{"wsExportUrl":"https:\/\/ws-export.wmcloud.org"},"classes":["ext-wikisource-download-button"]}'><a role='button' title='下载此作品的EPUB版本' tabindex='0' href='https://ws-export.wmcloud.org/?format=epub&amp;lang=zh&amp;page=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87%2F%E5%8D%B707' rel='nofollow' class='oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>下载</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></a></span></div>
+		</div>
+
+						<div id="siteSub" class="noprint">维基文库，自由的图书馆</div>
+						<div id="contentSub" lang="zh-Hans" dir="ltr"><div id="mw-content-subtitle" lang="zh-Hans" dir="ltr"><div class="subpages">&lt; <bdi dir="ltr"><a href="/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87" title="夢溪筆談">夢溪筆談</a></bdi></div><div class="cdx-message--warning mw-revision cdx-message cdx-message--block" aria-live="polite"><span class="cdx-message__icon"></span><div class="cdx-message__content"><div id="mw-revision-info"><a href="/wiki/User:Liouxiao" class="mw-userlink" title="User:Liouxiao" data-mw-revid="7902127"><bdi>Liouxiao</bdi></a>​<span class="mw-usertoollinks">（<a href="/wiki/User_talk:Liouxiao" class="mw-usertoollinks-talk" title="User talk:Liouxiao">留言</a> | <a href="/wiki/Special:Contributions/Liouxiao" class="mw-usertoollinks-contribs" title="Special:Contributions/Liouxiao">贡献</a>）</span>2026年6月16日 (二) 13:34的版本</div><div id="mw-revision-nav">(<a href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;diff=prev&amp;oldid=7902127" title="夢溪筆談/卷07">差异</a>) <a href="/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;direction=prev&amp;oldid=7902127" title="夢溪筆談/卷07">←上一版本</a> | 最后版本 (差异) | 下一版本→ (差异)</div></div></div></div></div>
+						
+					</div>
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="zh-Hans" dir="ltr"><style data-mw-deduplicate="TemplateStyles:r2372785">@media all and (max-width:720px){body.skin-minerva .mw-parser-output table.header{display:table!important}}</style>
+<table class="ws-header" cellpadding="0" cellspacing="0" style="width:100%; margin-bottom:0px; border:1px solid var(--border-color-content-added,#93A6C0); background-color: var(--background-color-neutral-subtle,#F9F9F9); color: inherit;text-align:center;">
+<tbody><tr>
+<td width="25%" align="left"><span style="display:inline-block; inline-size:1em;"></span><a href="/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B706" title="梦溪笔谈/卷06">卷六</a> <span style="color:#999"> ◄ </span>
+</td>
+<td width="50%" align="center"><b><a href="/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87" title="梦溪笔谈">梦溪笔谈</a></b><br />卷七 象数一
+</td>
+<td width="25%" align="right"><span style="color:#999"> ► </span> <a href="/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B708" title="梦溪笔谈/卷08">卷八</a><span style="display:inline-block; inline-size:1em;"></span>
+</td></tr></tbody></table>
+<table style="width:100%; background:var(--background-color-progressive-subtle,#F8FCFF); color: inherit;font-size:small; border-bottom:1px solid var(--border-color-content-added,#93A6C0)" class="ws-header">
+
+<tbody><tr>
+<td><span style="color: #464646;"></span>
+<table style="font-size:0.9em; text-align:left; background:var(--background-color-neutral-subtle,#F9F9F9); float:right;color: inherit;">
+<tbody><tr>
+<td style="color: #999999;">
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+<p>开元《<a href="/w/index.php?title=%E5%A4%A7%E8%A1%8D%E6%9B%86&amp;action=edit&amp;redlink=1" class="new" title="大衍历（页面不存在）">大衍历</a>法》最为精密，历代用其朔法。至熙宁中考之，历已后天五十馀刻，而前世历官皆不能知。《<a href="/w/index.php?title=%E5%A5%89%E5%85%83%E6%9B%86&amp;action=edit&amp;redlink=1" class="new" title="奉元历（页面不存在）">奉元历</a>》乃移其闰朔。<style data-mw-deduplicate="TemplateStyles:r9259658">.mw-parser-output .nianhao-link a,.mw-parser-output .nianhao-link a:visited,.mw-parser-output .nianhao-link a:hover,.mw-parser-output .nianhao-link a:focus,.mw-parser-output .nianhao-link a.new{color:inherit;text-decoration:none}.mw-parser-output .nianhao-link a:hover .nianhao,.mw-parser-output .nianhao-link a:focus .nianhao{border-block-end-style:solid}</style><span class="nianhao-link"><a href="/wiki/Category:1077%E5%B9%B4_(%E6%8F%90%E5%8F%8A)" title="Category:1077年 (提及)"><span class="nianhao" style="border-block-end:1px dotted;" title="1077年">熙宁十年</span></a></span>，天正元用午时。新历改用子时；闰十二月改为闰正月。四夷朝贡者用旧历，比来款塞，众论谓气至无显验可据。因此以摇新历。事下有司考定。凡立冬晷景，与立春之景相若者也。今二景短长不同，则知天正之气偏也。移五十馀刻，立冬、立春之景方停。以此为验，论者乃屈。元会使人亦至，历法遂定。
+</p><p>六壬天十二辰：亥日<style data-mw-deduplicate="TemplateStyles:r5438529">.mw-parser-output .variant-text{color:light-dark(black,white);border-bottom:1px dotted red;background:light-dark(linen,#311);cursor:pointer;position:relative}.mw-parser-output .variant-tooltip{display:none;position:absolute;bottom:100%;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:3px 8px;border-radius:4px;white-space:nowrap;font-size:0.9em;z-index:100}.mw-parser-output .variant-text:hover .variant-tooltip,.mw-parser-output .variant-text:focus .variant-tooltip,.mw-parser-output .variant-text:active .variant-tooltip{display:block}</style><span class="variant-text" tabindex="0">征<span class="variant-tooltip">一作“澄”</span></span>明。为正月将；戌日天魁，为二月将。古人谓之合神，又谓之太阳过宫。合神者，正月建寅合在亥，二月建卯合在戌之类。太阳过宫者，正月日躔娵訾，二月日躔降娄之类。二说一也，此以《颛帝历》言之也。今则分为二说者，盖日度随黄道岁差。今太阳至雨水后方躔诹訾，春分后方躔降娄。若用合神，则须自立春日便用亥将，惊蛰便用戌将。今若用太阳，则不应合神；用合神，则不应太阳，以理推之，发课皆用月将加正时如此则须当从太阳过宫。若不有太阳躔次，则当日当时日月、五星、支、二十八宿，皆不应天行。以此决知须用太阳也。然尚未是尽理，若尽理言之，并月建亦须移易。缘目今斗杓昏刻已不当月建，须当随黄道岁差。今则雨水后一日方合建寅。春分后四日方合建卯，谷雨后五日合建辰，如此始与太阳相符，复会为一说，然须大改历法，事事厘正。如东方苍龙七宿，当起于亢，终于斗；南方朱鸟七宿，起于牛，终于奎；西方白虎七宿，起于娄，终于舆鬼；北方玄武七宿，起于东井，终于角。如此历法始正，不止六壬而已。
+</p><p>六壬天十二辰之名，古人释其义曰：“正月阳气始建，呼召万物，故曰<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r5438529" /><span class="variant-text" tabindex="0">征<span class="variant-tooltip">一作“澄”</span></span>明。二月物生根魁，故曰天魁。三月公叶从根而生。故曰从魁。四月阳极无所传，故曰传送。五月草木茂盛，逾于初生，故曰胜先。六月万物小盛，故曰小吉。七月百谷成实，自能任持，故曰太一。八月枝条坚刚，故曰天罡。九月木可为枝干，故曰太冲。十月万物登成，可以会计，故曰功曹。十一月月建在子，君复其位，故曰大吉。十二月为酒醴，以报百神，故曰神后。”此说极无稽。据义理，余按：<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r5438529" /><span class="variant-text" tabindex="0">征<span class="variant-tooltip">一作“澄”</span></span>明者，正月三阳始兆于地上，见龙在田，天下文明，故日<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r5438529" /><span class="variant-text" tabindex="0">征<span class="variant-tooltip">一作“澄”</span></span>明。天魁者，斗魁第一星也，斗魁第一星抵于戌，故曰天魁。从魁者，斗魁第二星也，斗魁第二星抵于酉，故曰从魁。斗杓一星建方，斗魁二星建方，一星抵戌，一星抵酉。传送者，四月阳极将退，一阴欲生，故传阴而送阳也。小吉，夏至之气，大往小来，小人道长，小人之吉也，故为婚姻酒食之事。胜先者，王者向明而治，万物相见乎此，莫胜莫先焉。太一者，太微垣所在，太一所居也。天罡者，斗刚之所建也。斗杓谓之刚，苍龙第一星亦谓之刚，与斗刚相直。太冲者，日月五星所出之门户，天之冲也。功曹者，十月岁功成而会计也。大吉者，冬至之气，小往大来，君子道长，大人之吉也，故主文武大臣之事。十二月子位，并方之中，上帝所居也。神后，帝君之称也。天十二辰也，故皆以天事名之。
+</p><p>六壬有十二神将，以义求之，止合有十一神将。贵人为之主；其前有五将，谓螣蛇、朱雀、六合、勾陈、青龙也，此木火之神在方左者；方左谓寅、卯、辰、巳、午。其后有五将，谓天后、太阴、玄武、太常、白虎也，此金水之神在方右者，方右谓未、申酉亥、子。唯贵人对相无物，如日之在天，月对则亏，五星对则逆行避之，莫敢当其对。贵人亦然，莫有对者，故谓之天空。空者，无所有也，非神将也，犹月杀之有月空也。以之占事，吉凶皆空。唯求对见及有所伸理于君者，遇之乃吉。十一将，前二火、二木、一土间之，后当二金、二水、一土间之，玄武合在后二，太阴合在后三，神二合差互，理似可疑也。
+</p><p>天事以辰名者为多，皆本于辰巳之辰，今略举数事：十二支谓之十二辰，一时谓之一辰，一日谓之一辰，日、月、星谓之三辰，北极谓之北辰，大火谓之大辰，五星中有辰星，五行之时，谓之五辰，《书》曰“抚于五辰”是也，已上皆谓之辰。今考子丑至于戌亥谓之十二辰者，《左传》云：“日月之会是谓辰。”一岁日月十二会，则十二辰也。日月之所舍，始于东方，苍龙角亢之星起于辰，故以所首者名之。子丑戌亥之月既谓之辰，则十二支、十二时皆子丑戌亥，则谓之辰无疑也。一日谓之一辰者，以十二支言也。以十干言之，谓之今日；以十二支言之。谓之今辰。故支干谓之日辰，日、月、星谓之三辰者，日、月星至于辰而毕见，以其所首者名之，故皆谓之辰。四时所见有早晚，至辰则四时毕见，故日加辰为“晨”，谓日始出之时也。星有三类：一经星，北极为之长；二舍量，大火为之长；三行星，辰星为之长。故皆谓之辰。北辰居其所而众星拱之，故为经星之长。大火，天王之座，故为舍星之长。辰星，日之近辅，远乎日不过一辰，故为行星之长。
+</p><p>《洪范》“五行”数，自一至五。先儒谓之此“五行生数”，各益以土数，以为“成数”。以谓五行非土不成，故水生一而成六，火生二而成七，木生三而成八，金生四而成九，土生五而成十，合之为五十有五，唯《黄帝素问》：“土生数五，成数亦五。”盖水、火、木、金皆待土而成，土更无所待，故止一五而已。画而为图，其理可见。为之图者，设木于东，设金于西，火居南，水居北，土居中央。四方自为生数，各并中央之土，以为成数。土自居其位，更无所并，自然止有五数，盖土不须更待土而成也。合五行之数为五十，则大衍之数也。此亦有理。
+</p><p>揲蓍之法：四十九蓍，聚之则一。而四十九隐于一中；散之则四十九，而一隐于四十九中。一者，道也。谓之无，则一在；谓之有，则不可取。四十九者，用也。静则归于一，动则惟睹其用，一在其间而不可取。此所谓“大衍之数五十，其用四十有九。”
+</p><p>世之谈数者，盖得其粗迹。然数有甚微者，非恃历所能知，况此但迹而已。至于感而遂通天下之故者，迹不预焉。此所以前知之神，未易可以迹求，况得其粗也。余之所谓甚微之迹者，世之言星者，恃历以知之，历亦出乎亿而已。余于《奉元历序》论之甚详。治平中，金、火合于轸，以《景福崇玄》、《宣明》、《明》、《崇》、《钦天》凡十一家大历步之，悉不合，有差三十日以上者，历岂足恃哉。纵使在其度，然又有行黄道之里者，行黄道之外者，行黄道之上者，行黄道之下者，有循度者，有失度者，有失度者，有犯经星者，有犯客星者，所占各不同，此又非历之能知也。又一时之间，天行三十馀度，总谓之一宫。然时有始末，岂可三十度间阳阳皆同，至交他宫则顿然差别？世言星历难知，唯五行时日为可据，是亦不然。世之言五行消长者，止是知一岁之间，如冬至后日行盈度为阳，夏至后日行缩度为阴，二分行平度。殊不知一月之中，自有消长，望前月行盈度为阳，望后月行缩度为阴，两弦行平度。至如春木、夏火、秋金、冬水，一月之中亦然。不止月中，一日之中亦然。《素问》云：“疾在肝，寅卯患，申酉剧。病在心，已午患，子亥剧。”此一日之中，自有四时也。安知一时之间无四时？安知一刻、一分、一刹那之中无四时邪？又安知十年、百年、一纪、一会、一元之间，又岂无大四时邪？又如春为木，九十日间，当亹亹消长，不可三月三十日亥时属木。明日子时顿属火也。似此之类，亦非世法可尽者。
+</p><p>历法步岁之法，以冬至斗建所抵，至明年冬至所得辰、刻、衰、秒，谓之斗分。故“歲”文从“步”、从戌。戌者，斗魁所抵也。
+</p><p>正月寅，二月卯，谓之建，其说谓斗杓所建，不必用此说。但春为寅、卯、辰，夏为巳、午、未，理自当然，不须因斗建也。缘斗建有岁差，盖古人未有岁差之法。《<a href="/w/index.php?title=%E9%A1%93%E5%B8%9D%E6%9B%86&amp;action=edit&amp;redlink=1" class="new" title="颛帝历（页面不存在）">颛帝历</a>》：“冬至日宿斗初”今宿斗六度。古者正月斗杓建寅，今则正月建丑矣。又岁与岁合，今亦差一辰。《尧曲》曰；“日短星昴。”今乃日短星东壁。此皆随岁差移也。
+</p><p>《<a href="/wiki/%E5%94%90%E6%9B%B8" class="mw-disambig" title="唐书">唐书</a>》云：“落下闳造历，自言后八百年当差一算。至唐，一行僧出而正之。”此妄说也。落下闳历法极疏，盖当时以为密耳。其间阙略甚多，且举二事言之：汉世尚未知黄道岁差，至北齐张子信方侯知岁差。今以今古历校之，凡八十馀年差一度。则闳之历八十年自己差一度，兼馀分疏阔，据其法推气朔五星，当时便不可用，不待八十年，乃曰“八百年差一算，”太欺诞也。天文家有浑仪，测天之器，设于崇台，以候垂象者，则古机衡是也。浑象，象天之器，以水激之，或以水银转之，置于密室，与天行相符，张衡、陆绩所为，及开元中置于武成殿者，皆此器也。皇祐中，礼部试《机衡正天文之器赋》，举人皆杂用浑象事，试官亦自不晓，第为高等。汉以前皆以北辰居天中，故谓之极星，自祖亘以机衡考验天极不动外，乃在极星之末犹一度有馀。熙宁中，余受诏典领历官，杂考星历，以机衡求极星。初夜在窥管中，少时复出，以此知窥管小，不能容极星游转，乃稍稍展窥管候之。凡历三月，极星方游于窥管之内，常见不隐，然后知天极不动处，远极星犹三度有馀。每极星入窥管，别画为一图。图为一圆规，乃画极星于规中。具初夜、中夜、后夜所见各图之，凡为二百馀图，极星方常循圆规之内，夜夜不差。余于《熙宁历奏议》中叙之甚详。
+</p><p>古今言刻漏者数十家，悉皆疏谬。历家言晷漏者，自《<a href="/w/index.php?title=%E9%A1%93%E5%B8%9D%E6%9B%86&amp;action=edit&amp;redlink=1" class="new" title="颛帝历（页面不存在）">颛帝历</a>》至今，见于世谓之大历者，凡二十五家。其步漏之术，皆未合天度。余占天侯景，以至验于仪象，考数下漏，凡十馀年，方粗见真数，成书四卷，谓之《<a href="/w/index.php?title=%E7%86%99%E5%AF%A7%E6%99%B7%E6%BC%8F&amp;action=edit&amp;redlink=1" class="new" title="熙宁晷漏（页面不存在）">熙宁晷漏</a>》，皆非袭蹈前人之迹。其间二事尤微：一者，下漏家常患冬月水涩，夏月水利，以为水性如此；又疑冰澌所壅，万方理之。终不应法。余以理求之，冬至日行速，天运已期，而日已过表，故百刻而有馀；夏至日行迟，天运未期，而日已至表，故不及百刻。既得此数，然后覆求晷景漏刻，莫不吻合。此古人之所未知也。二者，日之盈缩，其消长以渐，无一日顿殊之理。历法皆以一日气短长之中者，播为刻分，累损益，气初日衰，每日消长常同；至交一气，则顿易刻衰。故黄道有觚而不圆，纵有强为数以步之者，亦非乘理用算，而多形数相诡。大凡物有定形，形有真数。方圆端斜，定形也；乘除相荡，无所附益，泯然冥会者，真数也。其术可以心得，不可以言喻。黄道环天正圆，圆之为体，循之则其妥至均，不均不能中规衡；绝之则有舒有数，无舒数则不能成妥。以圆法相荡而得衰，则衰无不均；以妥法相荡而得差，则差有疏数。相因以求从，相消以求负；从、负相入，会一术以御日行。以言其变，则秒刻之间，消长未尝同；以言其齐，则止用一衰，循环无端，终始如贯，不能议其隙。此圆法之微，古之言算者，有所未知也。以日衰生日积，及生日衰，终始相求，叠为宾主。顺循之以索日变，衡别之求去极之度，合散无迹，泯如运规。非深知造算之理者，不能与其微也。其详具余《奏议》，藏在史官，及余所著《熙宁晷漏》四卷之中。
+</p><p>予编校昭文书时，预详定浑天仪。官长问余：“二十八宿，多者三十三度，少者止一度，如此不均，何也？”予对曰：“天事本无度，推历者无以寓其数，乃以日所分天为三百六十五度有奇。日平行三百六十五日有馀而一期天，故以一日为一度。既分之，必有物记之，然后可窥而数，于是以当度之星记之。循黄道，日之所行一期，当者止二十八宿星而已。度如伞虡，当度谓正当伞虡上者。故车盖二十八弓，以象二十八宿。则余《浑仪奏议》所谓‘度不可见，可见者星也。日月五星之所由，有星焉。当度之画者凡二十有八，谓之舍。舍所以挈度，度所以生数也。’今所谓‘距度星’者是也。非不欲均也。黄道所由当度之星，止有此而已。”
+</p><p>又问予以“日月之形，如丸邪？如扇也？若如丸，则其相遇岂不相碍？”余对曰：“日月之形如丸。何以知之？以月盈亏可验也。月本无光，犹银丸，日耀之乃光耳。光之初生，日在其傍，故光侧而所见才如钩；日渐远，则斜照，而光稍满。如一弹丸，以粉涂其半，侧视之，则粉处如钩；对视之，则正圆，此有以知其如丸也。日、月，气也，有形而无质，故相直而无碍。”
+</p><p>又问：“日月之行，日一合一对，而有蚀不蚀，何也？”余对曰：“黄道与月道，如二环相叠而小差。凡日月同在一度相遇，则日为之蚀；正一度相对，则月为小亏。虽同一度，而月道与黄道不相近，自不相侵；同度而又近黄道、月道之交。日月相值，乃相凌掩。正当其交处则蚀而既；不全当交道，则随其相犯浅深而蚀，凡日蚀，当月道自外而交入于内，则蚀起于西南，复于东北；自内而交出于外，则蚀起于西北，而复于东南。日在交东，则蚀其内；日在交西，则蚀其外。蚀既，则起于正西，复于正东。凡月蚀，月道自外入内，则蚀起于东南，复于西北；自内出外，则蚀起于东北，而复于西南。月在交东，则蚀其外；月在交西，则蚀其内，蚀既，则起于正东，复于西。交道每月退一度馀，凡二百四十九交而一期。故西天法罗睺、计都，皆逆步之，乃今之交道也。交初谓之‘罗睺’，交中谓之‘计都’。”
+</p><p>古之卜者，皆有繇辞。《周礼》：“三兆，其颂皆千有二百。”如“凤凰于飞，和鸣锵锵”；“间于两社，为公室辅”；“专之渝，攘公之羭，一薰一莸，十年尚犹有臭”；“如鱼竀尾，衡流而方羊，裔焉，大国灭之，将亡，阖门塞窦，乃自后逾”：“大横庚庚，予为天王，夏启以光”之类是也。今此书亡矣。汉人尚视其体，今人虽视其体，而专以五行为主，三代旧术，莫有传者。
+</p><p>北齐张子信候天文，凡月前有星，则行速；星多则尤速。月行自有迟速定数，然遇行疾。历其前必有星，如子信说。亦阴阳相感自相契耳。
+</p><p>医家有五运六气之术，大则候天地之变，寒暑风雨，水旱暝蝗，率皆有法；小则人之众疾，亦随气运盛衰。今人不知所用，而胶于定法，故其术皆不验。假令厥阴用事，其气多风，民病湿泄。岂溥天之下皆多风，溥天之民皆病湿泄邪？至于一邑之间，而旸雨有不同者，此气运安在？欲无不谬，不可得也。大凡物理有常、有变：运气所主者，常也；异夫所主者，皆变也。常则如本气，变则无所不至，而各有所占。故其候有从、逆、淫、郁、胜、复、太过、不足之变，其法皆不同。若厥阴用事，多风，而草木荣茂，是之谓从；天气明絜，燥而无风，此之谓逆；太虚埃昏，流水不冰，此谓之淫；大风折木，云物浊扰，此之谓郁；山泽焦枯，草木雕落，此之谓胜；大暑燔燎，螟蝗为灾，此之谓复；山崩地震，埃昏时作，此谓之太过；阴森无时，重云昼昏，此之谓不足。随其所变，疾疠应之。皆视当时当处之候。虽数里之间，但气候不同，而所应全异，岂可胶于一证。熙宁中，京师久旱，祈祷备至，连日重阴，人谓必雨。一日骤晴。炎日赫然。余时因事入对，上问雨期，余对曰：“雨候已见，期在明日。”众以谓频日晦溽，尚且不雨，如此旸燥，岂复有望？次日，果大雨。是时湿土用事，连日阴者，从气已效，但为厥阴所胜，未能成雨。后日骤晴者，燥金入候，厥有当折，则太阴得伸，明日运气皆顺，以是知其必雨。此亦当处所占也。若他处候别，所占迹异。其造微之妙，间不容发。推此而求，自臻至理。
+</p><p>岁运有主气，有客气。常者为主，外至者为客。初之气厥阴，以至终之气太阳者。四时之常叙也，故谓之主气。唯客气本书不载其目，故说者多端，或以甲子之岁天数始于水十一刻，乙丑之岁始于二十六刻，丙寅岁始于五十一刻，丁卯岁始于七十六刻者，谓之客气。此乃四分历法求大寒之气，何预岁运！又有相火之下，水气承之，土位之下，风气承之，谓之客气。此亦主气也，与六节相须，不得为客。大率臆计，率皆此类。凡所谓客者，岁半以前，天政主之；岁半以后，地政主之。四时常气为之主，天地之政为之客。逆主之气为害暴，逆客之乞为害徐。调其主客，无使伤沴，此治气之法也。
+</p><p>六气，方家以配六神。所谓青龙者，东方厥阴之气。其性仁，其神化，其色青，其形长，其虫鳞。兼是数者。唯龙而青者，可以体之，然未必有是物也。其他取象皆如是。唯北方有二，曰玄武，太阳水之气也；曰螣蛇，少阳相火之气也。其在于人为肾，肾亦二，左为太阳水，右为少阳相火。火降而息水，火腾而为雨露，以滋五脏，上下相交，此坎离之交，以为否泰者也，故肾为寿命之藏。左阳、右阴、左右相交，此乾坤之交，以生六子者也，故肾为胎育之脏。中央太阴土曰勾陈，中央之取象，唯人为宜。勾陈者，天子之环卫也。居人之中，莫如君。何以不取象于君？君之道无所不在，不可以方言也。环卫居人之中央，而中虚者也。虚者，妙万物之地也。在天文，星辰皆居四傍而中虚，八卦分布八方而中虚，不虚不足以妙万物。其在于人，勾陈之配，则脾也。勾陈如环。环之中则所谓黄庭也。黄者，中之色；庭者，宫之虚地也。古人以黄庭为脾，不然也。黄庭有名而无所，冲气之所在也。脾不能与也，脾主思虑，非思之所能到也。故养生家曰：“能守黄庭，则能长生。”黄庭者，以无所守为守。唯无所守，乃可以长生。或者又谓：“黄庭在二肾之间。”又曰：“在心之下。”又曰：“黄庭有神人守之。”皆不然。黄庭者，虚而妙者也。强为之名。意可到则不得谓之虚，岂可求而得之也哉。
+</p><p>《易》象九为老阳，七为少；八为少阴，六为老，旧说阳以进为老，阴以退为老。九六者，乾坤之画，阳得兼阴，阴不得兼阳。此皆以意配之，不然也。九七、八六之数，阳顺、阴逆之理，皆有所从来，得之自然，非意之所配也。凡归馀之数，有多有少。多为阴，如爻之偶；少为阳，如爻之奇。三少，干也，故曰老阳九揲而得之，故其数九，其策三十有六。两多一少，则一少为之主，震、坎、艮也，故皆谓之少阳。少在初为震，中为坎，末为艮。皆七揲而得之，故其数六，其策二十有八。三多，坤也，故曰老阳六揲而得之，故其数六，其策二十有四。两少一多，则多为之主，巽、离、竞也，故皆谓之少阴。多在初为巽，中为离，末为竞。皆八揲而得之，故其数八其策二十有二。物盈则变，纯少阳盈，纯多阴盈。盈为老，故老动而少静。吉凶悔吝，生乎动者也。卦爻之辞，皆九六者，惟动则有占，不动则无朕，虽《易》亦不能言之。《国语》谓“贞屯悔豫皆八”；“遇泰之八”是也。今人以《易》筮者，虽不动，亦引爻辞断之。《易》中但有九六，既不动，则是七八安得用九六爻辞？此流俗之过也。
+</p><p>江南人郑夬曾为一书谈《易》，其间一说曰：“乾坤，大父母也；复姤，小父母也。干一变生复，得一阳；坤一变生姤，得一阴。干再变生临，得二阳；坤再变生遁，得二阴。干三变生泰，得四阳；坤三变生否，是四阴。干四变生大壮，得八阳；坤四变生观，得八阴。干五变生夬，得十六阳；坤五变生剥，得十六阴。干六变生归妹，本得三十二阳；坤六变生渐，本得三十二阴。乾坤错综，阴阳各三十二，生六十四卦。”夬之为书，皆荒唐之论，独有此变卦之说，未知其是非。余后因见兵部侍郎帮秦君玠，论夬所谈，骇然叹曰：“夬何处得此法？玠曾遇一异人，授此数历，推往古兴衰运历，无不皆验，常恨不能尽得其术。西都邵雍亦知大略，已能洞吉凶之变。此人乃形之于书，必有天谴，此非世人得闻也。”余闻其言怪，兼复甚秘，不欲深诘之。今夬与雍、玠皆已死，终不知其何术也。
+</p><p>庆历中，有一术士姓李，多巧思。尝木刻一“舞锺馗”，高二三尺，右手持铁简，以香饵置锺馗左手中。鼠缘手取食，则左手扼鼠，右手运简毙之。以献荆王，王馆于门下。会太史言月当蚀于昏时，李自云：“有术可禳。”荆王试使为之，是夜月果不蚀。王大神之，即日表闻，诏付内侍省问状。李云：“本善历术，知《<a href="/w/index.php?title=%E5%B4%87%E5%A4%A9%E6%9B%86&amp;action=edit&amp;redlink=1" class="new" title="崇天历（页面不存在）">崇天历</a>》蚀限太弱，此月所蚀，当有浊中。以微贱不能自通，始以机巧干荆邸，今又假禳以动朝廷耳。”诏送司天监考验。李与判监楚衍推步日月蚀，遂加蚀限二刻；李补司天学生。至<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r9259658" /><span class="nianhao-link"><a href="/wiki/Category:1068%E5%B9%B4_(%E6%8F%90%E5%8F%8A)" title="Category:1068年 (提及)"><span class="nianhao" style="border-block-end:1px dotted;" title="1068年">熙宁元年</span></a></span>七月，日辰蚀东方，不效。却是蚀限太强，历官皆坐谪。令监官周琮重修，复减去庆历所加二刻。茍欲求熙宁日蚀，而庆历之蚀复失之，议久纷纷，卒无巧算，遂废《明天》，复行《崇天》。至<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r9259658" /><span class="nianhao-link"><a href="/wiki/Category:1072%E5%B9%B4_(%E6%8F%90%E5%8F%8A)" title="Category:1072年 (提及)"><span class="nianhao" style="border-block-end:1px dotted;" title="1072年">熙宁五年</span></a></span>，卫朴造《<a href="/w/index.php?title=%E5%A5%89%E5%85%83%E6%9B%86&amp;action=edit&amp;redlink=1" class="new" title="奉元历（页面不存在）">奉元历</a>》，始知旧蚀法止用日平度，故在疾者过之，在迟者不及。《崇》、《明》二历加减，皆不曾求其所因，至是方究其失。
+</p><p>四方取象：苍龙、白虎、朱雀、龟蛇。唯朱雀莫知何物，但谓鸟而朱者，羽族赤而翔上，集必附木，此火之象也。或谓之“长离”，盖云离方之长耳。或云，鸟即凤也，故谓之凤鸟。少昊以凤鸟至，乃以鸟纪官。则所谓丹鸟氏。即凤也。双旗旐之饰皆二物，南鹑火、方曰“鸟隼”，则鸟、隼盖两物也。然古人取象，不必大物也。天文家朱鸟，乃取象于鹑，故南方朱鸟七宿，日鹑首、鹑尾是也。鹑有两各，有丹鹑，有白鹑。此丹鹑也。色赤黄而文，锐上秃下，夏元秋藏，飞必附草，皆火类也。或有鱼所化者。鱼，鳞虫龙类，火之所自生也。天文东方苍龙七宿，有角、亢、有尾。南方朱鸟七宿，有喙、有嗉、有翼而无尾，此其取于鹑欤。
+</p><p>司马彪《<a href="/wiki/%E7%BA%8C%E6%BC%A2%E6%9B%B8" title="续汉书">续汉书</a>》候气之法：“于密室中以木为案，置十二律琯，各如其方。实以葭灰，覆以缇縠，气至则一律飞灰。”世皆疑其所置诸律，方不逾数尺，气至独本律应，何也？或谓：“古人自有术。”或谓：“短长至数，冥符造化。”或谓：“支干方位，自相感召。”皆非也。盖彪说得其略耳，唯《隋书志》论之甚详。其法：先治一室，令地极平，乃埋律琯，皆使上齐，入地则有浅深。冬至阳气距地面九寸而止。唯黄钟一琯达之，故黄钟为之应。正月阳气距地面八寸而止，自太蔟以上皆达，黄锺大吕先已虚，故唯太蔟一律飞灰。如人用针彻其经渠，则气随针而出矣。地有疏密，则不能无差忒，故先以木案隔之，然后实土案上，令坚密均一。其上以水平其槩，然后埋律。其下虽有疏密，为木案所节，其气自平，但在调其案上之土耳。
+</p><p>《易》有纳甲之法，未知起于何时。予尝考之，可以推见天地胎育之理。干纳甲壬，坤纳乙癸者，上下包之也。震、巽、坎、离、艮、兑纳庚、辛、戊已、丙、丁者，六子生于乾坤之包中，如物之处胎甲者。左三刚爻，干之气也；右三柔爻，坤之气也。干之初爻交于坤，生震，故震之初爻纳子午；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>干之初爻子午故也。<span style="color:transparent;font-size:0px">〉</span></small>中爻交于坤，生坎，初爻纳寅申，<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>震纳子午，顺传寅申，阳道顺。<span style="color:transparent;font-size:0px">〉</span></small>上爻交于坤，生艮，初爻纳辰戌。亦顺传也。坤之初爻交于干。生巽，故巽之初爻纳丑未；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>坤之初爻丑未故也。<span style="color:transparent;font-size:0px">〉</span></small>中爻交于干，生离，初爻纳卯酉；<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>巽纳丑未，逆传卯酉，阴道逆。<span style="color:transparent;font-size:0px">〉</span></small>上爻交于干，生兑，初爻纳巳亥。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>亦逆传也。<span style="color:transparent;font-size:0px">〉</span></small>乾坤始于甲乙，则长男、长女乃其次，宜纳丙丁；少男少女居其末，宜纳庚辛，今乃反此者，卦必自下生，先初爻，次中及，末乃至上爻，此《易》之叙，然亦胎育之理也。物之处胎甲，莫不倒生。自下而生者，卦之叙，而冥合造化胎育之理。此至理合自然者也。<small style="color:var(--color-destructive--visited,#996666)"><span style="color:transparent;font-size:0px">〈</span>凡草木百谷之实，皆倒生，首系于干，其上抵于隶处，反是根。人与鸟兽生胎，亦首皆在下。<span style="color:transparent;font-size:0px">〉</span></small>
+</p>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.codfw.main‐9868c8fc9‐sn2bj
+Cached time: 20261006185635
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.089 seconds
+Real time usage: 0.108 seconds
+Preprocessor visited node count: 163/1000000
+Revision size: 26750/2097152 bytes
+Post‐expand include size: 4571/2097152 bytes
+Template argument size: 479/2097152 bytes
+Highest expansion depth: 5/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4239/5000000 bytes
+Lua time usage: 0.038/10.000 seconds
+Lua memory usage: 5959041/52428800 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   77.658      1 -total
+ 51.03%   39.628      3 Template:YL
+ 37.87%   29.410      1 Template:Header2
+  7.33%    5.694      4 Template:另
+  3.78%    2.934      1 Template:Main_subject
+  1.15%    0.890      6 Template:*
+  1.09%    0.846      2 Template:Gap
+-->
+
+<!-- Render ID a6fd7bd4-c1b7-11f1-bb4b-5d211a7cea55 -->
+
+<!-- Saved in parser cache with key zhwikisource:pcache:41:|#|:idhash:canonical!zh-hans and timestamp 20261006185635 and revision id 7902127. Rendering was triggered because: page_view
+ -->
+</div><noscript><img src="https://zh.wikisource.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="" lang="zh-Hans" dir="ltr">取自“<a dir="ltr" href="https://zh.wikisource.org/w/index.php?title=夢溪筆談/卷07&amp;oldid=7902127">https://zh.wikisource.org/w/index.php?title=夢溪筆談/卷07&amp;oldid=7902127</a>”</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">分类</a>：<ul><li><a href="/wiki/Category:1077%E5%B9%B4_(%E6%8F%90%E5%8F%8A)" title="Category:1077年 (提及)">1077年 (提及)</a></li><li><a href="/wiki/Category:1068%E5%B9%B4_(%E6%8F%90%E5%8F%8A)" title="Category:1068年 (提及)">1068年 (提及)</a></li><li><a href="/wiki/Category:1072%E5%B9%B4_(%E6%8F%90%E5%8F%8A)" title="Category:1072年 (提及)">1072年 (提及)</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			<footer id="footer" class="mw-footer"  lang="zh-Hans" dir="ltr">
+				<ul id="footer-info" class="mw-portlet mw-portlet-footer-info">
+	<li id="footer-info-lastmod"> 此页面最后编辑于2026年6月16日 (星期二) 13:34。</li>
+	<li id="footer-info-copyright">本站的全部文字在<a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_4.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" class="extiw" title="w:Wikipedia:CC BY-SA 4.0协议文本">知识共享 署名-相同方式共享 4.0协议</a>之条款下提供，附加条款亦可能应用。（请参阅<a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">使用条款</a>）<br />在部份国家和地区，包括中国大陆、澳门和台湾，作者精神权（含署名权）永久有效（<b><a href="/wiki/Wikisource:%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF" title="Wikisource:版权信息">详情</a></b>）。<br />
+Wikisource&#174;和维基文库标志是<a rel="nofollow" class="external text" data-mw-original-href="//wikimediafoundation.org/zh" href="https://wikimediafoundation.org/zh">维基媒体基金会</a>的注册商标；维基&#8482;是维基媒体基金会的商标。<br />维基媒体基金会是在美国佛罗里达州登记的501(c)(3)<a class="external text" data-mw-original-href="//donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility" href="https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility">免税</a>、非营利、慈善机构。<br /></li>
+</ul>
+
+				<ul id="footer-places" class="mw-portlet mw-portlet-footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">隐私政策</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikisource:%E5%85%B3%E4%BA%8E">关于维基文库</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikisource:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">法律与安全事项联系方式</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">行为准则</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikisource.org">统计</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie声明</a></li>
+	<li id="footer-places-mobileview"><a href="//zh.wikisource.org/w/index.php?title=%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87/%E5%8D%B707&amp;oldid=7902127&amp;uselang=zh-hans&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">移动版视图</a></li>
+</ul>
+
+				<ul id="footer-icons" class="mw-portlet mw-portlet-footer-icons noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+			</footer>
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="搜索Wikisource内容">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">搜索</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true"  lang="zh-Hans" dir="ltr"><span lang="zh-Hans" dir="ltr"><span class="mw-page-title-main">梦溪笔谈/卷07</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock cdx-button__icon"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language cdx-button__icon"></span>
+
+<span>添加语言</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive cdx-button__icon"></span>
+
+<span>添加话题</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-7db4fb585c-fr2v2","wgBackendResponseTime":183,"wgPageParseReport":{"limitreport":{"cputime":"0.089","walltime":"0.108","ppvisitednodes":{"value":163,"limit":1000000},"revisionsize":{"value":26750,"limit":2097152},"postexpandincludesize":{"value":4571,"limit":2097152},"templateargumentsize":{"value":479,"limit":2097152},"expansiondepth":{"value":5,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4239,"limit":5000000},"entityaccesscount":{"value":0,"limit":500},"timingprofile":["100.00%   77.658      1 -total"," 51.03%   39.628      3 Template:YL"," 37.87%   29.410      1 Template:Header2","  7.33%    5.694      4 Template:另","  3.78%    2.934      1 Template:Main_subject","  1.15%    0.890      6 Template:*","  1.09%    0.846      2 Template:Gap"]},"scribunto":{"limitreport-timeusage":{"value":"0.038","limit":"10.000"},"limitreport-memusage":{"value":5959041,"limit":52428800}},"cachereport":{"origin":"mw-web.codfw.main-9868c8fc9-sn2bj","timestamp":"20261006185635","ttl":2592000,"transientcontent":false}}});});</script>
+</body>
+</html>

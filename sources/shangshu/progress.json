@@ -1,0 +1,1376 @@
+{
+  "status": "complete",
+  "scope": "虞、夏、商、周四书传世58篇及卷首书序；不混入清华简或同页对读材料",
+  "catalog_revision": "11123919",
+  "next": null,
+  "pages": [
+    {
+      "slug": "shuxu",
+      "title": "书序",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 3,
+      "pairs": 85,
+      "notes": 23,
+      "original_sha256": "0c88c014b807547619315a5a5b5b07e8acb1fd5418dca298ebf4eb6538f9b538",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%9B%B8%E5%BA%8F",
+        "revision": "2334546"
+      }
+    },
+    {
+      "slug": "p01",
+      "title": "尧典",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 8,
+      "pairs": 151,
+      "notes": 30,
+      "original_sha256": "e92fd24bcbf4e0a5738b26e2cf84150cf4aaffa677d09f266f972ecdb756a217",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A0%AF%E5%85%B8",
+        "revision": "10640694"
+      }
+    },
+    {
+      "slug": "p02",
+      "title": "舜典",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 5,
+      "pairs": 91,
+      "notes": 17,
+      "original_sha256": "6821e1046f1b6895dd4879e7c94c9e4bc5cfc71f04fd76611ee97e6006785c0e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E8%88%9C%E5%85%B8",
+        "revision": "10611978"
+      }
+    },
+    {
+      "slug": "p03",
+      "title": "大禹谟（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 5,
+      "pairs": 82,
+      "notes": 19,
+      "original_sha256": "680ac7b549f77a66dce3fbd32433d50ed70013fc63b2522706fcb5ea5ab68232",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A4%A7%E7%A6%B9%E8%AC%A8",
+        "revision": "10612083"
+      }
+    },
+    {
+      "slug": "p04",
+      "title": "皋陶谟",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 6,
+      "pairs": 101,
+      "notes": 26,
+      "original_sha256": "a3d8e392bd2117f2cafccc91dc3bcd5f61f21889797dc76a8921ffb7918b8afb",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%9A%90%E9%99%B6%E8%AC%A8",
+        "revision": "10614221"
+      }
+    },
+    {
+      "slug": "p05",
+      "title": "益稷",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 4,
+      "pairs": 66,
+      "notes": 18,
+      "original_sha256": "3bc1c3f69ac8fb3f6e6eb4a93756bcb1ea7d52840795855be7270a7c0b844f25",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%9B%8A%E7%A8%B7",
+        "revision": "453136"
+      }
+    },
+    {
+      "slug": "p06",
+      "title": "禹贡",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        67,
+        68,
+        69,
+        70,
+        71,
+        73
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 15,
+      "pairs": 100,
+      "notes": 44,
+      "original_sha256": "b6f006f897ba9e70011e2d1e0b57ebaa24c755a4635b069c44ef16ad9340c887",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%A6%B9%E8%B2%A2",
+        "revision": "10641161"
+      }
+    },
+    {
+      "slug": "p07",
+      "title": "甘誓",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 10,
+      "notes": 3,
+      "original_sha256": "202a425a425c1bddc25717b6909e6bc313a7f6bb80b86e46fe37dcd6efa0c3b4",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%94%98%E8%AA%93",
+        "revision": "2636558"
+      }
+    },
+    {
+      "slug": "p08",
+      "title": "五子之歌（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 31,
+      "notes": 5,
+      "original_sha256": "5dfec4581080629d2589f96af1b9616064b749b08443f8ef74347c9f0f48f41e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E4%BA%94%E5%AD%90%E4%B9%8B%E6%AD%8C",
+        "revision": "2616187"
+      }
+    },
+    {
+      "slug": "p09",
+      "title": "胤征（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 2,
+      "pairs": 29,
+      "notes": 7,
+      "original_sha256": "da0d77c3d7a958812e7fe24505563bca9b3f146f80c5d4ef76f5e201e21ad08e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E8%83%A4%E5%BE%81",
+        "revision": "2550368"
+      }
+    },
+    {
+      "slug": "p10",
+      "title": "汤誓",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 14,
+      "notes": 4,
+      "original_sha256": "54b03b6117b3c7841d16d6076dda4ddefa2b25b693ef49be5df9505b9d5c785a",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%B9%AF%E8%AA%93",
+        "revision": "2639577"
+      }
+    },
+    {
+      "slug": "p11",
+      "title": "仲虺之诰（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 25,
+      "notes": 5,
+      "original_sha256": "8c3b8809706944df2e5f586e33e77b4a9e5bbdd764903624354b605fc5fe0b40",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E4%BB%B2%E8%99%BA%E4%B9%8B%E8%AA%A5",
+        "revision": "2550369"
+      }
+    },
+    {
+      "slug": "p12",
+      "title": "汤诰（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 21,
+      "notes": 4,
+      "original_sha256": "14484e3fb66176decdf23012fd4f4fa631bd5b61067e5b8f71779911a188be77",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%B9%AF%E8%AA%A5",
+        "revision": "10614606"
+      }
+    },
+    {
+      "slug": "p13",
+      "title": "伊训（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 30,
+      "notes": 5,
+      "original_sha256": "4cd236c35e062e6a38a288088edb5ad0d298d91c68c5b951ba76e625e8abf3e4",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E4%BC%8A%E8%A8%93",
+        "revision": "10612480"
+      }
+    },
+    {
+      "slug": "p14",
+      "title": "太甲上（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 20,
+      "notes": 3,
+      "original_sha256": "7d6d89a394396eaa1c633aa80892e51706599ea05c471f0295bcbd8624e517b9",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A4%AA%E7%94%B2%E4%B8%8A",
+        "revision": "2334328"
+      }
+    },
+    {
+      "slug": "p15",
+      "title": "太甲中（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 16,
+      "notes": 4,
+      "original_sha256": "041dd3aacfd3910203548682a7a079cf99f07167048101d92a2d883f131c852c",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A4%AA%E7%94%B2%E4%B8%AD",
+        "revision": "2334327"
+      }
+    },
+    {
+      "slug": "p16",
+      "title": "太甲下（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 17,
+      "notes": 3,
+      "original_sha256": "337b67e8ec333e89471c8167666f520135208f54edf16ee67bb8e536122790b2",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A4%AA%E7%94%B2%E4%B8%8B",
+        "revision": "10612522"
+      }
+    },
+    {
+      "slug": "p17",
+      "title": "咸有一德（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 37,
+      "notes": 5,
+      "original_sha256": "9eb31a138cbb492949773356e3e5234a5ce7ee3bcdaabcaadf56dd21a054fbd7",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%92%B8%E6%9C%89%E4%B8%80%E5%BE%B7",
+        "revision": "10612612"
+      }
+    },
+    {
+      "slug": "p18",
+      "title": "盘庚上",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 51,
+      "notes": 4,
+      "original_sha256": "52b1e15073141ac2d5e549702d4ccadb7f125e2b25708399f55c3fefef0afc6f",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%9B%A4%E5%BA%9A%E4%B8%8A",
+        "revision": "10614066"
+      }
+    },
+    {
+      "slug": "p19",
+      "title": "盘庚中",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 40,
+      "notes": 4,
+      "original_sha256": "cfb9ad2d6507a1c5757b38be8fb16bf87c7ffabcf17dff76de1416ad56cc519c",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%9B%A4%E5%BA%9A%E4%B8%AD",
+        "revision": "10614257"
+      }
+    },
+    {
+      "slug": "p20",
+      "title": "盘庚下",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 21,
+      "notes": 4,
+      "original_sha256": "788cd324e06c2350aaef935ad581c916f98629772c6b81f621c1ada1f27cbff2",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%9B%A4%E5%BA%9A%E4%B8%8B",
+        "revision": "10612716"
+      }
+    },
+    {
+      "slug": "p21",
+      "title": "说命上（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 23,
+      "notes": 3,
+      "original_sha256": "33e9c4e2d333c095ccc45f2f974201929b4fa8b544aa3f5a7de6d04aaa266326",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E8%AA%AA%E5%91%BD%E4%B8%8A",
+        "revision": "10614490"
+      }
+    },
+    {
+      "slug": "p22",
+      "title": "说命中（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 24,
+      "notes": 4,
+      "original_sha256": "7fd071e6a153b9f5575304ddec2f5492695800da1bfab859ea9adb62cbede243",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E8%AA%AA%E5%91%BD%E4%B8%AD",
+        "revision": "2334323"
+      }
+    },
+    {
+      "slug": "p23",
+      "title": "说命下（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 28,
+      "notes": 4,
+      "original_sha256": "b6277589ea9561257f6814b4bd4549dccb42f88835d391b509c76e36e95fbb0e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E8%AA%AA%E5%91%BD%E4%B8%8B",
+        "revision": "10612925"
+      }
+    },
+    {
+      "slug": "p24",
+      "title": "高宗肜日",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 10,
+      "notes": 4,
+      "original_sha256": "cb53d3ee54c6e3cb68c5d2295858d5d28c7153a1d8047898429e498da29b7988",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E9%AB%98%E5%AE%97%E8%82%9C%E6%97%A5",
+        "revision": "2636564"
+      }
+    },
+    {
+      "slug": "p25",
+      "title": "西伯戡黎",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 14,
+      "notes": 4,
+      "original_sha256": "5817e085d10dc7839c3e7ab899d7c1d39eb9e6c046ae6cccd665718a5e15b828",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E8%A5%BF%E4%BC%AF%E6%88%A1%E9%BB%8E",
+        "revision": "2636565"
+      }
+    },
+    {
+      "slug": "p26",
+      "title": "微子",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 20,
+      "notes": 4,
+      "original_sha256": "1c9f24f9172812c3610401f87c5fa2231af6a3e9db4070854f85274c928d1c98",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%BE%AE%E5%AD%90",
+        "revision": "10612969"
+      }
+    },
+    {
+      "slug": "p27",
+      "title": "泰誓上（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 24,
+      "notes": 4,
+      "original_sha256": "e8f33309911995680de69a4bd75eda79decd87459c65b1ce91c57c86042ad5ca",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%B3%B0%E8%AA%93%E4%B8%8A",
+        "revision": "10613015"
+      }
+    },
+    {
+      "slug": "p28",
+      "title": "泰誓中（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 21,
+      "notes": 4,
+      "original_sha256": "d562578f3663a964dc5f94f430e4589131de23d245ed170bde790117e54e0eae",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%B3%B0%E8%AA%93%E4%B8%AD",
+        "revision": "10613053"
+      }
+    },
+    {
+      "slug": "p29",
+      "title": "泰誓下（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 19,
+      "notes": 4,
+      "original_sha256": "20ca251a1e2747fcf80448201465b8fff2ad12df3a112cd77179ad1827050076",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%B3%B0%E8%AA%93%E4%B8%8B",
+        "revision": "10613093"
+      }
+    },
+    {
+      "slug": "p30",
+      "title": "牧誓",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 21,
+      "notes": 4,
+      "original_sha256": "12bae27961844f8367dbeaefad6c2f864901ae1da44266a4485e0ffa5e9f442d",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%89%A7%E8%AA%93",
+        "revision": "10640889"
+      }
+    },
+    {
+      "slug": "p31",
+      "title": "武成（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 36,
+      "notes": 4,
+      "original_sha256": "e0419d7efb97ac87e7131a62b5285caf6e419e9e44d0fc1ff447c0f9fb1053c5",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%AD%A6%E6%88%90",
+        "revision": "2334339"
+      }
+    },
+    {
+      "slug": "p32",
+      "title": "洪范",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 78,
+      "notes": 5,
+      "original_sha256": "459e5a2daff031a378abd61f51f1f1f1183c370949b600df6b466c3a102fb480",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%B4%AA%E7%AF%84",
+        "revision": "10641192"
+      }
+    },
+    {
+      "slug": "p33",
+      "title": "旅獒（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 24,
+      "notes": 5,
+      "original_sha256": "397c7166e8c57652074bad55a4ea45ceaa9e399ad533e8512d62528f35c439bc",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%97%85%E7%8D%92",
+        "revision": "2334338"
+      }
+    },
+    {
+      "slug": "p34",
+      "title": "金縢（又名周武王有疾周公所自以代王之志）",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 37,
+      "notes": 5,
+      "original_sha256": "d07cd0a0d5a0ae67358e80184319285114fd71cf6121e522a3fec4c529e97699",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E9%87%91%E7%B8%A2",
+        "revision": "10641677"
+      }
+    },
+    {
+      "slug": "p35",
+      "title": "大诰",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 50,
+      "notes": 5,
+      "original_sha256": "a9cc213f043f5c4c0d1a4097f51440c7ad875fbdce203876581a29165d176c8d",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A4%A7%E8%AA%A5",
+        "revision": "10641702"
+      }
+    },
+    {
+      "slug": "p36",
+      "title": "微子之命（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 22,
+      "notes": 5,
+      "original_sha256": "e275a3011c98ebc1f589dfd3800dd777bc24ac04e76cab71d53aa0eb9de57eea",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%BE%AE%E5%AD%90%E4%B9%8B%E5%91%BD",
+        "revision": "2334337"
+      }
+    },
+    {
+      "slug": "p37",
+      "title": "康诰",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 76,
+      "notes": 6,
+      "original_sha256": "f02b767e98b737b618bf5cd7d3d8dcb62d864972b2f0f267256ba8be117726de",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%BA%B7%E8%AA%A5",
+        "revision": "10641339"
+      }
+    },
+    {
+      "slug": "p38",
+      "title": "酒诰",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 48,
+      "notes": 5,
+      "original_sha256": "534f2366271f5680b0f02648044c01ff06495608dd02765d11494bbdb90df459",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E9%85%92%E8%AA%A5",
+        "revision": "10613875"
+      }
+    },
+    {
+      "slug": "p39",
+      "title": "梓材",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 20,
+      "notes": 6,
+      "original_sha256": "99c492233157306af594ce5fa725706e39a80d6d8ff72c1c7b5d52b45e897b07",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%A2%93%E6%9D%90",
+        "revision": "10613429"
+      }
+    },
+    {
+      "slug": "p40",
+      "title": "召诰",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 56,
+      "notes": 5,
+      "original_sha256": "0531ebbebd78af30dcefda49aa0c4aaa4d5cf0dd943e4ce75b4641951aea4f29",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%8F%AC%E8%AA%A5",
+        "revision": "2644307"
+      }
+    },
+    {
+      "slug": "p41",
+      "title": "洛诰",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 61,
+      "notes": 9,
+      "original_sha256": "975e56963f329179a4aa6f5c00d4969bfef25f0943d632c8261893ff267e8fa2",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%B4%9B%E8%AA%A5",
+        "revision": "10641245"
+      }
+    },
+    {
+      "slug": "p42",
+      "title": "多士",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 48,
+      "notes": 6,
+      "original_sha256": "76a6046b3ff4bf012f1be93ee9967a18820cf7bdbc844029cff1ef4c469a4baf",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A4%9A%E5%A3%AB",
+        "revision": "2636577"
+      }
+    },
+    {
+      "slug": "p43",
+      "title": "无逸",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 49,
+      "notes": 6,
+      "original_sha256": "3e993930543f89157f063562413b3193ed9d08c9e00c1f7792af399432bae122",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%84%A1%E9%80%B8",
+        "revision": "10641280"
+      }
+    },
+    {
+      "slug": "p44",
+      "title": "君奭",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 60,
+      "notes": 6,
+      "original_sha256": "8645f0ad838369030d03c9dbda061047c39681890275606e8a0e401d534503e5",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%90%9B%E5%A5%AD",
+        "revision": "10641424"
+      }
+    },
+    {
+      "slug": "p45",
+      "title": "蔡仲之命（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 21,
+      "notes": 6,
+      "original_sha256": "285f9c8af9f67611bcde2be49ca08dee1b83f716d5064452b9d2d099187128ee",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E8%94%A1%E4%BB%B2%E4%B9%8B%E5%91%BD",
+        "revision": "2334334"
+      }
+    },
+    {
+      "slug": "p46",
+      "title": "多方",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 58,
+      "notes": 6,
+      "original_sha256": "f553db3c6696ab843fc0b8a165ffb5089937b56d208d4715112ca5caebcf0d14",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%A4%9A%E6%96%B9",
+        "revision": "2636580"
+      }
+    },
+    {
+      "slug": "p47",
+      "title": "立政",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 49,
+      "notes": 6,
+      "original_sha256": "9d800f284655a021ca5b7bbc90411cfd6e3c151a30277eb0c8603f0d31e031ea",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%AB%8B%E6%94%BF",
+        "revision": "10641301"
+      }
+    },
+    {
+      "slug": "p48",
+      "title": "周官（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 41,
+      "notes": 7,
+      "original_sha256": "10dfa22992c5b82fab7cacec140cb73816fc565475650e37d2ece0cc7a15d54f",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%91%A8%E5%AE%98",
+        "revision": "2416978"
+      }
+    },
+    {
+      "slug": "p49",
+      "title": "君陈（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 29,
+      "notes": 6,
+      "original_sha256": "132e2f0e71410f87d0c400b8b15be0e6aa205baa9138c9843483b6f3ae56df05",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%90%9B%E9%99%B3",
+        "revision": "2416977"
+      }
+    },
+    {
+      "slug": "p50",
+      "title": "顾命",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 48,
+      "notes": 5,
+      "original_sha256": "bd7a28db736b1754e398c76475f4c358b7104370c1b3cf89ac41a96f00f685d1",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E9%A1%A7%E5%91%BD",
+        "revision": "10641316"
+      }
+    },
+    {
+      "slug": "p51",
+      "title": "康王之诰",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 22,
+      "notes": 3,
+      "original_sha256": "eaed4da05de2e874eeaedf8fefb2ad61136bdabc9e263beff3cde68f26907426",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%BA%B7%E7%8E%8B%E4%B9%8B%E8%AA%A5",
+        "revision": "2636583"
+      }
+    },
+    {
+      "slug": "p52",
+      "title": "毕命（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 35,
+      "notes": 4,
+      "original_sha256": "5d01ddd5b8b89c26653ff75d9aac5d6cd6ca767aef944eba01b3e6f86358b5df",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%95%A2%E5%91%BD",
+        "revision": "2334333"
+      }
+    },
+    {
+      "slug": "p53",
+      "title": "君牙（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0,
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 19,
+      "notes": 3,
+      "original_sha256": "edfc6fcef0b102ce48512ff4018700e1cfbb401dee794dec7adb6f313e978f2e",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%90%9B%E7%89%99",
+        "revision": "10614787"
+      }
+    },
+    {
+      "slug": "p54",
+      "title": "冏命（伪古文）",
+      "status": "complete",
+      "selected_blocks": [
+        0
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 18,
+      "notes": 4,
+      "original_sha256": "c15ffdf8ae056443b8967bfbf343cbf3d595f613763a339b9f09c6fbfb192596",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%86%8F%E5%91%BD",
+        "revision": "2550557"
+      }
+    },
+    {
+      "slug": "p55",
+      "title": "吕刑",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 85,
+      "notes": 6,
+      "original_sha256": "a7cb8866988063d1c27034f8a66ad63186f9b7a10a0e5c87c5679f0cc375b323",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E5%91%82%E5%88%91",
+        "revision": "10641398"
+      }
+    },
+    {
+      "slug": "p56",
+      "title": "文侯之命",
+      "status": "complete",
+      "selected_blocks": [
+        1,
+        2
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 22,
+      "notes": 4,
+      "original_sha256": "102b8cb54ab7098928521cd4cb9e24ad92bd8733ba6e8494b380887f8784947a",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E6%96%87%E4%BE%AF%E4%B9%8B%E5%91%BD",
+        "revision": "2636586"
+      }
+    },
+    {
+      "slug": "p57",
+      "title": "费誓",
+      "status": "complete",
+      "selected_blocks": [
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 14,
+      "notes": 5,
+      "original_sha256": "15c7ebd8d2c004199da3092c20584af37366b8323e693c6960d7a3ee83f6aff4",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E8%B2%BB%E8%AA%93",
+        "revision": "10614659"
+      }
+    },
+    {
+      "slug": "p58",
+      "title": "秦誓",
+      "status": "complete",
+      "selected_blocks": [
+        1
+      ],
+      "normalization": "editorial_apparatus",
+      "sections": 1,
+      "pairs": 22,
+      "notes": 4,
+      "original_sha256": "89de7daeaf8ac0a8c3b36b8610ab895254ec59a90b786b4db653f8632b6603d0",
+      "source": {
+        "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8/%E7%A7%A6%E8%AA%93",
+        "revision": "2636588"
+      }
+    }
+  ]
+}

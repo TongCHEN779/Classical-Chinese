@@ -1,0 +1,159 @@
+{
+  "pages": [
+    {
+      "slug": "juan01",
+      "title": "梁惠王上",
+      "sections": 7,
+      "source": {
+        "title": "孟子/梁惠王上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E6%A2%81%E6%83%A0%E7%8E%8B%E4%B8%8A",
+        "revision": "2642991",
+        "text_sha256": "84b65d0220bcad187c54c7c72ce09c209369da2dae5b8fa869d51a70f1a66069"
+      }
+    },
+    {
+      "slug": "juan02",
+      "title": "梁惠王下",
+      "sections": 16,
+      "source": {
+        "title": "孟子/梁惠王下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E6%A2%81%E6%83%A0%E7%8E%8B%E4%B8%8B",
+        "revision": "2636980",
+        "text_sha256": "bf38b343d9f3c77f1503cae3c682ff956d6ba11f52824e3c01f1d24e172f34f5"
+      }
+    },
+    {
+      "slug": "juan03",
+      "title": "公孙丑上",
+      "sections": 9,
+      "source": {
+        "title": "孟子/公孫丑上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E5%85%AC%E5%AD%AB%E4%B8%91%E4%B8%8A",
+        "revision": "2636981",
+        "text_sha256": "f2415305a10019c407351639026fb5c40ec527b02e29935171b757e0573cbb82"
+      }
+    },
+    {
+      "slug": "juan04",
+      "title": "公孙丑下",
+      "sections": 14,
+      "source": {
+        "title": "孟子/公孫丑下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E5%85%AC%E5%AD%AB%E4%B8%91%E4%B8%8B",
+        "revision": "8750853",
+        "text_sha256": "607f4be9b554ae6cbc0af22bbb29a8903f60f20255a09a8af3febf2b62c795fb"
+      }
+    },
+    {
+      "slug": "juan05",
+      "title": "滕文公上",
+      "sections": 5,
+      "source": {
+        "title": "孟子/滕文公上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E6%BB%95%E6%96%87%E5%85%AC%E4%B8%8A",
+        "revision": "2636984",
+        "text_sha256": "4339d609fb598edac824e43ddda97a4cd07adbc477d37f4d87883e455790b84b"
+      }
+    },
+    {
+      "slug": "juan06",
+      "title": "滕文公下",
+      "sections": 10,
+      "source": {
+        "title": "孟子/滕文公下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E6%BB%95%E6%96%87%E5%85%AC%E4%B8%8B",
+        "revision": "2636985",
+        "text_sha256": "1d8aa0eafa27f8c06b1cc074cc520fbaa617a161dd999429c756bdbe7d7c2ff1"
+      }
+    },
+    {
+      "slug": "juan07",
+      "title": "离娄上",
+      "sections": 28,
+      "source": {
+        "title": "孟子/離婁上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E9%9B%A2%E5%A9%81%E4%B8%8A",
+        "revision": "2636988",
+        "text_sha256": "fdd2a1ca134f8253c497709ffca5a7d70f43a84ec8fa42179caa56190fd1b0ef"
+      }
+    },
+    {
+      "slug": "juan08",
+      "title": "离娄下",
+      "sections": 33,
+      "source": {
+        "title": "孟子/離婁下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E9%9B%A2%E5%A9%81%E4%B8%8B",
+        "revision": "2636994",
+        "text_sha256": "a9f40388dbde9d9c3ec8c99fbff9a40b2c2bed566eb3f0515c462ab7afb9bc45"
+      }
+    },
+    {
+      "slug": "juan09",
+      "title": "万章上",
+      "sections": 9,
+      "source": {
+        "title": "孟子/萬章上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E8%90%AC%E7%AB%A0%E4%B8%8A",
+        "revision": "2636998",
+        "text_sha256": "6be1c25477741b2003d8378caab5ee5204aa1a99d9e8181bb29cd7562bc408d5"
+      }
+    },
+    {
+      "slug": "juan10",
+      "title": "万章下",
+      "sections": 9,
+      "source": {
+        "title": "孟子/萬章下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E8%90%AC%E7%AB%A0%E4%B8%8B",
+        "revision": "7912092",
+        "text_sha256": "5a63f65d8342440b6759e02026a29f4ef82799d13ddabfa4850968d47dc93de8"
+      }
+    },
+    {
+      "slug": "juan11",
+      "title": "告子上",
+      "sections": 20,
+      "source": {
+        "title": "孟子/告子上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E5%91%8A%E5%AD%90%E4%B8%8A",
+        "revision": "2637004",
+        "text_sha256": "06ae791a4977ccefedca429554214c80e0b94a7df8ede0b24bdcd71e91cbf64a"
+      }
+    },
+    {
+      "slug": "juan12",
+      "title": "告子下",
+      "sections": 16,
+      "source": {
+        "title": "孟子/告子下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E5%91%8A%E5%AD%90%E4%B8%8B",
+        "revision": "2637005",
+        "text_sha256": "802755aba8a60f23fc8d4e1c9b696010bd792a209ebdaaf1ac0c7125b7fc71e7"
+      }
+    },
+    {
+      "slug": "juan13",
+      "title": "尽心上",
+      "sections": 46,
+      "source": {
+        "title": "孟子/盡心上",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E7%9B%A1%E5%BF%83%E4%B8%8A",
+        "revision": "2637007",
+        "text_sha256": "33d2faedb11be6ba47af382a7aec678589955e4260f3cc6a89d9935719644dbc"
+      }
+    },
+    {
+      "slug": "juan14",
+      "title": "尽心下",
+      "sections": 38,
+      "source": {
+        "title": "孟子/盡心下",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AD%9F%E5%AD%90/%E7%9B%A1%E5%BF%83%E4%B8%8B",
+        "revision": "2637012",
+        "text_sha256": "f23400786f5a712532cc80be9b1cb045ff276c75b2a868034f3d1f67b4df0298"
+      }
+    }
+  ],
+  "book": "孟子"
+}

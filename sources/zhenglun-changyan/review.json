@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "page": "zhenglun-xu",
+      "completed_units": 1,
+      "total_units": 1,
+      "sentence_pairs": 30,
+      "source_notes": 0,
+      "editor_notes": 9
+    },
+    {
+      "page": "zhenglun",
+      "completed_units": 56,
+      "total_units": 56,
+      "sentence_pairs": 361,
+      "source_notes": 166,
+      "editor_notes": 222
+    },
+    {
+      "page": "changyan-shang",
+      "completed_units": 14,
+      "total_units": 14,
+      "sentence_pairs": 202,
+      "source_notes": 11,
+      "editor_notes": 81
+    },
+    {
+      "page": "changyan-zhong",
+      "completed_units": 19,
+      "total_units": 19,
+      "sentence_pairs": 169,
+      "source_notes": 28,
+      "editor_notes": 91
+    },
+    {
+      "page": "changyan-xia",
+      "completed_units": 92,
+      "total_units": 92,
+      "sentence_pairs": 158,
+      "source_notes": 100,
+      "editor_notes": 183
+    },
+    {
+      "page": "changyan-fulu",
+      "completed_units": 14,
+      "total_units": 14,
+      "sentence_pairs": 110,
+      "source_notes": 5,
+      "editor_notes": 54
+    }
+  ],
+  "source_reconstruction_matches": true,
+  "rendered_pairs_match": true,
+  "note_counts_match": true,
+  "scope": "Technical coverage; semantic completeness requires editorial reading.",
+  "browser_visual_check": false,
+  "next": null
+}

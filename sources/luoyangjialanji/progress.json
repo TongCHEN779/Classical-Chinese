@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "xu",
+    "title": "序",
+    "annotated": 7,
+    "paragraphs": 7,
+    "translated_sentences": 77,
+    "notes": 4,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p01",
+    "title": "卷一·城内",
+    "annotated": 49,
+    "paragraphs": 49,
+    "translated_sentences": 439,
+    "notes": 60,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p02",
+    "title": "卷二·城东",
+    "annotated": 43,
+    "paragraphs": 43,
+    "translated_sentences": 460,
+    "notes": 26,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p03",
+    "title": "卷三·城南",
+    "annotated": 42,
+    "paragraphs": 42,
+    "translated_sentences": 312,
+    "notes": 40,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p04",
+    "title": "卷四·城西",
+    "annotated": 51,
+    "paragraphs": 51,
+    "translated_sentences": 365,
+    "notes": 25,
+    "next_paragraph": null,
+    "next_text": null
+  },
+  {
+    "slug": "p05",
+    "title": "卷五·城北",
+    "annotated": 9,
+    "paragraphs": 9,
+    "translated_sentences": 339,
+    "notes": 9,
+    "next_paragraph": null,
+    "next_text": null
+  }
+]

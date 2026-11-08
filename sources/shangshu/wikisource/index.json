@@ -1,0 +1,290 @@
+{
+ "title": "尚書",
+ "query": "尚書",
+ "url": "https://zh.wikisource.org/zh-hans/%E5%B0%9A%E6%9B%B8",
+ "revision": "11123919",
+ "fetched_at": "2026-11-04T08:37:20.491053+00:00",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "书序"
+  },
+  {
+   "type": "h2",
+   "text": "虞书"
+  },
+  {
+   "type": "li",
+   "text": "尧典"
+  },
+  {
+   "type": "li",
+   "text": "舜典"
+  },
+  {
+   "type": "li",
+   "text": "大禹谟（伪）"
+  },
+  {
+   "type": "li",
+   "text": "皋陶谟"
+  },
+  {
+   "type": "li",
+   "text": "益稷"
+  },
+  {
+   "type": "h2",
+   "text": "夏书"
+  },
+  {
+   "type": "li",
+   "text": "禹贡"
+  },
+  {
+   "type": "li",
+   "text": "甘誓"
+  },
+  {
+   "type": "li",
+   "text": "五子之歌（伪）"
+  },
+  {
+   "type": "li",
+   "text": "胤征（伪）"
+  },
+  {
+   "type": "h2",
+   "text": "商书"
+  },
+  {
+   "type": "li",
+   "text": "汤誓"
+  },
+  {
+   "type": "li",
+   "text": "仲虺之诰（伪）"
+  },
+  {
+   "type": "li",
+   "text": "汤诰（伪）"
+  },
+  {
+   "type": "li",
+   "text": "伊训（伪）"
+  },
+  {
+   "type": "li",
+   "text": "太甲上（伪）"
+  },
+  {
+   "type": "li",
+   "text": "太甲中（伪）"
+  },
+  {
+   "type": "li",
+   "text": "太甲下（伪）"
+  },
+  {
+   "type": "li",
+   "text": "咸有一德（伪），原文见尹诰"
+  },
+  {
+   "type": "li",
+   "text": "盘庚上"
+  },
+  {
+   "type": "li",
+   "text": "盘庚中"
+  },
+  {
+   "type": "li",
+   "text": "盘庚下"
+  },
+  {
+   "type": "li",
+   "text": "说命上（伪），原文见傅说之命上"
+  },
+  {
+   "type": "li",
+   "text": "说命中（伪），原文见傅说之命中"
+  },
+  {
+   "type": "li",
+   "text": "说命下（伪），原文见傅说之命下"
+  },
+  {
+   "type": "li",
+   "text": "高宗肜日"
+  },
+  {
+   "type": "li",
+   "text": "西伯戡黎"
+  },
+  {
+   "type": "li",
+   "text": "微子"
+  },
+  {
+   "type": "h2",
+   "text": "周书"
+  },
+  {
+   "type": "li",
+   "text": "泰誓上（伪）"
+  },
+  {
+   "type": "li",
+   "text": "泰誓中（伪）"
+  },
+  {
+   "type": "li",
+   "text": "泰誓下（伪）"
+  },
+  {
+   "type": "li",
+   "text": "牧誓"
+  },
+  {
+   "type": "li",
+   "text": "武成（伪），原文见世俘"
+  },
+  {
+   "type": "li",
+   "text": "洪范"
+  },
+  {
+   "type": "li",
+   "text": "旅獒（伪）"
+  },
+  {
+   "type": "li",
+   "text": "金縢（又名周武王有疾周公所自以代王之志）"
+  },
+  {
+   "type": "li",
+   "text": "大诰"
+  },
+  {
+   "type": "li",
+   "text": "微子之命（伪）"
+  },
+  {
+   "type": "li",
+   "text": "康诰"
+  },
+  {
+   "type": "li",
+   "text": "酒诰"
+  },
+  {
+   "type": "li",
+   "text": "梓材"
+  },
+  {
+   "type": "li",
+   "text": "召诰"
+  },
+  {
+   "type": "li",
+   "text": "洛诰"
+  },
+  {
+   "type": "li",
+   "text": "多士"
+  },
+  {
+   "type": "li",
+   "text": "无逸"
+  },
+  {
+   "type": "li",
+   "text": "君奭"
+  },
+  {
+   "type": "li",
+   "text": "蔡仲之命（伪）"
+  },
+  {
+   "type": "li",
+   "text": "多方"
+  },
+  {
+   "type": "li",
+   "text": "立政"
+  },
+  {
+   "type": "li",
+   "text": "周官（伪）"
+  },
+  {
+   "type": "li",
+   "text": "君陈（伪）"
+  },
+  {
+   "type": "li",
+   "text": "顾命"
+  },
+  {
+   "type": "li",
+   "text": "康王之诰"
+  },
+  {
+   "type": "li",
+   "text": "毕命（伪）"
+  },
+  {
+   "type": "li",
+   "text": "君牙（伪）"
+  },
+  {
+   "type": "li",
+   "text": "冏命（伪）"
+  },
+  {
+   "type": "li",
+   "text": "吕刑"
+  },
+  {
+   "type": "li",
+   "text": "文侯之命"
+  },
+  {
+   "type": "li",
+   "text": "费誓"
+  },
+  {
+   "type": "li",
+   "text": "秦誓"
+  },
+  {
+   "type": "h2",
+   "text": "清华简"
+  },
+  {
+   "type": "p",
+   "text": "清华大学藏战国竹简："
+  },
+  {
+   "type": "li",
+   "text": "保训"
+  },
+  {
+   "type": "li",
+   "text": "尹至"
+  },
+  {
+   "type": "li",
+   "text": "耆夜"
+  },
+  {
+   "type": "li",
+   "text": "厚父"
+  },
+  {
+   "type": "li",
+   "text": "封许之命"
+  }
+ ],
+ "text_sha256": "7bfd21e944bd962716729ae26081c8382383d6b8d8b703152f13b7b83c713f39"
+}

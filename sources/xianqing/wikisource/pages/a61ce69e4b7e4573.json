@@ -1,0 +1,49 @@
+{
+  "title": "閑情偶寄/種植部",
+  "url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E7%A8%AE%E6%A4%8D%E9%83%A8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E7%A8%AE%E6%A4%8D%E9%83%A8",
+  "revision": "1134548",
+  "fetched_at": "2026-10-27T17:27:52.788600+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "种植部"
+    },
+    {
+      "type": "p",
+      "text": "已载群书者，片言不赘，非补未逮之论，即传自验之方，欲睹陈言，请翻诸集。"
+    }
+  ],
+  "links": [
+    {
+      "title": "閑情偶寄/飲饌部",
+      "label": "饮馔部"
+    },
+    {
+      "title": "閑情偶寄/頤養部",
+      "label": "颐养部"
+    },
+    {
+      "title": "閑情偶寄/種植部/木本第一",
+      "label": "木本第一"
+    },
+    {
+      "title": "閑情偶寄/種植部/藤本第二",
+      "label": "藤本第二"
+    },
+    {
+      "title": "閑情偶寄/種植部/草本第三",
+      "label": "草本第三"
+    },
+    {
+      "title": "閑情偶寄/種植部/眾卉第四",
+      "label": "众卉第四"
+    },
+    {
+      "title": "閑情偶寄/種植部/竹木第五",
+      "label": "竹木第五"
+    }
+  ],
+  "text_sha256": "4b5b4ba9e47132f9ffbd4455475004d080a8feb0ce1c01b4f784731472018d26"
+}

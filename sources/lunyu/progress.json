@@ -1,0 +1,225 @@
+{
+  "pages": [
+    {
+      "slug": "juan01",
+      "title": "学而第一",
+      "sections": 16,
+      "source": {
+        "title": "論語/學而第一",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%AD%B8%E8%80%8C%E7%AC%AC%E4%B8%80",
+        "revision": "11118093",
+        "text_sha256": "7abcab66e423a86387dfc4e65c1285864f9ac8698cdbc6ffe43a20745c4acf43"
+      }
+    },
+    {
+      "slug": "juan02",
+      "title": "为政第二",
+      "sections": 24,
+      "source": {
+        "title": "論語/爲政第二",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E7%88%B2%E6%94%BF%E7%AC%AC%E4%BA%8C",
+        "revision": "11118094",
+        "text_sha256": "c081d4100b46ec027c46b778af1a2b42d67b8dda454cb236a64da828377af647"
+      }
+    },
+    {
+      "slug": "juan03",
+      "title": "八佾第三",
+      "sections": 26,
+      "source": {
+        "title": "論語/八佾第三",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%85%AB%E4%BD%BE%E7%AC%AC%E4%B8%89",
+        "revision": "2200702",
+        "text_sha256": "f28a420dacf013bf521cb0d281b56e776a7f9b694bdf530129084f23eca75018"
+      }
+    },
+    {
+      "slug": "juan04",
+      "title": "里仁第四",
+      "sections": 26,
+      "source": {
+        "title": "論語/里仁第四",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E9%87%8C%E4%BB%81%E7%AC%AC%E5%9B%9B",
+        "revision": "2177314",
+        "text_sha256": "55a2d17e9fd7cbe1eda02a063ffa19412f87ef62d2ccdf4d6385e57ef24cf32b"
+      }
+    },
+    {
+      "slug": "juan05",
+      "title": "公冶长第五",
+      "sections": 28,
+      "source": {
+        "title": "論語/公冶長第五",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%85%AC%E5%86%B6%E9%95%B7%E7%AC%AC%E4%BA%94",
+        "revision": "973596",
+        "text_sha256": "2c504b30a366d2587acd922cd3698eaf7da1c709bdebfe9076d087e580493193"
+      }
+    },
+    {
+      "slug": "juan06",
+      "title": "雍也第六",
+      "sections": 28,
+      "source": {
+        "title": "論語/雍也第六",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E9%9B%8D%E4%B9%9F%E7%AC%AC%E5%85%AD",
+        "revision": "11118098",
+        "text_sha256": "1c995928e955f4dd680f9ef29101f67982ab041b858270913259b33f87e2dcbc"
+      }
+    },
+    {
+      "slug": "juan07",
+      "title": "述而第七",
+      "sections": 37,
+      "source": {
+        "title": "論語/述而第七",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E8%BF%B0%E8%80%8C%E7%AC%AC%E4%B8%83",
+        "revision": "11118091",
+        "text_sha256": "e791891c3328984244a976bf73fd534617f94e16414b44fbcf96d69fd2977b85"
+      }
+    },
+    {
+      "slug": "juan08",
+      "title": "泰伯第八",
+      "sections": 21,
+      "source": {
+        "title": "論語/泰伯第八",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E6%B3%B0%E4%BC%AF%E7%AC%AC%E5%85%AB",
+        "revision": "11118097",
+        "text_sha256": "70460ed861c4f9666a186ed55fa9b2a67a5d16739a91068ac44fe19cceff7124"
+      }
+    },
+    {
+      "slug": "juan09",
+      "title": "子罕第九",
+      "sections": 31,
+      "source": {
+        "title": "論語/子罕第九",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%AD%90%E7%BD%95%E7%AC%AC%E4%B9%9D",
+        "revision": "2018157",
+        "text_sha256": "b943c5bb5ea7c7b0bac79895e857347e207c7c74bf9906bb688262d1b45bdf38"
+      }
+    },
+    {
+      "slug": "juan10",
+      "title": "乡党第十",
+      "sections": 18,
+      "source": {
+        "title": "論語/鄉黨第十",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E9%84%89%E9%BB%A8%E7%AC%AC%E5%8D%81",
+        "revision": "11118092",
+        "text_sha256": "c0629b783f72ff9d208dc5bbc96d7f81c2f967fd526363d0ec78a8dd6e9c7963"
+      }
+    },
+    {
+      "slug": "juan11",
+      "title": "先进第十一",
+      "sections": 30,
+      "source": {
+        "title": "論語/先進第十一",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%85%88%E9%80%B2%E7%AC%AC%E5%8D%81%E4%B8%80",
+        "revision": "11118105",
+        "text_sha256": "74b2be4c4a93e250ac0b9a0eb7682473c537fce25b086144c309f42f43a4f09b"
+      }
+    },
+    {
+      "slug": "juan12",
+      "title": "颜渊第十二",
+      "sections": 24,
+      "source": {
+        "title": "論語/顏淵第十二",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E9%A1%8F%E6%B7%B5%E7%AC%AC%E5%8D%81%E4%BA%8C",
+        "revision": "10602324",
+        "text_sha256": "de15b2e7646717ae87c6023487002c722079e63454edfa47ff91d30c22c7f6cc"
+      }
+    },
+    {
+      "slug": "juan13",
+      "title": "子路第十三",
+      "sections": 30,
+      "source": {
+        "title": "論語/子路第十三",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%AD%90%E8%B7%AF%E7%AC%AC%E5%8D%81%E4%B8%89",
+        "revision": "11118102",
+        "text_sha256": "c0dd5599055006b737ff979908a746a61bfdcffd3266cdef5b56462792edf016"
+      }
+    },
+    {
+      "slug": "juan14",
+      "title": "宪问第十四",
+      "sections": 47,
+      "source": {
+        "title": "論語/憲問第十四",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E6%86%B2%E5%95%8F%E7%AC%AC%E5%8D%81%E5%9B%9B",
+        "revision": "11118101",
+        "text_sha256": "1905182a12eb16f80b749fbf17da03cba50108d9306c6e22a7d0876ad8589549"
+      }
+    },
+    {
+      "slug": "juan15",
+      "title": "卫灵公第十五",
+      "sections": 41,
+      "source": {
+        "title": "論語/衞靈公第十五",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E8%A1%9E%E9%9D%88%E5%85%AC%E7%AC%AC%E5%8D%81%E4%BA%94",
+        "revision": "2058122",
+        "text_sha256": "8d41ddbfd8a92223768e14bc7287da9ee5320203dd77ecbff3f7383705399f6d"
+      }
+    },
+    {
+      "slug": "juan16",
+      "title": "季氏第十六",
+      "sections": 14,
+      "source": {
+        "title": "論語/季氏第十六",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%AD%A3%E6%B0%8F%E7%AC%AC%E5%8D%81%E5%85%AD",
+        "revision": "11118099",
+        "text_sha256": "142b115a9339859e0ca3c178f0d99dcb536ff3420fba4c5d859bd3743d012fcf"
+      }
+    },
+    {
+      "slug": "juan17",
+      "title": "阳货第十七",
+      "sections": 26,
+      "source": {
+        "title": "論語/陽貨第十七",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E9%99%BD%E8%B2%A8%E7%AC%AC%E5%8D%81%E4%B8%83",
+        "revision": "1075085",
+        "text_sha256": "3fadaa8d81aa23c705b313a844972c16e9b66f2b726ad9cbd46dc45da18a0f22"
+      }
+    },
+    {
+      "slug": "juan18",
+      "title": "微子第十八",
+      "sections": 11,
+      "source": {
+        "title": "論語/微子第十八",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%BE%AE%E5%AD%90%E7%AC%AC%E5%8D%81%E5%85%AB",
+        "revision": "1311661",
+        "text_sha256": "3bd7e3e225f19bcffeaa694edd551c471de6667b4d65e168d361296013c04720"
+      }
+    },
+    {
+      "slug": "juan19",
+      "title": "子张第十九",
+      "sections": 25,
+      "source": {
+        "title": "論語/子張第十九",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%AD%90%E5%BC%B5%E7%AC%AC%E5%8D%81%E4%B9%9D",
+        "revision": "1075051",
+        "text_sha256": "cc14bd4e7f910a276e70fdb05d2fcb3a61a86d1d34632b08a346ac6ec13c7d05"
+      }
+    },
+    {
+      "slug": "juan20",
+      "title": "尧曰第二十",
+      "sections": 3,
+      "source": {
+        "title": "論語/堯曰第二十",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%AB%96%E8%AA%9E/%E5%A0%AF%E6%9B%B0%E7%AC%AC%E4%BA%8C%E5%8D%81",
+        "revision": "2175814",
+        "text_sha256": "e3778eee7bc920c895e65eb349faba8eb4db65cad072af0b55f07b2050827e45"
+      }
+    }
+  ],
+  "book": "论语"
+}

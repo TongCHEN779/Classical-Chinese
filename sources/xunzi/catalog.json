@@ -1,0 +1,204 @@
+{
+  "revision": "1641418",
+  "url": "https://zh.wikisource.org/zh-hans/荀子",
+  "pages": [
+    {
+      "slug": "xu",
+      "title": "荀子序",
+      "wiki": "荀子/荀子序",
+      "volume": 0
+    },
+    {
+      "slug": "p01",
+      "title": "劝学",
+      "wiki": "荀子/勸學篇",
+      "volume": 1
+    },
+    {
+      "slug": "p02",
+      "title": "修身",
+      "wiki": "荀子/修身篇",
+      "volume": 1
+    },
+    {
+      "slug": "p03",
+      "title": "不苟",
+      "wiki": "荀子/不苟篇",
+      "volume": 2
+    },
+    {
+      "slug": "p04",
+      "title": "荣辱",
+      "wiki": "荀子/榮辱篇",
+      "volume": 2
+    },
+    {
+      "slug": "p05",
+      "title": "非相",
+      "wiki": "荀子/非相篇",
+      "volume": 3
+    },
+    {
+      "slug": "p06",
+      "title": "非十二子",
+      "wiki": "荀子/非十二子篇",
+      "volume": 3
+    },
+    {
+      "slug": "p07",
+      "title": "仲尼",
+      "wiki": "荀子/仲尼篇",
+      "volume": 3
+    },
+    {
+      "slug": "p08",
+      "title": "儒效",
+      "wiki": "荀子/儒效篇",
+      "volume": 4
+    },
+    {
+      "slug": "p09",
+      "title": "王制",
+      "wiki": "荀子/王制篇",
+      "volume": 5
+    },
+    {
+      "slug": "p10",
+      "title": "富国",
+      "wiki": "荀子/富國篇",
+      "volume": 6
+    },
+    {
+      "slug": "p11",
+      "title": "王霸",
+      "wiki": "荀子/王霸篇",
+      "volume": 7
+    },
+    {
+      "slug": "p12",
+      "title": "君道",
+      "wiki": "荀子/君道篇",
+      "volume": 8
+    },
+    {
+      "slug": "p13",
+      "title": "臣道",
+      "wiki": "荀子/臣道篇",
+      "volume": 9
+    },
+    {
+      "slug": "p14",
+      "title": "致士",
+      "wiki": "荀子/致士篇",
+      "volume": 9
+    },
+    {
+      "slug": "p15",
+      "title": "议兵",
+      "wiki": "荀子/議兵篇",
+      "volume": 10
+    },
+    {
+      "slug": "p16",
+      "title": "强国",
+      "wiki": "荀子/彊國篇",
+      "volume": 11
+    },
+    {
+      "slug": "p17",
+      "title": "天论",
+      "wiki": "荀子/天論篇",
+      "volume": 11
+    },
+    {
+      "slug": "p18",
+      "title": "正论",
+      "wiki": "荀子/正論篇",
+      "volume": 12
+    },
+    {
+      "slug": "p19",
+      "title": "礼论",
+      "wiki": "荀子/禮論篇",
+      "volume": 13
+    },
+    {
+      "slug": "p20",
+      "title": "乐论",
+      "wiki": "荀子/樂論篇",
+      "volume": 14
+    },
+    {
+      "slug": "p21",
+      "title": "解蔽",
+      "wiki": "荀子/解蔽篇",
+      "volume": 15
+    },
+    {
+      "slug": "p22",
+      "title": "正名",
+      "wiki": "荀子/正名篇",
+      "volume": 16
+    },
+    {
+      "slug": "p23",
+      "title": "性恶",
+      "wiki": "荀子/性惡篇",
+      "volume": 17
+    },
+    {
+      "slug": "p24",
+      "title": "君子",
+      "wiki": "荀子/君子篇",
+      "volume": 17
+    },
+    {
+      "slug": "p25",
+      "title": "成相",
+      "wiki": "荀子/成相篇",
+      "volume": 18
+    },
+    {
+      "slug": "p26",
+      "title": "赋",
+      "wiki": "荀子/賦篇",
+      "volume": 18
+    },
+    {
+      "slug": "p27",
+      "title": "大略",
+      "wiki": "荀子/大略篇",
+      "volume": 19
+    },
+    {
+      "slug": "p28",
+      "title": "宥坐",
+      "wiki": "荀子/宥坐篇",
+      "volume": 20
+    },
+    {
+      "slug": "p29",
+      "title": "子道",
+      "wiki": "荀子/子道篇",
+      "volume": 20
+    },
+    {
+      "slug": "p30",
+      "title": "法行",
+      "wiki": "荀子/法行篇",
+      "volume": 20
+    },
+    {
+      "slug": "p31",
+      "title": "哀公",
+      "wiki": "荀子/哀公篇",
+      "volume": 20
+    },
+    {
+      "slug": "p32",
+      "title": "尧问",
+      "wiki": "荀子/堯問篇",
+      "volume": 20
+    }
+  ]
+}

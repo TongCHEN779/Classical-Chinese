@@ -1,0 +1,111 @@
+{
+  "volumes": [
+    {
+      "volume": 1,
+      "wiki_entries_checked": 0,
+      "paragraphs": 0,
+      "sentence_pairs": 0,
+      "notes": 0,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 2,
+      "wiki_entries_checked": 0,
+      "paragraphs": 0,
+      "sentence_pairs": 0,
+      "notes": 0,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 3,
+      "wiki_entries_checked": 0,
+      "paragraphs": 0,
+      "sentence_pairs": 0,
+      "notes": 0,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 4,
+      "wiki_entries_checked": 28,
+      "paragraphs": 94,
+      "sentence_pairs": 1500,
+      "notes": 682,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 5,
+      "wiki_entries_checked": 43,
+      "paragraphs": 76,
+      "sentence_pairs": 2602,
+      "notes": 617,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 6,
+      "wiki_entries_checked": 45,
+      "paragraphs": 85,
+      "sentence_pairs": 2665,
+      "notes": 579,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 7,
+      "wiki_entries_checked": 39,
+      "paragraphs": 80,
+      "sentence_pairs": 2797,
+      "notes": 675,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 8,
+      "wiki_entries_checked": 43,
+      "paragraphs": 70,
+      "sentence_pairs": 2508,
+      "notes": 413,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 9,
+      "wiki_entries_checked": 0,
+      "paragraphs": 0,
+      "sentence_pairs": 0,
+      "notes": 0,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 10,
+      "wiki_entries_checked": 0,
+      "paragraphs": 0,
+      "sentence_pairs": 0,
+      "notes": 0,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 11,
+      "wiki_entries_checked": 0,
+      "paragraphs": 0,
+      "sentence_pairs": 0,
+      "notes": 0,
+      "source_coverage_and_rendered_translations_match": true
+    },
+    {
+      "volume": 12,
+      "wiki_entries_checked": 0,
+      "paragraphs": 0,
+      "sentence_pairs": 0,
+      "notes": 0,
+      "source_coverage_and_rendered_translations_match": true
+    }
+  ],
+  "all_site_html_pages": 1023,
+  "all_site_note_buttons": 29365,
+  "all_note_counts_match": true,
+  "browser_visual_check": false,
+  "next": {
+    "volume": 9,
+    "id": "001",
+    "title": "邵临淄",
+    "source": "wikisource",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%81%8A%E9%BD%8B%E5%BF%97%E7%95%B0/%E7%AC%AC09%E5%8D%B7"
+  }
+}

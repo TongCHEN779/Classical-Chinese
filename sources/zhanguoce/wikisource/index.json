@@ -1,0 +1,24 @@
+{
+  "title": "戰國策 (士禮居叢書本)",
+  "url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96%20%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E6%88%B0%E5%9C%8B%E7%AD%96%20%28%E5%A3%AB%E7%A6%AE%E5%B1%85%E5%8F%A2%E6%9B%B8%E6%9C%AC%29",
+  "revision": "2459732",
+  "fetched_at": "2026-10-29T18:34:44.722946+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "序"
+    },
+    {
+      "type": "h1",
+      "text": "目录"
+    },
+    {
+      "type": "h1",
+      "text": "附"
+    }
+  ],
+  "links": [],
+  "text_sha256": "31340f9d25cd0e14ae5b6ab34e5d15832b227955137fa67c125ece3bdba7afa6"
+}

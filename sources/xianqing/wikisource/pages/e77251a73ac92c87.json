@@ -1,0 +1,36 @@
+{
+  "title": "閑情偶寄/聲容部",
+  "url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E8%81%B2%E5%AE%B9%E9%83%A8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E9%96%91%E6%83%85%E5%81%B6%E5%AF%84/%E8%81%B2%E5%AE%B9%E9%83%A8",
+  "revision": "228545",
+  "fetched_at": "2026-10-27T17:27:48.128510+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "閑情偶寄/演習部",
+      "label": "演习部"
+    },
+    {
+      "title": "閑情偶寄/居室部",
+      "label": "居室部"
+    },
+    {
+      "title": "閑情偶寄/聲容部/選姿第一",
+      "label": "选姿第一"
+    },
+    {
+      "title": "閑情偶寄/聲容部/修容第二",
+      "label": "修容第二"
+    },
+    {
+      "title": "閑情偶寄/聲容部/治服第三",
+      "label": "治服第三"
+    },
+    {
+      "title": "閑情偶寄/聲容部/習技第四",
+      "label": "习技第四"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

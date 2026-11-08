@@ -1,0 +1,77 @@
+{
+  "title": "春秋左氏傳",
+  "url": "https://zh.wikisource.org/zh-hans/%E6%98%A5%E7%A7%8B%E5%B7%A6%E6%B0%8F%E5%82%B3",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E6%98%A5%E7%A7%8B%E5%B7%A6%E6%B0%8F%E5%82%B3",
+  "revision": "2589318",
+  "fetched_at": "2026-10-27T14:05:49.211008+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "目录"
+    },
+    {
+      "type": "h2",
+      "text": "参见"
+    }
+  ],
+  "links": [
+    {
+      "title": "春秋左氏傳/序",
+      "label": "序"
+    },
+    {
+      "title": "春秋左氏傳/隱公",
+      "label": "隐公"
+    },
+    {
+      "title": "春秋左氏傳/桓公",
+      "label": "桓公"
+    },
+    {
+      "title": "春秋左氏傳/莊公",
+      "label": "庄公"
+    },
+    {
+      "title": "春秋左氏傳/閔公",
+      "label": "闵公"
+    },
+    {
+      "title": "春秋左氏傳/僖公",
+      "label": "僖公"
+    },
+    {
+      "title": "春秋左氏傳/文公",
+      "label": "文公"
+    },
+    {
+      "title": "春秋左氏傳/宣公",
+      "label": "宣公"
+    },
+    {
+      "title": "春秋左氏傳/成公",
+      "label": "成公"
+    },
+    {
+      "title": "春秋左氏傳/襄公",
+      "label": "襄公"
+    },
+    {
+      "title": "春秋左氏傳/昭公",
+      "label": "昭公"
+    },
+    {
+      "title": "春秋左氏傳/定公",
+      "label": "定公"
+    },
+    {
+      "title": "春秋左氏傳/哀公",
+      "label": "哀公"
+    },
+    {
+      "title": "春秋左氏傳/全覽",
+      "label": "全览"
+    }
+  ],
+  "text_sha256": "1b015d75596a92f8faafce227bd01e5d15d28a5a05b72339971fd5d0bdf8f754"
+}

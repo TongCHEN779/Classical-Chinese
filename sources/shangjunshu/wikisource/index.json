@@ -1,0 +1,32 @@
+{
+  "title": "商君書",
+  "url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8",
+  "resolved_url": "https://zh.wikisource.org/zh-hans/%E5%95%86%E5%90%9B%E6%9B%B8",
+  "revision": "2593685",
+  "fetched_at": "2026-10-28T21:53:28.436300+00:00",
+  "status": "source_cached_unreviewed",
+  "blocks": [],
+  "links": [
+    {
+      "title": "商君書/卷一",
+      "label": "卷一"
+    },
+    {
+      "title": "商君書/卷二",
+      "label": "卷二"
+    },
+    {
+      "title": "商君書/卷三",
+      "label": "卷三"
+    },
+    {
+      "title": "商君書/卷四",
+      "label": "卷四"
+    },
+    {
+      "title": "商君書/卷五",
+      "label": "卷五"
+    }
+  ],
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,160 @@
+{
+  "book": "资治通鉴·附录",
+  "scope": "新注序、宋神宗序、进书表、奖谕诏书、校勘人姓名、释例、外纪（序、卷四—十，含校记）；四库全书本及四部丛刊本版本页不收",
+  "pages": [
+    {
+      "slug": "fulu01",
+      "title": "新注资治通鉴序",
+      "sections": 1,
+      "source": {
+        "title": "新註資治通鑑序",
+        "url": "https://zh.wikisource.org/zh-hans/%E6%96%B0%E8%A8%BB%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%BA%8F",
+        "revision": "1759687",
+        "text_sha256": "7132856ae265f9d7fb58f9ed5a268c3184f4ec6f3ed8ae88d8bd8e3a71f2c18e"
+      }
+    },
+    {
+      "slug": "fulu02",
+      "title": "宋神宗资治通鉴序",
+      "sections": 1,
+      "source": {
+        "title": "宋神宗資治通鑑序",
+        "url": "https://zh.wikisource.org/zh-hans/%E5%AE%8B%E7%A5%9E%E5%AE%97%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%BA%8F",
+        "revision": "408147",
+        "text_sha256": "e3fc560cfc66044e09388cce32319dc10faef273ca5f38fe47118f4707c6d2bc"
+      }
+    },
+    {
+      "slug": "fulu03",
+      "title": "进书表",
+      "sections": 1,
+      "source": {
+        "title": "進書表",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%80%B2%E6%9B%B8%E8%A1%A8",
+        "revision": "2118053",
+        "text_sha256": "2a593abb6bd71c132617bda07ba3399a86d66de94f54a3d61c618469192e8847"
+      }
+    },
+    {
+      "slug": "fulu04",
+      "title": "奖谕诏书",
+      "sections": 1,
+      "source": {
+        "title": "獎諭詔書",
+        "url": "https://zh.wikisource.org/zh-hans/%E7%8D%8E%E8%AB%AD%E8%A9%94%E6%9B%B8",
+        "revision": "2118055",
+        "text_sha256": "c3c60c0eaf12fb1fcb733a88422c028205e1139749b6b3e963e52b7832ce9694"
+      }
+    },
+    {
+      "slug": "fulu05",
+      "title": "校勘人姓名",
+      "sections": 1,
+      "source": {
+        "title": "資治通鑑/校勘人姓名",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E6%A0%A1%E5%8B%98%E4%BA%BA%E5%A7%93%E5%90%8D",
+        "revision": "2118060",
+        "text_sha256": "36d14b263443fc83d72243c2a45f98f4867a34f7073ac8f4a186dec3c51fe5e1"
+      }
+    },
+    {
+      "slug": "fulu06",
+      "title": "资治通鉴释例",
+      "sections": 12,
+      "source": {
+        "title": "資治通鑑釋例",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E9%87%8B%E4%BE%8B",
+        "revision": "2453593",
+        "text_sha256": "6af09612575609d6abab8a2adab04db011ab1912bc75d3ae87e27cf71d56935a"
+      }
+    },
+    {
+      "slug": "fulu07",
+      "title": "资治通鉴外纪·序",
+      "sections": 2,
+      "source": {
+        "title": "資治通鑑外紀",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%A4%96%E7%B4%80",
+        "revision": "2594150",
+        "text_sha256": "f5a0aafc19e9f5d25ddfb2cedfa05f7f586f65041b5405d9db90b32e53a72dbe"
+      }
+    },
+    {
+      "slug": "fulu08",
+      "title": "资治通鉴外纪·卷四",
+      "sections": 93,
+      "source": {
+        "title": "資治通鑑外紀/卷04",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%A4%96%E7%B4%80/%E5%8D%B704",
+        "revision": "2594145",
+        "text_sha256": "015d60e7a5401c880a39b2ac18ed333d108d92798f587b65947d334ab8e1cc2c"
+      }
+    },
+    {
+      "slug": "fulu09",
+      "title": "资治通鉴外纪·卷五",
+      "sections": 30,
+      "source": {
+        "title": "資治通鑑外紀/卷05",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%A4%96%E7%B4%80/%E5%8D%B705",
+        "revision": "824254",
+        "text_sha256": "f117c2282e94f5513f56d72c4790d6e7f332b6ffaf278baa65e1426d7480529f"
+      }
+    },
+    {
+      "slug": "fulu10",
+      "title": "资治通鉴外纪·卷六",
+      "sections": 45,
+      "source": {
+        "title": "資治通鑑外紀/卷06",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%A4%96%E7%B4%80/%E5%8D%B706",
+        "revision": "836148",
+        "text_sha256": "4c43f7106e2e9534bb16127c500d38c10ff076a3cb03329cd6bd9817a2cf9286"
+      }
+    },
+    {
+      "slug": "fulu11",
+      "title": "资治通鉴外纪·卷七",
+      "sections": 49,
+      "source": {
+        "title": "資治通鑑外紀/卷07",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%A4%96%E7%B4%80/%E5%8D%B707",
+        "revision": "863925",
+        "text_sha256": "ccb4460be5e35b855cf61aa3429d5fd51add1589adb25b6f84ad1fd9574ef610"
+      }
+    },
+    {
+      "slug": "fulu12",
+      "title": "资治通鉴外纪·卷八",
+      "sections": 15,
+      "source": {
+        "title": "資治通鑑外紀/卷08",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%A4%96%E7%B4%80/%E5%8D%B708",
+        "revision": "864708",
+        "text_sha256": "4a573739cad05c2d0ab7dcc4797bafd25ecb625ab0b61377624183c6a602502a"
+      }
+    },
+    {
+      "slug": "fulu13",
+      "title": "资治通鉴外纪·卷九",
+      "sections": 15,
+      "source": {
+        "title": "資治通鑑外紀/卷09",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%A4%96%E7%B4%80/%E5%8D%B709",
+        "revision": "870455",
+        "text_sha256": "c0b751bccf6e105f08566e59372c39f98e9f5afe4fc8957c3b4d7b34837b3582"
+      }
+    },
+    {
+      "slug": "fulu14",
+      "title": "资治通鉴外纪·卷十",
+      "sections": 59,
+      "source": {
+        "title": "資治通鑑外紀/卷10",
+        "url": "https://zh.wikisource.org/zh-hans/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91%E5%A4%96%E7%B4%80/%E5%8D%B710",
+        "revision": "2594148",
+        "text_sha256": "bc258a9fb3765dd491f02719cb44e673aa292af8a9e74b0ee7ae0e876a75b5ff"
+      }
+    }
+  ]
+}
