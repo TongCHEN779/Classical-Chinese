@@ -965,7 +965,7 @@ def _wenxuan_spec():
         "title": "昭明文选", "author": "［南朝梁］萧统编", "prose": True,
         "strict_pairs": True, "home_intro_own": True, "side_toc": True,
         "side_toc_always": True, "no_count": True, "wide_index": True,
-        "omit_source_credit": True, "reading_hint": "",
+        "omit_source_credit": True, "reading_hint": "", "sub_toc": True,
         "pages": [(ch["slug"], page_title(ch)) for ch in catalog],
         "index_footer": "",
     }
@@ -1604,7 +1604,12 @@ def build_poetry(bslug, spec):
                 if sl is None:
                     items.append(f'<li class="grp">{esc(tt)}</li>')
                 elif sl == slug:
-                    items.append(f'<li class="cur"><a href="{sl}.html" aria-current="page">{esc(tt)}</a></li>')
+                    sub = ""
+                    if spec.get("sub_toc"):
+                        subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and not s_["chunks"])]
+                        if len(subs) >= 2:
+                            sub = ('<ul class="sub">' + "".join(f'<li><a href="#e{k}">{esc(s_["title"])}</a></li>' for k, s_ in subs) + "</ul>")
+                    items.append(f'<li class="cur"><a href="{sl}.html" aria-current="page">{esc(tt)}</a>{sub}</li>')
                 elif page_files:
                     items.append(f'<li><a href="{sl}.html">{esc(tt)}</a></li>')
                 else:
