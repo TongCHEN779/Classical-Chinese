@@ -1008,6 +1008,41 @@ def _lunheng_spec():
     }
 
 
+def _yutai_spec():
+    catalog = json.loads((ROOT / "sources/yutai/chapters.json").read_text(encoding="utf8"))
+
+    def page_title(ch):
+        if ch["slug"] == "xu":
+            return "序"
+        names = []
+        for sec in ch["sections"]:
+            if sec["author"] != "无名氏" and sec["author"] not in names:
+                names.append(sec["author"])
+            if len(names) >= 3:
+                break
+        return ch["title"] + ("·" + "、".join(names) + "等" if names else "")
+
+    sub_labels = {}
+    for ch in catalog:
+        authors = {sec["author"] for sec in ch["sections"]}
+        labels = []
+        for sec in ch["sections"]:
+            label = sec["title"]
+            if len(authors) > 1 and sec["author"] and sec["author"] != "无名氏" and sec["author"] not in label:
+                label += f"（{sec['author']}）"
+            labels.append(label)
+        sub_labels[ch["slug"]] = labels
+    return {
+        "sub_labels": sub_labels,
+        "title": "玉台新咏", "author": "［陈］徐陵编", "prose": True,
+        "strict_pairs": True, "home_intro_own": True, "side_toc": True,
+        "side_toc_always": True, "no_count": True, "wide_index": True,
+        "omit_source_credit": True, "reading_hint": "",
+        "pages": [(ch["slug"], page_title(ch)) for ch in catalog],
+        "index_footer": "原文取自维基文库各诗单页；底本中不带标点的诗，标点（“，。”）为整理者按联所加，文字未改。",
+    }
+
+
 def _lvshichunqiu_spec():
     base = ROOT / "sources/lvshichunqiu"
     catalog = json.loads((base / "chapters.json").read_text(encoding="utf8"))
@@ -1151,6 +1186,7 @@ POETRY = {
     "fangyan": _fangyan_spec(),
     "wenxuan": _wenxuan_spec(),
     "lunheng": _lunheng_spec(),
+    "yutai": _yutai_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
     "dengxizi": _dengxizi_spec(),
@@ -1248,6 +1284,7 @@ BOOK_INTRO = {
     "xuanzhenzi": "唐代张志和的道家著作。今存《外篇》三卷，以寓言和问答探讨天地造化、有无与万物变化。",
     "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
     "lvshichunqiu": "战国末年吕不韦组织门客编撰的著作，分十二纪、八览、六论，汇集诸家关于治国、修身、农事和礼乐的论说。",
+    "yutai": "南朝陈徐陵编的诗歌总集，十卷，选录汉至梁以闺情、艳体为主的诗作，序文自述为宫中女子消闲而编；卷九为歌行，卷十为五言四句小诗。",
     "lunheng": "东汉王充所作的议论著作，今存八十五篇（招致篇已佚），分三十卷；以“疾虚妄”为宗旨，辨析命运、天人感应、鬼神祭祀、禁忌俗说和儒家经传里的失实之处。",
     "wenxuan": "南朝梁昭明太子萧统主持编选的诗文总集，选录先秦至梁的赋、诗、骚、各体文章，分六十卷；本站所据为李善注本，只录正文。",
     "fangyan": "西汉扬雄所作汉语方言词汇书，十三卷，按词义分条，说明同一事物或概念在各地的不同叫法；旧题晋郭璞注。",
@@ -1755,6 +1792,7 @@ INITIAL["洛"] = "L"
 INITIAL["吕"] = "L"
 INITIAL["方"] = "F"
 INITIAL["昭"] = "Z"
+INITIAL["玉"] = "Y"
 INITIAL["金"] = "J"
 INITIAL["儒"] = "R"
 INITIAL.update({"孽": "N", "商": "S", "廿": "N", "发": "F", "负": "F"})
