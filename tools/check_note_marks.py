@@ -39,7 +39,8 @@ def main():
                 sups = sec.select("sup.n")
                 m = sum(count(s["data-n"]) for s in sups)
                 notes_total += n
-                if n != m:
+                src = any('src' in (l.get('class') or []) for l in lists)   # 维基原文有的注释在正文里没有注号，不得补字，故人间词话只要求上标不多于注释
+                if (m > n) if src else (n != m):
                     bad += 1
                     if bad <= 20:
                         print(f"  不一致 {f.relative_to(ROOT)} {sec.get('id')}: 注释 {n} 条，上标 {m} 个")
