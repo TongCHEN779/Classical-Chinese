@@ -1150,7 +1150,7 @@ def _dongpozhilin_spec():
         return f'{ch["title"]}·{"、".join(seen[:2])}' + ("等" if len(seen) > 2 else "")
 
     return {
-        "title": "东坡志林", "author": "［北宋］苏轼", "prose": True,
+        "title": "东坡志林", "author": "［北宋］苏轼", "prose": True, "home_intro_own": True,
         "strict_pairs": True, "side_toc": True,
         "side_toc_always": True, "no_count": True, "wide_index": True,
         "omit_source_credit": True, "reading_hint": "",
@@ -1456,6 +1456,7 @@ POETRY = {
     "huainanzi": _huainanzi_spec(),
     "shangjunshu": _shangjunshu_spec(),
     "liaozhai": _liaozhai_spec(),
+    "changshengdian": _works_spec("changshengdian", "长生殿", "［清］洪昇", "出"),
     "taohuashan": _plain_novel_spec("taohuashan", "桃花扇", "［清］孔尚任", "出", 44)
         | {"prose": False, "index_footer": ""},
     "mudanting": _mudanting_spec(),
@@ -1561,6 +1562,7 @@ BOOK_INTRO = {
     "huainanzi": "西汉淮南王刘安及其门客所著的杂家著作，兼取道、儒、法、阴阳诸家，共二十一卷。",
     "shangjunshu": "法家著作，又名《商子》，讨论变法、耕战、赏刑与法令，今存二十四篇。",
     "liaozhai": "清代蒲松龄所著文言短篇小说集，多写狐鬼花妖，反映世态人情。",
+    "changshengdian": "洪昇的清代传奇，共五十出，写唐明皇与杨贵妃的长生殿盟誓、马嵬之变及死后在天上团圆的故事。",
     "taohuashan": "孔尚任的清代传奇，借李香君与侯方域的离合，写南明兴亡与秦淮旧事。",
     "mudanting": "明代汤显祖所作传奇，又名《还魂记》，全五十五出，写杜丽娘因梦生情、因情而死、又因情复生的故事。",
     "niehaihua": "金松岑开篇、曾朴续写的晚清小说，借金雯青与傅彩云的经历，写士林交游、出使见闻与政局变迁。",
@@ -1703,7 +1705,7 @@ def parse_poems(paths):
 
 
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
-STAGE_BOOKS = {"xixiangji", "taohuashan", "qiangtoumashang", "baiyueting", "qiannulihun", "guanhanqing"}
+STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "baiyueting", "qiannulihun", "guanhanqing"}
 PEACH_DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】|\([^()]*\)|（[^（）]*）)")
 ERKE_STAGE = re.compile(r"(〈（[^〉]*）〉|〔[^〕]*〕|【[^】]*】)")
 PEACH_TUNES = {"鹧鸪天", "皂罗袍"}
@@ -2064,6 +2066,7 @@ INITIAL["昭"] = "Z"
 INITIAL["玉"] = "Y"
 INITIAL["乐"] = "Y"
 INITIAL["人"] = "R"
+INITIAL["长"] = "C"
 INITIAL["东"] = "D"
 INITIAL["金"] = "J"
 INITIAL["儒"] = "R"
