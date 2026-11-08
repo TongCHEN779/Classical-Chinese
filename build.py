@@ -1160,6 +1160,33 @@ def _dongpozhilin_spec():
     }
 
 
+def _changliwenchao_spec():
+    catalog = json.loads((ROOT / "sources/changliwenchao/chapters.json").read_text(encoding="utf8"))
+    return {
+        "title": "昌黎文钞", "author": "［唐］韩愈著，［明］茅坤编", "prose": True,
+        "strict_pairs": True, "side_toc": True,
+        "side_toc_always": True, "no_count": True, "wide_index": True,
+        "omit_source_credit": True, "reading_hint": "",
+        "sub_labels": {ch["slug"]: [sec["title"] for sec in ch["sections"]] for ch in catalog},
+        "pages": [(ch["slug"], ch["title"]) for ch in catalog],
+        "index_footer": "",
+    }
+
+
+def _texts_spec(slug, title, author, wiki_intro=False):
+    """tools/fetch_texts.py 抓取的各书：页表读自 sources/<slug>/chapters.json，节名作页内小目录。"""
+    catalog = json.loads((ROOT / f"sources/{slug}/chapters.json").read_text(encoding="utf8"))
+    return {
+        "title": title, "author": author, "prose": True, "home_intro_own": True,
+        "strict_pairs": True, "side_toc": True,
+        "side_toc_always": True, "no_count": True, "wide_index": True,
+        "omit_source_credit": True, "reading_hint": "",
+        "sub_labels": {ch["slug"]: [sec["title"] for sec in ch["sections"]] for ch in catalog},
+        "pages": [(ch["slug"], ch["title"]) for ch in catalog],
+        "index_footer": "",
+    }
+
+
 def _lunheng_spec():
     catalog = json.loads((ROOT / "sources/lunheng/chapters.json").read_text(encoding="utf8"))
 
@@ -1408,6 +1435,19 @@ POETRY = {
     "yutai": _yutai_spec(),
     "yuefu": _yuefu_spec(),
     "dongpozhilin": _dongpozhilin_spec(),
+    "changliwenchao": _changliwenchao_spec(),
+    "shipin": _texts_spec("shipin", "诗品", "［南朝梁］钟嵘"),
+    "weilu": _texts_spec("weilu", "围炉夜话", "［清］王永彬"),
+    "caigentan": _texts_spec("caigentan", "菜根谭", "［明］洪应明"),
+    "fusheng": _texts_spec("fusheng", "浮生六记", "［清］沈复"),
+    "zengguang": _texts_spec("zengguang", "增广贤文", "佚名"),
+    "yanshi": _texts_spec("yanshi", "颜氏家训", "［北齐］颜之推"),
+    "sunzi": _texts_spec("sunzi", "孙子兵法", "［春秋］孙武"),
+    "sunbin": _texts_spec("sunbin", "孙膑兵法", "［战国］孙膑"),
+    "fansheng": _texts_spec("fansheng", "西湖老人繁胜录", "［南宋］西湖老人"),
+    "yinwenzi": _texts_spec("yinwenzi", "尹文子", "［战国］尹文"),
+    "shenbuhai": _texts_spec("shenbuhai", "申子", "［战国］申不害"),
+    "shendao": _texts_spec("shendao", "慎子", "［战国］慎到"),
     "renjiancihua": _renjiancihua_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
@@ -1508,6 +1548,19 @@ BOOK_INTRO = {
     "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
     "lvshichunqiu": "战国末年吕不韦组织门客编撰的著作，分十二纪、八览、六论，汇集诸家关于治国、修身、农事和礼乐的论说。",
     "renjiancihua": "近代王国维的词学评论，以“境界”说论词，分卷上（已刊 64 则）、卷下（未刊稿与删稿 59 则）与附录补遗（25 则）；本站据维基文库汇本，正文之外只录该页面自带的注释。",
+    "shipin": "南朝梁钟嵘的诗歌评论，分上中下三品评论汉至梁的一百二十余位五言诗人，并追溯其风格渊源，是中国最早的诗论专著之一。",
+    "weilu": "清代王永彬的格言小品，三百余条，谈读书、修身、治家和待人接物，多用对句，文字平实。",
+    "caigentan": "明代洪应明的语录体小品，分前集、后集，以简短隽语谈人生、处世与修养，融合儒释道思想；本站兼收明刻本与清刻本。",
+    "fusheng": "清代沈复的自传体散文，原为六记，以与妻子陈芸的生活为中心，写闺房之乐、闲情逸趣、坎坷、游历；后两记通常认为是后人伪续。",
+    "zengguang": "明清以来流传的蒙学格言集，用对句和俗语汇集处世、待人、读书与劝世之言，分上集、下集。",
+    "yanshi": "北齐颜之推训诫子孙的家训，二十篇，谈教子、治家、勉学、文章、处世及音辞等，是中国古代家训的代表作。",
+    "sunzi": "春秋孙武的兵书，十三篇，论计划、作战、谋攻、形势、虚实、地形及火攻用间，是中国古代军事思想的经典。",
+    "sunbin": "战国孙膑的兵书，1972年山东银雀山汉墓出土竹简整理而成，记孙膑与齐威王、田忌的问对及用兵原则，原简残缺较多。",
+    "fansheng": "南宋无名氏所记临安城节令、行市、社会、仪仗与杂艺，为了解南宋都城生活的笔记，存《永乐大典》本。",
+    "yinwenzi": "战国尹文的著作，今存大道上、大道下两篇，主张名、法并用，论名实与治国之道，属名家兼法家一路。",
+    "shenbuhai": "战国法家申不害的著作残篇，主张君主以“术”驭臣、循名责实，原书已佚，今存《大体》《君臣》及佚文。",
+    "shendao": "战国慎到的著作，今存《威德》《因循》《民杂》《知忠》《德立》《君人》《君臣》七篇及逸文，讲“势”与因循、无为而治。",
+    "changliwenchao": "唐代韩愈文章的选本，明茅坤编入《唐宋八大家文钞》，共十六卷，按表状、书启、序、记传、论说、碑志、祭文等文体编排。",
     "dongpozhilin": "北宋苏轼的随笔杂记，五卷，记游、怀古、修养、梦寐、佛道异事、技术人物与论古，多为贬居黄州、惠州、儋州时的随手所记。",
     "yuefu": "北宋郭茂倩编的乐府歌辞总集，一百卷，分郊庙、燕射、鼓吹、横吹、相和、清商、舞曲、琴曲、杂曲、近代曲、杂歌谣、新乐府十二类；每题先列古辞、后列拟作，并有大量解题。",
     "yutai": "南朝陈徐陵编的诗歌总集，十卷，选录汉至梁以闺情、艳体为主的诗作，序文自述为宫中女子消闲而编；卷九为歌行，卷十为五言四句小诗。",
@@ -1524,7 +1577,7 @@ BOOK_INTRO = {
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
     "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
     "jiayou": "《嘉祐集》是北宋苏洵的文集。苏洵字明允，眉州眉山人，与苏轼、苏辙并称三苏。书中既有《权书》《衡论》一类讨论用兵与治国的文章，也有经解、史论、书札、族谱、杂文和诗。所选底本分十六卷，另有补遗，可从中看见苏洵怎样以古事论当世，又怎样把家族与交游写入文章。",
-    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《永州八记》《湖心亭看雪》等三十三项。",
+    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《永州八记》《湖心亭看雪》《哀江南赋》《与陈伯之书》等三十八项。",
     "guanhanqing": "元代关汉卿所作杂剧合集，收《窦娥冤》《救风尘》《望江亭》《单刀会》《拜月亭》《调风月》等十八种，题材涉及冤狱、婚恋、公案与历史英雄。",
     "zhaoshigu": "元代纪君祥所作杂剧，全称《冤报冤赵氏孤儿》，写程婴、公孙杵臼舍命救护赵氏孤儿、孤儿长大后报仇雪冤的故事。",
     "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",
@@ -1767,6 +1820,20 @@ def split_poem_runs(o):
     return merged if any(m[0] for m in merged) and len(merged) > 1 else None
 
 
+_ORPHAN = re.compile(r"[\s…⋯□.。)）」』”\]〕]*")
+
+
+def sent_units(text):
+    """切句；只剩标点、省略号或缺字符的残片，并入上一句（与 split_pairs 的配对一致）。"""
+    sents = []
+    for s in split_sents(text):
+        if sents and _ORPHAN.fullmatch(s):
+            sents[-1] += s
+        else:
+            sents.append(s)
+    return sents
+
+
 def drama_html(text, stage_book=None):
     out = []
     pattern = {"taohuashan": PEACH_DRAMA, "erke": ERKE_STAGE}.get(stage_book, DRAMA)
@@ -1908,7 +1975,7 @@ def build_poetry(bslug, spec):
                                    f'<p>{esc(ch["t"])}</p></details>')
                       pairs = []
                   if spec.get("strict_pairs"):
-                      original_sents = split_sents(ch["o"])
+                      original_sents = sent_units(ch["o"])
                       if (len(original_sents) != len(ch["t"].split("¦"))
                               or [o.replace(NOTE_MARK, "") for o, _t in pairs] != original_sents):
                           raise ValueError(f"{bslug}/{slug}: 原文与白话必须逐句对应，不能整段回退")
@@ -2067,6 +2134,8 @@ INITIAL["玉"] = "Y"
 INITIAL["乐"] = "Y"
 INITIAL["人"] = "R"
 INITIAL["长"] = "C"
+INITIAL["昌"] = "C"
+INITIAL.update({"诗": "S", "围": "W", "菜": "C", "浮": "F", "增": "Z", "颜": "Y", "孙": "S", "西": "X", "尹": "Y", "申": "S", "慎": "S"})
 INITIAL["东"] = "D"
 INITIAL["金"] = "J"
 INITIAL["儒"] = "R"

@@ -1,0 +1,555 @@
+{
+  "book": "长生殿",
+  "pages": [
+    {
+      "slug": "c01",
+      "title": "第一出 传概",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/01",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/01",
+        "revision": "1500275",
+        "text_sha256": "5d9469458bccf2eb422c59b0acc5f4baa553f265876a225d3f880e77e44dd066"
+      }
+    },
+    {
+      "slug": "c02",
+      "title": "第二出 定情",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/02",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/02",
+        "revision": "1501666",
+        "text_sha256": "23204177c835903b1dc1c0952545ad320108c55e531c827dd312b3c35d7c0c7d"
+      }
+    },
+    {
+      "slug": "c03",
+      "title": "第三出 贿权",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/03",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/03",
+        "revision": "1501667",
+        "text_sha256": "e35ddba535cb270017bc6885d518f1ebb7ad7569fb9fa9f394671a0737db5e08"
+      }
+    },
+    {
+      "slug": "c04",
+      "title": "第四出 春睡",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/04",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/04",
+        "revision": "849425",
+        "text_sha256": "6af714cbaad9975019a703d1548c0103affe93e7d73779ea8c6dfdfac30dcb4a"
+      }
+    },
+    {
+      "slug": "c05",
+      "title": "第五出 禊游",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/05",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/05",
+        "revision": "849440",
+        "text_sha256": "af714d4ba990d693dcdb21febc605a774319a7eb5e6f6a64a9f95a489be25e09"
+      }
+    },
+    {
+      "slug": "c06",
+      "title": "第六出 傍讶",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/06",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/06",
+        "revision": "849449",
+        "text_sha256": "e45dffb91038f93df8b5ceeda6e96963e5624fb64880802fd9480a0929c593b5"
+      }
+    },
+    {
+      "slug": "c07",
+      "title": "第七出 幸恩",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/07",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/07",
+        "revision": "849452",
+        "text_sha256": "6d0dce2f1a640542fbdbaacf05146530dda364474daabb72d766350a1f977a53"
+      }
+    },
+    {
+      "slug": "c08",
+      "title": "第八出 献发",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/08",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/08",
+        "revision": "850666",
+        "text_sha256": "875005ec3abf6a942d5b4c9140788fec129603773a76af19d2e5f2881a67f1bd"
+      }
+    },
+    {
+      "slug": "c09",
+      "title": "第九出 复召",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/09",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/09",
+        "revision": "849468",
+        "text_sha256": "5b8547f1b58917d5b3147217ae0f9f2337d8b6a5f334e086594f9b1f658b7ef9"
+      }
+    },
+    {
+      "slug": "c10",
+      "title": "第十出 疑谶",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/10",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/10",
+        "revision": "1500242",
+        "text_sha256": "df337430003b528a22f4d1576935530bbf1bf04e08fbc88f22ae11b4cb304b75"
+      }
+    },
+    {
+      "slug": "c11",
+      "title": "第十一出 闻乐",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/11",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/11",
+        "revision": "849475",
+        "text_sha256": "4d04997446e3612eaab82c57a509d48630f3e8b43143265eb8e9cfcb36fc4aef"
+      }
+    },
+    {
+      "slug": "c12",
+      "title": "第十二出 制谱",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/12",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/12",
+        "revision": "2492051",
+        "text_sha256": "d723238f15a93c8b28fc656d4cea7cd371515b0448a69bd370e4df62984fdfeb"
+      }
+    },
+    {
+      "slug": "c13",
+      "title": "第十三出 权哄",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/13",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/13",
+        "revision": "1142726",
+        "text_sha256": "363035c821057b995d0179e0c2ed6f0a4ff5506d107283b79683f934777aeb44"
+      }
+    },
+    {
+      "slug": "c14",
+      "title": "第十四出 偷曲",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/14",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/14",
+        "revision": "850667",
+        "text_sha256": "e3e06821e949546dde811c592267759f5dd1fe72f0dd4f703ea062e1c5e1db99"
+      }
+    },
+    {
+      "slug": "c15",
+      "title": "第十五出 进果",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/15",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/15",
+        "revision": "2570987",
+        "text_sha256": "d895725a4a2461835bb47910cdc8a7698c56855332ffb8fdd3806861e7195dc0"
+      }
+    },
+    {
+      "slug": "c16",
+      "title": "第十六出 舞盘",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/16",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/16",
+        "revision": "2570997",
+        "text_sha256": "465a71facdc743ddc3a403deee1b3c01155c863218807333dff61e7d78419940"
+      }
+    },
+    {
+      "slug": "c17",
+      "title": "第十七出 合围",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/17",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/17",
+        "revision": "1142621",
+        "text_sha256": "b89234f307e625d81e36f5d11ea9dfa37c35376371cb1a7f913a1332dc7488ab"
+      }
+    },
+    {
+      "slug": "c18",
+      "title": "第十八出 夜怨",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/18",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/18",
+        "revision": "850767",
+        "text_sha256": "a9ffea1eb52689dd24eadb47dd57ad2b4e91879d316bf3793d30e0c284e657c3"
+      }
+    },
+    {
+      "slug": "c19",
+      "title": "第十九出 絮阁",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/19",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/19",
+        "revision": "850766",
+        "text_sha256": "5b9dac39bf9402294e3be81bfad9a8e85b16ec4f37b0b929b5b723c64c198416"
+      }
+    },
+    {
+      "slug": "c20",
+      "title": "第廿出 侦报",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/20",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/20",
+        "revision": "850764",
+        "text_sha256": "80c3a2ea14363d19feeab3a40d9aff0fe3ec2bd7beba03fa2a96ff076942df84"
+      }
+    },
+    {
+      "slug": "c21",
+      "title": "第廿一出 窥浴",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/21",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/21",
+        "revision": "849596",
+        "text_sha256": "34be7c4b3c2d5082d7669dd3865b199e67ca7c2edfda41ac7c44d36069b8994d"
+      }
+    },
+    {
+      "slug": "c22",
+      "title": "第廿二出 密誓",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/22",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/22",
+        "revision": "2571350",
+        "text_sha256": "528c7547a718cad8d1cf29fd7ba288fef354cfee799b0194fd90850f678ed682"
+      }
+    },
+    {
+      "slug": "c23",
+      "title": "第廿三出 陷关",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/23",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/23",
+        "revision": "849364",
+        "text_sha256": "7c543603748c28e4acaf641a5273a6a1681b21be84be75e74575a28acba66e4d"
+      }
+    },
+    {
+      "slug": "c24",
+      "title": "第廿四出 惊变",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/24",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/24",
+        "revision": "850732",
+        "text_sha256": "5f0b8730dbac2fb8b8992913b4a872b356f2441b3753c93e4f2654a15b53ac84"
+      }
+    },
+    {
+      "slug": "c25",
+      "title": "第廿五出 埋玉",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/25",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/25",
+        "revision": "2514584",
+        "text_sha256": "2a28430c19a86d97539b98f373f05f5af6aaad3d7f999f069384bbf0a8eb7944"
+      }
+    },
+    {
+      "slug": "c26",
+      "title": "第廿六出 献饭",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/26",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/26",
+        "revision": "849368",
+        "text_sha256": "1746dcf8d94e73ac51301fc4e4fd0bbd7d78827fe3e90ce0de0e67cf21608615"
+      }
+    },
+    {
+      "slug": "c27",
+      "title": "第廿七出 冥追",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/27",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/27",
+        "revision": "849369",
+        "text_sha256": "4c515b172d2e9da05fe67a9260570b8e29a14fed79f9960df9058f72809dfe12"
+      }
+    },
+    {
+      "slug": "c28",
+      "title": "第廿八出 骂贼",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/28",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/28",
+        "revision": "1142803",
+        "text_sha256": "f215a6eb3cc56e685fa779550dea27c9fd1a8f6609431b4c58da700edad74ae3"
+      }
+    },
+    {
+      "slug": "c29",
+      "title": "第廿九出 闻铃",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/29",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/29",
+        "revision": "2291934",
+        "text_sha256": "d60093ef5eced0dca6883704531b7c4a6884614fb2ff61d1d385c447dcf45e4a"
+      }
+    },
+    {
+      "slug": "c30",
+      "title": "第卅出 情悔",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/30",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/30",
+        "revision": "2293355",
+        "text_sha256": "186de2b24f7cc01769b16b2317bdad8655ddabb5b67345d1d3e0bfd572250eed"
+      }
+    },
+    {
+      "slug": "c31",
+      "title": "第卅一出 剿寇",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/31",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/31",
+        "revision": "2292006",
+        "text_sha256": "9a9c1e65e6193ed6c7078ecab5af6731b057c6bda38531730ed2c270377c8152"
+      }
+    },
+    {
+      "slug": "c32",
+      "title": "第卅二出 哭像",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/32",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/32",
+        "revision": "2292079",
+        "text_sha256": "84f66f6e02cc01180f4255fc793493ef85de1ecf13565a1c1c3626a926fee178"
+      }
+    },
+    {
+      "slug": "c33",
+      "title": "第卅三出 神诉",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/33",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/33",
+        "revision": "2292096",
+        "text_sha256": "5e1b866ef15efd473ed43dbd0afbc477a1631d02d10448602b494218ad4dbfb4"
+      }
+    },
+    {
+      "slug": "c34",
+      "title": "第卅四出 刺逆",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/34",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/34",
+        "revision": "2292105",
+        "text_sha256": "00ec80ecdc46fb7d5724a994a341f4fcfc44654acdf041e5abfd0859ea6859d9"
+      }
+    },
+    {
+      "slug": "c35",
+      "title": "第卅五出 收京",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/35",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/35",
+        "revision": "2292116",
+        "text_sha256": "ac9d5e4f7c153680110c3b0bd5ef17df22c4aa8526b61657b6d89fb5e3090691"
+      }
+    },
+    {
+      "slug": "c36",
+      "title": "第卅六出 看袜",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/36",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/36",
+        "revision": "2292125",
+        "text_sha256": "2fc15fc5a6bb13ead6575cd6630db3938ed0c633ec8960debaa2c50b8c9f3886"
+      }
+    },
+    {
+      "slug": "c37",
+      "title": "第卅七出 尸解",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/37",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/37",
+        "revision": "849379",
+        "text_sha256": "44f3a9685652f1fbd5153374eea79d416349344285e6ce39c92d4f92453f221b"
+      }
+    },
+    {
+      "slug": "c38",
+      "title": "第卅八出 弹词",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/38",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/38",
+        "revision": "1500248",
+        "text_sha256": "6e39f74e912001bf4a292816729eaf44c7fa1a717fa6cd828b0de930ddaaaa96"
+      }
+    },
+    {
+      "slug": "c39",
+      "title": "第卅九出 私祭",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/39",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/39",
+        "revision": "849381",
+        "text_sha256": "a34ef3c905a431f6ca92a792b4a9aa305c8b5ef5a5c90eae6f39d97705121eff"
+      }
+    },
+    {
+      "slug": "c40",
+      "title": "第卌出 仙忆",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/40",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/40",
+        "revision": "2292157",
+        "text_sha256": "5f10f95a14765d478bd4895a767536a8453f9863e007ca269d0ed4e5fbfd29ac"
+      }
+    },
+    {
+      "slug": "c41",
+      "title": "第卌一出 见月",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/41",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/41",
+        "revision": "2292167",
+        "text_sha256": "cbe3737a3958e8f8b74a484ca228a88e939f9d291214cc32134de2deace9b982"
+      }
+    },
+    {
+      "slug": "c42",
+      "title": "第卌二出 驿备",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/42",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/42",
+        "revision": "849384",
+        "text_sha256": "587ed6e07b7583b1690974e5f2b5ba51047978e3b216565406a583e3be47d7b5"
+      }
+    },
+    {
+      "slug": "c43",
+      "title": "第卌三出 改葬",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/43",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/43",
+        "revision": "849385",
+        "text_sha256": "66a49201655e32fc3900dd24ad31372eec4864a5e67631c02f54e7749ba5d3b6"
+      }
+    },
+    {
+      "slug": "c44",
+      "title": "第卌四出 怂合",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/44",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/44",
+        "revision": "849386",
+        "text_sha256": "08d7221b10f12b645875b7dbd2116479c2a8441156a33019adf9dc9b460c4b21"
+      }
+    },
+    {
+      "slug": "c45",
+      "title": "第卌五出 雨梦",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/45",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/45",
+        "revision": "849387",
+        "text_sha256": "11dafdfa5db4772d2e23f210d2eb3b1cc3fe072011f9f63099b2ea76e8b45fa0"
+      }
+    },
+    {
+      "slug": "c46",
+      "title": "第卌六出 觅魂",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/46",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/46",
+        "revision": "849388",
+        "text_sha256": "f478f32625945bec21c7a985614d90d6eeba5f56d5dbaee1be230034a7b10523"
+      }
+    },
+    {
+      "slug": "c47",
+      "title": "第卌七出 补恨",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/47",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/47",
+        "revision": "849389",
+        "text_sha256": "e677c40af9fe4fa97e99aec6021a23229f5782780ec8d24cf43d70addb71b384"
+      }
+    },
+    {
+      "slug": "c48",
+      "title": "第卌八出 寄情",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/48",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/48",
+        "revision": "849547",
+        "text_sha256": "c0c07b084f9eea9e094899dee1d2fb1de1fd75d5dd758d24c6df443285bf7b8d"
+      }
+    },
+    {
+      "slug": "c49",
+      "title": "第卌九出 得信",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/49",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/49",
+        "revision": "849542",
+        "text_sha256": "45911d0ad05c71946e61c52adcacc599b2c3892d18fcaa749684e23f69fc3d47"
+      }
+    },
+    {
+      "slug": "c50",
+      "title": "第五十出 重圆",
+      "sections": 1,
+      "source": {
+        "title": "長生殿/50",
+        "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E7%94%9F%E6%AE%BF/50",
+        "revision": "849495",
+        "text_sha256": "404f931d89849cf2e4208d24775a0e71ec67f45dbcdee4e59ede2b7759d51807"
+      }
+    }
+  ]
+}
