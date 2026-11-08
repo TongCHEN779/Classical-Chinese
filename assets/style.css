@@ -153,8 +153,8 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 /* 编者夹注〈…〉：小字灰色 */
 .ed{color:var(--muted);font-size:.82em}
 
-/* 总目录里当前页的篇目子目录 */
-.toc.side ul.sub{margin:.15em 0 .5em;padding-left:1em;font-size:.9em;line-height:1.6;border-left:1px solid var(--line);margin-left:.4em}
-.toc.side ul.sub li{padding:1px 0 1px .5em}
+/* 总目录里当前页的篇目子目录：整体缩进，并用竖线与主目录区分 */
+.toc.side ul.sub{margin:.2em 0 .6em 1.2em;padding:0 0 0 .8em;font-size:.9em;line-height:1.6;border-left:2px solid var(--line)}
+.toc.side ul.sub li{padding:1px 0}
 .toc.side ul.sub li a{color:var(--muted);font-weight:normal}
 .toc.side ul.sub li a:hover{color:var(--accent)}

@@ -961,11 +961,31 @@ def _wenxuan_spec():
         return f'{ch["title"]}·{"、".join(seen[:2])}' + ("等" if len(seen) > 2 else "")
 
     catalog = json.loads((ROOT / "sources/wenxuan/chapters.json").read_text(encoding="utf8"))
+    authors_path = ROOT / "sources/wenxuan/authors.json"
+    authors = json.loads(authors_path.read_text(encoding="utf8")) if authors_path.exists() else {}
+    names = {"古诗一十九首": "古诗十九首"}
+    sub_labels = {}
+    for ch in catalog:
+        titles = {sec["title"] for sec in ch["sections"]}
+        page_authors = {a for a in (authors.get(ch["slug"]) or []) if a}
+        same_author = len(page_authors) <= 1          # 全卷同一作者时，目录里不必重复
+        labels = []
+        for k, sec in enumerate(ch["sections"]):
+            label = re.sub(r"\s*\(([^)]*)\)", r"（\1）", sec["title"])   # 标题里的半角“ (作者)”统一为全角
+            parent = sec["path"][2] if len(sec["path"]) >= 3 else ""
+            if parent and parent not in titles:        # 只有目录作用的上级（如《古诗十九首》）才并入标题
+                label = f'{names.get(parent, parent)}·{label}'
+            who = (authors.get(ch["slug"]) or [])[k:k + 1]
+            if who and who[0] and who[0] != "无名氏" and who[0] not in label and not same_author:
+                label += f"（{who[0]}）"
+            labels.append(label)
+        sub_labels[ch["slug"]] = labels
     return {
+        "sub_labels": sub_labels,
         "title": "昭明文选", "author": "［南朝梁］萧统编", "prose": True,
         "strict_pairs": True, "home_intro_own": True, "side_toc": True,
         "side_toc_always": True, "no_count": True, "wide_index": True,
-        "omit_source_credit": True, "reading_hint": "", "sub_toc": True,
+        "omit_source_credit": True, "reading_hint": "",
         "pages": [(ch["slug"], page_title(ch)) for ch in catalog],
         "index_footer": "",
     }
@@ -1605,10 +1625,13 @@ def build_poetry(bslug, spec):
                     items.append(f'<li class="grp">{esc(tt)}</li>')
                 elif sl == slug:
                     sub = ""
-                    if spec.get("sub_toc"):
+                    if spec.get("sub_toc", True):
+                        labels = spec.get("sub_labels", {}).get(slug)
                         subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and not s_["chunks"])]
                         if len(subs) >= 2:
-                            sub = ('<ul class="sub">' + "".join(f'<li><a href="#e{k}">{esc(s_["title"])}</a></li>' for k, s_ in subs) + "</ul>")
+                            sub = ('<ul class="sub">' + "".join(
+                                f'<li><a href="#e{k}">{esc(labels[k - 1] if labels and k - 1 < len(labels) else s_["title"])}</a></li>'
+                                for k, s_ in subs) + "</ul>")
                     items.append(f'<li class="cur"><a href="{sl}.html" aria-current="page">{esc(tt)}</a>{sub}</li>')
                 elif page_files:
                     items.append(f'<li><a href="{sl}.html">{esc(tt)}</a></li>')
