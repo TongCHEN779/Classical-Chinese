@@ -32,10 +32,10 @@ def main():
             pages += 1
             doc = BeautifulSoup(html, "html.parser")
             for sec in doc.select("section.entry"):
-                lists = sec.select("ul.notes.plain:not(.src), ol.notes")
+                lists = sec.select("ul.notes.plain, ol.notes")
                 if not lists:
                     continue
-                n = sum(len(li_list.find_all("li", recursive=False)) for li_list in lists)
+                n = sum(len([x for x in li_list.find_all("li", recursive=False) if x.has_attr("data-n") or "src" not in (li_list.get("class") or [])]) for li_list in lists)   # 人间词话的无序号补充说明不计
                 sups = sec.select("sup.n")
                 m = sum(count(s["data-n"]) for s in sups)
                 notes_total += n

@@ -1597,6 +1597,13 @@ def intro_html(slug):
 
 
 CIRC = re.compile(r"([\u2460-\u2473\u3251-\u325f]+)")
+CIRC1 = re.compile(r"[\u2460-\u2473\u3251-\u325f]")
+CIRC_LEAD = re.compile(r"^([\u2460-\u2473\u3251-\u325f])\s*")
+
+
+def circ_num(c):
+    """①→1 … ⑳→20，㉑→21 …"""
+    return ord(c) - 0x2460 + 1 if c <= "\u2473" else ord(c) - 0x3251 + 21
 
 
 def ed_html(h, state):
@@ -1754,7 +1761,7 @@ def drama_html(text, stage_book=None):
 
 def circ_sup(h, on):
     """原站正文里的圆圈数字注号（①②…）显示为上标。"""
-    return CIRC.sub(r"<sup>\1</sup>", h) if on else h
+    return CIRC1.sub(lambda m: f'<sup class="n" data-n="{circ_num(m.group())}"></sup>', h) if on else h
 
 
 def table_html(t):
@@ -1897,7 +1904,13 @@ def build_poetry(bslug, spec):
                     parts[k], num = number_marks(parts[k], num)
                 if chunk_notes:
                     uid += 1
-                    li = "".join(f"<li>{esc(n)}</li>" for n in chunk_notes)
+                    if src_marks:     # 原站注释前的圆圈数字改为纯数字序号（无序号的补充说明不编号）
+                        li = ""
+                        for n in chunk_notes:
+                            m = CIRC_LEAD.match(n)
+                            li += f'<li data-n="{circ_num(m.group(1))}">{esc(n[m.end():])}</li>' if m else f"<li>{esc(n)}</li>"
+                    else:
+                        li = "".join(f"<li>{esc(n)}</li>" for n in chunk_notes)
                     parts.append(
                         f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                         f'<span class="caret">▸</span> 注释（{len(chunk_notes)}）</button><ul class="notes plain{" src" if src_marks else ""}" id="n{uid}" hidden>{li}</ul>')

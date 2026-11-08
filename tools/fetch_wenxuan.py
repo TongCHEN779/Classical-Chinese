@@ -90,8 +90,11 @@ def parse_juan(n):
             "revision": str(page["revid"]), "heads": heads, "sections": real}
 
 
+XU_TITLES = ("文选序", "唐李崇贤上文选注表", "宋刻原序", "重刻宋淳熙本文选序", "《文选考异》序")
+
+
 def parse_xu():
-    """卷首《文选序》与李善《上文选注表》（宋刻原序、胡克家二序及考异序是后世刊刻说明，不收）。"""
+    """卷首序文：《文选序》、李善《上文选注表》、尤袤《宋刻原序》、胡克家《重刻宋淳熙本文选序》与《文选考异》序。"""
     page = fetch("昭明文選/序")
     root = BeautifulSoup(page["text"], "html.parser").select_one(".mw-parser-output")
     for x in root.select("table, .licenseContainer, style, meta, link"):
@@ -100,7 +103,7 @@ def parse_xu():
     for el in root.find_all(["div", "p"], recursive=False):
         if "mw-heading" in (el.get("class") or []):
             title = clean(el)
-            cur = {"title": title, "level": 2, "path": [], "author": "", "paragraphs": []} if title in ("文选序", "唐李崇贤上文选注表") else None
+            cur = {"title": title, "level": 2, "path": [], "author": "", "paragraphs": []} if title in XU_TITLES else None
             if cur:
                 sections.append(cur)
         elif el.name == "p" and cur is not None:
