@@ -991,6 +991,23 @@ def _wenxuan_spec():
     }
 
 
+def _lunheng_spec():
+    catalog = json.loads((ROOT / "sources/lunheng/chapters.json").read_text(encoding="utf8"))
+
+    def page_title(ch):
+        names = [re.sub(r"篇第.+$", "", sec["title"]) for sec in ch["sections"]]
+        return f'{ch["title"]}·{"、".join(names)}'
+
+    return {
+        "title": "论衡", "author": "［东汉］王充", "prose": True,
+        "strict_pairs": True, "home_intro_own": True, "side_toc": True,
+        "side_toc_always": True, "no_count": True, "wide_index": True,
+        "omit_source_credit": True, "reading_hint": "",
+        "pages": [(ch["slug"], page_title(ch)) for ch in catalog],
+        "index_footer": "",
+    }
+
+
 def _lvshichunqiu_spec():
     base = ROOT / "sources/lvshichunqiu"
     catalog = json.loads((base / "chapters.json").read_text(encoding="utf8"))
@@ -1133,6 +1150,7 @@ POETRY = {
     "lvshichunqiu": _lvshichunqiu_spec(),
     "fangyan": _fangyan_spec(),
     "wenxuan": _wenxuan_spec(),
+    "lunheng": _lunheng_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
     "dengxizi": _dengxizi_spec(),
@@ -1230,6 +1248,7 @@ BOOK_INTRO = {
     "xuanzhenzi": "唐代张志和的道家著作。今存《外篇》三卷，以寓言和问答探讨天地造化、有无与万物变化。",
     "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
     "lvshichunqiu": "战国末年吕不韦组织门客编撰的著作，分十二纪、八览、六论，汇集诸家关于治国、修身、农事和礼乐的论说。",
+    "lunheng": "东汉王充所作的议论著作，今存八十五篇（招致篇已佚），分三十卷；以“疾虚妄”为宗旨，辨析命运、天人感应、鬼神祭祀、禁忌俗说和儒家经传里的失实之处。",
     "wenxuan": "南朝梁昭明太子萧统主持编选的诗文总集，选录先秦至梁的赋、诗、骚、各体文章，分六十卷；本站所据为李善注本，只录正文。",
     "fangyan": "西汉扬雄所作汉语方言词汇书，十三卷，按词义分条，说明同一事物或概念在各地的不同叫法；旧题晋郭璞注。",
     "luoyangjialanji": "杨衒之追记北魏洛阳佛寺的兴废，按城内及城外四方分卷，也记录都城风物、人物掌故和西域见闻。",
