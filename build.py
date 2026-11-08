@@ -1184,6 +1184,7 @@ def _texts_spec(slug, title, author, wiki_intro=False):
         "sub_labels": {ch["slug"]: [sec["title"] for sec in ch["sections"]] for ch in catalog},
         "pages": [(ch["slug"], ch["title"]) for ch in catalog],
         "index_footer": "",
+        "single_page": len(catalog) == 1,
     }
 
 
@@ -2070,23 +2071,36 @@ def build_poetry(bslug, spec):
             foot_text = "白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。"
         hint = page_options.get("reading_hint", spec.get("reading_hint", hint))
         foot_text = page_options.get("footer", foot_text)
+        single = bool(spec.get("single_page")) and len(pages) == 1     # 只有一个目录条目：书的首页直接就是阅读页
+        if single:
+            head = f"""{crumbs([("古典文库", r + "index.html"), (btitle, None)])}
+<h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
+{intro_html(bslug)}"""
+            pager = ""
+        else:
+            head = f"""{crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
+<h1>{esc(title)}<small>{esc(btitle)}</small></h1>"""
+            pager = f'<nav class="pager">{prev_h}<a href="index.html">目录</a>{next_h}</nav>'
         body = f"""<header class="top">
-{crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
-<h1>{esc(title)}<small>{esc(btitle)}</small></h1>
+{head}
 {f'<p class="hint">{hint}</p>' if hint else ""}
 </header>
 <main class="reading-layout">
 {toc}
 <div class="reading-content">
 {chr(10).join(body_secs)}
-<nav class="pager">{prev_h}<a href="index.html">目录</a>{next_h}</nav>
+{pager}
 </div>
 </main>
 <div id="tip" role="tooltip" hidden></div>
 <footer>{source_note}{foot_text}</footer>"""
-        out = ROOT / bslug / f"{slug}.html"
+        out = ROOT / bslug / ("index.html" if single else f"{slug}.html")
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(f"{title}·{btitle}", body, r, True), encoding="utf8")
+        out.write_text(page(btitle if single else f"{title}·{btitle}", body, r, True), encoding="utf8")
+        if single and (ROOT / bslug / f"{slug}.html").exists():
+            (ROOT / bslug / f"{slug}.html").unlink()
+    if spec.get("single_page") and len(pages) == 1:
+        return total
     intro_credit = ""
     if WIKI_INTRO.get(bslug, {}).get("verbatim") and not spec.get("omit_source_credit"):
         url = esc(WIKI_INTRO[bslug]["url"])

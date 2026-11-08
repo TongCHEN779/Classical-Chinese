@@ -25,7 +25,7 @@ BOOKS = {
     "shipin": {"title": "詩品", "pages": [
         ("xu", "序", "詩品", "single"), ("j1", "卷上", "詩品/卷上", "headings"),
         ("j2", "卷中", "詩品/卷中", "headings"), ("j3", "卷下", "詩品/卷下", "headings")]},
-    "weilu": {"title": "圍爐夜話", "pages": [("p01", "圍爐夜話", "圍爐夜話", "chunk=8")]},
+    "weilu": {"title": "圍爐夜話", "pages": [("p01", "围炉夜话", "圍爐夜話", "chunk=8")]},
     "caigentan": {"title": "菜根譚", "pages": [
         ("p01", "序", "菜根譚", "headings:序"),
         ("p02", "明刻本·前集", "菜根譚", "h2:前集@明刻本《菜根谭》:chunk=10"),
