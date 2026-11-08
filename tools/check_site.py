@@ -69,7 +69,8 @@ def check_poetry_books(problems):
             if not files:
                 continue
             n += 1
-            html = ROOT / slug / f'{page_slug}.html'
+            single = bool(spec.get('single_page')) and len([p for p in spec['pages'] if p[0]]) == 1      # 单页书：首页即阅读页
+            html = ROOT / slug / ('index.html' if single else f'{page_slug}.html')
             if not html.exists():
                 problems.append((slug, page_slug, 'page not built'))
                 continue

@@ -1449,6 +1449,12 @@ POETRY = {
     "yinwenzi": _texts_spec("yinwenzi", "尹文子", "［战国］尹文"),
     "shenbuhai": _texts_spec("shenbuhai", "申子", "［战国］申不害"),
     "shendao": _texts_spec("shendao", "慎子", "［战国］慎到"),
+    "huafanglu": _texts_spec("huafanglu", "扬州画舫录", "［清］李斗"),
+    "taoan": _texts_spec("taoan", "陶庵梦忆", "［明］张岱"),
+    "dijing": _texts_spec("dijing", "帝京景物略", "［明］刘侗、于奕正"),
+    "ducheng": _texts_spec("ducheng", "都城纪胜", "［南宋］耐得翁"),
+    "mengliang": _texts_spec("mengliang", "梦粱录", "［南宋］吴自牧"),
+    "xuxiake": _texts_spec("xuxiake", "徐霞客游记", "［明］徐弘祖"),
     "renjiancihua": _renjiancihua_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
@@ -1549,6 +1555,12 @@ BOOK_INTRO = {
     "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
     "lvshichunqiu": "战国末年吕不韦组织门客编撰的著作，分十二纪、八览、六论，汇集诸家关于治国、修身、农事和礼乐的论说。",
     "renjiancihua": "近代王国维的词学评论，以“境界”说论词，分卷上（已刊 64 则）、卷下（未刊稿与删稿 59 则）与附录补遗（25 则）；本站据维基文库汇本，正文之外只录该页面自带的注释。",
+    "huafanglu": "清代李斗记扬州城市、园林、寺观、桥梁、工艺、戏曲与人物的笔记，十八卷，以画舫游览的次序记述乾隆年间的扬州。",
+    "taoan": "明末清初张岱追忆明代江南风俗、园林、节庆、戏曲与工艺的小品文集，八卷，写于明亡之后。",
+    "dijing": "明代刘侗、于奕正合著的北京风物志，八卷，分城内、城外、西山等区域记述寺观、园林、古迹，每篇附诗文。",
+    "ducheng": "南宋耐得翁所记临安城市生活的笔记，分市井、诸行、酒肆、食店、社会等十四门，是了解南宋杭州风俗的重要材料。",
+    "mengliang": "南宋吴自牧记临安风俗的笔记，二十卷，仿《东京梦华录》，写节序、宫殿、官署、市肆、百工与杂戏。",
+    "xuxiake": "明代徐霞客的日记体游记，记浙东名山到粤西、黔、滇的山川与地理考察，兼有《溯江纪源》《盘江考》等地理专文。",
     "shipin": "南朝梁钟嵘的诗歌评论，分上中下三品评论汉至梁的一百二十余位五言诗人，并追溯其风格渊源，是中国最早的诗论专著之一。",
     "weilu": "清代王永彬的格言小品，三百余条，谈读书、修身、治家和待人接物，多用对句，文字平实。",
     "caigentan": "明代洪应明的语录体小品，分前集、后集，以简短隽语谈人生、处世与修养，融合儒释道思想；本站兼收明刻本与清刻本。",
@@ -2011,6 +2023,7 @@ def build_poetry(bslug, spec):
                         f'<span class="caret">▸</span> 注释（{len(chunk_notes)}）</button><ul class="notes plain{" src" if src_marks else ""}" id="n{uid}" hidden>{li}</ul>')
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
+        single = bool(spec.get("single_page")) and len(pages) == 1     # 只有一个目录条目：书的首页直接就是阅读页
         toc = ""
         if spec.get("side_toc", True):
             items = []
@@ -2027,7 +2040,7 @@ def build_poetry(bslug, spec):
                             sub = (f'<ul class="sub{" num" if numeric else ""}">' + "".join(
                                 f'<li><a href="#e{k}">{esc(labels[k - 1] if labels and k - 1 < len(labels) else s_["title"])}</a></li>'
                                 for k, s_ in subs) + "</ul>")
-                    items.append(f'<li class="cur"><a href="{sl}.html" aria-current="page">{esc(tt)}</a>{sub}</li>')
+                    items.append(f'<li class="cur"><a href="{"index" if single else sl}.html" aria-current="page">{esc(tt)}</a>{sub}</li>')
                 elif page_files:
                     items.append(f'<li><a href="{sl}.html">{esc(tt)}</a></li>')
                 else:
@@ -2071,7 +2084,6 @@ def build_poetry(bslug, spec):
             foot_text = "白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。"
         hint = page_options.get("reading_hint", spec.get("reading_hint", hint))
         foot_text = page_options.get("footer", foot_text)
-        single = bool(spec.get("single_page")) and len(pages) == 1     # 只有一个目录条目：书的首页直接就是阅读页
         if single:
             head = f"""{crumbs([("古典文库", r + "index.html"), (btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
@@ -2149,6 +2161,7 @@ INITIAL["乐"] = "Y"
 INITIAL["人"] = "R"
 INITIAL["长"] = "C"
 INITIAL["昌"] = "C"
+INITIAL.update({"扬": "Y", "陶": "T", "帝": "D", "都": "D", "徐": "X"})
 INITIAL.update({"诗": "S", "围": "W", "菜": "C", "浮": "F", "增": "Z", "颜": "Y", "孙": "S", "西": "X", "尹": "Y", "申": "S", "慎": "S"})
 INITIAL["东"] = "D"
 INITIAL["金"] = "J"
