@@ -1,0 +1,38 @@
+"""核验《东坡志林》：正文与维基文库快照逐段一致，逐句白话齐全，每节有题解，简介沿用维基文库。"""
+import sys
+from bs4 import BeautifulSoup
+
+from prepare_dongpozhilin import BASE, ROOT, read
+
+sys.path.insert(0, str(ROOT))
+from build import WIKI_INTRO, split_sents
+
+
+def html(path):
+    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+
+
+def main():
+    chapters = read(BASE / "chapters.json")
+    assert [c["slug"] for c in chapters] == ["xu", "j1", "j2", "j3", "j4", "j5"]
+    index = html("dongpozhilin/index.html")
+    assert [a["href"] for a in index.select("main li.ok a")] == [f"{c['slug']}.html" for c in chapters]
+    assert "\n".join(p.get_text() for p in index.select("p.intro")) == WIKI_INTRO["dongpozhilin"]["text"], "目录页简介应为维基文库原文"
+    total = notes = 0
+    for c in chapters:
+        slug = c["slug"]
+        paras = [p for s in c["sections"] for p in s["paragraphs"]]
+        doc = html(f"dongpozhilin/{slug}.html")
+        assert [p.get_text().strip() for p in doc.select("section.entry p.v")] == [p.strip() for p in paras], slug
+        spans = doc.select("section.entry .s[data-t]")
+        assert [s.get_text() for s in spans] == [x for p in paras for x in split_sents(p)], slug
+        assert all(s["data-t"].strip() for s in spans), slug
+        assert len(doc.select("section.entry")) == len(c["sections"]), slug
+        assert all(e.select_one(".intro-box p") for e in doc.select("section.entry")), slug
+        total += len(spans)
+        notes += len(doc.select(".notes.plain li"))
+    print(f"《东坡志林》核验通过：{total} 句白话，{notes} 条注释。")
+
+
+if __name__ == "__main__":
+    main()

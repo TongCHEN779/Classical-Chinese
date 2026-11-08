@@ -1,5 +1,5 @@
 """由 sources/renjiancihua/chapters.json（维基文库《人间词话》汇本：正文及原页面自带的①②…注释）生成 src/renjiancihua/*/01.txt。
-不设白话、题解，也不增补任何注释：每则只有原文，注释逐条照录维基文库原页面。
+不增补任何注释：每则只有原文，注释逐条照录维基文库原页面。
 """
 import json
 import sys

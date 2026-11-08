@@ -768,7 +768,7 @@ def _four_classics_spec(slug):
             **({"count": lambda secs: (sum(1 for s in secs if s["title"].endswith("折")), "折")}
                if slug == "xixiangji" else {"no_count": True}),
             "index_footer": f"正文 {progress['chapter_count']} {meta['unit']}；另收全书题解及所选版本附文。",
-            "reading_hint": "" if slug in ("xiyouji", "shuihuzhuan", "sanguoyanyi", "roupotuan") else "原文直读。附基础导读注释，不设白话译文。",
+            "reading_hint": "",
             "intro": "",
             "pages": [(p["slug"], p["title"]) for p in progress["pages"] if p["slug"] != "tijie"],
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"] if "source" in p}}
@@ -1025,7 +1025,7 @@ def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None, 
             "intro": "", "pages": pages,
             "page_sources": {p["slug"]: p["source"] for p in progress["pages"]}}
     if not gloss:
-        spec["reading_hint"] = "原文直读。附基础导读注释，不设白话译文。"
+        spec["reading_hint"] = ""
     if footer:
         spec["index_footer"] = footer
     return spec
@@ -1137,6 +1137,29 @@ def _wenxuan_spec():
     }
 
 
+def _dongpozhilin_spec():
+    catalog = json.loads((ROOT / "sources/dongpozhilin/chapters.json").read_text(encoding="utf8"))
+
+    def page_title(ch):
+        if ch["slug"] == "xu":
+            return "序"
+        seen = []
+        for sec in ch["sections"]:
+            if sec["path"][0] not in seen:
+                seen.append(sec["path"][0])
+        return f'{ch["title"]}·{"、".join(seen[:2])}' + ("等" if len(seen) > 2 else "")
+
+    return {
+        "title": "东坡志林", "author": "［北宋］苏轼", "prose": True,
+        "strict_pairs": True, "side_toc": True,
+        "side_toc_always": True, "no_count": True, "wide_index": True,
+        "omit_source_credit": True, "reading_hint": "",
+        "sub_labels": {ch["slug"]: [sec["title"] for sec in ch["sections"]] for ch in catalog},
+        "pages": [(ch["slug"], page_title(ch)) for ch in catalog],
+        "index_footer": "",
+    }
+
+
 def _lunheng_spec():
     catalog = json.loads((ROOT / "sources/lunheng/chapters.json").read_text(encoding="utf8"))
 
@@ -1227,12 +1250,12 @@ def _yuefu_spec():
 def _renjiancihua_spec():
     data = json.loads((ROOT / "sources/renjiancihua/chapters.json").read_text(encoding="utf8"))
     pages = [(p["slug"], p["title"]) for p in data["pages"]]
-    footer = "原文与注释均取自维基文库《人间词话》汇本：注释即原页面所附的①②…条目（引词、人名等），整理者未作增补；不设白话与题解。"
+    footer = "原文与注释均取自维基文库《人间词话》汇本：注释即原页面所附的①②…条目（引词、人名等），整理者未作增补。"
     return {
         "title": "人间词话", "author": "［近代］王国维", "unit": "则", "prose": True, "no_tip": True, "source_markers": True,
         "side_toc": True, "side_toc_always": True, "no_count": True, "wide_index": True,
         "home_intro_own": True, "omit_source_credit": True,
-        "reading_hint": "原文直读，不设白话。注释照录维基文库原页面所附。",
+        "reading_hint": "",
         "pages": pages,
         "page_options": {slug: {"footer": footer} for slug, _ in pages},
         "index_footer": f"共 {sum(len(p['sections']) for p in data['pages'])} 则：卷上已刊部分、卷下未刊部分及删稿、附录补遗。正文与注释均取自维基文库汇本，注释照录原页面，不另编撰。",
@@ -1365,7 +1388,7 @@ def _hanfeizi_spec():
     return {"title": "韩非子", "author": "［战国］韩非（旧题）",
             "prose": True, "no_tip": True, "original_only": True, "home_intro_own": True,
             "no_count": True, "side_toc": True, "strict_pairs": True, "page_options": options, "pages": pages, "page_sources": sources,
-            "reading_hint": "原文直读。",
+            "reading_hint": "",
             "original_footer": "未据影印本逐字校勘。",
             "index_footer": f"全书二十卷、五十五篇，均可阅读原文；已完成白话 {translated}/55 篇。"}
 
@@ -1384,6 +1407,7 @@ POETRY = {
     "lunheng": _lunheng_spec(),
     "yutai": _yutai_spec(),
     "yuefu": _yuefu_spec(),
+    "dongpozhilin": _dongpozhilin_spec(),
     "renjiancihua": _renjiancihua_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
@@ -1483,6 +1507,7 @@ BOOK_INTRO = {
     "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
     "lvshichunqiu": "战国末年吕不韦组织门客编撰的著作，分十二纪、八览、六论，汇集诸家关于治国、修身、农事和礼乐的论说。",
     "renjiancihua": "近代王国维的词学评论，以“境界”说论词，分卷上（已刊 64 则）、卷下（未刊稿与删稿 59 则）与附录补遗（25 则）；本站据维基文库汇本，正文之外只录该页面自带的注释。",
+    "dongpozhilin": "北宋苏轼的随笔杂记，五卷，记游、怀古、修养、梦寐、佛道异事、技术人物与论古，多为贬居黄州、惠州、儋州时的随手所记。",
     "yuefu": "北宋郭茂倩编的乐府歌辞总集，一百卷，分郊庙、燕射、鼓吹、横吹、相和、清商、舞曲、琴曲、杂曲、近代曲、杂歌谣、新乐府十二类；每题先列古辞、后列拟作，并有大量解题。",
     "yutai": "南朝陈徐陵编的诗歌总集，十卷，选录汉至梁以闺情、艳体为主的诗作，序文自述为宫中女子消闲而编；卷九为歌行，卷十为五言四句小诗。",
     "lunheng": "东汉王充所作的议论著作，今存八十五篇（招致篇已佚），分三十卷；以“疾虚妄”为宗旨，辨析命运、天人感应、鬼神祭祀、禁忌俗说和儒家经传里的失实之处。",
@@ -1966,7 +1991,7 @@ def build_poetry(bslug, spec):
         elif source and is_wiki_source(source["url"]):
             source_note = f'<span hidden>{source_note}</span>'
         if page_options.get("no_tip", spec.get("no_tip")):
-            hint = "原文直读，不设悬浮译文。"
+            hint = ""
             foot_text = "注释为编者自撰，仅供辅助阅读，以原文为准。"
             if spec.get("original_only"):
                 hint = "原文阅读版；白话与注释待整理。条目编号为整理者所加。"
@@ -2039,6 +2064,7 @@ INITIAL["昭"] = "Z"
 INITIAL["玉"] = "Y"
 INITIAL["乐"] = "Y"
 INITIAL["人"] = "R"
+INITIAL["东"] = "D"
 INITIAL["金"] = "J"
 INITIAL["儒"] = "R"
 INITIAL.update({"孽": "N", "商": "S", "廿": "N", "发": "F", "负": "F"})
