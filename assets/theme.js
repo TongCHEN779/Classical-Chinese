@@ -16,5 +16,10 @@
     });
     label();
     document.body.appendChild(btn);
+    // 总目录很长时，把当前页滚到侧栏中部
+    var cur = document.querySelector(".toc.side li.cur"), box = document.querySelector(".toc.side");
+    if (cur && box && box.scrollHeight > box.clientHeight) {
+      box.scrollTop = Math.max(0, cur.offsetTop - box.clientHeight / 3);
+    }
   });
 })();

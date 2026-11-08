@@ -158,3 +158,6 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 .toc.side ul.sub li{padding:1px 0}
 .toc.side ul.sub li a{color:var(--muted);font-weight:normal}
 .toc.side ul.sub li a:hover{color:var(--accent)}
+.toc.side ul.sub.num{display:flex;flex-wrap:wrap;gap:2px 2px}
+.toc.side ul.sub.num li{padding:0}
+.toc.side ul.sub.num a{display:inline-block;min-width:2.2em;text-align:center;padding:0 4px;border-radius:4px}

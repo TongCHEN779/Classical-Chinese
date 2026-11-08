@@ -121,7 +121,7 @@ def main():
             pairs.extend((o.replace('/', ''), t) for o, t in rendered_pairs)
         html = BeautifulSoup((ROOT / 'classic_list' / f'{slug}.html').read_text(), 'html.parser')
         if 'sections' in entry:
-            assert [a['href'] for a in html.select('.toc a')] == [f'#e{i}' for i in range(1, len(sections) + 1)]
+            assert [a['href'] for a in html.select('.toc a[href^="#"]')] == [f'#e{i}' for i in range(1, len(sections) + 1)]
             assert [a['href'] for a in html.select('section.entry .source-note a')] == [e['source']['url'] for e in entry['sections']]
             for old, target in entry['redirects'].items():
                 redirect = BeautifulSoup((ROOT / 'classic_list' / f'{old}.html').read_text(), 'html.parser')

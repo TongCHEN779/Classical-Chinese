@@ -1617,8 +1617,7 @@ def build_poetry(bslug, spec):
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         toc = ""
-        if spec.get("side_toc") and (spec.get("side_toc_always") or
-                                    sum(1 for s_ in secs if not (s_["title"] == title and not s_["chunks"])) <= 1):
+        if spec.get("side_toc", True):
             items = []
             for sl, tt, page_files in pages:
                 if sl is None:
@@ -1628,8 +1627,9 @@ def build_poetry(bslug, spec):
                     if spec.get("sub_toc", True):
                         labels = spec.get("sub_labels", {}).get(slug)
                         subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and not s_["chunks"])]
+                        numeric = sum(1 for _k, s_ in subs if s_["title"].isdigit()) * 2 > len(subs)
                         if len(subs) >= 2:
-                            sub = ('<ul class="sub">' + "".join(
+                            sub = (f'<ul class="sub{" num" if numeric else ""}">' + "".join(
                                 f'<li><a href="#e{k}">{esc(labels[k - 1] if labels and k - 1 < len(labels) else s_["title"])}</a></li>'
                                 for k, s_ in subs) + "</ul>")
                     items.append(f'<li class="cur"><a href="{sl}.html" aria-current="page">{esc(tt)}</a>{sub}</li>')
