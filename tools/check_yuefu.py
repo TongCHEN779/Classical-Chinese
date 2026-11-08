@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from prepare_yuefu import BASE, ROOT, read
 
 sys.path.insert(0, str(ROOT))
-from build import split_sents
+from build import WIKI_INTRO, split_sents
 
 
 def html(path):
@@ -21,6 +21,7 @@ def main():
         return
     index = html("yuefu/index.html")
     assert [a["href"] for a in index.select("main li.ok a")] == [f"{s}.html" for s in done]
+    assert "\n".join(p.get_text() for p in index.select("p.intro")) == WIKI_INTRO["yuefu"]["text"], "目录页简介应沿用维基文库原文"
     total = notes = 0
     for c in chapters:
         if c["slug"] not in done:

@@ -1078,6 +1078,21 @@ def _yuefu_spec():
     }
 
 
+def _renjiancihua_spec():
+    data = json.loads((ROOT / "sources/renjiancihua/chapters.json").read_text(encoding="utf8"))
+    pages = [(p["slug"], p["title"]) for p in data["pages"]]
+    footer = "原文与注释均取自维基文库《人间词话》汇本：注释即原页面所附的①②…条目（引词、人名等），整理者未作增补；不设白话与题解。"
+    return {
+        "title": "人间词话", "author": "［近代］王国维", "unit": "则", "prose": True, "no_tip": True,
+        "side_toc": True, "side_toc_always": True, "no_count": True, "wide_index": True,
+        "home_intro_own": True, "omit_source_credit": True,
+        "reading_hint": "原文直读，不设白话。注释照录维基文库原页面所附。",
+        "pages": pages,
+        "page_options": {slug: {"footer": footer} for slug, _ in pages},
+        "index_footer": f"共 {sum(len(p['sections']) for p in data['pages'])} 则：卷上已刊部分、卷下未刊部分及删稿、附录补遗。正文与注释均取自维基文库汇本，注释照录原页面，不另编撰。",
+    }
+
+
 def _lvshichunqiu_spec():
     base = ROOT / "sources/lvshichunqiu"
     catalog = json.loads((base / "chapters.json").read_text(encoding="utf8"))
@@ -1223,6 +1238,7 @@ POETRY = {
     "lunheng": _lunheng_spec(),
     "yutai": _yutai_spec(),
     "yuefu": _yuefu_spec(),
+    "renjiancihua": _renjiancihua_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
     "dengxizi": _dengxizi_spec(),
@@ -1320,6 +1336,7 @@ BOOK_INTRO = {
     "xuanzhenzi": "唐代张志和的道家著作。今存《外篇》三卷，以寓言和问答探讨天地造化、有无与万物变化。",
     "dadailiji": "西汉戴德传辑的礼学文献，兼收孔门问答、曾子论孝、诸侯礼仪及记述物候农事的《夏小正》。",
     "lvshichunqiu": "战国末年吕不韦组织门客编撰的著作，分十二纪、八览、六论，汇集诸家关于治国、修身、农事和礼乐的论说。",
+    "renjiancihua": "近代王国维的词学评论，以“境界”说论词，分卷上（已刊 64 则）、卷下（未刊稿与删稿 59 则）与附录补遗（25 则）；本站据维基文库汇本，正文之外只录该页面自带的注释。",
     "yuefu": "北宋郭茂倩编的乐府歌辞总集，一百卷，分郊庙、燕射、鼓吹、横吹、相和、清商、舞曲、琴曲、杂曲、近代曲、杂歌谣、新乐府十二类；每题先列古辞、后列拟作，并有大量解题。",
     "yutai": "南朝陈徐陵编的诗歌总集，十卷，选录汉至梁以闺情、艳体为主的诗作，序文自述为宫中女子消闲而编；卷九为歌行，卷十为五言四句小诗。",
     "lunheng": "东汉王充所作的议论著作，今存八十五篇（招致篇已佚），分三十卷；以“疾虚妄”为宗旨，辨析命运、天人感应、鬼神祭祀、禁忌俗说和儒家经传里的失实之处。",
@@ -1498,6 +1515,8 @@ def parse_poems(paths):
             elif ln.startswith("表行："):
                 tbls = [c for c in cur["chunks"] if "tbl" in c]
                 tbls[-1]["tbl"]["rows"].append(ln[3:].split("｜"))
+            elif ln.startswith("注原："):      # 照录原站注释：一行一条，不再拆分
+                cur["chunks"][-1]["notes"].append(ln[3:].strip())
             elif ln.startswith("注："):
                 cur["chunks"][-1]["notes"].extend(split_notes(ln[2:].strip()))
             else:
@@ -1831,6 +1850,7 @@ INITIAL["方"] = "F"
 INITIAL["昭"] = "Z"
 INITIAL["玉"] = "Y"
 INITIAL["乐"] = "Y"
+INITIAL["人"] = "R"
 INITIAL["金"] = "J"
 INITIAL["儒"] = "R"
 INITIAL.update({"孽": "N", "商": "S", "廿": "N", "发": "F", "负": "F"})

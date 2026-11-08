@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from prepare_wenxuan import BASE, ROOT, read
 
 sys.path.insert(0, str(ROOT))
-from build import split_sents
+from build import WIKI_INTRO, split_sents
 
 
 def html(path):
@@ -18,6 +18,8 @@ def main():
     assert [c["slug"] for c in chapters] == ["xu", *(f"j{i:02}" for i in range(1, 61))]
     index = html("wenxuan/index.html")
     assert [a["href"] for a in index.select("main li.ok a")] == [f"{c['slug']}.html" for c in chapters]
+    assert WIKI_INTRO["wenxuan"]["text"].endswith("加注释。")
+    assert "\n".join(p.get_text() for p in index.select("p.intro")) == WIKI_INTRO["wenxuan"]["text"], "目录页简介应为维基文库原文全文"
     total = notes = 0
     for c in chapters:
         slug = c["slug"]
