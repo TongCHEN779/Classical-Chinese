@@ -35,7 +35,7 @@ def main():
             assert [s["data-t"] for s in spans] == c["t"].split("¦")
             total += len(spans)
         expected = [n for c in chunks for n in c["notes"]]
-        assert [li.get_text() for li in doc.select(".notes.plain li")] == expected
+        assert sorted(li.get_text() for li in doc.select(".notes.plain li")) == sorted(expected)   # 注释按正文上标顺序排列，故不比顺序
         notes += len(expected)
     print(f"《玄真子》三卷核验通过：{total}句白话，{notes}条注释。")
 

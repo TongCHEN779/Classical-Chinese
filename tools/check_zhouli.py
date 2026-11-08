@@ -47,7 +47,7 @@ def main():
         assert translated == len(originals), (slug, "正文仍有未配白话的段落")
         notes = [n for i, _ in originals for note in annotations.get(str(i), {}).get("注", [])
                  for n in split_notes(note)]
-        assert [li.get_text() for li in doc.select(".notes.plain li")] == notes, slug
+        assert sorted(li.get_text() for li in doc.select(".notes.plain li")) == sorted(notes)   # 注释按正文上标顺序排列，故不比顺序, slug
     print(f"《周礼》六篇底本与简介校验通过；已核对 {sum(p['sentences'] for p in catalog)} 句悬浮译文。")
 
 

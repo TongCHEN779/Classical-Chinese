@@ -60,7 +60,7 @@ def main():
         html = BeautifulSoup(output.read_text(), 'html.parser')
         actual_pairs = [(n.get_text(), n['data-t']) for n in html.select('.s[data-t]')]
         assert actual_pairs == [(o.replace('/', ''), t) for o, t in pairs], (slug, 'rendered pairs')
-        assert [n.get_text() for n in html.select('ul.notes.plain > li')] == notes, (slug, 'rendered notes')
+        assert sorted(n.get_text() for n in html.select('ul.notes.plain > li')) == sorted(notes)   # 注释按正文上标顺序排列，故不比顺序, (slug, 'rendered notes')
         for button in html.select('button.note-btn'):
             match = re.search(r'注释（(\d+)）', button.get_text())
             if match:

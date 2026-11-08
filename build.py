@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """把 src/ 下的标注文本生成静态网页。用法：python3 build.py"""
+import collections
 import html
 import json
 import re
@@ -101,6 +102,134 @@ def split_notes(text):
             stack.pop()
     starts.append(len(text))
     return [text[a:b].strip() for a, b in zip(starts, starts[1:]) if text[a:b].strip()]
+
+
+# ---- 注释位置：正文中以上标标出，注释按上标序号排列 ----
+ANCHOR_STATS = collections.Counter()
+NOTE_MARK = "\x02"                      # 渲染前临时插在正文里的注释位置记号，输出时换成 <sup class="n">
+_PAREN = re.compile(r"（[^（）]*）|\([^()]*\)")
+_QUOTES = str.maketrans("", "", "“”‘’「」『』")
+
+
+def _note_terms(note):
+    """从注释“词语：解释”里取出可在正文定位的词语候选（由长到短）。取不到词语返回空。"""
+    m = re.match(r"([^：:\n]{1,40})[：:]", note)
+    if not m:
+        m = re.match(r"([^，。；：\n]{1,8})[，,]", note)      # “绠，汲水的井绳；㳅，流传。”一类
+    head = m.group(1).strip() if m else ""
+    cands = []
+    # “某某”即……、校：“某某”他本作……：词语在引号里
+    quoted = [q for q in re.findall(r"[“「‘『]([^”」’』]{1,10})[”」’』]", note[:80]) if q][:3]
+    if not head or head in ("校", "按", "校勘", "案", "注") or note[:1] in "“「‘『":
+        cands.extend(quoted)
+    if not head:
+        return cands
+    for c in (head, _PAREN.sub("", head)):
+        for d in (c, c.translate(_QUOTES)):
+            d = d.strip()
+            if d and d not in cands:
+                cands.append(d)
+    for piece in re.split(r"[、，,/／或]", _PAREN.sub("", head)):
+        for d in (piece.strip(), piece.translate(_QUOTES).strip()):
+            if d and d not in cands:
+                cands.append(d)
+    for q in quoted:
+        if q not in cands:
+            cands.append(q)
+    return cands
+
+
+_ZGC_NOTE = re.compile(r"底本原注\d+（主文第(\d+)字后）：〈(.*)〉")
+
+
+def _locate_zgc(texts, note):
+    """《战国策》“底本原注NNN（主文第N字后）”自带位置：N 与本站正文有几字的偏差，故在 N 附近找注中引用的字词来校准。"""
+    m = _ZGC_NOTE.match(note)
+    if not m:
+        return None
+    n = int(m.group(1))
+    text = texts[0]
+    best = None
+    for tok in re.findall(r"[‘“]([^’”]{1,8})[’”]", m.group(2)):
+        for k in range(max(0, n - 24), min(len(text), n + 8)):
+            if text.startswith(tok, k):
+                end = k + len(tok)
+                if best is None or abs(end - n) < abs(best - n):
+                    best = end
+        if best is not None:
+            break
+    return 0, (best if best is not None else min(n, len(text)))
+
+
+def _locate_note(texts, note, p0, pos0):
+    """在 texts（正文各段）里找注释词语：先从上一条注释之后找，找不到再从头找。返回 (段号, 词语末尾位置) 或 None。"""
+    zgc = _locate_zgc(texts, note)
+    if zgc:
+        return zgc
+    for cand in _note_terms(note):
+        for start_p, start_pos in ((p0, pos0), (0, 0)):
+            for p in range(start_p, len(texts)):
+                k = texts[p].find(cand, start_pos if p == start_p else 0)
+                if k >= 0:
+                    return p, k + len(cand)
+    return None
+
+
+def anchor_notes(texts, notes):
+    """返回 (锚点列表, 按正文位置排序后的注释)。锚点 = (段号, 词语末尾位置)；找不到词语的注释锚点为 None，排在最后。"""
+    if not notes or not texts:
+        return [], list(notes)
+    found, cur = [], (0, 0)
+    ANCHOR_STATS["notes"] += len(notes)
+    for i, note in enumerate(notes):
+        hit = _locate_note(texts, note, *cur)
+        if hit:
+            cur = hit
+        found.append((hit, i))
+        ANCHOR_STATS["unplaced"] += hit is None
+    order = sorted(found, key=lambda a: (a[0] is None, a[0] or (0, 0), a[1]))
+    return [a[0] for a in order], [notes[a[1]] for a in order]
+
+
+def mark_text(text, positions):
+    """在 text 的各位置（可重复）插入注释记号。"""
+    for q in sorted(positions, reverse=True):
+        text = text[:q] + NOTE_MARK + text[q:]
+    return text
+
+
+def marked_pairs(o, t, positions):
+    """split_pairs 的结果里，把注释记号插进各句相应位置；对不齐时返回 None。"""
+    pairs = split_pairs(o, t)
+    if not positions:
+        return pairs
+    if "".join(x for x, _ in pairs) != o:
+        return None
+    ends, pos = [], 0
+    for x, _ in pairs:
+        pos += len(x)
+        ends.append(pos)
+    ins = [[] for _ in pairs]
+    for q in positions:
+        k = next(k for k, e in enumerate(ends) if q <= e)
+        ins[k].append(max(q - (ends[k] - len(pairs[k][0])), 0))
+    return [(mark_text(x, ins[k]), y) for k, (x, y) in enumerate(pairs)]
+
+
+_MARKS = re.compile(NOTE_MARK + "+")
+
+
+def number_marks(html_str, start=1):
+    """把输出里的记号换成上标序号（同一处多条注释合并成“1,2”）；返回 (html, 下一个序号)。"""
+    n = [start]
+
+    def sub(m):
+        k = len(m.group(0))
+        nums = list(range(n[0], n[0] + k))
+        n[0] += k
+        label = f"{nums[0]}" if k == 1 else f"{nums[0]}–{nums[-1]}" if k > 2 else f"{nums[0]},{nums[1]}"
+        return f'<sup class="n" data-n="{label}"></sup>'
+    return _MARKS.sub(sub, html_str), n[0]
 
 
 def _frag_groups(raw):
@@ -212,17 +341,34 @@ def crumbs(items):
 
 def render_entry(i, e):
     out = [f'<section class="entry" id="e{i}">', f'<h3><span class="no">{cn(i)}</span>{esc(e["title"])}</h3>']
-    for para in e["paras"]:
-        spans = "".join(
-            f'<span class="s" tabindex="0" data-t="{esc(t2)}">{orig_html(o2)}</span>'
-            for o, t in para for o2, t2 in split_pairs(o, t)
-        )
+    flat = [o for para in e["paras"] for o, _t in para]
+    anchors, notes = anchor_notes(flat, e["notes"])
+    where = [[] for _ in flat]
+    tail = 0
+    for a in anchors:
+        if a is None:
+            tail += 1
+        else:
+            where[a[0]].append(a[1])
+    num, fi = 1, 0
+    for pi, para in enumerate(e["paras"]):
+        spans = ""
+        for o, t in para:
+            pairs = marked_pairs(o, t, where[fi])
+            if pairs is None:        # 极少数对不齐：该处注释记到全篇末尾
+                tail += len(where[fi])
+                pairs = split_pairs(o, t)
+            fi += 1
+            spans += "".join(f'<span class="s" tabindex="0" data-t="{esc(t2)}">{orig_html(o2)}</span>' for o2, t2 in pairs)
+        if pi == len(e["paras"]) - 1:
+            spans += NOTE_MARK * tail
+        spans, num = number_marks(spans, num)
         out.append(f"<p>{spans}</p>")
-    if e["notes"]:
-        items = "".join(f"<li>{esc(n)}</li>" for n in e["notes"])
+    if notes:
+        items = "".join(f"<li>{esc(n)}</li>" for n in notes)
         out.append(
             f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{i}">'
-            f'<span class="caret">▸</span> 注释（{len(e["notes"])}）</button>'
+            f'<span class="caret">▸</span> 注释（{len(notes)}）</button>'
             f'<ol class="notes" id="n{i}" hidden>{items}</ol>'
         )
     out.append("</section>")
@@ -1083,7 +1229,7 @@ def _renjiancihua_spec():
     pages = [(p["slug"], p["title"]) for p in data["pages"]]
     footer = "原文与注释均取自维基文库《人间词话》汇本：注释即原页面所附的①②…条目（引词、人名等），整理者未作增补；不设白话与题解。"
     return {
-        "title": "人间词话", "author": "［近代］王国维", "unit": "则", "prose": True, "no_tip": True,
+        "title": "人间词话", "author": "［近代］王国维", "unit": "则", "prose": True, "no_tip": True, "source_markers": True,
         "side_toc": True, "side_toc_always": True, "no_count": True, "wide_index": True,
         "home_intro_own": True, "omit_source_credit": True,
         "reading_hint": "原文直读，不设白话。注释照录维基文库原页面所附。",
@@ -1606,6 +1752,11 @@ def drama_html(text, stage_book=None):
     return "".join(out)
 
 
+def circ_sup(h, on):
+    """原站正文里的圆圈数字注号（①②…）显示为上标。"""
+    return CIRC.sub(r"<sup>\1</sup>", h) if on else h
+
+
 def table_html(t):
     def cell(tag, c):
         return f"<{tag}>" + "<br>".join(esc(x) for x in c.split("／")) + f"</{tag}>"
@@ -1684,19 +1835,39 @@ def build_poetry(bslug, spec):
                 if ch.get("diagram"):
                     parts.append(f'<pre class="source-diagram" style="max-width:100%;overflow-x:auto">{esc(ch["o"])}</pre>')
                     continue
+                chunk_start = len(parts)
+                src_marks = bool(spec.get("source_markers"))
+                if src_marks:
+                    anchors, chunk_notes = [], ch["notes"]
+                else:
+                    anchors, chunk_notes = anchor_notes([ch["o"]], ch["notes"])
+                at = [a[1] for a in anchors if a is not None]
+                tail = sum(1 for a in anchors if a is None)
                 is_p = ch.get("verse") or bool(spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
                 poem = " poem" if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
                     runs = split_poem_runs(ch["o"]) if spec.get("center_poems") and not poem else None
                     if runs:
-                        for isp, txt in runs:
-                            parts.append(f'<p class="v {paragraph_style}{" poem" if isp else ""}">{drama_html(txt, stage_book)}</p>')
+                        pos = 0
+                        for ri, (isp, txt) in enumerate(runs):
+                            end = pos + len(txt)
+                            ins = [max(q - pos, 0) for q in at if q <= end]
+                            at = [q for q in at if q > end]
+                            body = drama_html(mark_text(txt, ins), stage_book)
+                            if ri == len(runs) - 1:
+                                body += NOTE_MARK * tail
+                            parts.append(f'<p class="v {paragraph_style}{" poem" if isp else ""}">{circ_sup(body, src_marks)}</p>')
+                            pos = end + 1
                     else:
-                        parts.append(f'<p class="v {paragraph_style}{poem}">{drama_html(ch["o"], stage_book)}</p>')
+                        body = drama_html(mark_text(ch["o"], at), stage_book) + NOTE_MARK * tail
+                        parts.append(f'<p class="v {paragraph_style}{poem}">{circ_sup(body, src_marks)}</p>')
                 else:
                   spans = ""
-                  pairs = split_pairs(ch["o"], ch["t"])
+                  pairs = marked_pairs(ch["o"], ch["t"], at)
+                  if pairs is None:        # 极少数对不齐：该段注释记到段末
+                      tail += len(at)
+                      pairs = split_pairs(ch["o"], ch["t"])
                   if spec.get("unaligned_translation_details") and not has_sentence_pairs(ch):
                       parts.append(f'<p class="v nv">{drama_html(ch["o"])}</p>'
                                    f'<details class="translation-draft"><summary>段落白话</summary>'
@@ -1705,7 +1876,7 @@ def build_poetry(bslug, spec):
                   if spec.get("strict_pairs"):
                       original_sents = split_sents(ch["o"])
                       if (len(original_sents) != len(ch["t"].split("¦"))
-                              or [o for o, _t in pairs] != original_sents):
+                              or [o.replace(NOTE_MARK, "") for o, _t in pairs] != original_sents):
                           raise ValueError(f"{bslug}/{slug}: 原文与白话必须逐句对应，不能整段回退")
                   for o2, t2 in pairs:
                       if o2.startswith("/"):
@@ -1713,6 +1884,7 @@ def build_poetry(bslug, spec):
                           o2 = o2[1:]
                       spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{ed_html(poem_orig(o2), ed_state)}</span>'
                   if pairs:
+                      spans += NOTE_MARK * tail
                       label = ch["o"].strip() if bslug == "hanfeizi" else ""
                       if label == "右经":
                           parts.append(f'<p class="hf-end-marker">{spans}</p>')
@@ -1720,12 +1892,15 @@ def build_poetry(bslug, spec):
                           parts.append(f'<h3 class="hf-example-heading">{spans}</h3>')
                       else:
                           parts.append(f'<p class="v">{spans}</p>')
-                if ch["notes"]:
+                num = 1
+                for k in range(chunk_start, len(parts)):
+                    parts[k], num = number_marks(parts[k], num)
+                if chunk_notes:
                     uid += 1
-                    li = "".join(f"<li>{esc(n)}</li>" for n in ch["notes"])
+                    li = "".join(f"<li>{esc(n)}</li>" for n in chunk_notes)
                     parts.append(
                         f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
-                        f'<span class="caret">▸</span> 注释（{len(ch["notes"])}）</button><ul class="notes plain" id="n{uid}" hidden>{li}</ul>')
+                        f'<span class="caret">▸</span> 注释（{len(chunk_notes)}）</button><ul class="notes plain{" src" if src_marks else ""}" id="n{uid}" hidden>{li}</ul>')
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         toc = ""
@@ -1887,4 +2062,4 @@ if __name__ == "__main__":
     for _k, _v in POETRY.items():
         build_poetry(_k, _v)
     build_home()
-    print("done")
+    print("done", dict(ANCHOR_STATS))

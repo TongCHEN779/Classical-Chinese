@@ -47,8 +47,8 @@ def main():
         assert "".join(c["o"] for c in chunks) == "".join(source), (slug, "source text changed")
         html = soup(ROOT / "mozi" / (slug + ".html"))
         assert "".join(x.get_text() for x in html.select(".entry p.v")) == "".join(source)
-        assert [x.get_text() for x in html.select(".entry .notes.plain li")] == [
-            note for c in chunks for note in c["notes"]], (slug, "rendered notes changed")
+        assert sorted(x.get_text() for x in html.select(".entry .notes.plain li")) == sorted(
+            note for c in chunks for note in c["notes"]), (slug, "rendered notes changed")   # 注释按正文上标顺序排列，故不比顺序
         for a in html.select('a[href$=".html"]'):
             assert (ROOT / "mozi" / a["href"]).is_file(), (slug, a["href"])
         expected = []

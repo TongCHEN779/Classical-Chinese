@@ -46,7 +46,7 @@ def main():
             else:
                 assert not spans, slug
         expected = [n for c in chunks for n in c["notes"]]
-        assert [li.get_text() for li in doc.select(".notes.plain li")] == expected, slug
+        assert sorted(li.get_text() for li in doc.select(".notes.plain li")) == sorted(expected)   # 注释按正文上标顺序排列，故不比顺序, slug
         assert [p.get_text() for p in doc.select(".intro-box p")] == [t for s in sections for t in s["intro"]], slug
         notes += len(expected)
     for slug in ("xu", "appendix"):

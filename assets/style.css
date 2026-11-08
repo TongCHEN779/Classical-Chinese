@@ -111,8 +111,14 @@ body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:
 .hf-end-marker{margin:1.2em 0 .7em;font-size:.78em;opacity:.75;text-indent:0!important;text-align:left!important}
 .hf-example-heading{margin:1.25em 0 .35em;padding-block-start:.55em;border-block-start:1px solid currentColor;font-size:.9em;font-weight:700;text-align:left}
 .v sup{font-size:.6em;color:var(--muted);margin:0 1px}
-.notes.plain{list-style:none;padding-left:16px}
-.notes.plain li{margin:.15em 0;font-size:14px;line-height:1.75}
+.notes.plain{list-style:none;padding-left:16px;counter-reset:nn}
+.notes.plain li{margin:.15em 0;font-size:14px;line-height:1.75;counter-increment:nn;position:relative;padding-left:1.7em}
+.notes.plain li::before{content:counter(nn);position:absolute;left:0;width:1.35em;text-align:right;color:var(--accent);font-size:.82em;font-weight:600}
+.notes.plain.src li{counter-increment:none;padding-left:0}
+.notes.plain.src li::before{content:none}
+/* 正文里的注释位置：上标序号（序号由 data-n 生成，不进入文字内容，复制正文时不会带出） */
+sup.n{font-size:.74em;line-height:0;color:var(--accent);font-weight:600;margin:0 1px 0 .5px;user-select:none}
+sup.n::after{content:attr(data-n)}
 .intro-box p{text-indent:2em;margin:.4em 0;font-size:14.5px;line-height:1.8}
 h3.grp{font-size:18px;letter-spacing:.2em;margin:1.4em 0 .4em;color:var(--muted)}
 
