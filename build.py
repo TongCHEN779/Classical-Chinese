@@ -1455,6 +1455,10 @@ POETRY = {
     "ducheng": _texts_spec("ducheng", "都城纪胜", "［南宋］耐得翁"),
     "mengliang": _texts_spec("mengliang", "梦粱录", "［南宋］吴自牧"),
     "xuxiake": _texts_spec("xuxiake", "徐霞客游记", "［明］徐弘祖"),
+    "shanhaijing": _texts_spec("shanhaijing", "山海经", "佚名"),
+    "jinbenzhushu": _texts_spec("jinbenzhushu", "今本竹书纪年", "佚名"),
+    "mutianzi": _texts_spec("mutianzi", "穆天子传", "佚名"),
+    "yandanzi": _texts_spec("yandanzi", "燕丹子", "佚名"),
     "renjiancihua": _renjiancihua_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
@@ -1561,6 +1565,10 @@ BOOK_INTRO = {
     "ducheng": "南宋耐得翁所记临安城市生活的笔记，分市井、诸行、酒肆、食店、社会等十四门，是了解南宋杭州风俗的重要材料。",
     "mengliang": "南宋吴自牧记临安风俗的笔记，二十卷，仿《东京梦华录》，写节序、宫殿、官署、市肆、百工与杂戏。",
     "xuxiake": "明代徐霞客的日记体游记，记浙东名山到粤西、黔、滇的山川与地理考察，兼有《溯江纪源》《盘江考》等地理专文。",
+    "shanhaijing": "先秦古书，十八篇，分山经、海经与大荒经，记各地山川、物产、神怪、异国与祭祀，是中国古代神话与地理传说的重要文献。",
+    "jinbenzhushu": "今本《竹书纪年》，按五帝、夏、殷、周、晋、魏的次序逐年编年，据说是晋代汲冢出土《竹书纪年》的传本，学者多认为经后人编订。",
+    "mutianzi": "晋代汲冢出土的竹书之一，六卷，记周穆王驾八骏西巡昆仑、会见西王母的传说，以及盛姬之丧，带有游记与传奇色彩。",
+    "yandanzi": "先秦至汉间的小说，三卷，写燕太子丹质秦归国、结交田光荆轲、使荆轲刺秦王而未成的经过，故事性强，多与《史记》互见。",
     "shipin": "南朝梁钟嵘的诗歌评论，分上中下三品评论汉至梁的一百二十余位五言诗人，并追溯其风格渊源，是中国最早的诗论专著之一。",
     "weilu": "清代王永彬的格言小品，三百余条，谈读书、修身、治家和待人接物，多用对句，文字平实。",
     "caigentan": "明代洪应明的语录体小品，分前集、后集，以简短隽语谈人生、处世与修养，融合儒释道思想；本站兼收明刻本与清刻本。",
@@ -2161,6 +2169,7 @@ INITIAL["乐"] = "Y"
 INITIAL["人"] = "R"
 INITIAL["长"] = "C"
 INITIAL["昌"] = "C"
+INITIAL.update({"山": "S", "今": "J", "穆": "M", "燕": "Y"})
 INITIAL.update({"扬": "Y", "陶": "T", "帝": "D", "都": "D", "徐": "X"})
 INITIAL.update({"诗": "S", "围": "W", "菜": "C", "浮": "F", "增": "Z", "颜": "Y", "孙": "S", "西": "X", "尹": "Y", "申": "S", "慎": "S"})
 INITIAL["东"] = "D"

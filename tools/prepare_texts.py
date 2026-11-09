@@ -17,7 +17,8 @@ from build import sent_units, split_sents
 
 TEXT_BOOKS = ["shipin", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", "sunzi", "sunbin",
               "fansheng", "yinwenzi", "shenbuhai", "shendao",
-              "huafanglu", "taoan", "dijing", "ducheng", "mengliang", "xuxiake"]
+              "huafanglu", "taoan", "dijing", "ducheng", "mengliang", "xuxiake",
+              "shanhaijing", "jinbenzhushu", "mutianzi", "yandanzi"]
 
 
 def read(path):
@@ -27,10 +28,20 @@ def read(path):
 def load_draft(book, page, n):
     draft = [None] * n
     for f in sorted((ROOT / "sources" / book / "annotations").glob(f"{page}__*.json")):
+        if "__tijie" in f.name:
+            continue
         d = read(f)
         for k, item in enumerate(d["items"]):
             assert d["start"] + k < n, (f.name, k)
             draft[d["start"] + k] = item
+    # 题解可单独成文件 <页>__tijie_<起始节>.json：{"start": 起始节, "题解": [每节一条]}，只补空的题解（徐霞客游记按日分节后用）
+    for tj in sorted((ROOT / "sources" / book / "annotations").glob(f"{page}__tijie*.json")):
+        t = read(tj)
+        for k, g in enumerate(t["题解"]):
+            i = t.get("start", 0) + k
+            assert i < n, (tj.name, k)
+            if draft[i] is not None and not draft[i].get("题解", "").strip():
+                draft[i]["题解"] = g
     return draft
 
 

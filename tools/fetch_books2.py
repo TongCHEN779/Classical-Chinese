@@ -39,17 +39,35 @@ BOOKS = {
     "ducheng": {"wiki": "都城紀勝", "g": 2500, "pages": [("p01", "都城纪胜", "都城紀勝")]},
     "mengliang": {"wiki": "夢粱錄", "g": 2500, "pages": (
         [("x1", "序", "夢粱錄/序")] + [(f"j{n:02}", f"卷{num(n)}", f"夢粱錄/卷{n:02}") for n in range(1, 21)])},
+    "shanhaijing": {"wiki": "山海經", "g": 2200, "pages": (
+        [("x1", "郭璞序", "山海經/郭璞序")]
+        + [(f"j{i}", t, f"山海經/{w}") for i, (t, w) in enumerate([
+            ("南山经", "南山經"), ("西山经", "西山經"), ("北山经", "北山經"), ("东山经", "東山經"), ("中山经", "中山經"),
+            ("海外南经", "海外南經"), ("海外西经", "海外西經"), ("海外北经", "海外北經"), ("海外东经", "海外東經"),
+            ("海内南经", "海內南經"), ("海内西经", "海內西經"), ("海内北经", "海內北經"), ("海内东经", "海內東經"),
+            ("大荒东经", "大荒東經"), ("大荒南经", "大荒南經"), ("大荒西经", "大荒西經"), ("大荒北经", "大荒北經"),
+            ("海内经", "海內經")], 1)])},
+    "jinbenzhushu": {"wiki": "今本竹書紀年", "g": 2200, "year": True, "pages": [
+        ("j1", "五帝纪", "今本竹書紀年/五帝紀"), ("j2", "夏纪", "今本竹書紀年/夏紀"), ("j3", "殷纪", "今本竹書紀年/殷紀"),
+        ("j4", "周纪", "今本竹書紀年/周紀"), ("j5", "晋纪", "今本竹書紀年/晉紀"), ("j6", "魏纪", "今本竹書紀年/魏紀")]},
+    "mutianzi": {"wiki": "穆天子傳", "g": 2200, "pages": (
+        [("x1", "序一", "穆天子傳/序一"), ("x2", "序二", "穆天子傳/序二")]
+        + [(f"j{n}", f"卷{num(n)}", f"穆天子傳/卷{'一二三四五六'[n - 1]}") for n in range(1, 7)])},
+    "yandanzi": {"wiki": "燕丹子", "g": 2000, "pages": [("p01", "燕丹子", "燕丹子", "headings")]},
     "xuxiake": {"wiki": "徐霞客遊記", "g": 1800, "merge": True, "pages": "AUTO"},
 }
 
 
-def units(seq, poem=False):
+def units(seq, poem=False, year=False):
     """seq 为 items() 的输出，返回 [(标题, 上级标题, 段落列表)]。"""
     out, trail, cur = [], [], None
     for lvl, t in seq:
         if lvl:
             if poem and "【" in t and cur is not None:
                 cur[2].append(t)        # 诗题并入正文，作为该诗的首行
+                continue
+            if year and cur is not None and re.fullmatch(r"[元一二三四五六七八九十百零〇]+年", t):
+                cur[2].append(t)        # 纪年标题（元年、二年…）并入所属帝王一节，作为该年记事的首行
                 continue
             while trail and trail[-1][0] >= lvl:
                 trail.pop()
@@ -127,7 +145,7 @@ def main():
                     wt = href.split("/wiki/", 1)[1].replace("_", " ")
                     pages.append((f"p{len(pages) + 1:02}", a.get_text().strip(), wt))
         out = []
-        for pslug, ptitle, wiki in pages:
+        for pslug, ptitle, wiki, *_ in pages:
             try:
                 page = fetch(wiki)
             except Exception as e:            # 页面不存在（目录里的红链）等
@@ -135,7 +153,7 @@ def main():
                 continue
             root = BeautifulSoup(page["text"], "html.parser").select_one(".mw-parser-output")
             seq = list(items(root))
-            secs = sections(units(seq, cfg.get("poem", False)), ptitle, cfg["g"], cfg.get("merge", False))
+            secs = sections(units(seq, cfg.get("poem", False), cfg.get("year", False)), ptitle, cfg["g"], cfg.get("merge", False))
             out.append({"slug": pslug, "title": ptitle, "url": "https://zh.wikisource.org/zh-hans/" + quote(wiki),
                         "revision": str(page["revid"]), "heads": [], "sections": secs})
             print(slug, pslug, ptitle, len(secs), sum(len(p) for s in secs for p in s["paragraphs"]), flush=True)
