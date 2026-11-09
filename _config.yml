@@ -1,0 +1,12 @@
+# GitHub Pages（分支发布）只需要生成好的页面，不要把源数据和工具一并打包发布，否则站点超过 1 GB 上限、部署超时。
+exclude:
+  - src
+  - sources
+  - tools
+  - tests
+  - build.py
+  - __pycache__
+  - shiji_pages.json
+  - table_of_content.md
+  - README.md
+  - LICENSE
