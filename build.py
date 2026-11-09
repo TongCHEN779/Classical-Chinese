@@ -1189,6 +1189,26 @@ def _texts_spec(slug, title, author, wiki_intro=False, lost=()):
     }
 
 
+def _orig_spec(slug, title, author):
+    """tools/prepare_orig.py 生成的只录原文的大书：页表与分组读自 sources/<slug>/pages.json，节名作页内小目录。"""
+    pages_ = json.loads((ROOT / f"sources/{slug}/pages.json").read_text(encoding="utf8"))
+    catalog = json.loads((ROOT / f"sources/{slug}/chapters.json").read_text(encoding="utf8"))
+    pages, last = [], None
+    for sl, tt, grp in pages_:
+        if grp and grp != last:
+            pages.append((None, grp))
+        last = grp
+        pages.append((sl, tt))
+    return {
+        "title": title, "author": author, "prose": True, "home_intro_own": True,
+        "no_tip": True, "original_only": True, "ed_notes": True, "side_toc": True,
+        "side_toc_always": True, "no_count": True, "wide_index": True,
+        "omit_source_credit": True, "reading_hint": "", "original_footer": "未据影印本逐字校勘。",
+        "sub_labels": {ch["slug"]: [sec["title"] for sec in ch["sections"]] for ch in catalog},
+        "pages": pages, "index_footer": "",
+    }
+
+
 def _lunheng_spec():
     catalog = json.loads((ROOT / "sources/lunheng/chapters.json").read_text(encoding="utf8"))
 
@@ -1464,6 +1484,34 @@ POETRY = {
     "wenxindiaolong": _texts_spec("wenxindiaolong", "文心雕龙", "［南朝梁］刘勰"),
     "guanzi": _texts_spec("guanzi", "管子", "［春秋］管仲（旧题）", lost=[('p21', '王言第二十一'), ('p25', '谋失第二十五'), ('p34', '正言第三十四'), ('p60', '言昭第六十'), ('p61', '修身第六十一'), ('p62', '问霸第六十二'), ('p63', '牧民解第六十三'), ('p70', '问乘马第七十'), ('p82', '轻重丙第八十二'), ('p86', '轻重庚第八十六')]),
     "liexianzhuan": _texts_spec("liexianzhuan", "列仙传", "［汉］刘向（旧题）"),
+    "shuijingzhu": _orig_spec("shuijingzhu", "水经注", "［北魏］郦道元"),
+    "taipingguangji": _orig_spec("taipingguangji", "太平广记", "［北宋］李昉等"),
+    "houhanshu": _orig_spec("houhanshu", "后汉书", "［南朝宋］范晔"),
+    "hanshu": _orig_spec("hanshu", "汉书", "［东汉］班固"),
+    "sanguozhi": _orig_spec("sanguozhi", "三国志", "［西晋］陈寿"),
+    "jinshu": _orig_spec("jinshu", "晋书", "［唐］房玄龄等"),
+    "nanshi": _orig_spec("nanshi", "南史", "［唐］李延寿"),
+    "beishi": _orig_spec("beishi", "北史", "［唐］李延寿"),
+    "suishu": _orig_spec("suishu", "隋书", "［唐］魏徵等"),
+    "songshu": _orig_spec("songshu", "宋书", "［南朝梁］沈约"),
+    "nanqishu": _orig_spec("nanqishu", "南齐书", "［南朝梁］萧子显"),
+    "liangshu": _orig_spec("liangshu", "梁书", "［唐］姚思廉"),
+    "chenshu": _orig_spec("chenshu", "陈书", "［唐］姚思廉"),
+    "weishu": _orig_spec("weishu", "魏书", "［北齐］魏收"),
+    "beiqishu": _orig_spec("beiqishu", "北齐书", "［唐］李百药"),
+    "zhoushu": _orig_spec("zhoushu", "周书", "［唐］令狐德棻等"),
+    "jiutangshu": _orig_spec("jiutangshu", "旧唐书", "［后晋］刘昫等"),
+    "xintangshu": _orig_spec("xintangshu", "新唐书", "［北宋］欧阳修、宋祁等"),
+    "jiuwudaishi": _orig_spec("jiuwudaishi", "旧五代史", "［北宋］薛居正等"),
+    "xinwudaishi": _orig_spec("xinwudaishi", "新五代史", "［北宋］欧阳修"),
+    "liaoshi": _orig_spec("liaoshi", "辽史", "［元］脱脱等"),
+    "songshi": _orig_spec("songshi", "宋史", "［元］脱脱等"),
+    "jinshi": _orig_spec("jinshi", "金史", "［元］脱脱等"),
+    "yuanshi": _orig_spec("yuanshi", "元史", "［明］宋濂等"),
+    "mingshi": _orig_spec("mingshi", "明史", "［清］张廷玉等"),
+    "tongdian": _orig_spec("tongdian", "通典", "［唐］杜佑"),
+    "wenxiantongkao": _orig_spec("wenxiantongkao", "文献通考", "［元］马端临"),
+    "ershierzhaji": _orig_spec("ershierzhaji", "廿二史劄记", "［清］赵翼"),
     "yuejueshu": _texts_spec("yuejueshu", "越绝书", "［东汉］袁康、吴平（旧题）"),
     "chunqiufanlu": _texts_spec("chunqiufanlu", "春秋繁露", "［西汉］董仲舒"),
     "wuyuechunqiu": _texts_spec("wuyuechunqiu", "吴越春秋", "［东汉］赵晔"),
@@ -1581,6 +1629,34 @@ BOOK_INTRO = {
     "diwangshiji": "西晋皇甫谧的帝王编年著作，原书已佚，今存自三皇至汉魏的辑佚本，按帝王世次记其世系、年岁、都邑与事迹。",
     "wenxindiaolong": "南朝梁刘勰所著，五十篇，上编论文体源流，下编论创作与批评，是中国古代体系最完整的文学理论专著。",
     "guanzi": "托名春秋齐相管仲，实为战国至汉初稷下学者的论文总集，现存七十六篇，兼收道、法、儒、兵、农与经济思想，《轻重》诸篇尤有特色。",
+    "taipingguangji": "北宋李昉等奉敕编的大型小说类书，辑录汉至宋初的野史传说、笔记小说，分九十二类，共五百卷。",
+    "houhanshu": "南朝宋范晔撰的东汉纪传体史书，含本纪、列传，后人并入晋司马彪《续汉书》八志，共一百二十卷。",
+    "hanshu": "东汉班固所撰的西汉断代史，纪、表、志、传四体俱备，共一百卷，是第一部纪传体断代史。",
+    "sanguozhi": "西晋陈寿撰的魏、蜀、吴三国纪传体断代史，分魏志、蜀志、吴志，共六十五卷。",
+    "jinshu": "唐房玄龄等奉敕撰的晋代正史，含帝纪、志、列传和载记，共一百三十卷。",
+    "nanshi": "唐李延寿撰，合宋、齐、梁、陈四朝为一书的纪传体通史，共八十卷。",
+    "beishi": "唐李延寿撰，合北魏、东魏、西魏、北齐、北周、隋六朝为一书的纪传体通史，共一百卷。",
+    "suishu": "唐魏徵等奉敕撰的隋代正史，帝纪、列传五十五卷，另附梁陈齐周隋五代史志三十卷，共八十五卷。",
+    "songshu": "南朝梁沈约撰的刘宋一代正史，含本纪、志、列传，共一百卷。",
+    "nanqishu": "南朝梁萧子显撰的南齐一代正史，今存本纪、志、列传，共五十九卷。",
+    "liangshu": "唐姚思廉撰的萧梁一代正史，含本纪、列传，共五十六卷。",
+    "chenshu": "唐姚思廉撰的陈代正史，含本纪、列传，共三十六卷。",
+    "weishu": "北齐魏收奉敕撰的北魏、东魏正史，含帝纪、列传、志，共一百一十四卷。",
+    "beiqishu": "唐李百药撰的北齐一代正史，含帝纪、列传，共五十卷。",
+    "zhoushu": "唐令狐德棻等奉敕撰的北周一代正史，含帝纪、列传，共五十卷。",
+    "jiutangshu": "后晋刘昫等奉敕撰的唐代正史，含本纪、志、列传，共二百卷。",
+    "xintangshu": "北宋欧阳修、宋祁等奉敕重修的唐代正史，含本纪、志、表、列传，共二百二十五卷。",
+    "jiuwudaishi": "北宋薛居正等奉敕撰的五代正史，梁、唐、晋、汉、周各为一书，共一百五十卷。",
+    "xinwudaishi": "北宋欧阳修私撰的五代史，笔法仿《春秋》，含本纪、列传、考、世家、年谱，共七十四卷。",
+    "liaoshi": "元脱脱等奉敕撰的辽代正史，含本纪、志、表、列传和国语解，共一百一十六卷。",
+    "songshi": "元脱脱等奉敕撰的宋代正史，含本纪、志、表、列传，共四百九十六卷，是二十四史中篇幅最大的一部。",
+    "jinshi": "元脱脱等奉敕撰的金代正史，含本纪、志、表、列传，共一百三十五卷。",
+    "yuanshi": "明宋濂等奉敕撰的元代正史，含本纪、志、表、列传，共二百一十卷。",
+    "mingshi": "清张廷玉等奉敕撰的明代正史，含本纪、志、表、列传，共三百三十二卷。",
+    "tongdian": "唐杜佑撰的典章制度通史，分食货、选举、职官、礼、乐、兵刑、州郡、边防八门，共二百卷。",
+    "wenxiantongkao": "元马端临撰的典章制度通史，续《通典》而详，分田赋、钱币、户口、职役等二十四考，共三百四十八卷。",
+    "ershierzhaji": "清赵翼撰的史学札记，逐史考辨编撰、体例与史实异同，兼论政事、制度与人物，共三十六卷，另有补遗。",
+    "shuijingzhu": "北魏郦道元为《水经》作的注，以河流为纲，记各水源流与沿岸地理、城邑、古迹和故事，是中国古代最重要的地理著作之一。",
     "liexianzhuan": "旧题西汉刘向撰，记赤松子至玄俗七十位仙人的事迹，每传末附四言赞，是现存最早的神仙传记集。",
     "yuejueshu": "东汉越地史书，十五卷，以吴越争霸、勾践灭吴为中心，兼记吴越地理、风土与人物，多与《吴越春秋》互见。",
     "chunqiufanlu": "西汉董仲舒的春秋公羊学著作，八十二篇，发挥“大一统”“天人感应”等主张，并以阴阳五行说明政治与人事。",
@@ -1999,7 +2075,10 @@ def build_poetry(bslug, spec):
                             parts.append(f'<p class="v {paragraph_style}{" poem" if isp else ""}">{circ_sup(body, src_marks)}</p>')
                             pos = end + 1
                     else:
-                        body = drama_html(mark_text(ch["o"], at), stage_book) + NOTE_MARK * tail
+                        body = drama_html(mark_text(ch["o"], at), stage_book)
+                        if spec.get("ed_notes"):
+                            body = ed_html(body, ed_state)
+                        body += NOTE_MARK * tail
                         parts.append(f'<p class="v {paragraph_style}{poem}">{circ_sup(body, src_marks)}</p>')
                 else:
                   spans = ""
@@ -2190,6 +2269,8 @@ INITIAL["长"] = "C"
 INITIAL["昌"] = "C"
 INITIAL.update({"越": "Y", "吴": "W", "酉": "Y", "春": "C", "帝": "D"})
 INITIAL.update({"文": "W", "管": "G", "列": "L"})
+for _c, _l in zip("晋南北旧明隋梁陈魏辽元通汉太", "JNBJMSLCWLYTHT"):
+    INITIAL.setdefault(_c, _l)
 INITIAL.update({"山": "S", "今": "J", "穆": "M", "燕": "Y"})
 INITIAL.update({"扬": "Y", "陶": "T", "帝": "D", "都": "D", "徐": "X"})
 INITIAL.update({"诗": "S", "围": "W", "菜": "C", "浮": "F", "增": "Z", "颜": "Y", "孙": "S", "西": "X", "尹": "Y", "申": "S", "慎": "S"})

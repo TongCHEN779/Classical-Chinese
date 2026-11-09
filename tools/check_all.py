@@ -22,6 +22,7 @@ STEPS = [
     ['tools/check_changshengdian.py'],
     ['tools/check_changliwenchao.py'],
     ['tools/check_texts.py'],
+    ['tools/check_orig.py'],
     ['tools/check_note_marks.py'],
     ['tools/check_guoyu.py'],
     ['tools/check_zhouli.py'],
