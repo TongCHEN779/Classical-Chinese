@@ -67,6 +67,7 @@ BOOKS = {
         + [(f"s{n:02}", f"续集卷{num(n)}", f"酉陽雜俎/續集/卷{num(n)}") for n in range(1, 11)])},
     "wenxindiaolong": {"wiki": "文心雕龍", "g": 1800, "pages": "MAIN_LI"},
     "guanzi": {"wiki": "管子", "g": 2200, "pages": "GUANZI"},
+    "liexianzhuan": {"wiki": "列仙傳", "g": 10**7, "pages": [("p01", "列仙传", "列仙傳")]},
     "xuxiake": {"wiki": "徐霞客遊記", "g": 1800, "merge": True, "pages": "AUTO"},
 }
 
@@ -191,9 +192,9 @@ def main():
                 m = re.match(r"/wiki/管子/第(\d+)篇(.+)$", href)
                 if m:
                     wt = "管子/" + m.group(2) if m.group(1) == "42" else href[6:]
-                    pages.append((f"p{m.group(1)}", a.get_text().strip(), wt))
+                    pages.append((f"p{m.group(1)}", a.get_text().strip() + "第" + num(int(m.group(1))), wt))
                 elif href == "/wiki/管子/七法":
-                    pages.append(("p06", "七法", "管子/七法"))
+                    pages.append(("p06", "七法第六", "管子/七法"))
             pages.sort(key=lambda x: x[0])
         out = []
         for pslug, ptitle, wiki, *_ in pages:

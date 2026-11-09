@@ -1,7 +1,7 @@
 [
  {
   "slug": "p01",
-  "title": "牧民",
+  "title": "牧民第一",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC01%E7%AF%87%E7%89%A7%E6%B0%91",
   "revision": "2341640",
   "heads": [],
@@ -10,7 +10,7 @@
     "title": "凡有地牧民者…",
     "level": 3,
     "path": [
-     "牧民"
+     "牧民第一"
     ],
     "author": "",
     "paragraphs": [
@@ -30,7 +30,7 @@
  },
  {
   "slug": "p02",
-  "title": "形势",
+  "title": "形势第二",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC02%E7%AF%87%E5%BD%A2%E5%8B%A2",
   "revision": "2200355",
   "heads": [],
@@ -39,7 +39,7 @@
     "title": "山高而不崩…",
     "level": 3,
     "path": [
-     "形势"
+     "形势第二"
     ],
     "author": "",
     "paragraphs": [
@@ -56,7 +56,7 @@
  },
  {
   "slug": "p03",
-  "title": "权修",
+  "title": "权修第三",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC03%E7%AF%87%E6%AC%8A%E8%84%A9",
   "revision": "2200353",
   "heads": [],
@@ -65,7 +65,7 @@
     "title": "万乘之国…",
     "level": 3,
     "path": [
-     "权修"
+     "权修第三"
     ],
     "author": "",
     "paragraphs": [
@@ -83,7 +83,7 @@
  },
  {
   "slug": "p04",
-  "title": "立政",
+  "title": "立政第四",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC04%E7%AF%87%E7%AB%8B%E6%94%BF",
   "revision": "2341639",
   "heads": [],
@@ -92,7 +92,7 @@
     "title": "国之所以治乱者三…",
     "level": 3,
     "path": [
-     "立政"
+     "立政第四"
     ],
     "author": "",
     "paragraphs": [
@@ -118,7 +118,7 @@
     "title": "期而致…",
     "level": 3,
     "path": [
-     "立政"
+     "立政第四"
     ],
     "author": "",
     "paragraphs": [
@@ -130,7 +130,7 @@
  },
  {
   "slug": "p05",
-  "title": "乘马",
+  "title": "乘马第五",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC05%E7%AF%87%E4%B9%98%E9%A6%AC",
   "revision": "2341638",
   "heads": [],
@@ -139,7 +139,7 @@
     "title": "凡立国都…",
     "level": 3,
     "path": [
-     "乘马"
+     "乘马第五"
     ],
     "author": "",
     "paragraphs": [
@@ -173,7 +173,7 @@
     "title": "上地方八十里…",
     "level": 3,
     "path": [
-     "乘马"
+     "乘马第五"
     ],
     "author": "",
     "paragraphs": [
@@ -185,7 +185,7 @@
  },
  {
   "slug": "p06",
-  "title": "七法",
+  "title": "七法第六",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E4%B8%83%E6%B3%95",
   "revision": "2341637",
   "heads": [],
@@ -194,7 +194,7 @@
     "title": "言是而不能立…",
     "level": 3,
     "path": [
-     "七法"
+     "七法第六"
     ],
     "author": "",
     "paragraphs": [
@@ -210,7 +210,7 @@
     "title": "若夫曲制时举…",
     "level": 3,
     "path": [
-     "七法"
+     "七法第六"
     ],
     "author": "",
     "paragraphs": [
@@ -222,7 +222,7 @@
  },
  {
   "slug": "p07",
-  "title": "版法",
+  "title": "版法第七",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC07%E7%AF%87%E7%89%88%E6%B3%95",
   "revision": "2325747",
   "heads": [],
@@ -231,7 +231,7 @@
     "title": "凡将立事…",
     "level": 3,
     "path": [
-     "版法"
+     "版法第七"
     ],
     "author": "",
     "paragraphs": [
@@ -243,7 +243,7 @@
  },
  {
   "slug": "p08",
-  "title": "幼官",
+  "title": "幼官第八",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC08%E7%AF%87%E5%B9%BC%E5%AE%98",
   "revision": "2326042",
   "heads": [],
@@ -252,7 +252,7 @@
     "title": "若因夜虚守静…",
     "level": 3,
     "path": [
-     "幼官"
+     "幼官第八"
     ],
     "author": "",
     "paragraphs": [
@@ -268,7 +268,7 @@
     "title": "旗物尚青…",
     "level": 3,
     "path": [
-     "幼官"
+     "幼官第八"
     ],
     "author": "",
     "paragraphs": [
@@ -282,7 +282,7 @@
  },
  {
   "slug": "p09",
-  "title": "幼官图",
+  "title": "幼官图第九",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC09%E7%AF%87%E5%B9%BC%E5%AE%98%E5%9C%96",
   "revision": "2341636",
   "heads": [],
@@ -291,7 +291,7 @@
     "title": "秋行夏政叶…",
     "level": 3,
     "path": [
-     "幼官图"
+     "幼官图第九"
     ],
     "author": "",
     "paragraphs": [
@@ -315,7 +315,7 @@
     "title": "旗物尚黑…",
     "level": 3,
     "path": [
-     "幼官图"
+     "幼官图第九"
     ],
     "author": "",
     "paragraphs": [
@@ -331,7 +331,7 @@
  },
  {
   "slug": "p10",
-  "title": "五辅",
+  "title": "五辅第十",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC10%E7%AF%87%E4%BA%94%E8%BC%94",
   "revision": "2325749",
   "heads": [],
@@ -340,7 +340,7 @@
     "title": "古之圣王所以取明名广…",
     "level": 3,
     "path": [
-     "五辅"
+     "五辅第十"
     ],
     "author": "",
     "paragraphs": [
@@ -358,7 +358,7 @@
  },
  {
   "slug": "p11",
-  "title": "宙合",
+  "title": "宙合第十一",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC11%E7%AF%87%E5%AE%99%E5%90%88",
   "revision": "2326043",
   "heads": [],
@@ -367,7 +367,7 @@
     "title": "左操五音…",
     "level": 3,
     "path": [
-     "宙合"
+     "宙合第十一"
     ],
     "author": "",
     "paragraphs": [
@@ -387,7 +387,7 @@
     "title": "“毋犯其凶”…",
     "level": 3,
     "path": [
-     "宙合"
+     "宙合第十一"
     ],
     "author": "",
     "paragraphs": [
@@ -403,7 +403,7 @@
  },
  {
   "slug": "p12",
-  "title": "枢言",
+  "title": "枢言第十二",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC12%E7%AF%87%E6%A8%9E%E8%A8%80",
   "revision": "2325750",
   "heads": [],
@@ -412,7 +412,7 @@
     "title": "管子曰…",
     "level": 3,
     "path": [
-     "枢言"
+     "枢言第十二"
     ],
     "author": "",
     "paragraphs": [
@@ -429,7 +429,7 @@
  },
  {
   "slug": "p13",
-  "title": "八观",
+  "title": "八观第十三",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC13%E7%AF%87%E5%85%AB%E8%A7%80",
   "revision": "2325751",
   "heads": [],
@@ -438,7 +438,7 @@
     "title": "大城不可以不完…",
     "level": 3,
     "path": [
-     "八观"
+     "八观第十三"
     ],
     "author": "",
     "paragraphs": [
@@ -455,7 +455,7 @@
     "title": "置法出令…",
     "level": 3,
     "path": [
-     "八观"
+     "八观第十三"
     ],
     "author": "",
     "paragraphs": [
@@ -467,7 +467,7 @@
  },
  {
   "slug": "p14",
-  "title": "法禁",
+  "title": "法禁第十四",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC14%E7%AF%87%E6%B3%95%E7%A6%81",
   "revision": "2325752",
   "heads": [],
@@ -476,7 +476,7 @@
     "title": "法制不议…",
     "level": 3,
     "path": [
-     "法禁"
+     "法禁第十四"
     ],
     "author": "",
     "paragraphs": [
@@ -490,7 +490,7 @@
  },
  {
   "slug": "p15",
-  "title": "重令",
+  "title": "重令第十五",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC15%E7%AF%87%E9%87%8D%E4%BB%A4",
   "revision": "2325753",
   "heads": [],
@@ -499,7 +499,7 @@
     "title": "凡君国之重器…",
     "level": 3,
     "path": [
-     "重令"
+     "重令第十五"
     ],
     "author": "",
     "paragraphs": [
@@ -514,7 +514,7 @@
  },
  {
   "slug": "p16",
-  "title": "法法",
+  "title": "法法第十六",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC16%E7%AF%87%E6%B3%95%E6%B3%95",
   "revision": "2325755",
   "heads": [],
@@ -523,7 +523,7 @@
     "title": "不法法则事毋常…",
     "level": 3,
     "path": [
-     "法法"
+     "法法第十六"
     ],
     "author": "",
     "paragraphs": [
@@ -540,7 +540,7 @@
     "title": "国无以小与不幸而削亡…",
     "level": 3,
     "path": [
-     "法法"
+     "法法第十六"
     ],
     "author": "",
     "paragraphs": [
@@ -555,7 +555,7 @@
  },
  {
   "slug": "p17",
-  "title": "兵法",
+  "title": "兵法第十七",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC17%E7%AF%87%E5%85%B5%E6%B3%95",
   "revision": "2325756",
   "heads": [],
@@ -564,7 +564,7 @@
     "title": "明一者皇…",
     "level": 3,
     "path": [
-     "兵法"
+     "兵法第十七"
     ],
     "author": "",
     "paragraphs": [
@@ -578,7 +578,7 @@
  },
  {
   "slug": "p18",
-  "title": "大匡",
+  "title": "大匡第十八",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC18%E7%AF%87%E5%A4%A7%E5%8C%A1",
   "revision": "2326038",
   "heads": [],
@@ -587,7 +587,7 @@
     "title": "齐僖公生公子诸儿…",
     "level": 3,
     "path": [
-     "大匡"
+     "大匡第十八"
     ],
     "author": "",
     "paragraphs": [
@@ -601,7 +601,7 @@
     "title": "或曰…",
     "level": 3,
     "path": [
-     "大匡"
+     "大匡第十八"
     ],
     "author": "",
     "paragraphs": [
@@ -616,7 +616,7 @@
     "title": "五年…",
     "level": 3,
     "path": [
-     "大匡"
+     "大匡第十八"
     ],
     "author": "",
     "paragraphs": [
@@ -629,7 +629,7 @@
     "title": "桓公践位十九年…",
     "level": 3,
     "path": [
-     "大匡"
+     "大匡第十八"
     ],
     "author": "",
     "paragraphs": [
@@ -640,7 +640,7 @@
  },
  {
   "slug": "p19",
-  "title": "中匡",
+  "title": "中匡第十九",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC19%E7%AF%87%E4%B8%AD%E5%8C%A1",
   "revision": "2326039",
   "heads": [],
@@ -649,7 +649,7 @@
     "title": "管仲会国用…",
     "level": 3,
     "path": [
-     "中匡"
+     "中匡第十九"
     ],
     "author": "",
     "paragraphs": [
@@ -662,7 +662,7 @@
  },
  {
   "slug": "p20",
-  "title": "小匡",
+  "title": "小匡第二十",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC20%E7%AF%87%E5%B0%8F%E5%8C%A1",
   "revision": "2326040",
   "heads": [],
@@ -671,7 +671,7 @@
     "title": "桓公自莒反于齐…",
     "level": 3,
     "path": [
-     "小匡"
+     "小匡第二十"
     ],
     "author": "",
     "paragraphs": [
@@ -683,7 +683,7 @@
     "title": "公曰…",
     "level": 3,
     "path": [
-     "小匡"
+     "小匡第二十"
     ],
     "author": "",
     "paragraphs": [
@@ -696,7 +696,7 @@
     "title": "正月之朝…",
     "level": 3,
     "path": [
-     "小匡"
+     "小匡第二十"
     ],
     "author": "",
     "paragraphs": [
@@ -707,7 +707,7 @@
     "title": "桓公曰…",
     "level": 3,
     "path": [
-     "小匡"
+     "小匡第二十"
     ],
     "author": "",
     "paragraphs": [
@@ -718,7 +718,7 @@
     "title": "桓公忧天下诸侯…",
     "level": 3,
     "path": [
-     "小匡"
+     "小匡第二十"
     ],
     "author": "",
     "paragraphs": [
@@ -730,7 +730,7 @@
  },
  {
   "slug": "p22",
-  "title": "霸形",
+  "title": "霸形第二十二",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC22%E7%AF%87%E9%9C%B8%E5%BD%A2",
   "revision": "2325757",
   "heads": [],
@@ -739,7 +739,7 @@
     "title": "桓公在位…",
     "level": 3,
     "path": [
-     "霸形"
+     "霸形第二十二"
     ],
     "author": "",
     "paragraphs": [
@@ -752,7 +752,7 @@
  },
  {
   "slug": "p23",
-  "title": "霸言",
+  "title": "霸言第二十三",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC23%E7%AF%87%E9%9C%B8%E8%A8%80",
   "revision": "2325758",
   "heads": [],
@@ -761,7 +761,7 @@
     "title": "霸王之形…",
     "level": 3,
     "path": [
-     "霸言"
+     "霸言第二十三"
     ],
     "author": "",
     "paragraphs": [
@@ -776,7 +776,7 @@
     "title": "夫轻重彊弱之形…",
     "level": 3,
     "path": [
-     "霸言"
+     "霸言第二十三"
     ],
     "author": "",
     "paragraphs": [
@@ -787,7 +787,7 @@
  },
  {
   "slug": "p24",
-  "title": "问",
+  "title": "问第二十四",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC24%E7%AF%87%E5%95%8F",
   "revision": "2325759",
   "heads": [],
@@ -796,7 +796,7 @@
     "title": "凡立朝廷…",
     "level": 3,
     "path": [
-     "问"
+     "问第二十四"
     ],
     "author": "",
     "paragraphs": [
@@ -810,7 +810,7 @@
  },
  {
   "slug": "p26",
-  "title": "戒",
+  "title": "戒第二十六",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC26%E7%AF%87%E6%88%92",
   "revision": "2325760",
   "heads": [],
@@ -819,7 +819,7 @@
     "title": "桓公将东游…",
     "level": 3,
     "path": [
-     "戒"
+     "戒第二十六"
     ],
     "author": "",
     "paragraphs": [
@@ -834,7 +834,7 @@
     "title": "管仲寝疾…",
     "level": 3,
     "path": [
-     "戒"
+     "戒第二十六"
     ],
     "author": "",
     "paragraphs": [
@@ -846,7 +846,7 @@
  },
  {
   "slug": "p27",
-  "title": "地图",
+  "title": "地图第二十七",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC27%E7%AF%87%E5%9C%B0%E5%9C%96",
   "revision": "2326044",
   "heads": [],
@@ -855,7 +855,7 @@
     "title": "凡兵主者…",
     "level": 3,
     "path": [
-     "地图"
+     "地图第二十七"
     ],
     "author": "",
     "paragraphs": [
@@ -867,7 +867,7 @@
  },
  {
   "slug": "p28",
-  "title": "参患",
+  "title": "参患第二十八",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC28%E7%AF%87%E5%8F%83%E6%82%A3",
   "revision": "2325761",
   "heads": [],
@@ -876,7 +876,7 @@
     "title": "凡人主者…",
     "level": 3,
     "path": [
-     "参患"
+     "参患第二十八"
     ],
     "author": "",
     "paragraphs": [
@@ -889,7 +889,7 @@
  },
  {
   "slug": "p29",
-  "title": "制分",
+  "title": "制分第二十九",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC29%E7%AF%87%E5%88%B6%E5%88%86",
   "revision": "2403668",
   "heads": [],
@@ -898,7 +898,7 @@
     "title": "凡兵之所以先争…",
     "level": 3,
     "path": [
-     "制分"
+     "制分第二十九"
     ],
     "author": "",
     "paragraphs": [
@@ -910,7 +910,7 @@
  },
  {
   "slug": "p30",
-  "title": "君臣上",
+  "title": "君臣上第三十",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC30%E7%AF%87%E5%90%9B%E8%87%A3%E4%B8%8A",
   "revision": "2325764",
   "heads": [],
@@ -919,7 +919,7 @@
     "title": "为人君者…",
     "level": 3,
     "path": [
-     "君臣上"
+     "君臣上第三十"
     ],
     "author": "",
     "paragraphs": [
@@ -934,7 +934,7 @@
     "title": "道者…",
     "level": 3,
     "path": [
-     "君臣上"
+     "君臣上第三十"
     ],
     "author": "",
     "paragraphs": [
@@ -946,7 +946,7 @@
  },
  {
   "slug": "p31",
-  "title": "君臣下",
+  "title": "君臣下第三十一",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC31%E7%AF%87%E5%90%9B%E8%87%A3%E4%B8%8B",
   "revision": "2325765",
   "heads": [],
@@ -955,7 +955,7 @@
     "title": "古者未有君臣上下之别…",
     "level": 3,
     "path": [
-     "君臣下"
+     "君臣下第三十一"
     ],
     "author": "",
     "paragraphs": [
@@ -971,7 +971,7 @@
     "title": "神圣者王…",
     "level": 3,
     "path": [
-     "君臣下"
+     "君臣下第三十一"
     ],
     "author": "",
     "paragraphs": [
@@ -983,7 +983,7 @@
  },
  {
   "slug": "p32",
-  "title": "小称",
+  "title": "小称第三十二",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC32%E7%AF%87%E5%B0%8F%E7%A8%B1",
   "revision": "2325766",
   "heads": [],
@@ -992,7 +992,7 @@
     "title": "管子曰…",
     "level": 3,
     "path": [
-     "小称"
+     "小称第三十二"
     ],
     "author": "",
     "paragraphs": [
@@ -1007,7 +1007,7 @@
  },
  {
   "slug": "p33",
-  "title": "四称",
+  "title": "四称第三十三",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC33%E7%AF%87%E5%9B%9B%E7%A8%B1",
   "revision": "2325767",
   "heads": [],
@@ -1016,7 +1016,7 @@
     "title": "桓公问于管子曰…",
     "level": 3,
     "path": [
-     "四称"
+     "四称第三十三"
     ],
     "author": "",
     "paragraphs": [
@@ -1030,7 +1030,7 @@
  },
  {
   "slug": "p35",
-  "title": "侈靡",
+  "title": "侈靡第三十五",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC35%E7%AF%87%E4%BE%88%E9%9D%A1",
   "revision": "2325768",
   "heads": [],
@@ -1039,7 +1039,7 @@
     "title": "问曰…",
     "level": 3,
     "path": [
-     "侈靡"
+     "侈靡第三十五"
     ],
     "author": "",
     "paragraphs": [
@@ -1057,7 +1057,7 @@
     "title": "“事立而坏…",
     "level": 3,
     "path": [
-     "侈靡"
+     "侈靡第三十五"
     ],
     "author": "",
     "paragraphs": [
@@ -1077,7 +1077,7 @@
     "title": "人死则易云…",
     "level": 3,
     "path": [
-     "侈靡"
+     "侈靡第三十五"
     ],
     "author": "",
     "paragraphs": [
@@ -1093,7 +1093,7 @@
  },
  {
   "slug": "p36",
-  "title": "心术上",
+  "title": "心术上第三十六",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC36%E7%AF%87%E5%BF%83%E8%A1%93%E4%B8%8A",
   "revision": "2326045",
   "heads": [],
@@ -1102,7 +1102,7 @@
     "title": "心之在体…",
     "level": 3,
     "path": [
-     "心术上"
+     "心术上第三十六"
     ],
     "author": "",
     "paragraphs": [
@@ -1117,7 +1117,7 @@
  },
  {
   "slug": "p37",
-  "title": "心术下",
+  "title": "心术下第三十七",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC37%E7%AF%87%E5%BF%83%E8%A1%93%E4%B8%8B",
   "revision": "2325769",
   "heads": [],
@@ -1126,7 +1126,7 @@
     "title": "形不正者德不来…",
     "level": 3,
     "path": [
-     "心术下"
+     "心术下第三十七"
     ],
     "author": "",
     "paragraphs": [
@@ -1141,7 +1141,7 @@
  },
  {
   "slug": "p38",
-  "title": "白心",
+  "title": "白心第三十八",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC38%E7%AF%87%E7%99%BD%E5%BF%83",
   "revision": "2325770",
   "heads": [],
@@ -1150,7 +1150,7 @@
     "title": "建当立有…",
     "level": 3,
     "path": [
-     "白心"
+     "白心第三十八"
     ],
     "author": "",
     "paragraphs": [
@@ -1167,7 +1167,7 @@
  },
  {
   "slug": "p39",
-  "title": "水地",
+  "title": "水地第三十九",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC39%E7%AF%87%E6%B0%B4%E5%9C%B0",
   "revision": "2326046",
   "heads": [],
@@ -1176,7 +1176,7 @@
     "title": "地者…",
     "level": 3,
     "path": [
-     "水地"
+     "水地第三十九"
     ],
     "author": "",
     "paragraphs": [
@@ -1191,7 +1191,7 @@
  },
  {
   "slug": "p40",
-  "title": "四时",
+  "title": "四时第四十",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC40%E7%AF%87%E5%9B%9B%E6%99%82",
   "revision": "2325771",
   "heads": [],
@@ -1200,7 +1200,7 @@
     "title": "管子曰…",
     "level": 3,
     "path": [
-     "四时"
+     "四时第四十"
     ],
     "author": "",
     "paragraphs": [
@@ -1217,7 +1217,7 @@
  },
  {
   "slug": "p41",
-  "title": "五行",
+  "title": "五行第四十一",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC41%E7%AF%87%E4%BA%94%E8%A1%8C",
   "revision": "2325772",
   "heads": [],
@@ -1226,7 +1226,7 @@
     "title": "一者本也…",
     "level": 3,
     "path": [
-     "五行"
+     "五行第四十一"
     ],
     "author": "",
     "paragraphs": [
@@ -1244,7 +1244,7 @@
  },
  {
   "slug": "p42",
-  "title": "势",
+  "title": "势第四十二",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E5%8B%A2",
   "revision": "2326047",
   "heads": [],
@@ -1253,7 +1253,7 @@
     "title": "战而惧水…",
     "level": 3,
     "path": [
-     "势"
+     "势第四十二"
     ],
     "author": "",
     "paragraphs": [
@@ -1266,7 +1266,7 @@
  },
  {
   "slug": "p43",
-  "title": "正",
+  "title": "正第四十三",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC43%E7%AF%87%E6%AD%A3",
   "revision": "2326048",
   "heads": [],
@@ -1275,7 +1275,7 @@
     "title": "制断五刑…",
     "level": 3,
     "path": [
-     "正"
+     "正第四十三"
     ],
     "author": "",
     "paragraphs": [
@@ -1287,7 +1287,7 @@
  },
  {
   "slug": "p44",
-  "title": "九变",
+  "title": "九变第四十四",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC44%E7%AF%87%E4%B9%9D%E8%AE%8A",
   "revision": "2326049",
   "heads": [],
@@ -1296,7 +1296,7 @@
     "title": "凡民之所以守战至死而…",
     "level": 3,
     "path": [
-     "九变"
+     "九变第四十四"
     ],
     "author": "",
     "paragraphs": [
@@ -1307,7 +1307,7 @@
  },
  {
   "slug": "p45",
-  "title": "任法",
+  "title": "任法第四十五",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC45%E7%AF%87%E4%BB%BB%E6%B3%95",
   "revision": "2325773",
   "heads": [],
@@ -1316,7 +1316,7 @@
     "title": "圣君任法而不任智…",
     "level": 3,
     "path": [
-     "任法"
+     "任法第四十五"
     ],
     "author": "",
     "paragraphs": [
@@ -1334,7 +1334,7 @@
  },
  {
   "slug": "p46",
-  "title": "明法",
+  "title": "明法第四十六",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC46%E7%AF%87%E6%98%8E%E6%B3%95",
   "revision": "2326050",
   "heads": [],
@@ -1343,7 +1343,7 @@
     "title": "所谓治国者…",
     "level": 3,
     "path": [
-     "明法"
+     "明法第四十六"
     ],
     "author": "",
     "paragraphs": [
@@ -1355,7 +1355,7 @@
  },
  {
   "slug": "p47",
-  "title": "正世",
+  "title": "正世第四十七",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC47%E7%AF%87%E6%AD%A3%E4%B8%96",
   "revision": "2325774",
   "heads": [],
@@ -1364,7 +1364,7 @@
     "title": "古之欲正世调天下者…",
     "level": 3,
     "path": [
-     "正世"
+     "正世第四十七"
     ],
     "author": "",
     "paragraphs": [
@@ -1377,7 +1377,7 @@
  },
  {
   "slug": "p48",
-  "title": "治国",
+  "title": "治国第四十八",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC48%E7%AF%87%E6%B2%BB%E5%9C%8B",
   "revision": "2326051",
   "heads": [],
@@ -1386,7 +1386,7 @@
     "title": "凡治国之道…",
     "level": 3,
     "path": [
-     "治国"
+     "治国第四十八"
     ],
     "author": "",
     "paragraphs": [
@@ -1399,7 +1399,7 @@
  },
  {
   "slug": "p49",
-  "title": "内业",
+  "title": "内业第四十九",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC49%E7%AF%87%E5%85%A7%E6%A5%AD",
   "revision": "2326052",
   "heads": [],
@@ -1408,7 +1408,7 @@
     "title": "凡物之精…",
     "level": 3,
     "path": [
-     "内业"
+     "内业第四十九"
     ],
     "author": "",
     "paragraphs": [
@@ -1426,7 +1426,7 @@
  },
  {
   "slug": "p50",
-  "title": "封禅",
+  "title": "封禅第五十",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC50%E7%AF%87%E5%B0%81%E7%A6%AA",
   "revision": "2326053",
   "heads": [],
@@ -1435,7 +1435,7 @@
     "title": "桓公既霸…",
     "level": 3,
     "path": [
-     "封禅"
+     "封禅第五十"
     ],
     "author": "",
     "paragraphs": [
@@ -1446,7 +1446,7 @@
  },
  {
   "slug": "p51",
-  "title": "小问",
+  "title": "小问第五十一",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC51%E7%AF%87%E5%B0%8F%E5%95%8F",
   "revision": "2325775",
   "heads": [],
@@ -1455,7 +1455,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "小问"
+     "小问第五十一"
     ],
     "author": "",
     "paragraphs": [
@@ -1471,7 +1471,7 @@
     "title": "桓公乘马…",
     "level": 3,
     "path": [
-     "小问"
+     "小问第五十一"
     ],
     "author": "",
     "paragraphs": [
@@ -1486,7 +1486,7 @@
  },
  {
   "slug": "p52",
-  "title": "七主七臣",
+  "title": "七主七臣第五十二",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC52%E7%AF%87%E4%B8%83%E4%B8%BB%E4%B8%83%E8%87%A3",
   "revision": "2325776",
   "heads": [],
@@ -1495,7 +1495,7 @@
     "title": "或以平虚…",
     "level": 3,
     "path": [
-     "七主七臣"
+     "七主七臣第五十二"
     ],
     "author": "",
     "paragraphs": [
@@ -1513,7 +1513,7 @@
  },
  {
   "slug": "p53",
-  "title": "禁藏",
+  "title": "禁藏第五十三",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC53%E7%AF%87%E7%A6%81%E8%97%8F",
   "revision": "2325778",
   "heads": [],
@@ -1522,7 +1522,7 @@
     "title": "禁藏于胸胁之内…",
     "level": 3,
     "path": [
-     "禁藏"
+     "禁藏第五十三"
     ],
     "author": "",
     "paragraphs": [
@@ -1539,7 +1539,7 @@
     "title": "凡有天下者…",
     "level": 3,
     "path": [
-     "禁藏"
+     "禁藏第五十三"
     ],
     "author": "",
     "paragraphs": [
@@ -1550,7 +1550,7 @@
  },
  {
   "slug": "p54",
-  "title": "入国",
+  "title": "入国第五十四",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC54%E7%AF%87%E5%85%A5%E5%9C%8B",
   "revision": "2325781",
   "heads": [],
@@ -1559,7 +1559,7 @@
     "title": "入国四旬…",
     "level": 3,
     "path": [
-     "入国"
+     "入国第五十四"
     ],
     "author": "",
     "paragraphs": [
@@ -1570,7 +1570,7 @@
  },
  {
   "slug": "p55",
-  "title": "九守",
+  "title": "九守第五十五",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC55%E7%AF%87%E4%B9%9D%E5%AE%88",
   "revision": "2341635",
   "heads": [],
@@ -1579,7 +1579,7 @@
     "title": "安徐而静…",
     "level": 3,
     "path": [
-     "九守"
+     "九守第五十五"
     ],
     "author": "",
     "paragraphs": [
@@ -1607,7 +1607,7 @@
  },
  {
   "slug": "p56",
-  "title": "桓公问",
+  "title": "桓公问第五十六",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC56%E7%AF%87%E6%A1%93%E5%85%AC%E5%95%8F",
   "revision": "2326054",
   "heads": [],
@@ -1616,7 +1616,7 @@
     "title": "齐桓公问管子曰…",
     "level": 3,
     "path": [
-     "桓公问"
+     "桓公问第五十六"
     ],
     "author": "",
     "paragraphs": [
@@ -1627,7 +1627,7 @@
  },
  {
   "slug": "p57",
-  "title": "度地",
+  "title": "度地第五十七",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC57%E7%AF%87%E5%BA%A6%E5%9C%B0",
   "revision": "2325782",
   "heads": [],
@@ -1636,7 +1636,7 @@
     "title": "昔者桓公问管仲曰…",
     "level": 3,
     "path": [
-     "度地"
+     "度地第五十七"
     ],
     "author": "",
     "paragraphs": [
@@ -1649,7 +1649,7 @@
     "title": "桓公曰…",
     "level": 3,
     "path": [
-     "度地"
+     "度地第五十七"
     ],
     "author": "",
     "paragraphs": [
@@ -1660,7 +1660,7 @@
  },
  {
   "slug": "p58",
-  "title": "地员",
+  "title": "地员第五十八",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC58%E7%AF%87%E5%9C%B0%E5%93%A1",
   "revision": "2326055",
   "heads": [],
@@ -1669,7 +1669,7 @@
     "title": "夫管仲之匡天下也…",
     "level": 3,
     "path": [
-     "地员"
+     "地员第五十八"
     ],
     "author": "",
     "paragraphs": [
@@ -1693,7 +1693,7 @@
     "title": "纑土之次曰五壏…",
     "level": 3,
     "path": [
-     "地员"
+     "地员第五十八"
     ],
     "author": "",
     "paragraphs": [
@@ -1716,7 +1716,7 @@
  },
  {
   "slug": "p59",
-  "title": "弟子职",
+  "title": "弟子职第五十九",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC59%E7%AF%87%E5%BC%9F%E5%AD%90%E8%81%B7",
   "revision": "2326056",
   "heads": [],
@@ -1725,7 +1725,7 @@
     "title": "先生施教…",
     "level": 3,
     "path": [
-     "弟子职"
+     "弟子职第五十九"
     ],
     "author": "",
     "paragraphs": [
@@ -1740,7 +1740,7 @@
  },
  {
   "slug": "p64",
-  "title": "形势解",
+  "title": "形势解第六十四",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC64%E7%AF%87%E5%BD%A2%E5%8B%A2%E8%A7%A3",
   "revision": "2325783",
   "heads": [],
@@ -1749,7 +1749,7 @@
     "title": "山者…",
     "level": 3,
     "path": [
-     "形势解"
+     "形势解第六十四"
     ],
     "author": "",
     "paragraphs": [
@@ -1781,7 +1781,7 @@
     "title": "主之所以为功者…",
     "level": 3,
     "path": [
-     "形势解"
+     "形势解第六十四"
     ],
     "author": "",
     "paragraphs": [
@@ -1818,7 +1818,7 @@
     "title": "事主而不尽力则有刑…",
     "level": 3,
     "path": [
-     "形势解"
+     "形势解第六十四"
     ],
     "author": "",
     "paragraphs": [
@@ -1860,7 +1860,7 @@
     "title": "与不肖者举事则事败…",
     "level": 3,
     "path": [
-     "形势解"
+     "形势解第六十四"
     ],
     "author": "",
     "paragraphs": [
@@ -1882,7 +1882,7 @@
  },
  {
   "slug": "p65",
-  "title": "立政九败解",
+  "title": "立政九败解第六十五",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC65%E7%AF%87%E7%AB%8B%E6%94%BF%E4%B9%9D%E6%95%97%E8%A7%A3",
   "revision": "2326057",
   "heads": [],
@@ -1891,7 +1891,7 @@
     "title": "人君唯毋听寝兵…",
     "level": 3,
     "path": [
-     "立政九败解"
+     "立政九败解第六十五"
     ],
     "author": "",
     "paragraphs": [
@@ -1910,7 +1910,7 @@
  },
  {
   "slug": "p66",
-  "title": "版法解",
+  "title": "版法解第六十六",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC66%E7%AF%87%E7%89%88%E6%B3%95%E8%A7%A3",
   "revision": "2326058",
   "heads": [],
@@ -1919,7 +1919,7 @@
     "title": "版法者…",
     "level": 3,
     "path": [
-     "版法解"
+     "版法解第六十六"
     ],
     "author": "",
     "paragraphs": [
@@ -1940,7 +1940,7 @@
     "title": "爱施之德…",
     "level": 3,
     "path": [
-     "版法解"
+     "版法解第六十六"
     ],
     "author": "",
     "paragraphs": [
@@ -1956,7 +1956,7 @@
  },
  {
   "slug": "p67",
-  "title": "明法解",
+  "title": "明法解第六十七",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC67%E7%AF%87%E6%98%8E%E6%B3%95%E8%A7%A3",
   "revision": "2326059",
   "heads": [],
@@ -1965,7 +1965,7 @@
     "title": "明主者…",
     "level": 3,
     "path": [
-     "明法解"
+     "明法解第六十七"
     ],
     "author": "",
     "paragraphs": [
@@ -1992,7 +1992,7 @@
     "title": "权衡者…",
     "level": 3,
     "path": [
-     "明法解"
+     "明法解第六十七"
     ],
     "author": "",
     "paragraphs": [
@@ -2017,7 +2017,7 @@
     "title": "凡所谓功者…",
     "level": 3,
     "path": [
-     "明法解"
+     "明法解第六十七"
     ],
     "author": "",
     "paragraphs": [
@@ -2032,7 +2032,7 @@
  },
  {
   "slug": "p68",
-  "title": "巨乘马",
+  "title": "巨乘马第六十八",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC68%E7%AF%87%E5%B7%A8%E4%B9%98%E9%A6%AC",
   "revision": "2326064",
   "heads": [],
@@ -2041,7 +2041,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "巨乘马"
+     "巨乘马第六十八"
     ],
     "author": "",
     "paragraphs": [
@@ -2053,7 +2053,7 @@
  },
  {
   "slug": "p69",
-  "title": "乘马数",
+  "title": "乘马数第六十九",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC69%E7%AF%87%E4%B9%98%E9%A6%AC%E6%95%B8",
   "revision": "2325784",
   "heads": [],
@@ -2062,7 +2062,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "乘马数"
+     "乘马数第六十九"
     ],
     "author": "",
     "paragraphs": [
@@ -2074,7 +2074,7 @@
  },
  {
   "slug": "p71",
-  "title": "事语",
+  "title": "事语第七十一",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC71%E7%AF%87%E4%BA%8B%E8%AA%9E",
   "revision": "2326060",
   "heads": [],
@@ -2083,7 +2083,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "事语"
+     "事语第七十一"
     ],
     "author": "",
     "paragraphs": [
@@ -2095,7 +2095,7 @@
  },
  {
   "slug": "p72",
-  "title": "海王",
+  "title": "海王第七十二",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC72%E7%AF%87%E6%B5%B7%E7%8E%8B",
   "revision": "2325785",
   "heads": [],
@@ -2104,7 +2104,7 @@
     "title": "桓公问于管子曰…",
     "level": 3,
     "path": [
-     "海王"
+     "海王第七十二"
     ],
     "author": "",
     "paragraphs": [
@@ -2116,7 +2116,7 @@
  },
  {
   "slug": "p73",
-  "title": "国蓄",
+  "title": "国蓄第七十三",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC73%E7%AF%87%E5%9C%8B%E8%93%84",
   "revision": "2325787",
   "heads": [],
@@ -2125,7 +2125,7 @@
     "title": "国有十年之蓄…",
     "level": 3,
     "path": [
-     "国蓄"
+     "国蓄第七十三"
     ],
     "author": "",
     "paragraphs": [
@@ -2144,7 +2144,7 @@
  },
  {
   "slug": "p74",
-  "title": "山国轨",
+  "title": "山国轨第七十四",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC74%E7%AF%87%E5%B1%B1%E5%9C%8B%E8%BB%8C",
   "revision": "2325788",
   "heads": [],
@@ -2153,7 +2153,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "山国轨"
+     "山国轨第七十四"
     ],
     "author": "",
     "paragraphs": [
@@ -2168,7 +2168,7 @@
  },
  {
   "slug": "p75",
-  "title": "山权数",
+  "title": "山权数第七十五",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC75%E7%AF%87%E5%B1%B1%E6%AC%8A%E6%95%B8",
   "revision": "2325789",
   "heads": [],
@@ -2177,7 +2177,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "山权数"
+     "山权数第七十五"
     ],
     "author": "",
     "paragraphs": [
@@ -2192,7 +2192,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "山权数"
+     "山权数第七十五"
     ],
     "author": "",
     "paragraphs": [
@@ -2203,7 +2203,7 @@
  },
  {
   "slug": "p76",
-  "title": "山至数",
+  "title": "山至数第七十六",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC76%E7%AF%87%E5%B1%B1%E8%87%B3%E6%95%B8",
   "revision": "2325791",
   "heads": [],
@@ -2212,7 +2212,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "山至数"
+     "山至数第七十六"
     ],
     "author": "",
     "paragraphs": [
@@ -2229,7 +2229,7 @@
     "title": "桓公问管子曰…",
     "level": 3,
     "path": [
-     "山至数"
+     "山至数第七十六"
     ],
     "author": "",
     "paragraphs": [
@@ -2243,7 +2243,7 @@
  },
  {
   "slug": "p77",
-  "title": "地数",
+  "title": "地数第七十七",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC77%E7%AF%87%E5%9C%B0%E6%95%B8",
   "revision": "2325790",
   "heads": [],
@@ -2252,7 +2252,7 @@
     "title": "桓公曰…",
     "level": 3,
     "path": [
-     "地数"
+     "地数第七十七"
     ],
     "author": "",
     "paragraphs": [
@@ -2269,7 +2269,7 @@
  },
  {
   "slug": "p78",
-  "title": "揆度",
+  "title": "揆度第七十八",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC78%E7%AF%87%E6%8F%86%E5%BA%A6",
   "revision": "2326061",
   "heads": [],
@@ -2278,7 +2278,7 @@
     "title": "齐桓公问于管子曰…",
     "level": 3,
     "path": [
-     "揆度"
+     "揆度第七十八"
     ],
     "author": "",
     "paragraphs": [
@@ -2299,7 +2299,7 @@
     "title": "桓公问于管子曰…",
     "level": 3,
     "path": [
-     "揆度"
+     "揆度第七十八"
     ],
     "author": "",
     "paragraphs": [
@@ -2313,7 +2313,7 @@
  },
  {
   "slug": "p79",
-  "title": "国准",
+  "title": "国准第七十九",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC79%E7%AF%87%E5%9C%8B%E6%BA%96",
   "revision": "2326062",
   "heads": [],
@@ -2322,7 +2322,7 @@
     "title": "桓公问于管子曰…",
     "level": 3,
     "path": [
-     "国准"
+     "国准第七十九"
     ],
     "author": "",
     "paragraphs": [
@@ -2335,7 +2335,7 @@
  },
  {
   "slug": "p80",
-  "title": "轻重甲",
+  "title": "轻重甲第八十",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC80%E7%AF%87%E8%BC%95%E9%87%8D%E7%94%B2",
   "revision": "2325793",
   "heads": [],
@@ -2344,7 +2344,7 @@
     "title": "桓公曰…",
     "level": 3,
     "path": [
-     "轻重甲"
+     "轻重甲第八十"
     ],
     "author": "",
     "paragraphs": [
@@ -2363,7 +2363,7 @@
     "title": "桓公忧北郭民之贫…",
     "level": 3,
     "path": [
-     "轻重甲"
+     "轻重甲第八十"
     ],
     "author": "",
     "paragraphs": [
@@ -2380,7 +2380,7 @@
     "title": "管子曰…",
     "level": 3,
     "path": [
-     "轻重甲"
+     "轻重甲第八十"
     ],
     "author": "",
     "paragraphs": [
@@ -2392,7 +2392,7 @@
  },
  {
   "slug": "p81",
-  "title": "轻重乙",
+  "title": "轻重乙第八十一",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC81%E7%AF%87%E8%BC%95%E9%87%8D%E4%B9%99",
   "revision": "2325794",
   "heads": [],
@@ -2401,7 +2401,7 @@
     "title": "桓公曰…",
     "level": 3,
     "path": [
-     "轻重乙"
+     "轻重乙第八十一"
     ],
     "author": "",
     "paragraphs": [
@@ -2419,7 +2419,7 @@
     "title": "桓公曰…",
     "level": 3,
     "path": [
-     "轻重乙"
+     "轻重乙第八十一"
     ],
     "author": "",
     "paragraphs": [
@@ -2434,7 +2434,7 @@
  },
  {
   "slug": "p83",
-  "title": "轻重丁",
+  "title": "轻重丁第八十三",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC83%E7%AF%87%E8%BC%95%E9%87%8D%E4%B8%81",
   "revision": "2341634",
   "heads": [],
@@ -2443,7 +2443,7 @@
     "title": "桓公曰…",
     "level": 3,
     "path": [
-     "轻重丁"
+     "轻重丁第八十三"
     ],
     "author": "",
     "paragraphs": [
@@ -2461,7 +2461,7 @@
     "title": "桓公曰…",
     "level": 3,
     "path": [
-     "轻重丁"
+     "轻重丁第八十三"
     ],
     "author": "",
     "paragraphs": [
@@ -2479,7 +2479,7 @@
  },
  {
   "slug": "p84",
-  "title": "轻重戊",
+  "title": "轻重戊第八十四",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC84%E7%AF%87%E8%BC%95%E9%87%8D%E6%88%8A",
   "revision": "2325796",
   "heads": [],
@@ -2488,7 +2488,7 @@
     "title": "桓公问于管子曰…",
     "level": 3,
     "path": [
-     "轻重戊"
+     "轻重戊第八十四"
     ],
     "author": "",
     "paragraphs": [
@@ -2504,7 +2504,7 @@
     "title": "桓公问于管子曰…",
     "level": 3,
     "path": [
-     "轻重戊"
+     "轻重戊第八十四"
     ],
     "author": "",
     "paragraphs": [
@@ -2515,7 +2515,7 @@
  },
  {
   "slug": "p85",
-  "title": "轻重己",
+  "title": "轻重己第八十五",
   "url": "https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC85%E7%AF%87%E8%BC%95%E9%87%8D%E5%B7%B1",
   "revision": "2325797",
   "heads": [],
@@ -2524,7 +2524,7 @@
     "title": "清神生心…",
     "level": 3,
     "path": [
-     "轻重己"
+     "轻重己第八十五"
     ],
     "author": "",
     "paragraphs": [
