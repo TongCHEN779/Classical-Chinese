@@ -1778,7 +1778,7 @@ TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Chi
 def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
     text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
-    out = "".join(f'<p class="intro">{esc(x)}</p>' for x in text.split("\n") if x.strip())
+    out = "".join(f'<p class="intro">{ed_html(esc(x), [False])}</p>' for x in text.split("\n") if x.strip())
     # 全书题解（src/<slug>/tijie）不另立页面，接在简介之后，每段以“主题。”领起
     path = ROOT / "src" / slug / "tijie" / "01.txt"
     if path.exists():
@@ -2024,7 +2024,7 @@ def build_poetry(bslug, spec):
         for si, sec in enumerate(secs, 1):
             parts = [f'<section class="entry" id="e{si}">']
             multi = len(secs) > 1
-            parts.append(f'<h3>{esc(sec["title"])}</h3>' if multi and sec["title"] != title else "")
+            parts.append(f'<h3>{ed_html(esc(sec["title"]), [False])}</h3>' if multi and sec["title"] != title else "")
             entry_source = spec.get("section_sources", {}).get(slug, {}).get(sec["title"])
             if entry_source:
                 label = esc(entry_source.get("label", "维基文库"))
@@ -2144,7 +2144,7 @@ def build_poetry(bslug, spec):
                         numeric = sum(1 for _k, s_ in subs if s_["title"].isdigit()) * 2 > len(subs)
                         if len(subs) >= 2:
                             sub = (f'<ul class="sub{" num" if numeric else ""}">' + "".join(
-                                f'<li><a href="#e{k}">{esc(labels[k - 1] if labels and k - 1 < len(labels) else s_["title"])}</a></li>'
+                                f'<li><a href="#e{k}">{ed_html(esc(labels[k - 1] if labels and k - 1 < len(labels) else s_["title"]), [False])}</a></li>'
                                 for k, s_ in subs) + "</ul>")
                     items.append(f'<li class="cur"><a href="{"index" if single else sl}.html" aria-current="page">{esc(tt)}</a>{sub}</li>')
                 elif page_files:

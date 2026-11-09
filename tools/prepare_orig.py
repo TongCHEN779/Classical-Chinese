@@ -195,6 +195,11 @@ def build(book):
         if p[2] and cnt[p[2]] < 2 and book not in ("taipingguangji",):
             p[2] = last
         last = p[2] or last
+    first = next((i for i, p in enumerate(pages) if p[1].startswith("卷") and "·" in p[1]), None)
+    if first is not None and book not in NO_GROUP:      # 排在各卷之后的序跋、附录等单页，归入“附录”组，免得挂在末一组下面
+        for p in pages[first:]:
+            if not p[1].startswith("卷") and "·" not in p[1] and not p[0].startswith("j"):
+                p[2] = "附录"
     chapters = [c for c in chapters if any(c["slug"] == p[0] for p in pages)]
     src.write_text(json.dumps(chapters, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
     (ROOT / "sources" / book / "pages.json").write_text(json.dumps(pages, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
