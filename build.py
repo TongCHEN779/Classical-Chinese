@@ -1459,6 +1459,11 @@ POETRY = {
     "jinbenzhushu": _texts_spec("jinbenzhushu", "今本竹书纪年", "佚名"),
     "mutianzi": _texts_spec("mutianzi", "穆天子传", "佚名"),
     "yandanzi": _texts_spec("yandanzi", "燕丹子", "佚名"),
+    "diwangshiji": _texts_spec("diwangshiji", "帝王世纪", "［西晋］皇甫谧"),
+    "yuejueshu": _texts_spec("yuejueshu", "越绝书", "［东汉］袁康、吴平（旧题）"),
+    "chunqiufanlu": _texts_spec("chunqiufanlu", "春秋繁露", "［西汉］董仲舒"),
+    "wuyuechunqiu": _texts_spec("wuyuechunqiu", "吴越春秋", "［东汉］赵晔"),
+    "youyangzazu": _texts_spec("youyangzazu", "酉阳杂俎", "［唐］段成式"),
     "renjiancihua": _renjiancihua_spec(),
     "dadailiji": _dadailiji_spec(),
     "xuanzhenzi": _xuanzhenzi_spec(),
@@ -1569,6 +1574,11 @@ BOOK_INTRO = {
     "jinbenzhushu": "今本《竹书纪年》，按五帝、夏、殷、周、晋、魏的次序逐年编年，据说是晋代汲冢出土《竹书纪年》的传本，学者多认为经后人编订。",
     "mutianzi": "晋代汲冢出土的竹书之一，六卷，记周穆王驾八骏西巡昆仑、会见西王母的传说，以及盛姬之丧，带有游记与传奇色彩。",
     "yandanzi": "先秦至汉间的小说，三卷，写燕太子丹质秦归国、结交田光荆轲、使荆轲刺秦王而未成的经过，故事性强，多与《史记》互见。",
+    "diwangshiji": "西晋皇甫谧的帝王编年著作，原书已佚，今存自三皇至汉魏的辑佚本，按帝王世次记其世系、年岁、都邑与事迹。",
+    "yuejueshu": "东汉越地史书，十五卷，以吴越争霸、勾践灭吴为中心，兼记吴越地理、风土与人物，多与《吴越春秋》互见。",
+    "chunqiufanlu": "西汉董仲舒的春秋公羊学著作，八十二篇，发挥“大一统”“天人感应”等主张，并以阴阳五行说明政治与人事。",
+    "wuyuechunqiu": "东汉赵晔所撰，记吴国自太伯至夫差、越国自无余至勾践的兴衰，以吴越争霸为主线，文笔曲折多演义。",
+    "youyangzazu": "唐代段成式的笔记，前集二十卷、续集十卷，博记道释、仙怪、动植物、异域风物与民间传说，是唐代志怪与博物笔记的代表。",
     "shipin": "南朝梁钟嵘的诗歌评论，分上中下三品评论汉至梁的一百二十余位五言诗人，并追溯其风格渊源，是中国最早的诗论专著之一。",
     "weilu": "清代王永彬的格言小品，三百余条，谈读书、修身、治家和待人接物，多用对句，文字平实。",
     "caigentan": "明代洪应明的语录体小品，分前集、后集，以简短隽语谈人生、处世与修养，融合儒释道思想；本站兼收明刻本与清刻本。",
@@ -2169,6 +2179,7 @@ INITIAL["乐"] = "Y"
 INITIAL["人"] = "R"
 INITIAL["长"] = "C"
 INITIAL["昌"] = "C"
+INITIAL.update({"越": "Y", "吴": "W", "酉": "Y", "春": "C", "帝": "D"})
 INITIAL.update({"山": "S", "今": "J", "穆": "M", "燕": "Y"})
 INITIAL.update({"扬": "Y", "陶": "T", "帝": "D", "都": "D", "徐": "X"})
 INITIAL.update({"诗": "S", "围": "W", "菜": "C", "浮": "F", "增": "Z", "颜": "Y", "孙": "S", "西": "X", "尹": "Y", "申": "S", "慎": "S"})

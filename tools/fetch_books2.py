@@ -54,8 +54,37 @@ BOOKS = {
         [("x1", "序一", "穆天子傳/序一"), ("x2", "序二", "穆天子傳/序二")]
         + [(f"j{n}", f"卷{num(n)}", f"穆天子傳/卷{'一二三四五六'[n - 1]}") for n in range(1, 7)])},
     "yandanzi": {"wiki": "燕丹子", "g": 2000, "pages": [("p01", "燕丹子", "燕丹子", "headings")]},
+    "diwangshiji": {"wiki": "帝王世紀", "g": 2200, "titles_from_main": True, "pages": [(f"j{n}", f"帝王世纪第{CN[n]}", f"帝王世紀/第{CN[n]}") for n in range(1, 10)]},
+    "yuejueshu": {"wiki": "越絕書", "g": 2500, "pages": [(f"j{n:02}", f"卷{num(n)}", f"越絕書/卷{num(n).replace('零', '')}") for n in range(1, 16)]},
+    "chunqiufanlu": {"wiki": "春秋繁露", "g": 2500, "lines": True, "pages": [(f"j{n:02}", f"卷{num(n)}", f"春秋繁露/卷{n:02}") for n in range(1, 18)]},
+    "wuyuechunqiu": {"wiki": "吳越春秋", "g": 2500, "pages": [
+        ("j01", "吴太伯传第一", "吳越春秋/吳太伯傳"), ("j02", "吴王寿梦传第二", "吳越春秋/吳王壽夢傳"), ("j03", "王僚使公子光传第三", "吳越春秋/王僚使公子光傳"),
+        ("j04", "阖闾内传第四", "吳越春秋/闔閭內傳"), ("j05", "夫差内传第五", "吳越春秋/夫差內傳"), ("j06", "越王无余外传第六", "吳越春秋/越王無余外傳"),
+        ("j07", "勾践入臣外传第七", "吳越春秋/勾踐入臣外傳"), ("j08", "勾践归国外传第八", "吳越春秋/勾踐歸國外傳"), ("j09", "勾践阴谋外传第九", "吳越春秋/勾踐陰謀外傳"),
+        ("j10", "勾践伐吴外传第十", "吳越春秋/勾踐伐吳外傳"), ("x1", "佚文", "吳越春秋/佚文")]},
+    "youyangzazu": {"wiki": "酉陽雜俎", "g": 2500, "pages": (
+        [("x1", "序", "酉陽雜俎/酉陽雜俎序")] + [(f"j{n:02}", f"卷{num(n)}", f"酉陽雜俎/卷{num(n)}") for n in range(1, 21)]
+        + [(f"s{n:02}", f"续集卷{num(n)}", f"酉陽雜俎/續集/卷{num(n)}") for n in range(1, 11)])},
     "xuxiake": {"wiki": "徐霞客遊記", "g": 1800, "merge": True, "pages": "AUTO"},
 }
+
+
+def items_lines(root):
+    """春秋繁露：全文在一个 div.prose 里，以换行分隔；无全角空格开头、以“第…”结尾的行是篇题，其余行是段落。"""
+    d = root.select_one("div.prose")
+    for x in d.select("table, .noprint"):
+        x.decompose()
+    started = False
+    for ln in d.get_text("\n").split("\n"):
+        raw = ln.strip("\r")
+        t = re.sub(r"\s+", " ", raw).replace("\u3000", "").strip()
+        if not t or re.search(r"[◀▶]|^目录$|^全书始$|^全书终$|^春秋繁露$|^卷第[一二三四五六七八九十]+$", t):
+            continue
+        if not raw.startswith("\u3000") and re.search(r"第[一二三四五六七八九十百零]+$", t):
+            started = True
+            yield 2, t
+        elif started:
+            yield 0, re.sub(r"〈[^〈〉]*〉", "", t)
 
 
 def units(seq, poem=False, year=False):
@@ -152,7 +181,7 @@ def main():
                 print("SKIP", slug, pslug, ptitle, wiki, type(e).__name__, flush=True)
                 continue
             root = BeautifulSoup(page["text"], "html.parser").select_one(".mw-parser-output")
-            seq = list(items(root))
+            seq = list(items_lines(root)) if cfg.get("lines") else list(items(root))
             secs = sections(units(seq, cfg.get("poem", False), cfg.get("year", False)), ptitle, cfg["g"], cfg.get("merge", False))
             out.append({"slug": pslug, "title": ptitle, "url": "https://zh.wikisource.org/zh-hans/" + quote(wiki),
                         "revision": str(page["revid"]), "heads": [], "sections": secs})

@@ -18,7 +18,8 @@ from build import sent_units, split_sents
 TEXT_BOOKS = ["shipin", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", "sunzi", "sunbin",
               "fansheng", "yinwenzi", "shenbuhai", "shendao",
               "huafanglu", "taoan", "dijing", "ducheng", "mengliang", "xuxiake",
-              "shanhaijing", "jinbenzhushu", "mutianzi", "yandanzi"]
+              "shanhaijing", "jinbenzhushu", "mutianzi", "yandanzi",
+              "diwangshiji", "yuejueshu", "chunqiufanlu", "wuyuechunqiu", "youyangzazu"]
 
 
 def read(path):
