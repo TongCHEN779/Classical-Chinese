@@ -2026,7 +2026,7 @@ def build_poetry(bslug, spec):
                       spans += NOTE_MARK * tail
                       label = ch["o"].strip() if bslug == "hanfeizi" else ""
                       if bslug == "guanzi" and re.fullmatch(r"右[^，。；：！？]{1,12}", ch["o"].strip()):
-                          parts.append(f'<p class="end-marker">{spans}</p>')
+                          parts.append(f'<p class="v end-marker">{spans}</p>')
                       elif label == "右经":
                           parts.append(f'<p class="hf-end-marker">{spans}</p>')
                       elif re.fullmatch(r"说[一二三四五六七八九十]+", label):
