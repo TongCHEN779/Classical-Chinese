@@ -12,7 +12,9 @@ from prepare_texts import load_draft
 
 
 def main():
-    for book in sys.argv[1:]:
+    args = sys.argv[1:]
+    whole = "--all" in args          # --all：每页并成一节，节名即页名
+    for book in [a for a in args if a != "--all"]:
         cp = ROOT / "sources" / book / "chapters.json"
         chs = json.loads(cp.read_text(encoding="utf8"))
         adir = ROOT / "sources" / book / "annotations"
@@ -22,7 +24,12 @@ def main():
             groups = []                       # [(新标题, [旧序号])]
             for i, s in enumerate(secs):
                 t = s["title"]
-                if "·" in t:
+                if whole:
+                    if groups:
+                        groups[-1][1].append(i)
+                    else:
+                        groups.append([ch["title"], [i], None])
+                elif "·" in t:
                     head = t.split("·", 1)[0]
                     if groups and groups[-1][2] == head:
                         groups[-1][1].append(i)
