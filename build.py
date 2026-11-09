@@ -1460,6 +1460,8 @@ POETRY = {
     "mutianzi": _texts_spec("mutianzi", "穆天子传", "佚名"),
     "yandanzi": _texts_spec("yandanzi", "燕丹子", "佚名"),
     "diwangshiji": _texts_spec("diwangshiji", "帝王世纪", "［西晋］皇甫谧"),
+    "wenxindiaolong": _texts_spec("wenxindiaolong", "文心雕龙", "［南朝梁］刘勰"),
+    "guanzi": _texts_spec("guanzi", "管子", "［春秋］管仲（旧题）"),
     "yuejueshu": _texts_spec("yuejueshu", "越绝书", "［东汉］袁康、吴平（旧题）"),
     "chunqiufanlu": _texts_spec("chunqiufanlu", "春秋繁露", "［西汉］董仲舒"),
     "wuyuechunqiu": _texts_spec("wuyuechunqiu", "吴越春秋", "［东汉］赵晔"),
@@ -1575,6 +1577,8 @@ BOOK_INTRO = {
     "mutianzi": "晋代汲冢出土的竹书之一，六卷，记周穆王驾八骏西巡昆仑、会见西王母的传说，以及盛姬之丧，带有游记与传奇色彩。",
     "yandanzi": "先秦至汉间的小说，三卷，写燕太子丹质秦归国、结交田光荆轲、使荆轲刺秦王而未成的经过，故事性强，多与《史记》互见。",
     "diwangshiji": "西晋皇甫谧的帝王编年著作，原书已佚，今存自三皇至汉魏的辑佚本，按帝王世次记其世系、年岁、都邑与事迹。",
+    "wenxindiaolong": "南朝梁刘勰所著，五十篇，上编论文体源流，下编论创作与批评，是中国古代体系最完整的文学理论专著。",
+    "guanzi": "托名春秋齐相管仲，实为战国至汉初稷下学者的论文总集，现存七十六篇，兼收道、法、儒、兵、农与经济思想，《轻重》诸篇尤有特色。",
     "yuejueshu": "东汉越地史书，十五卷，以吴越争霸、勾践灭吴为中心，兼记吴越地理、风土与人物，多与《吴越春秋》互见。",
     "chunqiufanlu": "西汉董仲舒的春秋公羊学著作，八十二篇，发挥“大一统”“天人感应”等主张，并以阴阳五行说明政治与人事。",
     "wuyuechunqiu": "东汉赵晔所撰，记吴国自太伯至夫差、越国自无余至勾践的兴衰，以吴越争霸为主线，文笔曲折多演义。",
@@ -2180,6 +2184,7 @@ INITIAL["人"] = "R"
 INITIAL["长"] = "C"
 INITIAL["昌"] = "C"
 INITIAL.update({"越": "Y", "吴": "W", "酉": "Y", "春": "C", "帝": "D"})
+INITIAL.update({"文": "W", "管": "G"})
 INITIAL.update({"山": "S", "今": "J", "穆": "M", "燕": "Y"})
 INITIAL.update({"扬": "Y", "陶": "T", "帝": "D", "都": "D", "徐": "X"})
 INITIAL.update({"诗": "S", "围": "W", "菜": "C", "浮": "F", "增": "Z", "颜": "Y", "孙": "S", "西": "X", "尹": "Y", "申": "S", "慎": "S"})

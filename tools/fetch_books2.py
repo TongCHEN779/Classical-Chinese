@@ -55,16 +55,18 @@ BOOKS = {
         + [(f"j{n}", f"卷{num(n)}", f"穆天子傳/卷{'一二三四五六'[n - 1]}") for n in range(1, 7)])},
     "yandanzi": {"wiki": "燕丹子", "g": 2000, "pages": [("p01", "燕丹子", "燕丹子", "headings")]},
     "diwangshiji": {"wiki": "帝王世紀", "g": 2200, "titles_from_main": True, "pages": [(f"j{n}", f"帝王世纪第{CN[n]}", f"帝王世紀/第{CN[n]}") for n in range(1, 10)]},
-    "yuejueshu": {"wiki": "越絕書", "g": 2500, "pages": [(f"j{n:02}", f"卷{num(n)}", f"越絕書/卷{num(n).replace('零', '')}") for n in range(1, 16)]},
-    "chunqiufanlu": {"wiki": "春秋繁露", "g": 2500, "lines": True, "pages": [(f"j{n:02}", f"卷{num(n)}", f"春秋繁露/卷{n:02}") for n in range(1, 18)]},
-    "wuyuechunqiu": {"wiki": "吳越春秋", "g": 2500, "pages": [
+    "yuejueshu": {"wiki": "越絕書", "g": 10**7, "pages": [(f"j{n:02}", f"卷{num(n)}", f"越絕書/卷{num(n).replace('零', '')}") for n in range(1, 16)]},
+    "chunqiufanlu": {"wiki": "春秋繁露", "g": 10**7, "lines": True, "pages": [(f"j{n:02}", f"卷{num(n)}", f"春秋繁露/卷{n:02}") for n in range(1, 18)]},
+    "wuyuechunqiu": {"wiki": "吳越春秋", "g": 10**7, "pages": [
         ("j01", "吴太伯传第一", "吳越春秋/吳太伯傳"), ("j02", "吴王寿梦传第二", "吳越春秋/吳王壽夢傳"), ("j03", "王僚使公子光传第三", "吳越春秋/王僚使公子光傳"),
         ("j04", "阖闾内传第四", "吳越春秋/闔閭內傳"), ("j05", "夫差内传第五", "吳越春秋/夫差內傳"), ("j06", "越王无余外传第六", "吳越春秋/越王無余外傳"),
         ("j07", "勾践入臣外传第七", "吳越春秋/勾踐入臣外傳"), ("j08", "勾践归国外传第八", "吳越春秋/勾踐歸國外傳"), ("j09", "勾践阴谋外传第九", "吳越春秋/勾踐陰謀外傳"),
         ("j10", "勾践伐吴外传第十", "吳越春秋/勾踐伐吳外傳"), ("x1", "佚文", "吳越春秋/佚文")]},
-    "youyangzazu": {"wiki": "酉陽雜俎", "g": 2500, "pages": (
+    "youyangzazu": {"wiki": "酉陽雜俎", "g": 10**7, "pages": (
         [("x1", "序", "酉陽雜俎/酉陽雜俎序")] + [(f"j{n:02}", f"卷{num(n)}", f"酉陽雜俎/卷{num(n)}") for n in range(1, 21)]
         + [(f"s{n:02}", f"续集卷{num(n)}", f"酉陽雜俎/續集/卷{num(n)}") for n in range(1, 11)])},
+    "wenxindiaolong": {"wiki": "文心雕龍", "g": 1800, "pages": "MAIN_LI"},
+    "guanzi": {"wiki": "管子", "g": 2200, "pages": "GUANZI"},
     "xuxiake": {"wiki": "徐霞客遊記", "g": 1800, "merge": True, "pages": "AUTO"},
 }
 
@@ -173,6 +175,26 @@ def main():
                 if cfg["wiki"] in href and "/wiki/" in href:
                     wt = href.split("/wiki/", 1)[1].replace("_", " ")
                     pages.append((f"p{len(pages) + 1:02}", a.get_text().strip(), wt))
+        elif pages == "MAIN_LI":      # 文心雕龙：目录页每个 li 一篇
+            soup = BeautifulSoup(fetch(cfg["wiki"])["text"], "html.parser")
+            pages = []
+            for li in soup.select(".mw-parser-output li"):
+                a = li.select_one("a")
+                href = unquote(a.get("href", "")) if a else ""
+                if href.startswith("/wiki/" + cfg["wiki"] + "/"):
+                    pages.append((f"p{len(pages) + 1:02}", li.get_text().strip(), href[6:]))
+        elif pages == "GUANZI":       # 管子：取“第NN篇”页；七法用总页（其下三个子页是另一版本），势为重定向页的目标
+            soup = BeautifulSoup(fetch(cfg["wiki"])["text"], "html.parser")
+            pages = []
+            for a in soup.select(".mw-parser-output li a"):
+                href = unquote(a.get("href", ""))
+                m = re.match(r"/wiki/管子/第(\d+)篇(.+)$", href)
+                if m:
+                    wt = "管子/" + m.group(2) if m.group(1) == "42" else href[6:]
+                    pages.append((f"p{m.group(1)}", a.get_text().strip(), wt))
+                elif href == "/wiki/管子/七法":
+                    pages.append(("p06", "七法", "管子/七法"))
+            pages.sort(key=lambda x: x[0])
         out = []
         for pslug, ptitle, wiki, *_ in pages:
             try:
