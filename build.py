@@ -1510,6 +1510,7 @@ POETRY = {
     "wulinjiushi": _texts_spec("wulinjiushi", "武林旧事", "［南宋］周密"),
     "wenshitongyi": _texts_spec("wenshitongyi", "文史通义", "［清］章学诚"),
     "kunxuejiwen": _texts_spec("kunxuejiwen", "困学纪闻", "［南宋］王应麟"),
+    "yingzaofashi": _orig_spec("yingzaofashi", "营造法式", "［宋］李诫"),
     "wulixiaoshi": _texts_spec("wulixiaoshi", "物理小识", "［明］方以智"),
     "changwuzhi": _texts_spec("changwuzhi", "长物志", "［明］文震亨"),
     "yuanye": _texts_spec("yuanye", "园冶", "［明］计成"),
@@ -1696,6 +1697,7 @@ BOOK_INTRO = {
     "qiminyaoshu": "北魏贾思勰撰，十卷九十二篇，系统记述黄河中下游的农业技术，兼及园艺、畜牧、酿造、烹饪与食品加工，是现存最早最完整的农书。",
     "wulinjiushi": "南宋周密追述都城临安旧事，十卷，记典礼、节令、游观、市肆、技艺与宫廷风物，保存了丰富的城市生活史料。",
     "wenshitongyi": "清章学诚的史学与文章理论著作，内篇论“六经皆史”“史德”“知人论世”，外篇论方志与校雠，是中国史学理论名著。",
+    "yingzaofashi": "北宋李诫奉敕编修的官方建筑工程典籍，三十六卷，含总释、总例、壕寨、石作、大木作、小木作、雕作、瓦作、泥作、彩画作、砖作等制度，以及功限、料例与图样。",
     "wulixiaoshi": "明末方以智的百科式笔记，十二卷，分天、历、地、人身、医药、饮食、器用、草木、鸟兽等类，汇通中土旧说与传入的西学，是明清之际的自然知识名著。",
     "changwuzhi": "明文震亨谈文人居室与清玩的专著，十二卷，分室庐、花木、水石、禽鱼、书画、几榻、器具、衣饰、舟车、位置、蔬果、香茗，处处讲“雅”与“俗”之辨。",
     "yuanye": "明计成的造园专著，三卷，论兴造、相地、立基、屋宇、装折、栏杆、门窗、墙垣、铺地、掇山、选石、借景，是中国古代最系统的造园理论。",
@@ -1853,8 +1855,12 @@ def ed_html(h, state):
     if "〈" not in h and "〉" not in h and not state[0]:
         return h
     out = ['<span class="ed">'] if state[0] else []
+    prev = ""
     for c in h:       # state[0] 是夹注嵌套深度（〈…〈…〉…〉 里层不另开 span）
-        if c == "〈":
+        pc, prev = prev, c
+        if c == "〈" and pc == "■":     # “■〈…〉”是原站对缺字的造字描述，不是夹注，照字面显示
+            out.append(c)
+        elif c == "〈":
             if not state[0]:
                 out.append('<span class="ed">')
             out.append('<i class="br">〈</i>'); state[0] = int(state[0]) + 1       # 尖括号留在文本里（保持原文），但不显示
@@ -2308,7 +2314,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 INITIAL["荀"] = "X"
 INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
-INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K", "物": "W", "长": "C", "园": "Y"})
+INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K", "物": "W", "长": "C", "园": "Y", "营": "Y"})
 INITIAL["老"] = "L"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"

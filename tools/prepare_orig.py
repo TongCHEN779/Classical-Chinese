@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ORIG_BOOKS = ["shuijingzhu", "houhanshu", "hanshu", "taipingguangji", "sanguozhi", "jinshu", "nanshi", "beishi", "suishu", "songshu",
               "nanqishu", "liangshu", "chenshu", "weishu", "beiqishu", "zhoushu", "jiutangshu", "xintangshu", "jiuwudaishi",
-              "xinwudaishi", "liaoshi", "jinshi", "yuanshi", "mingshi", "songshi", "tongdian", "wenxiantongkao"]
+              "xinwudaishi", "liaoshi", "jinshi", "yuanshi", "mingshi", "songshi", "tongdian", "wenxiantongkao", "yingzaofashi"]
 NOTE = re.compile(r"〈[^〈〉]*〉")
 
 
@@ -38,7 +38,7 @@ def strip_review(t):
 
 
 # 〈…〉小注的取舍：水经注（郦注）、通典（杜佑自注）、文献通考保留；宋史志文小注保留、校语删去；其余各书的〈…〉是后人的注、校勘、辑佚按语，不是正文，删去。
-KEEP_NOTES = {"shuijingzhu", "tongdian", "wenxiantongkao"}
+KEEP_NOTES = {"shuijingzhu", "tongdian", "wenxiantongkao", "yingzaofashi"}
 FILTERS = {b: (lambda t: t) for b in KEEP_NOTES}
 FILTERS.update({"taipingguangji": strip_collation, "songshi": strip_review})
 
@@ -83,7 +83,7 @@ def page_title(book, head, link):
     return f"{toks[0]}·{rest}"
 
 
-NO_GROUP = {"weishu", "ershierzhaji"}      # 目录页没有成体系的分类
+NO_GROUP = {"weishu", "ershierzhaji", "yingzaofashi"}      # 目录页没有成体系的分类
 
 
 def group_of(book, title, slug):
