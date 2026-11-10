@@ -15,39 +15,14 @@
      "臣等谨按：《长物志》十二卷，明文震亨撰。震亨字启美，长洲人，崇祯中官武英殿中书舎人，以善琴供奉。是编分室庐、花木、水石、禽鱼、书画、几榻、器具、位置、衣饰、舟车、蔬果、香茗十二类。其曰“长物”，盖取《世说》中王恭语也。所论皆闲适游戏之事，纎悉毕具。明季山人墨客多传是术，著书问世，累牍盈萹，大抵皆琐细不足录。而震亨家世以书画擅名，耳濡目染，较他家稍为雅驯。其言收藏赏鉴诸法，亦颇有条理，盖本于赵希鹄《洞天清录》、董其昌《筠轩清閟录》之类，而畧变其体例。其源亦出于宋人，故存之以偹杂家之一种焉。",
      "乾隆四十二年五月恭校上。",
      "总纂官（臣）纪昀（臣）陆锡熊（臣）孙士毅",
-     "总校官（臣）陆费墀",
-     "十长物志目录",
-     "卷一",
-     "室庐",
-     "卷二",
-     "花木",
-     "卷三",
-     "水石",
-     "卷四",
-     "禽鱼",
-     "卷五",
-     "书画",
-     "卷六",
-     "几榻",
-     "卷七",
-     "器具",
-     "卷八",
-     "位置",
-     "卷九",
-     "衣饰",
-     "卷十",
-     "舟车",
-     "卷十一",
-     "蔬果",
-     "卷十二",
-     "香茗"
+     "总校官（臣）陆费墀"
     ]
    }
   ]
  },
  {
   "slug": "j1",
-  "title": "卷一",
+  "title": "卷一·室庐",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=915870",
   "revision": "ctext",
   "heads": [],
@@ -99,7 +74,7 @@
  },
  {
   "slug": "j2",
-  "title": "卷二",
+  "title": "卷二·花木",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=86895",
   "revision": "ctext",
   "heads": [],
@@ -201,7 +176,7 @@
  },
  {
   "slug": "j3",
-  "title": "卷三",
+  "title": "卷三·水石",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=667423",
   "revision": "ctext",
   "heads": [],
@@ -255,7 +230,7 @@
  },
  {
   "slug": "j4",
-  "title": "卷四",
+  "title": "卷四·禽鱼",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=585226",
   "revision": "ctext",
   "heads": [],
@@ -295,7 +270,7 @@
  },
  {
   "slug": "j5",
-  "title": "卷五",
+  "title": "卷五·书画",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=457120",
   "revision": "ctext",
   "heads": [],
@@ -365,7 +340,7 @@
  },
  {
   "slug": "j6",
-  "title": "卷六",
+  "title": "卷六·几榻",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=185690",
   "revision": "ctext",
   "heads": [],
@@ -423,7 +398,7 @@
  },
  {
   "slug": "j7",
-  "title": "卷七",
+  "title": "卷七·器具",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=746416",
   "revision": "ctext",
   "heads": [],
@@ -557,7 +532,7 @@
  },
  {
   "slug": "j8",
-  "title": "卷八",
+  "title": "卷八·位置",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=626697",
   "revision": "ctext",
   "heads": [],
@@ -597,7 +572,7 @@
  },
  {
   "slug": "j9",
-  "title": "卷九",
+  "title": "卷九·衣饰",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=494280",
   "revision": "ctext",
   "heads": [],
@@ -635,7 +610,7 @@
  },
  {
   "slug": "j10",
-  "title": "卷十",
+  "title": "卷十·舟车",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=73455",
   "revision": "ctext",
   "heads": [],
@@ -661,7 +636,7 @@
  },
  {
   "slug": "j11",
-  "title": "卷十一",
+  "title": "卷十一·蔬果",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=733604",
   "revision": "ctext",
   "heads": [],
@@ -735,7 +710,7 @@
  },
  {
   "slug": "j12",
-  "title": "卷十二",
+  "title": "卷十二·香茗",
   "url": "https://ctext.org/wiki.pl?if=gb&chapter=267156",
   "revision": "ctext",
   "heads": [],
