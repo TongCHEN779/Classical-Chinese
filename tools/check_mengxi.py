@@ -4,6 +4,7 @@ import json,sys,hashlib,argparse,os
 UPD=os.environ.get('UPDATE_COUNTS')
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'tools')]
+BOOKS = ROOT / "books"
 import build
 from zhenglun_changyan_common import source_parts,restore,digest
 from check_liaozhai import Reader
@@ -31,7 +32,7 @@ for p in j['pages']:
    if line.startswith('注：'):assert len(build.split_notes(line[2:]))==1
   done+=1;ns+=len(c['notes']);expected.extend(ts)
  if done:
-  reader=Reader();reader.feed((ROOT/'mengxi'/(p['slug']+'.html')).read_text());assert reader.translations==expected
+  reader=Reader();reader.feed((BOOKS/'mengxi'/(p['slug']+'.html')).read_text());assert reader.translations==expected
   assert len(reader.anchors)==done
   for target,count in reader.buttons:assert reader.lists[target]==count
  if p['annotation_status']=='complete':assert done==len(p['units'])
@@ -42,7 +43,7 @@ for snapshot,indexes in coverage.items():
 manifest=json.loads((ROOT/'sources/mengxi/wikisource/manifest.json').read_text())
 for r in manifest['pages']:assert digest((ROOT/r['raw_snapshot']).read_bytes().decode())==r['raw_sha256']
 UPD and (ROOT/'sources/mengxi/progress.json').write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n')
-home=(ROOT/'index.html').read_text();assert 'mengxi/index.html' in home and 'book-search' in home
+home=(ROOT/'index.html').read_text();assert 'books/mengxi/index.html' in home and 'book-search' in home
 report=dict(pages=rows,completed_units=sum(r['completed_units']for r in rows),total_units=sum(r['total_units']for r in rows),sentence_pairs=sum(r['sentence_pairs']for r in rows),notes=sum(r['notes']for r in rows),source_reconstruction_matches=True,raw_snapshots_verified=True,rendered_pairs_match=True,note_counts_match=True,next=j['next'],browser_visual_check=False,scope='Technical coverage; semantic completeness requires editorial reading.')
 if args.report:args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

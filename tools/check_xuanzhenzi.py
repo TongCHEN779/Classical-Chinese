@@ -8,7 +8,7 @@ from build import BOOK_INTRO, parse_poems, split_sents
 
 
 def html(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
@@ -17,7 +17,7 @@ def main():
     original = read("text.json")
     intro = BOOK_INTRO["xuanzhenzi"]
     index = html("xuanzhenzi/index.html")
-    assert html("index.html").select_one('a[href="xuanzhenzi/index.html"] p').get_text() == intro
+    assert html("index.html").select_one('a[href="books/xuanzhenzi/index.html"] p').get_text() == intro
     assert index.select_one("p.intro").get_text() == intro
     assert [a["href"] for a in index.select("main li.ok a")] == ["p01.html", "p02.html", "p03.html"]
     total = notes = 0

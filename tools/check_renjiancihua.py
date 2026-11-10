@@ -12,7 +12,7 @@ CIRC = CIRC1
 
 
 def html(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
     assert [p["slug"] for p in pages] == ["shang", "xia", "buyi"]
     index = html("renjiancihua/index.html")
     assert [a["href"] for a in index.select("main li.ok a")] == [f"{p['slug']}.html" for p in pages]
-    assert html("index.html").select_one('a[href="renjiancihua/index.html"] p').get_text() == BOOK_INTRO["renjiancihua"]
+    assert html("index.html").select_one('a[href="books/renjiancihua/index.html"] p').get_text() == BOOK_INTRO["renjiancihua"]
     secs = paras = notes = 0
     for p in pages:
         doc = html(f"renjiancihua/{p['slug']}.html")

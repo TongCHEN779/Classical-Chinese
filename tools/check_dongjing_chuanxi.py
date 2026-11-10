@@ -6,6 +6,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path[:0] = [str(ROOT), str(ROOT / 'tools')]
 import build
 import prepare_dongjing_chuanxi as prep
@@ -40,7 +41,7 @@ def audit(book):
                     seen.add(term)
                 pairs.extend(build.split_pairs(c['o'], c['t']))
                 nnotes += len(c['notes'])
-        html = BeautifulSoup((ROOT / book / (slug + '.html')).read_text(), 'html.parser')
+        html = BeautifulSoup((BOOKS / book / (slug + '.html')).read_text(), 'html.parser')
         assert [(n.get_text(), n['data-t']) for n in html.select('.s[data-t]')] == [(o.replace('/', ''), t) for o, t in pairs], (slug, 'rendered pairs')
         npairs += len(pairs); nsec += len(want)
     assert (len(progress['pages']), nsec) == (EXPECT[book]['pages'], EXPECT[book]['sections']), (book, len(progress['pages']), nsec)

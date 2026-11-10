@@ -7,6 +7,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path[:0] = [str(ROOT), str(ROOT / 'tools')]
 import build
 import prepare_works as prep
@@ -49,7 +50,7 @@ def audit(book):
                     assert term in c['o'] and term not in seen, (book, slug, g['title'], n)
                     seen.add(term)
                 nnotes += len(c['notes'])
-        html = BeautifulSoup((ROOT / book / (slug + '.html')).read_text(), 'html.parser')
+        html = BeautifulSoup((BOOKS / book / (slug + '.html')).read_text(), 'html.parser')
         if gloss:
             assert [(n.get_text(), n['data-t']) for n in html.select('.s[data-t]')] == [(o.replace('/', ''), t) for o, t in pairs], (book, slug, 'rendered pairs')
             npairs += len(pairs)

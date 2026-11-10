@@ -4,6 +4,7 @@ import json,sys,argparse,hashlib,os
 UPD=os.environ.get('UPDATE_COUNTS')
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT),str(ROOT/'tools')]
+BOOKS = ROOT / "books"
 import build
 from zhenglun_changyan_common import source_parts,restore,digest
 from check_liaozhai import Reader
@@ -47,7 +48,7 @@ for p in j['pages']:
   nc+=len(c['notes']);ts_all.extend(ts)
  assert sorted(covered)==[i for i,b in enumerate(snap['blocks']) if b['type']=='p' or p.get('kind')in ['preface','appendix']],p['slug']
  if p['slug']not in group_members:
-  reader=Reader();reader.feed((ROOT/'zhanguoce'/(p['slug']+'.html')).read_text());assert reader.translations==ts_all,(p['slug'],len(reader.translations),len(ts_all));assert len(reader.anchors)==(len(p['units'])if len(p['units'])>1 else 0),(p['slug'],len(reader.anchors),len(p['units']))
+  reader=Reader();reader.feed((BOOKS/'zhanguoce'/(p['slug']+'.html')).read_text());assert reader.translations==ts_all,(p['slug'],len(reader.translations),len(ts_all));assert len(reader.anchors)==(len(p['units'])if len(p['units'])>1 else 0),(p['slug'],len(reader.anchors),len(p['units']))
   assert all('e'+str(i)in reader.ids for i in range(1,len(p['units'])+1))
   for target,count in reader.buttons:assert reader.lists[target]==count
  rows.append(dict(page=p['slug'],chapters=len(p['units']),sentence_pairs=len(ts_all),notes=nc))
@@ -64,14 +65,14 @@ for g in groups:
   secs=build.parse_poems([ROOT/'src/zhanguoce'/g['slug']/(e['id']+'.txt')]);assert len(secs)==1 and secs[0]['title']==e['title'];assert secs[0]['chunks']==expected
   assert all(x in ' '.join(secs[0]['intro']) for x in intro)
   expected_ts.extend(t for c in expected for t in c['t'].split('¦'));expected_notes+=sum(len(c['notes'])for c in expected)
-  oldhtml=(ROOT/'zhanguoce'/(p['slug']+'.html')).read_text();assert f'{g["slug"]}.html#e{int(e["id"])}'in oldhtml
- html=(ROOT/'zhanguoce'/(g['slug']+'.html')).read_text();reader=Reader();reader.feed(html);assert reader.translations==expected_ts;assert reader.anchors==['e'+str(i)for i in range(1,7)]
+  oldhtml=(BOOKS/'zhanguoce'/(p['slug']+'.html')).read_text();assert f'{g["slug"]}.html#e{int(e["id"])}'in oldhtml
+ html=(BOOKS/'zhanguoce'/(g['slug']+'.html')).read_text();reader=Reader();reader.feed(html);assert reader.translations==expected_ts;assert reader.anchors==['e'+str(i)for i in range(1,7)]
  for e in g['entries']:assert e['source']['url'].replace('&','&amp;')in html and e['source']['revision']in html
  assert sum(reader.lists.values())==expected_notes
  for target,count in reader.buttons:assert reader.lists[target]==count
  group_rows.append(dict(page=g['slug'],articles=6,sentence_pairs=len(expected_ts),notes=expected_notes))
 home=(ROOT/'index.html').read_text();assert 'zhanguoce/index.html' in home and 'book-search' in home
-index=(ROOT/'zhanguoce/index.html').read_text();assert 'href="xu.html"'in index and 'href="fu.html"'in index
+index=(BOOKS/'zhanguoce/index.html').read_text();assert 'href="xu.html"'in index and 'href="fu.html"'in index
 assert all(f'href="{old}.html"'not in index for old in group_members)
 report=dict(pages=rows,completed_units=sum(r['chapters'] for r in rows),body_chapters=sum(sum(u.get('kind')!='source_note_appendix'for u in p['units'])for p in j['pages']if p['slug']in j['completed_volumes']),source_note_appendices=sum(u.get('kind')=='source_note_appendix'for p in j['pages']for u in p['units']),prefaces=6,appendices=6,sentence_pairs=sum(r['sentence_pairs'] for r in rows),notes=sum(r['notes'] for r in rows),source_coverage=True,source_reconstruction=True,raw_snapshot_hashes=True,rendered_pairs=True,note_counts=True,whole_book_complete=len(j['completed_volumes'])==33 and all(u['status']=='complete'for p in j['pages']for u in p['units']),browser_visual_check=False)
 if UPD:

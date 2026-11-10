@@ -10,7 +10,7 @@ from build import BOOK_INTRO
 
 
 def html(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
     assert [a["href"] for a in index.select("main li.ok a")] == [s + ".html" for s in slugs]
     intro = BOOK_INTRO["laocanyouji"]
     assert index.select_one("p.intro").get_text() == intro
-    assert html("index.html").select_one('a[href="laocanyouji/index.html"] p').get_text() == intro
+    assert html("index.html").select_one('a[href="books/laocanyouji/index.html"] p').get_text() == intro
     verse = read("verse-blocks.json")
     total = 0
     for slug in slugs:

@@ -8,6 +8,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 from tools.prepare_zengguofan import normalize, sections
@@ -65,7 +66,7 @@ def main():
             assert len(local_pairs) == state['sentences'], f
             sentences += len(local_pairs)
             all_pairs.extend(local_pairs)
-        soup = BeautifulSoup((ROOT / 'zengguofan' / (page['slug'] + '.html')).read_text(), 'html.parser')
+        soup = BeautifulSoup((BOOKS / 'zengguofan' / (page['slug'] + '.html')).read_text(), 'html.parser')
         assert len(soup.select('section.entry')) == len(expected)
         rendered = [(s.get_text(), s['data-t']) for s in soup.select('span.s')]
         assert rendered == all_pairs, page['slug']
@@ -81,7 +82,7 @@ def main():
     assert sentences == progress['annotated_sentences']
     assert notes == progress['notes']
     home = BeautifulSoup((ROOT / 'index.html').read_text(), 'html.parser')
-    assert home.find('a', href='zengguofan/index.html')
+    assert home.find('a', href='books/zengguofan/index.html')
     print(f'曾国藩家书：三章70封及9项附文全部注译；{sentences}句对，{notes}条注；底本逐块覆盖、题解与网页悬浮逐项一致。')
 
 

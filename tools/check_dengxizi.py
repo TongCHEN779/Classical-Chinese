@@ -8,13 +8,13 @@ from build import BOOK_INTRO, parse_poems, split_sents
 
 
 def html(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
     intro = BOOK_INTRO["dengxizi"]
     index = html("dengxizi/index.html")
-    assert html("index.html").select_one('a[href="dengxizi/index.html"] p').get_text() == intro
+    assert html("index.html").select_one('a[href="books/dengxizi/index.html"] p').get_text() == intro
     assert index.select_one("p.intro").get_text() == read("intro.json")["text"] != intro
     assert [a["href"] for a in index.select("main li.ok a")] == [slug + ".html" for slug, _ in PAGES]
     total = notes = 0

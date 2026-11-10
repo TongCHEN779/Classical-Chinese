@@ -8,6 +8,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 
 
@@ -43,7 +44,7 @@ def main():
         prev = v
     assert len(cat['appendix']) == 7 and all(a['label'] and a['url'] for a in cat['appendix'])
     # rendered index: the 294 volumes are 待整理 cells, grouped by 纪; the appendix pages are real pages
-    html = BeautifulSoup((ROOT / 'zizhitongjian/index.html').read_text(), 'html.parser')
+    html = BeautifulSoup((BOOKS / 'zizhitongjian/index.html').read_text(), 'html.parser')
     cells = [li.get_text(' ', strip=True) for li in html.select('li.todo')]
     assert len(cells) == 294 - len(prep.ZTJJ_DONE), len(cells)
     assert all('待整理' in c for c in cells)
@@ -84,7 +85,7 @@ def audit_volumes():
                     assert term in c['o'] and (term not in seen or g['title'] == '校刊记'), (slug, g['title'], n)
                     seen.add(term)
                 pairs.extend(build.split_pairs(c['o'], c['t']))
-        html = BeautifulSoup((ROOT / 'zizhitongjian' / (slug + '.html')).read_text(), 'html.parser')
+        html = BeautifulSoup((BOOKS / 'zizhitongjian' / (slug + '.html')).read_text(), 'html.parser')
         assert [(n.get_text(), n['data-t']) for n in html.select('.s[data-t]')] == [(o.replace('/', ''), t) for o, t in pairs], (slug, 'rendered pairs')
 
 
@@ -112,7 +113,7 @@ def audit_appendix():
                 assert all(n.split('：', 1)[0] in c['o'] for n in c['notes']), (p['slug'], g['title'], c['notes'])
                 pairs.extend(build.split_pairs(c['o'], c['t']))
                 nnotes += len(c['notes'])
-        html = BeautifulSoup((ROOT / 'zizhitongjian' / (p['slug'] + '.html')).read_text(), 'html.parser')
+        html = BeautifulSoup((BOOKS / 'zizhitongjian' / (p['slug'] + '.html')).read_text(), 'html.parser')
         assert [(n.get_text(), n['data-t']) for n in html.select('.s[data-t]')] == [(o.replace('/', ''), t) for o, t in pairs], (p['slug'], 'rendered pairs')
         npairs += len(pairs)
     return len(progress['pages']), npairs, nnotes

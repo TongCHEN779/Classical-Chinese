@@ -11,6 +11,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 from build import parse_poems, split_pairs, split_sents
 
@@ -56,7 +57,7 @@ def main():
             assert all(c['notes'] for c in translated), slug
         else:
             assert not translated, slug
-        output = ROOT / 'xiaochuang' / f'{slug}.html'
+        output = BOOKS / 'xiaochuang' / f'{slug}.html'
         html = BeautifulSoup(output.read_text(), 'html.parser')
         actual_pairs = [(n.get_text(), n['data-t']) for n in html.select('.s[data-t]')]
         assert actual_pairs == [(o.replace('/', ''), t) for o, t in pairs], (slug, 'rendered pairs')
@@ -83,11 +84,11 @@ def main():
     if UPDATE and changed:
         (ROOT / 'sources/xiaochuang/progress.json').write_text(json.dumps(progress, ensure_ascii=False, indent=2) + '\n')
         print('updated translation_pairs:', changed)
-    index = BeautifulSoup((ROOT / 'xiaochuang/index.html').read_text(), 'html.parser')
+    index = BeautifulSoup((BOOKS / 'xiaochuang/index.html').read_text(), 'html.parser')
     assert len(index.select('ul.vols a')) == len(progress['pages'])
     assert f'已配白话与编者注释{translated_total}段' in index.get_text()
     home = BeautifulSoup((ROOT / 'index.html').read_text(), 'html.parser')
-    assert home.select_one('a[href="xiaochuang/index.html"]')
+    assert home.select_one('a[href="books/xiaochuang/index.html"]')
     print(f'{len(progress["pages"])} pages verified; {translated_total} translated paragraphs; '
           f'{pair_total} sentence pairs; {note_total} independent notes')
 

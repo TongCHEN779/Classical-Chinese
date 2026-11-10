@@ -7,6 +7,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / 'tools'))
 import build
@@ -52,7 +53,7 @@ def main():
                 tot['paragraphs'] += 1; tot['notes'] += len(c['notes'])
                 tot['pairs'] += len(build.split_pairs(c['o'], c['t']))
         tot['entries'] += len(secs)
-        path = ROOT / 'xianqing' / f'juan{v:02d}.html'
+        path = BOOKS / 'xianqing' / f'juan{v:02d}.html'
         soup = BeautifulSoup(path.read_text(), 'html.parser')
         nb = 0
         for b in soup.select('button.note-btn'):

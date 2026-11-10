@@ -9,6 +9,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 
@@ -49,7 +50,7 @@ def main():
 
     done = [p for p in progress["pages"] if p["status"] == "complete"]
     assert [p["slug"] for p in done] == [p["slug"] for p in pages[:len(done)]]
-    html = BeautifulSoup((ROOT / "jiayou/index.html").read_text(), "html.parser")
+    html = BeautifulSoup((BOOKS / "jiayou/index.html").read_text(), "html.parser")
     cells = html.select(".vols > li")
     assert len(cells) == 17
     assert [c.find(["a", "span"]).contents[0].strip() for c in cells] == [p["title"] for p in pages]
@@ -78,7 +79,7 @@ def main():
         assert p["selected_blocks"] == [i for i in range(a, z) if body_text(i)]
         pairs, chunks = audit_sections(sections, p["selected_blocks"], p["pairs"])
         assert hashlib.sha256("".join(c["o"].replace("\n", "") if c.get("diagram") else c["o"] for c in chunks).encode()).hexdigest() == p["original_sha256"]
-        html = BeautifulSoup((ROOT / "jiayou" / f"{p['slug']}.html").read_text(), "html.parser")
+        html = BeautifulSoup((BOOKS / "jiayou" / f"{p['slug']}.html").read_text(), "html.parser")
         assert [(s.get_text(), s["data-t"]) for s in html.select(".s[data-t]")] == pairs
         assert [x.get_text() for x in html.select(".source-diagram")] == [c["o"] for c in chunks if c.get("diagram")]
         assert sum(len(c["notes"]) for c in chunks) == p["notes"]
@@ -97,9 +98,9 @@ def main():
         assert [f"【{s['title']}】" for s in sections] == [blocks[i]["text"] for i in p["heading_blocks"]]
         assert blocks[p["next_heading_block"]]["text"] == f"【{progress['next']['title']}】"
         audit_sections(sections, p["selected_blocks"], p["pairs"])
-        assert not (ROOT / "jiayou" / f"{p['slug']}.html").exists()
+        assert not (BOOKS / "jiayou" / f"{p['slug']}.html").exists()
     home = BeautifulSoup((ROOT / "index.html").read_text(), "html.parser")
-    assert home.find("a", href="jiayou/index.html").find("strong").get_text() == "嘉祐集"
+    assert home.find("a", href="books/jiayou/index.html").find("strong").get_text() == "嘉祐集"
     print(f"OK: 嘉祐集17项目录，{len(done)}项已注译；底本、白话和接续位置一致")
 
 

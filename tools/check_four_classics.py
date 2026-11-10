@@ -8,6 +8,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0,str(ROOT))
 from build import parse_poems
 
@@ -55,9 +56,9 @@ def main():
                         assert term not in seen,(slug,p['slug'],term,'repeated note')
                         seen.add(term)
             assert actual_notes == p['notes'],(slug,p['slug'],actual_notes,p['notes'])
-            html_path = ROOT/slug/(p['slug']+'.html')
+            html_path = BOOKS/slug/(p['slug']+'.html')
             if p['slug'] == 'tijie':      # 全书题解并入目录页简介，不单独成页
-                assert not html_path.exists() and 'class="intro tijie"' in (ROOT/slug/'index.html').read_text(), slug
+                assert not html_path.exists() and 'class="intro tijie"' in (BOOKS/slug/'index.html').read_text(), slug
                 continue
             soup = BeautifulSoup(html_path.read_text(),'html.parser')
             assert not soup.select('[data-t]'),(slug,p['slug'],'translation tooltip')

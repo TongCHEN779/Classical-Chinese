@@ -9,6 +9,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 from prepare_zuozhuan import GONG, load  # noqa: E402  (tools/ is on sys.path when run as a script)
@@ -65,7 +66,7 @@ def main():
                     seen.add(term)
                 total['notes'] += len(c['notes'])
         total['sections'] += len(sections)
-        path = ROOT / 'zuozhuan' / (p['slug'] + '.html')
+        path = BOOKS / 'zuozhuan' / (p['slug'] + '.html')
         soup = BeautifulSoup(path.read_text(), 'html.parser')
         assert [(n.get_text(), n['data-t']) for n in soup.select('.s[data-t]')] == [(o.replace('/', ''), t) for o, t in pairs], (p['slug'], 'rendered pairs')
         html_notes = 0
@@ -81,7 +82,7 @@ def main():
             if href and not re.match(r'[a-z]+:', href):
                 assert (path.parent / href).exists(), (path, href)
         total['pairs'] += len(pairs)
-    assert not (ROOT / 'zuozhuan/tijie.html').exists() and 'p class="intro tijie"' in (ROOT / 'zuozhuan/index.html').read_text()
+    assert not (BOOKS / 'zuozhuan/tijie.html').exists() and 'p class="intro tijie"' in (BOOKS / 'zuozhuan/index.html').read_text()
     print(f"OK: {len(progress['pages'])} pages, {total['sections']} sections, {total['chars']} chars, "
           f"{total['pairs']} sentence pairs, {total['notes']} notes")
 

@@ -10,6 +10,7 @@ from urllib.parse import unquote, urlsplit
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 
@@ -60,7 +61,7 @@ def main():
                 assert section["intro"] and chunk["notes"], block["number"]
         if UPDATE and "annotation_counts" in p:
             p["annotation_counts"]["sentence_pairs"] = len(expected_pairs)
-        path = ROOT / "canying" / (p["slug"] + ".html")
+        path = BOOKS / "canying" / (p["slug"] + ".html")
         soup = BeautifulSoup(path.read_text(encoding="utf8"), "html.parser")
         assert [x.get_text() for x in soup.select("p.v")] == [b["reading_text"] for b in expected]
         assert len(soup.select("section.entry")) == 30

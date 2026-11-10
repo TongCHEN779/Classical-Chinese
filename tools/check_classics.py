@@ -10,6 +10,7 @@ from urllib.parse import unquote, urlparse
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 
@@ -120,12 +121,12 @@ def main():
             rendered_pairs = build.split_pairs(chunk['o'], chunk['t'])
             assert [o for o, _t in rendered_pairs] == originals, (slug, 'paragraph fallback')
             pairs.extend((o.replace('/', ''), t) for o, t in rendered_pairs)
-        html = BeautifulSoup((ROOT / 'classic_list' / f'{slug}.html').read_text(), 'html.parser')
+        html = BeautifulSoup((BOOKS / 'classic_list' / f'{slug}.html').read_text(), 'html.parser')
         if 'sections' in entry:
             assert [a['href'] for a in html.select('.toc a[href^="#"]')] == [f'#e{i}' for i in range(1, len(sections) + 1)]
             assert [a['href'] for a in html.select('section.entry .source-note a')] == [e['source']['url'] for e in entry['sections']]
             for old, target in entry['redirects'].items():
-                redirect = BeautifulSoup((ROOT / 'classic_list' / f'{old}.html').read_text(), 'html.parser')
+                redirect = BeautifulSoup((BOOKS / 'classic_list' / f'{old}.html').read_text(), 'html.parser')
                 assert redirect.select_one('meta[http-equiv="refresh"]')['content'] == '0; url=' + target
                 assert redirect.find('a', href=target)
                 assert html.find(id=target.split('#', 1)[1])
@@ -142,14 +143,14 @@ def main():
         for a in html.select('a[href]'):
             url = urlparse(a['href'])
             if not url.scheme:
-                dest = (ROOT / 'classic_list' / unquote(url.path)).resolve()
+                dest = (BOOKS / 'classic_list' / unquote(url.path)).resolve()
                 assert dest.exists(), (slug, 'missing local link', a['href'])
         sentence_count += len(actual)
         note_count += sum(len(c['notes']) for c in chunks)
-    index = BeautifulSoup((ROOT / 'classic_list/index.html').read_text(), 'html.parser')
+    index = BeautifulSoup((BOOKS / 'classic_list/index.html').read_text(), 'html.parser')
     assert [a['href'] for a in index.select('.vols a')] == [s + '.html' for s in expected]
     home = BeautifulSoup((ROOT / 'index.html').read_text(), 'html.parser')
-    assert len(home.select('a[href="classic_list/index.html"]')) == 1
+    assert len(home.select('a[href="books/classic_list/index.html"]')) == 1
     print(f'OK: {len(entries)} local works, {sentence_count} sentence hovers, {note_count} notes; sources and links match')
 
 

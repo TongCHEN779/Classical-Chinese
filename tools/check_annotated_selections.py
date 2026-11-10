@@ -8,6 +8,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 from prepare_shangshu import clean, selected_blocks
@@ -22,7 +23,7 @@ def main():
         sources = ROOT / "sources" / book
         progress = read(sources / "progress.json")
         done = [p for p in progress["pages"] if p["status"] == "complete"]
-        index = BeautifulSoup((ROOT / book / "index.html").read_text(), "html.parser")
+        index = BeautifulSoup((BOOKS / book / "index.html").read_text(), "html.parser")
         intro = build.WIKI_INTRO[book]
         snapshot = BeautifulSoup((sources / "wikisource/index.html.snapshot").read_text(), "html.parser")
         cell = snapshot.find(string=lambda part: part and part.startswith(intro["text"][:10])).parent
@@ -36,7 +37,7 @@ def main():
         assert index.find("a", href=intro["url"]) and index.find("a", href="https://creativecommons.org/licenses/by-sa/4.0/")
         if book == "shangshu":
             home = BeautifulSoup((ROOT / "index.html").read_text(), "html.parser")
-            card = home.select_one('#book-list a[href="shangshu/index.html"] p')
+            card = home.select_one('#book-list a[href="books/shangshu/index.html"] p')
             assert card.get_text() == build.BOOK_INTRO[book] != intro["text"]
         if book == "liji":
             catalog = read(sources / progress["catalog"])["pages"]
@@ -122,7 +123,7 @@ def main():
                 modern = c["t"].split("¦")
                 assert len(original) == len(modern) and all(t.strip() for t in modern), slug
                 expected.extend(zip(original, (t.strip() for t in modern)))
-            html = BeautifulSoup((ROOT / book / f"{slug}.html").read_text(), "html.parser")
+            html = BeautifulSoup((BOOKS / book / f"{slug}.html").read_text(), "html.parser")
             actual = [(s.get_text(), s["data-t"]) for s in html.select(".s[data-t]")]
             assert actual == expected and len(actual) == page["pairs"], slug
             assert sum(len(c["notes"]) for c in chunks) == page["notes"]

@@ -9,6 +9,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 
@@ -106,7 +107,7 @@ def check_volume(volume):
         checked.append(entry["title"])
     if materialized:
         reader = Reader()
-        reader.feed((ROOT / "liaozhai" / f"{slug}.html").read_text())
+        reader.feed((BOOKS / "liaozhai" / f"{slug}.html").read_text())
         assert reader.translations == expected, slug
         assert len(reader.ids) == len(set(reader.ids)), slug
         assert len(reader.anchors) == len(materialized), slug
@@ -136,7 +137,7 @@ def main():
         source = json.loads((ROOT / preface["snapshot"]).read_text())
         assert section["chunks"][0]["o"] == source["blocks"][0]["text"]
         reader = Reader()
-        reader.feed((ROOT / "liaozhai/zizhi.html").read_text())
+        reader.feed((BOOKS / "liaozhai/zizhi.html").read_text())
         assert reader.translations == section["chunks"][0]["t"].split("¦")
     page_count, button_count = 0, 0
     for path in ROOT.rglob("*.html"):

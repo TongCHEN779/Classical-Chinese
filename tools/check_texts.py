@@ -9,7 +9,7 @@ from build import WIKI_INTRO, split_sents
 
 
 def html(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
@@ -19,7 +19,7 @@ def main():
         index = html(f"{book}/index.html")
         single = len(chapters) == 1          # 只有一页的书：书的首页直接就是阅读页
         if single:
-            assert not (ROOT / book / f"{chapters[0]['slug']}.html").exists(), f"{book} 不应再有独立的单页文件"
+            assert not (ROOT / "books" / book / f"{chapters[0]['slug']}.html").exists(), f"{book} 不应再有独立的单页文件"
         else:
             assert [a["href"] for a in index.select("main li.ok a")] == [f"{c['slug']}.html" for c in chapters], book
         if WIKI_INTRO.get(book, {}).get("verbatim"):

@@ -9,6 +9,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 
@@ -27,15 +28,15 @@ def main():
     progress = read(root / "progress.json")
     done = {x["slug"]: x for x in progress["pages"]}
     assert progress["next"] == next((x["title"] for x in cat["pages"] if x["slug"] not in done), None)
-    index = BeautifulSoup((ROOT / "xunzi/index.html").read_text(), "html.parser")
+    index = BeautifulSoup((BOOKS / "xunzi/index.html").read_text(), "html.parser")
     assert index.select_one("p.intro").get_text() == snapshot["intro"]
     assert len(index.select(".vols > li")) == 33
     assert [a["href"] for a in index.select(".vols > li.ok a")] == [
         x["slug"] + ".html" for x in cat["pages"] if x["slug"] in done]
     home = BeautifulSoup((ROOT / "index.html").read_text(), "html.parser")
     for slug in ("liji", "shangshu", "xunzi"):
-        page = BeautifulSoup((ROOT / slug / "index.html").read_text(), "html.parser")
-        card = home.select_one(f'a[href="{slug}/index.html"] p')
+        page = BeautifulSoup((BOOKS / slug / "index.html").read_text(), "html.parser")
+        card = home.select_one(f'a[href="books/{slug}/index.html"] p')
         assert card.get_text() == build.BOOK_INTRO[slug]
         assert page.select_one("p.intro").get_text() == build.WIKI_INTRO[slug]["text"]
         assert card.get_text() != page.select_one("p.intro").get_text()
@@ -59,7 +60,7 @@ def main():
             a, b = build.split_sents(c["o"]), c["t"].split("¦")
             assert len(a) == len(b) and all(x.strip() for x in b)
             pairs.extend(zip(a, (x.strip() for x in b)))
-        page = BeautifulSoup((ROOT / "xunzi" / f"{slug}.html").read_text(), "html.parser")
+        page = BeautifulSoup((BOOKS / "xunzi" / f"{slug}.html").read_text(), "html.parser")
         assert len(pairs) == meta["pairs"]
         assert [(x.get_text(), x["data-t"]) for x in page.select(".s[data-t]")] == pairs
         n = 0
@@ -87,7 +88,7 @@ def main():
             assert len(original) == len(c["t"].split("¦"))
             assert [o for o, _ in build.split_pairs(c["o"], c["t"])] == original
         assert build.split_sents(raw[offset])[0] == draft["next_text"]
-        assert not (ROOT / "xunzi" / f"{draft['slug']}.html").exists()
+        assert not (BOOKS / "xunzi" / f"{draft['slug']}.html").exists()
     print(f"OK: 荀子32篇及序，{len(done)}项已注译；三书首页与书内简介已核对")
 
 

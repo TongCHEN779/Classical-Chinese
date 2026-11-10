@@ -9,7 +9,7 @@ from build import BOOK_INTRO, WIKI_INTRO, parse_poems, split_sents
 
 
 def html(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
     assert [p["slug"] for p in pages] == slugs
     index = html("xinlun/index.html")
     home = html("index.html")
-    assert home.select_one('a[href="xinlun/index.html"] p').get_text() == BOOK_INTRO["xinlun"]
+    assert home.select_one('a[href="books/xinlun/index.html"] p').get_text() == BOOK_INTRO["xinlun"]
     assert "\n".join(p.get_text() for p in index.select("p.intro")) == WIKI_INTRO["xinlun"]["text"]
     assert [a["href"] for a in index.select("main li.ok a")] == ["xu.html", *(f"{s}.html" for s in slugs), "appendix.html"]
     assert "维基文库" not in index.get_text()

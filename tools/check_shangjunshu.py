@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 from tools.check_liaozhai import Reader, source_entries
@@ -81,7 +82,7 @@ def check():
             total_s += s
             total_n += n
         reader = Reader()
-        reader.feed((ROOT / 'shangjunshu' / f"juan{v['volume']:02d}.html").read_text())
+        reader.feed((BOOKS / 'shangjunshu' / f"juan{v['volume']:02d}.html").read_text())
         assert reader.translations == expected_pairs
         assert len(reader.ids) == len(set(reader.ids))
         assert len(reader.anchors) == len(titles) and set(reader.anchors) <= set(reader.ids)

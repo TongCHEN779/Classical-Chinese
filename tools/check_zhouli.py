@@ -8,7 +8,7 @@ from build import BOOK_INTRO, WIKI_INTRO, split_notes, split_sents
 
 
 def html(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
     assert [a["href"] for a in directory.select("main li.ok a")] == [p["slug"] + ".html" for p in catalog]
     assert directory.select_one("header p.intro").get_text() == WIKI_INTRO["zhouli"]["text"]
     home = html("index.html")
-    assert any(BOOK_INTRO["zhouli"] in a.get_text() for a in home.select('a[href="zhouli/index.html"]'))
+    assert any(BOOK_INTRO["zhouli"] in a.get_text() for a in home.select('a[href="books/zhouli/index.html"]'))
     assert WIKI_INTRO["zhouli"]["text"] not in home.get_text()
     for p in catalog:
         slug = p["slug"]

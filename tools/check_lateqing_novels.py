@@ -11,7 +11,7 @@ from build import BOOK_INTRO, WIKI_INTRO
 
 
 def html(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
@@ -22,7 +22,7 @@ def main():
         keys = (["xu"] if slug == "jinshehui" else []) + [f"p{n:03}" for n in range(1, total + 1)]
         assert [p["slug"] for p in chapters] == keys
         assert [a["href"] for a in directory.select("main li.ok a")] == [f"{key}.html" for key in keys]
-        assert home.select_one(f'a[href="{slug}/index.html"] p').get_text() == BOOK_INTRO[slug]
+        assert home.select_one(f'a[href="books/{slug}/index.html"] p').get_text() == BOOK_INTRO[slug]
         assert "\n".join(p.get_text() for p in directory.select("p.intro")) == WIKI_INTRO.get(slug, {}).get("text", BOOK_INTRO[slug]).strip()
         assert "维基文库" not in directory.get_text()
         count = 0

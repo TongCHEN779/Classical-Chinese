@@ -8,7 +8,7 @@ from build import BOOK_INTRO, parse_poems, split_sents
 
 
 def page(path):
-    return BeautifulSoup((ROOT / path).read_text(encoding="utf8"), "html.parser")
+    return BeautifulSoup((ROOT / path if (ROOT / path).exists() else ROOT / "books" / path).read_text(encoding="utf8"), "html.parser")
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
     directory = page("dadailiji/index.html")
     assert directory.select_one("p.intro").get_text() == catalog["intro"]
     assert [a["href"] for a in directory.select(".vols li.ok a")] == [s + ".html" for s in slugs]
-    card = page("index.html").select_one('a[href="dadailiji/index.html"] p')
+    card = page("index.html").select_one('a[href="books/dadailiji/index.html"] p')
     assert card.get_text() == BOOK_INTRO["dadailiji"] != catalog["intro"]
     pairs = notes = 0
     for slug in slugs:

@@ -9,6 +9,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).parent
 SRC = ROOT / "src"
+BOOKS_OUT = ROOT / "books"  # 生成的各书页面统一放在 books/<slug>/ 下
 
 NUM = "零一二三四五六七八九十"
 
@@ -379,7 +380,7 @@ def build_juan(book, part, vol, src_path, avail):
     pslug, ptitle, pord, nvol = part[:4]
     is_xu = len(part) > 4
     heading, entries = parse_juan(src_path)
-    r = "../../"
+    r = "../../../"
     toc = "".join(f'<li><a href="#e{i}">{esc(e["title"])}</a></li>' for i, e in enumerate(entries, 1))
     prev_html = (f'<a href="juan{vol-1:02d}.html">← 卷{cn(vol-1)}</a>' if (vol - 1) in avail
                  else '<span class="off">&nbsp;</span>')
@@ -401,7 +402,7 @@ def build_juan(book, part, vol, src_path, avail):
 </main>
 <div id="tip" role="tooltip" hidden></div>
 <footer>白话译文为辅助阅读的意译，如有出入，以原文为准。</footer>"""
-    out = ROOT / book["slug"] / pslug / f"juan{vol:02d}.html"
+    out = BOOKS_OUT / book["slug"] / pslug / f"juan{vol:02d}.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page(f"{ptitle}·{heading.split('（')[0]}", body, r, True), encoding="utf8")
     return len(entries)
@@ -429,15 +430,15 @@ def build_book(book):
                 cells.append(f'<li class="todo"><span>{label}<small>待整理</small></span></li>')
         sections.append(f'<section class="part"><h2>{esc(ptitle)}<small>{esc(pord)}{'' if len(part) > 4 else f' · 共{nvol}卷'}</small></h2><ul class="vols">{"".join(cells)}</ul></section>')
     body = f"""<header class="top">
-{crumbs([("古典文库", "../index.html"), (book["title"], None)])}
+{crumbs([("古典文库", "../../index.html"), (book["title"], None)])}
 <h1>{esc(book["title"])}<small>{esc(book["author"])}</small></h1>
 {intro_html(book["slug"])}
 </header>
 <main>{"".join(sections)}</main>
 <footer>已整理 {sum(n for (p, _), n in done.items() if p != "xu")} 则。</footer>"""
-    out = ROOT / book["slug"] / "index.html"
+    out = BOOKS_OUT / book["slug"] / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(page(book["title"], body, "../"), encoding="utf8")
+    out.write_text(page(book["title"], body, "../../"), encoding="utf8")
 
 
 # ---------- 楚辞：按篇目成页，原文分节、逐节译文与注释 ----------
@@ -1778,7 +1779,8 @@ TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Chi
 def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
     text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
-    out = "".join(f'<p class="intro">{ed_plain(esc(x))}</p>' for x in text.split("\n") if x.strip())
+    fmt = ed_plain if POETRY.get(slug, {}).get("original_only") else (lambda h: ed_html(h, [False]))  # 仅“只整理原文”的书去尖括号
+    out = "".join(f'<p class="intro">{fmt(esc(x))}</p>' for x in text.split("\n") if x.strip())
     # 全书题解（src/<slug>/tijie）不另立页面，接在简介之后，每段以“主题。”领起
     path = ROOT / "src" / slug / "tijie" / "01.txt"
     if path.exists():
@@ -1989,7 +1991,7 @@ def table_html(t):
 
 
 def build_poetry(bslug, spec):
-    r = "../"
+    r = "../../"
     base = SRC / bslug
     btitle = spec["title"]
     pages = []
@@ -2217,11 +2219,11 @@ def build_poetry(bslug, spec):
 </main>
 <div id="tip" role="tooltip" hidden></div>
 <footer>{source_note}{foot_text}</footer>"""
-        out = ROOT / bslug / ("index.html" if single else f"{slug}.html")
+        out = BOOKS_OUT / bslug / ("index.html" if single else f"{slug}.html")
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(page(btitle if single else f"{title}·{btitle}", body, r, True), encoding="utf8")
-        if single and (ROOT / bslug / f"{slug}.html").exists():
-            (ROOT / bslug / f"{slug}.html").unlink()
+        if single and (BOOKS_OUT / bslug / f"{slug}.html").exists():
+            (BOOKS_OUT / bslug / f"{slug}.html").unlink()
     if spec.get("single_page") and len(pages) == 1:
         return total
     intro_credit = ""
@@ -2232,17 +2234,17 @@ def build_poetry(bslug, spec):
         intro_credit = (f'<span{visibility}> · <a href="{url}">{label}</a> · '
                         '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>')
     body = f"""<header class="top">
-{crumbs([("古典文库", "../index.html"), (btitle, None)])}
+{crumbs([("古典文库", "../../index.html"), (btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
 {intro_html(bslug)}
 </header>
 <main><section class="part"><ul class="vols"{' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get('wide_index') else ''}>{"".join(cells)}</ul></section></main>
 <footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}{intro_credit}</footer>"""
-    (ROOT / bslug).mkdir(parents=True, exist_ok=True)
-    (ROOT / bslug / "index.html").write_text(page(btitle, body, "../"), encoding="utf8")
+    (BOOKS_OUT / bslug).mkdir(parents=True, exist_ok=True)
+    (BOOKS_OUT / bslug / "index.html").write_text(page(btitle, body, "../../"), encoding="utf8")
     for old_slug, target in spec.get("page_redirects", {}).items():
         redirect = f'<!doctype html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="refresh" content="0; url={esc(target)}"><link rel="canonical" href="{esc(target)}"><title>{esc(btitle)}·合并阅读</title></head><body><h1>合并阅读</h1><p>本篇已合入统一阅读页：<a href="{esc(target)}">打开本篇</a></p></body></html>'
-        (ROOT / bslug / (old_slug + ".html")).write_text(redirect, encoding="utf8")
+        (BOOKS_OUT / bslug / (old_slug + ".html")).write_text(redirect, encoding="utf8")
     return total
 
 
@@ -2290,7 +2292,7 @@ def build_home():
     def card(href, b):
         first = b["title"][0]
         assert first in INITIAL, f"首页字母索引缺少“{first}”的拼音首字母（build.py INITIAL）"
-        return (f'<li data-letter="{INITIAL[first]}"><a href="{href}/index.html"><strong>{esc(b["title"])}</strong>'
+        return (f'<li data-letter="{INITIAL[first]}"><a href="books/{href}/index.html"><strong>{esc(b["title"])}</strong>'
                 f'<span>{esc(b["author"])}</span><p>{esc(b["intro"])}</p></a></li>')
     cards = "".join(card(b["slug"], b) for b in BOOKS) + "".join(card(k, v) for k, v in POETRY.items())
     letters = "".join(f'<button type="button" class="letter" data-letter="{c}" aria-pressed="false">{c}</button>'

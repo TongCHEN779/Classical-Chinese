@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 OLD = re.compile(r"[^。！？]*[。！？]+[”’」』）]*|[^。！？]+$")
 NEW = re.compile(r"[^。！？；]*[。！？；]+[”’」』）]*|[^。！？；]+$")
 CLOSERS = '”’」』）'
@@ -88,7 +89,7 @@ def auto(tag='t'):
             changed = True
         if changed:
             f.write_text('\n'.join(lines), encoding='utf8')
-    out = ROOT / 'todo'
+    out = BOOKS / 'todo'
     out.mkdir(exist_ok=True)
     (out / f'tasks_{tag}.json').write_text(json.dumps(todo, ensure_ascii=False, indent=1) + '\n', encoding='utf8')
     print(stats)
@@ -124,7 +125,7 @@ def apply(d, tasks_file='todo/tasks.json'):
 
 def apply2(d):
     """tasks2.json：整行替换白话（按文件与行号）。"""
-    tasks = json.loads((ROOT / 'todo/tasks2.json').read_text(encoding='utf8'))
+    tasks = json.loads((BOOKS / 'todo/tasks2.json').read_text(encoding='utf8'))
     done = {}
     for p in sorted(Path(d).glob('*.json')):
         done.update(json.loads(p.read_text(encoding='utf8')))

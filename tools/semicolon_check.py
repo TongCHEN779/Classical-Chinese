@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build  # noqa: E402
 
@@ -95,7 +96,7 @@ def todo():
                 continue      # 旧规则下就已整段回退，不是这次改出来的
             k += 1
             tasks[f'w{k:04d}'] = {'file': str(f.relative_to(ROOT)), 'line': ln, 'o_parts': raw, 't': t, 'n': len(raw)}
-    (ROOT / 'todo/tasks_w.json').write_text(json.dumps(tasks, ensure_ascii=False, indent=1) + '\n', encoding='utf8')
+    (BOOKS / 'todo/tasks_w.json').write_text(json.dumps(tasks, ensure_ascii=False, indent=1) + '\n', encoding='utf8')
     print(len(tasks), 'lines;', sum(v['n'] for v in tasks.values()), 'sentences')
 
 

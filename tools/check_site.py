@@ -8,6 +8,7 @@ from urllib.parse import unquote, urlparse
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT))
 import build
 
@@ -70,7 +71,7 @@ def check_poetry_books(problems):
                 continue
             n += 1
             single = bool(spec.get('single_page')) and len([p for p in spec['pages'] if p[0]]) == 1      # 单页书：首页即阅读页
-            html = ROOT / slug / ('index.html' if single else f'{page_slug}.html')
+            html = BOOKS / slug / ('index.html' if single else f'{page_slug}.html')
             if not html.exists():
                 problems.append((slug, page_slug, 'page not built'))
                 continue
