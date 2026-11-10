@@ -31,9 +31,9 @@ for p in j['pages']:
   for line in path.read_text().splitlines():
    if line.startswith('注：'):assert len(build.split_notes(line[2:]))==1
   done+=1;ns+=len(c['notes']);expected.extend(ts)
- if done:
+ if done and p['slug'] not in ('tijie','tiyao'):    # 这两页已从站内撤下
   reader=Reader();reader.feed((BOOKS/'mengxi'/(p['slug']+'.html')).read_text());assert reader.translations==expected
-  assert len(reader.anchors)==done
+  assert len(reader.anchors)==done,(p['slug'],len(reader.anchors),done)
   for target,count in reader.buttons:assert reader.lists[target]==count
  if p['annotation_status']=='complete':assert done==len(p['units'])
  rows.append(dict(page=p['slug'],completed_units=done,total_units=len(p['units']),sentence_pairs=len(expected),notes=ns))

@@ -814,7 +814,7 @@ def _zhenglun_changyan_spec():
     return {"title": "政论·昌言", "author": "［东汉］崔寔／仲长统", "unit": "项",
             "count_entries": True, "summary_unit": "项", "index_footer": status,
             "intro": "",
-            "pages": [(p["slug"], p["title"]) for p in pages],
+            "pages": [(p["slug"], p["title"]) for p in pages if p["slug"] != "tijie"],     # 不设“全书题解与版本范围”页
             "page_sources": {p["slug"]: dict(p["source"], after="底本〈夹注〉原样分条移入注释，原位映射保存在来源进度中；")
                              for p in pages if "source" in p},
             "page_options": {p["slug"]: {"footer": "白话、题解及释词为编者自撰；标作底本夹注的异文、引书说明沿用维基辑本，分别保留，不混署古作者。"}
@@ -832,7 +832,8 @@ def _mengxi_spec():
             "count_entries": True, "summary_unit": "段", "index_footer": status,
             "intro": "",
             "pages": [(p["slug"], p["title"] + (f"（已译{sum(u['status'] == 'complete' for u in p['units'])}/{len(p['units'])}段）"
-                       if p.get("annotation_status") == "in_progress" else "")) for p in pages],
+                       if p.get("annotation_status") == "in_progress" else "")) for p in pages
+                      if p["slug"] not in ("tijie", "tiyao")],     # 从沈括自序开始，不设“全书题解”“四库提要”页
             "page_sources": {p["slug"]: p["source"] for p in pages if "source" in p}}
 
 

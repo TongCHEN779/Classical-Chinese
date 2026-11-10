@@ -68,9 +68,9 @@ def main():
             completed += 1
             source_count += len(notes)
             editor_count += unit['editor_note_count']
-        if completed:
+        if completed and page['slug'] != 'tijie':      # 全书题解页已从站内撤下
             reader = Reader()
-            reader.feed((ROOT / 'zhenglun-changyan' / (page['slug'] + '.html')).read_text())
+            reader.feed((ROOT / 'books' / 'zhenglun-changyan' / (page['slug'] + '.html')).read_text())
             assert reader.translations == expected, page['slug']
             assert len(reader.anchors) == completed, page['slug']
             for target, count in reader.buttons:
