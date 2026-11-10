@@ -250,6 +250,10 @@ def split_pairs(o, t):
     raw = split_sents(o)
     if len(raw) > 1:
         st = t.split("¦") if "¦" in t else split_sents(t)
+        if "¦" in t:         # 白话按 sent_units 的句数给（碎句已并入上一句）：原文按同一规则并句
+            units = sent_units(o)
+            if len(st) == len(units) != len(raw):
+                return list(zip(units, st))
         groups = _frag_groups(raw)
         if len(st) == len(raw):
             if "¦" in t:
@@ -1842,11 +1846,15 @@ def ed_html(h, state):
     if "〈" not in h and "〉" not in h and not state[0]:
         return h
     out = ['<span class="ed">'] if state[0] else []
-    for c in h:
+    for c in h:       # state[0] 是夹注嵌套深度（〈…〈…〉…〉 里层不另开 span）
         if c == "〈":
-            out.append('<span class="ed">〈'); state[0] = True
+            if not state[0]:
+                out.append('<span class="ed">')
+            out.append("〈"); state[0] = int(state[0]) + 1
         elif c == "〉" and state[0]:
-            out.append("〉</span>"); state[0] = False
+            out.append("〉"); state[0] = int(state[0]) - 1
+            if not state[0]:
+                out.append("</span>")
         else:
             out.append(c)
     if state[0]:
@@ -1976,7 +1984,7 @@ def split_poem_runs(o):
     return merged if any(m[0] for m in merged) and len(merged) > 1 else None
 
 
-_ORPHAN = re.compile(r"[\s…⋯□.。)）」』’”\]〕]*")
+_ORPHAN = re.compile(r"[\s…⋯□.。)）」』’”〉：；，、！？\]〕]*")
 
 
 def sent_units(text):
