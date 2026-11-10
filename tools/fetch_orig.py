@@ -144,7 +144,8 @@ def page_key(wt):
     if m:
         return (1, cn2int(m.group(1)), "上中下".find(m.group(2)[:1]) if m.group(2)[:1] in "上中下" else 0, tail)
     if re.search(r"序|引|叙|敘|表|例", tail):
-        return (0, 0, 0, tail)
+        m = re.search(r"([一二三四五六七八九十]+)$", tail)
+        return (0, cn2int(m.group(1)) if m else 0, 0, tail)
     return (2, 0, 0, tail)
 
 

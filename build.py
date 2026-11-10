@@ -1174,7 +1174,20 @@ def _changliwenchao_spec():
     }
 
 
-def _texts_spec(slug, title, author, wiki_intro=False, lost=()):
+def _grouped_pages(slug, catalog):
+    """页表按 sources/<slug>/pages.json 里的分组插入组名行（组名取自维基文库目录页）。"""
+    grp = {sl: g for sl, _t, g in json.loads((ROOT / f"sources/{slug}/pages.json").read_text(encoding="utf8"))}
+    pages, last = [], None
+    for ch in catalog:
+        g = grp.get(ch["slug"])
+        if g and g != last:
+            pages.append((None, g))
+        last = g
+        pages.append((ch["slug"], ch["title"]))
+    return pages
+
+
+def _texts_spec(slug, title, author, wiki_intro=False, lost=(), groups=False):
     """tools/fetch_texts.py 抓取的各书：页表读自 sources/<slug>/chapters.json，节名作页内小目录。"""
     catalog = json.loads((ROOT / f"sources/{slug}/chapters.json").read_text(encoding="utf8"))
     return {
@@ -1183,7 +1196,7 @@ def _texts_spec(slug, title, author, wiki_intro=False, lost=()):
         "side_toc_always": True, "no_count": True, "wide_index": True,
         "omit_source_credit": True, "reading_hint": "",
         "sub_labels": {ch["slug"]: [sec["title"] for sec in ch["sections"]] for ch in catalog},
-        "pages": sorted([(ch["slug"], ch["title"]) for ch in catalog] + list(lost), key=lambda x: x[0]) if lost else [(ch["slug"], ch["title"]) for ch in catalog],
+        "pages": _grouped_pages(slug, catalog) if groups else (sorted([(ch["slug"], ch["title"]) for ch in catalog] + list(lost), key=lambda x: x[0]) if lost else [(ch["slug"], ch["title"]) for ch in catalog]),
         "lost_slugs": [sl for sl, _t in lost],
         "index_footer": "",
         "single_page": len(catalog) == 1,
@@ -1485,6 +1498,8 @@ POETRY = {
     "wenxindiaolong": _texts_spec("wenxindiaolong", "文心雕龙", "［南朝梁］刘勰"),
     "guanzi": _texts_spec("guanzi", "管子", "［春秋］管仲（旧题）", lost=[('p21', '王言第二十一'), ('p25', '谋失第二十五'), ('p34', '正言第三十四'), ('p60', '言昭第六十'), ('p61', '修身第六十一'), ('p62', '问霸第六十二'), ('p63', '牧民解第六十三'), ('p70', '问乘马第七十'), ('p82', '轻重丙第八十二'), ('p86', '轻重庚第八十六')]),
     "liexianzhuan": _texts_spec("liexianzhuan", "列仙传", "［汉］刘向（旧题）"),
+    "zhenguanzhengyao": _texts_spec("zhenguanzhengyao", "贞观政要", "［唐］吴兢"),
+    "tiangongkaiwu": _texts_spec("tiangongkaiwu", "天工开物", "［明］宋应星"),
     "shuijingzhu": _orig_spec("shuijingzhu", "水经注", "［北魏］郦道元"),
     "taipingguangji": _orig_spec("taipingguangji", "太平广记", "［北宋］李昉等"),
     "houhanshu": _orig_spec("houhanshu", "后汉书", "［南朝宋］范晔"),
@@ -1513,6 +1528,8 @@ POETRY = {
     "tongdian": _orig_spec("tongdian", "通典", "［唐］杜佑"),
     "wenxiantongkao": _orig_spec("wenxiantongkao", "文献通考", "［元］马端临"),
     "ershierzhaji": _orig_spec("ershierzhaji", "廿二史劄记", "［清］赵翼"),
+    "dutongjianlun": _texts_spec("dutongjianlun", "读通鉴论", "［明］王夫之", groups=True),
+    "rizhilu": _texts_spec("rizhilu", "日知录", "［明］顾炎武", groups=True),
     "yuejueshu": _texts_spec("yuejueshu", "越绝书", "［东汉］袁康、吴平（旧题）"),
     "chunqiufanlu": _texts_spec("chunqiufanlu", "春秋繁露", "［西汉］董仲舒"),
     "wuyuechunqiu": _texts_spec("wuyuechunqiu", "吴越春秋", "［东汉］赵晔"),
@@ -1658,6 +1675,10 @@ BOOK_INTRO = {
     "wenxiantongkao": "元马端临撰的典章制度通史，续《通典》而详，分田赋、钱币、户口、职役等二十四考，共三百四十八卷。",
     "ershierzhaji": "清赵翼撰的史学札记，逐史考辨编撰、体例与史实异同，兼论政事、制度与人物，共三十六卷，另有补遗。",
     "shuijingzhu": "北魏郦道元为《水经》作的注，以河流为纲，记各水源流与沿岸地理、城邑、古迹和故事，是中国古代最重要的地理著作之一。",
+    "zhenguanzhengyao": "唐吴兢编，分类辑录唐太宗与魏徵、房玄龄等君臣的问答与奏议，共十卷四十篇，论君道、纳谏、任贤、教戒太子和政教得失，是研究贞观之治的要籍。",
+    "tiangongkaiwu": "明宋应星撰，十八篇，分述谷物、纺织、染色、制盐、制糖、陶瓷、冶铸、舟车、兵器、造纸、五金、珠玉等生产技术与工序，是中国古代工艺技术的百科全书。",
+    "dutongjianlun": "明末清初王夫之读《资治通鉴》的史论，三十卷，按秦至五代的朝代次第逐条评说史事得失，兼论治道、人才与制度，是中国古代史论名著。",
+    "rizhilu": "明末清初顾炎武的读书札记，三十二卷，分经义、政事、世风、礼制、科举、艺文、名义、史法、地理等类，考辨精审，是清代考据学的开山之作。",
     "liexianzhuan": "旧题西汉刘向撰，记赤松子至玄俗七十位仙人的事迹，每传末附四言赞，是现存最早的神仙传记集。",
     "yuejueshu": "东汉越地史书，十五卷，以吴越争霸、勾践灭吴为中心，兼记吴越地理、风土与人物，多与《吴越春秋》互见。",
     "chunqiufanlu": "西汉董仲舒的春秋公羊学著作，八十二篇，发挥“大一统”“天人感应”等主张，并以阴阳五行说明政治与人事。",
@@ -1941,7 +1962,7 @@ def split_poem_runs(o):
     return merged if any(m[0] for m in merged) and len(merged) > 1 else None
 
 
-_ORPHAN = re.compile(r"[\s…⋯□.。)）」』”\]〕]*")
+_ORPHAN = re.compile(r"[\s…⋯□.。)）」』’”\]〕]*")
 
 
 def sent_units(text):
@@ -2254,6 +2275,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 
 INITIAL["荀"] = "X"
+INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
 INITIAL["老"] = "L"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"

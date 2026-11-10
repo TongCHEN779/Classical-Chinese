@@ -9,11 +9,12 @@ ROOT = Path(__file__).resolve().parents[1]
 BOOKS = ROOT / "books"
 sys.path.insert(0, str(ROOT / "tools"))
 from prepare_orig import ORIG_BOOKS
+from prepare_orig2 import ORIG2_BOOKS
 
 
 def main():
     paras = pages = 0
-    for book in ORIG_BOOKS:
+    for book in ORIG_BOOKS + ORIG2_BOOKS:
         if not (ROOT / "sources" / book / "pages.json").exists():
             continue
         plist = json.loads((ROOT / "sources" / book / "pages.json").read_text(encoding="utf8"))
