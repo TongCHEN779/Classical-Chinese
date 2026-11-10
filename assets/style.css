@@ -1,13 +1,13 @@
 :root{
   --bg:#f6f1e6; --fg:#2b2620; --muted:#8a8070; --accent:#8c3b2a; --line:#dcd2bd; --grid:#b3a47f;
-  --card:#fbf8f0; --tip-bg:#2b2620; --tip-fg:#f6f1e6; --hl:#efe2bf;
+  --card:#fbf8f0; --tip-bg:#2b2620; --tip-fg:#f6f1e6; --hl:#efe2bf; --ed:#a8a8a8;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){--bg:#1c1a17; --fg:#e6dfd0; --muted:#8f8676; --accent:#d9896f; --line:#3a352d; --grid:#6f6552;
-        --card:#24211d; --tip-bg:#e6dfd0; --tip-fg:#1c1a17; --hl:#3a3222;}
+        --card:#24211d; --tip-bg:#e6dfd0; --tip-fg:#1c1a17; --hl:#3a3222; --ed:#767676;}
 }
 :root[data-theme="dark"]{--bg:#1c1a17; --fg:#e6dfd0; --muted:#8f8676; --accent:#d9896f; --line:#3a352d; --grid:#6f6552;
-        --card:#24211d; --tip-bg:#e6dfd0; --tip-fg:#1c1a17; --hl:#3a3222;}
+        --card:#24211d; --tip-bg:#e6dfd0; --tip-fg:#1c1a17; --hl:#3a3222; --ed:#767676;}
 :root[data-theme="dark"]{color-scheme:dark}
 .theme-toggle{position:fixed;top:0;right:max(8px,calc(50% - 392px));z-index:30;height:38px;width:38px;padding:0;border:0;
   background:transparent;color:var(--muted);font-size:18px;line-height:38px;cursor:pointer}
@@ -159,7 +159,7 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 .toc ul.num a:hover{background:var(--hover,rgba(128,128,128,.15))}
 
 /* 编者夹注〈…〉：小字灰色 */
-.ed{color:var(--muted);font-size:.82em}
+.ed{color:var(--ed);font-size:.82em}
 
 /* 总目录里当前页的篇目子目录：整体缩进，并用竖线与主目录区分 */
 .toc.side ul.sub{margin:.2em 0 .6em 1.2em;padding:0 0 0 .8em;font-size:.9em;line-height:1.6;border-left:2px solid var(--line)}

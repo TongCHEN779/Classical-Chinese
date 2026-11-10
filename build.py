@@ -1498,8 +1498,15 @@ POETRY = {
     "wenxindiaolong": _texts_spec("wenxindiaolong", "文心雕龙", "［南朝梁］刘勰"),
     "guanzi": _texts_spec("guanzi", "管子", "［春秋］管仲（旧题）", lost=[('p21', '王言第二十一'), ('p25', '谋失第二十五'), ('p34', '正言第三十四'), ('p60', '言昭第六十'), ('p61', '修身第六十一'), ('p62', '问霸第六十二'), ('p63', '牧民解第六十三'), ('p70', '问乘马第七十'), ('p82', '轻重丙第八十二'), ('p86', '轻重庚第八十六')]),
     "liexianzhuan": _texts_spec("liexianzhuan", "列仙传", "［汉］刘向（旧题）"),
+    "xingmingguizhi": _texts_spec("xingmingguizhi", "性命圭旨", "［明］尹真人（旧题）"),
+    "canglangshihua": _texts_spec("canglangshihua", "沧浪诗话", "［南宋］严羽"),
+    "baiyuzhaicihua": _texts_spec("baiyuzhaicihua", "白雨斋词话", "［清］陈廷焯"),
+    "qiminyaoshu": _texts_spec("qiminyaoshu", "齐民要术", "［北魏］贾思勰"),
+    "wulinjiushi": _texts_spec("wulinjiushi", "武林旧事", "［南宋］周密"),
+    "wenshitongyi": _texts_spec("wenshitongyi", "文史通义", "［清］章学诚"),
+    "kunxuejiwen": _texts_spec("kunxuejiwen", "困学纪闻", "［南宋］王应麟"),
     "zhenguanzhengyao": _texts_spec("zhenguanzhengyao", "贞观政要", "［唐］吴兢"),
-    "tiangongkaiwu": _texts_spec("tiangongkaiwu", "天工开物", "［明］宋应星"),
+    "tiangongkaiwu": {**_texts_spec("tiangongkaiwu", "天工开物", "［明］宋应星"), "skip_lead_toc": True},     # 篇首引言不在子目录里重复篇名
     "shuijingzhu": _orig_spec("shuijingzhu", "水经注", "［北魏］郦道元"),
     "taipingguangji": _orig_spec("taipingguangji", "太平广记", "［北宋］李昉等"),
     "houhanshu": _orig_spec("houhanshu", "后汉书", "［南朝宋］范晔"),
@@ -1675,6 +1682,13 @@ BOOK_INTRO = {
     "wenxiantongkao": "元马端临撰的典章制度通史，续《通典》而详，分田赋、钱币、户口、职役等二十四考，共三百四十八卷。",
     "ershierzhaji": "清赵翼撰的史学札记，逐史考辨编撰、体例与史实异同，兼论政事、制度与人物，共三十六卷，另有补遗。",
     "shuijingzhu": "北魏郦道元为《水经》作的注，以河流为纲，记各水源流与沿岸地理、城邑、古迹和故事，是中国古代最重要的地理著作之一。",
+    "xingmingguizhi": "旧题尹真人撰的明代内丹经典，分元、亨、利、贞四集，以图说与口诀讲性命双修、由炼精化气到炼虚合道的次第。",
+    "canglangshihua": "南宋严羽的诗论，分诗辨、诗体、诗法、诗评、考证五章，主张以禅喻诗、推崇盛唐，倡“妙悟”与“兴趣”。",
+    "baiyuzhaicihua": "清陈廷焯的词论，八卷，以“沉郁”为宗，评历代词人词作，兼论词的源流与作法，是清代词学的重要著作。",
+    "qiminyaoshu": "北魏贾思勰撰，十卷九十二篇，系统记述黄河中下游的农业技术，兼及园艺、畜牧、酿造、烹饪与食品加工，是现存最早最完整的农书。",
+    "wulinjiushi": "南宋周密追述都城临安旧事，十卷，记典礼、节令、游观、市肆、技艺与宫廷风物，保存了丰富的城市生活史料。",
+    "wenshitongyi": "清章学诚的史学与文章理论著作，内篇论“六经皆史”“史德”“知人论世”，外篇论方志与校雠，是中国史学理论名著。",
+    "kunxuejiwen": "南宋王应麟的札记考证之作，二十卷，说经、天道地理诸子、考史、评诗文及杂识，考订精详，引书广博。",
     "zhenguanzhengyao": "唐吴兢编，分类辑录唐太宗与魏徵、房玄龄等君臣的问答与奏议，共十卷四十篇，论君道、纳谏、任贤、教戒太子和政教得失，是研究贞观之治的要籍。",
     "tiangongkaiwu": "明宋应星撰，十八篇，分述谷物、纺织、染色、制盐、制糖、陶瓷、冶铸、舟车、兵器、造纸、五金、珠玉等生产技术与工序，是中国古代工艺技术的百科全书。",
     "dutongjianlun": "明末清初王夫之读《资治通鉴》的史论，三十卷，按秦至五代的朝代次第逐条评说史事得失，兼论治道、人才与制度，是中国古代史论名著。",
@@ -2168,7 +2182,7 @@ def build_poetry(bslug, spec):
                     sub = ""
                     if spec.get("sub_toc", True):
                         labels = spec.get("sub_labels", {}).get(slug)
-                        subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and not s_["chunks"])]
+                        subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and (not s_["chunks"] or spec.get("skip_lead_toc")))]
                         numeric = sum(1 for _k, s_ in subs if s_["title"].isdigit()) * 2 > len(subs)
                         if len(subs) >= 2:
                             sub = (f'<ul class="sub{" num" if numeric else ""}">' + "".join(
@@ -2276,6 +2290,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 INITIAL["荀"] = "X"
 INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
+INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K"})
 INITIAL["老"] = "L"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"
