@@ -21,12 +21,12 @@ def build():
     out = {}
     for k, lines in raw.items():
         n = int(k)
-        lines = [ln for ln in lines if not ln.startswith("<史部") and ln.replace(" ", "") != f"文献通考卷{num(n)}"]
         i = 0
         while i < len(lines) and (lines[i].startswith("钦定四库全书") or lines[i].replace(" ", "").startswith("文献通考卷")
                                    or re.search(r"马\s*端\s*临", lines[i])):
             i += 1
-        body = lines[i:]
+        body = [ln for ln in lines[i:] if not ln.startswith("<史部")
+                and not re.fullmatch(r"文献通考卷[一二三四五六七八九十百零]+[上下]?", ln.replace(" ", ""))]
         if not body:
             continue
         # 第一行是考名（页题），其余每行一段；标点稿完成后，无句末标点的短行才视作小标题另起一节

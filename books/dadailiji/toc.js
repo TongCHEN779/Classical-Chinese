@@ -1,0 +1,7 @@
+(function(){var D=[["l","p01.html","主言"],["l","p02.html","哀公问五义"],["l","p03.html","哀公问於孔子"],["l","p04.html","礼三本"],["l","p05.html","礼察"],["l","p06.html","夏小正"],["l","p07.html","保傅"],["l","p08.html","曾子立事"],["l","p09.html","曾子本孝"],["l","p10.html","曾子立孝"],["l","p11.html","曾子大孝"],["l","p12.html","曾子事父母"],["l","p13.html","曾子制言上"],["l","p14.html","曾子制言中"],["l","p15.html","曾子制言下"],["l","p16.html","曾子疾病"],["l","p17.html","曾子天圆"],["l","p18.html","武王践阼"],["l","p19.html","卫将军文子"],["l","p20.html","五帝德"],["l","p21.html","帝繫"],["l","p22.html","劝学"],["l","p23.html","子张问入官"],["l","p24.html","盛德"],["l","p25.html","明堂"],["l","p26.html","千乘"],["l","p27.html","四代"],["l","p28.html","虞戴德"],["l","p29.html","诰志"],["l","p30.html","文王官人"],["l","p31.html","诸侯迁庙"],["l","p32.html","诸侯衅庙"],["l","p33.html","小辨"],["l","p34.html","用兵"],["l","p35.html","少闲"],["l","p36.html","朝事"],["l","p37.html","投壶"],["l","p38.html","公符"],["l","p39.html","本命"],["l","p40.html","易本命"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();

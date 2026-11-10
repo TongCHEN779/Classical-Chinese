@@ -1,0 +1,7 @@
+(function(){var D=[["l","yuanxu.html","原序·盛时彦"],["l","zhengxu.html","郑序·郑开禧"],["l","shi.html","诗二首·纪昀"],["l","juan01.html","卷一·滦阳消夏录一"],["l","juan02.html","卷二·滦阳消夏录二"],["l","juan03.html","卷三·滦阳消夏录三"],["l","juan04.html","卷四·滦阳消夏录四"],["l","juan05.html","卷五·滦阳消夏录五"],["l","juan06.html","卷六·滦阳消夏录六"],["l","juan07.html","卷七·如是我闻一"],["l","juan08.html","卷八·如是我闻二"],["l","juan09.html","卷九·如是我闻三"],["l","juan10.html","卷十·如是我闻四"],["l","juan11.html","卷十一·槐西杂志一"],["l","juan12.html","卷十二·槐西杂志二"],["l","juan13.html","卷十三·槐西杂志三"],["l","juan14.html","卷十四·槐西杂志四"],["l","juan15.html","卷十五·姑妄听之一"],["l","juan16.html","卷十六·姑妄听之二"],["l","juan17.html","卷十七·姑妄听之三"],["l","juan18.html","卷十八·姑妄听之四"],["l","juan19.html","卷十九·滦阳续录一"],["l","juan20.html","卷二十·滦阳续录二"],["l","juan21.html","卷二十一·滦阳续录三"],["l","juan22.html","卷二十二·滦阳续录四"],["l","juan23.html","卷二十三·滦阳续录五"],["l","juan24.html","卷二十四·滦阳续录六"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();

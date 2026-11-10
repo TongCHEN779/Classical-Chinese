@@ -1,0 +1,7 @@
+(function(){var D=[["l","xu.html","自叙"],["l","p001.html","第一回　妙转玄机故人念旧　喜出望外嗣子奔丧"],["l","p002.html","第二回　五十金暂依招股处　二百元押去府右堂"],["l","p003.html","第三回　移花接木三条计　动魄惊魂一纸书"],["l","p004.html","第四回　透消息托故避干连　乘危急巧辞图攘夺"],["l","p005.html","第五回　奇举动盛宴贺期丧　叙琐屑绮筵呈丑态"],["l","p006.html","第六回　一夕碰和真慷慨　两番拒贷假贫穷"],["l","p007.html","第七回　巧遮饰穷人装阔绰　硬干没恶汉遇强梁"],["l","p008.html","第八回　假复假金矿难查　□中□珠花不返"],["l","p009.html","第九回　揭行藏有心行诈术　乔笑语当面撒奇谎"],["l","p010.html","第十回　陡变幻人心叵测　善支离世事难为"],["l","p011.html","第十一回　伊通守改省到山东　陈雨堂深宵留沪北"],["l","p012.html","第十二回　盘书局妙施巧术　卖字画暂免钉门"],["l","p013.html","第十三回　十二金卖去一员督抚　两封书送来无限生机"],["l","p014.html","第十四回　未死人忽地开丧　妙弥缝从丰代犒"],["l","p015.html","第十五回　破除资格特赏优差　撇弃委员去充买办"],["l","p016.html","第十六回　荐生意伍太守分肥　遭骗局张佐君叫苦"],["l","p017.html","第十七回　变面貌鲁薇园割须　逞机心柏养芝铸镜"],["l","p018.html","第十八回　喜蛛儿昙花现色相　鲁薇园投药治思劳"],["l","p019.html","第十九回　历下亭龙骊珠品泉　红雨轩鲁夫人论药"],["l","p020.html","第二十回　老官医粗心投补品　娇小姐噩梦警芳魂"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();

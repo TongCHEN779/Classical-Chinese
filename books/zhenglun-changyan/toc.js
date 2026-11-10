@@ -1,0 +1,7 @@
+(function(){var D=[["l","zhenglun-xu.html","政论·严可均辑佚说明"],["l","zhenglun.html","政论·现存辑文"],["l","changyan-shang.html","昌言·卷上"],["l","changyan-zhong.html","昌言·卷中"],["l","changyan-xia.html","昌言·卷下"],["l","changyan-fulu.html","昌言·附录"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();

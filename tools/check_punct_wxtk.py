@@ -32,9 +32,7 @@ def main(ks):
             if strip(x) != strip(y):
                 print(k, f"段{i} 与原文字不同：", x[:30], "|", y[:30]); bad += 1
                 continue
-            body = x[:-1] if x.endswith("〉") else x
-            if len(strip(x)) > 30 and not body.endswith(tuple(END)):
-                print(k, f"段{i} 长段没有以句末标点结尾：", x[-14:]); bad += 1
+            # 原书按行分段，行可能断在句中或小注中间：段尾不强求句末标点，句子没写完就不要硬补
             if len(strip(x)) <= 30 and not x.endswith(tuple(END + "〉")) and any(c in x for c in "。？！；"):
                 print(k, f"段{i} 短行（小标题）却带了标点：", x[:30]); bad += 1
     print("OK" if not bad else f"{bad} 处问题")

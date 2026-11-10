@@ -1,0 +1,7 @@
+(function(){var D=[["l","j01.html","卷一·逢遇、累害、命禄、气寿"],["l","j02.html","卷二·幸偶、命义、无形、率性、吉验"],["l","j03.html","卷三·偶会、骨相、初禀、本性、物势、奇怪"],["l","j04.html","卷四·书虚、变虚"],["l","j05.html","卷五·异虚、感虚"],["l","j06.html","卷六·福虚、祸虚、龙虚、雷虚"],["l","j07.html","卷七·道虚、语增"],["l","j08.html","卷八·儒增、艺增"],["l","j09.html","卷九·问孔"],["l","j10.html","卷十·非韩、刺孟"],["l","j11.html","卷十一·谈天、说日、答佞"],["l","j12.html","卷十二·程材、量知、谢短"],["l","j13.html","卷十三·效力、别通、超奇"],["l","j14.html","卷十四·状留、寒温、谴告"],["l","j15.html","卷十五·变动、招致、明雩、顺鼓"],["l","j16.html","卷十六·乱龙、遭虎、商虫、讲瑞"],["l","j17.html","卷十七·指瑞、是应、治期"],["l","j18.html","卷十八·自然、感类、齐世"],["l","j19.html","卷十九·宣汉、恢国、验符"],["l","j20.html","卷二十·须颂、佚文、论死"],["l","j21.html","卷二十一·死伪"],["l","j22.html","卷二十二·纪妖、订鬼"],["l","j23.html","卷二十三·言毒、薄葬、四讳、𧬘时"],["l","j24.html","卷二十四·讥日、卜筮、辨祟、难岁"],["l","j25.html","卷二十五·诘术、解除、祀义、祭意"],["l","j26.html","卷二十六·实知、知实"],["l","j27.html","卷二十七·定贤"],["l","j28.html","卷二十八·正说、书解"],["l","j29.html","卷二十九·案书、对作"],["l","j30.html","卷三十·自纪"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();

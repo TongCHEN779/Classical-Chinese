@@ -2046,6 +2046,17 @@ def table_html(t):
     return f'{cap}<div class="biao-wrap"><table class="biao{" biao-n" if len(t["rows"][0] if t["rows"] else []) >= 10 else ""}">{head}<tbody>{body}</tbody></table></div>'
 
 
+toc_written = set()
+TOC_JS = """(function(){var D=__DATA__;var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();
+"""
+
+
 def build_poetry(bslug, spec):
     r = "../../"
     base = SRC / bslug
@@ -2198,12 +2209,12 @@ def build_poetry(bslug, spec):
         single = bool(spec.get("single_page")) and len(pages) == 1     # 只有一个目录条目：书的首页直接就是阅读页
         toc = ""
         if spec.get("side_toc", True):
-            items = []
+            # 全书总目录每本书只存一份 toc.js，页面里只留空位、本页的小目录和当前页文件名，由 toc.js 在页面里填入（省下每页重复的整份目录）
+            data, sub = [], ""
             for sl, tt, page_files in pages:
                 if sl is None:
-                    items.append(f'<li class="grp">{esc(tt)}</li>')
+                    data.append(["g", tt])
                 elif sl == slug:
-                    sub = ""
                     if spec.get("sub_toc", True):
                         labels = spec.get("sub_labels", {}).get(slug)
                         subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and (not s_["chunks"] or spec.get("skip_lead_toc")))]
@@ -2212,13 +2223,19 @@ def build_poetry(bslug, spec):
                             sub = (f'<ul class="sub{" num" if numeric else ""}">' + "".join(
                                 f'<li><a href="#e{k}">{ed_plain(esc(labels[k - 1] if labels and k - 1 < len(labels) else s_["title"]))}</a></li>'
                                 for k, s_ in subs) + "</ul>")
-                    items.append(f'<li class="cur"><a href="{"index" if single else sl}.html" aria-current="page">{esc(tt)}</a>{sub}</li>')
+                    data.append(["l", ("index" if single else sl) + ".html", tt])
                 elif page_files:
-                    items.append(f'<li><a href="{sl}.html">{esc(tt)}</a></li>')
+                    data.append(["l", f"{sl}.html", tt])
                 else:
                     status = "阙" if sl in spec.get("missing_slugs", ()) else "亡" if sl in spec.get("lost_slugs", ()) else "待整理"
-                    items.append(f'<li><span>{esc(tt)}（{status}）</span></li>')
-            toc = (f'<details class="toc side" open><summary>总目录</summary><ul>{"".join(items)}</ul></details>')
+                    data.append(["x", f"{tt}（{status}）"])
+            if bslug not in toc_written:
+                toc_written.add(bslug)
+                (BOOKS_OUT / bslug).mkdir(parents=True, exist_ok=True)
+                (BOOKS_OUT / bslug / "toc.js").write_text(TOC_JS.replace("__DATA__", json.dumps(data, ensure_ascii=False, separators=(",", ":"))), encoding="utf8")
+            toc = (f'<details class="toc side" open data-cur="{"index" if single else slug}.html"><summary>总目录</summary><ul></ul>'
+                   f'<template>{sub}</template><noscript><p><a href="index.html">全书目录</a></p></noscript></details>'
+                   '<script src="toc.js"></script>')
         elif secs:
             tocs = [(k, s) for k, s in enumerate(secs, 1) if not (s["title"] == title and not s["chunks"])]
             numeric = sum(1 for _k, s in tocs if s["title"].isdigit()) * 2 > len(tocs)

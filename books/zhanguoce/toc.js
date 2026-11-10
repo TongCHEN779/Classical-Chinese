@@ -1,0 +1,7 @@
+(function(){var D=[["l","xu.html","序（六篇）"],["l","dongzhou.html","东周"],["l","xizhou.html","西周"],["l","qin01.html","秦策一"],["l","qin02.html","秦策二"],["l","qin03.html","秦策三"],["l","qin04.html","秦策四"],["l","qin05.html","秦策五"],["l","qi01.html","齐策一"],["l","qi02.html","齐策二"],["l","qi03.html","齐策三"],["l","qi04.html","齐策四"],["l","qi05.html","齐策五"],["l","qi06.html","齐策六"],["l","chu01.html","楚策一"],["l","chu02.html","楚策二"],["l","chu03.html","楚策三"],["l","chu04.html","楚策四"],["l","zhao01.html","赵策一"],["l","zhao02.html","赵策二"],["l","zhao03.html","赵策三"],["l","zhao04.html","赵策四"],["l","wei01.html","魏策一"],["l","wei02.html","魏策二"],["l","wei03.html","魏策三"],["l","wei04.html","魏策四"],["l","han01.html","韩策一"],["l","han02.html","韩策二"],["l","han03.html","韩策三"],["l","yan01.html","燕策一"],["l","yan02.html","燕策二"],["l","yan03.html","燕策三"],["l","songwei.html","宋卫（第三十二）"],["l","zhongshan.html","中山（第三十三）"],["l","fu.html","附（六篇）"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();

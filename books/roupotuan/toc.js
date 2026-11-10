@@ -1,0 +1,7 @@
+(function(){var D=[["l","xu.html","序"],["l","001.html","第一回　止淫风借淫事说法　谈色事就色欲开端"],["l","002.html","第二回　老头陀空张皮布袋　小居士受坐肉蒲团"],["l","003.html","第三回　道学翁错配风流婿　端庄女移情轻薄郎"],["l","004.html","第四回　宿荒村客心悲寂寞　消长夜贼口说风情"],["l","005.html","第五回　选丰姿严造花名册　狗情面宽收雪鬓娘"],["l","006.html","第六回　稀短才漫夸长技　现小物贻笑大方"],["l","007.html","第七回　怨生成抚阳痛哭　思改正屈膝哀求"],["l","008.html","第八回　三月苦藏修良朋刮目　一番乔卖弄美妇倾心"],["l","009.html","第九回　擅奇淫偏持大体　分馀乐反占先筹"],["l","010.html","第十回　听先声而知劲敌　留馀地以养真才"],["l","011.html","第十一回　穿窬豪杰浪挥金　露水夫妻成结发"],["l","012.html","第十二回　补磕头方成好事　因吃醋反结同心"],["l","013.html","第十三回　破釜焚舟除隐情　卧薪尝胆复奸雠"],["l","014.html","第十四回　闭户说欢娱隔墙有耳　禁人观沐浴此处无银"],["l","015.html","第十五回　同盟义议通宵乐　姊妹平分一夜欢"],["l","016.html","第十六回　真好事半路遭魔　活春宫连箱被劫"],["l","017.html","第十七回　得便宜因人瞒己　遭涂毒为己骄人"],["l","018.html","第十八回　妻子落风尘明偿积欠　弟兄争窈窕暗索前逋"],["l","019.html","第十九回　孽贯已盈两处香闺齐出丑　禅机将发诸般美色尽成空"],["l","020.html","第二十回　布袋皮宽色鬼奸雄齐摄入　旃檀路阔冤家债主任相逢"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();

@@ -1,0 +1,7 @@
+(function(){var D=[["l","xu.html","自叙"],["l","p01.html","第一回　土不制水历年成患　风能鼓浪到处可危"],["l","p02.html","第二回　历山山下古帝遗踪　明湖湖边美人绝调"],["l","p03.html","第三回　金线东来寻黑虎　布帆西去访苍鹰"],["l","p04.html","第四回　宫保求贤爱才若渴　太尊治盗疾恶如仇"],["l","p05.html","第五回　烈妇有心殉节　乡人无意逢殃"],["l","p06.html","第六回　万家流血顶染猩红　一席谈心辩生狐白"],["l","p07.html","第七回　借箸代筹一县策　纳楹闲访百城书"],["l","p08.html","第八回　桃花山月下遇虎　柏树峪雪中访贤"],["l","p09.html","第九回　一客吟诗负手面壁　三人品茗促膝谈心"],["l","p10.html","第十回　骊龙双珠光照琴瑟　犀牛一角声叶箜篌"],["l","p11.html","第十一回　疫鼠传殃成害马　痸犬流灾化毒龙"],["l","p12.html","第十二回　寒风冻塞黄河水　暖气催成白雪辞"],["l","p13.html","第十三回　娓娓青灯女儿酸语　滔滔黄水观察嘉谟"],["l","p14.html","第十四回　大县若蛙半浮水面　小船如蚁分送馒头"],["l","p15.html","第十五回　烈焰有声惊二翠　严刑无度逼孤孀"],["l","p16.html","第十六回　六千金买得凌迟罪　一封书驱走丧门星"],["l","p17.html","第十七回　铁炮一声公堂解索　瑶琴三叠旅舍衔环"],["l","p18.html","第十八回　白太守谈笑释奇冤　铁先生风霜访大案"],["l","p19.html","第十九回　齐东村重摇铁串铃　济南府巧设金钱套"],["l","p20.html","第二十回　浪子金银伐性斧　道人冰雪返魂香"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();
