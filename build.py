@@ -1542,7 +1542,7 @@ POETRY = {
     "mingshi": _orig_spec("mingshi", "明史", "［清］张廷玉等"),
     "tongdian": _orig_spec("tongdian", "通典", "［唐］杜佑"),
     "wenxiantongkao": _orig_spec("wenxiantongkao", "文献通考", "［元］马端临"),
-    "ershierzhaji": _orig_spec("ershierzhaji", "廿二史劄记", "［清］赵翼"),
+    "ershierzhaji": _texts_spec("ershierzhaji", "廿二史劄记", "［清］赵翼"),
     "dutongjianlun": _texts_spec("dutongjianlun", "读通鉴论", "［明］王夫之", groups=True),
     "rizhilu": _texts_spec("rizhilu", "日知录", "［明］顾炎武", groups=True),
     "yuejueshu": _texts_spec("yuejueshu", "越绝书", "［东汉］袁康、吴平（旧题）"),

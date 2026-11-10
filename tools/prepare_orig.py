@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ORIG_BOOKS = ["shuijingzhu", "houhanshu", "hanshu", "taipingguangji", "sanguozhi", "jinshu", "nanshi", "beishi", "suishu", "songshu",
               "nanqishu", "liangshu", "chenshu", "weishu", "beiqishu", "zhoushu", "jiutangshu", "xintangshu", "jiuwudaishi",
-              "xinwudaishi", "liaoshi", "jinshi", "yuanshi", "mingshi", "songshi", "tongdian", "wenxiantongkao", "ershierzhaji"]
+              "xinwudaishi", "liaoshi", "jinshi", "yuanshi", "mingshi", "songshi", "tongdian", "wenxiantongkao"]
 NOTE = re.compile(r"〈[^〈〉]*〉")
 
 

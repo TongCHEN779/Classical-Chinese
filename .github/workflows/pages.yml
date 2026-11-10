@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.d1.outputs.page_url || steps.d2.outputs.page_url || steps.d3.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,8 +37,24 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-      - id: deployment
+      # deploy-pages 的 timeout 上限就是 600000 毫秒（10 分钟），超了会被截成 10 分钟；
+      # GitHub 端“同步文件”偶尔超过 10 分钟，所以失败后自动重试，最多三次
+      - id: d1
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 600000
+          reporting_interval: 30000
+      - id: d2
+        if: steps.d1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        with:
+          timeout: 600000
+          reporting_interval: 30000
+      - id: d3
+        if: steps.d1.outcome == 'failure' && steps.d2.outcome == 'failure'
         uses: actions/deploy-pages@v4
         with:
-          timeout: 3000000
+          timeout: 600000
           reporting_interval: 30000
