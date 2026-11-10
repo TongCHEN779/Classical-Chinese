@@ -1,0 +1,44 @@
+name: Deploy Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/src
+            !/sources
+            !/tools
+            !/tests
+      - name: Stage site
+        run: |
+          mkdir _site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='_site' \
+            --exclude='build.py' --exclude='shiji_pages.json' --exclude='table_of_content.md' \
+            --exclude='README.md' --exclude='LICENSE' --exclude='_config.yml' ./ _site/
+          touch _site/.nojekyll
+          du -sh _site; find _site -type f | wc -l
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 3000000
+          reporting_interval: 30000
