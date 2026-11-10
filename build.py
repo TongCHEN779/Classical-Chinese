@@ -1509,6 +1509,9 @@ POETRY = {
     "wulinjiushi": _texts_spec("wulinjiushi", "武林旧事", "［南宋］周密"),
     "wenshitongyi": _texts_spec("wenshitongyi", "文史通义", "［清］章学诚"),
     "kunxuejiwen": _texts_spec("kunxuejiwen", "困学纪闻", "［南宋］王应麟"),
+    "wulixiaoshi": _texts_spec("wulixiaoshi", "物理小识", "［明］方以智"),
+    "changwuzhi": _texts_spec("changwuzhi", "长物志", "［明］文震亨"),
+    "yuanye": _texts_spec("yuanye", "园冶", "［明］计成"),
     "zhenguanzhengyao": _texts_spec("zhenguanzhengyao", "贞观政要", "［唐］吴兢"),
     "tiangongkaiwu": {**_texts_spec("tiangongkaiwu", "天工开物", "［明］宋应星"), "skip_lead_toc": True},     # 篇首引言不在子目录里重复篇名
     "shuijingzhu": _orig_spec("shuijingzhu", "水经注", "［北魏］郦道元"),
@@ -1692,6 +1695,9 @@ BOOK_INTRO = {
     "qiminyaoshu": "北魏贾思勰撰，十卷九十二篇，系统记述黄河中下游的农业技术，兼及园艺、畜牧、酿造、烹饪与食品加工，是现存最早最完整的农书。",
     "wulinjiushi": "南宋周密追述都城临安旧事，十卷，记典礼、节令、游观、市肆、技艺与宫廷风物，保存了丰富的城市生活史料。",
     "wenshitongyi": "清章学诚的史学与文章理论著作，内篇论“六经皆史”“史德”“知人论世”，外篇论方志与校雠，是中国史学理论名著。",
+    "wulixiaoshi": "明末方以智的百科式笔记，十二卷，分天、历、地、人身、医药、饮食、器用、草木、鸟兽等类，汇通中土旧说与传入的西学，是明清之际的自然知识名著。",
+    "changwuzhi": "明文震亨谈文人居室与清玩的专著，十二卷，分室庐、花木、水石、禽鱼、书画、几榻、器具、衣饰、舟车、位置、蔬果、香茗，处处讲“雅”与“俗”之辨。",
+    "yuanye": "明计成的造园专著，三卷，论兴造、相地、立基、屋宇、装折、栏杆、门窗、墙垣、铺地、掇山、选石、借景，是中国古代最系统的造园理论。",
     "kunxuejiwen": "南宋王应麟的札记考证之作，二十卷，说经、天道地理诸子、考史、评诗文及杂识，考订精详，引书广博。",
     "zhenguanzhengyao": "唐吴兢编，分类辑录唐太宗与魏徵、房玄龄等君臣的问答与奏议，共十卷四十篇，论君道、纳谏、任贤、教戒太子和政教得失，是研究贞观之治的要籍。",
     "tiangongkaiwu": "明宋应星撰，十八篇，分述谷物、纺织、染色、制盐、制糖、陶瓷、冶铸、舟车、兵器、造纸、五金、珠玉等生产技术与工序，是中国古代工艺技术的百科全书。",
@@ -1850,9 +1856,9 @@ def ed_html(h, state):
         if c == "〈":
             if not state[0]:
                 out.append('<span class="ed">')
-            out.append("〈"); state[0] = int(state[0]) + 1
+            out.append('<i class="br">〈</i>'); state[0] = int(state[0]) + 1       # 尖括号留在文本里（保持原文），但不显示
         elif c == "〉" and state[0]:
-            out.append("〉"); state[0] = int(state[0]) - 1
+            out.append('<i class="br">〉</i>'); state[0] = int(state[0]) - 1
             if not state[0]:
                 out.append("</span>")
         else:
@@ -2160,6 +2166,9 @@ def build_poetry(bslug, spec):
                           parts.append(f'<p class="hf-end-marker">{spans}</p>')
                       elif re.fullmatch(r"说[一二三四五六七八九十]+", label):
                           parts.append(f'<h3 class="hf-example-heading">{spans}</h3>')
+                      elif bslug in ("wulinjiushi", "changwuzhi", "yuanye"):      # 地名/条目名单列一行加粗，其后的解释缩进，分清层次
+                          is_name = len(ch["o"]) <= (12 if bslug == "wulinjiushi" else 14) and not re.search(r"[。，；：！？“”]" if bslug != "wulinjiushi" else r"[。，；：！？、（“]", ch["o"])
+                          parts.append(f'<p class="v {"wl-n" if is_name else "wl-d"}">{spans}</p>')
                       else:
                           parts.append(f'<p class="v">{spans}</p>')
                 num = 1
@@ -2298,7 +2307,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 INITIAL["荀"] = "X"
 INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
-INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K"})
+INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K", "物": "W", "长": "C", "园": "Y"})
 INITIAL["老"] = "L"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"

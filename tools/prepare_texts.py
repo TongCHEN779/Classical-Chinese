@@ -21,7 +21,8 @@ TEXT_BOOKS = ["shipin", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", 
               "shanhaijing", "jinbenzhushu", "mutianzi", "yandanzi",
               "diwangshiji", "yuejueshu", "chunqiufanlu", "wuyuechunqiu", "youyangzazu", "wenxindiaolong", "guanzi", "liexianzhuan",
               "zhenguanzhengyao", "tiangongkaiwu", "dutongjianlun", "rizhilu",
-              "xingmingguizhi", "canglangshihua", "baiyuzhaicihua", "qiminyaoshu", "wulinjiushi", "wenshitongyi", "kunxuejiwen"]
+              "xingmingguizhi", "canglangshihua", "baiyuzhaicihua", "qiminyaoshu", "wulinjiushi", "wenshitongyi", "kunxuejiwen",
+              "wulixiaoshi", "changwuzhi", "yuanye"]
 
 
 def read(path):
