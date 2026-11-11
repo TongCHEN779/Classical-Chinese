@@ -1197,7 +1197,7 @@ def _texts_spec(slug, title, author, wiki_intro=False, lost=(), groups=False):
     catalog = json.loads((ROOT / f"sources/{slug}/chapters.json").read_text(encoding="utf8"))
     return {
         "title": title, "author": author, "prose": True, "home_intro_own": True,
-        "strict_pairs": True, "side_toc": True,
+        "strict_pairs": True, "side_toc": True, "skip_lead_toc": groups,
         "side_toc_always": True, "no_count": True, "wide_index": True,
         "omit_source_credit": True, "reading_hint": "",
         "sub_labels": {ch["slug"]: [sec["title"] for sec in ch["sections"]] for ch in catalog},
