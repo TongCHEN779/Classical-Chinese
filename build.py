@@ -707,6 +707,21 @@ def _hongloumeng_spec():
             "pages": pages}
 
 
+def _shitouji_spec():
+    """维基文库《脂硯齋重評石頭記》汇本：正文与脂批（小字灰色）、页面脚注（①②…）照录，不作白话。"""
+    pages = [(None, "序与凡例"), ("qixu", "戚蓼生序"), ("fanli", "凡例")]
+    for d in sorted((ROOT / "src/shitouji").glob("[0-9][0-9][0-9]")):
+        n = int(d.name)
+        if (n - 1) % 10 == 0:
+            pages.append((None, f"第{cn(n)}回至第{cn(n + 9)}回"))
+        head = (d / "01.txt").read_text(encoding="utf8").splitlines()[0][2:].strip()
+        no, _, name = head.partition(" ")
+        pages.append((d.name, f"{no}·{name}"))
+    return {"title": "脂砚斋重评石头记", "author": "［清］曹雪芹（著）、脂砚斋（评）", "unit": "回", "prose": True, "no_tip": True, "side_toc": True,
+            "side_toc_always": True, "no_count": True, "wide_index": True, "source_markers": True, "ed_notes": True, "center_poems": True,
+            "omit_source_credit": True, "reading_hint": "", "pages": pages}
+
+
 def _xianqing_spec():
     import json
     progress = json.loads((ROOT / "sources/xianqing/progress.json").read_text(encoding="utf8"))
@@ -1604,6 +1619,7 @@ POETRY = {
         | {"prose": False, "index_footer": ""},
     "mudanting": _mudanting_spec(),
     "hongloumeng": _hongloumeng_spec(),
+    "shitouji": _shitouji_spec(),
     "lengyanguan": _plain_novel_spec("lengyanguan", "冷眼观", "［清］王浚卿", "回", 30),
     "jieyuhui": _plain_novel_spec("jieyuhui", "劫余灰", "［清］吴趼人", "回", 16),
     "houguanchang": _plain_novel_spec("houguanchang", "后官场现形记", "［清］许优民", "回", 8),
@@ -1806,6 +1822,7 @@ BOOK_INTRO = {
     "xingshihengyan": "冯梦龙编选的四十篇白话短篇小说，写寻常人家的情义和命运，也收《卖油郎独占花魁》《十五贯戏言成巧祸》等名篇。",
     "laocanyouji": "刘鹗的晚清小说，以游医老残在山东的见闻串起济南风物、黄河水患与官府冤狱。",
     "hongloumeng": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。",
+    "shitouji": "曹雪芹著、脂砚斋评的《红楼梦》早期抄本汇本，存八十回，正文之外保留各本批语和页面脚注。",
     "shiji": "西汉司马迁所著的第一部纪传体通史，分本纪、表、书、世家、列传，共一百三十卷。",
     "shishuo": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
     "guwenguanzhi": "清人选编的古文选本，自先秦至明代共二百二十二篇，分十二卷，为古文入门的经典读本。",
@@ -1823,7 +1840,8 @@ for _k, _v in POETRY.items():
     _v["intro"] = WIKI_INTRO[_k]["text"] if WIKI_INTRO.get(_k, {}).get("verbatim") and not _v.get("home_intro_own") else BOOK_INTRO[_k]
 
 
-TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")]}
+TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")],
+               "hongloumeng": [("早期抄本", "../shitouji/index.html", "脂砚斋重评石头记")]}
 
 
 def intro_html(slug):
@@ -1837,8 +1855,8 @@ def intro_html(slug):
         for para in parse_poems([path])[0]["intro"]:
             head, sep, rest = para.partition("。")
             out += f'<p class="intro tijie"><strong>{esc(head)}{sep}</strong>{esc(rest)}</p>'
-    for label, url in TIJIE_LINKS.get(slug, []):
-        out += f'<p class="intro tijie"><strong>{esc(label)}：</strong><a href="{esc(url)}">{esc(url)}</a></p>'
+    for label, url, *shown in TIJIE_LINKS.get(slug, []):
+        out += f'<p class="intro tijie"><strong>{esc(label)}：</strong><a href="{esc(url)}">{esc(shown[0] if shown else url)}</a></p>'
     return out
 
 
@@ -2335,6 +2353,7 @@ INITIAL["荀"] = "X"
 INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
 INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K", "物": "W", "长": "C", "园": "Y", "营": "Y"})
 INITIAL["老"] = "L"
+INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"
