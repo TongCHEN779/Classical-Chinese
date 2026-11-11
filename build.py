@@ -1522,6 +1522,7 @@ POETRY = {
     "hanshu": _texts_spec("hanshu", "汉书", "［东汉］班固", groups=True),
     "sanguozhi": _texts_spec("sanguozhi", "三国志", "［西晋］陈寿", groups=True),
     "jinshu": _texts_spec("jinshu", "晋书", "［唐］房玄龄等", groups=True),
+    "shiliuguochunqiu": _texts_spec("shiliuguochunqiu", "十六国春秋", "［北魏］崔鸿（旧题）"),
     "nanshi": _orig_spec("nanshi", "南史", "［唐］李延寿"),
     "beishi": _orig_spec("beishi", "北史", "［唐］李延寿"),
     "suishu": _orig_spec("suishu", "隋书", "［唐］魏徵等"),
@@ -1668,6 +1669,7 @@ BOOK_INTRO = {
     "hanshu": "东汉班固所撰的西汉断代史，纪、表、志、传四体俱备，共一百卷，是第一部纪传体断代史。",
     "sanguozhi": "西晋陈寿撰的魏、蜀、吴三国纪传体断代史，分魏志、蜀志、吴志，共六十五卷。",
     "jinshu": "唐房玄龄等奉敕撰的晋代正史，含帝纪、志、列传和载记，共一百三十卷。",
+    "shiliuguochunqiu": "旧题北魏崔鸿撰，记十六国史事，今存本为明人辑本，共十六卷，各国一录。",
     "nanshi": "唐李延寿撰，合宋、齐、梁、陈四朝为一书的纪传体通史，共八十卷。",
     "beishi": "唐李延寿撰，合北魏、东魏、西魏、北齐、北周、隋六朝为一书的纪传体通史，共一百卷。",
     "suishu": "唐魏徵等奉敕撰的隋代正史，帝纪、列传五十五卷，另附梁陈齐周隋五代史志三十卷，共八十五卷。",
@@ -2333,6 +2335,7 @@ INITIAL["荀"] = "X"
 INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
 INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K", "物": "W", "长": "C", "园": "Y", "营": "Y"})
 INITIAL["老"] = "L"
+INITIAL["十"] = "S"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"
 INITIAL["新"] = "X"
