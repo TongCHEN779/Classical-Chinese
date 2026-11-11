@@ -1521,7 +1521,7 @@ POETRY = {
     "houhanshu": _texts_spec("houhanshu", "后汉书", "［南朝宋］范晔", groups=True),
     "hanshu": _texts_spec("hanshu", "汉书", "［东汉］班固", groups=True),
     "sanguozhi": _texts_spec("sanguozhi", "三国志", "［西晋］陈寿", groups=True),
-    "jinshu": _orig_spec("jinshu", "晋书", "［唐］房玄龄等"),
+    "jinshu": _texts_spec("jinshu", "晋书", "［唐］房玄龄等", groups=True),
     "nanshi": _orig_spec("nanshi", "南史", "［唐］李延寿"),
     "beishi": _orig_spec("beishi", "北史", "［唐］李延寿"),
     "suishu": _orig_spec("suishu", "隋书", "［唐］魏徵等"),
