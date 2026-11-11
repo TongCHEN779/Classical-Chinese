@@ -35,7 +35,10 @@ def clean_inline(t, notes):
     t = re.sub(r"\{\{另\|([^|}]*)\|[^}]*\}\}", r"\1", t)
 
     def ref(m):
-        body = strip_markup(re.sub(r"\{\{[^{}]*\}\}", "", m.group(1))).strip()
+        body = re.sub(r"\[\[(?:File|Image|文件)[^\]]*\]\]", "", re.sub(r"\{\{[^{}]*\}\}", "", m.group(1)))
+        body = strip_markup(body)
+        body = re.sub(r"\s+", " ", body).strip()
+        body = re.sub(r"[，：]\s*。", "。", body)
         if len(notes) >= len(CIRC):
             raise ValueError("脚注超过 35 条")
         notes.append(body)
@@ -46,6 +49,7 @@ def clean_inline(t, notes):
     t = re.sub(r"<ref[^>/]*>(.*?)</ref>", ref, t, flags=re.S)
     # 脂批、按语：模板里可能还有嵌套的 ref（上一步已换成序号），这里只剩纯文本
     t = re.sub(r"<sub>(.*?)</sub>", lambda m: "〈" + m.group(1).strip() + "〉", t, flags=re.S)
+    t = re.sub(r"\[\[(?:File|Image|文件)[^\]]*\]\]", "□", t)     # 正文里的缺字图片，站内用 □
     return t
 
 
@@ -104,6 +108,9 @@ def convert_page(key, data):
     head = hm.group(1)
     sm = re.search(r"\|\s*section\s*=\s*(.*)", head)
     title = strip_markup(sm.group(1)).replace(SP, " ").strip() if sm else ""
+    lead = re.findall(r"\{\{\s*~~?\s*\|((?:(?!\}\}).)*)\}\}", title)     # 回目里夹的批语，移到正文开头
+    title = re.sub(r"\{\{[^{}]*\}\}", "", title)
+    title = re.sub(r"\s+", " ", title.replace(SP, " ")).strip() if lead else title
     if key == "qixu":
         title = "戚蓼生序"
     body = w[hm.end():]
@@ -121,6 +128,7 @@ def convert_page(key, data):
         ps = paragraphs(body)
         # 去掉与回目重复的标题行（{{center|第X回 …}}）与“戚蓼生序”标题
         ps = [p for p in ps if not re.match(r"^'*第\s*[一二三四五六七八九十]+\s*回", strip_markup(p).replace(SP, " ")) and strip_markup(p) != "戚蓼生序"]
+        ps = ["〈" + x.strip() + "〉" for x in lead] + ps
         sections.append((None, ps))
     lines = []
     for n, (name, ps) in enumerate(sections):
