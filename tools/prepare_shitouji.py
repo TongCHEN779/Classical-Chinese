@@ -126,8 +126,19 @@ def toc_titles():
     return out
 
 
+def convert_markup(w):
+    """MediaWiki 繁简转换标记 -{…}-：只取简体写法（zh-hans:…），没有就取括号里的字。"""
+    def sub(m):
+        inner = m.group(1)
+        hans = re.search(r"zh-hans:([^;}]*)", inner)
+        if hans:
+            return hans.group(1)
+        return inner.rsplit("|", 1)[-1] if "|" in inner and "zh" not in inner else re.sub(r"zh[^:;]*:", "", inner).split(";")[0]
+    return re.sub(r"-\{(.*?)\}-", sub, w, flags=re.S)
+
+
 def convert_page(key, data):
-    w = data["wikitext"]
+    w = convert_markup(data["wikitext"])
     hm = re.search(r"\{\{header(.*?)\n\}\}", w, flags=re.S)
     head = hm.group(1)
     sm = re.search(r"\|\s*section\s*=\s*(.*)", head)
