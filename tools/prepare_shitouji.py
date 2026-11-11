@@ -72,34 +72,58 @@ def templates(body):
 
 
 def paragraphs(body):
+    """正文拆成 (种类, 文字) 段落：空行分段；诗词（<poem>、{{center|…}}、“::”行、缩进三格以上的行）连续的行并成一段，行间用“/”，种类为 "诗"，其余为 "原"。"""
     body = templates(body)
-    """正文拆成段落：空行分段；缩进三格以上的行接在上一行后（诗句、歌谣），行间用“/”。"""
     body = re.sub(r"\{\{(?:未校訂|Footer|footer|版本合成|Textquality[^}]*)\}\}", "", body)
     body = re.sub(r"<font[^>]*>.*?</font>", "", body, flags=re.S)
-    body = re.sub(r"<poem>(.*?)</poem>", lambda m: "\n".join(SP * 2 + x.strip() for x in m.group(1).strip().split("\n")) + "\n", body, flags=re.S)
+    body = re.sub(r"</?center>", "", body)
+    body = re.sub(r"<poem>(.*?)</poem>", lambda m: "\n" + "\n".join("@V@" + x.strip(SP + " ") for x in m.group(1).strip().split("\n") if x.strip(SP + " ")) + "\n", body, flags=re.S)
     out = []
     for block in re.split(r"\n\s*\n", body):
-        cur = None
+        cur, cur_kind = None, None
+
+        def flush():
+            if cur is not None:
+                out.append((cur_kind, cur))
+
         for ln in block.split("\n"):
             ln = re.sub(r"<br\s*/?>\s*$", "", ln.rstrip())
             if not ln.strip():
                 continue
-            m = re.match(r"\{\{center\|(.*)\}\}$", ln.strip(), flags=re.S)
-            is_center = bool(m)
-            if is_center:
-                ln = m.group(1)
-            raw = ln.replace(BOM, "")
-            lead = len(raw) - len(raw.lstrip(SP + " "))
-            text = raw.strip(SP + " ")
-            if cur is not None and (is_center or lead >= 3):
-                cur += "/" + text
+            verse = False
+            if ln.startswith("@V@"):
+                verse, text = True, ln[3:]
             else:
-                if cur is not None:
-                    out.append(cur)
-                cur = text
-        if cur is not None:
-            out.append(cur)
-    return [p for p in out if p.strip()]
+                m = re.match(r"\{\{center\|(.*)\}\}$", ln.strip(), flags=re.S)
+                if m:
+                    verse, text = True, m.group(1)
+                elif ln.startswith("::"):
+                    verse, text = True, ln.lstrip(":")
+                else:
+                    lead = len(ln) - len(ln.lstrip(SP + " "))       # 数缩进（行首的零宽空格之前）
+                    plain = re.sub(r"〈[^〉]*〉|<ref[^>]*>.*?</ref>|<[^>]*>", "", ln.replace(BOM, "")).strip(SP + " ")
+                    verse, text = lead >= 3 and len(plain) <= 45, ln     # 缩进的长句是文书（如履历），不是诗
+            text = text.replace(BOM, "").strip(SP + " ")
+            if not text:
+                continue
+            if verse and cur_kind == "诗":
+                # 单独成行的脂批并到上一行末尾，不另起一句
+                solo = text.startswith("〈") and text.endswith("〉") and text.count("〈") == text.count("〉") and text.find("〉") == len(text) - 1 - (text.count("〉") - 1) * 0 and text[1:-1].find("〈") < 0 and text[1:-1].find("〉") < 0
+                cur += text if solo else "/" + text
+            else:
+                flush()
+                cur, cur_kind = text, "诗" if verse else "原"
+        flush()
+    return [(k, t) for k, t in out if t.strip()]
+
+
+def toc_titles():
+    """总目录页里每回的回目（页面自己的 header 偶尔只写“第五回”，缺回目时用它补）。"""
+    w = json.loads((RAW / "_main.json").read_text(encoding="utf8"))["wikitext"]
+    out = {}
+    for m in re.finditer(r"\*\[\[/第([^|\]]+)回\|[^\]]*\]\]\u3000(.+)", w):
+        out[m.group(1)] = re.sub(r"\s+", " ", m.group(2).replace(SP, " ")).strip()
+    return out
 
 
 def convert_page(key, data):
@@ -111,6 +135,11 @@ def convert_page(key, data):
     lead = re.findall(r"\{\{\s*~~?\s*\|((?:(?!\}\}).)*)\}\}", title)     # 回目里夹的批语，移到正文开头
     title = re.sub(r"\{\{[^{}]*\}\}", "", title)
     title = re.sub(r"\s+", " ", title.replace(SP, " ")).strip() if lead else title
+    m = re.fullmatch(r"第([一二三四五六七八九十]+)回", title.strip())
+    if m:
+        name = TOC.get(m.group(1))
+        assert name, (key, title)
+        title = f"第{m.group(1)}回 {name}"
     if key == "qixu":
         title = "戚蓼生序"
     body = w[hm.end():]
@@ -123,30 +152,35 @@ def convert_page(key, data):
         for i in range(1, len(parts), 2):
             sections.append((parts[i].strip(), paragraphs(parts[i + 1])))
         # 去掉每个版本自带的回目标题行
-        sections = [(n, [p for p in ps if not re.match(r"第\s*六\s*十\s*七\s*回", p)]) for n, ps in sections]
+        sections = [(n, [(k, p) for k, p in ps if not re.match(r"第\s*六\s*十\s*七\s*回", p)]) for n, ps in sections]
     else:
         ps = paragraphs(body)
         # 去掉与回目重复的标题行（{{center|第X回 …}}）与“戚蓼生序”标题
-        ps = [p for p in ps if not re.match(r"^'*第\s*[一二三四五六七八九十]+\s*回", strip_markup(p).replace(SP, " ")) and strip_markup(p) != "戚蓼生序"]
-        ps = ["〈" + x.strip() + "〉" for x in lead] + ps
+        ps = [(k, p) for k, p in ps if not re.match(r"^\s*第\s*[一二三四五六七八九十]+\s*回", strip_markup(p).replace(SP, " ")) and strip_markup(p) != "戚蓼生序"]
+        ps = [("原", "〈" + x.strip() + "〉") for x in lead] + ps
         sections.append((None, ps))
     lines = []
     for n, (name, ps) in enumerate(sections):
         t = title if n == 0 else name
         lines.append("# " + cc.convert(t))
-        for p in ps:
+        for kind, p in ps:
             notes = []
             txt = strip_markup(clean_inline(p, notes))
             txt = cc.convert(txt)
             txt = txt.replace("【", "").replace("】", "")     # 批语外框；批语已用〈〉标成小字，站内【】会被当作曲牌样式
             assert not re.search(r"\{\{|\}\}|<|>|\[\[|\]\]", txt), (key, txt[:120])
-            lines.append("原：" + txt)
+            lines.append(kind + "：" + txt)
             for k, nt in enumerate(notes):
                 lines.append("注原：" + CIRC[k] + "　" + cc.convert(nt))
     return "\n".join(lines) + "\n"
 
 
+TOC = None
+
+
 def main():
+    global TOC
+    TOC = toc_titles()
     for f in sorted(RAW.glob("*.json")):
         if f.name.startswith("_"):
             continue

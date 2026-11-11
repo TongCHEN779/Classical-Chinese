@@ -718,7 +718,7 @@ def _shitouji_spec():
         no, _, name = head.partition(" ")
         pages.append((d.name, f"{no}·{name}"))
     return {"title": "脂砚斋重评石头记", "author": "［清］曹雪芹（著）、脂砚斋（评）", "unit": "回", "prose": True, "no_tip": True, "side_toc": True,
-            "side_toc_always": True, "no_count": True, "wide_index": True, "source_markers": True, "ed_notes": True, "center_poems": True,
+            "side_toc_always": True, "no_count": True, "wide_index": True, "source_markers": True, "ed_notes": True,
             "omit_source_credit": True, "reading_hint": "", "pages": pages}
 
 
@@ -1841,7 +1841,8 @@ for _k, _v in POETRY.items():
 
 
 TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")],
-               "hongloumeng": [("早期抄本", "../shitouji/index.html", "脂砚斋重评石头记")]}
+               "hongloumeng": [("早期抄本", "../shitouji/index.html", "脂砚斋重评石头记")],
+               "shitouji": [("数字化本", "../hongloumeng/index.html", "红楼梦")]}
 
 
 def intro_html(slug):
