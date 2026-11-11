@@ -1518,7 +1518,7 @@ POETRY = {
     "tiangongkaiwu": {**_texts_spec("tiangongkaiwu", "天工开物", "［明］宋应星"), "skip_lead_toc": True},     # 篇首引言不在子目录里重复篇名
     "shuijingzhu": _orig_spec("shuijingzhu", "水经注", "［北魏］郦道元"),
     "taipingguangji": _orig_spec("taipingguangji", "太平广记", "［北宋］李昉等"),
-    "houhanshu": _orig_spec("houhanshu", "后汉书", "［南朝宋］范晔"),
+    "houhanshu": _texts_spec("houhanshu", "后汉书", "［南朝宋］范晔", groups=True),
     "hanshu": _texts_spec("hanshu", "汉书", "［东汉］班固", groups=True),
     "sanguozhi": _orig_spec("sanguozhi", "三国志", "［西晋］陈寿"),
     "jinshu": _orig_spec("jinshu", "晋书", "［唐］房玄龄等"),
