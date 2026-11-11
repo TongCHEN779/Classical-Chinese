@@ -262,7 +262,7 @@ def split_pairs(o, t):
                 groups = []
                 for k, x in enumerate(raw):
                     # 扩展区汉字也有正文意义，不能把单字句当作纯标点。
-                    if groups and not any(char.isalnum() for char in x):
+                    if groups and not any(char.isalnum() for char in x) and _ORPHAN.fullmatch(x):
                         groups[-1].append(k)
                     else:
                         groups.append([k])
@@ -1519,7 +1519,7 @@ POETRY = {
     "shuijingzhu": _orig_spec("shuijingzhu", "水经注", "［北魏］郦道元"),
     "taipingguangji": _orig_spec("taipingguangji", "太平广记", "［北宋］李昉等"),
     "houhanshu": _orig_spec("houhanshu", "后汉书", "［南朝宋］范晔"),
-    "hanshu": _orig_spec("hanshu", "汉书", "［东汉］班固"),
+    "hanshu": _texts_spec("hanshu", "汉书", "［东汉］班固", groups=True),
     "sanguozhi": _orig_spec("sanguozhi", "三国志", "［西晋］陈寿"),
     "jinshu": _orig_spec("jinshu", "晋书", "［唐］房玄龄等"),
     "nanshi": _orig_spec("nanshi", "南史", "［唐］李延寿"),
