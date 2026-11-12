@@ -1518,6 +1518,10 @@ POETRY = {
     "wenxindiaolong": _texts_spec("wenxindiaolong", "文心雕龙", "［南朝梁］刘勰"),
     "guanzi": _texts_spec("guanzi", "管子", "［春秋］管仲（旧题）", lost=[('p21', '王言第二十一'), ('p25', '谋失第二十五'), ('p34', '正言第三十四'), ('p60', '言昭第六十'), ('p61', '修身第六十一'), ('p62', '问霸第六十二'), ('p63', '牧民解第六十三'), ('p70', '问乘马第七十'), ('p82', '轻重丙第八十二'), ('p86', '轻重庚第八十六')]),
     "liexianzhuan": _texts_spec("liexianzhuan", "列仙传", "［汉］刘向（旧题）"),
+    "xijingzaji": _texts_spec("xijingzaji", "西京杂记", "［东晋］葛洪（旧题）"),
+    "soushenji": _texts_spec("soushenji", "搜神记", "［东晋］干宝"),
+    "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
+    "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
     "xingmingguizhi": _texts_spec("xingmingguizhi", "性命圭旨", "［明］尹真人（旧题）"),
     "canglangshihua": _texts_spec("canglangshihua", "沧浪诗话", "［南宋］严羽"),
     "baiyuzhaicihua": _texts_spec("baiyuzhaicihua", "白雨斋词话", "［清］陈廷焯"),
@@ -1725,6 +1729,10 @@ BOOK_INTRO = {
     "dutongjianlun": "明末清初王夫之读《资治通鉴》的史论，三十卷，按秦至五代的朝代次第逐条评说史事得失，兼论治道、人才与制度，是中国古代史论名著。",
     "rizhilu": "明末清初顾炎武的读书札记，三十二卷，分经义、政事、世风、礼制、科举、艺文、名义、史法、地理等类，考辨精审，是清代考据学的开山之作。",
     "liexianzhuan": "旧题西汉刘向撰，记赤松子至玄俗七十位仙人的事迹，每传末附四言赞，是现存最早的神仙传记集。",
+    "xijingzaji": "旧题刘歆撰、葛洪辑，六卷，杂记西汉长安宫苑、器物、风俗与人物轶事，是魏晋笔记小说的早期名篇。",
+    "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
+    "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
+    "xuxuanguailu": "唐李复言所撰传奇小说集，承《玄怪录》而作，今存五卷（末卷为辑佚），记杨敬真、定婚店、薛伟一类人神鬼怪与命定姻缘的奇事，文笔曲折。",
     "yuejueshu": "东汉越地史书，十五卷，以吴越争霸、勾践灭吴为中心，兼记吴越地理、风土与人物，多与《吴越春秋》互见。",
     "chunqiufanlu": "西汉董仲舒的春秋公羊学著作，八十二篇，发挥“大一统”“天人感应”等主张，并以阴阳五行说明政治与人事。",
     "wuyuechunqiu": "东汉赵晔所撰，记吴国自太伯至夫差、越国自无余至勾践的兴衰，以吴越争霸为主线，文笔曲折多演义。",
@@ -2356,12 +2364,14 @@ INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文
 INITIAL["老"] = "L"
 INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
+INITIAL["搜"] = "S"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"
 INITIAL["新"] = "X"
 INITIAL.update({"冷": "L", "劫": "J", "后": "H", "最": "Z", "近": "J"})
 INITIAL.update({"喻": "Y", "警": "J", "醒": "X"})
 INITIAL["玄"] = "X"
+INITIAL["续"] = "X"
 INITIAL["邓"] = "D"
 INITIAL["大"] = "D"
 INITIAL["韩"] = "H"
