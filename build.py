@@ -1539,7 +1539,7 @@ POETRY = {
     "jinshu": _texts_spec("jinshu", "晋书", "［唐］房玄龄等", groups=True),
     "shiliuguochunqiu": _texts_spec("shiliuguochunqiu", "十六国春秋", "［北魏］崔鸿（旧题）"),
     "nanshi": _texts_spec("nanshi", "南史", "［唐］李延寿", groups=True),
-    "beishi": _orig_spec("beishi", "北史", "［唐］李延寿"),
+    "beishi": _texts_spec("beishi", "北史", "［唐］李延寿", groups=True),
     "suishu": _orig_spec("suishu", "隋书", "［唐］魏徵等"),
     "songshu": _orig_spec("songshu", "宋书", "［南朝梁］沈约"),
     "nanqishu": _orig_spec("nanqishu", "南齐书", "［南朝梁］萧子显"),
