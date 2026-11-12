@@ -1561,6 +1561,7 @@ POETRY = {
     "jinshi": _orig_spec("jinshi", "金史", "［元］脱脱等"),
     "yuanshi": _orig_spec("yuanshi", "元史", "［明］宋濂等"),
     "mingshi": _orig_spec("mingshi", "明史", "［清］张廷玉等"),
+    "quantangwen": _orig_spec("quantangwen", "全唐文", "［清］董诰等"),
     "tongdian": _orig_spec("tongdian", "通典", "［唐］杜佑"),
     "wenxiantongkao": _orig_spec("wenxiantongkao", "文献通考", "［元］马端临"),
     "ershierzhaji": _texts_spec("ershierzhaji", "廿二史劄记", "［清］赵翼"),
@@ -1709,6 +1710,7 @@ BOOK_INTRO = {
     "jinshi": "元脱脱等奉敕撰的金代正史，含本纪、志、表、列传，共一百三十五卷。",
     "yuanshi": "明宋濂等奉敕撰的元代正史，含本纪、志、表、列传，共二百一十卷。",
     "mingshi": "清张廷玉等奉敕撰的明代正史，含本纪、志、表、列传，共三百三十二卷。",
+    "quantangwen": "清嘉庆间董诰等奉敕编的唐五代文章总集，一千卷，收诏令、奏议、碑志、序记、书启、赋颂等各体文章三千余位作者的作品。",
     "tongdian": "唐杜佑撰的典章制度通史，分食货、选举、职官、礼、乐、兵刑、州郡、边防八门，共二百卷。",
     "wenxiantongkao": "元马端临撰的典章制度通史，续《通典》而详，分田赋、钱币、户口、职役等二十四考，共三百四十八卷。",
     "ershierzhaji": "清赵翼撰的史学札记，逐史考辨编撰、体例与史实异同，兼论政事、制度与人物，共三十六卷，另有补遗。",
@@ -2365,6 +2367,7 @@ INITIAL["老"] = "L"
 INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["搜"] = "S"
+INITIAL["全"] = "Q"
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"
 INITIAL["新"] = "X"
