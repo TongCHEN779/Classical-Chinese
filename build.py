@@ -2058,6 +2058,8 @@ DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
 NOTES_ONLY = {"qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
+# 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
+PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
 PEACH_DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】|\([^()]*\)|（[^（）]*）)")
 ERKE_STAGE = re.compile(r"(〈（[^〉]*）〉|〔[^〕]*〕|【[^】]*】)")
 PEACH_TUNES = {"鹧鸪天", "皂罗袍"}
@@ -2135,7 +2137,7 @@ def sent_units(text):
 
 def drama_html(text, stage_book=None):
     out = []
-    pattern = {"taohuashan": PEACH_DRAMA, "erke": ERKE_STAGE}.get(stage_book, DRAMA)
+    pattern = PEACH_DRAMA if stage_book in PAREN_STAGE_BOOKS else {"erke": ERKE_STAGE}.get(stage_book, DRAMA)
     for i, part in enumerate(pattern.split(text)):
         if i % 2:
             label = part[1:-1].strip()

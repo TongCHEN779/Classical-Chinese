@@ -85,9 +85,9 @@ BOOKS = {
     "xingshiyan": ("型世言", None, "ctext"),
     # 六十种曲中不与上面重复的各剧（lsz_ 前缀：只作《六十种曲》的材料，不单独成书；prepare 时跳过）
     "lsz_qianjinji": ("千金记", "千金記", "links"), "lsz_bayiji": ("八义记", "八義記", "links"),
-    "lsz_sanyuanji": ("三元记", "三元記", "links"), "lsz_beixixiang": ("北西厢", "北西廂", "links"),
-    "lsz_hongfuji": ("红拂记", "紅拂記", "links"), "lsz_huanhunji": ("还魂记", "還魂記", "links"),
-    "lsz_nanxixiang": ("南西厢", "南西廂", "links"), "lsz_yujingtaiji": ("玉镜台记", "玉鏡臺記", "links"),
+    "lsz_sanyuanji": ("三元记", "三元記", "links"), "lsz_beixixiang": ("北西厢", "北西廂記", "links"),
+    "lsz_hongfuji": ("红拂记", "紅拂記", "links"), "lsz_huanhunji": ("还魂记", "牡丹亭", "links"),
+    "lsz_nanxixiang": ("南西厢", "南西廂記", "links"), "lsz_yujingtaiji": ("玉镜台记", "玉鏡臺記", "links"),
     "lsz_huaixiangji": ("怀香记", "懷香記", "links"), "lsz_yuheji": ("玉合记", "玉合記", "links"),
     "lsz_sixiji": ("四喜记", "四喜記", "links"), "lsz_xiuruji": ("绣襦记", "繡襦記", "links"),
     "lsz_xilouji": ("西楼记", "西樓記", "links"), "lsz_jinqueji": ("金雀记", "金雀記", "links"),

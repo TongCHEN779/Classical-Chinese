@@ -21,7 +21,7 @@ OUT = ROOT / "sources/liushizhongqu"
 CN = "零一二三四五六七八九"
 
 # 六十种曲里与单独成书的传奇同名的剧：维基文库页名 → 已缓存的书 slug
-OVERLAP = {"琵琶記": "pipaji", "荊釵記": "jingchaiji", "浣紗記": "huanshaji", "幽閨記": "youguiji", "玉簪記": "yuzanji",
+OVERLAP = {"琵琶記": "pipaji", "荊釵記": "jingchaiji", "荆釵記": "jingchaiji", "浣紗記": "huanshaji", "幽閨記": "youguiji", "玉簪記": "yuzanji",
            "紫釵記": "zichaiji", "邯鄲記": "handanji", "南柯記": "nankeji", "紅梨記": "hongliji", "紫簫記": "zixiaoji",
            "義俠記": "yixiaji", "白兔記": "baituji", "殺狗記": "shagouji", "東郭記": "dongguoji"}
 
