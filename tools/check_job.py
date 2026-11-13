@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from build import sent_units
+from build import NOTES_ONLY, sent_units
 
 
 def check(book, slug, a, b, minch=220):
@@ -35,7 +35,10 @@ def check(book, slug, a, b, minch=220):
         for j, (orig, p) in enumerate(zip(sec["paragraphs"], ps)):
             n = len(sent_units(orig))
             g = [t.strip() for t in p.get("译", [])]
-            if len(g) != n:
+            if book in NOTES_ONLY:       # 白话/半白话原文只写注释，译必须为空
+                if g:
+                    errs.append(f"{tag} 段{j} 本书不写白话，译应为空数组")
+            elif len(g) != n:
                 errs.append(f"{tag} 段{j} 译句数 {len(g)} ≠ 切句数 {n}：{' | '.join(sent_units(orig))[:80]}")
             elif not all(g) or any(c in t for t in g for c in "¦|\r\n"):
                 errs.append(f"{tag} 段{j} 译含空句或非法字符")

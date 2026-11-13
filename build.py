@@ -1244,9 +1244,18 @@ def _orig_spec(slug, title, author):
     }
 
 
+def _notes_spec(slug, title, author):
+    """只配题解与注释、不设白话的书：页表与分组读自 sources/<slug>/pages.json（同 _orig_spec），原文里的〈…〉小注仍以小字灰色显示。"""
+    spec = _texts_spec(slug, title, author, groups=True)
+    spec["ed_notes"] = True
+    return spec
+
+
 def _liushizhongqu_spec():
     """六十种曲：每剧一页，页内以出（折）为节；缺原文的剧目保留目录条目（标“阙”）。"""
     spec = _orig_spec("liushizhongqu", "六十种曲", "［明］毛晋 辑")
+    spec["original_only"] = False      # 已配题解与注释（不设白话）
+    spec["no_tip"] = True
     missing = json.loads((ROOT / "sources/liushizhongqu/missing.json").read_text(encoding="utf8"))
     total = len(spec["pages"]) - len({g for g in (p[1] for p in spec["pages"] if p[0] is None)})
     spec["missing_slugs"] = missing
@@ -1551,18 +1560,18 @@ POETRY = {
     "beisongzhizhuan": {**_orig_spec("beisongzhizhuan", "北宋志传", "［明］熊大木（旧题）"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
     "canxuanwudaishi": _orig_spec("canxuanwudaishi", "残唐五代史演义传", "［明］罗贯中（旧题）"),
     "chanzhenyishi": _orig_spec("chanzhenyishi", "禅真逸史", "［明］清溪道人"),
-    "jiandengxinhua": _orig_spec("jiandengxinhua", "剪灯新话", "［明］瞿佑"),
-    "jiandengyuhua": _orig_spec("jiandengyuhua", "剪灯余话", "［明］李昌祺"),
+    "jiandengxinhua": _notes_spec("jiandengxinhua", "剪灯新话", "［明］瞿佑"),
+    "jiandengyuhua": _notes_spec("jiandengyuhua", "剪灯余话", "［明］李昌祺"),
     "shidiantou": _orig_spec("shidiantou", "石点头", "［明］天然痴叟"),
     "xihuerji": _orig_spec("xihuerji", "西湖二集", "［明］周楫"),
     "xingshiyan": {**_orig_spec("xingshiyan", "型世言", "［明］陆人龙"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
     "qingshi": _orig_spec("qingshi", "情史", "［明］冯梦龙"),
     "gujintangai": _orig_spec("gujintangai", "古今谭概", "［明］冯梦龙"),
     "jiaohongji": _orig_spec("jiaohongji", "娇红记", "［明］孟称舜"),
-    "xingshiyinyuan": _orig_spec("xingshiyinyuan", "醒世姻缘传", "［清］西周生"),
+    "xingshiyinyuan": _notes_spec("xingshiyinyuan", "醒世姻缘传", "［清］西周生"),
     "qiludeng": _texts_spec("qiludeng", "歧路灯", "［清］李绿园", groups=True),
     "lvyexianzong": _orig_spec("lvyexianzong", "绿野仙踪", "［清］李百川"),
-    "guwangyan": _orig_spec("guwangyan", "姑妄言", "［清］曹去晶"),
+    "guwangyan": _notes_spec("guwangyan", "姑妄言", "［清］曹去晶"),
     "zibuyu": _orig_spec("zibuyu", "子不语", "［清］袁枚"),
     "xuzibuyu": _orig_spec("xuzibuyu", "续子不语", "［清］袁枚"),
     "sanxiawuyi": _orig_spec("sanxiawuyi", "三侠五义", "［清］石玉昆"),
@@ -1570,8 +1579,8 @@ POETRY = {
     "shigongan": _orig_spec("shigongan", "施公案", "［清］佚名"),
     "ernvyingxiongzhuan": _orig_spec("ernvyingxiongzhuan", "儿女英雄传", "［清］文康"),
     "pinhuabaojian": _orig_spec("pinhuabaojian", "品花宝鉴", "［清］陈森"),
-    "huayuehen": _orig_spec("huayuehen", "花月痕", "［清］魏秀仁"),
-    "haishanghualiezhuan": _orig_spec("haishanghualiezhuan", "海上花列传", "［清］韩邦庆"),
+    "huayuehen": _notes_spec("huayuehen", "花月痕", "［清］魏秀仁"),
+    "haishanghualiezhuan": _texts_spec("haishanghualiezhuan", "海上花列传", "［清］韩邦庆", groups=True),
     "liushizhongqu": _liushizhongqu_spec(),
     "xingmingguizhi": _texts_spec("xingmingguizhi", "性命圭旨", "［明］尹真人（旧题）"),
     "canglangshihua": _texts_spec("canglangshihua", "沧浪诗话", "［南宋］严羽"),
@@ -2056,7 +2065,7 @@ def parse_poems(paths):
 
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
