@@ -60,6 +60,24 @@ def main():
         ping[ch["slug"]] = len(pings)
         titles[ch["slug"]] = title
         ch["title"] = title
+    # 卷首：改为“引文 …”，顺序为署名句、卷评（小字灰体）、引文正文
+    for ch in chapters:
+        if ch["slug"] == "p002" and len(ch["sections"]) == 3:
+            s0, s1, s2 = ch["sections"]
+            assert s0["title"] == "正文" and s0["paragraphs"][0] == "《姑妄言》首卷评", s0["paragraphs"][0]
+            pings = s0["paragraphs"][1:]
+            ann0, ann2 = D / "annotations" / "p002__0.json", D / "annotations" / "p002__2.json"
+            if ann0.exists() and ann2.exists():
+                a0 = json.loads(ann0.read_text(encoding="utf8"))
+                a2 = json.loads(ann2.read_text(encoding="utf8"))
+                seg = [a0["items"][1]["段落"][0]] + a0["items"][0]["段落"][1:] + a2["items"][0]["段落"]
+                ann0.write_text(json.dumps({"start": 0, "items": [{"题解": a2["items"][0]["题解"], "段落": seg}]}, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
+                ann2.unlink()
+            ch["sections"] = [{"title": s2["title"], "level": s2["level"], "path": s2.get("path", []), "author": s2.get("author", ""),
+                               "paragraphs": s1["paragraphs"] + pings + s2["paragraphs"]}]
+            ch["title"] = s2["title"]
+            ping["p002"] = [len(s1["paragraphs"]), len(pings)]       # [起始段, 段数]
+            titles["p002"] = s2["title"]
     (D / "chapters.json").write_text(json.dumps(chapters, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
     (D / "ping.json").write_text(json.dumps(ping, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
     pages = json.loads((D / "pages.json").read_text(encoding="utf8"))

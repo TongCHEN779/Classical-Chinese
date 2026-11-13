@@ -2228,7 +2228,7 @@ def build_poetry(bslug, spec):
         stage_book = bslug if bslug in STAGE_BOOKS and (bslug != "taohuashan" or slug.startswith("p")) else None
         if (bslug, slug) == ("erke", "040"):
             stage_book = bslug
-        paragraph_style = "dr" if stage_book or not spec.get("prose") else ("nv sdi" if bslug in ("huayuehen", "guwangyan") else "nv")
+        paragraph_style = "dr" if stage_book or not spec.get("prose") else ({"huayuehen": "nv sdi", "guwangyan": "nv gwy"}.get(bslug, "nv"))
         dstyle = stage_book or (bslug if bslug in ("huayuehen", "guwangyan") else None)      # 花月痕：正文里穿插的曲牌、科白也显示为小字灰体
         nchunk = sum(1 for s in secs for c in s["chunks"] if "tbl" not in c)
         total += len(secs) if spec.get("count_entries") else nchunk
@@ -2271,7 +2271,9 @@ def build_poetry(bslug, spec):
                     parts.append(f'<pre class="source-diagram" style="max-width:100%;overflow-x:auto">{esc(ch["o"])}</pre>')
                     continue
                 chunk_start = len(parts)
-                pstyle = paragraph_style + (" ping" if ci < spec.get("ping_paras", {}).get(slug, 0) else "")      # 姑妄言：回前卷评，小字灰体
+                pg = spec.get("ping_paras", {}).get(slug, 0)
+                pg = pg if isinstance(pg, list) else [0, pg]
+                pstyle = paragraph_style + (" ping" if pg[0] <= ci < pg[0] + pg[1] else "")      # 姑妄言：回前卷评，小字灰体
                 src_marks = bool(spec.get("source_markers"))
                 if src_marks:
                     anchors, chunk_notes = [], ch["notes"]
