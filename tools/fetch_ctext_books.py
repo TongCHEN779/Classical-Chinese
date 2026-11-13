@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""维基文库没有的几部书，改取中国哲学书电子化计划（ctext）的原文：北宋志传、型世言、新编林冲宝剑记、鸣凤记。
+"""维基文库没有的几部书，改取中国哲学书电子化计划（ctext）的原文：北宋志传、型世言。
 
   python3 tools/fetch_ctext_books.py [slug ...]
 
@@ -22,10 +22,8 @@ UA = "Mozilla/5.0 (ClassicalChinesePublicDomainLibrary; low-frequency research f
 BOOKS = {
     "beisongzhizhuan": ("北宋志传", 212529),
     "xingshiyan": ("型世言", 774409),
-    "baojianji": ("宝剑记", 98311),
-    "mingfengji": ("鸣凤记", None),       # 书目页编号由章页上的链接取得
 }
-FIRST_CHAPTER = {"mingfengji": 60811}
+# 宝剑记（res=98311）、鸣凤记（res=111435）在 ctext 上是未校对的机器识别文字，实测满篇乱码（如“寶劍記序新文藝出版社藏書琵琶記冠絕諸戯文自斟卜艾鄉剛己北睡值湛審開”），不可用，故不收。
 
 
 def get(url, retries=4):

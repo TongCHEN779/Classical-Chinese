@@ -1,0 +1,305 @@
+{
+ "revision": "866152",
+ "plays": [
+  {
+   "title": "琵琶记",
+   "wiki": "琵琶記",
+   "exists": true
+  },
+  {
+   "title": "荆钗记",
+   "wiki": "荆釵記",
+   "exists": true
+  },
+  {
+   "title": "香囊记",
+   "wiki": "香囊記",
+   "exists": false
+  },
+  {
+   "title": "浣纱记",
+   "wiki": "浣紗記",
+   "exists": true
+  },
+  {
+   "title": "寻亲记",
+   "wiki": "尋親記",
+   "exists": false
+  },
+  {
+   "title": "千金记",
+   "wiki": "千金記",
+   "exists": true
+  },
+  {
+   "title": "精忠记",
+   "wiki": "精忠記",
+   "exists": false
+  },
+  {
+   "title": "鸣凤记",
+   "wiki": "鳴鳳記",
+   "exists": false
+  },
+  {
+   "title": "八义记",
+   "wiki": "八義記",
+   "exists": true
+  },
+  {
+   "title": "三元记",
+   "wiki": "三元記",
+   "exists": true
+  },
+  {
+   "title": "北西厢",
+   "wiki": "北西廂",
+   "exists": true
+  },
+  {
+   "title": "幽闺记",
+   "wiki": "幽閨記",
+   "exists": true
+  },
+  {
+   "title": "明珠记",
+   "wiki": "明珠記",
+   "exists": false
+  },
+  {
+   "title": "玉簪记",
+   "wiki": "玉簪記",
+   "exists": true
+  },
+  {
+   "title": "红拂记",
+   "wiki": "紅拂記",
+   "exists": true
+  },
+  {
+   "title": "还魂记",
+   "wiki": "還魂記",
+   "exists": true
+  },
+  {
+   "title": "紫钗记",
+   "wiki": "紫釵記",
+   "exists": true
+  },
+  {
+   "title": "邯郸记",
+   "wiki": "邯鄲記",
+   "exists": true
+  },
+  {
+   "title": "南柯记",
+   "wiki": "南柯記",
+   "exists": true
+  },
+  {
+   "title": "南西厢",
+   "wiki": "南西廂",
+   "exists": true
+  },
+  {
+   "title": "春芜记",
+   "wiki": "春蕪記",
+   "exists": false
+  },
+  {
+   "title": "琴心记",
+   "wiki": "琴心記",
+   "exists": false
+  },
+  {
+   "title": "玉镜台记",
+   "wiki": "玉鏡臺記",
+   "exists": true
+  },
+  {
+   "title": "怀香记",
+   "wiki": "懷香記",
+   "exists": true
+  },
+  {
+   "title": "彩毫记",
+   "wiki": "綵毫記",
+   "exists": false
+  },
+  {
+   "title": "运甓记",
+   "wiki": "運甓記",
+   "exists": false
+  },
+  {
+   "title": "鸾鎞记",
+   "wiki": "鸞鎞記",
+   "exists": false
+  },
+  {
+   "title": "玉合记",
+   "wiki": "玉合記",
+   "exists": true
+  },
+  {
+   "title": "金莲记",
+   "wiki": "金蓮記",
+   "exists": false
+  },
+  {
+   "title": "四喜记",
+   "wiki": "四喜記",
+   "exists": true
+  },
+  {
+   "title": "绣襦记",
+   "wiki": "繡襦記",
+   "exists": true
+  },
+  {
+   "title": "青衫记",
+   "wiki": "靑衫記",
+   "exists": false
+  },
+  {
+   "title": "红梨记",
+   "wiki": "紅梨記",
+   "exists": true
+  },
+  {
+   "title": "焚香记",
+   "wiki": "焚香記",
+   "exists": false
+  },
+  {
+   "title": "霞笺记",
+   "wiki": "霞箋記",
+   "exists": false
+  },
+  {
+   "title": "西楼记",
+   "wiki": "西樓記",
+   "exists": true
+  },
+  {
+   "title": "投梭记",
+   "wiki": "投梭記",
+   "exists": false
+  },
+  {
+   "title": "玉环记",
+   "wiki": "玉環記",
+   "exists": false
+  },
+  {
+   "title": "金雀记",
+   "wiki": "金雀記",
+   "exists": true
+  },
+  {
+   "title": "赠书记",
+   "wiki": "贈書記",
+   "exists": false
+  },
+  {
+   "title": "锦笺记",
+   "wiki": "錦箋記",
+   "exists": false
+  },
+  {
+   "title": "蕉帕记",
+   "wiki": "蕉帕記",
+   "exists": false
+  },
+  {
+   "title": "紫箫记",
+   "wiki": "紫簫記",
+   "exists": true
+  },
+  {
+   "title": "水浒记",
+   "wiki": "水滸記",
+   "exists": true
+  },
+  {
+   "title": "玉玦记",
+   "wiki": "玉玦記",
+   "exists": false
+  },
+  {
+   "title": "灌园记",
+   "wiki": "灌園記",
+   "exists": true
+  },
+  {
+   "title": "种玉记",
+   "wiki": "種玉記",
+   "exists": true
+  },
+  {
+   "title": "双烈记",
+   "wiki": "雙烈記",
+   "exists": true
+  },
+  {
+   "title": "狮吼记",
+   "wiki": "獅吼記",
+   "exists": true
+  },
+  {
+   "title": "义侠记",
+   "wiki": "義俠記",
+   "exists": true
+  },
+  {
+   "title": "白兔记",
+   "wiki": "白兔記",
+   "exists": true
+  },
+  {
+   "title": "杀狗记",
+   "wiki": "殺狗記",
+   "exists": true
+  },
+  {
+   "title": "昙花记",
+   "wiki": "曇花記",
+   "exists": true
+  },
+  {
+   "title": "龙膏记",
+   "wiki": "龍膏記",
+   "exists": true
+  },
+  {
+   "title": "飞丸记",
+   "wiki": "飛丸記",
+   "exists": false
+  },
+  {
+   "title": "东郭记",
+   "wiki": "東郭記",
+   "exists": true
+  },
+  {
+   "title": "节侠记",
+   "wiki": "節俠記",
+   "exists": true
+  },
+  {
+   "title": "双珠记",
+   "wiki": "雙珠記",
+   "exists": false
+  },
+  {
+   "title": "四贤记",
+   "wiki": "四賢記",
+   "exists": false
+  },
+  {
+   "title": "硕园订本还魂记",
+   "wiki": "碩園訂本還魂記",
+   "exists": true
+  }
+ ]
+}

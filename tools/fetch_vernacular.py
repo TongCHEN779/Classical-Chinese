@@ -80,7 +80,26 @@ BOOKS = {
     "pinhuabaojian": ("品花宝鉴", "品花寶鑒", "links"),
     "huayuehen": ("花月痕", "花月痕", "links"),
     "haishanghualiezhuan": ("海上花列传", "海上花列傳", "links"),
+    # 维基文库没有、取自 ctext 的两部（抓取见 tools/fetch_ctext_books.py；这里只供 prepare 生成页面）
+    "beisongzhizhuan": ("北宋志传", None, "ctext"),
+    "xingshiyan": ("型世言", None, "ctext"),
+    # 六十种曲中不与上面重复的各剧（lsz_ 前缀：只作《六十种曲》的材料，不单独成书；prepare 时跳过）
+    "lsz_qianjinji": ("千金记", "千金記", "links"), "lsz_bayiji": ("八义记", "八義記", "links"),
+    "lsz_sanyuanji": ("三元记", "三元記", "links"), "lsz_beixixiang": ("北西厢", "北西廂", "links"),
+    "lsz_hongfuji": ("红拂记", "紅拂記", "links"), "lsz_huanhunji": ("还魂记", "還魂記", "links"),
+    "lsz_nanxixiang": ("南西厢", "南西廂", "links"), "lsz_yujingtaiji": ("玉镜台记", "玉鏡臺記", "links"),
+    "lsz_huaixiangji": ("怀香记", "懷香記", "links"), "lsz_yuheji": ("玉合记", "玉合記", "links"),
+    "lsz_sixiji": ("四喜记", "四喜記", "links"), "lsz_xiuruji": ("绣襦记", "繡襦記", "links"),
+    "lsz_xilouji": ("西楼记", "西樓記", "links"), "lsz_jinqueji": ("金雀记", "金雀記", "links"),
+    "lsz_shuihuji": ("水浒记", "水滸記", "links"), "lsz_guanyuanji": ("灌园记", "灌園記", "links"),
+    "lsz_zhongyuji": ("种玉记", "種玉記", "links"), "lsz_shuangleiji": ("双烈记", "雙烈記", "links"),
+    "lsz_shihouji": ("狮吼记", "獅吼記", "links"), "lsz_tanhuaji": ("昙花记", "曇花記", "links"),
+    "lsz_longgaoji": ("龙膏记", "龍膏記", "links"), "lsz_jiexiaji": ("节侠记", "節俠記", "links"),
+    "lsz_shuoyuanhuanhunji": ("硕园订本还魂记", "碩園訂本還魂記", "links"),
 }
+# 已收入《六十种曲》的剧：只作该书的材料（sources/<slug>/chapters.json），不单独成书，prepare 时跳过
+IN_LIUSHIZHONGQU = {"zixiaoji", "zichaiji", "nankeji", "handanji", "pipaji", "jingchaiji", "baituji", "shagouji", "huanshaji",
+                    "yixiaji", "yuzanji", "hongliji", "youguiji", "dongguoji"}
 NOTE = re.compile(r"〈[^〈〉]*〉")
 
 
@@ -123,7 +142,7 @@ def refs_of(root):
 
 def do_fetch(want):
     for slug, (title, wiki, mode) in BOOKS.items():
-        if want and slug not in want:
+        if (want and slug not in want) or mode == "ctext":
             continue
         d = ROOT / "sources" / slug
         d.mkdir(parents=True, exist_ok=True)
@@ -134,8 +153,9 @@ def do_fetch(want):
         else:
             toc, _ = toc_of(wiki)
             jobs = [(f"p{i:03d}", page_title(lab, wt.rsplit("/", 1)[-1]), wt) for i, (wt, lab) in enumerate(toc, 1)]
-            if not jobs:
-                print("NO LINKS", slug, wiki, flush=True)
+            if not jobs:                          # 没有子页：整剧在一页里，按标题分节
+                print("NO LINKS → 单页", slug, wiki, flush=True)
+                jobs = [("p001", title, wiki)]
         print(slug, title, len(jobs), "页", flush=True)
         for i, (pslug, ptitle, wt) in enumerate(jobs, 1):
             if pslug in done:
@@ -185,7 +205,7 @@ def do_prepare(want):
     wi_path = ROOT / "sources/wiki_intros.json"
     wi = json.loads(wi_path.read_text(encoding="utf8"))
     for slug, (title, wiki, mode) in BOOKS.items():
-        if want and slug not in want:
+        if (want and slug not in want) or slug.startswith("lsz_") or slug in IN_LIUSHIZHONGQU:
             continue
         src_json = ROOT / "sources" / slug / "chapters.json"
         if not src_json.exists():
@@ -208,6 +228,7 @@ def do_prepare(want):
                 continue
             if refs:                                   # 页内脚注：作为该页末节的小注，渲成灰色小字
                 secs[-1]["paragraphs"] = secs[-1]["paragraphs"] + ["〈注：" + "；".join(refs) + "〉"]
+                ch.pop("refs", None)                   # 已并入正文，免得重复运行时再并一次
             ch["sections"] = secs
             d = out_dir / ch["slug"]
             d.mkdir(parents=True, exist_ok=True)
@@ -229,7 +250,7 @@ def do_prepare(want):
         (ROOT / "sources" / slug / "chapters.json").write_text(json.dumps(kept, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
         (ROOT / "sources" / slug / "pages.json").write_text(json.dumps(pages, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
         print(slug, title, n, "页", sum(len(p) for c in kept for s in c["sections"] for p in s["paragraphs"]), "字")
-        if slug not in wi or wi[slug].get("auto"):
+        if wiki and (slug not in wi or wi[slug].get("auto")):
             txt, rev = book_intro(wiki)
             if txt:
                 wi[slug] = {"wikisource_title": wiki, "revision": rev, "url": "https://zh.wikisource.org/zh-hans/" + quote(wiki),

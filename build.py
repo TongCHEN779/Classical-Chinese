@@ -1243,6 +1243,16 @@ def _orig_spec(slug, title, author):
     }
 
 
+def _liushizhongqu_spec():
+    """六十种曲：每剧一页，页内以出（折）为节；缺原文的剧目保留目录条目（标“阙”）。"""
+    spec = _orig_spec("liushizhongqu", "六十种曲", "［明］毛晋 辑")
+    missing = json.loads((ROOT / "sources/liushizhongqu/missing.json").read_text(encoding="utf8"))
+    total = len(spec["pages"]) - len({g for g in (p[1] for p in spec["pages"] if p[0] is None)})
+    spec["missing_slugs"] = missing
+    spec["index_footer"] = f"目录据维基文库，共{total}种，已收{total - len(missing)}种原文；其余{len(missing)}种，维基文库无页面，ctext 上的版本是无法辨读的机器识别乱码，故不收，仅保留目录条目。"
+    return spec
+
+
 def _lunheng_spec():
     catalog = json.loads((ROOT / "sources/lunheng/chapters.json").read_text(encoding="utf8"))
 
@@ -1522,6 +1532,46 @@ POETRY = {
     "soushenji": _texts_spec("soushenji", "搜神记", "［东晋］干宝"),
     "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
     "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
+    "wutongyu": _texts_spec("wutongyu", "梧桐雨", "［元］白朴"),
+    "hangongqiu": _texts_spec("hangongqiu", "汉宫秋", "［元］马致远"),
+    "jianfubei": _texts_spec("jianfubei", "荐福碑", "［元］马致远"),
+    "qingshanlei": _texts_spec("qingshanlei", "青衫泪", "［元］马致远"),
+    "wangcandenglou": _texts_spec("wangcandenglou", "王粲登楼", "［元］郑光祖"),
+    "likuifujing": _texts_spec("likuifujing", "李逵负荆", "［元］康进之"),
+    "kanqiannu": _texts_spec("kanqiannu", "看钱奴", "［元］郑廷玉"),
+    "qiuhuxiqi": _texts_spec("qiuhuxiqi", "秋胡戏妻", "［元］石君宝"),
+    "chenzhoudimi": _texts_spec("chenzhoudimi", "陈州粜米", "佚名"),
+    "fengshenyanyi": _orig_spec("fengshenyanyi", "封神演义", "［明］许仲琳（旧题）"),
+    "dongzhoulieguozhi": _orig_spec("dongzhoulieguozhi", "东周列国志", "［明］冯梦龙 原著，［清］蔡元放 改撰"),
+    "suitangyanyi": _orig_spec("suitangyanyi", "隋唐演义", "［清］褚人获"),
+    "yingliezhuan": _orig_spec("yingliezhuan", "英烈传", "［明］佚名"),
+    "yangjiafu": _orig_spec("yangjiafu", "杨家府演义", "［明］佚名"),
+    "xiyangji": _orig_spec("xiyangji", "三宝太监西洋记通俗演义", "［明］罗懋登"),
+    "beisongzhizhuan": {**_orig_spec("beisongzhizhuan", "北宋志传", "［明］熊大木（旧题）"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
+    "canxuanwudaishi": _orig_spec("canxuanwudaishi", "残唐五代史演义传", "［明］罗贯中（旧题）"),
+    "chanzhenyishi": _orig_spec("chanzhenyishi", "禅真逸史", "［明］清溪道人"),
+    "jiandengxinhua": _orig_spec("jiandengxinhua", "剪灯新话", "［明］瞿佑"),
+    "jiandengyuhua": _orig_spec("jiandengyuhua", "剪灯余话", "［明］李昌祺"),
+    "shidiantou": _orig_spec("shidiantou", "石点头", "［明］天然痴叟"),
+    "xihuerji": _orig_spec("xihuerji", "西湖二集", "［明］周楫"),
+    "xingshiyan": {**_orig_spec("xingshiyan", "型世言", "［明］陆人龙"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
+    "qingshi": _orig_spec("qingshi", "情史", "［明］冯梦龙"),
+    "gujintangai": _orig_spec("gujintangai", "古今谭概", "［明］冯梦龙"),
+    "jiaohongji": _orig_spec("jiaohongji", "娇红记", "［明］孟称舜"),
+    "xingshiyinyuan": _orig_spec("xingshiyinyuan", "醒世姻缘传", "［清］西周生"),
+    "qiludeng": _texts_spec("qiludeng", "歧路灯", "［清］李绿园", groups=True),
+    "lvyexianzong": _orig_spec("lvyexianzong", "绿野仙踪", "［清］李百川"),
+    "guwangyan": _orig_spec("guwangyan", "姑妄言", "［清］曹去晶"),
+    "zibuyu": _orig_spec("zibuyu", "子不语", "［清］袁枚"),
+    "xuzibuyu": _orig_spec("xuzibuyu", "续子不语", "［清］袁枚"),
+    "sanxiawuyi": _orig_spec("sanxiawuyi", "三侠五义", "［清］石玉昆"),
+    "xiaowuyi": _orig_spec("xiaowuyi", "小五义", "［清］石玉昆"),
+    "shigongan": _orig_spec("shigongan", "施公案", "［清］佚名"),
+    "ernvyingxiongzhuan": _orig_spec("ernvyingxiongzhuan", "儿女英雄传", "［清］文康"),
+    "pinhuabaojian": _orig_spec("pinhuabaojian", "品花宝鉴", "［清］陈森"),
+    "huayuehen": _orig_spec("huayuehen", "花月痕", "［清］魏秀仁"),
+    "haishanghualiezhuan": _orig_spec("haishanghualiezhuan", "海上花列传", "［清］韩邦庆"),
+    "liushizhongqu": _liushizhongqu_spec(),
     "xingmingguizhi": _texts_spec("xingmingguizhi", "性命圭旨", "［明］尹真人（旧题）"),
     "canglangshihua": _texts_spec("canglangshihua", "沧浪诗话", "［南宋］严羽"),
     "baiyuzhaicihua": _texts_spec("baiyuzhaicihua", "白雨斋词话", "［清］陈廷焯"),
@@ -1734,6 +1784,46 @@ BOOK_INTRO = {
     "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
     "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
     "xuxuanguailu": "唐李复言所撰传奇小说集，承《玄怪录》而作，今存五卷（末卷为辑佚），记杨敬真、定婚店、薛伟一类人神鬼怪与命定姻缘的奇事，文笔曲折。",
+    "wutongyu": "元白朴所作杂剧，一楔子四折，写唐明皇与杨贵妃的爱情及安史之乱后的追思，第四折梧桐夜雨一段最为有名，是元代四大悲剧之一。",
+    "hangongqiu": "元马致远所作杂剧，写王昭君出塞和亲的故事，着力渲染汉元帝与昭君的生离死别，是元代四大悲剧之一。",
+    "jianfubei": "元马致远所作杂剧，全称《半夜雷轰荐福碑》，写穷书生张镐时运不济、屡遭波折，终于得中的故事。",
+    "qingshanlei": "元马致远所作杂剧，取材于白居易《琵琶行》，写白居易与长安名妓裴兴奴的离合故事。",
+    "wangcandenglou": "元郑光祖所作杂剧，写汉末王粲怀才不遇、依附荆州而受冷遇，登楼抒怀，终得任用的故事。",
+    "likuifujing": "元康进之所作水浒戏，写梁山好汉李逵误信谣言、与宋江争吵，真相大白后背着荆条请罪的故事。",
+    "kanqiannu": "元郑廷玉所作杂剧，全称《看钱奴买冤家债主》，借贫富转换的因果故事，讽刺守财奴。",
+    "qiuhuxiqi": "元石君宝所作杂剧，写鲁大夫秋胡离家多年后归来，在桑园中调戏已是自己妻子而不相识的罗梅英的故事。",
+    "chenzhoudimi": "元代无名氏杂剧，写包拯奉命到陈州查办粜米贪官、为民除害的公案故事。",
+    "fengshenyanyi": "明代神魔小说，一百回，以武王伐纣为背景，写姜子牙辅佐周室、阐教截教诸仙参战，最后封神的故事，对民间信仰影响很大。",
+    "dongzhoulieguozhi": "清蔡元放据冯梦龙《新列国志》评点改订的历史演义，一百零八回，叙述西周末年到秦统一六国的历史。",
+    "suitangyanyi": "清褚人获所撰历史演义，一百回，从隋文帝代周写到唐玄宗与杨贵妃的故事，兼收秦琼、窦建德、罗成等英雄传说。",
+    "yingliezhuan": "明代历史演义，八十回，写朱元璋起兵到建立明朝，以及徐达、常遇春、刘基等开国功臣的事迹。",
+    "yangjiafu": "明代历史演义，全称《杨家府世代忠勇通俗演义》，写杨业、杨六郎、杨宗保等杨家将几代人抗辽、抗西夏的故事。",
+    "xiyangji": "明罗懋登所撰神魔小说，一百回，以郑和下西洋的史实为框架，加入神魔斗法，写三宝太监率船队出使西洋诸国。",
+    "beisongzhizhuan": "明代历史演义，五十回，写北宋初年杨业、杨六郎、杨宗保等杨家将的故事，是杨家将故事的早期定本。",
+    "canxuanwudaishi": "旧题明罗贯中所撰历史演义，六十回，写唐末黄巢起事到后周世宗禅位宋祖的五代史事。",
+    "chanzhenyishi": "明清溪道人所作长篇小说，四十回，写南北朝时林澹然等人的经历，杂糅历史、侠义与神怪情节。",
+    "jiandengxinhua": "明初瞿佑所作文言传奇小说集，多写人鬼、仙凡的奇遇，对日本、朝鲜的小说也有影响。",
+    "jiandengyuhua": "明李昌祺所作文言传奇小说集，承《剪灯新话》而作，共五卷。",
+    "shidiantou": "明天然痴叟所作拟话本小说集，十四回，每篇一个故事，以劝善惩恶为旨。",
+    "xihuerji": "明周楫所作拟话本小说集，三十四卷，多写杭州与西湖一带的历史传说与人物故事。",
+    "xingshiyan": "明陆人龙所作拟话本小说集，四十回，全称《峥霄馆评定通俗演义型世言》，是“三言二拍”之外重要的明末话本集。",
+    "qingshi": "明冯梦龙编的笔记小说集，二十四卷，分类汇录历代男女之情的故事，以“情”立论。",
+    "gujintangai": "明冯梦龙编的笑话与谐谑故事集，三十六部，分类汇录古今奇闻轶事与笑谈。",
+    "jiaohongji": "明孟称舜所作传奇，写申纯与王娇娘的爱情悲剧。",
+    "xingshiyinyuan": "清西周生所作长篇世情小说，一百回，写两世因果与夫妇家庭的恩怨，使用大量山东方言。",
+    "qiludeng": "清李绿园所作长篇小说，一百零八回，写谭绍闻堕落又悔改的家世故事，多用中州方言，是家训小说的代表。",
+    "lvyexianzong": "清李百川所作长篇小说，一百回，写冷于冰入山修道的经历，兼有世情与神魔内容。",
+    "guwangyan": "清曹去晶所作长篇世情小说，二十四卷，附有批语，内容涉及明末社会百态，多有涉性的露骨描写。",
+    "zibuyu": "清袁枚的志怪笔记，二十四卷，记录各类神怪与奇闻，本名《新齐谐》。",
+    "xuzibuyu": "清袁枚《子不语》的续编，十卷，仍记神怪与奇闻。",
+    "sanxiawuyi": "清石玉昆所演包公故事，一百二十回，写包拯断案与众侠义之士行侠，是公案侠义小说的代表。",
+    "xiaowuyi": "《三侠五义》的续书，一百二十四回，接写诸侠义与襄阳王一伙的斗争。",
+    "shigongan": "清代公案侠义小说，五百二十八回，写清官施仕伦断案，兼收众侠客相助的故事。",
+    "ernvyingxiongzhuan": "清文康所作长篇小说，四十回，写侠女十三妹何玉凤与安骥一家的故事，用北京话写成。",
+    "pinhuabaojian": "清陈森所作长篇小说，六十回，写京城名士与优伶（相公）之间的交往，是描写狎优风气的狭邪小说。",
+    "huayuehen": "清魏秀仁所作长篇小说，五十二回，写才子与妓女的遇合悲欢，是狭邪小说的名篇。",
+    "haishanghualiezhuan": "清韩邦庆所作长篇小说，六十四回，对话用苏州方言，写上海长三妓院中的人事，是近代写实小说的先声。",
+    "liushizhongqu": "明末毛晋汲古阁所刻传奇总集，目录六十种，收元明传奇剧本；维基文库与 ctext 均无可用原文的剧目保留目录条目。",
     "yuejueshu": "东汉越地史书，十五卷，以吴越争霸、勾践灭吴为中心，兼记吴越地理、风土与人物，多与《吴越春秋》互见。",
     "chunqiufanlu": "西汉董仲舒的春秋公羊学著作，八十二篇，发挥“大一统”“天人感应”等主张，并以阴阳五行说明政治与人事。",
     "wuyuechunqiu": "东汉赵晔所撰，记吴国自太伯至夫差、越国自无余至勾践的兴衰，以吴越争霸为主线，文笔曲折多演义。",
@@ -1964,7 +2054,7 @@ def parse_poems(paths):
 
 
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
-STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu"}
+STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 PEACH_DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】|\([^()]*\)|（[^（）]*）)")
 ERKE_STAGE = re.compile(r"(〈（[^〉]*）〉|〔[^〕]*〕|【[^】]*】)")
 PEACH_TUNES = {"鹧鸪天", "皂罗袍"}
@@ -2374,6 +2464,44 @@ INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["搜"] = "S"
 INITIAL["全"] = "Q"
+INITIAL.setdefault("梧", "W")
+INITIAL.setdefault("汉", "H")
+INITIAL.setdefault("荐", "J")
+INITIAL.setdefault("青", "Q")
+INITIAL.setdefault("王", "W")
+INITIAL.setdefault("李", "L")
+INITIAL.setdefault("看", "K")
+INITIAL.setdefault("秋", "Q")
+INITIAL.setdefault("陈", "C")
+INITIAL.setdefault("封", "F")
+INITIAL.setdefault("东", "D")
+INITIAL.setdefault("隋", "S")
+INITIAL.setdefault("英", "Y")
+INITIAL.setdefault("杨", "Y")
+INITIAL.setdefault("三", "S")
+INITIAL.setdefault("北", "B")
+INITIAL.setdefault("残", "C")
+INITIAL.setdefault("禅", "C")
+INITIAL.setdefault("剪", "J")
+INITIAL.setdefault("石", "S")
+INITIAL.setdefault("西", "X")
+INITIAL.setdefault("情", "Q")
+INITIAL.setdefault("古", "G")
+INITIAL.setdefault("型", "X")
+INITIAL.setdefault("娇", "J")
+INITIAL.setdefault("醒", "X")
+INITIAL.setdefault("歧", "Q")
+INITIAL.setdefault("绿", "L")
+INITIAL.setdefault("姑", "G")
+INITIAL.setdefault("子", "Z")
+INITIAL.setdefault("续", "X")
+INITIAL.setdefault("小", "X")
+INITIAL.setdefault("施", "S")
+INITIAL.setdefault("儿", "E")
+INITIAL.setdefault("品", "P")
+INITIAL.setdefault("花", "H")
+INITIAL.setdefault("海", "H")
+INITIAL.setdefault("六", "L")
 INITIAL["桃"] = "T"
 INITIAL["国"] = "G"
 INITIAL["新"] = "X"
