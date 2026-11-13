@@ -1588,7 +1588,6 @@ POETRY = {
     "zhaoshigu": _works_spec("zhaoshigu", "赵氏孤儿", "［元］纪君祥", "折"),
     "qiannulihun": _works_spec("qiannulihun", "倩女离魂", "［元］郑光祖", "折"),
     "qiangtoumashang": _works_spec("qiangtoumashang", "墙头马上", "［元］白朴", "折"),
-    "baiyueting": _works_spec("baiyueting", "拜月亭", "［元］关汉卿", "折"),
     "linlanxiang": {**_works_spec("linlanxiang", "林兰香", "［清］随缘下士", "回"), "center_poems": True, "reading_hint": ""},
     "jinghuayuan": {**_works_spec("jinghuayuan", "镜花缘", "［清］李汝珍", "回"), "center_poems": True, "reading_hint": ""},
     "shenglvqimeng": _works_spec("shenglvqimeng", "声律启蒙", "［清］车万育", "韵", tijie=False, gloss=True),
@@ -1773,7 +1772,6 @@ BOOK_INTRO = {
     "zhaoshigu": "元代纪君祥所作杂剧，全称《冤报冤赵氏孤儿》，写程婴、公孙杵臼舍命救护赵氏孤儿、孤儿长大后报仇雪冤的故事。",
     "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",
     "qiangtoumashang": "元代白朴所作杂剧，全称《裴少俊墙头马上》，写李千金与裴少俊墙头相见、私奔成婚，历经波折而团圆的故事。元代四大爱情剧之一。",
-    "baiyueting": "元代关汉卿所作杂剧，全称《闺怨佳人拜月亭》，写金末兵乱中蒋世隆与王瑞兰患难相识、几经离合而团圆的故事。元代四大爱情剧之一。",
     "jinghuayuan": "清代李汝珍所作长篇小说，全一百回：前半写唐敖、多九公、林之洋出海游历，历君子国、大人国、女儿国等诸国；后半写武则天开女科、百位才女应试及宴游、论学、斗艺的故事。",
     "linlanxiang": "清代世情小说，全书六十四回，旧本题“随缘下士编辑”，以明代耿朗一家妻妾的悲欢为中心，细写家庭日常与人情世态。",
     "yanzi": "记春秋时齐国名相晏婴言行的书，旧题晏婴撰，一般认为是后人采集编成。全书八卷，以晏子劝谏景公、折冲外交、处世节俭而著称，保存了不少先秦轶事；八卷现已全部整理。",
@@ -1966,7 +1964,7 @@ def parse_poems(paths):
 
 
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
-STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "baiyueting", "qiannulihun", "guanhanqing"}
+STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu"}
 PEACH_DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】|\([^()]*\)|（[^（）]*）)")
 ERKE_STAGE = re.compile(r"(〈（[^〉]*）〉|〔[^〕]*〕|【[^】]*】)")
 PEACH_TUNES = {"鹧鸪天", "皂罗袍"}

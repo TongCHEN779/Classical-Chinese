@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit 关汉卿杂剧、赵氏孤儿、倩女离魂、墙头马上、拜月亭、林兰香（原文＋题解＋基础注释）与声律启蒙（逐句白话）：
+"""Audit 关汉卿杂剧、赵氏孤儿、倩女离魂、墙头马上、林兰香（原文＋题解＋基础注释）与声律启蒙（逐句白话）：
 来源哈希、原文逐字覆盖、题解、注释词条、网页注释按钮数与渲染。"""
 import json
 import sys
@@ -13,7 +13,7 @@ import build
 import prepare_works as prep
 from prepare_zizhitongjian_fulu import strip_p
 
-EXPECT = {'guanhanqing': (18, 81), 'zhaoshigu': (1, 6), 'qiannulihun': (1, 5), 'qiangtoumashang': (1, 4), 'baiyueting': (1, 5),
+EXPECT = {'guanhanqing': (18, 81), 'zhaoshigu': (1, 6), 'qiannulihun': (1, 5), 'qiangtoumashang': (1, 4),
           'linlanxiang': (65, 65), 'shenglvqimeng': (2, 30), 'jinghuayuan': (100, 100), 'yanzi': (8, 215), 'zhouyi': (69, 278), 'lunyu': (20, 506), 'mengzi': (14, 260), 'zhuangzi': (33, 289), 'daodejing': (2, 81)}
 
 

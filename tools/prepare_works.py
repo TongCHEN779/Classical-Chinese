@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""关汉卿杂剧、赵氏孤儿、倩女离魂、墙头马上、拜月亭、林兰香（原文＋题解＋基础注释）与声律启蒙（逐句白话）：
+"""关汉卿杂剧、赵氏孤儿、倩女离魂、墙头马上、林兰香（原文＋题解＋基础注释）与声律启蒙（逐句白话）：
 由 sources/*/wikisource 的缓存切分作业片段，校验译注稿，写入 src/。
 
   python3 tools/prepare_works.py BOOK --split WORKDIR
   python3 tools/prepare_works.py BOOK --check WORKDIR PIECE
   python3 tools/prepare_works.py BOOK --merge WORKDIR
-BOOK = guanhanqing | zhaoshigu | qiannulihun | qiangtoumashang | baiyueting | linlanxiang | shenglvqimeng
+BOOK = guanhanqing | zhaoshigu | qiannulihun | qiangtoumashang | linlanxiang | shenglvqimeng
 原文类稿件（plain）：o 去掉“/”后须与原站文字逐字一致，不得改一字一标点；声律启蒙（gloss）：去标点后一致，另配逐句白话。
 """
 import argparse
@@ -23,15 +23,15 @@ CN = '一二三四五六七八九十'
 GHQ_SLUGS = ['douee', 'luzhailang', 'jiufengchen', 'wangjiangting', 'hudiemeng', 'jinxianchi', 'xietianxiang', 'yujingtai', 'danbianduosuo',
              'danfenghui', 'feiyimeng', 'wuhouyan', 'kucunxiao', 'peidu', 'chenmu', 'xishumeng', 'baiyueting', 'tiaofengyue']
 PLAY_NAMES = dict(zip(GHQ_SLUGS, '感天动地窦娥冤 包待制智斩鲁斋郎 赵盼儿风月救风尘 望江亭中秋切鲙 包待制三勘蝴蝶梦 杜蕊娘智赏金线池 钱大尹智宠谢天香 温太真玉镜台 尉迟恭单鞭夺槊 关大王独赴单刀会 钱大尹智勘绯衣梦 刘夫人庆赏五侯宴 邓夫人苦痛哭存孝 山神庙裴度还带 状元堂陈母教子 关张双赴西蜀梦 闺怨佳人拜月亭 诈妮子调风月'.split()))
-SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐倩女离魂', 'qiangtoumashang': '裴少俊墙头马上', 'baiyueting': '闺怨佳人拜月亭'}
+SINGLE_NAMES = {'zhaoshigu': '冤报冤赵氏孤儿', 'qiannulihun': '迷青琐倩女离魂', 'qiangtoumashang': '裴少俊墙头马上'}
 TITLES = {'jinghuayuan': '镜花缘', 'zizhitongjian': '资治通鉴（卷一至卷七十八）', 'guanhanqing': '关汉卿杂剧', 'zhaoshigu': '赵氏孤儿', 'qiannulihun': '倩女离魂', 'qiangtoumashang': '墙头马上',
-          'baiyueting': '拜月亭', 'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋', 'zhouyi': '周易',
+          'linlanxiang': '林兰香', 'shenglvqimeng': '声律启蒙', 'yanzi': '晏子春秋', 'zhouyi': '周易',
           'lunyu': '论语', 'mengzi': '孟子', 'zhuangzi': '庄子', 'daodejing': '道德经'}
 # 资治通鉴已整理的卷：周秦汉魏，再加宋齐梁陈隋（唐纪185-265暂缓）
 ZTJJ_DONE = list(range(1, 295))
 ZTJJ_RUN_START = (9, 69, 79, 119, 135, 145, 167, 177, 266, 272, 280, 286, 290)
 GLOSS = {'shenglvqimeng', 'zizhitongjian', 'yanzi', 'zhouyi', 'lunyu', 'mengzi', 'zhuangzi', 'daodejing'}
-PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000, 'baiyueting': 12000,
+PIECE = {'guanhanqing': 12000, 'zhaoshigu': 12000, 'qiannulihun': 12000, 'qiangtoumashang': 12000,
          'linlanxiang': 12000, 'shenglvqimeng': 4500, 'zizhitongjian': 6000, 'jinghuayuan': 12000, 'yanzi': 4500, 'zhouyi': 5000,
          'lunyu': 3000, 'mengzi': 4000, 'zhuangzi': 4500, 'daodejing': 2200}
 MAXSEC = {'lunyu': 40, 'mengzi': 30, 'daodejing': 20}     # 每个作业片段最多的节数（章短而多）
@@ -51,8 +51,7 @@ def cn(n):
 
 
 def src(book, name):
-    d = {'baiyueting': ('guanhanqing', 'baiyueting.json')}.get(book)
-    path = ROOT / 'sources' / (d[0] if d else book) / 'wikisource' / (d[1] if d else name)
+    path = ROOT / 'sources' / book / 'wikisource' / name
     if book == 'zizhitongjian':
         path = ROOT / 'sources/zizhitongjian/wikisource/juan' / name
     return json.loads(path.read_text(encoding='utf8'))
@@ -138,7 +137,7 @@ def pages(book):
         for slug in GHQ_SLUGS:
             d = src(book, slug + '.json')
             out.append((slug, PLAY_NAMES[slug], slug + '.json', play_sections(d)))
-    elif book in ('zhaoshigu', 'qiannulihun', 'qiangtoumashang', 'baiyueting'):
+    elif book in ('zhaoshigu', 'qiannulihun', 'qiangtoumashang'):
         d = src(book, 'main.json')
         out.append(('zhengwen', SINGLE_NAMES[book], 'main.json', play_sections(d)))
     elif book == 'shenglvqimeng':
