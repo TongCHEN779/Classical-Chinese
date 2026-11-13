@@ -17,7 +17,7 @@ import build
 
 def normalize(text):
     return re.sub(r'\s+', '', text).translate(str.maketrans({
-        '﹗': '！', '﹖': '？', '﹔': '；', '﹕': '：', '?': '？', '!': '！', ';': '；'}))
+        '﹗': '！', '﹖': '？', '﹔': '；', '﹕': '：', '?': '？', '!': '！', ';': '；', ':': '：'}))
 
 
 def check_witness(slug, provenance, original):
@@ -66,12 +66,14 @@ def main():
                 'guotuotuo', 'kongque', 'pipa', 'yanci', 'baochan', 'dongyang',
                 'shizhong',
                 'loushi', 'ailian', 'yongzhou', 'huxinting',
-                'aijiangnan', 'yugu', 'yusong', 'maiyou', 'yuchen']
+                'aijiangnan', 'yugu', 'yusong', 'maiyou', 'yuchen',
+                'shaonian', 'bingmei', 'huangshan', 'taishan', 'zuozhongyi', 'yuzhongzaji', 'jimei', 'qinshi', 'maigan', 'shenlv', 'yurang', 'xiangci', 'zunjingge', 'xianbi', 'canglang-gui', 'canglang-su', 'hanhua', 'zhuxi', 'xinling', 'huqiu', 'manjing', 'yuejianglou', 'mozhu', 'shangzhongyong', 'mengchang', 'dasima', 'changhen', 'changan', 'xiaoyuan', 'kushu', 'daleilei', 'lingguan', 'daolouyuan', 'pengdang', 'qiusheng', 'fengle', 'wucheng']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'
     assert entries[9]['author'] == '［明］王守仁'
     sentence_count = note_count = 0
+    root_cl = ROOT / 'sources/classic_list'
     for entry in entries:
         slug = entry['slug']
         sections = build.parse_poems(sorted((ROOT / 'src/classic_list' / slug).glob('*.txt')))
@@ -102,6 +104,13 @@ def main():
                 assert expected_text == ''.join(c['o'] for c in section['chunks'])
                 assert hashlib.sha256(expected_text.encode()).hexdigest() == p['original_sha256']
                 assert any(c['notes'] for c in section['chunks'])
+        elif provenance['kind'] == 'sectioned_cache':
+            cached = json.loads((root_cl / provenance['cache']).read_text())
+            raw = '\n'.join(b['text'] for b in cached['blocks'])
+            assert hashlib.sha256(raw.encode()).hexdigest() == cached['text_sha256'], (slug, 'source cache digest')
+            for section, idxs in zip(sections, provenance['section_blocks'], strict=True):
+                expected_text = ''.join(cached['blocks'][i]['text'] for i in idxs)
+                assert normalize(''.join(c['o'] for c in section['chunks'])) == normalize(expected_text), (slug, section['title'], 'section text differs')
         elif provenance['kind'] == 'collected_works':
             assert [r['author'] for r in entry['sections']] == ['［宋］苏洵', '［宋］苏辙', '［宋］苏轼']
             for section, record in zip(sections, entry['sections'], strict=True):

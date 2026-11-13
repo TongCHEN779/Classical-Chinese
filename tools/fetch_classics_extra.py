@@ -18,6 +18,15 @@ from fetch_wenxuan import fetch
 
 OUT = ROOT / "sources/classic_list/wikisource"
 PAGES = {"aijiangnan": "哀江南賦", "yugu": "與顧章書", "yusong": "與宋元思書", "maiyou": "賣油翁", "yuchen": "與陳伯之書"}
+# 第三批（用户 2026-11 补充的 37 篇）；同名异作的页面取带作者括注的标题
+PAGES.update({"shaonian": "少年中國說", "bingmei": "病梅館記", "huangshan": "遊黃山記", "taishan": "登泰山記", "zuozhongyi": "左忠毅公軼事",
+              "yuzhongzaji": "獄中雜記", "jimei": "祭妹文", "qinshi": "秦士錄", "maigan": "賣柑者言", "shenlv": "深慮論",
+              "yurang": "豫讓論", "xiangci": "象祠記", "zunjingge": "尊經閣記", "xianbi": "先妣事略 (歸有光)",
+              "canglang-gui": "滄浪亭記 (歸有光)", "canglang-su": "滄浪亭記 (蘇舜欽)", "hanhua": "寒花葬誌", "zhuxi": "任光祿竹溪記",
+              "xinling": "信陵君救趙論", "huqiu": "虎丘記", "manjing": "滿井遊記", "yuejianglou": "閱江樓記", "mozhu": "墨竹賦",
+              "shangzhongyong": "傷仲永", "mengchang": "讀孟嘗君傳", "dasima": "答司馬諫議書", "changhen": "長恨歌",
+              "changan": "長安古意", "xiaoyuan": "小園賦", "kushu": "枯樹賦", "daleilei": "登大雷岸與妹書", "lingguan": "五代史伶官傳序",
+              "daolouyuan": "待漏院記", "pengdang": "朋黨論 (歐陽脩)", "qiusheng": "秋聲賦", "fengle": "豐樂亭記", "wucheng": "蕪城賦"})
 
 
 def blocks_of(root):

@@ -946,7 +946,7 @@ def _jiayou_spec():
 def _classics_spec():
     entries = json.loads((ROOT / "sources" / "classic_list" / "entries.json").read_text(encoding="utf8"))
     return {"title": "经典名篇", "author": "个人选藏", "unit": "篇",
-            "count_entries": True, "strict_pairs": True, "side_toc": True, "wide_index": True,
+            "count_entries": True, "strict_pairs": True, "side_toc": True, "wide_index": True, "entry_search": True,
             "intro": "",
             "pages": [(e["slug"], e["title"] + "｜" + e["author"]) for e in entries],
             "section_sources": {e["slug"]: {sec["title"]: dict(sec["source"], author=sec.get("author", e["author"]))
@@ -1768,7 +1768,7 @@ BOOK_INTRO = {
     "zhanguoce": "西汉刘向编订的国别体史书，记载战国时期游说之士的谋略与辞令，涉及西周、东周及秦、齐、楚、赵、魏、韩、燕、宋、卫、中山诸国，共三十三卷。",
     "zengguofan": "清代曾国藩写给父母、兄弟、子侄和妻子的家信，涉及治学、修身与齐家，是了解曾国藩思想与晚清士大夫家教的重要材料。",
     "jiayou": "《嘉祐集》是北宋苏洵的文集。苏洵字明允，眉州眉山人，与苏轼、苏辙并称三苏。书中既有《权书》《衡论》一类讨论用兵与治国的文章，也有经解、史论、书札、族谱、杂文和诗。所选底本分十六卷，另有补遗，可从中看见苏洵怎样以古事论当世，又怎样把家族与交游写入文章。",
-    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《永州八记》《湖心亭看雪》《哀江南赋》《与陈伯之书》等三十八项。",
+    "classic_list": "历代散文、辞赋、诗歌名篇选集，收《报任安书》《出师表》《兰亭集序》《离魂记》《洛神赋》《岳阳楼记》《赤壁赋》《醉翁亭记》《阿房宫赋》《陋室铭》《爱莲说》《永州八记》《湖心亭看雪》《哀江南赋》《与陈伯之书》等七十五项。",
     "guanhanqing": "元代关汉卿所作杂剧合集，收《窦娥冤》《救风尘》《望江亭》《单刀会》《拜月亭》《调风月》等十八种，题材涉及冤狱、婚恋、公案与历史英雄。",
     "zhaoshigu": "元代纪君祥所作杂剧，全称《冤报冤赵氏孤儿》，写程婴、公孙杵臼舍命救护赵氏孤儿、孤儿长大后报仇雪冤的故事。",
     "qiannulihun": "元代郑光祖所作杂剧，全称《迷青琐倩女离魂》，写倩女魂魄离体追随情人王文举、与病中之身终得合一的故事。元代四大爱情剧之一。",
@@ -2340,12 +2340,20 @@ def build_poetry(bslug, spec):
         label = "简介据维基文库" if spec.get("visible_intro_credit") else "维基文库"
         intro_credit = (f'<span{visibility}> · <a href="{url}">{label}</a> · '
                         '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>')
+    entry_search = entry_empty = entry_script = ""
+    if spec.get("entry_search"):       # 目录页内的篇目搜索框（只过滤本页的篇目，不跳转）
+        entry_search = (f'<div class="book-search" role="search" aria-label="搜索篇目">\n<label for="entry-search">搜索篇名或作者</label>\n'
+                        '<div class="search-row"><input type="search" id="entry-search" placeholder="例如：赤壁、苏轼、赋" autocomplete="off" '
+                        'aria-controls="entry-list"><button type="button" id="entry-clear">清空</button></div>\n'
+                        '<p class="search-status" id="entry-status" role="status" aria-live="polite"></p>\n</div>\n')
+        entry_empty = '<p class="search-empty" id="entry-empty" hidden>没有找到匹配的篇目，请换个关键词。</p>'
+        entry_script = '<script src="../../assets/entry-search.js" defer></script>'
     body = f"""<header class="top">
 {crumbs([("古典文库", "../../index.html"), (btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
 {intro_html(bslug)}
 </header>
-<main><section class="part"><ul class="vols"{' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get('wide_index') else ''}>{"".join(cells)}</ul></section></main>
+<main>{entry_search}<section class="part"><ul class="vols"{' id="entry-list"' if spec.get('entry_search') else ''}{' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get('wide_index') else ''}>{"".join(cells)}</ul>{entry_empty}</section>{entry_script}</main>
 <footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}{intro_credit}</footer>"""
     (BOOKS_OUT / bslug).mkdir(parents=True, exist_ok=True)
     (BOOKS_OUT / bslug / "index.html").write_text(page(btitle, body, "../../"), encoding="utf8")
