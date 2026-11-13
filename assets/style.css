@@ -140,8 +140,8 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 .dr{margin:.7em 0 .15em}
 .dr .sd{color:var(--muted);font-size:.9em}
 .dr .cp{color:var(--accent);font-weight:600;letter-spacing:.05em}
-.v.ping,.nv.ping{color:var(--muted);font-size:14px;line-height:1.75;margin:.5em 0}
-.gwy .sd{color:var(--muted);font-size:14px}
+.v.ping,.nv.ping{color:var(--muted);font-size:.954em;line-height:1.9;margin:.5em 0}
+.gwy .sd{color:var(--muted);font-size:.9em}
 .sdi .sd{color:var(--muted);font-size:.9em}
 .sdi .cp{color:var(--accent);font-weight:600;letter-spacing:.05em}
 
