@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from prepare_texts import ROOT, TEXT_BOOKS, read, sent_units
 
 sys.path.insert(0, str(ROOT))
-from build import WIKI_INTRO, split_sents
+from build import NOTES_ONLY, WIKI_INTRO, split_sents
 
 
 def html(path):
@@ -29,8 +29,11 @@ def main():
             doc = index if single else html(f"{book}/{c['slug']}.html")
             assert [p.get_text().strip() for p in doc.select("section.entry p.v")] == [p.strip() for p in paras], (book, c["slug"])
             spans = doc.select("section.entry .s[data-t]")
-            assert [s.get_text() for s in spans] == [x for p in paras for x in sent_units(p)], (book, c["slug"])
-            assert all(s["data-t"].strip() for s in spans), (book, c["slug"])
+            if book in NOTES_ONLY:       # 白话/半白话原文，只配题解与注释，不设逐句白话
+                assert not spans, (book, c["slug"])
+            else:
+                assert [s.get_text() for s in spans] == [x for p in paras for x in sent_units(p)], (book, c["slug"])
+                assert all(s["data-t"].strip() for s in spans), (book, c["slug"])
             assert len(doc.select("section.entry")) == len(c["sections"]), (book, c["slug"])
             assert all(e.select_one(".intro-box p") for e in doc.select("section.entry")), (book, c["slug"])
             total += len(spans)

@@ -1049,6 +1049,7 @@ def _works_spec(slug, title, author, unit, tijie=True, gloss=False, count=None, 
         spec["reading_hint"] = ""
     if footer:
         spec["index_footer"] = footer
+    spec["single_page"] = sum(1 for p in pages if p[0]) == 1
     return spec
 
 
@@ -1239,7 +1240,7 @@ def _orig_spec(slug, title, author):
         "side_toc_always": True, "no_count": True, "wide_index": True,
         "omit_source_credit": True, "reading_hint": "", "original_footer": "未据影印本逐字校勘。",
         "sub_labels": {ch["slug"]: [sec["title"] for sec in ch["sections"]] for ch in catalog},
-        "pages": pages, "index_footer": "",
+        "pages": pages, "index_footer": "", "single_page": sum(1 for p in pages if p[0]) == 1,
     }
 
 
@@ -1951,9 +1952,9 @@ def intro_html(slug):
     # 全书题解（src/<slug>/tijie）不另立页面，接在简介之后，每段以“主题。”领起
     path = ROOT / "src" / slug / "tijie" / "01.txt"
     if path.exists():
-        for para in parse_poems([path])[0]["intro"]:
+        for para in parse_poems([path])[0]["intro"][:2]:       # 只留前两段，去掉“主题。”标题，并入简介
             head, sep, rest = para.partition("。")
-            out += f'<p class="intro tijie"><strong>{esc(head)}{sep}</strong>{esc(rest)}</p>'
+            out += f'<p class="intro tijie">{esc(rest if sep else para)}</p>'
     for label, url, *shown in TIJIE_LINKS.get(slug, []):
         out += f'<p class="intro tijie"><strong>{esc(label)}：</strong><a href="{esc(url)}">{esc(shown[0] if shown else url)}</a></p>'
     return out
@@ -2054,7 +2055,9 @@ def parse_poems(paths):
 
 
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
-STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+# 只有题解与注释、不设白话的书（原文本身是白话或半白话）
+NOTES_ONLY = {"qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 PEACH_DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】|\([^()]*\)|（[^（）]*）)")
 ERKE_STAGE = re.compile(r"(〈（[^〉]*）〉|〔[^〕]*〕|【[^】]*】)")
 PEACH_TUNES = {"鹧鸪天", "皂罗袍"}
@@ -2293,7 +2296,8 @@ def build_poetry(bslug, spec):
                       if o2.startswith("/"):
                           spans += "<br>"
                           o2 = o2[1:]
-                      spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{ed_html(poem_orig(o2), ed_state)}</span>'
+                      shown = drama_html(o2, stage_book) if stage_book else poem_orig(o2)      # 戏曲：科白、曲牌在悬浮句内也显示为小字灰体
+                      spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{ed_html(shown, ed_state)}</span>'
                   if pairs:
                       spans += NOTE_MARK * tail
                       label = ch["o"].strip() if bslug == "hanfeizi" else ""
@@ -2390,6 +2394,8 @@ def build_poetry(bslug, spec):
         else:
             hint = ""
             foot_text = "白话译文、注释、题解为编者自撰，仅供辅助阅读，以原文为准。"
+        if bslug in NOTES_ONLY:
+            hint, foot_text = "", "注释、题解为编者自撰，仅供辅助阅读，以原文为准。"
         hint = page_options.get("reading_hint", spec.get("reading_hint", hint))
         foot_text = page_options.get("footer", foot_text)
         if single:

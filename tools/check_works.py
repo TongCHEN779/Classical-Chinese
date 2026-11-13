@@ -50,7 +50,8 @@ def audit(book):
                     assert term in c['o'] and term not in seen, (book, slug, g['title'], n)
                     seen.add(term)
                 nnotes += len(c['notes'])
-        html = BeautifulSoup((BOOKS / book / (slug + '.html')).read_text(), 'html.parser')
+        hp = BOOKS / book / (slug + '.html')
+        html = BeautifulSoup((hp if hp.exists() else BOOKS / book / 'index.html').read_text(), 'html.parser')     # 只有一页的书，首页即阅读页
         if gloss:
             assert [(n.get_text(), n['data-t']) for n in html.select('.s[data-t]')] == [(o.replace('/', ''), t) for o, t in pairs], (book, slug, 'rendered pairs')
             npairs += len(pairs)

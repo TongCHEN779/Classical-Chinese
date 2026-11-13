@@ -1,21 +1,12 @@
 [
  {
   "slug": "p001",
-  "title": "卷一",
+  "title": "卷一·情贞类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/1",
   "revision": "1518106",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷一 情贞类"
-    ]
-   },
    {
     "title": "李妙惠",
     "level": 3,
@@ -167,22 +158,12 @@
  },
  {
   "slug": "p002",
-  "title": "卷二",
+  "title": "卷二·情缘类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/2",
   "revision": "2612106",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷二 情缘类",
-     "卷二 情缘类"
-    ]
-   },
    {
     "title": "赵简子",
     "level": 3,
@@ -542,22 +523,12 @@
  },
  {
   "slug": "p003",
-  "title": "卷三",
+  "title": "卷三·情私类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/3",
   "revision": "1518108",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷三 情私类",
-     "卷三 情私类"
-    ]
-   },
    {
     "title": "张幼谦",
     "level": 3,
@@ -948,22 +919,12 @@
  },
  {
   "slug": "p004",
-  "title": "卷四",
+  "title": "卷四·情侠类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/4",
   "revision": "2622270",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷四 情侠类",
-     "卷四 情侠类"
-    ]
-   },
    {
     "title": "太史敫女",
     "level": 3,
@@ -1367,21 +1328,18 @@
  },
  {
   "slug": "p005",
-  "title": "卷五",
+  "title": "卷五·情豪类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/5",
   "revision": "2610859",
   "heads": [],
   "sections": [
    {
-    "title": "正文",
+    "title": "夏履癸 商纣",
     "level": 3,
     "path": [],
     "author": "",
     "paragraphs": [
-     "卷五 情豪类",
-     "卷五 情豪类",
-     "夏履癸 商纣",
      "履癸即桀也，有力，能申铁钩索。伐有施氏，有施氏以妹喜女焉。喜有宠，所言皆从。为琼宫瑶台，殚百姓之财。肉山、脯林，酒池可以运船，糟堤可以望十里，一鼓而牛饮者三千人。妹喜笑，以为乐。凿池（地）为夜宫，男女杂处。",
      "纣伐有苏氏，有苏氏以妲己女焉。妲己有宠，惟言莫违。使师延作《朝歌》、《北鄙》之舞，靡靡之乐。造鹿台，为琼宫玉门，其大三里，高千尺，七年乃成。厚赋以实鹿台之财，充钜桥之粟，狗马奇物充牣宫室。以人食兽。广沙丘苑台。《行书纪年》云：“自盘庚徙都，至此，二百七十三年未尝迁动。纣广大其邑，南距朝歌，北距邯郸及沙丘，皆离宫别馆。以酒为池，悬肉为杯，男女裸相逐于其间。宫中九市，为长夜之饮。"
     ]
@@ -1860,21 +1818,18 @@
  },
  {
   "slug": "p006",
-  "title": "卷六",
+  "title": "卷六·情爱类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/6",
   "revision": "2387489",
   "heads": [],
   "sections": [
    {
-    "title": "正文",
+    "title": "丽娟 李夫人",
     "level": 3,
     "path": [],
     "author": "",
     "paragraphs": [
-     "卷六 情爱类",
-     "卷六 情爱类",
-     "丽娟 李夫人",
      "汉武帝所幸宫人名丽娟。年十四，玉肤柔快，吹气胜兰。不欲衣缨，拂之恐体痕也。每歌，李延年和之。于芝生殿唱回风之曲，庭中花皆翻落。置丽娟于明离之帐，恐尘垢污其体也。帝常以衣带缚丽娟之袂，闭于重幕之中，恐随风而去也。丽娟以琥珀为珮，置衣裾里，不使人知，乃言骨节自鸣，相与为神怪也。出《洞冥记》。",
      "李夫人本以娼进。初，夫人兄延年善音，尝于上前起舞。歌曰：",
      "“北方有佳人，绝世而独立。一顾倾人城，再顾倾人国。宁不知倾城与倾国，佳人难再得。”",
@@ -2141,22 +2096,12 @@
  },
  {
   "slug": "p007",
-  "title": "卷七",
+  "title": "卷七·情痴类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/7",
   "revision": "1518112",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷七 情痴类",
-     "卷七 情痴类"
-    ]
-   },
    {
     "title": "眇娼",
     "level": 3,
@@ -2362,22 +2307,12 @@
  },
  {
   "slug": "p008",
-  "title": "卷八",
+  "title": "卷八·情感类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/8",
   "revision": "2626737",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷八 情感类",
-     "卷八 情感类"
-    ]
-   },
    {
     "title": "长门赋",
     "level": 3,
@@ -2740,21 +2675,12 @@
  },
  {
   "slug": "p009",
-  "title": "卷九",
+  "title": "卷九·情幻类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/9",
   "revision": "2605097",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷九 情幻类"
-    ]
-   },
    {
     "title": "司马才仲",
     "level": 3,
@@ -3255,21 +3181,12 @@
  },
  {
   "slug": "p010",
-  "title": "卷十",
+  "title": "卷十·情灵类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/10",
   "revision": "2610060",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十 情灵类"
-    ]
-   },
    {
     "title": "陈寿",
     "level": 3,
@@ -3779,21 +3696,12 @@
  },
  {
   "slug": "p011",
-  "title": "卷十一",
+  "title": "卷十一·情化类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/11",
   "revision": "2626670",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十一 情化类"
-    ]
-   },
    {
     "title": "化女",
     "level": 3,
@@ -4034,21 +3942,12 @@
  },
  {
   "slug": "p012",
-  "title": "卷十二",
+  "title": "卷十二·情媒类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/12",
   "revision": "1518117",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十二 情媒类"
-    ]
-   },
    {
     "title": "卢二舅",
     "level": 3,
@@ -4397,21 +4296,12 @@
  },
  {
   "slug": "p013",
-  "title": "卷十三",
+  "title": "卷十三·情憾类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/13",
   "revision": "2173910",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十三 情憾类"
-    ]
-   },
    {
     "title": "昭君",
     "level": 3,
@@ -5136,21 +5026,12 @@
  },
  {
   "slug": "p014",
-  "title": "卷十四",
+  "title": "卷十四·情仇类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/14",
   "revision": "2626992",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十四 情仇类"
-    ]
-   },
    {
     "title": "王娇",
     "level": 3,
@@ -5944,20 +5825,18 @@
  },
  {
   "slug": "p015",
-  "title": "卷十五",
+  "title": "卷十五·情芽类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/15",
   "revision": "1518120",
   "heads": [],
   "sections": [
    {
-    "title": "正文",
+    "title": "禹",
     "level": 3,
     "path": [],
     "author": "",
     "paragraphs": [
-     "卷十五 情芽类",
-     "禹",
      "禹年三十未娶，行涂山，有白狐九尾造禹。涂山人歌曰：",
      "“绥绥白狐，九尾庞庞。成子家室，乃者攸昌。”",
      "禹遂娶之，谓之女峤。"
@@ -6290,21 +6169,12 @@
  },
  {
   "slug": "p016",
-  "title": "卷十六",
+  "title": "卷十六·情报类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/16",
   "revision": "2610882",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十六 情报类"
-    ]
-   },
    {
     "title": "荥阳郑生",
     "level": 3,
@@ -6581,21 +6451,12 @@
  },
  {
   "slug": "p017",
-  "title": "卷十七",
+  "title": "卷十七·情秽类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/17",
   "revision": "2609327",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十七 情秽类"
-    ]
-   },
    {
     "title": "秦宣太后",
     "level": 3,
@@ -6917,21 +6778,12 @@
  },
  {
   "slug": "p018",
-  "title": "卷十八",
+  "title": "卷十八·情累类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/18",
   "revision": "1518123",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十八 情累类"
-    ]
-   },
    {
     "title": "李将仕",
     "level": 3,
@@ -7220,21 +7072,12 @@
  },
  {
   "slug": "p019",
-  "title": "卷十九",
+  "title": "卷十九·情疑类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/19",
   "revision": "1518124",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷十九 情疑类"
-    ]
-   },
    {
     "title": "郁单越国",
     "level": 3,
@@ -7827,21 +7670,12 @@
  },
  {
   "slug": "p020",
-  "title": "卷二十",
+  "title": "卷二十·情鬼类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/20",
   "revision": "2626866",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷二十 情鬼类"
-    ]
-   },
    {
     "title": "西施",
     "level": 3,
@@ -8544,21 +8378,12 @@
  },
  {
   "slug": "p021",
-  "title": "卷二十一",
+  "title": "卷二十一·情妖类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/21",
   "revision": "2629715",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷二十一 情妖类"
-    ]
-   },
    {
     "title": "潘妪",
     "level": 3,
@@ -9207,21 +9032,12 @@
  },
  {
   "slug": "p022",
-  "title": "卷二十二",
+  "title": "卷二十二·情外类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/22",
   "revision": "2033462",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷二十二 情外类"
-    ]
-   },
    {
     "title": "丁期",
     "level": 3,
@@ -9637,20 +9453,18 @@
  },
  {
   "slug": "p023",
-  "title": "卷二十三",
+  "title": "卷二十三·情通类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/23",
   "revision": "1518128",
   "heads": [],
   "sections": [
    {
-    "title": "正文",
+    "title": "凤",
     "level": 3,
     "path": [],
     "author": "",
     "paragraphs": [
-     "卷二十三 情通类",
-     "凤",
      "南方有比翼凤，飞止饮啄，不相分离。雄曰野君，雌曰观讳，总名曰长离，言长想离著也。此鸟能通宿命，死而复生，必在一处。纣时集于长桐之上，人皆以为双头鸟，不祥。及文、武兴，始悟曰：此并配之瑞也。出《琅环记》。",
      "又，西方卫罗国王有女，字曰配英，与凤共处。于是，灵凤常以羽翼扇女面。后十年中，女忽有胎。王意怪之，因斩凤头，埋于长林邱中。后生女，名曰皇妃。王女思灵凤之游好，驾而临之长林邱中，歌曰：\"杳杳灵凤，绵绵长归。悠悠我思，永与愿违。万劫无期，何时来飞？\"是凤忽然而生，抱女俱飞，径入云中。出《洞玄本行经》。",
      "鸾",
@@ -9903,21 +9717,12 @@
  },
  {
   "slug": "p024",
-  "title": "卷二十四",
+  "title": "卷二十四·情迹类",
   "head": "",
   "url": "https://zh.wikisource.org/zh-hans/%E6%83%85%E5%8F%B2/24",
   "revision": "1518129",
   "heads": [],
   "sections": [
-   {
-    "title": "正文",
-    "level": 3,
-    "path": [],
-    "author": "",
-    "paragraphs": [
-     "卷二十四 情迹类"
-    ]
-   },
    {
     "title": "情尽桥",
     "level": 3,
