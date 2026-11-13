@@ -93,6 +93,11 @@ def do_build():
                 if paras:
                     secs.append({"title": s["title"] or ch["title"], "level": 3, "path": [], "author": "", "paragraphs": paras})
             revs.append(ch["revision"])
+        # 个别剧本（如还魂记）只有首出带“第X出”，其余只有出名：按序补上
+        if secs and sum(bool(re.match(r"第.{1,4}[出齣折]", x["title"])) for x in secs) * 2 < len(secs):
+            for k, x in enumerate(secs, 1):
+                if not re.match(r"第.{1,4}[出齣折]", x["title"]):
+                    x["title"] = f"第{cn(k)}出 {x['title']}"
         if not secs or sum(len(p) for x in secs for p in x["paragraphs"]) < 5000:     # 维基文库上只有零星片段（如昙花记）的，不当作全剧收
             pages.append([slug, title, group])
             missing.append(slug)

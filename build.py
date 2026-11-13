@@ -1248,6 +1248,10 @@ def _notes_spec(slug, title, author):
     """只配题解与注释、不设白话的书：页表与分组读自 sources/<slug>/pages.json（同 _orig_spec），原文里的〈…〉小注仍以小字灰色显示。"""
     spec = _texts_spec(slug, title, author, groups=True)
     spec["ed_notes"] = True
+    if slug == "huayuehen":
+        spec["center_poems"] = True       # 书中诗词单独成行居中
+    if slug == "guwangyan":
+        spec["ping_paras"] = json.loads((ROOT / "sources/guwangyan/ping.json").read_text(encoding="utf8"))      # 各回开头的卷评段数
     return spec
 
 
@@ -2069,6 +2073,10 @@ NOTES_ONLY = {"liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyua
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
+# 姑妄言：行内批语【…】
+GUWANG_BATCH = re.compile(r"(【[^】]*】)")
+# 花月痕：〔曲牌〕、（科白）以及“《金缕曲》一阕云”式的词牌
+HUAYUE_DRAMA = re.compile(r"(〔[^〕]*〕|\([^()]*\)|（[^（）]*）|《[^》]{2,6}》(?=词?一?[阕首]|词云|词曰))")
 PEACH_DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】|\([^()]*\)|（[^（）]*）)")
 ERKE_STAGE = re.compile(r"(〈（[^〉]*）〉|〔[^〕]*〕|【[^】]*】)")
 PEACH_TUNES = {"鹧鸪天", "皂罗袍"}
@@ -2146,13 +2154,17 @@ def sent_units(text):
 
 def drama_html(text, stage_book=None):
     out = []
-    pattern = PEACH_DRAMA if stage_book in PAREN_STAGE_BOOKS else {"erke": ERKE_STAGE}.get(stage_book, DRAMA)
+    pattern = GUWANG_BATCH if stage_book == "guwangyan" else HUAYUE_DRAMA if stage_book == "huayuehen" else PEACH_DRAMA if stage_book in PAREN_STAGE_BOOKS else {"erke": ERKE_STAGE}.get(stage_book, DRAMA)
     for i, part in enumerate(pattern.split(text)):
         if i % 2:
             label = part[1:-1].strip()
             tune = part.startswith("【") or (stage_book == "erke" and part.startswith("〔"))
             if stage_book == "xixiangji" and tune:
                 tune = not (WESTERN_STAGE.search(label) or label in WESTERN_STAGE_EXTRA)
+            elif stage_book == "guwangyan":      # 行内批语整体为小字灰体
+                tune = False
+            elif stage_book == "huayuehen":      # 书中穿插的曲：〔曲牌〕为曲牌，（…）为科白
+                tune = part.startswith(("〔", "《"))
             elif stage_book == "taohuashan":
                 tune = tune or label in PEACH_TUNES or bool(re.fullmatch(r"鼓词[一二三四五六七八九十]+", label))
             cls = "cp" if tune else "sd"
@@ -2216,7 +2228,8 @@ def build_poetry(bslug, spec):
         stage_book = bslug if bslug in STAGE_BOOKS and (bslug != "taohuashan" or slug.startswith("p")) else None
         if (bslug, slug) == ("erke", "040"):
             stage_book = bslug
-        paragraph_style = "dr" if stage_book or not spec.get("prose") else "nv"
+        paragraph_style = "dr" if stage_book or not spec.get("prose") else ("nv sdi" if bslug in ("huayuehen", "guwangyan") else "nv")
+        dstyle = stage_book or (bslug if bslug in ("huayuehen", "guwangyan") else None)      # 花月痕：正文里穿插的曲牌、科白也显示为小字灰体
         nchunk = sum(1 for s in secs for c in s["chunks"] if "tbl" not in c)
         total += len(secs) if spec.get("count_entries") else nchunk
         cnt = (spec["count"](secs) if "count" in spec else
@@ -2258,6 +2271,7 @@ def build_poetry(bslug, spec):
                     parts.append(f'<pre class="source-diagram" style="max-width:100%;overflow-x:auto">{esc(ch["o"])}</pre>')
                     continue
                 chunk_start = len(parts)
+                pstyle = paragraph_style + (" ping" if ci < spec.get("ping_paras", {}).get(slug, 0) else "")      # 姑妄言：回前卷评，小字灰体
                 src_marks = bool(spec.get("source_markers"))
                 if src_marks:
                     anchors, chunk_notes = [], ch["notes"]
@@ -2276,17 +2290,17 @@ def build_poetry(bslug, spec):
                             end = pos + len(txt)
                             ins = [max(q - pos, 0) for q in at if q <= end]
                             at = [q for q in at if q > end]
-                            body = drama_html(mark_text(txt, ins), stage_book)
+                            body = drama_html(mark_text(txt, ins), dstyle)
                             if ri == len(runs) - 1:
                                 body += NOTE_MARK * tail
-                            parts.append(f'<p class="v {paragraph_style}{" poem" if isp else ""}">{circ_sup(body, src_marks)}</p>')
+                            parts.append(f'<p class="v {pstyle}{" poem" if isp else ""}">{circ_sup(body, src_marks)}</p>')
                             pos = end + 1
                     else:
-                        body = drama_html(mark_text(ch["o"], at), stage_book)
+                        body = drama_html(mark_text(ch["o"], at), dstyle)
                         if spec.get("ed_notes"):
                             body = ed_html(body, ed_state)
                         body += NOTE_MARK * tail
-                        parts.append(f'<p class="v {paragraph_style}{poem}">{circ_sup(body, src_marks)}</p>')
+                        parts.append(f'<p class="v {pstyle}{poem}">{circ_sup(body, src_marks)}</p>')
                 else:
                   spans = ""
                   pairs = marked_pairs(ch["o"], ch["t"], at)
@@ -2307,7 +2321,7 @@ def build_poetry(bslug, spec):
                       if o2.startswith("/"):
                           spans += "<br>"
                           o2 = o2[1:]
-                      shown = drama_html(o2, stage_book) if stage_book else poem_orig(o2)      # 戏曲：科白、曲牌在悬浮句内也显示为小字灰体
+                      shown = drama_html(o2, dstyle) if dstyle else poem_orig(o2)      # 戏曲：科白、曲牌在悬浮句内也显示为小字灰体
                       spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{ed_html(shown, ed_state)}</span>'
                   if pairs:
                       spans += NOTE_MARK * tail
