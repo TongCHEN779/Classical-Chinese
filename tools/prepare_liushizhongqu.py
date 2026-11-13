@@ -26,6 +26,10 @@ OVERLAP = {"琵琶記": "pipaji", "荊釵記": "jingchaiji", "荆釵記": "jingc
            "義俠記": "yixiaji", "白兔記": "baituji", "殺狗記": "shagouji", "東郭記": "dongguoji"}
 
 
+# 维基文库上这几个页名是重定向（北西廂→北西廂記、南西廂→南西廂記、還魂記→牡丹亭），缓存在 lsz_ 书里
+REDIRECT = {"北西廂": "lsz_beixixiang", "南西廂": "lsz_nanxixiang", "還魂記": "lsz_huanhunji"}
+
+
 def cn(n):
     if n < 10:
         return CN[n]
@@ -74,7 +78,7 @@ def do_build():
         slug = f"p{i:02d}"
         appendix = pl["wiki"] == "碩園訂本還魂記"
         group = "附" if appendix else f"第{cn((i - 1) // 5 + 1)}集"
-        book = load_book(OVERLAP.get(pl["wiki"]) or lsz_slug(pl["wiki"]) or "") if pl["exists"] else None
+        book = load_book(OVERLAP.get(pl["wiki"]) or REDIRECT.get(pl["wiki"]) or lsz_slug(pl["wiki"]) or "") if pl["exists"] else None
         title = pl["title"]
         if not book:
             pages.append([slug, title, group])
