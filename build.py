@@ -1957,10 +1957,16 @@ TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Chi
                "shitouji": [("数字化本", "../hongloumeng/index.html", "红楼梦")]}
 
 
+INTRO_ED_CASE = {"mutianzi"}
+
+
 def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
     text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
     fmt = ed_plain if POETRY.get(slug, {}).get("original_only") else (lambda h: ed_html(h, [False]))  # 仅“只整理原文”的书去尖括号
+    if slug in INTRO_ED_CASE:      # 简介里编者的“案：……”按语显示为小字灰体
+        base = fmt
+        fmt = lambda h: re.sub(r"( 案：.*)$", r'<span class="ed">\1</span>', base(h))
     out = "".join(f'<p class="intro">{fmt(esc(x))}</p>' for x in text.split("\n") if x.strip())
     # 全书题解（src/<slug>/tijie）不另立页面，接在简介之后，每段以“主题。”领起
     path = ROOT / "src" / slug / "tijie" / "01.txt"
