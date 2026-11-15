@@ -4,7 +4,7 @@
 
   python3 tools/fetch_shihua.py [CACHE_DIR]     CACHE_DIR 里若已有 <标题>.json（API 原始返回，/ 换成 _）则不再联网
 
-《随园诗话》：每条（页内编号标题“一、二…”）一段或数段；相邻若干条合成一节（不超过约 2200 字），节名为“首条号至末条号”。
+《随园诗话》：每条（页内编号标题“一、二…”）一段或数段；每条（页内编号标题）为一节，节名为条号。
 《瓯北诗话》：整书一页，卷（二级标题）为页，诗家小标题为节；原站为每行二十字左右的硬换行，已合并成段；过长的节按段落切开，节名“小标题·首段开头”。
 """
 import json
@@ -94,21 +94,7 @@ def suiyuan(cache):
                 t = para_text(el)
                 if t and cur is not None:
                     cur[1].append(t)
-        secs, cur_s, size = [], [], 0
-        def flush():
-            nonlocal cur_s, size
-            if cur_s:
-                a, b = cur_s[0][0], cur_s[-1][0]
-                secs.append({"title": a if a == b else f"{a}至{b}", "level": 3, "path": [title], "author": "",
-                             "paragraphs": [p for _n, ps in cur_s for p in ps]})
-            cur_s, size = [], 0
-        for num, ps in items:
-            n = sum(len(p) for p in ps)
-            if cur_s and size + n > G:
-                flush()
-            cur_s.append((num, ps))
-            size += n
-        flush()
+        secs = [{"title": num, "level": 3, "path": [title], "author": "", "paragraphs": ps} for num, ps in items if ps]      # 每条一节，节名即条号
         out.append({"slug": slug, "title": title, "url": "https://zh.wikisource.org/zh-hans/" + urllib.parse.quote(wiki),
                     "revision": str(page["revid"]), "heads": [], "sections": secs})
         print("随园", slug, title, len(secs), sum(len(p) for s in secs for p in s["paragraphs"]), flush=True)

@@ -35,7 +35,8 @@ def main():
                 assert [s.get_text() for s in spans] == [x for p in paras for x in sent_units(p)], (book, c["slug"])
                 assert all(s["data-t"].strip() for s in spans), (book, c["slug"])
             assert len(doc.select("section.entry")) == len(c["sections"]), (book, c["slug"])
-            assert all(e.select_one(".intro-box p") for e in doc.select("section.entry")), (book, c["slug"])
+            if book != "suiyuanshihua":      # 随园诗话每条一节，题解只配在每组（几条）的首条上
+                assert all(e.select_one(".intro-box p") for e in doc.select("section.entry")), (book, c["slug"])
             total += len(spans)
             notes += len(doc.select(".notes.plain li"))
     print(f"十二部短篇典籍核验通过：{total} 句白话，{notes} 条注释。")

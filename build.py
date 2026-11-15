@@ -1564,6 +1564,7 @@ POETRY = {
     "soushenji": _texts_spec("soushenji", "搜神记", "［东晋］干宝"),
     "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
     "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
+    "xibaoxuan": _texts_spec("xibaoxuan", "惜抱轩文集", "［清］姚鼐"),
     "suiyuanshihua": _texts_spec("suiyuanshihua", "随园诗话", "［清］袁枚"),
     "oubeishihua": _texts_spec("oubeishihua", "瓯北诗话", "［清］赵翼"),
     "yinshuici": _notes_spec("yinshuici", "饮水词", "［清］纳兰性德"),
@@ -1828,6 +1829,7 @@ BOOK_INTRO = {
     "xijingzaji": "旧题刘歆撰、葛洪辑，六卷，杂记西汉长安宫苑、器物、风俗与人物轶事，是魏晋笔记小说的早期名篇。",
     "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
     "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
+    "xibaoxuan": "清代桐城派古文大家姚鼐（号惜抱）的文集，十六卷，收论、考、序跋、书、赠序、寿序、策问、传、碑文、墓志铭、记、赋、祭文，文章雅洁，是桐城派“义理、考据、辞章”之说的典范。",
     "suiyuanshihua": "清代袁枚的诗话，十六卷，另有补遗十卷，随笔体，品评古今诗人诗句，标举“性灵”，兼记诗坛掌故与闺秀、方外诗作，是清代影响最大的诗话之一。",
     "oubeishihua": "清代赵翼的诗话，十二卷，专论李白、杜甫、韩愈、白居易、苏轼、陆游、元好问、高启、吴伟业、查慎行等诸家诗，评其才力、境界与源流得失，兼有年谱考订，议论平允。",
     "yinshuici": "清代词人纳兰性德（成德，字容若）的词集，原名《饮水词》，后世通行本多题《纳兰词》；本站所据为维基文库《饮水词》，收词一百三十一首，多写悼亡、边塞扈从与友朋身世之感，以真挚哀婉著称。",
@@ -2595,6 +2597,7 @@ INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["搜"] = "S"
 INITIAL["全"] = "Q"
+INITIAL.setdefault("惜", "X")
 INITIAL.setdefault("随", "S")
 INITIAL.setdefault("瓯", "O")
 INITIAL.setdefault("饮", "Y")

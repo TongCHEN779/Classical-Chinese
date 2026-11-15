@@ -22,7 +22,7 @@ TEXT_BOOKS = ["shipin", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", 
               "diwangshiji", "yuejueshu", "chunqiufanlu", "wuyuechunqiu", "youyangzazu", "wenxindiaolong", "guanzi", "liexianzhuan",
               "zhenguanzhengyao", "tiangongkaiwu", "dutongjianlun", "rizhilu",
               "xingmingguizhi", "canglangshihua", "baiyuzhaicihua", "qiminyaoshu", "wulinjiushi", "wenshitongyi", "kunxuejiwen",
-              "wulixiaoshi", "changwuzhi", "yuanye", "ershierzhaji", "hanshu", "houhanshu", "sanguozhi", "jinshu", "shiliuguochunqiu", "nanshi", "beishi", "xijingzaji", "soushenji", "xuanguailu", "xuxuanguailu", "xiaolinguangji", "yulizi", "suiyuanshihua", "oubeishihua", "yinshuici", "soushenhouji", "bowuzhi", "shenxianzhuan", "yunlinyishi", "qiludeng", "haishanghualiezhuan", "jiaohongji", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"]
+              "wulixiaoshi", "changwuzhi", "yuanye", "ershierzhaji", "hanshu", "houhanshu", "sanguozhi", "jinshu", "shiliuguochunqiu", "nanshi", "beishi", "xijingzaji", "soushenji", "xuanguailu", "xuxuanguailu", "xiaolinguangji", "yulizi", "suiyuanshihua", "xibaoxuan", "oubeishihua", "yinshuici", "soushenhouji", "bowuzhi", "shenxianzhuan", "yunlinyishi", "qiludeng", "haishanghualiezhuan", "jiaohongji", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"]
 
 VERSE_BOOKS = {"yinshuici"}
 
@@ -65,7 +65,7 @@ def prepare(books=None):
                 item = draft[i] or {}
                 lines.append(f"# {sec['title']}")
                 if guide := item.get("题解", "").strip():
-                    lines.append(f"题解：{guide}")
+                    lines.extend(f"题解：{g.strip()}" for g in guide.split("\n") if g.strip())      # 换行分段
                 paragraphs = item.get("段落", [])
                 assert len(paragraphs) <= len(sec["paragraphs"]), (book, slug, i)
                 for j, original in enumerate(sec["paragraphs"]):
