@@ -2019,6 +2019,11 @@ def ed_plain(h):
     return ed_html(h, [False]).replace("〈", "").replace("〉", "")
 
 
+def title_h(t):
+    """标题（目录条目、页标题）：转义后，〈…〉小注去掉尖括号、显示为小字灰体。"""
+    return ed_plain(esc(t))
+
+
 def poem_orig(text):
     out = []
     for i, part in enumerate(CIRC.split(esc(text))):
@@ -2211,7 +2216,7 @@ TOC_JS = """(function(){var D=__DATA__;var t=document.querySelector('.toc.side')
 D.forEach(function(d){var li=document.createElement('li');
 if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
 else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
-else{var a=document.createElement('a');a.href=d[1];a.textContent=d[2];li.appendChild(a);
+else{var a=document.createElement('a');a.href=d[1];a.innerHTML=d[2];li.appendChild(a);
 if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
 ul.appendChild(li);});})();
 """
@@ -2253,7 +2258,7 @@ def build_poetry(bslug, spec):
         index_label = spec.get("page_options", {}).get(slug, {}).get("index_label")
         if index_label:
             small = f"<small>{esc(index_label)}</small>"
-        cells.append(f'<li class="ok"><a href="{slug}.html">{esc(title)}{small}</a></li>')
+        cells.append(f'<li class="ok"><a href="{slug}.html">{title_h(title)}{small}</a></li>')
         uid = 0
         body_secs = []
         for si, sec in enumerate(secs, 1):
@@ -2277,7 +2282,7 @@ def build_poetry(bslug, spec):
                     f'<span class="caret">▸</span> 题解</button><div class="notes intro-box" id="n{uid}" hidden>{items}</div>')
             prev_o, prev_poem = "", False
             ed_state = [False]
-            held_notes = []
+            held_cn = []          # 花月痕：曲牌段的注释，并入随后的曲词段
             chunks_ = sec["chunks"]
             for ci, ch in enumerate(chunks_):
                 if "tbl" in ch:
@@ -2357,9 +2362,15 @@ def build_poetry(bslug, spec):
                           parts.append(f'<p class="v {"wl-n" if is_name else "wl-d"}">{spans}</p>')
                       else:
                           parts.append(f'<p class="v">{spans}</p>')
-                num = 1
+                num = 1 + (len(held_cn) if follow_tune else 0)      # 曲牌与曲词视作一段，注号接着排
                 for k in range(chunk_start, len(parts)):
                     parts[k], num = number_marks(parts[k], num)
+                if lead_tune:
+                    held_cn = list(chunk_notes)
+                    chunk_notes = []
+                elif follow_tune and held_cn:
+                    chunk_notes = held_cn + list(chunk_notes)
+                    held_cn = []
                 if chunk_notes:
                     uid += 1
                     if src_marks:     # 原站注释前的圆圈数字改为纯数字序号（无序号的补充说明不编号）
@@ -2372,13 +2383,7 @@ def build_poetry(bslug, spec):
                     note_html = (
                         f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                         f'<span class="caret">▸</span> 注释（{len(chunk_notes)}）</button><ul class="notes plain{" src" if src_marks else ""}" id="n{uid}" hidden>{li}</ul>')
-                    if lead_tune:          # 曲牌后紧接曲词：曲牌的注释挪到曲词之后，免得隔开
-                        held_notes.append(note_html)
-                    else:
-                        parts.append(note_html)
-                if held_notes and not lead_tune:
-                    parts.extend(held_notes)
-                    held_notes.clear()
+                    parts.append(note_html)
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         single = bool(spec.get("single_page")) and len(pages) == 1     # 只有一个目录条目：书的首页直接就是阅读页
@@ -2398,9 +2403,9 @@ def build_poetry(bslug, spec):
                             sub = (f'<ul class="sub{" num" if numeric else ""}">' + "".join(
                                 f'<li><a href="#e{k}">{ed_plain(esc(labels[k - 1] if labels and k - 1 < len(labels) else s_["title"]))}</a></li>'
                                 for k, s_ in subs) + "</ul>")
-                    data.append(["l", ("index" if single else sl) + ".html", tt])
+                    data.append(["l", ("index" if single else sl) + ".html", title_h(tt)])
                 elif page_files:
-                    data.append(["l", f"{sl}.html", tt])
+                    data.append(["l", f"{sl}.html", title_h(tt)])
                 else:
                     status = "阙" if sl in spec.get("missing_slugs", ()) else "亡" if sl in spec.get("lost_slugs", ()) else "待整理"
                     data.append(["x", f"{tt}（{status}）"])
@@ -2456,8 +2461,8 @@ def build_poetry(bslug, spec):
 {intro_html(bslug)}"""
             pager = ""
         else:
-            head = f"""{crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title, None)])}
-<h1>{esc(title)}<small>{esc(btitle)}</small></h1>"""
+            head = f"""{crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title.replace("〈", "").replace("〉", ""), None)])}
+<h1>{title_h(title)}<small>{esc(btitle)}</small></h1>"""
             pager = f'<nav class="pager">{prev_h}<a href="index.html">目录</a>{next_h}</nav>'
         body = f"""<header class="top">
 {head}
@@ -2474,7 +2479,7 @@ def build_poetry(bslug, spec):
 <footer>{source_note}{foot_text}</footer>"""
         out = BOOKS_OUT / bslug / ("index.html" if single else f"{slug}.html")
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(btitle if single else f"{title}·{btitle}", body, r, True), encoding="utf8")
+        out.write_text(page(btitle if single else f'{title.replace("〈", "").replace("〉", "")}·{btitle}', body, r, True), encoding="utf8")
         if single and (BOOKS_OUT / bslug / f"{slug}.html").exists():
             (BOOKS_OUT / bslug / f"{slug}.html").unlink()
     if spec.get("single_page") and len(pages) == 1:
