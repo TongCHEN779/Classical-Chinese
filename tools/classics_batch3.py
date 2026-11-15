@@ -51,6 +51,7 @@ SPECS = [
     ("mengchang", "读孟尝君传", "［北宋］王安石", list(range(0, 2))),
     ("dasima", "答司马谏议书", "［北宋］王安石", list(range(0, 4))),
     ("changhen", "长恨歌", "［唐］白居易", [0]),
+    ("changhenzhuan", "长恨歌传", "［唐］陈鸿", [0, 1, 2, 3, 4]),
     ("changan", "长安古意", "［唐］卢照邻", [0]),
     ("xiaoyuan", "小园赋", "［北周］庾信", list(range(0, 6))),
     ("kushu", "枯树赋", "［北周］庾信", list(range(0, 7))),

@@ -1255,6 +1255,21 @@ def _notes_spec(slug, title, author):
     return spec
 
 
+def _wudaishipinghua_spec():
+    """新编五代史平话：梁史、汉史的下卷已佚，目录里保留条目（标“亡”）。"""
+    spec = _notes_spec("wudaishipinghua", "新编五代史平话", "［宋］佚名")
+    pages = []
+    for sl, tt in spec["pages"]:
+        pages.append((sl, tt))
+        if tt == "梁史平话卷上":
+            pages.append(("lost1", "梁史平话卷下"))
+        elif tt == "汉史平话卷上":
+            pages.append(("lost2", "汉史平话卷下"))
+    spec["pages"] = pages
+    spec["lost_slugs"] = ["lost1", "lost2"]
+    return spec
+
+
 def _liushizhongqu_spec():
     """六十种曲：每剧一页，页内以出（折）为节；缺原文的剧目保留目录条目（标“阙”）。"""
     spec = _orig_spec("liushizhongqu", "六十种曲", "［明］毛晋 辑")
@@ -1546,6 +1561,10 @@ POETRY = {
     "soushenji": _texts_spec("soushenji", "搜神记", "［东晋］干宝"),
     "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
     "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
+    "soushenhouji": _texts_spec("soushenhouji", "搜神后记", "［东晋］陶潜（旧题）"),
+    "yulizi": _texts_spec("yulizi", "郁离子", "［明］刘基"),
+    "xiaolinguangji": _texts_spec("xiaolinguangji", "笑林广记", "［清］游戏主人"),
+    "yunlinyishi": _texts_spec("yunlinyishi", "云林遗事", "［明］顾元庆"),
     "wutongyu": _texts_spec("wutongyu", "梧桐雨", "［元］白朴"),
     "hangongqiu": _texts_spec("hangongqiu", "汉宫秋", "［元］马致远"),
     "jianfubei": _texts_spec("jianfubei", "荐福碑", "［元］马致远"),
@@ -1575,7 +1594,7 @@ POETRY = {
     "yujiaoli": _notes_spec("yujiaoli", "玉娇梨", "［清］荻岸散人"),
     "pingshanlengyan": _notes_spec("pingshanlengyan", "平山冷燕", "［清］荻岸山人"),
     "haoqiuzhuan": _notes_spec("haoqiuzhuan", "好逑传", "［清］名教中人"),
-    "wudaishipinghua": _notes_spec("wudaishipinghua", "新编五代史平话", "［宋］佚名"),
+    "wudaishipinghua": _wudaishipinghua_spec(),
     "xingshiyinyuan": _notes_spec("xingshiyinyuan", "醒世姻缘传", "［清］西周生"),
     "qiludeng": _texts_spec("qiludeng", "歧路灯", "［清］李绿园", groups=True),
     "lvyexianzong": _orig_spec("lvyexianzong", "绿野仙踪", "［清］李百川"),
@@ -1801,6 +1820,10 @@ BOOK_INTRO = {
     "xijingzaji": "旧题刘歆撰、葛洪辑，六卷，杂记西汉长安宫苑、器物、风俗与人物轶事，是魏晋笔记小说的早期名篇。",
     "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
     "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
+    "soushenhouji": "旧题东晋陶潜撰的志怪小说集，十卷加补遗一卷，记丁令威化鹤、桃花源、剡县赤城等仙异、鬼怪与报应故事，文字简古；署名陶潜实为托名，《四库提要》称其仍是六朝遗书。",
+    "yulizi": "元末明初刘基所作的寓言集，借“郁离子”之口谈治国用人、世态人情，多用短小寓言，是明代寓言的代表作；本站所据为明成化六年《诚意伯文集》石刻本，序与一百八十则。",
+    "xiaolinguangji": "清代笑话集，署游戏主人编，分古艳、腐流、术业、形体、殊禀、闺风、世讳、僧道、贪吝、贫窭、讥刺、谬误十二部，每则短小，多取材于明清民间笑谈。",
+    "yunlinyishi": "明顾元庆辑的元末画家倪瓒（云林）轶事，分高逸、诗画、洁癖、游寓、饮食五篇，记其孤高、洁癖与诗画交游，并附清閟阁饮食方。",
     "xuxuanguailu": "唐李复言所撰传奇小说集，承《玄怪录》而作，今存五卷（末卷为辑佚），记杨敬真、定婚店、薛伟一类人神鬼怪与命定姻缘的奇事，文笔曲折。",
     "wutongyu": "元白朴所作杂剧，一楔子四折，写唐明皇与杨贵妃的爱情及安史之乱后的追思，第四折梧桐夜雨一段最为有名，是元代四大悲剧之一。",
     "hangongqiu": "元马致远所作杂剧，写王昭君出塞和亲的故事，着力渲染汉元帝与昭君的生离死别，是元代四大悲剧之一。",
@@ -2550,6 +2573,10 @@ INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["搜"] = "S"
 INITIAL["全"] = "Q"
+INITIAL.setdefault("搜", "S")
+INITIAL.setdefault("郁", "Y")
+INITIAL.setdefault("笑", "X")
+INITIAL.setdefault("云", "Y")
 INITIAL.setdefault("玉", "Y")
 INITIAL.setdefault("平", "P")
 INITIAL.setdefault("好", "H")

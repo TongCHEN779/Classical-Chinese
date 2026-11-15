@@ -26,7 +26,7 @@ PAGES.update({"shaonian": "少年中國說", "bingmei": "病梅館記", "huangsh
               "xinling": "信陵君救趙論", "huqiu": "虎丘記", "manjing": "滿井遊記", "yuejianglou": "閱江樓記", "mozhu": "墨竹賦",
               "shangzhongyong": "傷仲永", "mengchang": "讀孟嘗君傳", "dasima": "答司馬諫議書", "changhen": "長恨歌",
               "changan": "長安古意", "xiaoyuan": "小園賦", "kushu": "枯樹賦", "daleilei": "登大雷岸與妹書", "lingguan": "五代史伶官傳序",
-              "daolouyuan": "待漏院記", "pengdang": "朋黨論 (歐陽脩)", "qiusheng": "秋聲賦", "fengle": "豐樂亭記", "wucheng": "蕪城賦"})
+              "daolouyuan": "待漏院記", "pengdang": "朋黨論 (歐陽脩)", "qiusheng": "秋聲賦", "fengle": "豐樂亭記", "wucheng": "蕪城賦", "changhenzhuan": "長恨歌傳"})
 
 
 def blocks_of(root):

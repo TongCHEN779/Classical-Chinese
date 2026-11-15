@@ -67,7 +67,7 @@ def main():
                 'shizhong',
                 'loushi', 'ailian', 'yongzhou', 'huxinting',
                 'aijiangnan', 'yugu', 'yusong', 'maiyou', 'yuchen',
-                'shaonian', 'bingmei', 'huangshan', 'taishan', 'zuozhongyi', 'yuzhongzaji', 'jimei', 'qinshi', 'maigan', 'shenlv', 'yurang', 'xiangci', 'zunjingge', 'xianbi', 'canglang-gui', 'canglang-su', 'hanhua', 'zhuxi', 'xinling', 'huqiu', 'manjing', 'yuejianglou', 'mozhu', 'shangzhongyong', 'mengchang', 'dasima', 'changhen', 'changan', 'xiaoyuan', 'kushu', 'daleilei', 'lingguan', 'daolouyuan', 'pengdang', 'qiusheng', 'fengle', 'wucheng']
+                'shaonian', 'bingmei', 'huangshan', 'taishan', 'zuozhongyi', 'yuzhongzaji', 'jimei', 'qinshi', 'maigan', 'shenlv', 'yurang', 'xiangci', 'zunjingge', 'xianbi', 'canglang-gui', 'canglang-su', 'hanhua', 'zhuxi', 'xinling', 'huqiu', 'manjing', 'yuejianglou', 'mozhu', 'shangzhongyong', 'mengchang', 'dasima', 'changhen', 'changan', 'xiaoyuan', 'kushu', 'daleilei', 'lingguan', 'daolouyuan', 'pengdang', 'qiusheng', 'fengle', 'wucheng', 'changhenzhuan']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'

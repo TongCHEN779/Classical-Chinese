@@ -2181,5 +2181,29 @@
    ],
    "original_sha256": "8b29182277245bcc5c49e188439711cc115efcd5970eeb25d49c02ea5866b49d"
   }
+ },
+ {
+  "title": "长恨歌传",
+  "author": "［唐］陈鸿",
+  "slug": "changhenzhuan",
+  "intro": "陈鸿为白居易《长恨歌》所作的传，叙唐玄宗宠爱杨贵妃、马嵬兵变赐死，以及玄宗思念不已、方士上天入地寻访贵妃魂魄并带回天宝十年七夕密誓的经过，是唐传奇名篇，用以交代《长恨歌》的本事。",
+  "source": {
+   "url": "https://zh.wikisource.org/zh-hans/%E9%95%B7%E6%81%A8%E6%AD%8C%E5%82%B3",
+   "revision": "2525811",
+   "label": "维基文库",
+   "after": "正文照录所列修订；题解、白话和释词为本库整理。"
+  },
+  "provenance": {
+   "kind": "cached_primary_text",
+   "cache": "wikisource/changhenzhuan.json",
+   "selected_blocks": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "original_sha256": "c6a423b368fc84fb0d7e02793fa31264de5c58dd86bb50f5c7c406e28f302062"
+  }
  }
 ]

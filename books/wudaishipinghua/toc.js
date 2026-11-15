@@ -1,4 +1,4 @@
-(function(){var D=[["l","p001.html","梁史平话卷上"],["l","p002.html","唐史平话卷上"],["l","p003.html","唐史平话卷下"],["l","p004.html","晋史平话卷上"],["l","p005.html","晋史平话卷下"],["l","p006.html","汉史平话卷上"],["l","p007.html","周史平话卷上"],["l","p008.html","周史平话卷下"],["l","p009.html","跋"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+(function(){var D=[["l","p001.html","梁史平话卷上"],["x","梁史平话卷下（亡）"],["l","p002.html","唐史平话卷上"],["l","p003.html","唐史平话卷下"],["l","p004.html","晋史平话卷上"],["l","p005.html","晋史平话卷下"],["l","p006.html","汉史平话卷上"],["x","汉史平话卷下（亡）"],["l","p007.html","周史平话卷上"],["l","p008.html","周史平话卷下"],["l","p009.html","跋"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
 D.forEach(function(d){var li=document.createElement('li');
 if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
 else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
