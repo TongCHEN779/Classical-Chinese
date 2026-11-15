@@ -1564,6 +1564,7 @@ POETRY = {
     "soushenji": _texts_spec("soushenji", "搜神记", "［东晋］干宝"),
     "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
     "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
+    "taoyuanmingji": _texts_spec("taoyuanmingji", "陶渊明集", "［东晋］陶渊明"),
     "xibaoxuan": _texts_spec("xibaoxuan", "惜抱轩文集", "［清］姚鼐"),
     "suiyuanshihua": _texts_spec("suiyuanshihua", "随园诗话", "［清］袁枚"),
     "oubeishihua": _texts_spec("oubeishihua", "瓯北诗话", "［清］赵翼"),
@@ -1829,6 +1830,7 @@ BOOK_INTRO = {
     "xijingzaji": "旧题刘歆撰、葛洪辑，六卷，杂记西汉长安宫苑、器物、风俗与人物轶事，是魏晋笔记小说的早期名篇。",
     "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
     "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
+    "taoyuanmingji": "东晋陶渊明（陶潜）的诗文集，七卷，收四言诗、五言诗、赋辞、《桃花源记》《五柳先生传》等记传赞述与疏祭文，诗风平淡自然，多写田园、饮酒、咏怀与出处之志；本站所据为维基文库《陶渊明集》，含萧统序。",
     "xibaoxuan": "清代桐城派古文大家姚鼐（号惜抱）的文集，十六卷，收论、考、序跋、书、赠序、寿序、策问、传、碑文、墓志铭、记、赋、祭文，文章雅洁，是桐城派“义理、考据、辞章”之说的典范。",
     "suiyuanshihua": "清代袁枚的诗话，十六卷，另有补遗十卷，随笔体，品评古今诗人诗句，标举“性灵”，兼记诗坛掌故与闺秀、方外诗作，是清代影响最大的诗话之一。",
     "oubeishihua": "清代赵翼的诗话，十二卷，专论李白、杜甫、韩愈、白居易、苏轼、陆游、元好问、高启、吴伟业、查慎行等诸家诗，评其才力、境界与源流得失，兼有年谱考订，议论平允。",
@@ -2128,6 +2130,7 @@ def parse_poems(paths):
     return sections
 
 
+YEAR_LEAD = re.compile(r"^((?:宋|金)?(?:徽宗|钦宗|高宗|孝宗|光宗|宁宗)?(?:宣和|靖康|建炎|绍兴|隆兴|乾道|淳熙|绍熙|庆元|嘉泰|开禧|嘉定)?(?:[一二三四五六七八九十]+|元)年(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]?)?)")      # 瓯北诗话·陆放翁年谱的纪年
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
 NOTES_ONLY = {"yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
@@ -2362,7 +2365,7 @@ def build_poetry(bslug, spec):
                 at = [a[1] for a in anchors if a is not None]
                 tail = sum(1 for a in anchors if a is None)
                 is_p = ch.get("verse") or bool(bslug in ("huayuehen", "chanzhenyishi") and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
-                poem = (" poem cen" if bslug in ("taohuashan", "classic_list", "yinshuici") else " poem") if is_p else ""
+                poem = (" poem cen" if bslug in ("taohuashan", "classic_list", "yinshuici", "taoyuanmingji") else " poem") if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
                     runs = split_poem_runs(ch["o"]) if spec.get("center_poems") and not poem else None
@@ -2399,11 +2402,14 @@ def build_poetry(bslug, spec):
                       if (len(original_sents) != len(ch["t"].split("¦"))
                               or [o.replace(NOTE_MARK, "") for o, _t in pairs] != original_sents):
                           raise ValueError(f"{bslug}/{slug}: 原文与白话必须逐句对应，不能整段回退")
-                  for o2, t2 in pairs:
+                  year_bold = bslug == "oubeishihua" and sec["title"] == "陆放翁年谱"      # 年谱：每条开头的年份加粗
+                  for pi_, (o2, t2) in enumerate(pairs):
                       if o2.startswith("/"):
                           spans += "<br>"
                           o2 = o2[1:]
                       shown = drama_html(o2, dstyle) if dstyle else poem_orig(o2)      # 戏曲：科白、曲牌在悬浮句内也显示为小字灰体
+                      if year_bold and pi_ == 0:
+                          shown = YEAR_LEAD.sub(lambda m_: f"<b>{m_.group(1)}</b>", shown, count=1)
                       spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{ed_html(shown, ed_state)}</span>'
                   if pairs:
                       spans += NOTE_MARK * tail
@@ -2597,6 +2603,7 @@ INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["搜"] = "S"
 INITIAL["全"] = "Q"
+INITIAL.setdefault("陶", "T")
 INITIAL.setdefault("惜", "X")
 INITIAL.setdefault("随", "S")
 INITIAL.setdefault("瓯", "O")

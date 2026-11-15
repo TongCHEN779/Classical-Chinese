@@ -22,9 +22,9 @@ TEXT_BOOKS = ["shipin", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", 
               "diwangshiji", "yuejueshu", "chunqiufanlu", "wuyuechunqiu", "youyangzazu", "wenxindiaolong", "guanzi", "liexianzhuan",
               "zhenguanzhengyao", "tiangongkaiwu", "dutongjianlun", "rizhilu",
               "xingmingguizhi", "canglangshihua", "baiyuzhaicihua", "qiminyaoshu", "wulinjiushi", "wenshitongyi", "kunxuejiwen",
-              "wulixiaoshi", "changwuzhi", "yuanye", "ershierzhaji", "hanshu", "houhanshu", "sanguozhi", "jinshu", "shiliuguochunqiu", "nanshi", "beishi", "xijingzaji", "soushenji", "xuanguailu", "xuxuanguailu", "xiaolinguangji", "yulizi", "suiyuanshihua", "xibaoxuan", "oubeishihua", "yinshuici", "soushenhouji", "bowuzhi", "shenxianzhuan", "yunlinyishi", "qiludeng", "haishanghualiezhuan", "jiaohongji", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"]
+              "wulixiaoshi", "changwuzhi", "yuanye", "ershierzhaji", "hanshu", "houhanshu", "sanguozhi", "jinshu", "shiliuguochunqiu", "nanshi", "beishi", "xijingzaji", "soushenji", "xuanguailu", "xuxuanguailu", "xiaolinguangji", "yulizi", "suiyuanshihua", "xibaoxuan", "taoyuanmingji", "oubeishihua", "yinshuici", "soushenhouji", "bowuzhi", "shenxianzhuan", "yunlinyishi", "qiludeng", "haishanghualiezhuan", "jiaohongji", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"]
 
-VERSE_BOOKS = {"yinshuici"}
+VERSE_BOOKS = {"yinshuici", "taoyuanmingji"}
 
 
 def read(path):
@@ -75,7 +75,8 @@ def prepare(books=None):
                     gloss = [t.strip() for t in data.get("译", [])]
                     if gloss:
                         assert len(gloss) == n and all(t and not any(c in t for c in "¦\r\n|") for t in gloss), (book, slug, i, j, n, len(gloss))
-                        lines.append(f"原：{original} || {'¦'.join(gloss)}")
+                        gv = "诗" if book in VERSE_BOOKS and j >= sec.get("verse_from", 0) else "原"      # 诗行居中，仍逐句悬浮白话
+                        lines.append(f"{gv}：{original} || {'¦'.join(gloss)}")
                         done += n
                     else:
                         verse = book in VERSE_BOOKS and j >= sec.get("verse_from", 0)      # 词集：词的每一阕按诗显示（居中），小序仍作原文段
