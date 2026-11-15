@@ -58,6 +58,7 @@ footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:cente
 .vols .ok a{color:var(--accent)} .vols .todo{opacity:.55}
 
 /* 阅读页：左侧目录独立滚动，正文保持原有阅读宽度。 */
+.reading-layout.solo{display:block;max-width:760px}
 .reading-layout{max-width:1100px;display:grid;grid-template-columns:240px minmax(0,760px);gap:32px;align-items:start}
 .reading-content{min-width:0;grid-column:2}
 .toc{position:fixed;left:max(16px,calc((100vw - 1068px)/2));top:54px;max-height:calc(100dvh - 70px);overflow-y:auto;
@@ -67,7 +68,7 @@ footer{color:var(--muted);font-size:13px;padding:32px 16px 48px;text-align:cente
 .toc ol{margin:8px 0;padding-left:0;line-height:1.8;list-style:none}
 .toc li{padding:3px 0}
 .toc a{display:block;overflow-wrap:anywhere}
-body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:1100px;padding-left:288px}
+body:has(.reading-layout:not(.solo)) header.top,body:has(.reading-layout:not(.solo))>footer{max-width:1100px;padding-left:288px}
 @media (max-width:800px){
   .reading-layout{display:block;max-width:760px}
   body:has(.reading-layout) header.top,body:has(.reading-layout)>footer{max-width:760px;padding-left:16px}
@@ -149,6 +150,7 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 .sdi .cp{color:var(--accent);font-weight:600;letter-spacing:.05em}
 
 /* 白话小说：正文直读，首行缩进 */
+.v.dr.poem.cen{text-align:center!important;text-indent:0!important;margin:.7em auto;max-width:min(100%,650px)}
 .v.nv.poem{text-align:center!important;text-indent:0!important;margin:.7em auto;max-width:min(100%,650px)}
 .nv{margin:.9em 0;text-indent:2em!important;font-size:1.06em;line-height:2}
 

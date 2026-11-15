@@ -1,5 +1,6 @@
 """Typeset Taohuashan using the witness paragraph and line boundaries."""
 from prepare_sanyan import ROOT, load
+import page_notes
 
 SLUG = "taohuashan"
 
@@ -19,6 +20,7 @@ def main():
         target.parent.mkdir(parents=True, exist_ok=True)
         body = "".join(f"{kind}：{text}\n" for kind, text in chapter_rows(p))
         target.write_text(f"# {p['title']}\n" + body, encoding="utf8")
+        page_notes.apply_page(SLUG, p["slug"])          # 有注释稿的页：写入题解与注释
 
 
 if __name__ == "__main__":

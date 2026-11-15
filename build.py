@@ -1563,15 +1563,15 @@ POETRY = {
     "xiyangji": _orig_spec("xiyangji", "三宝太监西洋记通俗演义", "［明］罗懋登"),
     "beisongzhizhuan": {**_orig_spec("beisongzhizhuan", "北宋志传", "［明］熊大木（旧题）"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
     "canxuanwudaishi": _orig_spec("canxuanwudaishi", "残唐五代史演义传", "［明］罗贯中（旧题）"),
-    "chanzhenyishi": _orig_spec("chanzhenyishi", "禅真逸史", "［明］清溪道人"),
+    "chanzhenyishi": {**_orig_spec("chanzhenyishi", "禅真逸史", "［明］清溪道人"), "center_poems": True},
     "jiandengxinhua": _notes_spec("jiandengxinhua", "剪灯新话", "［明］瞿佑"),
     "jiandengyuhua": _notes_spec("jiandengyuhua", "剪灯余话", "［明］李昌祺"),
     "shidiantou": _orig_spec("shidiantou", "石点头", "［明］天然痴叟"),
     "xihuerji": _orig_spec("xihuerji", "西湖二集", "［明］周楫"),
     "xingshiyan": {**_orig_spec("xingshiyan", "型世言", "［明］陆人龙"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
     "qingshi": _notes_spec("qingshi", "情史", "［明］冯梦龙"),
-    "gujintangai": _notes_spec("gujintangai", "古今谭概", "［明］冯梦龙"),
-    "jiaohongji": _orig_spec("jiaohongji", "娇红记", "［明］孟称舜"),
+    "gujintangai": _notes_spec("gujintangai", "古今笑", "［明］冯梦龙"),
+    "jiaohongji": _notes_spec("jiaohongji", "娇红记", "［明］孟称舜"),
     "xingshiyinyuan": _notes_spec("xingshiyinyuan", "醒世姻缘传", "［清］西周生"),
     "qiludeng": _texts_spec("qiludeng", "歧路灯", "［清］李绿园", groups=True),
     "lvyexianzong": _orig_spec("lvyexianzong", "绿野仙踪", "［清］李百川"),
@@ -1822,7 +1822,7 @@ BOOK_INTRO = {
     "xihuerji": "明周楫所作拟话本小说集，三十四卷，多写杭州与西湖一带的历史传说与人物故事。",
     "xingshiyan": "明陆人龙所作拟话本小说集，四十回，全称《峥霄馆评定通俗演义型世言》，是“三言二拍”之外重要的明末话本集。",
     "qingshi": "明冯梦龙编的笔记小说集，二十四卷，分类汇录历代男女之情的故事，以“情”立论。",
-    "gujintangai": "明冯梦龙编的笑话与谐谑故事集，三十六部，分类汇录古今奇闻轶事与笑谈。",
+    "gujintangai": "明冯梦龙编的笑话与谐谑故事集，三十六部，分类汇录古今奇闻轶事与笑谈。此书原名《古今谭概》（又作《古今谭槩》），后人嫌其名不够俏皮、实为笑府，改题《古今笑》，清初又有《古今笑史》之称，实为同一部书。本站正文取自维基文库《古今谭槩》各部；序文取自维基文库《古今笑》，维基文库对两者是否为不同版本尚存疑。",
     "jiaohongji": "明孟称舜所作传奇，写申纯与王娇娘的爱情悲剧。",
     "xingshiyinyuan": "清西周生所作长篇世情小说，一百回，写两世因果与夫妇家庭的恩怨，使用大量山东方言。",
     "qiludeng": "清李绿园所作长篇小说，一百零八回，写谭绍闻堕落又悔改的家世故事，多用中州方言，是家训小说的代表。",
@@ -2080,12 +2080,12 @@ def parse_poems(paths):
 
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
 # 姑妄言：行内批语【…】
-GUJIN_COMMENT = re.compile(r"(〔[^〕]*〕)")      # 古今谭概：各部小序“〔子犹曰：……〕”
+GUJIN_COMMENT = re.compile(r"(〔[^〕]*〕)")      # 古今笑（原名古今谭概）：各部小序“〔子犹曰：……〕”
 GUWANG_BATCH = re.compile(r"(【[^】]*】)")
 # 花月痕：〔曲牌〕、（科白）以及“《金缕曲》一阕云”式的词牌
 HUAYUE_DRAMA = re.compile(r"(〔[^〕]*〕|\([^()]*\)|（[^（）]*）|《[^》]{2,6}》(?=词?一?[阕首]|词云|词曰))")
@@ -2311,8 +2311,8 @@ def build_poetry(bslug, spec):
                     anchors, chunk_notes = anchor_notes([ch["o"]], ch["notes"])
                 at = [a[1] for a in anchors if a is not None]
                 tail = sum(1 for a in anchors if a is None)
-                is_p = ch.get("verse") or bool(bslug == "huayuehen" and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
-                poem = " poem" if is_p else ""
+                is_p = ch.get("verse") or bool(bslug in ("huayuehen", "chanzhenyishi") and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
+                poem = (" poem cen" if bslug == "taohuashan" else " poem") if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
                     runs = split_poem_runs(ch["o"]) if spec.get("center_poems") and not poem else None
@@ -2429,6 +2429,8 @@ def build_poetry(bslug, spec):
             toc = (f'<details class="toc side" open data-cur="{"index" if single else slug}.html"><summary>总目录</summary><ul></ul>'
                    f'<template>{sub}</template><noscript><p><a href="index.html">全书目录</a></p></noscript></details>'
                    '<script src="toc.js"></script>')
+            if single and not sub:      # 全书只有一页、页内又无小目录：左侧不放只有一条的总目录
+                toc = ""
         elif secs:
             tocs = [(k, s) for k, s in enumerate(secs, 1) if not (s["title"] == title and not s["chunks"])]
             numeric = sum(1 for _k, s in tocs if s["title"].isdigit()) * 2 > len(tocs)
@@ -2481,7 +2483,7 @@ def build_poetry(bslug, spec):
 {head}
 {f'<p class="hint">{hint}</p>' if hint else ""}
 </header>
-<main class="reading-layout">
+<main class="reading-layout{"" if toc else " solo"}">
 {toc}
 <div class="reading-content">
 {chr(10).join(body_secs)}

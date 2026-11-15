@@ -1,6 +1,6 @@
 # 六十种曲、剪灯新话、剪灯余话、花月痕、醒世姻缘传、姑妄言：只写注释（不写白话）
 
-BOOK 为 liushizhongqu、jiandengxinhua、jiandengyuhua、huayuehen、xingshiyinyuan、guwangyan、fengshenyanyi、dongzhoulieguozhi、sanxiawuyi、qingshi、gujintangai 之一。批次见 `sources/BOOK/job_batches.json` 第 K 项（从 0 数起），每项是若干作业 `[页slug, 起始节, 结束节, 字数]`（结束节不含）。
+BOOK 为 liushizhongqu、jiandengxinhua、jiandengyuhua、huayuehen、xingshiyinyuan、guwangyan、fengshenyanyi、dongzhoulieguozhi、sanxiawuyi、qingshi、gujintangai、jiaohongji 之一。批次见 `sources/BOOK/job_batches.json` 第 K 项（从 0 数起），每项是若干作业 `[页slug, 起始节, 结束节, 字数]`（结束节不含）。
 
 - 先读 `tools/annotation_guide.md`，但**不写白话**：每个段落只写 `"注"`，`"译"` 一律给 `[]`；每节必写 `"题解"`。
 - 每个作业：`python3 tools/show_texts.py BOOK 页slug 起始节 结束节` 看原文与分段；用 Write 写 `sources/BOOK/annotations/<页slug>__<起始节>.json`，再 `python3 tools/check_job.py BOOK 页slug 起始节 结束节` 须输出 OK。
@@ -20,4 +20,5 @@ BOOK 为 liushizhongqu、jiandengxinhua、jiandengyuhua、huayuehen、xingshiyin
 - **东周列国志**（历史演义，一回一页一节）：每约 200 字至少一条。重点注春秋战国人物、国名、地名（今地有把握才写）、官制礼制、盟会战役；与《左传》《史记》《国语》《战国策》对应处点明出处，演义与史实出入处点明；诗赞、评语里的用典。
 - **三侠五义**（公案侠义小说，一回一页一节）：每约 200 字至少一条。重点注宋代官制与司法（开封府、包公故事）、江湖行话与兵器、北方口语方言、饮食器物风俗、地名，点明小说与正史（包拯、仁宗朝）的出入。
 - **情史**（文言笔记小说，一页一卷，卷内每条故事为一节，每节题为人名或事目）：每约 120 字至少一条。重点注人物所出史书与笔记（点明出处与异文）、典故、诗词出处、官制地名、风俗；原文中的“情史氏曰”“子犹曰”（评语）也要注。
-- **古今谭概**（文言笑话集，一页一部，部内每条为一节）：每约 120 字至少一条。重点注人物、官制、科举、典故与双关谐音（点明笑点所在）、方言口语、诗词；评语“子犹曰”“外史氏曰”也要注。
+- **古今笑**（原名古今谭概，BOOK=gujintangai；文言笑话集，一页一部，部内每条为一节；页 x1 是序文，含《叙谭概》《题〈古今笑〉》《古今笑史序》《自叙》四篇，一页四节）：每约 120 字至少一条。重点注人物、官制、科举、典故与双关谐音（点明笑点所在）、方言口语、诗词；评语“子犹曰”“外史氏曰”也要注。
+- **娇红记**（明代文言传奇小说，一页一节，2 万余字，中夹大量诗词书牍）：每约 120 字至少一条。重点注：人名地名官制、宋代背景（宣和）、典故与诗词出处、书信骈语用事、民俗与丧葬礼仪；诗词曲词要点明用典。本作业只有一节，请分块生成后合并。
