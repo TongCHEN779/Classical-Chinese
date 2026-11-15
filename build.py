@@ -2369,6 +2369,8 @@ def build_poetry(bslug, spec):
                           parts.append(f'<p class="v {"wl-n" if is_name else "wl-d"}">{spans}</p>')
                       else:
                           parts.append(f'<p class="v">{spans}</p>')
+                if lead_tune and not held_cn_open:          # 连排的科白/曲牌/曲词放进同一个块，与上下段分开
+                    parts.insert(chunk_start, '<div class="tchain">')
                 num = 1 + (len(held_cn) if (lead_tune or follow_tune) and held_cn_open else 0)      # 连排各段视作一段，注号接着排
                 for k in range(chunk_start, len(parts)):
                     parts[k], num = number_marks(parts[k], num)
@@ -2379,6 +2381,7 @@ def build_poetry(bslug, spec):
                 elif follow_tune:
                     chunk_notes = held_cn + list(chunk_notes)
                     held_cn, held_cn_open = [], False
+                    parts.append("</div>")
                 if chunk_notes:
                     uid += 1
                     if src_marks:     # 原站注释前的圆圈数字改为纯数字序号（无序号的补充说明不编号）
@@ -2392,6 +2395,8 @@ def build_poetry(bslug, spec):
                         f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                         f'<span class="caret">▸</span> 注释（{len(chunk_notes)}）</button><ul class="notes plain{" src" if src_marks else ""}" id="n{uid}" hidden>{li}</ul>')
                     parts.append(note_html)
+            if held_cn_open:
+                parts.append("</div>")
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         single = bool(spec.get("single_page")) and len(pages) == 1     # 只有一个目录条目：书的首页直接就是阅读页

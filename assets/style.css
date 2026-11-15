@@ -142,6 +142,7 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 .dr .cp{color:var(--accent);font-weight:600;letter-spacing:.05em}
 .v.ping,.nv.ping{color:var(--muted);font-size:.954em;line-height:1.9;margin:.5em 0}
 .gwy .sd{color:var(--muted);font-size:.9em}
+.tchain{margin:.9em 0;line-height:2}
 .v.nv.tl,.v.nv.tn{display:inline;text-indent:0!important;margin:0}
 .v.nv.tn.poem{text-align:left!important;max-width:none}
 .sdi .sd{color:var(--muted);font-size:.9em}
