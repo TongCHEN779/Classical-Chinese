@@ -1564,6 +1564,7 @@ POETRY = {
     "soushenji": _texts_spec("soushenji", "搜神记", "［东晋］干宝"),
     "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
     "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
+    "yeyuqiudenglu": _texts_spec("yeyuqiudenglu", "夜雨秋灯录", "［清］宣鼎"),
     "taoyuanmingji": _texts_spec("taoyuanmingji", "陶渊明集", "［东晋］陶渊明"),
     "xibaoxuan": _texts_spec("xibaoxuan", "惜抱轩文集", "［清］姚鼐"),
     "suiyuanshihua": _texts_spec("suiyuanshihua", "随园诗话", "［清］袁枚"),
@@ -1830,6 +1831,7 @@ BOOK_INTRO = {
     "xijingzaji": "旧题刘歆撰、葛洪辑，六卷，杂记西汉长安宫苑、器物、风俗与人物轶事，是魏晋笔记小说的早期名篇。",
     "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
     "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
+    "yeyuqiudenglu": "清末宣鼎（字瘦梅）所撰的文言笔记小说集，八卷，每卷十余篇，记仙佛、鬼怪、侠女、孝烈与世情异闻，文笔清峭，是晚清继《聊斋志异》之后的重要志怪小说；本站收正集八卷及蔡尔康序、作者自序，续录另是一书，未收。",
     "taoyuanmingji": "东晋陶渊明（陶潜）的诗文集，七卷，收四言诗、五言诗、赋辞、《桃花源记》《五柳先生传》等记传赞述与疏祭文，诗风平淡自然，多写田园、饮酒、咏怀与出处之志；本站所据为维基文库《陶渊明集》，含萧统序。",
     "xibaoxuan": "清代桐城派古文大家姚鼐（号惜抱）的文集，十六卷，收论、考、序跋、书、赠序、寿序、策问、传、碑文、墓志铭、记、赋、祭文，文章雅洁，是桐城派“义理、考据、辞章”之说的典范。",
     "suiyuanshihua": "清代袁枚的诗话，十六卷，另有补遗十卷，随笔体，品评古今诗人诗句，标举“性灵”，兼记诗坛掌故与闺秀、方外诗作，是清代影响最大的诗话之一。",
@@ -2409,7 +2411,7 @@ def build_poetry(bslug, spec):
                           o2 = o2[1:]
                       shown = drama_html(o2, dstyle) if dstyle else poem_orig(o2)      # 戏曲：科白、曲牌在悬浮句内也显示为小字灰体
                       if year_bold and pi_ == 0:
-                          shown = YEAR_LEAD.sub(lambda m_: f"<b>{m_.group(1)}</b>", shown, count=1)
+                          shown = YEAR_LEAD.sub(lambda m_: f'<b class="yr">{m_.group(1)}</b>', shown, count=1)
                       spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{ed_html(shown, ed_state)}</span>'
                   if pairs:
                       spans += NOTE_MARK * tail
@@ -2603,6 +2605,7 @@ INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["搜"] = "S"
 INITIAL["全"] = "Q"
+INITIAL.setdefault("夜", "Y")
 INITIAL.setdefault("陶", "T")
 INITIAL.setdefault("惜", "X")
 INITIAL.setdefault("随", "S")
