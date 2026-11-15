@@ -22,7 +22,7 @@ TEXT_BOOKS = ["shipin", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", 
               "diwangshiji", "yuejueshu", "chunqiufanlu", "wuyuechunqiu", "youyangzazu", "wenxindiaolong", "guanzi", "liexianzhuan",
               "zhenguanzhengyao", "tiangongkaiwu", "dutongjianlun", "rizhilu",
               "xingmingguizhi", "canglangshihua", "baiyuzhaicihua", "qiminyaoshu", "wulinjiushi", "wenshitongyi", "kunxuejiwen",
-              "wulixiaoshi", "changwuzhi", "yuanye", "ershierzhaji", "hanshu", "houhanshu", "sanguozhi", "jinshu", "shiliuguochunqiu", "nanshi", "beishi", "xijingzaji", "soushenji", "xuanguailu", "xuxuanguailu", "xiaolinguangji", "yulizi", "suiyuanshihua", "xibaoxuan", "taoyuanmingji", "yeyuqiudenglu", "oubeishihua", "yinshuici", "soushenhouji", "bowuzhi", "shenxianzhuan", "yunlinyishi", "qiludeng", "haishanghualiezhuan", "jiaohongji", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"]
+              "wulixiaoshi", "changwuzhi", "yuanye", "ershierzhaji", "hanshu", "houhanshu", "sanguozhi", "jinshu", "shiliuguochunqiu", "nanshi", "beishi", "xijingzaji", "soushenji", "xuanguailu", "xuxuanguailu", "xiaolinguangji", "yulizi", "suiyuanshihua", "xibaoxuan", "taoyuanmingji", "yeyuqiudenglu", "lihongzhangzhuan", "oubeishihua", "yinshuici", "soushenhouji", "bowuzhi", "shenxianzhuan", "yunlinyishi", "qiludeng", "haishanghualiezhuan", "jiaohongji", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"]
 
 VERSE_BOOKS = {"yinshuici", "taoyuanmingji"}
 
@@ -60,6 +60,8 @@ def prepare(books=None):
         for ch in read(path):
             slug = ch["slug"]
             draft = load_draft(book, slug, len(ch["sections"]))
+            tfile = ROOT / "sources" / book / "tables.json"      # 网页表格：{页: [{after: 插在第几段之后, cap, head, rows}]}，只在单节页里用
+            tables = read(tfile).get(slug, []) if tfile.exists() else []
             lines, total, done = [], 0, 0
             for i, sec in enumerate(ch["sections"]):
                 item = draft[i] or {}
@@ -85,6 +87,13 @@ def prepare(books=None):
                         assert "：" in x and x.split("：", 1)[0].strip(), (book, slug, i, j, x)
                         assert x.split("：", 1)[0].strip() in original, (book, slug, i, j, "注的词语不在原文里", x[:20])
                         lines.append(f"注：{x.strip()}")
+                    for t in tables:
+                        if t["after"] == j:
+                            if t.get("cap"):
+                                lines.append(f"表题：{t['cap']}")
+                            if t.get("head"):
+                                lines.append("表头：" + "｜".join(t["head"]))
+                            lines.extend("表行：" + "｜".join(r) for r in t["rows"])
             target = ROOT / "src" / book / slug / "01.txt"
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text("\n".join(lines) + "\n", encoding="utf8")

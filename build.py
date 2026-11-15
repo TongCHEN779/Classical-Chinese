@@ -1565,6 +1565,7 @@ POETRY = {
     "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
     "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
     "yeyuqiudenglu": _texts_spec("yeyuqiudenglu", "夜雨秋灯录", "［清］宣鼎"),
+    "lihongzhangzhuan": _texts_spec("lihongzhangzhuan", "李鸿章传", "［清］梁启超"),
     "taoyuanmingji": _texts_spec("taoyuanmingji", "陶渊明集", "［东晋］陶渊明"),
     "xibaoxuan": _texts_spec("xibaoxuan", "惜抱轩文集", "［清］姚鼐"),
     "suiyuanshihua": _texts_spec("suiyuanshihua", "随园诗话", "［清］袁枚"),
@@ -1831,6 +1832,7 @@ BOOK_INTRO = {
     "xijingzaji": "旧题刘歆撰、葛洪辑，六卷，杂记西汉长安宫苑、器物、风俗与人物轶事，是魏晋笔记小说的早期名篇。",
     "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
     "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
+    "lihongzhangzhuan": "梁启超于 1901 年李鸿章去世后在日本写成的传记，又名《中国四十年来大事记》，序例加十二章，兼叙李鸿章的兵事、洋务、外交与末路，夹叙夹议；本站收全书，附注释。",
     "yeyuqiudenglu": "清末宣鼎（字瘦梅）所撰的文言笔记小说集，八卷，每卷十余篇，记仙佛、鬼怪、侠女、孝烈与世情异闻，文笔清峭，是晚清继《聊斋志异》之后的重要志怪小说；本站收正集八卷及蔡尔康序、作者自序，续录另是一书，未收。",
     "taoyuanmingji": "东晋陶渊明（陶潜）的诗文集，七卷，收四言诗、五言诗、赋辞、《桃花源记》《五柳先生传》等记传赞述与疏祭文，诗风平淡自然，多写田园、饮酒、咏怀与出处之志；本站所据为维基文库《陶渊明集》，含萧统序。",
     "xibaoxuan": "清代桐城派古文大家姚鼐（号惜抱）的文集，十六卷，收论、考、序跋、书、赠序、寿序、策问、传、碑文、墓志铭、记、赋、祭文，文章雅洁，是桐城派“义理、考据、辞章”之说的典范。",
@@ -2121,8 +2123,9 @@ def parse_poems(paths):
                 else:
                     cur["chunks"].append({"tbl": {"cap": "", "head": ln[3:].split("｜"), "rows": []}, "notes": []})
             elif ln.startswith("表行："):
-                tbls = [c for c in cur["chunks"] if "tbl" in c]
-                tbls[-1]["tbl"]["rows"].append(ln[3:].split("｜"))
+                if not cur["chunks"] or "tbl" not in cur["chunks"][-1]:      # 无题无头的表：由首行表行开表
+                    cur["chunks"].append({"tbl": {"cap": "", "head": None, "rows": []}, "notes": []})
+                cur["chunks"][-1]["tbl"]["rows"].append(ln[3:].split("｜"))
             elif ln.startswith("注原："):      # 照录原站注释：一行一条，不再拆分
                 cur["chunks"][-1]["notes"].append(ln[3:].strip())
             elif ln.startswith("注："):
@@ -2135,7 +2138,7 @@ def parse_poems(paths):
 YEAR_LEAD = re.compile(r"^((?:宋|金)?(?:徽宗|钦宗|高宗|孝宗|光宗|宁宗)?(?:宣和|靖康|建炎|绍兴|隆兴|乾道|淳熙|绍熙|庆元|嘉泰|开禧|嘉定)?(?:[一二三四五六七八九十]+|元)年(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]?)?)")      # 瓯北诗话·陆放翁年谱的纪年
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
