@@ -1555,8 +1555,8 @@ POETRY = {
     "kanqiannu": _texts_spec("kanqiannu", "看钱奴", "［元］郑廷玉"),
     "qiuhuxiqi": _texts_spec("qiuhuxiqi", "秋胡戏妻", "［元］石君宝"),
     "chenzhoudimi": _texts_spec("chenzhoudimi", "陈州粜米", "佚名"),
-    "fengshenyanyi": _orig_spec("fengshenyanyi", "封神演义", "［明］许仲琳（旧题）"),
-    "dongzhoulieguozhi": _orig_spec("dongzhoulieguozhi", "东周列国志", "［明］冯梦龙 原著，［清］蔡元放 改撰"),
+    "fengshenyanyi": _notes_spec("fengshenyanyi", "封神演义", "［明］许仲琳（旧题）"),
+    "dongzhoulieguozhi": _notes_spec("dongzhoulieguozhi", "东周列国志", "［明］冯梦龙 原著，［清］蔡元放 改撰"),
     "suitangyanyi": _orig_spec("suitangyanyi", "隋唐演义", "［清］褚人获"),
     "yingliezhuan": _orig_spec("yingliezhuan", "英烈传", "［明］佚名"),
     "yangjiafu": _orig_spec("yangjiafu", "杨家府演义", "［明］佚名"),
@@ -1569,8 +1569,8 @@ POETRY = {
     "shidiantou": _orig_spec("shidiantou", "石点头", "［明］天然痴叟"),
     "xihuerji": _orig_spec("xihuerji", "西湖二集", "［明］周楫"),
     "xingshiyan": {**_orig_spec("xingshiyan", "型世言", "［明］陆人龙"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
-    "qingshi": _orig_spec("qingshi", "情史", "［明］冯梦龙"),
-    "gujintangai": _orig_spec("gujintangai", "古今谭概", "［明］冯梦龙"),
+    "qingshi": _notes_spec("qingshi", "情史", "［明］冯梦龙"),
+    "gujintangai": _notes_spec("gujintangai", "古今谭概", "［明］冯梦龙"),
     "jiaohongji": _orig_spec("jiaohongji", "娇红记", "［明］孟称舜"),
     "xingshiyinyuan": _notes_spec("xingshiyinyuan", "醒世姻缘传", "［清］西周生"),
     "qiludeng": _texts_spec("qiludeng", "歧路灯", "［清］李绿园", groups=True),
@@ -1578,7 +1578,7 @@ POETRY = {
     "guwangyan": _notes_spec("guwangyan", "姑妄言", "［清］曹去晶"),
     "zibuyu": _orig_spec("zibuyu", "子不语", "［清］袁枚"),
     "xuzibuyu": _orig_spec("xuzibuyu", "续子不语", "［清］袁枚"),
-    "sanxiawuyi": _orig_spec("sanxiawuyi", "三侠五义", "［清］石玉昆"),
+    "sanxiawuyi": _notes_spec("sanxiawuyi", "三侠五义", "［清］石玉昆"),
     "xiaowuyi": _orig_spec("xiaowuyi", "小五义", "［清］石玉昆"),
     "shigongan": _orig_spec("shigongan", "施公案", "［清］佚名"),
     "ernvyingxiongzhuan": _orig_spec("ernvyingxiongzhuan", "儿女英雄传", "［清］文康"),
@@ -2075,7 +2075,7 @@ def parse_poems(paths):
 
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
@@ -2098,6 +2098,15 @@ def _lyric_like(o):
     """曲词：分句平均不超过 9 字。"""
     parts = [x for x in re.split(r"[，。！？；、]", o) if x]
     return len(o) >= 8 and len(parts) >= 3 and sum(map(len, parts)) / len(parts) <= 9
+
+
+def hyh_verse(o, prev_poem=False):
+    """花月痕：书中的诗多以“…”引出，首行带引号，通用的 is_poem 认不全。整段是五言或七言诗句（至少两句，或紧接在诗行之后）才居中。"""
+    t = o.strip().lstrip("“‘").rstrip("”’")
+    if not 5 <= len(t) <= 64 or re.search(r"[“”：（）〔〕]", t):
+        return False
+    clauses = [x for x in re.split(r"[，。！？；、]", t) if x]
+    return (len(clauses) >= 2 or prev_poem) and all(len(x) in (5, 7) for x in clauses)
 
 
 def is_poem(o, prev, prev_poem=False, nxt=""):
@@ -2268,6 +2277,7 @@ def build_poetry(bslug, spec):
                     f'<span class="caret">▸</span> 题解</button><div class="notes intro-box" id="n{uid}" hidden>{items}</div>')
             prev_o, prev_poem = "", False
             ed_state = [False]
+            held_notes = []
             chunks_ = sec["chunks"]
             for ci, ch in enumerate(chunks_):
                 if "tbl" in ch:
@@ -2277,9 +2287,11 @@ def build_poetry(bslug, spec):
                     parts.append(f'<pre class="source-diagram" style="max-width:100%;overflow-x:auto">{esc(ch["o"])}</pre>')
                     continue
                 chunk_start = len(parts)
+                lead_tune = bslug == "huayuehen" and bool(re.fullmatch(r"〔[^〕]*〕", ch["o"].strip()))
+                follow_tune = bslug == "huayuehen" and ci > 0 and "o" in chunks_[ci - 1] and bool(re.fullmatch(r"〔[^〕]*〕", chunks_[ci - 1]["o"].strip()))
                 pg = spec.get("ping_paras", {}).get(slug, 0)
                 pg = pg if isinstance(pg, list) else [0, pg]
-                pstyle = paragraph_style + (" ping" if pg[0] <= ci < pg[0] + pg[1] else "")      # 姑妄言：回前卷评，小字灰体
+                pstyle = paragraph_style + (" ping" if pg[0] <= ci < pg[0] + pg[1] else "") + (" tl" if lead_tune else " tn" if follow_tune else "")      # 花月痕：曲牌靠左，曲词接在其后      # 姑妄言：回前卷评，小字灰体
                 src_marks = bool(spec.get("source_markers"))
                 if src_marks:
                     anchors, chunk_notes = [], ch["notes"]
@@ -2287,7 +2299,7 @@ def build_poetry(bslug, spec):
                     anchors, chunk_notes = anchor_notes([ch["o"]], ch["notes"])
                 at = [a[1] for a in anchors if a is not None]
                 tail = sum(1 for a in anchors if a is None)
-                is_p = ch.get("verse") or bool(spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
+                is_p = ch.get("verse") or bool(bslug == "huayuehen" and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
                 poem = " poem" if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
@@ -2357,9 +2369,16 @@ def build_poetry(bslug, spec):
                             li += f'<li data-n="{circ_num(m.group(1))}">{esc(n[m.end():])}</li>' if m else f"<li>{esc(n)}</li>"
                     else:
                         li = "".join(f"<li>{esc(n)}</li>" for n in chunk_notes)
-                    parts.append(
+                    note_html = (
                         f'<button class="note-btn" type="button" aria-expanded="false" aria-controls="n{uid}">'
                         f'<span class="caret">▸</span> 注释（{len(chunk_notes)}）</button><ul class="notes plain{" src" if src_marks else ""}" id="n{uid}" hidden>{li}</ul>')
+                    if lead_tune:          # 曲牌后紧接曲词：曲牌的注释挪到曲词之后，免得隔开
+                        held_notes.append(note_html)
+                    else:
+                        parts.append(note_html)
+                if held_notes and not lead_tune:
+                    parts.extend(held_notes)
+                    held_notes.clear()
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         single = bool(spec.get("single_page")) and len(pages) == 1     # 只有一个目录条目：书的首页直接就是阅读页
