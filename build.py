@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """把 src/ 下的标注文本生成静态网页。用法：python3 build.py"""
 import collections
+import hashlib
 import html
 import json
 import re
@@ -952,6 +953,7 @@ def _classics_spec():
             "section_sources": {e["slug"]: {sec["title"]: dict(sec["source"], author=sec.get("author", e["author"]))
                                            for sec in e["sections"]} for e in entries if "sections" in e},
             "page_redirects": {old: target for e in entries for old, target in e.get("redirects", {}).items()},
+            "page_options": {e["slug"]: {"footer": e["footer"]} for e in entries if "footer" in e},
             "page_sources": {e["slug"]: e["source"] for e in entries if "source" in e},
             "index_footer": f"已整理{len(entries)}项（《过秦论》上中下合列一项，《永州八记》八篇合列一项，三苏《六国论》合列一项）。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
 
@@ -2347,7 +2349,7 @@ def build_poetry(bslug, spec):
                 at = [a[1] for a in anchors if a is not None]
                 tail = sum(1 for a in anchors if a is None)
                 is_p = ch.get("verse") or bool(bslug in ("huayuehen", "chanzhenyishi") and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
-                poem = (" poem cen" if bslug == "taohuashan" else " poem") if is_p else ""
+                poem = (" poem cen" if bslug in ("taohuashan", "classic_list") else " poem") if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
                     runs = split_poem_runs(ch["o"]) if spec.get("center_poems") and not poem else None
@@ -2457,13 +2459,14 @@ def build_poetry(bslug, spec):
                 else:
                     status = "阙" if sl in spec.get("missing_slugs", ()) else "亡" if sl in spec.get("lost_slugs", ()) else "待整理"
                     data.append(["x", f"{tt}（{status}）"])
+            toc_ver = hashlib.md5(json.dumps(data, ensure_ascii=False).encode("utf8")).hexdigest()[:8]      # 目录内容变了就换一个版本号，避免浏览器沿用旧 toc.js
             if bslug not in toc_written:
                 toc_written.add(bslug)
                 (BOOKS_OUT / bslug).mkdir(parents=True, exist_ok=True)
                 (BOOKS_OUT / bslug / "toc.js").write_text(TOC_JS.replace("__DATA__", json.dumps(data, ensure_ascii=False, separators=(",", ":"))), encoding="utf8")
             toc = (f'<details class="toc side" open data-cur="{"index" if single else slug}.html"><summary>总目录</summary><ul></ul>'
                    f'<template>{sub}</template><noscript><p><a href="index.html">全书目录</a></p></noscript></details>'
-                   '<script src="toc.js"></script>')
+                   f'<script src="toc.js?v={toc_ver}"></script>')
             if single and not sub:      # 全书只有一页、页内又无小目录：左侧不放只有一条的总目录
                 toc = ""
         elif secs:

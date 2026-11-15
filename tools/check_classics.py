@@ -78,12 +78,13 @@ def main():
         slug = entry['slug']
         sections = build.parse_poems(sorted((ROOT / 'src/classic_list' / slug).glob('*.txt')))
         assert len(sections) == (len(entry['sections']) if 'sections' in entry else 3 if slug == 'guoqin' else 1), (slug, 'missing section')
-        assert all(s['intro'] for s in sections), (slug, 'missing introduction')
+        orig_only = {r['title'] for r in entry.get('sections', []) if r.get('original_only')}      # 只附原文的节（如《长恨歌传》篇末的《长恨歌》）
+        assert all(s['intro'] for s in sections if s['title'] not in orig_only), (slug, 'missing introduction')
         if slug == 'guoqin':
             assert [s['title'] for s in sections] == ['上篇', '中篇', '下篇']
-        chunks = [c for s in sections for c in s['chunks']]
+        chunks = [c for s in sections for c in s['chunks'] if s['title'] not in orig_only]
         assert chunks and any(c['notes'] for c in chunks), (slug, 'missing notes')
-        original = ''.join(c['o'].replace('/', '') for c in chunks)
+        original = ''.join(c['o'].replace('/', '') for s in sections for c in s['chunks'])
         provenance = entry['provenance']
         assert hashlib.sha256(original.encode()).hexdigest() == provenance['original_sha256'], (slug, 'original digest')
         if provenance['kind'] == 'grouped_witness':
@@ -141,7 +142,7 @@ def main():
                 assert html.find(id=target.split('#', 1)[1])
         actual = [(span.get_text(), span['data-t']) for span in html.select('.s[data-t]')]
         assert actual == pairs, (slug, 'HTML differs from sentence pairs')
-        assert not html.select('p.v.nv, p.v.dr'), (slug, 'untranslated passage')
+        assert not html.select('p.v.nv, p.v.dr:not(.poem)'), (slug, 'untranslated passage')
         assert all(len(build.split_sents(o)) == 1 for o, t in actual), (slug, 'multi-sentence hover')
         for button in html.select('.note-btn'):
             target = html.find(id=button['aria-controls'])
