@@ -2085,6 +2085,7 @@ STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
 # 姑妄言：行内批语【…】
+GUJIN_COMMENT = re.compile(r"(〔[^〕]*〕)")      # 古今谭概：各部小序“〔子犹曰：……〕”
 GUWANG_BATCH = re.compile(r"(【[^】]*】)")
 # 花月痕：〔曲牌〕、（科白）以及“《金缕曲》一阕云”式的词牌
 HUAYUE_DRAMA = re.compile(r"(〔[^〕]*〕|\([^()]*\)|（[^（）]*）|《[^》]{2,6}》(?=词?一?[阕首]|词云|词曰))")
@@ -2174,14 +2175,14 @@ def sent_units(text):
 
 def drama_html(text, stage_book=None):
     out = []
-    pattern = GUWANG_BATCH if stage_book == "guwangyan" else HUAYUE_DRAMA if stage_book == "huayuehen" else PEACH_DRAMA if stage_book in PAREN_STAGE_BOOKS else {"erke": ERKE_STAGE}.get(stage_book, DRAMA)
+    pattern = GUJIN_COMMENT if stage_book == "gujintangai" else GUWANG_BATCH if stage_book == "guwangyan" else HUAYUE_DRAMA if stage_book == "huayuehen" else PEACH_DRAMA if stage_book in PAREN_STAGE_BOOKS else {"erke": ERKE_STAGE}.get(stage_book, DRAMA)
     for i, part in enumerate(pattern.split(text)):
         if i % 2:
             label = part[1:-1].strip()
             tune = part.startswith("【") or (stage_book == "erke" and part.startswith("〔"))
             if stage_book == "xixiangji" and tune:
                 tune = not (WESTERN_STAGE.search(label) or label in WESTERN_STAGE_EXTRA)
-            elif stage_book == "guwangyan":      # 行内批语整体为小字灰体
+            elif stage_book in ("guwangyan", "gujintangai"):      # 行内批语、小序整体为小字灰体
                 tune = False
             elif stage_book == "huayuehen":      # 书中穿插的曲：〔曲牌〕为曲牌，（…）为科白
                 tune = part.startswith(("〔", "《"))
@@ -2189,6 +2190,8 @@ def drama_html(text, stage_book=None):
                 tune = tune or label in PEACH_TUNES or bool(re.fullmatch(r"鼓词[一二三四五六七八九十]+", label))
             cls = "cp" if tune else "sd"
             label_html = esc(part).replace("/", "<br>") if stage_book else esc(part)
+            if stage_book == "gujintangai":      # 〔〕留在文本里（保持原文），但不显示
+                label_html = f'<i class="br">〔</i>{esc(part[1:-1])}<i class="br">〕</i>'
             out.append(f'<span class="{cls}">{label_html}</span>')
         else:
             out.append(esc(part).replace("/", "<br>"))
@@ -2248,8 +2251,8 @@ def build_poetry(bslug, spec):
         stage_book = bslug if bslug in STAGE_BOOKS and (bslug != "taohuashan" or slug.startswith("p")) else None
         if (bslug, slug) == ("erke", "040"):
             stage_book = bslug
-        paragraph_style = "dr" if stage_book or not spec.get("prose") else ({"huayuehen": "nv sdi", "guwangyan": "nv gwy"}.get(bslug, "nv"))
-        dstyle = stage_book or (bslug if bslug in ("huayuehen", "guwangyan") else None)      # 花月痕：正文里穿插的曲牌、科白也显示为小字灰体
+        paragraph_style = "dr" if stage_book or not spec.get("prose") else ({"huayuehen": "nv sdi", "guwangyan": "nv gwy", "gujintangai": "nv sdi"}.get(bslug, "nv"))
+        dstyle = stage_book or (bslug if bslug in ("huayuehen", "guwangyan", "gujintangai") else None)      # 花月痕：正文里穿插的曲牌、科白也显示为小字灰体
         nchunk = sum(1 for s in secs for c in s["chunks"] if "tbl" not in c)
         total += len(secs) if spec.get("count_entries") else nchunk
         cnt = (spec["count"](secs) if "count" in spec else
@@ -2264,7 +2267,7 @@ def build_poetry(bslug, spec):
         for si, sec in enumerate(secs, 1):
             parts = [f'<section class="entry" id="e{si}">']
             multi = len(secs) > 1
-            parts.append(f'<h3>{ed_plain(esc(sec["title"]))}</h3>' if multi and sec["title"] != title else "")
+            parts.append(f'<h3>{ed_plain(esc(sec["title"]))}</h3>' if multi and sec["title"] != title and not (bslug == "gujintangai" and sec["title"] == "正文") else "")
             entry_source = spec.get("section_sources", {}).get(slug, {}).get(sec["title"])
             if entry_source:
                 label = esc(entry_source.get("label", "维基文库"))
@@ -2283,6 +2286,7 @@ def build_poetry(bslug, spec):
             prev_o, prev_poem = "", False
             ed_state = [False]
             held_cn = []          # 花月痕：曲牌段的注释，并入随后的曲词段
+            held_cn_open = False   # 正处在“科白/曲牌 → 曲词”的连排中
             chunks_ = sec["chunks"]
             for ci, ch in enumerate(chunks_):
                 if "tbl" in ch:
@@ -2292,8 +2296,11 @@ def build_poetry(bslug, spec):
                     parts.append(f'<pre class="source-diagram" style="max-width:100%;overflow-x:auto">{esc(ch["o"])}</pre>')
                     continue
                 chunk_start = len(parts)
-                lead_tune = bslug == "huayuehen" and bool(re.fullmatch(r"〔[^〕]*〕", ch["o"].strip()))
-                follow_tune = bslug == "huayuehen" and ci > 0 and "o" in chunks_[ci - 1] and bool(re.fullmatch(r"〔[^〕]*〕", chunks_[ci - 1]["o"].strip()))
+                _tune = lambda c: "o" in c and bool(re.fullmatch(r"〔[^〕]*〕", c["o"].strip()))
+                _stage = lambda c: "o" in c and bool(re.fullmatch(r"（[^）]*）", c["o"].strip()))
+                # 花月痕：（科白）+〔曲牌〕+曲词 视作同一行：前两者靠左、曲词接其后，注号连续、注释合成一组
+                lead_tune = bslug == "huayuehen" and (_tune(ch) or (_stage(ch) and ci + 1 < len(chunks_) and _tune(chunks_[ci + 1])))
+                follow_tune = bslug == "huayuehen" and not lead_tune and bool(held_cn_open)
                 pg = spec.get("ping_paras", {}).get(slug, 0)
                 pg = pg if isinstance(pg, list) else [0, pg]
                 pstyle = paragraph_style + (" ping" if pg[0] <= ci < pg[0] + pg[1] else "") + (" tl" if lead_tune else " tn" if follow_tune else "")      # 花月痕：曲牌靠左，曲词接在其后      # 姑妄言：回前卷评，小字灰体
@@ -2362,15 +2369,16 @@ def build_poetry(bslug, spec):
                           parts.append(f'<p class="v {"wl-n" if is_name else "wl-d"}">{spans}</p>')
                       else:
                           parts.append(f'<p class="v">{spans}</p>')
-                num = 1 + (len(held_cn) if follow_tune else 0)      # 曲牌与曲词视作一段，注号接着排
+                num = 1 + (len(held_cn) if (lead_tune or follow_tune) and held_cn_open else 0)      # 连排各段视作一段，注号接着排
                 for k in range(chunk_start, len(parts)):
                     parts[k], num = number_marks(parts[k], num)
                 if lead_tune:
-                    held_cn = list(chunk_notes)
+                    held_cn = held_cn + list(chunk_notes)
+                    held_cn_open = True
                     chunk_notes = []
-                elif follow_tune and held_cn:
+                elif follow_tune:
                     chunk_notes = held_cn + list(chunk_notes)
-                    held_cn = []
+                    held_cn, held_cn_open = [], False
                 if chunk_notes:
                     uid += 1
                     if src_marks:     # 原站注释前的圆圈数字改为纯数字序号（无序号的补充说明不编号）
@@ -2397,7 +2405,7 @@ def build_poetry(bslug, spec):
                 elif sl == slug:
                     if spec.get("sub_toc", True):
                         labels = spec.get("sub_labels", {}).get(slug)
-                        subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and (not s_["chunks"] or spec.get("skip_lead_toc")))]
+                        subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and (not s_["chunks"] or spec.get("skip_lead_toc"))) and not (bslug == "gujintangai" and s_["title"] == "正文")]
                         numeric = sum(1 for _k, s_ in subs if s_["title"].isdigit()) * 2 > len(subs)
                         if len(subs) >= 2:
                             sub = (f'<ul class="sub{" num" if numeric else ""}">' + "".join(
