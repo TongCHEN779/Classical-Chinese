@@ -22,7 +22,9 @@ TEXT_BOOKS = ["shipin", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", 
               "diwangshiji", "yuejueshu", "chunqiufanlu", "wuyuechunqiu", "youyangzazu", "wenxindiaolong", "guanzi", "liexianzhuan",
               "zhenguanzhengyao", "tiangongkaiwu", "dutongjianlun", "rizhilu",
               "xingmingguizhi", "canglangshihua", "baiyuzhaicihua", "qiminyaoshu", "wulinjiushi", "wenshitongyi", "kunxuejiwen",
-              "wulixiaoshi", "changwuzhi", "yuanye", "ershierzhaji", "hanshu", "houhanshu", "sanguozhi", "jinshu", "shiliuguochunqiu", "nanshi", "beishi", "xijingzaji", "soushenji", "xuanguailu", "xuxuanguailu", "xiaolinguangji", "yulizi", "soushenhouji", "bowuzhi", "shenxianzhuan", "yunlinyishi", "qiludeng", "haishanghualiezhuan", "jiaohongji", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"]
+              "wulixiaoshi", "changwuzhi", "yuanye", "ershierzhaji", "hanshu", "houhanshu", "sanguozhi", "jinshu", "shiliuguochunqiu", "nanshi", "beishi", "xijingzaji", "soushenji", "xuanguailu", "xuxuanguailu", "xiaolinguangji", "yulizi", "suiyuanshihua", "oubeishihua", "yinshuici", "soushenhouji", "bowuzhi", "shenxianzhuan", "yunlinyishi", "qiludeng", "haishanghualiezhuan", "jiaohongji", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"]
+
+VERSE_BOOKS = {"yinshuici"}
 
 
 def read(path):
@@ -76,7 +78,8 @@ def prepare(books=None):
                         lines.append(f"原：{original} || {'¦'.join(gloss)}")
                         done += n
                     else:
-                        lines.append(f"原：{original}")
+                        verse = book in VERSE_BOOKS and j >= sec.get("verse_from", 0)      # 词集：词的每一阕按诗显示（居中），小序仍作原文段
+                        lines.append(f"{'诗' if verse else '原'}：{original}")
                     for x in data.get("注", []):
                         assert "：" in x and x.split("：", 1)[0].strip(), (book, slug, i, j, x)
                         assert x.split("：", 1)[0].strip() in original, (book, slug, i, j, "注的词语不在原文里", x[:20])

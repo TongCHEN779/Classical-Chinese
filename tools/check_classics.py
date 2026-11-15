@@ -82,7 +82,7 @@ def main():
         assert all(s['intro'] for s in sections if s['title'] not in orig_only), (slug, 'missing introduction')
         if slug == 'guoqin':
             assert [s['title'] for s in sections] == ['上篇', '中篇', '下篇']
-        chunks = [c for s in sections for c in s['chunks'] if s['title'] not in orig_only]
+        chunks = [c for s in sections for c in s['chunks']]
         assert chunks and any(c['notes'] for c in chunks), (slug, 'missing notes')
         original = ''.join(c['o'].replace('/', '') for s in sections for c in s['chunks'])
         provenance = entry['provenance']
@@ -123,6 +123,8 @@ def main():
             check_witness(slug, provenance, original)
         pairs = []
         for chunk in chunks:
+            if chunk.get('verse') and not chunk['t']:      # 只附原文的诗行（如《长恨歌传》篇末的《长恨歌》）
+                continue
             assert chunk['t'], (slug, 'missing translation')
             originals = build.split_sents(chunk['o'])
             translations = chunk['t'].split('¦')

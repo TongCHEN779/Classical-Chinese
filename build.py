@@ -58,7 +58,7 @@ def esc(s):
 
 GLOSS = re.compile(r"(（[^（）]*）|\([^()]*\))")
 
-SENT = re.compile(r"[^。！？；]*[。！？；]+(?:[”’」』）]*[。！？；]+)*[”’」』）]*|[^。！？；]+$")
+SENT = re.compile(r"[^。！？；\u2063]*[。！？；\u2063]+(?:[”’」』）]*[。！？；]+)*[”’」』）]*|[^。！？；\u2063]+$")      # \u2063（不可见分隔符，不显示）可加在逗号后，让该处也断成一个悬浮句
 
 
 def split_sents(s):
@@ -954,6 +954,7 @@ def _classics_spec():
                                            for sec in e["sections"]} for e in entries if "sections" in e},
             "page_redirects": {old: target for e in entries for old, target in e.get("redirects", {}).items()},
             "page_options": {e["slug"]: {"footer": e["footer"]} for e in entries if "footer" in e},
+            "page_tails": {e["slug"]: e["tail"] for e in entries if "tail" in e},
             "page_sources": {e["slug"]: e["source"] for e in entries if "source" in e},
             "index_footer": f"已整理{len(entries)}项（《过秦论》上中下合列一项，《永州八记》八篇合列一项，三苏《六国论》合列一项）。底本疑误保留加注；赵秉忠策文所据电子本尚待影像校勘。"}
 
@@ -1563,6 +1564,9 @@ POETRY = {
     "soushenji": _texts_spec("soushenji", "搜神记", "［东晋］干宝"),
     "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
     "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
+    "suiyuanshihua": _texts_spec("suiyuanshihua", "随园诗话", "［清］袁枚"),
+    "oubeishihua": _texts_spec("oubeishihua", "瓯北诗话", "［清］赵翼"),
+    "yinshuici": _notes_spec("yinshuici", "饮水词", "［清］纳兰性德"),
     "bowuzhi": _texts_spec("bowuzhi", "博物志", "［晋］张华（旧题）"),
     "shenxianzhuan": _texts_spec("shenxianzhuan", "神仙传", "［晋］葛洪"),
     "soushenhouji": _texts_spec("soushenhouji", "搜神后记", "［东晋］陶潜（旧题）"),
@@ -1824,6 +1828,9 @@ BOOK_INTRO = {
     "xijingzaji": "旧题刘歆撰、葛洪辑，六卷，杂记西汉长安宫苑、器物、风俗与人物轶事，是魏晋笔记小说的早期名篇。",
     "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
     "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
+    "suiyuanshihua": "清代袁枚的诗话，十六卷，另有补遗十卷，随笔体，品评古今诗人诗句，标举“性灵”，兼记诗坛掌故与闺秀、方外诗作，是清代影响最大的诗话之一。",
+    "oubeishihua": "清代赵翼的诗话，十二卷，专论李白、杜甫、韩愈、白居易、苏轼、陆游、元好问、高启、吴伟业、查慎行等诸家诗，评其才力、境界与源流得失，兼有年谱考订，议论平允。",
+    "yinshuici": "清代词人纳兰性德（成德，字容若）的词集，原名《饮水词》，后世通行本多题《纳兰词》；本站所据为维基文库《饮水词》，收词一百三十一首，多写悼亡、边塞扈从与友朋身世之感，以真挚哀婉著称。",
     "bowuzhi": "旧题西晋张华撰的博物类笔记，十卷，分地理、人民、物产、异闻、方术、传说等门类，兼收山川异物与神仙怪事；今本是后人缀辑而成，已非张华原书。",
     "shenxianzhuan": "东晋葛洪撰的神仙传记集，十卷，今存八十四位仙人事迹，自广成子、彭祖至董奉、封君达，补刘向《列仙传》之所未载，是道教神仙传说的重要来源。",
     "soushenhouji": "旧题东晋陶潜撰的志怪小说集，十卷加补遗一卷，记丁令威化鹤、桃花源、剡县赤城等仙异、鬼怪与报应故事，文字简古；署名陶潜实为托名，《四库提要》称其仍是六朝遗书。",
@@ -2088,7 +2095,11 @@ def parse_poems(paths):
                     o, t = ln[2:].strip(), None
                 cur["chunks"].append({"o": o, "t": t, "notes": []})
             elif ln.startswith("诗："):
-                cur["chunks"].append({"o": ln[2:].strip(), "t": None, "verse": True, "notes": []})
+                if "||" in ln:      # 带白话的诗行：居中显示，逐句悬浮白话
+                    o, t = (x.strip() for x in ln[2:].split("||", 1))
+                    cur["chunks"].append({"o": o, "t": t, "verse": True, "notes": []})
+                else:
+                    cur["chunks"].append({"o": ln[2:].strip(), "t": None, "verse": True, "notes": []})
             elif ln.startswith("图题："):
                 cur["chunks"].append({"o": ln[3:], "t": None, "diagram": True, "notes": []})
             elif ln.startswith("图行："):
@@ -2117,7 +2128,7 @@ def parse_poems(paths):
 
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
@@ -2349,7 +2360,7 @@ def build_poetry(bslug, spec):
                 at = [a[1] for a in anchors if a is not None]
                 tail = sum(1 for a in anchors if a is None)
                 is_p = ch.get("verse") or bool(bslug in ("huayuehen", "chanzhenyishi") and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
-                poem = (" poem cen" if bslug in ("taohuashan", "classic_list") else " poem") if is_p else ""
+                poem = (" poem cen" if bslug in ("taohuashan", "classic_list", "yinshuici") else " poem") if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
                     runs = split_poem_runs(ch["o"]) if spec.get("center_poems") and not poem else None
@@ -2404,6 +2415,8 @@ def build_poetry(bslug, spec):
                       elif bslug in ("wulinjiushi", "changwuzhi", "yuanye"):      # 地名/条目名单列一行加粗，其后的解释缩进，分清层次
                           is_name = len(ch["o"]) <= (12 if bslug == "wulinjiushi" else 14) and not re.search(r"[。，；：！？“”]" if bslug != "wulinjiushi" else r"[。，；：！？、（“]", ch["o"])
                           parts.append(f'<p class="v {"wl-n" if is_name else "wl-d"}">{spans}</p>')
+                      elif ch.get("verse"):
+                          parts.append(f'<p class="v {pstyle}{poem}">{spans}</p>')
                       else:
                           parts.append(f'<p class="v">{spans}</p>')
                 if lead_tune and not held_cn_open:          # 连排的科白/曲牌/曲词放进同一个块，与上下段分开
@@ -2434,6 +2447,8 @@ def build_poetry(bslug, spec):
                     parts.append(note_html)
             if held_cn_open:
                 parts.append("</div>")
+            if si == len(secs) and spec.get("page_tails", {}).get(slug):      # 页末另起一行的附注/链接
+                parts.append(spec["page_tails"][slug])
             parts.append("</section>")
             body_secs.append("\n".join(x for x in parts if x))
         single = bool(spec.get("single_page")) and len(pages) == 1     # 只有一个目录条目：书的首页直接就是阅读页
@@ -2580,6 +2595,9 @@ INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["搜"] = "S"
 INITIAL["全"] = "Q"
+INITIAL.setdefault("随", "S")
+INITIAL.setdefault("瓯", "O")
+INITIAL.setdefault("饮", "Y")
 INITIAL.setdefault("博", "B")
 INITIAL.setdefault("神", "S")
 INITIAL.setdefault("搜", "S")
