@@ -1561,6 +1561,8 @@ POETRY = {
     "soushenji": _texts_spec("soushenji", "搜神记", "［东晋］干宝"),
     "xuanguailu": _texts_spec("xuanguailu", "玄怪录", "［唐］牛僧孺"),
     "xuxuanguailu": _texts_spec("xuxuanguailu", "续玄怪录", "［唐］李复言"),
+    "bowuzhi": _texts_spec("bowuzhi", "博物志", "［晋］张华（旧题）"),
+    "shenxianzhuan": _texts_spec("shenxianzhuan", "神仙传", "［晋］葛洪"),
     "soushenhouji": _texts_spec("soushenhouji", "搜神后记", "［东晋］陶潜（旧题）"),
     "yulizi": _texts_spec("yulizi", "郁离子", "［明］刘基"),
     "xiaolinguangji": _texts_spec("xiaolinguangji", "笑林广记", "［清］游戏主人"),
@@ -1820,6 +1822,8 @@ BOOK_INTRO = {
     "xijingzaji": "旧题刘歆撰、葛洪辑，六卷，杂记西汉长安宫苑、器物、风俗与人物轶事，是魏晋笔记小说的早期名篇。",
     "soushenji": "东晋干宝所撰志怪小说，今本二十卷，辑录神仙方术、灵异感应、妖祥梦卜、鬼魂精怪与因果报应故事，对后世小说影响深远。",
     "xuanguailu": "唐牛僧孺所撰传奇小说集，今本五卷（末卷为辑佚），每篇一事，多写人神鬼怪相遇与梦幻奇遇，情节完整，是唐代传奇的代表作之一。",
+    "bowuzhi": "旧题西晋张华撰的博物类笔记，十卷，分地理、人民、物产、异闻、方术、传说等门类，兼收山川异物与神仙怪事；今本是后人缀辑而成，已非张华原书。",
+    "shenxianzhuan": "东晋葛洪撰的神仙传记集，十卷，今存八十四位仙人事迹，自广成子、彭祖至董奉、封君达，补刘向《列仙传》之所未载，是道教神仙传说的重要来源。",
     "soushenhouji": "旧题东晋陶潜撰的志怪小说集，十卷加补遗一卷，记丁令威化鹤、桃花源、剡县赤城等仙异、鬼怪与报应故事，文字简古；署名陶潜实为托名，《四库提要》称其仍是六朝遗书。",
     "yulizi": "元末明初刘基所作的寓言集，借“郁离子”之口谈治国用人、世态人情，多用短小寓言，是明代寓言的代表作；本站所据为明成化六年《诚意伯文集》石刻本，序与一百八十则。",
     "xiaolinguangji": "清代笑话集，署游戏主人编，分古艳、腐流、术业、形体、殊禀、闺风、世讳、僧道、贪吝、贫窭、讥刺、谬误十二部，每则短小，多取材于明清民间笑谈。",
@@ -2573,6 +2577,8 @@ INITIAL["脂"] = "Z"
 INITIAL["十"] = "S"
 INITIAL["搜"] = "S"
 INITIAL["全"] = "Q"
+INITIAL.setdefault("博", "B")
+INITIAL.setdefault("神", "S")
 INITIAL.setdefault("搜", "S")
 INITIAL.setdefault("郁", "Y")
 INITIAL.setdefault("笑", "X")
