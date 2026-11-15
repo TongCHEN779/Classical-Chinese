@@ -1,6 +1,6 @@
 # 六十种曲、剪灯新话、剪灯余话、花月痕、醒世姻缘传、姑妄言：只写注释（不写白话）
 
-BOOK 为 liushizhongqu、jiandengxinhua、jiandengyuhua、huayuehen、xingshiyinyuan、guwangyan、fengshenyanyi、dongzhoulieguozhi、sanxiawuyi、qingshi、gujintangai、jiaohongji 之一。批次见 `sources/BOOK/job_batches.json` 第 K 项（从 0 数起），每项是若干作业 `[页slug, 起始节, 结束节, 字数]`（结束节不含）。
+BOOK 为 liushizhongqu、jiandengxinhua、jiandengyuhua、huayuehen、xingshiyinyuan、guwangyan、fengshenyanyi、dongzhoulieguozhi、sanxiawuyi、qingshi、gujintangai、jiaohongji、yujiaoli、pingshanlengyan、haoqiuzhuan、wudaishipinghua 之一。批次见 `sources/BOOK/job_batches.json` 第 K 项（从 0 数起），每项是若干作业 `[页slug, 起始节, 结束节, 字数]`（结束节不含）。
 
 - 先读 `tools/annotation_guide.md`，但**不写白话**：每个段落只写 `"注"`，`"译"` 一律给 `[]`；每节必写 `"题解"`。
 - 每个作业：`python3 tools/show_texts.py BOOK 页slug 起始节 结束节` 看原文与分段；用 Write 写 `sources/BOOK/annotations/<页slug>__<起始节>.json`，再 `python3 tools/check_job.py BOOK 页slug 起始节 结束节` 须输出 OK。
@@ -22,3 +22,5 @@ BOOK 为 liushizhongqu、jiandengxinhua、jiandengyuhua、huayuehen、xingshiyin
 - **情史**（文言笔记小说，一页一卷，卷内每条故事为一节，每节题为人名或事目）：每约 120 字至少一条。重点注人物所出史书与笔记（点明出处与异文）、典故、诗词出处、官制地名、风俗；原文中的“情史氏曰”“子犹曰”（评语）也要注。
 - **古今笑**（原名古今谭概，BOOK=gujintangai；文言笑话集，一页一部，部内每条为一节；页 x1 是序文，含《叙谭概》《题〈古今笑〉》《古今笑史序》《自叙》四篇，一页四节）：每约 120 字至少一条。重点注人物、官制、科举、典故与双关谐音（点明笑点所在）、方言口语、诗词；评语“子犹曰”“外史氏曰”也要注。
 - **娇红记**（明代文言传奇小说，一页一节，2 万余字，中夹大量诗词书牍）：每约 120 字至少一条。重点注：人名地名官制、宋代背景（宣和）、典故与诗词出处、书信骈语用事、民俗与丧葬礼仪；诗词曲词要点明用典。本作业只有一节，请分块生成后合并。
+- **玉娇梨、平山冷燕、好逑传**（清初才子佳人小说，一回一页一节）：每约 200 字至少一条。重点注：明代（书中托言明朝）官制科举（翰林、御史、太常、按院、会试殿试、荐举）、风俗礼仪与婚嫁习俗、诗词用典与出处（书中诗词多，须逐首点明用典与题意）、书信奏疏骈语用事、方言口语与器物；点明书中虚构的官职与史实的出入。玉娇梨取自 ctext 的未校电子本，字句偶有讹误，疑误字照录，注里写“疑当作”。
+- **新编五代史平话**（宋代讲史话本，一卷一页一节，每卷约 1–2 万字）：每约 200 字至少一条。重点注：五代史事人物（梁唐晋汉周君臣、藩镇、契丹），与《旧五代史》《新五代史》《资治通鉴》对照处点明出入；宋代口语词汇与话本套语（“话说”“且说”“诗曰”）、官制地名、诗词（话本中的“诗曰”）用典；周史两卷取自 ctext 未校本，疑误字照录写“疑当作”。每卷一节很长，请分块生成后合并。

@@ -762,5 +762,12 @@
   "url": "https://zh.wikisource.org/zh-hans/%E6%B5%B7%E4%B8%8A%E8%8A%B1%E5%88%97%E5%82%B3",
   "text": "《海上花列传》是最著名的吴语小说。全书由文言和苏白写成，对话皆用苏州方言是该书的鲜明特点。",
   "verbatim": true
+ },
+ "wudaishipinghua": {
+  "wikisource_title": "新編五代史平話",
+  "revision": "2258859",
+  "url": "https://zh.wikisource.org/zh-hans/%E6%96%B0%E7%B7%A8%E4%BA%94%E4%BB%A3%E5%8F%B2%E5%B9%B3%E8%A9%B1",
+  "text": "《新编五代史平话》为五代梁、唐、晋、汉、周之历史故事，各代史话各上下两卷，共10卷，惟梁史、汉史卷下，今已散轶，此外部分内文亦有残缺。",
+  "verbatim": true
  }
 }
