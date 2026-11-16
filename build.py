@@ -2287,6 +2287,30 @@ ul.appendChild(li);});})();
 """
 
 
+def overlay_notes(bslug, slug, secs):
+    """白话小说（只有原文的几十部）的自撰题解与注释：sources/<书>/notes/<页>.json = {"题解": "…", "注": ["词语：解释", ...]}。
+    每条注挂到原文里含该词语的段（从上一条所在段起往后找，找不到再从头找），所以注的顺序最好随原文顺序。"""
+    f = ROOT / "sources" / bslug / "notes" / f"{slug}.json"
+    if not f.exists():
+        return
+    d = json.loads(f.read_text(encoding="utf8"))
+    guide = [g.strip() for g in d.get("题解", "").split("\n") if g.strip()]
+    assert guide, (bslug, slug, "缺题解")
+    secs[0]["intro"].extend(guide)
+    chunks = [c for s_ in secs for c in s_["chunks"] if "tbl" not in c]
+    i = 0
+    for note in d.get("注", []):
+        word = note.split("：", 1)[0].strip() if "：" in note else ""
+        assert word, (bslug, slug, "注格式应为“词语：解释”", note[:20])
+        for k in list(range(i, len(chunks))) + list(range(0, i)):
+            if word in chunks[k]["o"].replace("/", ""):
+                chunks[k]["notes"].extend(split_notes(note.strip()))
+                i = k
+                break
+        else:
+            raise AssertionError((bslug, slug, "注的词语不在本回原文里", word))
+
+
 def build_poetry(bslug, spec):
     r = "../../"
     base = SRC / bslug
@@ -2310,6 +2334,7 @@ def build_poetry(bslug, spec):
             cells.append(f'<li class="todo"><span>{esc(title)}<small>{status}</small></span></li>')
             continue
         secs = parse_poems(files)
+        overlay_notes(bslug, slug, secs)
         stage_book = bslug if bslug in STAGE_BOOKS and (bslug != "taohuashan" or slug.startswith("p")) else None
         if (bslug, slug) == ("erke", "040"):
             stage_book = bslug
