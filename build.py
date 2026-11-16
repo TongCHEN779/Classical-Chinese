@@ -1568,8 +1568,8 @@ POETRY = {
     "lihongzhangzhuan": _texts_spec("lihongzhangzhuan", "李鸿章传", "［清］梁启超"),
     "taoyuanmingji": _texts_spec("taoyuanmingji", "陶渊明集", "［东晋］陶渊明"),
     "xibaoxuan": _texts_spec("xibaoxuan", "惜抱轩文集", "［清］姚鼐"),
-    "guwenciliezuan": _texts_spec("guwenciliezuan", "古文辞类纂", "［清］姚鼐"),
-    "liuchaowenjie": _texts_spec("liuchaowenjie", "六朝文絜", "［清］许梿"),
+    "guwenciliezuan": dict(_texts_spec("guwenciliezuan", "古文辞类纂", "［清］姚鼐"), sub_single=True),
+    "liuchaowenjie": dict(_texts_spec("liuchaowenjie", "六朝文絜", "［清］许梿"), sub_single=True),
     "suiyuanshihua": _texts_spec("suiyuanshihua", "随园诗话", "［清］袁枚"),
     "oubeishihua": _texts_spec("oubeishihua", "瓯北诗话", "［清］赵翼"),
     "yinshuici": _notes_spec("yinshuici", "饮水词", "［清］纳兰性德"),
@@ -2328,7 +2328,7 @@ def build_poetry(bslug, spec):
         body_secs = []
         for si, sec in enumerate(secs, 1):
             parts = [f'<section class="entry" id="e{si}">']
-            multi = len(secs) > 1
+            multi = len(secs) > 1 or bool(spec.get("sub_single"))      # 选本：卷内只有一篇也列子目录条目、正文加子标题
             parts.append(f'<h3>{ed_plain(esc(sec["title"]))}</h3>' if multi and sec["title"] != title and not (bslug == "gujintangai" and sec["title"] == "正文") else "")
             entry_source = spec.get("section_sources", {}).get(slug, {}).get(sec["title"])
             if entry_source:
@@ -2479,9 +2479,9 @@ def build_poetry(bslug, spec):
                 elif sl == slug:
                     if spec.get("sub_toc", True):
                         labels = spec.get("sub_labels", {}).get(slug)
-                        subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and (not s_["chunks"] or spec.get("skip_lead_toc"))) and not (bslug == "gujintangai" and s_["title"] == "正文")]
+                        subs = [(k, s_) for k, s_ in enumerate(secs, 1) if not (s_["title"] == title and (not s_["chunks"] or spec.get("skip_lead_toc"))) and not (bslug == "gujintangai" and s_["title"] == "正文") and not (spec.get("sub_single") and s_["title"] == title)]
                         numeric = sum(1 for _k, s_ in subs if s_["title"].isdigit()) * 2 > len(subs)
-                        if len(subs) >= 2:
+                        if len(subs) >= (1 if spec.get("sub_single") else 2):
                             sub = (f'<ul class="sub{" num" if numeric else ""}">' + "".join(
                                 f'<li><a href="#e{k}">{ed_plain(esc(labels[k - 1] if labels and k - 1 < len(labels) else s_["title"]))}</a></li>'
                                 for k, s_ in subs) + "</ul>")

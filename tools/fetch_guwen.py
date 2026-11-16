@@ -147,7 +147,8 @@ def main():
                 entries.append({"vol": n, "entry": label, "source": src, "wiki": e["wiki"], "frag": e["frag"], "revision": e["revision"], "heads": e["heads"]})
                 print(book, vt, label, len(e["paras"]), flush=True)
             if secs:
-                out.append({"slug": f"j{n:02d}", "title": vt, "url": "https://zh.wikisource.org/zh-hans/" + quote(cfg["wiki"]), "revision": str(mainp["revid"]), "heads": [], "sections": secs})
+                page_title = vt
+                out.append({"slug": f"j{n:02d}", "title": page_title, "url": "https://zh.wikisource.org/zh-hans/" + quote(cfg["wiki"]), "revision": str(mainp["revid"]), "heads": [], "sections": secs})
         d = ROOT / "sources" / book
         d.mkdir(parents=True, exist_ok=True)
         (d / "chapters.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
