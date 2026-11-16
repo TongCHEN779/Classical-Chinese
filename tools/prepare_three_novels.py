@@ -66,6 +66,33 @@ def source_lines(book, blocks, slug=None):
         yield f'{"诗" if marked else "原"}：{text}'
 
 
+def overlay(book, slug, lines):
+    """把自撰的题解、注释并入某回：annotations/<回>.json = {"题解": "…", "段落": [{"注": ["词语：解释", ...]}, ...]}，段落与该回的原/诗段一一对应。"""
+    f = ROOT / "sources" / book / "annotations" / f"{slug}.json"
+    if not f.exists():
+        return lines, ""
+    d = json.loads(f.read_text(encoding="utf8"))
+    groups = []
+    for ln in lines:
+        if ln[:2] in ("原：", "诗："):
+            groups.append([ln])
+        else:
+            groups[-1].append(ln)
+    ps = d["段落"]
+    assert len(ps) == len(groups), (book, slug, len(ps), len(groups))
+    out = []
+    for g, p in zip(groups, ps):
+        text = g[0][2:].replace("/", "")
+        out.extend(g)
+        for x in p.get("注", []):
+            w = x.split("：", 1)[0].strip() if "：" in x else ""
+            assert w and w in text, (book, slug, "注的词语不在本段原文", x[:24])
+            out.append("注：" + x.strip())
+    guide = [g.strip() for g in d.get("题解", "").split("\n") if g.strip()]
+    assert guide, (book, slug, "缺题解")
+    return out, "".join(f"题解：{g}\n" for g in guide)
+
+
 def main():
     for book, count in COUNTS.items():
         chapters = json.loads((ROOT / "sources" / book / "chapters.json").read_text())
@@ -74,8 +101,12 @@ def main():
             assert p["revision"] and p["blocks"]
             dest = ROOT / "src" / book / p["slug"] / "01.txt"
             dest.parent.mkdir(parents=True, exist_ok=True)
-            body = "\n".join(source_lines(book, p["blocks"], p["slug"])) + "\n"
-            dest.write_text(f'# {p["title"]}\n{body}', encoding="utf8")
+            lines = list(source_lines(book, p["blocks"], p["slug"]))
+            head = ""
+            if book == "guanchang":      # 自撰题解与注释：sources/guanchang/annotations/<回>.json，叠在原站自带的注上
+                lines, head = overlay(book, p["slug"], lines)
+            body = "\n".join(lines) + "\n"
+            dest.write_text(f'# {p["title"]}\n{head}{body}', encoding="utf8")
 
 if __name__ == "__main__":
     main()
