@@ -2011,6 +2011,55 @@ for _k, _v in POETRY.items():
 TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")],
                "hongloumeng": [("早期抄本", "../shitouji/index.html", "脂砚斋重评石头记")],
                "shitouji": [("数字化本", "../hongloumeng/index.html", "红楼梦")]}
+# 前作与续作互相链接：简介最后各加一行
+for _a, _an, _b, _bn in [("zibuyu", "子不语", "xuzibuyu", "续子不语"),
+                         ("guanchang", "官场现形记", "houguanchang", "后官场现形记"),
+                         ("guanchang", "官场现形记", "zuijinguanchang", "最近官场秘密史"),
+                         ("ershinian", "二十年目睹之怪现状", "jinshehui", "近世社会龌龊史"),
+                         ("sanxiawuyi", "三侠五义", "xiaowuyi", "小五义"),
+                         ("laocanyouji", "老残游记", "laocanyoujixuji", "老残游记续集"),
+                         ("xuanguailu", "玄怪录", "xuxuanguailu", "续玄怪录"),
+                         ("soushenji", "搜神记", "soushenhouji", "搜神后记"),
+                         ("jiandengxinhua", "剪灯新话", "jiandengyuhua", "剪灯余话"),
+                         ("chuke", "初刻拍案惊奇", "erke", "二刻拍案惊奇")]:
+    TIJIE_LINKS.setdefault(_a, []).append(("续作", f"../{_b}/index.html", _bn))
+    TIJIE_LINKS.setdefault(_b, []).append(("前作", f"../{_a}/index.html", _an))
+
+# 三言二拍：首页一个条目，点进去分三言、二拍，再进去才是各书
+COLLECTIONS = {
+    "sanyanerpai": {
+        "title": "三言二拍", "author": "［明］冯梦龙、凌濛初", "children": ["sanyan", "erpai"],
+        "home_intro": "明代最有影响的两组白话短篇小说集：冯梦龙的“三言”（喻世明言、警世通言、醒世恒言）和凌濛初的“二拍”（初刻拍案惊奇、二刻拍案惊奇），共五部。",
+        "intro": "“三言”“二拍”是明代后期白话短篇小说的两座高峰。冯梦龙搜集整理宋元以来的话本和拟话本，编成“三言”；凌濛初受其启发，自己取材编撰，成了“二拍”。五部书合起来一共收近二百篇故事，写市井商贾、婚姻情爱、官府断案、僧道神怪、侠义友情和因果报应，是了解明代社会与通俗文学的重要材料。下面分“三言”“二拍”两组。",
+    },
+    "sanyan": {
+        "title": "三言", "author": "［明］冯梦龙辑", "parent": "sanyanerpai",
+        "children": ["yushimingyan", "jingshitongyan", "xingshihengyan"],
+        "card_intro": "冯梦龙编的三部白话短篇小说集：喻世明言、警世通言、醒世恒言，各四十卷（篇），多据宋元话本加工而成。",
+        "intro": "“三言”是明末冯梦龙（1574—1646，字犹龙，苏州长洲人）编纂的三部白话短篇小说集：《喻世明言》（原名《古今小说》）、《警世通言》、《醒世恒言》，先后在天启年间刊行，每部四十卷，各收一篇故事，共一百二十篇。其中一部分是宋元旧话本，一部分经过冯梦龙的修订加工，另有一些是他自己的拟作。书名里的“明”“通”“恒”三字，取的是“明言、通言、恒言”，都带有劝世醒世的用意，题材遍及爱情婚姻、商贾世情、官府断案、友情义侠和神仙鬼怪。",
+    },
+    "erpai": {
+        "title": "二拍", "author": "［明］凌濛初", "parent": "sanyanerpai",
+        "children": ["chuke", "erke"],
+        "card_intro": "凌濛初编撰的两部白话短篇小说集：初刻拍案惊奇、二刻拍案惊奇，各四十卷，故事多取材于笔记史传与时事。",
+        "intro": "“二拍”是明末凌濛初（1580—1644，字初成，号即空观主人，浙江乌程人）仿“三言”编撰的两部白话短篇小说集：《初刻拍案惊奇》刊于崇祯元年（1628）前后，《二刻拍案惊奇》继之，各四十卷。与“三言”多改编旧话本不同，二拍的大部分故事是凌濛初从笔记、史传和时事里取材自撰的，多写商人发迹、婚姻诉讼和僧道奇闻。《二刻》最后一卷是杂剧，不是小说。",
+    },
+}
+COLLECTION_OF = {}
+for _k, _c in COLLECTIONS.items():
+    for _child in _c["children"]:
+        COLLECTION_OF[_child] = _k
+PARENT_CRUMBS = {}      # 书 slug → 它上面各层目录的面包屑（从外到内）；href 相对于 books/<书>/
+for _child, _k in COLLECTION_OF.items():
+    _chain, _cur = [], _k
+    while _cur:
+        _chain.append((COLLECTIONS[_cur]["title"], f"../{_cur}/index.html"))
+        _cur = COLLECTIONS[_cur].get("parent")
+    PARENT_CRUMBS[_child] = _chain[::-1]
+
+
+def top_crumbs(slug, r):
+    return [("古典文库", r + "index.html")] + PARENT_CRUMBS.get(slug, [])
 
 
 INTRO_ED_CASE = {"mutianzi"}
@@ -2566,12 +2615,12 @@ def build_poetry(bslug, spec):
         hint = page_options.get("reading_hint", spec.get("reading_hint", hint))
         foot_text = page_options.get("footer", foot_text)
         if single:
-            head = f"""{crumbs([("古典文库", r + "index.html"), (btitle, None)])}
+            head = f"""{crumbs(top_crumbs(bslug, r) + [(btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
 {intro_html(bslug)}"""
             pager = ""
         else:
-            head = f"""{crumbs([("古典文库", r + "index.html"), (btitle, "index.html"), (title.replace("〈", "").replace("〉", ""), None)])}
+            head = f"""{crumbs(top_crumbs(bslug, r) + [(btitle, "index.html"), (title.replace("〈", "").replace("〉", ""), None)])}
 <h1>{title_h(title)}<small>{esc(btitle)}</small></h1>"""
             pager = f'<nav class="pager">{prev_h}<a href="index.html">目录</a>{next_h}</nav>'
         body = f"""<header class="top">
@@ -2610,7 +2659,7 @@ def build_poetry(bslug, spec):
         entry_empty = '<p class="search-empty" id="entry-empty" hidden>没有找到匹配的篇目，请换个关键词。</p>'
         entry_script = '<script src="../../assets/entry-search.js" defer></script>'
     body = f"""<header class="top">
-{crumbs([("古典文库", "../../index.html"), (btitle, None)])}
+{crumbs(top_crumbs(bslug, "../../") + [(btitle, None)])}
 <h1>{esc(btitle)}<small>{esc(spec["author"])}</small></h1>
 {intro_html(bslug)}
 </header>
@@ -2725,13 +2774,35 @@ INITIAL.update({"孽": "N", "商": "S", "廿": "N", "发": "F", "负": "F"})
 INITIAL.update({"官": "G", "初": "C", "二": "E", "九": "J"})
 
 
+def build_collection(slug):
+    """多级目录页（三言二拍 → 三言/二拍 → 各书）：简介 + 下一级条目的卡片。"""
+    c = COLLECTIONS[slug]
+    cards = []
+    for k in c["children"]:
+        if k in COLLECTIONS:
+            title, author, intro = COLLECTIONS[k]["title"], COLLECTIONS[k]["author"], COLLECTIONS[k]["card_intro"]
+        else:
+            title, author, intro = POETRY[k]["title"], POETRY[k]["author"], BOOK_INTRO[k]
+        cards.append(f'<li><a href="../{k}/index.html"><strong>{esc(title)}</strong><span>{esc(author)}</span><p>{esc(intro)}</p></a></li>')
+    body = f"""<header class="top">
+{crumbs([("古典文库", "../../index.html")] + PARENT_CRUMBS.get(slug, []) + [(c["title"], None)])}
+<h1>{esc(c["title"])}<small>{esc(c["author"])}</small></h1>
+<p class="intro">{esc(c["intro"])}</p>
+</header>
+<main><ul class="books">{"".join(cards)}</ul></main>
+<footer>本页简介为编者自撰。</footer>"""
+    (BOOKS_OUT / slug).mkdir(parents=True, exist_ok=True)
+    (BOOKS_OUT / slug / "index.html").write_text(page(c["title"], body, "../../"), encoding="utf8")
+
+
 def build_home():
     def card(href, b):
         first = b["title"][0]
         assert first in INITIAL, f"首页字母索引缺少“{first}”的拼音首字母（build.py INITIAL）"
         return (f'<li data-letter="{INITIAL[first]}"><a href="books/{href}/index.html"><strong>{esc(b["title"])}</strong>'
                 f'<span>{esc(b["author"])}</span><p>{esc(b["intro"])}</p></a></li>')
-    cards = "".join(card(b["slug"], b) for b in BOOKS) + "".join(card(k, v) for k, v in POETRY.items())
+    cards = ("".join(card(b["slug"], b) for b in BOOKS) + "".join(card(k, v) for k, v in POETRY.items() if k not in COLLECTION_OF)
+             + "".join(card(k, dict(c, intro=c["home_intro"])) for k, c in COLLECTIONS.items() if "parent" not in c))
     letters = "".join(f'<button type="button" class="letter" data-letter="{c}" aria-pressed="false">{c}</button>'
                       for c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
     body = f"""<header class="top"><h1>古典文库<small>文言典籍逐句对照白话，白话小说径读原文</small></h1></header>
@@ -2754,5 +2825,7 @@ if __name__ == "__main__":
         build_book(b)
     for _k, _v in POETRY.items():
         build_poetry(_k, _v)
+    for _k in COLLECTIONS:
+        build_collection(_k)
     build_home()
     print("done", dict(ANCHOR_STATS))
