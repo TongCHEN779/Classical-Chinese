@@ -1568,7 +1568,8 @@ POETRY = {
     "lihongzhangzhuan": _texts_spec("lihongzhangzhuan", "李鸿章传", "［清］梁启超"),
     "taoyuanmingji": _texts_spec("taoyuanmingji", "陶渊明集", "［东晋］陶渊明"),
     "xibaoxuan": _texts_spec("xibaoxuan", "惜抱轩文集", "［清］姚鼐"),
-    "guwenciliezuan": dict(_texts_spec("guwenciliezuan", "古文辞类纂", "［清］姚鼐"), sub_single=True),
+    "guwenciliezuan": dict(_texts_spec("guwenciliezuan", "古文辞类纂", "［清］姚鼐"), sub_single=True,
+                           index_footer="原文以维基文库为主，维基文库尚缺的篇目取自中国哲学书电子化计划（字符识别本，未校对）；各篇节名后括号注明作者。"),
     "liuchaowenjie": dict(_texts_spec("liuchaowenjie", "六朝文絜", "［清］许梿"), sub_single=True),
     "suiyuanshihua": _texts_spec("suiyuanshihua", "随园诗话", "［清］袁枚"),
     "oubeishihua": _texts_spec("oubeishihua", "瓯北诗话", "［清］赵翼"),
@@ -1603,7 +1604,8 @@ POETRY = {
     "xihuerji": _orig_spec("xihuerji", "西湖二集", "［明］周楫"),
     "xingshiyan": {**_orig_spec("xingshiyan", "型世言", "［明］陆人龙"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
     "qingshi": _notes_spec("qingshi", "情史", "［明］冯梦龙"),
-    "gujintangai": _notes_spec("gujintangai", "古今笑", "［明］冯梦龙"),
+    "gujintangai": dict(_notes_spec("gujintangai", "古今笑", "［明］冯梦龙"),
+                        index_footer="正文取自维基文库《古今谭槩》各部；序文取自维基文库《古今笑》，维基文库对两者是否为不同版本尚存疑。"),
     "jiaohongji": _notes_spec("jiaohongji", "娇红记", "［明］孟称舜"),
     "yujiaoli": _notes_spec("yujiaoli", "玉娇梨", "［清］荻岸散人"),
     "pingshanlengyan": _notes_spec("pingshanlengyan", "平山冷燕", "［清］荻岸山人"),
@@ -1837,7 +1839,7 @@ BOOK_INTRO = {
     "lihongzhangzhuan": "梁启超于 1901 年李鸿章去世后在日本写成的传记，又名《中国四十年来大事记》，序例加十二章，兼叙李鸿章的兵事、洋务、外交与末路，夹叙夹议；本站收全书，附注释。",
     "yeyuqiudenglu": "清末宣鼎（字瘦梅）所撰的文言笔记小说集，八卷，每卷十余篇，记仙佛、鬼怪、侠女、孝烈与世情异闻，文笔清峭，是晚清继《聊斋志异》之后的重要志怪小说；本站收正集八卷及蔡尔康序、作者自序，续录另是一书，未收。",
     "taoyuanmingji": "东晋陶渊明（陶潜）的诗文集，七卷，收四言诗、五言诗、赋辞、《桃花源记》《五柳先生传》等记传赞述与疏祭文，诗风平淡自然，多写田园、饮酒、咏怀与出处之志；本站所据为维基文库《陶渊明集》，含萧统序。",
-    "guwenciliezuan": "清代姚鼐编选的古文选本，七十四卷，按文体分论辩、序跋、奏议、书说、赠序、诏令、传状、碑志、杂记、箴铭、颂赞、辞赋、哀祭十三类，上起战国秦汉，下迄清初方苞、刘大櫆，是桐城派古文的经典读本；本站原文以维基文库为主，维基文库尚缺的篇目取自中国哲学书电子化计划（字符识别本，未校对），各篇节名后以括号注明作者。",
+    "guwenciliezuan": "清代姚鼐编选的古文选本，七十四卷，分论辩、序跋、奏议、书说等十三类，上起战国秦汉，下迄清初，是桐城派古文的经典读本。",
     "liuchaowenjie": "清代许梿编选的六朝骈文选本，十二卷，选宋齐梁陈、北魏北周诸家的赋、诏敕、表启、书、移文、论、铭、碑、诔祭文等，以绮丽精工见长，是读骈文的入门之选；本站收原文，各篇节名后以括号注明朝代与作者。",
     "xibaoxuan": "清代桐城派古文大家姚鼐（号惜抱）的文集，十六卷，收论、考、序跋、书、赠序、寿序、策问、传、碑文、墓志铭、记、赋、祭文，文章雅洁，是桐城派“义理、考据、辞章”之说的典范。",
     "suiyuanshihua": "清代袁枚的诗话，十六卷，另有补遗十卷，随笔体，品评古今诗人诗句，标举“性灵”，兼记诗坛掌故与闺秀、方外诗作，是清代影响最大的诗话之一。",
@@ -1874,7 +1876,7 @@ BOOK_INTRO = {
     "xihuerji": "明周楫所作拟话本小说集，三十四卷，多写杭州与西湖一带的历史传说与人物故事。",
     "xingshiyan": "明陆人龙所作拟话本小说集，四十回，全称《峥霄馆评定通俗演义型世言》，是“三言二拍”之外重要的明末话本集。",
     "qingshi": "明冯梦龙编的笔记小说集，二十四卷，分类汇录历代男女之情的故事，以“情”立论。",
-    "gujintangai": "明冯梦龙编的笑话与谐谑故事集，三十六部，分类汇录古今奇闻轶事与笑谈。此书原名《古今谭概》（又作《古今谭槩》），后人嫌其名不够俏皮、实为笑府，改题《古今笑》，清初又有《古今笑史》之称，实为同一部书。本站正文取自维基文库《古今谭槩》各部；序文取自维基文库《古今笑》，维基文库对两者是否为不同版本尚存疑。",
+    "gujintangai": "明冯梦龙编的笑话与谐谑故事集，三十六部，分类汇录古今奇闻轶事与笑谈。原名《古今谭概》，后改题《古今笑》。",
     "jiaohongji": "明孟称舜所作传奇，写申纯与王娇娘的爱情悲剧。",
     "yujiaoli": "清初才子佳人小说，署荻岸散人编次，二十回，又名《双美奇缘》，写苏友白与白红玉、卢梦梨的姻缘波折，是才子佳人小说的代表作之一。",
     "pingshanlengyan": "清初才子佳人小说，署荻岸山人编次，二十回，又名《四才子书》，写山黛、冷绛雪两位才女与平如衡、燕白颔两位才子以诗才相知、终成姻缘的故事。",
@@ -2019,11 +2021,17 @@ for _a, _an, _b, _bn in [("zibuyu", "子不语", "xuzibuyu", "续子不语"),
                          ("sanxiawuyi", "三侠五义", "xiaowuyi", "小五义"),
                          ("laocanyouji", "老残游记", "laocanyoujixuji", "老残游记续集"),
                          ("xuanguailu", "玄怪录", "xuxuanguailu", "续玄怪录"),
-                         ("soushenji", "搜神记", "soushenhouji", "搜神后记"),
-                         ("jiandengxinhua", "剪灯新话", "jiandengyuhua", "剪灯余话"),
                          ("chuke", "初刻拍案惊奇", "erke", "二刻拍案惊奇")]:
     TIJIE_LINKS.setdefault(_a, []).append(("续作", f"../{_b}/index.html", _bn))
     TIJIE_LINKS.setdefault(_b, []).append(("前作", f"../{_a}/index.html", _an))
+
+# 搜神后记题名承搜神记、体例相近，但作者并非干宝（旧题陶潜实为托名），不算严格的前后作，只作“参见”
+TIJIE_LINKS.setdefault("soushenji", []).append(("参见", "../soushenhouji/index.html", "搜神后记（体例相近的后出之书，非干宝所作）"))
+TIJIE_LINKS.setdefault("soushenhouji", []).append(("参见", "../soushenji/index.html", "搜神记（题名所承的志怪书）"))
+
+# 剪灯余话是李昌祺仿剪灯新话之作，不是瞿佑自己的续篇，只作“参见”
+TIJIE_LINKS.setdefault("jiandengxinhua", []).append(("参见", "../jiandengyuhua/index.html", "剪灯余话（李昌祺仿作，非瞿佑所作）"))
+TIJIE_LINKS.setdefault("jiandengyuhua", []).append(("参见", "../jiandengxinhua/index.html", "剪灯新话（所仿之书）"))
 
 # 三言二拍：首页一个条目，点进去分三言、二拍，再进去才是各书
 COLLECTIONS = {
