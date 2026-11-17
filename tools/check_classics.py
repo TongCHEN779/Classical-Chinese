@@ -75,8 +75,8 @@ def main():
                 'xinling', 'huqiu', 'manjing', 'yuejianglou', 'mozhu', 'shangzhongyong', 'mengchang', 'dasima', 'changhen', 'changan',
                 'xiaoyuan', 'kushu', 'daleilei', 'lingguan', 'daolouyuan', 'pengdang', 'qiusheng', 'fengle', 'wucheng', 'changhenzhuan',
                 'xihuzaji', 'shangjieting', 'jiaotiaolongchang', 'chengtiansi', 'xunjianshikang', 'bailudong', 'zhengqige', 'songqinzhong',
-                'shangzhizhai', 'yugong', 'qianziwen', 'yangzhoushiri', 'huixinji', 'tongxinshuo', 'lizhizashuo', 'zhangdai', 'zhugeliang',
-                'tangxianzu', 'jinrenming', 'liujingtingzhuan', 'jiezhulou', 'yanglanshuo', 'yuyuanshipu', 'gaojieshuo']
+                'shangzhizhai', 'yugong', 'qianziwen', 'yangzhoushiri', 'huixinji', 'zhangdai', 'zhugeliang', 'tangxianzu', 'jinrenming',
+                'liujingtingzhuan', 'jiezhulou', 'yanglanshuo', 'yuyuanshipu', 'lizhi']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'

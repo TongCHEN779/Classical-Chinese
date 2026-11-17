@@ -33,6 +33,9 @@ COLLECTIONS = [
     dict(slug="tangxianzu", title="汤显祖选文", author="［明］汤显祖",
          intro="合收汤显祖论戏曲与性情的文章与尺牍五篇：《牡丹亭题词》《答岳石帆》《与岳石梁》《答屠纬真》《宜黄县戏神清源师庙记》。",
          members=["mudantingtici", "dayueshifan", "yueshiliang", "datuweizhen", "qingyuanshi"]),
+    dict(slug="lizhi", title="李贽选文", author="［明］李贽",
+         intro="合收李贽《杂说》《童心说》《高洁说》三篇，谈文章的“化工”、人的“童心”与自己的好高好洁。",
+         members=["lizhizashuo", "tongxinshuo", "gaojieshuo"]),
 ]
 
 

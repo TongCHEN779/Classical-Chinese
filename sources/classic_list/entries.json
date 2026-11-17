@@ -2716,56 +2716,6 @@
   }
  },
  {
-  "title": "童心说",
-  "author": "［明］李贽",
-  "slug": "tongxinshuo",
-  "intro": "李贽以“童心即真心”立论，指出见闻道理遮蔽童心，使人言文皆假；进而主张至文出于童心，不拘古今体裁，并抨击《六经》《语》《孟》被道学家奉为口实。",
-  "source": {
-   "url": "https://zh.wikisource.org/zh-hans/%E7%84%9A%E6%9B%B8/%E5%8D%B73",
-   "revision": "7904681",
-   "label": "维基文库",
-   "after": "正文照录所列修订；题解、白话和释词为本库整理。"
-  },
-  "provenance": {
-   "kind": "cached_primary_text",
-   "cache": "wikisource/tongxinshuo.json",
-   "selected_blocks": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5
-   ],
-   "original_sha256": "f8de7c533554cb7483af0f40cc7c2c462efa1046b2e8d1e4d10a6cb535a93771"
-  }
- },
- {
-  "title": "杂说",
-  "author": "［明］李贽",
-  "slug": "lizhizashuo",
-  "intro": "李贽以“化工”“画工”分判《拜月》《西厢》与《琵琶》，认为至文出于自然、郁积而发，工巧到极处反而感人不深；并借《西厢》发抒不平之气，说明小中见大的至理。",
-  "source": {
-   "url": "https://zh.wikisource.org/zh-hans/%E7%84%9A%E6%9B%B8/%E5%8D%B73",
-   "revision": "7904681",
-   "label": "维基文库",
-   "after": "正文照录所列修订；题解、白话和释词为本库整理。"
-  },
-  "provenance": {
-   "kind": "cached_primary_text",
-   "cache": "wikisource/lizhizashuo.json",
-   "selected_blocks": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5
-   ],
-   "original_sha256": "155ccfc89831a6515bcc38e5f86c1446cd58e460ea0ad53320ac03d7010abc27"
-  }
- },
- {
   "title": "张岱选文",
   "author": "［明］张岱",
   "intro": "合收张岱小品与序跋五篇：《湖心亭看雪》《西湖七月半》《〈西湖梦寻〉自序》《明圣二湖》《自为墓志铭》。",
@@ -3181,24 +3131,85 @@
   }
  },
  {
-  "title": "高洁说",
+  "title": "李贽选文",
   "author": "［明］李贽",
-  "slug": "gaojieshuo",
-  "intro": "李贽在《焚书》中自辩：世人说他倨傲、狷隘、偏爱，其实他好高是因能下人，好洁是因能容人；他对人先敬而后辨其真伪，并以此勉励黄安来的二位上人始终相与。",
-  "source": {
-   "url": "https://ctext.org/wiki.pl?if=gb&chapter=54286&remap=gb",
-   "revision": "chapter=54286",
-   "label": "中国哲学书电子化计划",
-   "after": "原文取自 ctext 字符识别的初稿，未经校对，疑误处在注里说明；题解、白话和释词为本库整理。"
-  },
+  "intro": "合收李贽《杂说》《童心说》《高洁说》三篇，谈文章的“化工”、人的“童心”与自己的好高好洁。",
+  "slug": "lizhi",
   "provenance": {
-   "kind": "cached_primary_text",
-   "cache": "ctext/gaojieshuo.json",
-   "selected_blocks": [
-    0
-   ],
-   "original_sha256": "323ee918d5b28a2be6dc9dcd512c8277f32b5404ce199f0fc1e95b9c81d28717",
-   "normalization": "corner_quotes"
+   "kind": "collected_works",
+   "original_sha256": "6515b0f9019bac2067086f685dd286d35eb656533e1d97282745fb90d8d59bb8"
+  },
+  "sections": [
+   {
+    "title": "杂说｜［明］李贽",
+    "author": "［明］李贽",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E7%84%9A%E6%9B%B8/%E5%8D%B73",
+     "revision": "7904681",
+     "label": "维基文库",
+     "after": "正文照录所列修订；题解、白话和释词为本库整理。"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/lizhizashuo.json",
+     "selected_blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "original_sha256": "155ccfc89831a6515bcc38e5f86c1446cd58e460ea0ad53320ac03d7010abc27"
+    }
+   },
+   {
+    "title": "童心说｜［明］李贽",
+    "author": "［明］李贽",
+    "source": {
+     "url": "https://zh.wikisource.org/zh-hans/%E7%84%9A%E6%9B%B8/%E5%8D%B73",
+     "revision": "7904681",
+     "label": "维基文库",
+     "after": "正文照录所列修订；题解、白话和释词为本库整理。"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "wikisource/tongxinshuo.json",
+     "selected_blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "original_sha256": "f8de7c533554cb7483af0f40cc7c2c462efa1046b2e8d1e4d10a6cb535a93771"
+    }
+   },
+   {
+    "title": "高洁说｜［明］李贽",
+    "author": "［明］李贽",
+    "source": {
+     "url": "https://ctext.org/wiki.pl?if=gb&chapter=54286&remap=gb",
+     "revision": "chapter=54286",
+     "label": "中国哲学书电子化计划",
+     "after": "原文取自 ctext 字符识别的初稿，未经校对，疑误处在注里说明；题解、白话和释词为本库整理。"
+    },
+    "provenance": {
+     "kind": "cached_primary_text",
+     "cache": "ctext/gaojieshuo.json",
+     "selected_blocks": [
+      0
+     ],
+     "original_sha256": "323ee918d5b28a2be6dc9dcd512c8277f32b5404ce199f0fc1e95b9c81d28717",
+     "normalization": "corner_quotes"
+    }
+   }
+  ],
+  "redirects": {
+   "lizhizashuo": "lizhi.html#e1",
+   "tongxinshuo": "lizhi.html#e2",
+   "gaojieshuo": "lizhi.html#e3"
   }
  }
 ]
