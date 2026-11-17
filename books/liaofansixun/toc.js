@@ -1,4 +1,4 @@
-(function(){var D=[["l","index.html","了凡四训"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+(function(){var D=[["l","p01.html","第一篇 立命之学"],["l","p02.html","第二篇 改过之法"],["l","p03.html","第三篇 积善之方"],["l","p04.html","第四篇 谦德之效"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
 D.forEach(function(d){var li=document.createElement('li');
 if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
 else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
