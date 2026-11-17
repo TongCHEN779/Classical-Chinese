@@ -67,20 +67,18 @@ def check_witness(slug, provenance, original):
 
 def main():
     entries = json.loads((ROOT / 'sources/classic_list/entries.json').read_text())
-    expected = ['jinshi', 'bao', 'xiangji', 'yueyang', 'tengwang', 'bie', 'hen', 'diwang', 'baixing', 'zhishi', 'lanting', 'taohuayuan',
-                'chibi', 'guoqin', 'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu', 'jianshisi', 'guotuotuo', 'kongque',
-                'pipa', 'yanci', 'baochan', 'dongyang', 'shizhong', 'loushi', 'ailian', 'yongzhou', 'aijiangnan', 'yugu', 'yusong',
-                'maiyou', 'yuchen', 'shaonian', 'bingmei', 'huangshan', 'taishan', 'zuozhongyi', 'yuzhongzaji', 'jimei', 'qinshi',
-                'maigan', 'shenlv', 'yurang', 'xiangci', 'zunjingge', 'xianbi', 'canglang-gui', 'canglang-su', 'hanhua', 'zhuxi',
-                'xinling', 'huqiu', 'manjing', 'yuejianglou', 'mozhu', 'shangzhongyong', 'mengchang', 'dasima', 'changhen', 'changan',
-                'xiaoyuan', 'kushu', 'daleilei', 'lingguan', 'daolouyuan', 'pengdang', 'qiusheng', 'fengle', 'wucheng', 'changhenzhuan',
-                'xihuzaji', 'shangjieting', 'jiaotiaolongchang', 'chengtiansi', 'xunjianshikang', 'bailudong', 'zhengqige', 'songqinzhong',
-                'shangzhizhai', 'yugong', 'qianziwen', 'yangzhoushiri', 'huixinji', 'zhangdai', 'zhugeliang', 'tangxianzu', 'jinrenming',
-                'liujingtingzhuan', 'jiezhulou', 'yanglanshuo', 'yuyuanshipu', 'lizhi']
+    expected = ['jinshi', 'bao', 'guiyouguang', 'fanzhongyan', 'tengwang', 'jiangyan', 'diwang', 'baixing', 'wangshouren', 'lanting',
+                'taohuayuan', 'sushi', 'guoqin', 'chenqing', 'liuguo', 'ouyangxiu', 'afang', 'lihunji', 'luoshenfu', 'jianshisi',
+                'liuzongyuan', 'kongque', 'baijuyi', 'wanganshi', 'songlian', 'loushi', 'ailian', 'yuxin', 'wujun', 'yuchen', 'shaonian',
+                'bingmei', 'huangshan', 'taishan', 'fangbao', 'jimei', 'liuji', 'fangxiaoru', 'canglang-su', 'tangshunzhi', 'yuanhongdao',
+                'mozhu', 'changan', 'baozhao', 'daolouyuan', 'changhenzhuan', 'xunjianshikang', 'bailudong', 'zhengqige', 'songqinzhong',
+                'shangzhizhai', 'yugong', 'qianziwen', 'yangzhoushiri', 'zhangdai', 'zhugeliang', 'tangxianzu', 'jinrenming',
+                'liujingtingzhuan', 'jiezhulou', 'taowangling', 'lizhi']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
-    assert entries[8]['author'] == '［明］王鏊'
-    assert entries[9]['author'] == '［明］王守仁'
+    by_slug = {e['slug']: e for e in entries}
+    assert by_slug['baixing']['author'] == '［明］王鏊'
+    assert by_slug['wangshouren']['author'] == '［明］王守仁'      # 王守仁的几篇已合为“王守仁选文”
     sentence_count = note_count = 0
     root_cl = ROOT / 'sources/classic_list'
     for entry in entries:
@@ -128,7 +126,7 @@ def main():
                 assert section['title'] == record['title']
                 text = ''.join(c['o'].replace('/', '') for c in section['chunks'])
                 assert hashlib.sha256(text.encode()).hexdigest() == record['provenance']['original_sha256']
-                check_witness(slug, record['provenance'], text)
+                check_witness(record.get('slug', slug), record['provenance'], text)
         else:
             check_witness(slug, provenance, original)
         pairs = []
