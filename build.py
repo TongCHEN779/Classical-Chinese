@@ -1605,6 +1605,10 @@ POETRY = {
     "youxianku": dict(_orig_spec("youxianku", "游仙窟", "［唐］张鷟"), original_only=False, no_tip=False, strict_pairs=True),      # 原文页 + 叠加逐句白话（sources/youxianku/gloss/）与注释
     "huanxiyuanjia": dict(_orig_spec("huanxiyuanjia", "欢喜冤家", "［明］西湖渔隐主人"), original_only=False),
     "dongyouji": dict(_orig_spec("dongyouji", "东游记", "［明］吴元泰"), original_only=False),
+    "taowuxianping": dict(_orig_spec("taowuxianping", "梼杌闲评", "［明］佚名"), original_only=False),
+    "dongduji": dict(_orig_spec("dongduji", "东度记", "［明］方汝浩"), original_only=False),
+    "xiaodehao1": dict(_orig_spec("xiaodehao1", "笑得好初集", "［清］石成金"), original_only=False),
+    "xiaodehao2": dict(_orig_spec("xiaodehao2", "笑得好二集", "［清］石成金"), original_only=False),
     "xiaozan": dict(_orig_spec("xiaozan", "笑赞", "［明］赵南星"), original_only=False),      # 原文页 + 叠加题解与注释（sources/<书>/notes/）
     "shidiantou": _orig_spec("shidiantou", "石点头", "［明］天然痴叟"),
     "xihuerji": _orig_spec("xihuerji", "西湖二集", "［明］周楫"),
@@ -1882,6 +1886,10 @@ BOOK_INTRO = {
     "youxianku": "唐张鷟所作的骈散相间的传奇小说，写作者奉使河源，投宿神仙窟，与崔十娘、五嫂酬唱戏谑，在中国失传、日本保存，因此后世多据日本传本。",
     "huanxiyuanjia": "明末西湖渔隐主人所作的拟话本小说集，共二十四回，每回一个故事，多写市井男女的婚姻、奸情、讼案与因果报应，又名《贪欢报》。",
     "dongyouji": "明吴元泰所作的神魔小说，全称《上洞八仙传》，又称《八仙出处东游记》，五十六回，叙铁拐李、钟离权、吕洞宾等八仙得道与东游过海大闹龙宫的故事。",
+    "taowuxianping": "明末清初的白话历史小说，作者不详，五十回，以魏忠贤（李进忠）的发迹、专权与覆灭为主线，兼写客氏与天启朝的政局，是现存较完整的时事小说。",
+    "dongduji": "明方汝浩（清溪道人）所作的神魔小说，全称《扫魅敦伦东度记》，一百回，写佛祖命达摩东度中国，历经转世点化，劝善惩恶，扫除妖魅、敦厚人伦。",
+    "xiaodehao1": "清石成金所编笑话集《笑得好》初集，含自叙、题辞及八十则左右笑话，每则后附评语，借笑讽世，劝人改过。",
+    "xiaodehao2": "清石成金所编笑话集《笑得好》二集，含题辞及三十余则笑话，每则后附评语，借笑讽世，劝人改过。",
     "xiaozan": "明赵南星所编的笑话集，共七十二则，每则之后缀以“赞曰”，借笑谈讽刺迂腐、贪吝、势利等世相。",
     "qingpingshantang": "明嘉靖年间洪楩（清平山堂主人）刊印的话本小说集，原称《六十家小说》，今仅存残本，收宋元以来的话本，如《快嘴李翠莲记》《西湖三塔记》《简帖和尚》《刎颈鸳鸯会》等，是现存较早的话本集。",
     "shidiantou": "明天然痴叟所作拟话本小说集，十四回，每篇一个故事，以劝善惩恶为旨。",
@@ -2211,7 +2219,7 @@ def parse_poems(paths):
 YEAR_LEAD = re.compile(r"^((?:宋|金)?(?:徽宗|钦宗|高宗|孝宗|光宗|宁宗)?(?:宣和|靖康|建炎|绍兴|隆兴|乾道|淳熙|绍熙|庆元|嘉泰|开禧|嘉定)?(?:[一二三四五六七八九十]+|元)年(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]?)?)")      # 瓯北诗话·陆放翁年谱的纪年
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"guosetianxiang", "huanxiyuanjia", "dongyouji", "xiaozan", "qingpingshantang", "lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"guosetianxiang", "taowuxianping", "dongduji", "xiaodehao1", "xiaodehao2", "huanxiyuanjia", "dongyouji", "xiaozan", "qingpingshantang", "lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
@@ -2719,6 +2727,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 
 INITIAL["荀"] = "X"
+INITIAL["梼"] = "T"
 INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
 INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K", "物": "W", "长": "C", "园": "Y", "营": "Y"})
 INITIAL["老"] = "L"
