@@ -62,12 +62,16 @@ def main():
     heads = box.select(".mw-heading")
     assert len(heads) >= 2, len(heads)
     prefaces = []
-    for hd, who in zip(heads[:2], ("", "（唐释慧忠撰）")):
-        title = nospace(hd.get_text("")) + who
-        p = hd.find_next_sibling("p")
-        prefaces.append({"title": title, "level": 3, "path": [], "author": "", "paragraphs": [nospace(p.get_text(""))]})
     seq = list(items(root))
     texts = [t for _l, t in seq]
+    for hd, key in zip(heads[:2], (None, "唐释慧忠撰")):
+        title = nospace(hd.get_text(""))
+        if key is None:
+            p = hd.find_next_sibling("p")
+            body = nospace(p.get_text(""))
+        else:                              # 署名“唐释慧忠撰”是独立一行，正文在它后面；署名不并入标题或正文
+            body = nospace(texts[next(k for k, t in enumerate(texts) if t.strip() == key) + 1])
+        prefaces.append({"title": title, "level": 3, "path": [], "author": "", "paragraphs": [body]})
     i = next(k for k, t in enumerate(texts) if "唐三藏法师玄奘译" in t)
     j = next(k for k, t in enumerate(texts) if t.strip().startswith("“揭谛"))
     paras = [nospace(t) for t in texts[i + 1:j]] + [re.sub(r"\s+", " ", texts[j]).strip()]      # 咒语各词之间的空格保留
