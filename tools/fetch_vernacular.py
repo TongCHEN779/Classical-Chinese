@@ -52,6 +52,8 @@ BOOKS = {
     "dongduji": ("东度记", "東度記", "links"),
     "xiaodehao1": ("笑得好初集", "笑得好初集", "single"),
     "xiaodehao2": ("笑得好二集", "笑得好二集", "single"),
+    "xiaodehao1w": ("笑得好初集网传版本", "", "ctext"),      # 由 tools/fetch_xiaodehao.py 生成，prepare 照常
+    "xiaodehao2w": ("笑得好二集网传版本", "", "ctext"),
     "guosetianxiang": ("国色天香", "國色天香", "links"),
     "huanxiyuanjia": ("欢喜冤家", "歡喜冤家", "links"), "dongyouji": ("东游记", "東遊記", "links"), "xiaozan": ("笑赞", "笑贊", "links"),
     "shidiantou": ("石点头", "石點頭", "links"),

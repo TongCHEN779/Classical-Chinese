@@ -1606,9 +1606,12 @@ POETRY = {
     "huanxiyuanjia": dict(_orig_spec("huanxiyuanjia", "欢喜冤家", "［明］西湖渔隐主人"), original_only=False),
     "dongyouji": dict(_orig_spec("dongyouji", "东游记", "［明］吴元泰"), original_only=False),
     "taowuxianping": dict(_orig_spec("taowuxianping", "梼杌闲评", "［明］佚名"), original_only=False),
-    "dongduji": dict(_orig_spec("dongduji", "东度记", "［明］方汝浩"), original_only=False),
+    "dongduji": dict(_orig_spec("dongduji", "东度记", "［明］方汝浩"), original_only=False, strict_pairs=True,
+                     page_options={f: {"no_tip": False, "footer": "白话译文为编者自撰，仅供辅助阅读，以原文为准。"} for f in ("f01", "f02", "f03")}),
     "xiaodehao1": dict(_orig_spec("xiaodehao1", "笑得好初集", "［清］石成金"), original_only=False),
     "xiaodehao2": dict(_orig_spec("xiaodehao2", "笑得好二集", "［清］石成金"), original_only=False),
+    "xiaodehao1w": dict(_orig_spec("xiaodehao1w", "笑得好初集·网传版本", "［清］石成金（网传本）"), original_only=False),
+    "xiaodehao2w": dict(_orig_spec("xiaodehao2w", "笑得好二集·网传版本", "［清］石成金（网传本）"), original_only=False),
     "xiaozan": dict(_orig_spec("xiaozan", "笑赞", "［明］赵南星"), original_only=False),      # 原文页 + 叠加题解与注释（sources/<书>/notes/）
     "shidiantou": _orig_spec("shidiantou", "石点头", "［明］天然痴叟"),
     "xihuerji": _orig_spec("xihuerji", "西湖二集", "［明］周楫"),
@@ -1888,8 +1891,10 @@ BOOK_INTRO = {
     "dongyouji": "明吴元泰所作的神魔小说，全称《上洞八仙传》，又称《八仙出处东游记》，五十六回，叙铁拐李、钟离权、吕洞宾等八仙得道与东游过海大闹龙宫的故事。",
     "taowuxianping": "明末清初的白话历史小说，作者不详，五十回，以魏忠贤（李进忠）的发迹、专权与覆灭为主线，兼写客氏与天启朝的政局，是现存较完整的时事小说。",
     "dongduji": "明方汝浩（清溪道人）所作的神魔小说，全称《扫魅敦伦东度记》，一百回，写佛祖命达摩东度中国，历经转世点化，劝善惩恶，扫除妖魅、敦厚人伦。",
-    "xiaodehao1": "清石成金所编笑话集《笑得好》初集，含自叙、题辞及八十则左右笑话，每则后附评语，借笑讽世，劝人改过。",
-    "xiaodehao2": "清石成金所编笑话集《笑得好》二集，含题辞及三十余则笑话，每则后附评语，借笑讽世，劝人改过。",
+    "xiaodehao1": "清石成金所编笑话集《笑得好》初集，含自叙、题辞及八十则笑话，每则后附评语，借笑讽世，劝人改过。正文中的“〈注：…〉”是维基文库页末所列的校勘脚注（刻本与别本异文、误刻之辨），已就地并入。",
+    "xiaodehao2": "清石成金所编笑话集《笑得好》二集，含题辞及三十余则笑话，每则后附评语，借笑讽世，劝人改过。正文中的“〈注：…〉”是维基文库页末所列的校勘脚注（刻本与别本异文），已就地并入。",
+    "xiaodehao1w": "《笑得好》初集之后，维基文库另存的一批网传简体字版文字，共三十余则。各底本中并未出现，来历不明，仅供参考，不算作底本正文。",
+    "xiaodehao2w": "《笑得好》二集之后，维基文库另存的一批网传简体字版文字，共近五十则。各底本中并未出现，来历不明，仅供参考，不算作底本正文。",
     "xiaozan": "明赵南星所编的笑话集，共七十二则，每则之后缀以“赞曰”，借笑谈讽刺迂腐、贪吝、势利等世相。",
     "qingpingshantang": "明嘉靖年间洪楩（清平山堂主人）刊印的话本小说集，原称《六十家小说》，今仅存残本，收宋元以来的话本，如《快嘴李翠莲记》《西湖三塔记》《简帖和尚》《刎颈鸳鸯会》等，是现存较早的话本集。",
     "shidiantou": "明天然痴叟所作拟话本小说集，十四回，每篇一个故事，以劝善惩恶为旨。",
@@ -2041,9 +2046,15 @@ for _a, _an, _b, _bn in [("zibuyu", "子不语", "xuzibuyu", "续子不语"),
                          ("sanxiawuyi", "三侠五义", "xiaowuyi", "小五义"),
                          ("laocanyouji", "老残游记", "laocanyoujixuji", "老残游记续集"),
                          ("xuanguailu", "玄怪录", "xuxuanguailu", "续玄怪录"),
+                         ("xiaodehao1", "笑得好初集", "xiaodehao2", "笑得好二集"),
                          ("chuke", "初刻拍案惊奇", "erke", "二刻拍案惊奇")]:
     TIJIE_LINKS.setdefault(_a, []).append(("续作", f"../{_b}/index.html", _bn))
     TIJIE_LINKS.setdefault(_b, []).append(("前作", f"../{_a}/index.html", _an))
+
+# 笑得好的网传版本：与初集、二集各只作“参见”
+for _k, _n, _w, _wn in [("xiaodehao1", "笑得好初集", "xiaodehao1w", "笑得好初集·网传版本"), ("xiaodehao2", "笑得好二集", "xiaodehao2w", "笑得好二集·网传版本")]:
+    TIJIE_LINKS.setdefault(_k, []).append(("参见", f"../{_w}/index.html", _wn + "（底本之外的网传文字）"))
+    TIJIE_LINKS.setdefault(_w, []).append(("参见", f"../{_k}/index.html", _n + "（底本）"))
 
 # 搜神后记题名承搜神记、体例相近，但作者并非干宝（旧题陶潜实为托名），不算严格的前后作，只作“参见”
 TIJIE_LINKS.setdefault("soushenji", []).append(("参见", "../soushenhouji/index.html", "搜神后记（体例相近的后出之书，非干宝所作）"))
@@ -2055,6 +2066,16 @@ TIJIE_LINKS.setdefault("jiandengyuhua", []).append(("参见", "../jiandengxinhua
 
 # 三言二拍：首页一个条目，点进去分三言、二拍，再进去才是各书
 COLLECTIONS = {
+    "xiaodehaochu": {
+        "title": "笑得好初集", "author": "［清］石成金", "children": ["xiaodehao1", "xiaodehao1w"],
+        "home_intro": "清石成金编的笑话集《笑得好》初集：自叙、题辞与八十则笑话，每则后附评语，劝人改过；另列网传版本的文字。",
+        "intro": "《笑得好》是清初扬州石成金（字天基，约1660—约1739）编的笑话集，分初集、二集。作者在自叙里说，正言人听了想睡，笑话却人人爱听，所以用笑话来“怵”人，让读的人闻笑生愧，改过向善；每则笑话后都缀有一段点破讽意的评语。初集据维基文库收录的刻本整理，校勘脚注已就地并入正文；底本之外的网传文字单列为“网传版本”。",
+    },
+    "xiaodehaoer": {
+        "title": "笑得好二集", "author": "［清］石成金", "children": ["xiaodehao2", "xiaodehao2w"],
+        "home_intro": "清石成金编的笑话集《笑得好》二集：题辞与三十余则笑话，每则后附评语，劝人改过；另列网传版本的文字。",
+        "intro": "《笑得好》二集是石成金继初集之后编的又一部笑话集，体例相同：每则笑话先标明所笑的对象，再附评语点破讽意，部分改编自潘游龙、刘元卿、江盈科等人的笑话。二集据维基文库收录的刻本整理，校勘脚注已就地并入正文；底本之外的网传文字单列为“网传版本”。",
+    },
     "sanyanerpai": {
         "title": "三言二拍", "author": "［明］冯梦龙、凌濛初", "children": ["sanyan", "erpai"],
         "home_intro": "明代最有影响的两组白话短篇小说集：冯梦龙的“三言”（喻世明言、警世通言、醒世恒言）和凌濛初的“二拍”（初刻拍案惊奇、二刻拍案惊奇），共五部。",
@@ -2219,7 +2240,7 @@ def parse_poems(paths):
 YEAR_LEAD = re.compile(r"^((?:宋|金)?(?:徽宗|钦宗|高宗|孝宗|光宗|宁宗)?(?:宣和|靖康|建炎|绍兴|隆兴|乾道|淳熙|绍熙|庆元|嘉泰|开禧|嘉定)?(?:[一二三四五六七八九十]+|元)年(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]?)?)")      # 瓯北诗话·陆放翁年谱的纪年
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"guosetianxiang", "taowuxianping", "dongduji", "xiaodehao1", "xiaodehao2", "huanxiyuanjia", "dongyouji", "xiaozan", "qingpingshantang", "lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"xiaodehao1w", "xiaodehao2w", "guosetianxiang", "taowuxianping", "dongduji", "xiaodehao1", "xiaodehao2", "huanxiyuanjia", "dongyouji", "xiaozan", "qingpingshantang", "lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
