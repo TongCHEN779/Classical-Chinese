@@ -1601,7 +1601,7 @@ POETRY = {
     "jiandengxinhua": _notes_spec("jiandengxinhua", "剪灯新话", "［明］瞿佑"),
     "jiandengyuhua": _notes_spec("jiandengyuhua", "剪灯余话", "［明］李昌祺"),
     "qingpingshantang": dict(_orig_spec("qingpingshantang", "清平山堂话本", "［明］洪楩 辑"), original_only=False),
-    "guosetianxiang": dict(_orig_spec("guosetianxiang", "国色天香", "［明］吴敬所编"), original_only=False),
+    "guosetianxiang": dict(_orig_spec("guosetianxiang", "国色天香", "［明］吴敬所编"), original_only=False, no_tip=False, strict_pairs=True),
     "youxianku": dict(_orig_spec("youxianku", "游仙窟", "［唐］张鷟"), original_only=False, no_tip=False, strict_pairs=True),      # 原文页 + 叠加逐句白话（sources/youxianku/gloss/）与注释
     "huanxiyuanjia": dict(_orig_spec("huanxiyuanjia", "欢喜冤家", "［明］西湖渔隐主人"), original_only=False),
     "dongyouji": dict(_orig_spec("dongyouji", "东游记", "［明］吴元泰"), original_only=False),
