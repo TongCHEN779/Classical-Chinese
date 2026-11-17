@@ -62,13 +62,78 @@ SPECS = [
     ("qiusheng", "秋声赋", "［北宋］欧阳修", list(range(1, 7))),
     ("fengle", "丰乐亭记", "［北宋］欧阳修", list(range(0, 4))),
     ("wucheng", "芜城赋", "［南朝宋］鲍照", list(range(0, 6))),
+    # 第四批（2026-11，据新语丝 classics/prose 筛出站内没有的篇目；原文取维基文库）
+    ("xihuzaji", "西湖杂记", "［明］袁宏道", [("初至西湖记", [1]), ("晚游六桥待月记", [3]), ("断桥", [5]), ("雨后游六桥记", [7]),
+                                          ("飞来峰", [9]), ("灵隐", [11]), ("莲花洞", [13])]),
+    ("xihumengxunxu", "《西湖梦寻》自序", "［明］张岱", [0]),
+    ("zibumuzhiming", "自为墓志铭", "［明］张岱", list(range(0, 4))),
+    ("mingshengerhu", "明圣二湖", "［明］张岱", [1, 2]),
+    ("shangjieting", "尚节亭记", "［明］刘基", list(range(1, 7))),
+    ("jiaotiaolongchang", "教条示龙场诸生", "［明］王守仁", [("引言", [0]), ("立志", [2]), ("勤学", [4]), ("改过", [6]), ("责善", [8])]),
+    ("chengtiansi", "记承天寺夜游", "［北宋］苏轼", [0, 1, 2]),
+    ("xunjianshikang", "训俭示康", "［北宋］司马光", list(range(1, 8))),
+    ("bailudong", "白鹿洞书院学规", "［南宋］朱熹", list(range(0, 10))),
+    ("zhengqige", "正气歌并序", "［南宋］文天祥", [0, 1]),
+    ("songqinzhong", "送秦中诸人引", "［金］元好问", list(range(1, 4))),
+    ("shangzhizhai", "尚志斋说", "［元］虞集", list(range(1, 4))),
+    ("yugong", "愚公移山", "［战国］列御寇（《列子·汤问》）", [1]),
+    ("jiezishu", "诫子书", "［三国蜀］诸葛亮", [0]),
+    ("qianziwen", "千字文", "［南朝梁］周兴嗣", [0]),
+    ("yangzhoushiri", "扬州十日记", "［清］王秀楚", [("四月十四", [1]), ("四月廿五", [3, 4]), ("四月廿六", [6]), ("四月廿七", [8]), ("四月廿八", [10]),
+                                           ("四月廿九", [12]), ("五月初一", [14]), ("五月初二", [16]), ("五月初三", [18]),
+                                           ("五月初四", [20]), ("五月初五", [22]), ("附", [24])]),
+    ("huixinji", "叙陈正甫会心集", "［明］袁宏道", list(range(0, 3))),
+    ("tongxinshuo", "童心说", "［明］李贽", list(range(0, 6))),
+    ("lizhizashuo", "杂说", "［明］李贽", list(range(0, 6))),
+    # 第五批（2026-11）：张岱、诸葛亮、汤显祖选文的新增篇目，及《金人铭》《柳敬亭传》
+    ("qiyueban", "西湖七月半", "［明］张岱", [0, 1, 2]),
+    ("houchushi", "后出师表", "［三国蜀］诸葛亮", [0, 1, 2, 3]),
+    ("mudantingtici", "牡丹亭题词", "［明］汤显祖", [0]),
+    ("dayueshifan", "答岳石帆", "［明］汤显祖", [0]),
+    ("yueshiliang", "与岳石梁", "［明］汤显祖", [0]),
+    ("datuweizhen", "答屠纬真", "［明］汤显祖", [0]),
+    ("qingyuanshi", "宜黄县戏神清源师庙记", "［明］汤显祖", [0]),
+    ("jinrenming", "金人铭", "［传说］黄帝", [0]),
+    ("liujingtingzhuan", "柳敬亭传", "［明末清初］黄宗羲", [0, 1, 2, 3]),
+    # 第五批的 ctext 篇目（用户指明的页面；原文是字符识别初稿，未校对）
+    ("jiezhulou", "借竹楼记", "［明］徐渭", [0]),
+    ("yanglanshuo", "养兰说", "［明］陶望龄", [0, 1]),
+    ("yuyuanshipu", "与袁石浦", "［明］陶望龄", [0, 1]),
+    ("gaojieshuo", "高洁说", "［明］李贽", [0]),
 ]
+# 只作为“选文”合集的一节、不单独成条的篇目（finalize 不单独登记；由 classics_collect.py 合并登记）
+COLLECTION_MEMBERS = {"qiyueban", "houchushi", "mudantingtici", "dayueshifan", "yueshiliang", "datuweizhen", "qingyuanshi",
+                      "xihumengxunxu", "mingshengerhu", "zibumuzhiming", "jiezishu"}      # 后四篇原为独立条目，已并入张岱、诸葛亮选文
+# 个别篇目对维基文库块文本的确定性处理（登记在 provenance.normalization，check_classics.py 照此核对）
+NORM = {"qianziwen": "qianziwen_couplets", "zhengqige": "drop_angle_marks", "jinrenming": "cut_note_at_shuoyuan",
+        "jiezhulou": "corner_quotes", "yanglanshuo": "corner_quotes", "yuyuanshipu": "corner_quotes", "gaojieshuo": "corner_quotes"}
+
+
+def norm_block(slug, text):
+    if slug == "qianziwen":      # 原文无标点：每四字一句，两句一联，联末句号，联间留空以便断段
+        toks = text.split()
+        return "".join(w + ("，" if i % 2 == 0 else "。 ") for i, w in enumerate(toks))
+    if slug == "zhengqige":      # 维基文库用〈〉括住序文；去掉，免得站内显示成灰色小字
+        return text.replace("〈", "").replace("〉", "")
+    if slug in CTEXT:            # ctext 用「」『』；站内统一为“”‘’
+        return text.replace("「", "“").replace("」", "”").replace("『", "‘").replace("』", "’")
+    if slug == "jinrenming":     # 篇末“（《说苑·敬慎》。案此铭旧无撰人名……）”是编者案语，不是正文
+        return text.split("（《说苑")[0]
+    return text
 BY = {s[0]: s for s in SPECS}
 END = "。！？；"
 
 
+# 取自中国哲学书电子化计划（ctext）而非维基文库的篇目：缓存在 sources/classic_list/ctext/
+CTEXT = {"jiezhulou", "yanglanshuo", "yuyuanshipu", "gaojieshuo"}
+
+
+def cache_dir(slug):
+    return "ctext" if slug in CTEXT else "wikisource"
+
+
 def cache(slug):
-    return json.loads((CL / "wikisource" / f"{slug}.json").read_text(encoding="utf8"))
+    return json.loads((CL / cache_dir(slug) / f"{slug}.json").read_text(encoding="utf8"))
 
 
 def paragraphs(text):
@@ -81,8 +146,8 @@ def sections_of(spec):
     slug, title, author, sel = spec
     blocks = cache(slug)["blocks"]
     if sel and isinstance(sel[0], tuple):
-        return [(t, [p for i in idxs for p in paragraphs(blocks[i]["text"])]) for t, idxs in sel]
-    return [(title, [p for i in sel for p in paragraphs(blocks[i]["text"])])]
+        return [(t, [p for i in idxs for p in paragraphs(norm_block(slug, blocks[i]["text"]))]) for t, idxs in sel]
+    return [(title, [p for i in sel for p in paragraphs(norm_block(slug, blocks[i]["text"]))])]
 
 
 def src_path(slug):
@@ -155,34 +220,41 @@ def check(slug):
     return not problems
 
 
+def make_entry(spec):
+    """由骨架填好的稿子与缓存，生成一个条目（check 须已通过）。"""
+    slug, title, author, sel = spec
+    secs = parse(slug)
+    c = cache(slug)
+    original = "".join(ch["o"].replace("/", "") for s in secs for ch in s["chunks"])
+    src = {"url": c["url"], "revision": c["revision"], "label": "中国哲学书电子化计划" if slug in CTEXT else "维基文库"}
+    entry = {"title": title, "author": author, "slug": slug, "intro": secs[0]["intro"][0]}
+    if isinstance(sel[0], tuple):
+        entry["intro"] = "钱谦益游黄山后所作，序与九记依维基文库顺序全收。" if slug == "huangshan" else entry["intro"]
+        entry["source"] = {**src, "after": "正文照录所列修订；题解、白话和释词为本库整理。"}
+        entry["sections"] = [{"title": t, "source": dict(src)} for t, _ in sel]
+        entry["redirects"] = {}
+        entry["provenance"] = {"kind": "sectioned_cache", "cache": f"wikisource/{slug}.json",
+                               "section_blocks": [idxs for _, idxs in sel],
+                               "original_sha256": hashlib.sha256(original.encode()).hexdigest()}
+    else:
+        entry["source"] = {**src, "after": "原文取自 ctext 字符识别的初稿，未经校对，疑误处在注里说明；题解、白话和释词为本库整理。" if slug in CTEXT else "正文照录所列修订；题解、白话和释词为本库整理。"}
+        entry["provenance"] = {"kind": "cached_primary_text", "cache": f"{cache_dir(slug)}/{slug}.json",
+                               "selected_blocks": sel, "original_sha256": hashlib.sha256(original.encode()).hexdigest()}
+        if slug in NORM:
+            entry["provenance"]["normalization"] = NORM[slug]
+    return entry
+
+
 def finalize():
-    import build
     path = CL / "entries.json"
     entries = json.loads(path.read_text(encoding="utf8"))
     have = {e["slug"] for e in entries}
     for spec in SPECS:
-        slug, title, author, sel = spec
-        if slug in have:
+        slug = spec[0]
+        if slug in have or slug in COLLECTION_MEMBERS:
             continue
         assert check(slug), slug
-        secs = parse(slug)
-        c = cache(slug)
-        original = "".join(ch["o"].replace("/", "") for s in secs for ch in s["chunks"])
-        src = {"url": c["url"], "revision": c["revision"], "label": "维基文库"}
-        entry = {"title": title, "author": author, "slug": slug, "intro": secs[0]["intro"][0]}
-        if isinstance(sel[0], tuple):
-            entry["intro"] = "钱谦益游黄山后所作，序与九记依维基文库顺序全收。" if slug == "huangshan" else entry["intro"]
-            entry["source"] = {**src, "after": "正文照录所列修订；题解、白话和释词为本库整理。"}
-            entry["sections"] = [{"title": t, "source": dict(src)} for t, _ in sel]
-            entry["redirects"] = {}
-            entry["provenance"] = {"kind": "sectioned_cache", "cache": f"wikisource/{slug}.json",
-                                   "section_blocks": [idxs for _, idxs in sel],
-                                   "original_sha256": hashlib.sha256(original.encode()).hexdigest()}
-        else:
-            entry["source"] = {**src, "after": "正文照录所列修订；题解、白话和释词为本库整理。"}
-            entry["provenance"] = {"kind": "cached_primary_text", "cache": f"wikisource/{slug}.json",
-                                   "selected_blocks": sel, "original_sha256": hashlib.sha256(original.encode()).hexdigest()}
-        entries.append(entry)
+        entries.append(make_entry(spec))
         print("add", slug)
     path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
 

@@ -11,6 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
 from bs4 import BeautifulSoup
+import opencc
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
@@ -27,6 +28,27 @@ PAGES.update({"shaonian": "少年中國說", "bingmei": "病梅館記", "huangsh
               "shangzhongyong": "傷仲永", "mengchang": "讀孟嘗君傳", "dasima": "答司馬諫議書", "changhen": "長恨歌",
               "changan": "長安古意", "xiaoyuan": "小園賦", "kushu": "枯樹賦", "daleilei": "登大雷岸與妹書", "lingguan": "五代史伶官傳序",
               "daolouyuan": "待漏院記", "pengdang": "朋黨論 (歐陽脩)", "qiusheng": "秋聲賦", "fengle": "豐樂亭記", "wucheng": "蕪城賦", "changhenzhuan": "長恨歌傳"})
+
+# 第四批（2026-11，据新语丝 classics/prose 筛出站内没有的篇目；原文一律取维基文库）
+PAGES.update({"xihuzaji": "西湖雜記 (袁宏道)", "xihumengxunxu": "西湖夢尋/自序", "zibumuzhiming": "自為墓誌銘 (張岱)", "mingshengerhu": "西湖夢尋/總記",
+              "shangjieting": "尚節亭記", "jiaotiaolongchang": "教條示龍場諸生", "chengtiansi": "記承天寺夜遊", "xunjianshikang": "訓儉示康",
+              "bailudong": "白鹿洞書院學規", "zhengqige": "正氣歌", "songqinzhong": "送秦中諸人引", "shangzhizhai": "尚志齋說",
+              "yugong": "列子/湯問篇", "jiezishu": "誡子書", "qianziwen": "千字文", "yangzhoushiri": "揚州十日記", "huixinji": "敘陳正甫會心集",
+              "tongxinshuo": "焚書/卷3", "lizhizashuo": "焚書/卷3", "gaojieshuo": "李溫陵集"})
+# 第五批（2026-11）：张岱、诸葛亮、汤显祖选文所需篇目，以及《金人铭》《柳敬亭传》
+PAGES.update({"qiyueban": "西湖七月半", "houchushi": "後出師表", "mudantingtici": "牡丹亭題詞", "dayueshifan": "答岳石帆", "yueshiliang": "與岳石梁",
+              "datuweizhen": "答屠緯真", "qingyuanshi": "宜黃縣戲神清源師廟記", "jinrenming": "金人銘", "liujingtingzhuan": "柳敬亭傳"})
+# 整页很大、只要其中一节的：slug -> (起始块的正则, 结束块的正则或 None=到下一个同类标题/页尾)；缓存里只留这一节的块
+TRIM = {"tongxinshuo": (r"^童心说$", r"^心经提纲$"), "lizhizashuo": (r"^杂说$", r"^童心说$"), "gaojieshuo": (r"^○高洁说", r"^○")}
+
+
+def trim(blocks, slug):
+    if slug not in TRIM:
+        return blocks
+    s, e = TRIM[slug]
+    i = next(k for k, b in enumerate(blocks) if re.search(s, b["text"]))
+    j = next((k for k in range(i + 1, len(blocks)) if re.search(e, blocks[k]["text"])), len(blocks))
+    return blocks[i + 1:j] if blocks[i]["type"].startswith("h") or blocks[i]["text"].startswith("○") and len(blocks[i]["text"]) <= 6 else blocks[i:j]
 
 
 def blocks_of(root):
@@ -49,6 +71,20 @@ def blocks_of(root):
                 t = re.sub(r"\s+", " ", li.get_text("", strip=False)).replace("　", "").strip()
                 if t:
                     out.append({"type": li.name, "text": t})
+    if not out:
+        box = root.select_one("div.prp-pages-output, div.Kaiti, div.prose")
+        if box:
+            for x in box.select("span.pagenum, style, span.ws-noexport"):
+                x.decompose()
+            for el in box.find_all(["p", "h2", "h3"]):
+                t = re.sub(r"\s+", " ", el.get_text("", strip=False)).replace("\u200b", "").replace("　", "").strip()
+                if t:
+                    out.append({"type": "p" if el.name == "p" else el.name, "text": t})
+    if not out:      # 汤显祖尺牍等整段放在 <pre> 里
+        for el in root.find_all("pre"):
+            t = re.sub(r"\s+", " ", el.get_text("", strip=False)).replace("　", "").strip()
+            if t:      # <pre> 里的字维基文库不做简繁转换，这里用 opencc t2s 转成与其他页一致的简体
+                out.append({"type": "p", "text": opencc.OpenCC("t2s").convert(t)})
     return out
 
 
@@ -59,7 +95,7 @@ def main():
             continue
         page = fetch(title)
         root = BeautifulSoup(page["text"], "html.parser").select_one(".mw-parser-output")
-        blocks = blocks_of(root)
+        blocks = trim(blocks_of(root), slug)
         raw = "\n".join(b["text"] for b in blocks)
         data = {"title": title, "query": title, "url": "https://zh.wikisource.org/zh-hans/" + quote(title), "revision": str(page["revid"]),
                 "fetched_at": datetime.now(timezone.utc).isoformat(), "blocks": blocks,

@@ -51,6 +51,14 @@ def check_witness(slug, provenance, original):
         if provenance.get('normalization') == 'unpunctuated_couplets':
             a, b = [cached['blocks'][i]['text'] for i in provenance['selected_blocks']]
             raw = a + ''.join((s[:5] + '，' + s[5:] if len(s) > 5 else s) + '。' for s in b.splitlines())
+        if provenance.get('normalization') == 'qianziwen_couplets':      # 无标点原文：每四字一句，两句一联
+            raw = ''.join(w + ('，' if i % 2 == 0 else '。') for i, w in enumerate(raw.split()))
+        if provenance.get('normalization') == 'cut_note_at_shuoyuan':    # 去掉篇末“（《说苑·敬慎》。案……）”编者案语
+            raw = raw.split('（《说苑')[0]
+        if provenance.get('normalization') == 'corner_quotes':          # ctext 的「」『』
+            raw = raw.replace('「', '“').replace('」', '”').replace('『', '‘').replace('』', '’')
+        if provenance.get('normalization') == 'drop_angle_marks':        # 去掉维基文库括住序文的〈〉
+            raw = raw.replace('〈', '').replace('〉', '')
         witness = normalize(raw)
         if slug == 'xiangji':
             witness = witness.replace('一作“逐”', '')
@@ -59,15 +67,16 @@ def check_witness(slug, provenance, original):
 
 def main():
     entries = json.loads((ROOT / 'sources/classic_list/entries.json').read_text())
-    expected = ['jinshi', 'bao', 'xiangji', 'yueyang', 'tengwang',
-                'bie', 'hen', 'diwang', 'baixing', 'zhishi',
-                'lanting', 'taohuayuan', 'chibi', 'chushi', 'guoqin',
-                'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu', 'jianshisi',
-                'guotuotuo', 'kongque', 'pipa', 'yanci', 'baochan', 'dongyang',
-                'shizhong',
-                'loushi', 'ailian', 'yongzhou', 'huxinting',
-                'aijiangnan', 'yugu', 'yusong', 'maiyou', 'yuchen',
-                'shaonian', 'bingmei', 'huangshan', 'taishan', 'zuozhongyi', 'yuzhongzaji', 'jimei', 'qinshi', 'maigan', 'shenlv', 'yurang', 'xiangci', 'zunjingge', 'xianbi', 'canglang-gui', 'canglang-su', 'hanhua', 'zhuxi', 'xinling', 'huqiu', 'manjing', 'yuejianglou', 'mozhu', 'shangzhongyong', 'mengchang', 'dasima', 'changhen', 'changan', 'xiaoyuan', 'kushu', 'daleilei', 'lingguan', 'daolouyuan', 'pengdang', 'qiusheng', 'fengle', 'wucheng', 'changhenzhuan']
+    expected = ['jinshi', 'bao', 'xiangji', 'yueyang', 'tengwang', 'bie', 'hen', 'diwang', 'baixing', 'zhishi', 'lanting', 'taohuayuan',
+                'chibi', 'guoqin', 'chenqing', 'liuguo', 'zuiweng', 'afang', 'lihunji', 'luoshenfu', 'jianshisi', 'guotuotuo', 'kongque',
+                'pipa', 'yanci', 'baochan', 'dongyang', 'shizhong', 'loushi', 'ailian', 'yongzhou', 'aijiangnan', 'yugu', 'yusong',
+                'maiyou', 'yuchen', 'shaonian', 'bingmei', 'huangshan', 'taishan', 'zuozhongyi', 'yuzhongzaji', 'jimei', 'qinshi',
+                'maigan', 'shenlv', 'yurang', 'xiangci', 'zunjingge', 'xianbi', 'canglang-gui', 'canglang-su', 'hanhua', 'zhuxi',
+                'xinling', 'huqiu', 'manjing', 'yuejianglou', 'mozhu', 'shangzhongyong', 'mengchang', 'dasima', 'changhen', 'changan',
+                'xiaoyuan', 'kushu', 'daleilei', 'lingguan', 'daolouyuan', 'pengdang', 'qiusheng', 'fengle', 'wucheng', 'changhenzhuan',
+                'xihuzaji', 'shangjieting', 'jiaotiaolongchang', 'chengtiansi', 'xunjianshikang', 'bailudong', 'zhengqige', 'songqinzhong',
+                'shangzhizhai', 'yugong', 'qianziwen', 'yangzhoushiri', 'huixinji', 'tongxinshuo', 'lizhizashuo', 'zhangdai', 'zhugeliang',
+                'tangxianzu', 'jinrenming', 'liujingtingzhuan', 'jiezhulou', 'yanglanshuo', 'yuyuanshipu', 'gaojieshuo']
     assert [e['slug'] for e in entries] == expected, 'collection order or membership changed'
     assert all('href' not in e for e in entries), 'obsolete external-reading entry'
     assert entries[8]['author'] == '［明］王鏊'
@@ -113,7 +122,8 @@ def main():
                 expected_text = ''.join(cached['blocks'][i]['text'] for i in idxs)
                 assert normalize(''.join(c['o'] for c in section['chunks'])) == normalize(expected_text), (slug, section['title'], 'section text differs')
         elif provenance['kind'] == 'collected_works':
-            assert [r['author'] for r in entry['sections']] == ['［宋］苏洵', '［宋］苏辙', '［宋］苏轼']
+            if slug == 'liuguo':
+                assert [r['author'] for r in entry['sections']] == ['［宋］苏洵', '［宋］苏辙', '［宋］苏轼']
             for section, record in zip(sections, entry['sections'], strict=True):
                 assert section['title'] == record['title']
                 text = ''.join(c['o'].replace('/', '') for c in section['chunks'])
