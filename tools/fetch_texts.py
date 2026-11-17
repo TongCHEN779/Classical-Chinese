@@ -25,6 +25,7 @@ BOOKS = {
     "shipin": {"title": "詩品", "pages": [
         ("xu", "序", "詩品", "single"), ("j1", "卷上", "詩品/卷上", "headings"),
         ("j2", "卷中", "詩品/卷中", "headings"), ("j3", "卷下", "詩品/卷下", "headings")]},
+    "ershisishipin": {"title": "二十四詩品", "pages": [("p01", "二十四诗品", "二十四詩品", "headings")]},
     "gongsunlongzi": {"title": "公孫龍子", "pages": [
         ("xu", "原序", "公孫龍子/原序", "single"), ("j1", "迹府第一", "公孫龍子/1", "chunk=4"),
         ("j2", "白马论第二", "公孫龍子/2", "chunk=4"), ("j3", "指物论第三", "公孫龍子/3", "chunk=4"),

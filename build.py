@@ -1535,8 +1535,10 @@ POETRY = {
     "dongpozhilin": _dongpozhilin_spec(),
     "changliwenchao": _changliwenchao_spec(),
     "shipin": _texts_spec("shipin", "诗品", "［南朝梁］钟嵘"),
+    "ershisishipin": _texts_spec("ershisishipin", "二十四诗品", "［唐］司空图"),
+    "baixiangcipu": _texts_spec("baixiangcipu", "白香词谱", "［清］舒梦兰选"),
     "gongsunlongzi": _texts_spec("gongsunlongzi", "公孙龙子", "［战国］公孙龙"),
-    "liaofansixun": _texts_spec("liaofansixun", "了凡四训", "［明］袁了凡"),
+    "liaofansixun": {**_texts_spec("liaofansixun", "了凡四训", "［明］袁了凡"), "skip_lead_toc": True},     # 篇首一节与篇名同名，不在子目录里重复
     "qijing": _texts_spec("qijing", "棋经十三篇", "［宋］佚名"),
     "zhuzijiaxun": _texts_spec("zhuzijiaxun", "朱子家训", "［清］朱柏庐"),
     "weilu": _texts_spec("weilu", "围炉夜话", "［清］王永彬"),
@@ -1930,6 +1932,8 @@ BOOK_INTRO = {
     "wuyuechunqiu": "东汉赵晔所撰，记吴国自太伯至夫差、越国自无余至勾践的兴衰，以吴越争霸为主线，文笔曲折多演义。",
     "youyangzazu": "唐代段成式的笔记，前集二十卷、续集十卷，博记道释、仙怪、动植物、异域风物与民间传说，是唐代志怪与博物笔记的代表。",
     "shipin": "南朝梁钟嵘的诗歌评论，分上中下三品评论汉至梁的一百二十余位五言诗人，并追溯其风格渊源，是中国最早的诗论专著之一。",
+    "ershisishipin": "旧题唐代司空图的诗论，用二十四首四言韵语分别描摹雄浑、冲淡、纤秾、沉著、高古、典雅等二十四种诗歌风格，以意象写意境，是中国诗论的名篇。",
+    "baixiangcipu": "清代舒梦兰选编的词选，从唐五代到清初选词一百首，每首一调、各不重复，由小令到长调排列，是流传很广的学词入门读本。",
     "gongsunlongzi": "战国名家公孙龙的论著，今存《迹府》《白马论》《指物论》《通变论》《坚白论》《名实论》六篇，以“白马非马”“离坚白”等辩题著称。",
     "liaofansixun": "明代袁了凡写给儿子的家训，分立命之学、改过之法、积善之方、谦德之效四篇，以亲身经历劝人改造命运、行善积德。",
     "qijing": "旧题宋代围棋论著，分论局、得算、权舆、合战、虚实、自知、审局、度情、斜正、洞微、名数、品格、杂说十三篇，借兵法讲棋理。",
@@ -2756,7 +2760,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 
 INITIAL["荀"] = "X"
-INITIAL.update({"公": "G", "了": "L", "棋": "Q", "朱": "Z"})
+INITIAL.update({"二": "E", "公": "G", "了": "L", "棋": "Q", "朱": "Z"})
 INITIAL["梼"] = "T"
 INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
 INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K", "物": "W", "长": "C", "园": "Y", "营": "Y"})
