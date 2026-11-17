@@ -46,6 +46,7 @@ BOOKS = {
     # 短篇小说集与笔记
     "jiandengxinhua": ("剪灯新话", "剪燈新話", "links"),
     "jiandengyuhua": ("剪灯余话", "剪燈餘話", "links"),
+    "qingpingshantang": ("清平山堂话本", "清平山堂話本", "links"),
     "shidiantou": ("石点头", "石點頭", "links"),
     "xihuerji": ("西湖二集", "西湖二集", "links"),
     "qingshi": ("情史", "情史", "links"),

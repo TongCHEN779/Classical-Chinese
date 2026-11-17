@@ -1600,6 +1600,7 @@ POETRY = {
     "chanzhenyishi": {**_orig_spec("chanzhenyishi", "禅真逸史", "［明］清溪道人"), "center_poems": True},
     "jiandengxinhua": _notes_spec("jiandengxinhua", "剪灯新话", "［明］瞿佑"),
     "jiandengyuhua": _notes_spec("jiandengyuhua", "剪灯余话", "［明］李昌祺"),
+    "qingpingshantang": dict(_orig_spec("qingpingshantang", "清平山堂话本", "［明］洪楩 辑"), original_only=False),      # 原文页 + 叠加题解与注释（sources/<书>/notes/）
     "shidiantou": _orig_spec("shidiantou", "石点头", "［明］天然痴叟"),
     "xihuerji": _orig_spec("xihuerji", "西湖二集", "［明］周楫"),
     "xingshiyan": {**_orig_spec("xingshiyan", "型世言", "［明］陆人龙"), "original_footer": "原文取自中国哲学书电子化计划，为未经校对的电子本，偶有错字，未据影印本逐字校勘。"},
@@ -1872,6 +1873,7 @@ BOOK_INTRO = {
     "chanzhenyishi": "明清溪道人所作长篇小说，四十回，写南北朝时林澹然等人的经历，杂糅历史、侠义与神怪情节。",
     "jiandengxinhua": "明初瞿佑所作文言传奇小说集，多写人鬼、仙凡的奇遇，对日本、朝鲜的小说也有影响。",
     "jiandengyuhua": "明李昌祺所作文言传奇小说集，承《剪灯新话》而作，共五卷。",
+    "qingpingshantang": "明嘉靖年间洪楩（清平山堂主人）刊印的话本小说集，原称《六十家小说》，今仅存残本，收宋元以来的话本，如《快嘴李翠莲记》《西湖三塔记》《简帖和尚》《刎颈鸳鸯会》等，是现存较早的话本集。",
     "shidiantou": "明天然痴叟所作拟话本小说集，十四回，每篇一个故事，以劝善惩恶为旨。",
     "xihuerji": "明周楫所作拟话本小说集，三十四卷，多写杭州与西湖一带的历史传说与人物故事。",
     "xingshiyan": "明陆人龙所作拟话本小说集，四十回，全称《峥霄馆评定通俗演义型世言》，是“三言二拍”之外重要的明末话本集。",
@@ -2199,7 +2201,7 @@ def parse_poems(paths):
 YEAR_LEAD = re.compile(r"^((?:宋|金)?(?:徽宗|钦宗|高宗|孝宗|光宗|宁宗)?(?:宣和|靖康|建炎|绍兴|隆兴|乾道|淳熙|绍熙|庆元|嘉泰|开禧|嘉定)?(?:[一二三四五六七八九十]+|元)年(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]?)?)")      # 瓯北诗话·陆放翁年谱的纪年
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"qingpingshantang", "lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
@@ -2778,7 +2780,7 @@ INITIAL.update({"诗": "S", "围": "W", "菜": "C", "浮": "F", "增": "Z", "颜
 INITIAL["东"] = "D"
 INITIAL["金"] = "J"
 INITIAL["儒"] = "R"
-INITIAL.update({"孽": "N", "商": "S", "廿": "N", "发": "F", "负": "F"})
+INITIAL.update({"清": "Q", "孽": "N", "商": "S", "廿": "N", "发": "F", "负": "F"})
 INITIAL.update({"官": "G", "初": "C", "二": "E", "九": "J"})
 
 
