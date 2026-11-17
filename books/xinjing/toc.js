@@ -1,4 +1,4 @@
-(function(){var D=[["l","index.html","般若波罗蜜多心经"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+(function(){var D=[["l","p01.html","大明太祖高皇帝御制般若心经序"],["l","p02.html","般若波罗蜜多心经序（唐释慧忠撰）"],["l","p03.html","般若波罗蜜多心经"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
 D.forEach(function(d){var li=document.createElement('li');
 if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
 else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
