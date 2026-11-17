@@ -1,0 +1,7 @@
+(function(){var D=[["l","p001.html","序"],["l","p002.html","第一回 花二娘巧智认情郎"],["l","p003.html","第二回 吴千里两世谐佳丽"],["l","p004.html","第三回 李月仙割爱救亲夫"],["l","p005.html","第四回 香菜根乔装奸命妇"],["l","p006.html","第五回 日宜园九月牡丹开"],["l","p007.html","第六回 伴花楼一时痴笑耍"],["l","p008.html","第七回 陈之美巧计骗多娇"],["l","p009.html","第八回 铁念三激怒诛淫妇"],["l","p010.html","第九回 乖二官骗落美人局"],["l","p011.html","第十回 许玄之赚出重囚牢"],["l","p012.html","第十一回 蔡玉奴避雨撞淫僧"],["l","p013.html","第十二回 汪监生贪财娶寡妇"],["l","p014.html","第十三回 两房妻暗中双错认"],["l","p015.html","第十四回 一宵缘约赴两情人"],["l","p016.html","第十五回 马玉贞汲水遇情郎"],["l","p017.html","第十六回 费人龙避难逢豪恶"],["l","p018.html","第十七回 孔良宗负义薄东翁"],["l","p019.html","第十八回 王有道疑心弃妻子"],["l","p020.html","第十九回 木知日真托妻寄子"],["l","p021.html","第二十回 杨玉京假恤孤怜寡"],["l","p022.html","第二十一回 朱公子贪淫中毒计"],["l","p023.html","第二十二回 黄焕之慕色受官刑"],["l","p024.html","第二十三回 梦花生媚引凤鸾交"],["l","p025.html","第二十四回 一枝梅空设鸳鸯计"]];var t=document.querySelector('.toc.side');if(!t)return;var ul=t.querySelector('ul'),cur=t.getAttribute('data-cur'),tp=t.querySelector('template');
+D.forEach(function(d){var li=document.createElement('li');
+if(d[0]==='g'){li.className='grp';li.textContent=d[1];}
+else if(d[0]==='x'){var s=document.createElement('span');s.textContent=d[1];li.appendChild(s);}
+else{var a=document.createElement('a');a.href=d[1];a.innerHTML=d[2];li.appendChild(a);
+if(d[1]===cur){li.className='cur';a.setAttribute('aria-current','page');if(tp)li.appendChild(tp.content.cloneNode(true));}}
+ul.appendChild(li);});})();
