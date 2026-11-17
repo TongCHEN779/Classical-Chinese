@@ -1535,6 +1535,7 @@ POETRY = {
     "dongpozhilin": _dongpozhilin_spec(),
     "changliwenchao": _changliwenchao_spec(),
     "shipin": _texts_spec("shipin", "诗品", "［南朝梁］钟嵘"),
+    "dabanruojing": _orig_spec("dabanruojing", "大般若波罗蜜多经", "［唐］玄奘译"),
     "jingangjing": _texts_spec("jingangjing", "金刚般若波罗蜜经", "［姚秦］鸠摩罗什译"),
     "xinjing": _texts_spec("xinjing", "般若波罗蜜多心经", "［唐］玄奘译"),
     "ershisishipin": _texts_spec("ershisishipin", "二十四诗品", "［唐］司空图"),
@@ -1934,6 +1935,7 @@ BOOK_INTRO = {
     "wuyuechunqiu": "东汉赵晔所撰，记吴国自太伯至夫差、越国自无余至勾践的兴衰，以吴越争霸为主线，文笔曲折多演义。",
     "youyangzazu": "唐代段成式的笔记，前集二十卷、续集十卷，博记道释、仙怪、动植物、异域风物与民间传说，是唐代志怪与博物笔记的代表。",
     "shipin": "南朝梁钟嵘的诗歌评论，分上中下三品评论汉至梁的一百二十余位五言诗人，并追溯其风格渊源，是中国最早的诗论专著之一。",
+    "dabanruojing": "唐玄奘译，六百卷，分十六会，是汉译佛典中篇幅最大的一部，汇集般若类经典；《金刚般若波罗蜜经》相当于其第九会，《般若理趣分》为第十会。",
     "jingangjing": "大乘般若部的重要经典，姚秦鸠摩罗什译，约六千字，写佛与须菩提问答，讲菩萨如何发心、不住相布施，“应无所住而生其心”“凡所有相皆是虚妄”是其要义；通行本分三十二分。",
     "xinjing": "唐玄奘译，只有二百六十字，是《大般若经》六百卷的精要：观自在菩萨照见五蕴皆空，说“色即是空，空即是色”，并以咒语作结，是汉传佛教最广为诵读的经。",
     "ershisishipin": "旧题唐代司空图的诗论，用二十四首四言韵语分别描摹雄浑、冲淡、纤秾、沉著、高古、典雅等二十四种诗歌风格，以意象写意境，是中国诗论的名篇。",
@@ -2083,9 +2085,9 @@ TIJIE_LINKS.setdefault("jiandengyuhua", []).append(("参见", "../jiandengxinhua
 # 三言二拍：首页一个条目，点进去分三言、二拍，再进去才是各书
 COLLECTIONS = {
     "fojiaodianji": {
-        "title": "佛教典籍", "author": "汉译佛经", "children": ["jingangjing", "xinjing"],
-        "home_intro": "汉译佛经原文，配逐句白话与详注：先收《金刚般若波罗蜜经》（鸠摩罗什译）和《般若波罗蜜多心经》（玄奘译）两部。",
-        "intro": "这里收汉译佛经，每部都附逐句白话、题解和尽量详细的注释（梵语原词、佛教名相与义理脉络）。目前先收两部般若类经典：《金刚般若波罗蜜经》（姚秦鸠摩罗什译，约六千字）和《般若波罗蜜多心经》（唐玄奘译，二百六十字）。二者同属《般若经》系统，核心都是“空”与“不住相”：《金刚经》以问答展开，《心经》则是它的精要浓缩。原文据维基文库录入，未据藏经影印本逐字校勘。",
+        "title": "佛教典籍", "author": "汉译佛经", "children": ["jingangjing", "xinjing", "dabanruojing"],
+        "home_intro": "汉译佛经原文，配逐句白话与详注：《金刚般若波罗蜜经》（鸠摩罗什译）和《般若波罗蜜多心经》（玄奘译）配白话与详注；另收《大般若波罗蜜多经》（玄奘译，六百卷）。",
+        "intro": "这里收汉译佛经，每部都附逐句白话、题解和尽量详细的注释（梵语原词、佛教名相与义理脉络）。目前收三部般若类经典：《金刚般若波罗蜜经》（姚秦鸠摩罗什译，约六千字）和《般若波罗蜜多心经》（唐玄奘译，二百六十字）两部配逐句白话与详注，《大般若波罗蜜多经》（唐玄奘译，六百卷）篇幅宏大，是《般若经》的全本。前两部同属《般若经》系统，核心都是“空”与“不住相”：《金刚经》以问答展开，《心经》则是它的精要浓缩。原文据维基文库录入，未据藏经影印本逐字校勘。",
     },
     "xiaodehaochu": {
         "title": "笑得好初集", "author": "［清］石成金", "children": ["xiaodehao1", "xiaodehao1w"],
@@ -2907,6 +2909,7 @@ def build_home():
 <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
 </div>
 <ul class="books" id="book-list">{cards}</ul>
+<nav class="pager" id="pager" aria-label="分页"></nav>
 <p class="search-empty" id="search-empty" hidden>没有找到匹配的书籍，请换个关键词。</p>
 <script src="assets/search.js" defer></script>
 </main>"""

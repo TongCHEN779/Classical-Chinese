@@ -18,20 +18,63 @@
       filter();
     });
   });
+  var PAGE = 10;
+  var page = 1;
+  var pager = document.getElementById('pager');
+  var matches = cards.slice();
+  function render() {
+    var pages = Math.max(1, Math.ceil(matches.length / PAGE));
+    if (page > pages) page = pages;
+    var from = (page - 1) * PAGE, to = from + PAGE;
+    cards.forEach(function (card) { card.hidden = true; });
+    matches.forEach(function (card, i) { card.hidden = !(i >= from && i < to); });
+    if (!pager) return;
+    pager.innerHTML = '';
+    pager.hidden = pages <= 1;
+    function btn(label, target, opts) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = label;
+      opts = opts || {};
+      if (opts.current) b.setAttribute('aria-current', 'page');
+      if (opts.disabled) b.disabled = true;
+      b.addEventListener('click', function () {
+        page = target;
+        render();
+        var top = document.getElementById('book-list');
+        if (top && top.scrollIntoView) top.scrollIntoView({block: 'start'});
+      });
+      pager.appendChild(b);
+    }
+    btn('上一页', page - 1, {disabled: page === 1});
+    var last = 0;
+    for (var p = 1; p <= pages; p++) {
+      if (p !== 1 && p !== pages && Math.abs(p - page) > 2) continue;      // 页数多时只显示首尾与当前页前后
+      if (last && p - last > 1) {
+        var gap = document.createElement('span');
+        gap.textContent = '…';
+        gap.className = 'gap';
+        pager.appendChild(gap);
+      }
+      btn(String(p), p, {current: p === page});
+      last = p;
+    }
+    btn('下一页', page + 1, {disabled: page === pages});
+  }
   function filter() {
     var words = normalize(input.value).trim().split(/\s+/).filter(Boolean);
-    var browsing = words.length > 0 || letter !== '';
-    var count = 0;
+    var filtering = words.length > 0 || letter !== '';
     letters.forEach(function (btn) { btn.setAttribute('aria-pressed', btn.dataset.letter === letter ? 'true' : 'false'); });
-    cards.forEach(function (card, i) {
-      var match = browsing && (!letter || card.dataset.letter === letter) &&
+    matches = cards.filter(function (card, i) {
+      return (!letter || card.dataset.letter === letter) &&
         words.every(function (word) { return texts[i].includes(word); });
-      card.hidden = !match;
-      if (match) count++;
     });
-    status.textContent = !browsing ? '共 ' + cards.length + ' 本书，点击上方字母或输入关键词查看' :
-      '找到 ' + count + ' 本，共 ' + cards.length + ' 本' + (letter ? '（首字母 ' + letter + '）' : '');
-    empty.hidden = !browsing || count !== 0;
+    page = 1;
+    var pages = Math.max(1, Math.ceil(matches.length / PAGE));
+    status.textContent = !filtering ? '共 ' + cards.length + ' 个条目，每页 ' + PAGE + ' 个，第 ' + page + ' / ' + pages + ' 页' :
+      '找到 ' + matches.length + ' 个，共 ' + cards.length + ' 个' + (letter ? '（首字母 ' + letter + '）' : '');
+    empty.hidden = matches.length !== 0;
+    render();
   }
   input.addEventListener('input', filter);
   input.addEventListener('keydown', function (event) {
