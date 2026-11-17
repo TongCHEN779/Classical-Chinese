@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from build import sent_units, split_sents
 
-TEXT_BOOKS = ["shipin", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", "sunzi", "sunbin",
+TEXT_BOOKS = ["shipin", "gongsunlongzi", "liaofansixun", "qijing", "zhuzijiaxun", "weilu", "caigentan", "fusheng", "zengguang", "yanshi", "sunzi", "sunbin",
               "fansheng", "yinwenzi", "shenbuhai", "shendao",
               "huafanglu", "taoan", "dijing", "ducheng", "mengliang", "xuxiake",
               "shanhaijing", "jinbenzhushu", "mutianzi", "yandanzi",

@@ -25,6 +25,14 @@ BOOKS = {
     "shipin": {"title": "詩品", "pages": [
         ("xu", "序", "詩品", "single"), ("j1", "卷上", "詩品/卷上", "headings"),
         ("j2", "卷中", "詩品/卷中", "headings"), ("j3", "卷下", "詩品/卷下", "headings")]},
+    "gongsunlongzi": {"title": "公孫龍子", "pages": [
+        ("xu", "原序", "公孫龍子/原序", "single"), ("j1", "迹府第一", "公孫龍子/1", "chunk=4"),
+        ("j2", "白马论第二", "公孫龍子/2", "chunk=4"), ("j3", "指物论第三", "公孫龍子/3", "chunk=4"),
+        ("j4", "通变论第四", "公孫龍子/4", "chunk=4"), ("j5", "坚白论第五", "公孫龍子/5", "chunk=4"),
+        ("j6", "名实论第六", "公孫龍子/6", "chunk=4")]},
+    "liaofansixun": {"title": "了凡四訓", "pages": [("p01", "了凡四训", "了凡四訓", "headings")]},
+    "qijing": {"title": "棋經十三篇", "pages": [("p01", "棋经十三篇", "棋經", "headings")]},
+    "zhuzijiaxun": {"title": "朱子家訓", "pages": [("p01", "朱子家训", "朱子家訓", "single")]},
     "weilu": {"title": "圍爐夜話", "pages": [("p01", "围炉夜话", "圍爐夜話", "chunk=8")]},
     "caigentan": {"title": "菜根譚", "pages": [
         ("p01", "序", "菜根譚", "headings:序"),

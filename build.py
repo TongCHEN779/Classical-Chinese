@@ -1535,6 +1535,10 @@ POETRY = {
     "dongpozhilin": _dongpozhilin_spec(),
     "changliwenchao": _changliwenchao_spec(),
     "shipin": _texts_spec("shipin", "诗品", "［南朝梁］钟嵘"),
+    "gongsunlongzi": _texts_spec("gongsunlongzi", "公孙龙子", "［战国］公孙龙"),
+    "liaofansixun": _texts_spec("liaofansixun", "了凡四训", "［明］袁了凡"),
+    "qijing": _texts_spec("qijing", "棋经十三篇", "［宋］佚名"),
+    "zhuzijiaxun": _texts_spec("zhuzijiaxun", "朱子家训", "［清］朱柏庐"),
     "weilu": _texts_spec("weilu", "围炉夜话", "［清］王永彬"),
     "caigentan": _texts_spec("caigentan", "菜根谭", "［明］洪应明"),
     "fusheng": _texts_spec("fusheng", "浮生六记", "［清］沈复"),
@@ -1926,6 +1930,10 @@ BOOK_INTRO = {
     "wuyuechunqiu": "东汉赵晔所撰，记吴国自太伯至夫差、越国自无余至勾践的兴衰，以吴越争霸为主线，文笔曲折多演义。",
     "youyangzazu": "唐代段成式的笔记，前集二十卷、续集十卷，博记道释、仙怪、动植物、异域风物与民间传说，是唐代志怪与博物笔记的代表。",
     "shipin": "南朝梁钟嵘的诗歌评论，分上中下三品评论汉至梁的一百二十余位五言诗人，并追溯其风格渊源，是中国最早的诗论专著之一。",
+    "gongsunlongzi": "战国名家公孙龙的论著，今存《迹府》《白马论》《指物论》《通变论》《坚白论》《名实论》六篇，以“白马非马”“离坚白”等辩题著称。",
+    "liaofansixun": "明代袁了凡写给儿子的家训，分立命之学、改过之法、积善之方、谦德之效四篇，以亲身经历劝人改造命运、行善积德。",
+    "qijing": "旧题宋代围棋论著，分论局、得算、权舆、合战、虚实、自知、审局、度情、斜正、洞微、名数、品格、杂说十三篇，借兵法讲棋理。",
+    "zhuzijiaxun": "清初朱用纯（号柏庐）所作的治家格言，简称《朱子家训》，四百多字，以对句谈勤俭、持家、待人和修身，流传极广。",
     "weilu": "清代王永彬的格言小品，三百余条，谈读书、修身、治家和待人接物，多用对句，文字平实。",
     "caigentan": "明代洪应明的语录体小品，分前集、后集，以简短隽语谈人生、处世与修养，融合儒释道思想；本站兼收明刻本与清刻本。",
     "fusheng": "清代沈复的自传体散文，原为六记，以与妻子陈芸的生活为中心，写闺房之乐、闲情逸趣、坎坷、游历；后两记通常认为是后人伪续。",
@@ -2748,6 +2756,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 
 INITIAL["荀"] = "X"
+INITIAL.update({"公": "G", "了": "L", "棋": "Q", "朱": "Z"})
 INITIAL["梼"] = "T"
 INITIAL.update({"贞": "Z", "读": "D", "天": "T", "日": "R"})
 INITIAL.update({"性": "X", "沧": "C", "白": "B", "齐": "Q", "武": "W", "文": "W", "困": "K", "物": "W", "长": "C", "园": "Y", "营": "Y"})
