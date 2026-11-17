@@ -1601,8 +1601,8 @@ POETRY = {
     "jiandengxinhua": _notes_spec("jiandengxinhua", "剪灯新话", "［明］瞿佑"),
     "jiandengyuhua": _notes_spec("jiandengyuhua", "剪灯余话", "［明］李昌祺"),
     "qingpingshantang": dict(_orig_spec("qingpingshantang", "清平山堂话本", "［明］洪楩 辑"), original_only=False),
-    "tianyuanqiyu": dict(_orig_spec("tianyuanqiyu", "天缘奇遇", "［明］吴敬所"), original_only=False),
-    "youxianku": dict(_orig_spec("youxianku", "游仙窟", "［唐］张鷟"), original_only=False),
+    "guosetianxiang": dict(_orig_spec("guosetianxiang", "国色天香", "［明］吴敬所编"), original_only=False),
+    "youxianku": dict(_orig_spec("youxianku", "游仙窟", "［唐］张鷟"), original_only=False, no_tip=False, strict_pairs=True),      # 原文页 + 叠加逐句白话（sources/youxianku/gloss/）与注释
     "huanxiyuanjia": dict(_orig_spec("huanxiyuanjia", "欢喜冤家", "［明］西湖渔隐主人"), original_only=False),
     "dongyouji": dict(_orig_spec("dongyouji", "东游记", "［明］吴元泰"), original_only=False),
     "xiaozan": dict(_orig_spec("xiaozan", "笑赞", "［明］赵南星"), original_only=False),      # 原文页 + 叠加题解与注释（sources/<书>/notes/）
@@ -1878,7 +1878,7 @@ BOOK_INTRO = {
     "chanzhenyishi": "明清溪道人所作长篇小说，四十回，写南北朝时林澹然等人的经历，杂糅历史、侠义与神怪情节。",
     "jiandengxinhua": "明初瞿佑所作文言传奇小说集，多写人鬼、仙凡的奇遇，对日本、朝鲜的小说也有影响。",
     "jiandengyuhua": "明李昌祺所作文言传奇小说集，承《剪灯新话》而作，共五卷。",
-    "tianyuanqiyu": "明吴敬所所作文言艳情传奇，写书生祁生与女子的奇遇姻缘，原收于《国色天香》，分上下卷。",
+    "guosetianxiang": "明万历年间书坊所刊的文言传奇小说选集，题吴敬所编、谢友可序，十卷，收《龙会兰池录》《刘生觅莲记》《寻芳雅集》《双卿笔记》《花神三妙传》《天缘奇遇》《钟情丽集》等数十篇，多写才子佳人的婚恋艳遇，是明代中后期传奇小说的重要总集。",
     "youxianku": "唐张鷟所作的骈散相间的传奇小说，写作者奉使河源，投宿神仙窟，与崔十娘、五嫂酬唱戏谑，在中国失传、日本保存，因此后世多据日本传本。",
     "huanxiyuanjia": "明末西湖渔隐主人所作的拟话本小说集，共二十四回，每回一个故事，多写市井男女的婚姻、奸情、讼案与因果报应，又名《贪欢报》。",
     "dongyouji": "明吴元泰所作的神魔小说，全称《上洞八仙传》，又称《八仙出处东游记》，五十六回，叙铁拐李、钟离权、吕洞宾等八仙得道与东游过海大闹龙宫的故事。",
@@ -2211,7 +2211,7 @@ def parse_poems(paths):
 YEAR_LEAD = re.compile(r"^((?:宋|金)?(?:徽宗|钦宗|高宗|孝宗|光宗|宁宗)?(?:宣和|靖康|建炎|绍兴|隆兴|乾道|淳熙|绍熙|庆元|嘉泰|开禧|嘉定)?(?:[一二三四五六七八九十]+|元)年(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]?)?)")      # 瓯北诗话·陆放翁年谱的纪年
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"tianyuanqiyu", "youxianku", "huanxiyuanjia", "dongyouji", "xiaozan", "qingpingshantang", "lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"guosetianxiang", "huanxiyuanjia", "dongyouji", "xiaozan", "qingpingshantang", "lihongzhangzhuan", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
@@ -2380,6 +2380,25 @@ def overlay_notes(bslug, slug, secs):
             raise AssertionError((bslug, slug, "注的词语不在本回原文里", word))
 
 
+def overlay_gloss(bslug, slug, secs):
+    """给只有原文页的书叠加逐句白话：sources/<书>/gloss/<页>__<起始段号>.json = {"start": 起始段号, "白话": ["句白话¦句白话", ...]}，
+    每个元素对应该页第 start+k 个原文段（段序同 tools/gloss_book.py show 所列），段内每个以。！？；结束的原文句对应一句，¦ 分隔。"""
+    d = ROOT / "sources" / bslug / "gloss"
+    files = sorted(d.glob(f"{slug}__*.json")) + ([d / f"{slug}.json"] if (d / f"{slug}.json").exists() else [])
+    if not files:
+        return
+    chunks = [c for s_ in secs for c in s_["chunks"] if "tbl" not in c]
+    for f in files:
+        data = json.loads(f.read_text(encoding="utf8"))
+        start = data.get("start", 0)
+        for k, tr in enumerate(data["白话"]):
+            c = chunks[start + k]
+            sents, parts = split_sents(c["o"]), tr.split("¦")
+            assert len(parts) == len(sents) and all(x.strip() for x in parts), (bslug, slug, start + k, "句数", len(sents), len(parts))
+            assert [o for o, _t in split_pairs(c["o"], tr)] == sents, (bslug, slug, start + k, "会退回整段悬浮")
+            c["t"] = tr
+
+
 def build_poetry(bslug, spec):
     r = "../../"
     base = SRC / bslug
@@ -2404,6 +2423,7 @@ def build_poetry(bslug, spec):
             continue
         secs = parse_poems(files)
         overlay_notes(bslug, slug, secs)
+        overlay_gloss(bslug, slug, secs)
         stage_book = bslug if bslug in STAGE_BOOKS and (bslug != "taohuashan" or slug.startswith("p")) else None
         if (bslug, slug) == ("erke", "040"):
             stage_book = bslug
