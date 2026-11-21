@@ -1278,6 +1278,9 @@ def _liushizhongqu_spec():
     spec = _orig_spec("liushizhongqu", "六十种曲", "［明］毛晋 辑")
     spec["original_only"] = False      # 已配题解与注释（不设白话）
     spec["no_tip"] = True
+    spec["strict_pairs"] = True
+    # 《紫钗记》（p17）的汤显祖序文言较深，另配逐句白话（悬浮显示）；其余各剧只配题解与注释
+    spec["page_options"] = {"p17": {"no_tip": False, "footer": "序的白话译文、全页的注释与题解为编者自撰，仅供辅助阅读，以原文为准。"}}
     missing = json.loads((ROOT / "sources/liushizhongqu/missing.json").read_text(encoding="utf8"))
     total = len(spec["pages"]) - len({g for g in (p[1] for p in spec["pages"] if p[0] is None)})
     spec["missing_slugs"] = missing
