@@ -2545,7 +2545,7 @@ def build_poetry(bslug, spec):
                 at = [a[1] for a in anchors if a is not None]
                 tail = sum(1 for a in anchors if a is None)
                 is_p = ch.get("verse") or bool(bslug in ("huayuehen", "chanzhenyishi") and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
-                poem = (" poem cen" if bslug in ("taohuashan", "classic_list", "yinshuici", "taoyuanmingji") else " poem") if is_p else ""
+                poem = (" poem cen" if bslug in ("taohuashan", "classic_list", "yinshuici", "taoyuanmingji", "shenghuameng") else " poem") if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
                 if ch["t"] is None:
                     runs = split_poem_runs(ch["o"]) if spec.get("center_poems") and not poem else None
