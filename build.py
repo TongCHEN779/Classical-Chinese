@@ -2537,6 +2537,8 @@ def build_poetry(bslug, spec):
                 pg = spec.get("ping_paras", {}).get(slug, 0)
                 pg = pg if isinstance(pg, list) else [0, pg]
                 pstyle = paragraph_style + (" ping" if pg[0] <= ci < pg[0] + pg[1] else "") + (" tl" if lead_tune else " tn" if follow_tune else "")      # 花月痕：曲牌靠左，曲词接在其后      # 姑妄言：回前卷评，小字灰体
+                if bslug == "hongloumeng" and re.fullmatch(r"(?:【[^】]*】)+", ch["o"]):      # 红楼梦：诗句的批语另起一段，宽度同诗句
+                    pstyle += " pn"
                 src_marks = bool(spec.get("source_markers"))
                 if src_marks:
                     anchors, chunk_notes = [], ch["notes"]

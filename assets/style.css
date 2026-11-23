@@ -189,3 +189,5 @@ h4.tcap{margin:18px 0 4px;font-size:15px;color:var(--muted)}
 .v.wl-d{text-indent:2em!important;text-align:justify!important}
 .br{display:none}
 .s b.yr{margin-right:.9em}
+
+.v.pn{text-align:left!important;text-indent:0!important;max-width:min(100%,650px);margin:-.2em auto .9em}
