@@ -696,6 +696,11 @@ def _laocanyouji_spec():
 
 def _hongloumeng_spec():
     pages = []
+    front = [(slug, (ROOT / "src/hongloumeng" / slug / "01.txt").read_text(encoding="utf8").splitlines()[0][2:].strip())
+             for slug in ("xuyan", "bianyan", "fanli", "shuoming", "qixu", "mulu") if (ROOT / "src/hongloumeng" / slug / "01.txt").exists()]
+    if front:      # 俞平伯评点本的书前各篇
+        pages.append((None, "序、凡例与目录"))
+        pages.extend(front)
     for d in sorted((ROOT / "src/hongloumeng").glob("[0-9][0-9][0-9]")):
         n = int(d.name)
         if (n - 1) % 10 == 0:
@@ -703,7 +708,7 @@ def _hongloumeng_spec():
         head = (d / "01.txt").read_text(encoding="utf8").splitlines()[0][2:].strip()
         no, _, name = head.partition(" ")
         pages.append((d.name, f"{no}·{name}"))
-    return {"title": "红楼梦", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True, "no_tip": True, "side_toc": True, "center_poems": True, "reading_hint": "",
+    return {"title": "红楼梦（俞平伯评点）", "author": "［清］曹雪芹、高鹗", "unit": "回", "prose": True, "no_tip": True, "side_toc": True, "center_poems": True, "reading_hint": "", "omit_source_credit": True,
             "intro": "",
             "pages": pages}
 
@@ -2039,7 +2044,7 @@ BOOK_INTRO = {
     "jingshitongyan": "冯梦龙编选的四十篇白话短篇小说，从伯牙知音写到白娘子、杜十娘，兼收市井故事与传奇。",
     "xingshihengyan": "冯梦龙编选的四十篇白话短篇小说，写寻常人家的情义和命运，也收《卖油郎独占花魁》《十五贯戏言成巧祸》等名篇。",
     "laocanyouji": "刘鹗的晚清小说，以游医老残在山东的见闻串起济南风物、黄河水患与官府冤狱。",
-    "hongloumeng": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧。",
+    "hongloumeng": "中国古典长篇小说的巅峰，全一百二十回，写贾、史、王、薛四大家族的兴衰与宝黛爱情悲剧；前八十回据陕西师范大学出版社《红楼梦：俞平伯评点》，附俞平伯校勘记与各本脂评。",
     "shitouji": "《红楼梦》的早期脂评抄本，合庚辰、己卯、甲戌诸本，存八十回，并录脂砚斋等人的批语。",
     "shiji": "西汉司马迁所著的第一部纪传体通史，分本纪、表、书、世家、列传，共一百三十卷。",
     "shishuo": "记述东汉末至东晋名士言行的笔记小说，分德行、言语、政事、文学等三十六门，一千余则，语言隽永，是魏晋风度的代表读物。",
@@ -2060,7 +2065,7 @@ for _k, _v in POETRY.items():
 
 TIJIE_LINKS = {"zhouyi": [("在线占卜", "https://tongchen779.github.io/Yi-Ching/")],
                "hongloumeng": [("早期抄本", "../shitouji/index.html", "脂砚斋重评石头记")],
-               "shitouji": [("数字化本", "../hongloumeng/index.html", "红楼梦")]}
+               "shitouji": [("数字化本", "../hongloumeng/index.html", "红楼梦（俞平伯评点）")]}
 # 前作与续作互相链接：简介最后各加一行
 for _a, _an, _b, _bn in [("zibuyu", "子不语", "xuzibuyu", "续子不语"),
                          ("guanchang", "官场现形记", "houguanchang", "后官场现形记"),
@@ -2144,7 +2149,7 @@ INTRO_ED_CASE = {"mutianzi"}
 
 def intro_html(slug):
     """目录页简介：维基文库标题下有介绍则用之，否则同首页简介；按换行分段。"""
-    text = WIKI_INTRO.get(slug, {}).get("text") or BOOK_INTRO[slug]
+    text = (BOOK_INTRO[slug] if slug == "hongloumeng" else WIKI_INTRO.get(slug, {}).get("text")) or BOOK_INTRO[slug]      # 红楼梦已改用俞平伯评点本，不再用维基文库的“不包括批语”简介
     fmt = ed_plain if POETRY.get(slug, {}).get("original_only") else (lambda h: ed_html(h, [False]))  # 仅“只整理原文”的书去尖括号
     if slug in INTRO_ED_CASE:      # 简介里编者的“案：……”按语显示为小字灰体
         base = fmt
