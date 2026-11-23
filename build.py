@@ -1635,6 +1635,7 @@ POETRY = {
     "yujiaoli": _notes_spec("yujiaoli", "玉娇梨", "［清］荻岸散人"),
     "pingshanlengyan": _notes_spec("pingshanlengyan", "平山冷燕", "［清］荻岸山人"),
     "haoqiuzhuan": _notes_spec("haoqiuzhuan", "好逑传", "［清］名教中人"),
+    "shenghuameng": _notes_spec("shenghuameng", "生花梦", "［清］娥川主人"),
     "wudaishipinghua": _wudaishipinghua_spec(),
     "xingshiyinyuan": _notes_spec("xingshiyinyuan", "醒世姻缘传", "［清］西周生"),
     "qiludeng": _texts_spec("qiludeng", "歧路灯", "［清］李绿园", groups=True),
@@ -1918,6 +1919,7 @@ BOOK_INTRO = {
     "yujiaoli": "清初才子佳人小说，署荻岸散人编次，二十回，又名《双美奇缘》，写苏友白与白红玉、卢梦梨的姻缘波折，是才子佳人小说的代表作之一。",
     "pingshanlengyan": "清初才子佳人小说，署荻岸山人编次，二十回，又名《四才子书》，写山黛、冷绛雪两位才女与平如衡、燕白颔两位才子以诗才相知、终成姻缘的故事。",
     "haoqiuzhuan": "清初才子佳人小说，署名教中人编次，十八回，又名《侠义风月传》，写铁中玉与水冰心患难相助、终成眷属，二人发乎情、止乎礼。",
+    "shenghuameng": "清初才子佳人小说，署娥川主人，四卷十二回，写康梦庚、冯玉如、贡鸣岐、马玉等人在水荒、盗寨与官府征剿之间的离合奇遇，诗词书信颇多。",
     "wudaishipinghua": "宋代讲史话本，不著撰人，演说五代梁、唐、晋、汉、周的史事，各代史话分上下两卷，原共十卷，梁史、汉史的下卷已散佚。",
     "xingshiyinyuan": "清西周生所作长篇世情小说，一百回，写两世因果与夫妇家庭的恩怨，使用大量山东方言。",
     "qiludeng": "清李绿园所作长篇小说，一百零八回，写谭绍闻堕落又悔改的家世故事，多用中州方言，是家训小说的代表。",
@@ -2266,7 +2268,7 @@ def parse_poems(paths):
 YEAR_LEAD = re.compile(r"^((?:宋|金)?(?:徽宗|钦宗|高宗|孝宗|光宗|宁宗)?(?:宣和|靖康|建炎|绍兴|隆兴|乾道|淳熙|绍熙|庆元|嘉泰|开禧|嘉定)?(?:[一二三四五六七八九十]+|元)年(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]?)?)")      # 瓯北诗话·陆放翁年谱的纪年
 DRAMA = re.compile(r"(〔[^〕]*〕|【[^】]*】)")
 # 只有题解与注释、不设白话的书（原文本身是白话或半白话）
-NOTES_ONLY = {"xiaodehao1w", "xiaodehao2w", "guosetianxiang", "taowuxianping", "dongduji", "xiaodehao1", "xiaodehao2", "huanxiyuanjia", "dongyouji", "xiaozan", "qingpingshantang", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
+NOTES_ONLY = {"xiaodehao1w", "xiaodehao2w", "guosetianxiang", "taowuxianping", "dongduji", "xiaodehao1", "xiaodehao2", "huanxiyuanjia", "dongyouji", "xiaozan", "qingpingshantang", "yinshuici", "yujiaoli", "pingshanlengyan", "haoqiuzhuan", "shenghuameng", "wudaishipinghua", "jiaohongji", "fengshenyanyi", "dongzhoulieguozhi", "qingshi", "gujintangai", "sanxiawuyi", "liushizhongqu", "jiandengxinhua", "jiandengyuhua", "xingshiyinyuan", "guwangyan", "huayuehen", "haishanghualiezhuan", "qiludeng", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi"}
 STAGE_BOOKS = {"changshengdian", "xixiangji", "taohuashan", "qiangtoumashang", "qiannulihun", "guanhanqing", "zhaoshigu", "wutongyu", "hangongqiu", "jianfubei", "qingshanlei", "wangcandenglou", "likuifujing", "kanqiannu", "qiuhuxiqi", "chenzhoudimi", "mudanting", "liushizhongqu"}
 # 科白、脚色用圆括号标注的剧本（桃花扇，以及维基文库上一批元杂剧、六十种曲）：括号内同样显示为小字灰体
 PAREN_STAGE_BOOKS = {"taohuashan", "jianfubei", "likuifujing", "kanqiannu", "qiuhuxiqi", "wangcandenglou", "chenzhoudimi", "liushizhongqu"}
@@ -2774,6 +2776,7 @@ INITIAL = dict(zip("容战曾经梦政西水三肉春资餐小闲阅盐宋淮商
 
 
 INITIAL["荀"] = "X"
+INITIAL.setdefault("生", "S")
 INITIAL.setdefault("佛", "F")
 INITIAL.update({"二": "E", "公": "G", "了": "L", "棋": "Q", "朱": "Z"})
 INITIAL["梼"] = "T"

@@ -62,6 +62,7 @@ BOOKS = {
     "qingshi": ("情史", "情史", "links"),
     "gujintangai": ("古今谭概", "古今譚槩", "links"),
     "pingshanlengyan": ("平山冷燕", "平山冷燕", "links"), "haoqiuzhuan": ("好逑传", "好逑傳", "links"),
+    "shenghuameng": ("生花梦", "生花夢", "links"),
     "wudaishipinghua": ("新编五代史平话", "新編五代史平話", "links"),
     # 明清传奇
     "zixiaoji": ("紫箫记", "紫簫記", "links"),
