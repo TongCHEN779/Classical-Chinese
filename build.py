@@ -2363,14 +2363,14 @@ def sent_units(text):
 
 def drama_html(text, stage_book=None):
     out = []
-    pattern = GUJIN_COMMENT if stage_book == "gujintangai" else GUWANG_BATCH if stage_book == "guwangyan" else HUAYUE_DRAMA if stage_book == "huayuehen" else PEACH_DRAMA if stage_book in PAREN_STAGE_BOOKS else {"erke": ERKE_STAGE}.get(stage_book, DRAMA)
+    pattern = GUJIN_COMMENT if stage_book == "gujintangai" else GUWANG_BATCH if stage_book in ("guwangyan", "hongloumeng") else HUAYUE_DRAMA if stage_book == "huayuehen" else PEACH_DRAMA if stage_book in PAREN_STAGE_BOOKS else {"erke": ERKE_STAGE}.get(stage_book, DRAMA)
     for i, part in enumerate(pattern.split(text)):
         if i % 2:
             label = part[1:-1].strip()
             tune = part.startswith("【") or (stage_book == "erke" and part.startswith("〔"))
             if stage_book == "xixiangji" and tune:
                 tune = not (WESTERN_STAGE.search(label) or label in WESTERN_STAGE_EXTRA)
-            elif stage_book in ("guwangyan", "gujintangai"):      # 行内批语、小序整体为小字灰体
+            elif stage_book in ("guwangyan", "gujintangai", "hongloumeng"):      # 行内批语、小序整体为小字灰体
                 tune = False
             elif stage_book == "huayuehen":      # 书中穿插的曲：〔曲牌〕为曲牌，（…）为科白
                 tune = part.startswith(("〔", "《"))
@@ -2484,8 +2484,8 @@ def build_poetry(bslug, spec):
         stage_book = bslug if bslug in STAGE_BOOKS and (bslug != "taohuashan" or slug.startswith("p")) else None
         if (bslug, slug) == ("erke", "040"):
             stage_book = bslug
-        paragraph_style = "dr" if stage_book or not spec.get("prose") else ({"huayuehen": "nv sdi", "guwangyan": "nv gwy", "gujintangai": "nv sdi"}.get(bslug, "nv"))
-        dstyle = stage_book or (bslug if bslug in ("huayuehen", "guwangyan", "gujintangai") else None)      # 花月痕：正文里穿插的曲牌、科白也显示为小字灰体
+        paragraph_style = "dr" if stage_book or not spec.get("prose") else ({"huayuehen": "nv sdi", "guwangyan": "nv gwy", "gujintangai": "nv sdi", "hongloumeng": "nv sdi"}.get(bslug, "nv"))
+        dstyle = stage_book or (bslug if bslug in ("huayuehen", "guwangyan", "gujintangai", "hongloumeng") else None)      # 花月痕：正文里穿插的曲牌、科白也显示为小字灰体
         nchunk = sum(1 for s in secs for c in s["chunks"] if "tbl" not in c)
         total += len(secs) if spec.get("count_entries") else nchunk
         cnt = (spec["count"](secs) if "count" in spec else
@@ -2541,7 +2541,7 @@ def build_poetry(bslug, spec):
                 if src_marks:
                     anchors, chunk_notes = [], ch["notes"]
                 else:
-                    anchors, chunk_notes = anchor_notes([ch["o"]], ch["notes"])
+                    anchors, chunk_notes = anchor_notes([re.sub(r"【[^】]*】", lambda m_: "\x00" * len(m_.group()), ch["o"]) if bslug == "hongloumeng" else ch["o"]], ch["notes"])      # 红楼梦：行内批语里的字不作注释词语的定位对象
                 at = [a[1] for a in anchors if a is not None]
                 tail = sum(1 for a in anchors if a is None)
                 is_p = ch.get("verse") or bool(bslug in ("huayuehen", "chanzhenyishi") and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
