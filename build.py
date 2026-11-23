@@ -2474,16 +2474,28 @@ def build_poetry(bslug, spec):
         pages.append((slug, title, files))
     avail = [i for i, (_, _, f) in enumerate(pages) if f]
     cells, total = [], 0
-    mulu_items, mulu_h1 = [], ""      # 红楼梦：目录里回目下的俞校，在索引页用上标和注释列出
+    mulu_items, mulu_h1, mulu_n, mulu_ver, mulu_on = [], "", 0, 0, False      # 红楼梦：目录里回目下的俞校，在索引页用上标和注释列出（每组回目一个注释下拉框）
+
+    def mulu_block():
+        nonlocal mulu_items, mulu_ver
+        if not mulu_items:
+            return ""
+        mulu_ver += 1
+        html_ = ('<button class="note-btn" type="button" aria-expanded="false" aria-controls="mulu-notes%d"><span class="caret">▸</span> ' % mulu_ver
+                 + f'注释（{len(mulu_items)}）</button><ul class="notes plain src" id="mulu-notes{mulu_ver}" hidden>'
+                 + "".join(f'<li data-n="{n_}">{esc(x)}</li>' for n_, x in mulu_items) + "</ul>")
+        mulu_items = []
+        return html_
     if bslug == "hongloumeng" and (ROOT / "sources/hongloumeng/mulu_notes.json").exists():
         _mulu = json.loads((ROOT / "sources/hongloumeng/mulu_notes.json").read_text(encoding="utf8"))
         mulu_by_ch = {n["ch"]: n for n in _mulu["notes"]}
-        mulu_items.append(f'{_mulu["title"]["label"]}：{_mulu["title"]["text"]}')
+        mulu_n, mulu_on = 1, True
+        mulu_items.append((1, f'{_mulu["title"]["label"]}：{_mulu["title"]["text"]}'))
         mulu_h1 = '<sup class="n" data-n="1"></sup>'
     for i, (slug, title, files) in enumerate(pages):
         if slug is None:
             wide = ' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get("wide_index") else ""
-            cells.append(f'</ul><h3 class="grp">{esc(title)}</h3><ul class="vols"{wide}>')
+            cells.append(f'</ul>{mulu_block()}<h3 class="grp">{esc(title)}</h3><ul class="vols"{wide}>')
             continue
         if not files:
             status = "阙" if slug in spec.get("missing_slugs", ()) else "亡" if slug in spec.get("lost_slugs", ()) else "待整理"
@@ -2506,10 +2518,11 @@ def build_poetry(bslug, spec):
         if index_label:
             small = f"<small>{esc(index_label)}</small>"
         mark = ""
-        if mulu_items and slug.isdigit() and int(slug) in mulu_by_ch:
+        if mulu_on and slug.isdigit() and int(slug) in mulu_by_ch:
             _n = mulu_by_ch[int(slug)]
-            mulu_items.append(f'{_n["label"]}：{_n["text"]}')
-            mark = f'<sup class="n" data-n="{len(mulu_items)}"></sup>'
+            mulu_n += 1
+            mulu_items.append((mulu_n, f'{_n["label"]}：{_n["text"]}'))
+            mark = f'<sup class="n" data-n="{mulu_n}"></sup>'
         cells.append(f'<li class="ok"><a href="{slug}.html">{title_h(title)}{small}</a>{mark}</li>')
         uid = 0
         body_secs = []
@@ -2565,7 +2578,7 @@ def build_poetry(bslug, spec):
                 is_p = ch.get("verse") or bool(bslug in ("huayuehen", "chanzhenyishi") and hyh_verse(ch["o"], prev_poem)) or bool(bslug != "huayuehen" and spec.get("center_poems") and not (bslug == "hongloumeng" and not slug.isdigit()) and ch["t"] is None and is_poem(ch["o"], prev_o, prev_poem, chunks_[ci + 1]["o"] if ci + 1 < len(chunks_) and "o" in chunks_[ci + 1] else ""))
                 poem = (" poem cen" if bslug in ("taohuashan", "classic_list", "yinshuici", "taoyuanmingji", "shenghuameng") else " poem") if is_p else ""
                 prev_o, prev_poem = ch["o"], is_p
-                if bslug == "hongloumeng" and slug == "xuyan" and is_p:      # 序言里引用的书中语句：居中、稍窄、灰体
+                if bslug == "hongloumeng" and slug in ("xuyan", "bianyan") and is_p:      # 序言、弁言里引用的书中语句：与诗词同宽、灰体、靠左
                     pstyle += " qt"
                 if ch["t"] is None:
                     runs = split_poem_runs(ch["o"]) if spec.get("center_poems") and not poem and not (bslug == "hongloumeng" and not slug.isdigit()) else None
@@ -2775,11 +2788,7 @@ def build_poetry(bslug, spec):
                         '<p class="search-status" id="entry-status" role="status" aria-live="polite"></p>\n</div>\n')
         entry_empty = '<p class="search-empty" id="entry-empty" hidden>没有找到匹配的篇目，请换个关键词。</p>'
         entry_script = '<script src="../../assets/entry-search.js" defer></script>'
-    mulu_html = ""
-    if mulu_items:
-        mulu_html = ('<button class="note-btn" type="button" aria-expanded="false" aria-controls="mulu-notes"><span class="caret">▸</span> '
-                     f'目录注释（{len(mulu_items)}）</button><ul class="notes plain" id="mulu-notes" hidden>'
-                     + "".join(f"<li>{esc(x)}</li>" for x in mulu_items) + "</ul>")
+    mulu_html = mulu_block()
     body = f"""<header class="top">
 {crumbs(top_crumbs(bslug, "../../") + [(btitle, None)])}
 <h1>{esc(btitle)}{mulu_h1}<small>{esc(spec["author"])}</small></h1>
@@ -2788,7 +2797,7 @@ def build_poetry(bslug, spec):
 <main>{entry_search}<section class="part"><ul class="vols"{' id="entry-list"' if spec.get('entry_search') else ''}{' style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))"' if spec.get('wide_index') else ''}>{"".join(cells)}</ul>{entry_empty}</section>{mulu_html}{entry_script}</main>
 <footer>{esc(spec.get("index_footer", f'已整理 {total} {spec.get("summary_unit", "节")}。'))}{intro_credit}</footer>"""
     (BOOKS_OUT / bslug).mkdir(parents=True, exist_ok=True)
-    (BOOKS_OUT / bslug / "index.html").write_text(page(btitle, body, "../../", extra_js=bool(mulu_items)), encoding="utf8")
+    (BOOKS_OUT / bslug / "index.html").write_text(page(btitle, body, "../../", extra_js=bool(mulu_ver)), encoding="utf8")
     for old_slug, target in spec.get("page_redirects", {}).items():
         redirect = f'<!doctype html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="refresh" content="0; url={esc(target)}"><link rel="canonical" href="{esc(target)}"><title>{esc(btitle)}·合并阅读</title></head><body><h1>合并阅读</h1><p>本篇已合入统一阅读页：<a href="{esc(target)}">打开本篇</a></p></body></html>'
         (BOOKS_OUT / bslug / (old_slug + ".html")).write_text(redirect, encoding="utf8")
