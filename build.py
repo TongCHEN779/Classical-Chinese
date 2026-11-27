@@ -2623,7 +2623,10 @@ def build_poetry(bslug, spec):
                       shown = drama_html(o2, dstyle) if dstyle else poem_orig(o2)      # 戏曲：科白、曲牌在悬浮句内也显示为小字灰体
                       if year_bold and pi_ == 0:
                           shown = YEAR_LEAD.sub(lambda m_: f'<b class="yr">{m_.group(1)}</b>', shown, count=1)
-                      spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{ed_html(shown, ed_state)}</span>'
+                      if not t2 and "〈" in o2 + (ed_state[0] and "〈" or ""):      # 编者小注（如《资治通鉴》校刊）没有白话：不做悬浮，也不与后面的句子连成一个悬浮
+                          spans += ed_html(shown, ed_state)
+                      else:
+                          spans += f'<span class="s" tabindex="0" data-t="{esc(t2)}">{ed_html(shown, ed_state)}</span>'
                   if pairs:
                       spans += NOTE_MARK * tail
                       label = ch["o"].strip() if bslug == "hanfeizi" else ""
